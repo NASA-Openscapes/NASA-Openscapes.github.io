@@ -1,18 +1,19 @@
 ---
-title: "nasa-openscapes"
-description: |
-  Welcome to the website. I hope you enjoy it!
+title: "NASA-Openscapes"
+image: "nasa-openscapes.png"
+#links:
+  # - label: LinkedIn
+  #   url: "https://linkedin.com/"
+  # - label: Twitter
+  #   url: "https://twitter.com/"
+  # - label: GitHub
+  #   url: "https://github.com/"
+  # - label: Email
+  #   url: "mailto:email@email.com"
+output:
+  postcards::jolla
 site: distill::distill_website
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
-```
-
+ 
+A project supporting NASA scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.  
+[Learn more](https://www.openscapes.org/blog/2021/03/10/nasa-announcement/). 
