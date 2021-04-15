@@ -1,0 +1,20 @@
+---
+title: "Tobi Burns"
+image: "tobi.jpg"
+links:
+  - label: LinkedIn
+    url: "https://linkedin.com/"
+  - label: Twitter
+    url: "https://twitter.com/"
+  - label: GitHub
+    url: "https://github.com/"
+  - label: Email
+    url: "mailto:email@email.com"
+output:
+  postcards::tressles
+site: distill::distill_website
+---
+ 
+I am a classically trained data scientist living in the San Francisco Bay Area. 
+Currently I work on the Oculus team at Facebook. I love talking about baseball, 
+true crime podcasts, and causal inference.

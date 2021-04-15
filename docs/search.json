@@ -1,0 +1,28 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-04-15T14:02:56-07:00"
+    },
+    {
+      "path": "index.html",
+      "title": "nasa-openscapes",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-04-15T14:02:56-07:00"
+    },
+    {
+      "path": "tobi.html",
+      "title": "Tobi Burns",
+      "author": [],
+      "contents": "\n\n          \n          \n          nasa-openscapes\n          \n          \n          Home\n          About\n          ☰\n          \n          \n      \n        \n          \n            Tobi Burns\n          \n          \n            \n              I am a classically trained data scientist living in the San Francisco Bay Area. Currently I work on the Oculus team at Facebook. I love talking about baseball, true crime podcasts, and causal inference.\n            \n            \n              I am a classically trained data scientist living in the San Francisco Bay Area. Currently I work on the Oculus team at Facebook. I love talking about baseball, true crime podcasts, and causal inference.\n            \n          \n\n          \n            \n              \n                  \n                    \n                      LinkedIn\n                    \n                  \n                \n                                \n                  \n                    \n                      Twitter\n                    \n                  \n                \n                                \n                  \n                    \n                      GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                      Email\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                    LinkedIn\n                  \n                \n                                \n                  \n                    Twitter\n                  \n                \n                                \n                  \n                    GitHub\n                  \n                \n                                \n                  \n                    Email\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2021-04-15T14:02:56-07:00"
+    }
+  ],
+  "collections": []
+}
