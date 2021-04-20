@@ -1,0 +1,17 @@
+---
+title: "Activities"
+description: |
+  Upcoming and recent activities and events
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+**May 17-18, 2021. Carpentries Workshop: Intro to Linux/Shell, Python, Git**  
+This workshop is open to NASA Earth science data users, hosted by Openscapes, NASA, and the NASA Atmospheric Science Data Center (ASDC) DAAC.  
+For more information and to register: <https://virdi.github.io/2021-05-17-openscapes-online/>
+
+**March-June 2021. Openscapes Champions Mentors: DAAC Cohort**  
+We are supporting and strengthening the community of DAAC folks that are already creating cloud learning resources. Through Openscapes mentorship, Carpentries instructor training, and 2i2c cloud services, these DAAC mentors will work together to create learning resources for their teams and communities.
+

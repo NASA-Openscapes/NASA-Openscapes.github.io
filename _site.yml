@@ -9,6 +9,8 @@ navbar:
       href: index.html
 #    - text: "About"
 #      href: about.html
+    - text: "Activities"
+      href: activities.html
     - icon: fab fa-twitter
       href: https://twitter.com/openscapes
     - icon: fab fa-github

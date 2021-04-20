@@ -6,14 +6,22 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-04-15T14:27:30-07:00"
+      "last_modified": "2021-04-20T13:02:29-07:00"
+    },
+    {
+      "path": "activities.html",
+      "title": "Activities",
+      "description": "Upcoming and recent activities and events",
+      "author": [],
+      "contents": "\nMay 17-18, 2021. Carpentries Workshop: Intro to Linux/Shell, Python, Git\nThis workshop is open to NASA Earth science data users, hosted by Openscapes, NASA, and the NASA Atmospheric Science Data Center (ASDC) DAAC.\nFor more information and to register: https://virdi.github.io/2021-05-17-openscapes-online/\nMarch-June 2021. Openscapes Champions Mentors: DAAC Cohort\nWe are supporting and strengthening the community of DAAC folks that are already creating cloud learning resources. Through Openscapes mentorship, Carpentries instructor training, and 2i2c cloud services, these DAAC mentors will work together to create learning resources for their teams and communities.\n\n\n\n",
+      "last_modified": "2021-04-20T13:02:29-07:00"
     },
     {
       "path": "index.html",
       "title": "NASA-Openscapes",
       "author": [],
-      "contents": "\n\n          \n          \n          NASA-Openscapes\n          \n          \n          Home\n          \n          \n          \n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            NASA-Openscapes\n          \n          \n            \n              We’re supporting scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.Learn more.\n            \n            \n              We’re supporting scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.Learn more.\n            \n          \n\n          \n            \n              \n          \n\n          \n            \n              \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2021-04-15T14:27:30-07:00"
+      "contents": "\n\n          \n          \n          NASA-Openscapes\n          \n          \n          Home\n          Activities\n          \n          \n          \n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            NASA-Openscapes\n          \n          \n            \n              We’re supporting scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.Learn more.\n            \n            \n              We’re supporting scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.Learn more.\n            \n          \n\n          \n            \n              \n          \n\n          \n            \n              \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2021-04-20T13:02:29-07:00"
     }
   ],
   "collections": []
