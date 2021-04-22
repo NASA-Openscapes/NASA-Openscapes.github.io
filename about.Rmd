@@ -18,7 +18,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 3.  Empowering researchers to experiment migrating their download-intensive data analysis workflows to the cloud through a partnership with Carpentries and 2i2c
 
-Here is the plan for Year 1, which we will repeat in Years 2 and 3 as Year-1 Mentors increasingly lead research team Cohorts at their own DAACs.
+Learn more in this [blog post announcement](<https://www.openscapes.org/blog/2021/03/10/nasa-announcement/>).
+
+## Timeline
+
+Here is the timeline for Year 1, which we will repeat in Years 2 and 3 as Year-1 Mentors increasingly lead research team Cohorts at their own DAACs.
 
 ![Gantt Chart for Year 1, January to December with 3 task headers: Engage DAAC Mentor Teams, Empower Science Teams, Amplify Leaders](img/gantt-y1.png)
 
@@ -50,7 +54,6 @@ University of Washington
 
 [amandach\@uw.edu](mailto:amandach@uw.edu)
 
-\
 \
 
 ## Learn More

@@ -14,8 +14,8 @@ navbar:
       href: about.html
     - text: "Mentors"
       href: mentors.html
-    - text: "Activities"
-      href: activities.html
+    - text: "Events"
+      href: events.html
     - icon: fab fa-twitter
       href: https://twitter.com/openscapes
     - icon: fab fa-github
