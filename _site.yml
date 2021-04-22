@@ -9,6 +9,8 @@ navbar:
       href: index.html
 #    - text: "About"
 #      href: about.html
+    - text: "Mentors"
+      href: mentors.html
     - text: "Activities"
       href: activities.html
     - icon: fab fa-twitter
