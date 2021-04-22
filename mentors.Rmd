@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 **Openscapes Mentors Cohort Calls Summaries**
 
-- **1, March 18 2021**: We started working towards a common understanding of how open science leads to transformational, better science in less time and develop our plan as a Cohort
+- **1. March 18 2021**: We started working towards a common understanding of how open science leads to transformational, better science in less time and develop our plan as a Cohort
   - Slide Decks:
   - [Empowering Transformational Science](https://docs.google.com/presentation/d/1SUMiQg0HhD19H-D6DDzTrFQVzub0kOINwJBG59uQCTw/edit#slide=id.p1) - Chelle Gentemann
   - [Better science in less time & Openscapes mindset](https://docs.google.com/presentation/d/112Ci1fEaVes6KXPNrJBVjTMrny7j5XM9Giphc3hIMo0/edit?usp=sharing) - Julie Lowndes
@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE)
   - Resources:
   - [Pathways Template](https://docs.google.com/spreadsheets/d/1NTdNKYLzBz8YDyt4cBVNDkF-aaH6V453yJDD6ljrhq4/edit?usp=sharing)
 - **3. April 15, 2021**:  We discussed how the group would like to work together to create teaching materials, and discussed a teaching model for future sessions
-
+- **4. April 29, 2021**: We will discuss how data + common resources + custom tutorials = science users starting to migrate workflows to the cloud, and the LP DAAC will lead a teaching demo 
 
 
 

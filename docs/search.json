@@ -6,7 +6,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-04-22T07:47:24-07:00"
+      "last_modified": "2021-04-22T08:50:36-07:00"
     },
     {
       "path": "activities.html",
@@ -14,22 +14,22 @@
       "description": "Upcoming and recent activities and events",
       "author": [],
       "contents": "\nMay 17-18, 2021. Carpentries Workshop: Intro to Linux/Shell, Python, Git\nThis workshop is open to NASA Earth science data users, hosted by Openscapes, NASA, and the NASA Atmospheric Science Data Center (ASDC) DAAC.\nFor more information and to register: https://virdi.github.io/2021-05-17-openscapes-online/\nMarch-June 2021. Openscapes Champions Mentors: DAAC Cohort\nWe are supporting and strengthening the community of DAAC folks that are already creating cloud learning resources. Through Openscapes mentorship, Carpentries instructor training, and 2i2c cloud services, these DAAC mentors will work together to create learning resources for their teams and communities.\n\n\n\n",
-      "last_modified": "2021-04-22T07:47:24-07:00"
+      "last_modified": "2021-04-22T08:50:36-07:00"
     },
     {
       "path": "index.html",
       "title": "NASA-Openscapes",
       "author": [],
       "contents": "\n\n          \n          \n          NASA-Openscapes\n          \n          \n          Home\n          Mentors\n          Activities\n          \n          \n          \n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            NASA-Openscapes\n          \n          \n            \n              We’re supporting scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.Learn more.\n            \n            \n              We’re supporting scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.Learn more.\n            \n          \n\n          \n            \n              \n          \n\n          \n            \n              \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2021-04-22T07:47:24-07:00"
+      "last_modified": "2021-04-22T08:50:36-07:00"
     },
     {
       "path": "mentors.html",
       "title": "DAAC Mentors",
       "description": "A cross-DAAC mentor community creating & teaching resources to help researchers migrate workflows to the cloud",
       "author": [],
-      "contents": "\nOpenscapes’ immediate goals and activities with the Mentors (Mar-Jun) are:\nBuild a DAAC community of practice through our biweekly Openscapes Cohort Calls and Carpentries Instructor Training\nDevelop participating teams as Mentors and help them practice teaching in a style to prepare them for the Openscapes Champions cohort (Aug-Nov) and AGU (Dec)\nSupport them towards establishing a common set of tutorials that they can then build off their DAAC-specific and science examples\n\nOpenscapes Mentors Cohort Calls Summaries\n1, March 18 2021: We started working towards a common understanding of how open science leads to transformational, better science in less time and develop our plan as a Cohort\nSlide Decks:\nEmpowering Transformational Science - Chelle Gentemann\nBetter science in less time & Openscapes mindset - Julie Lowndes\n\n2. April 1, 2021: We heard about each other’s work more and start discussing creating cloud tutorials and thinking about next steps\nResources:\nPathways Template\n\n3. April 15, 2021: We discussed how the group would like to work together to create teaching materials, and discussed a teaching model for future sessions\n\n\n\n",
-      "last_modified": "2021-04-22T07:47:25-07:00"
+      "contents": "\nOpenscapes’ immediate goals and activities with the Mentors (Mar-Jun) are:\nBuild a DAAC community of practice through our biweekly Openscapes Cohort Calls and Carpentries Instructor Training\nDevelop participating teams as Mentors and help them practice teaching in a style to prepare them for the Openscapes Champions cohort (Aug-Nov) and AGU (Dec)\nSupport them towards establishing a common set of tutorials that they can then build off their DAAC-specific and science examples\n\nOpenscapes Mentors Cohort Calls Summaries\n1. March 18 2021: We started working towards a common understanding of how open science leads to transformational, better science in less time and develop our plan as a Cohort\nSlide Decks:\nEmpowering Transformational Science - Chelle Gentemann\nBetter science in less time & Openscapes mindset - Julie Lowndes\n\n2. April 1, 2021: We heard about each other’s work more and start discussing creating cloud tutorials and thinking about next steps\nResources:\nPathways Template\n\n3. April 15, 2021: We discussed how the group would like to work together to create teaching materials, and discussed a teaching model for future sessions\n4. April 29, 2021: We will discuss how data + common resources + custom tutorials = science users starting to migrate workflows to the cloud, and the LP DAAC will lead a teaching demo\n\n\n\n",
+      "last_modified": "2021-04-22T08:50:37-07:00"
     }
   ],
   "collections": []
