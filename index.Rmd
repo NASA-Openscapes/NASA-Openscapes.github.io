@@ -1,11 +1,11 @@
 ---
 title: "NASA-Openscapes"
-image: "nasa-openscapes.png"
+image: "img/nasa-openscapes.png"
 #links:
-  # - label: LinkedIn
-  #   url: "https://linkedin.com/"
-  # - label: Twitter
-  #   url: "https://twitter.com/"
+ #  - label: Mentors
+  #   url: "/mentors.html"
+  # - label: Activities
+  #   url: "/activities"
   # - label: GitHub
   #   url: "https://github.com/"
   # - label: Email
@@ -14,6 +14,6 @@ output:
   postcards::jolla
 site: distill::distill_website
 ---
- 
-We're supporting scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.  
-[Learn more](https://www.openscapes.org/blog/2021/03/10/nasa-announcement/). 
+
+We're supporting scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.\
+[Learn more](https://www.openscapes.org/blog/2021/03/10/nasa-announcement/).

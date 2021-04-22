@@ -1,10 +1,60 @@
 ---
-title: "About this site"
+title: "About"
 description: |
-  Some additional details about the website
+  NASA-Openscapes answers a NASA call to support NASA scientific researchers using data from the DAACs as they migrate workflows to the cloud.
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## The project
+
+**The overarching vision** is to support scientific researchers using NASA data as they migrate their workflows to the cloud. We are doing this working with NASA Distributed Active Archive Centers (DAACs) over three years by:
+
+1.  Developing a cross-DAAC Mentor community that supports growth into confident cloud data instructors, and create, curate and use shared resources and have a tutorial review process   
+
+2.  Scaling the Openscapes Champions science cohorts with DAAC Mentors to reach and support as many research teams as possible, transforming their workflows towards open, kinder science and the cloud
+
+3.  Empowering researchers to experiment migrating their download-intensive data analysis workflows to the cloud through a partnership with Carpentries and 2i2c
+
+Here is the plan for Year 1, which we will repeat in Years 2 and 3 as Year-1 Mentors increasingly lead research team Cohorts at their own DAACs.
+
+![Gantt Chart for Year 1, January to December with 3 task headers: Engage DAAC Mentor Teams, Empower Science Teams, Amplify Leaders](img/gantt-y1.png)
+
+## Project Leads
+
+**Julia Stewart Lowndes, PhD**
+
+National Center for Ecological Analysis and Synthesis (NCEAS) 
+
+University of California Santa Barbara (UCSB)
+
+[lowndes at nceas.ucsb.edu](mailto:lowndes at nceas.ucsb.edu); [\@juliesquid](https://twitter.com/juliesquid)
+
+<br>
+
+**Erin Robinson, MSc**
+
+Metadata Game Changers
+
+[erin\@metadatagamechangers.com](mailto:erin@metadatagamechangers.com); [\@connector_erin](https://twitter.com/connector_erin)
+
+<br>
+
+**Amanda Tan, PhD**
+
+eScience Institute
+
+University of Washington
+
+[amandach\@uw.edu](mailto:amandach@uw.edu)
+
+\
+\
+
+## Learn More
+
+-   [earthdata.nasa.gov](https://earthdata.nasa.gov/)
+
+-   [openscapes.org](https://openscapes.org)

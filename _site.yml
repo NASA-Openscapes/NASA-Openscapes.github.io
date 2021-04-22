@@ -2,13 +2,16 @@ name: "."
 title: "NASA-Openscapes"
 description: |
   NASA-Openscapes
+favicon: img/openscapes_hex.png  
 output_dir: "docs"
 navbar:
+  logo: img/openscapes_hex.png
+  href: https://openscapes.org
   right:
     - text: "Home"
       href: index.html
-#    - text: "About"
-#      href: about.html
+    - text: "About"
+      href: about.html
     - text: "Mentors"
       href: mentors.html
     - text: "Activities"
@@ -18,3 +21,4 @@ navbar:
     - icon: fab fa-github
       href: https://github.com/nasa-openscapes
 output: distill::distill_article
+#theme: theme.css
