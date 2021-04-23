@@ -8,7 +8,7 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-**Our immediate goals and activities with the Mentors (Mar-Jun) are:** 
+**Our immediate activities with the Mentors (Mar-Jun 2021) are:** 
 
 - Build a DAAC community of practice through our biweekly Openscapes Cohort Calls, Carpentries Intro Python/Git Workshop and Carpentries Instructor Training 
 - Develop participating teams as Mentors and help them practice teaching in a style to prepare them for the Openscapes Champions cohort (Aug-Nov) and AGU (Dec)

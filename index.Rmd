@@ -19,5 +19,8 @@ output:
 site: distill::distill_website
 ---
 
-We're supporting scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.\
-[Learn more](/about).
+We're supporting scientists using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.
+
+Blog announcements:
+
+[NASA](https://earthdata.nasa.gov/learn/openscapes) • [Openscapes](https://www.openscapes.org/blog/2021/03/10/nasa-announcement/)

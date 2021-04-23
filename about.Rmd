@@ -12,17 +12,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 **The overarching vision** is to support scientific researchers using NASA data as they migrate their workflows to the cloud. We are doing this working with NASA Distributed Active Archive Centers (DAACs) over three years by:
 
-1.  Developing a cross-DAAC Mentor community that supports growth into confident cloud data instructors, and create, curate and use shared resources and have a tutorial review process   
+1.  Developing a cross-DAAC Mentor community that supports growth into confident cloud data instructors, and create, curate and use shared resources and have a tutorial review process
 
-2.  Scaling the Openscapes Champions science cohorts with DAAC Mentors to reach and support as many research teams as possible, transforming their workflows towards open, kinder science and the cloud
+2.  Empowering science teams to experiment migrating their download-intensive data analysis workflows to the cloud through a partnership with Carpentries and 2i2c
 
-3.  Empowering researchers to experiment migrating their download-intensive data analysis workflows to the cloud through a partnership with Carpentries and 2i2c
-
-Learn more in this [blog post announcement](<https://www.openscapes.org/blog/2021/03/10/nasa-announcement/>).
+3.  Scaling the Openscapes Champions science cohorts with DAAC Mentors to support and amplify as many open science leaders as possible, transforming their workflows towards open, kinder science and the cloud
 
 ## Timeline
 
-Here is the timeline for Year 1, which we will repeat in Years 2 and 3 as Year-1 Mentors increasingly lead research team Cohorts at their own DAACs.
+This is the timeline for Year 1, which we will repeat in Years 2 and 3 as Mentors increasingly lead science cohorts at their own DAACs.
 
 ![Gantt Chart for Year 1, January to December with 3 task headers: Engage DAAC Mentor Teams, Empower Science Teams, Amplify Leaders](img/gantt-y1.png)
 
@@ -34,7 +32,7 @@ National Center for Ecological Analysis and Synthesis (NCEAS) 
 
 University of California Santa Barbara (UCSB)
 
-[lowndes at nceas.ucsb.edu](mailto:lowndes at nceas.ucsb.edu); [\@juliesquid](https://twitter.com/juliesquid)
+[lowndes at nceas.ucsb.edu](mailto:lowndes%20at%20nceas.ucsb.edu); [\@juliesquid](https://twitter.com/juliesquid)
 
 <br>
 
