@@ -24,6 +24,12 @@ This is the timeline for Year 1, which we will repeat in Years 2 and 3 as Mentor
 
 ![Gantt Chart for Year 1, January to December with 3 task headers: Engage DAAC Mentor Teams, Empower Science Teams, Amplify Leaders](img/gantt-y1.png)
 
+## Slides
+
+-   [NASA DAACs Openscapes Framework](https://docs.google.com/presentation/d/1_2ybhWlbg_Y_NrTQ_FF8JqqmbsstCkt5IKZqHmwDtFg/edit?usp=sharing) - March 25, 2021: NASA ESDS-ESDIS-DAACs-IMPACT Meeting
+
+<br>
+
 ## Project Leads
 
 **Julia Stewart Lowndes, PhD**
