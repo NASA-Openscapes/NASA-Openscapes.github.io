@@ -8,7 +8,21 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## The project
+## Openscapes
+
+Openscapes champions open, inclusive practices in environmental and Earth science to help uncover data-intensive solutions faster. We do this through mentorship, coaching, training, and community organizing, leveraging existing resources from open communities along with our own. 
+
+Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our approach to engaging, empowering, and amplifying research communities in open data science.
+
+![Openscapes flywheel shows 6 points around a hexagon: Develop, Invest, Attract, Deliver, Transform, Inspire](img/openscapes-flywheel-eea.png)
+
+
+
+<!---https://docs.google.com/presentation/d/14Ko80NL1qA3KsH0Spgym20DXp5ZLn6zE2KOuqUTNMVA/edit#slide=id.gc846ffc89f_2_32--->
+
+
+
+## The NASA-Openscapes project
 
 **The overarching vision** is to support scientific researchers using NASA data as they migrate their workflows to the cloud. We are doing this working with NASA Distributed Active Archive Centers (DAACs) over three years by:
 
