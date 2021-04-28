@@ -77,7 +77,14 @@ University of Washington
 
 [amandach\@uw.edu](mailto:amandach@uw.edu)
 
-\
+
+## Partners
+
+This project allows us to partner with organizations that share Openscapes’ values of open, reproducible, and inclusive science: 
+
+- [The Carpentries](https://carpentries.org/) teach foundational coding and data science skills to researchers worldwide. Openscapes is joining The Carpentries through this project as a Silver Member, which includes four Carpentries workshops per year and instructor training opportunities to the NASA DAAC community. 
+- [2i2c](https://2i2c.org/) develops, deploys, customizes, and manages open source tools and cloud services for interactive computing in research and education. They deploy community-driven infrastructure, inspired by use-cases such as the UC Berkeley DataHubs and the Pangeo project, that provides easy “one-click-to-cloud” access with Jupyter Notebooks through the web browser designed to reduce the startup burden for new learners, and this approach will also benefit the NASA DAAC community.
+
 
 ## Learn More
 
