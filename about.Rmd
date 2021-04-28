@@ -1,7 +1,12 @@
 ---
 title: "About"
 description: |
-  NASA-Openscapes answers a NASA call to support NASA scientific researchers using data from the DAACs as they migrate workflows to the cloud.
+  NASA-Openscapes answers a NASA call to support scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 3
 ---
 
 ```{r setup, include=FALSE}
@@ -10,9 +15,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Openscapes
 
-Openscapes champions open, inclusive practices in environmental and Earth science to help uncover data-intensive solutions faster. We do this through mentorship, coaching, training, and community organizing, leveraging existing resources from open communities along with our own. 
+Openscapes champions open, inclusive practices in environmental and Earth science to help uncover data-intensive solutions faster. We do this through our flagship Champions mentorship program, as well as through community organizing, training, and coaching, leveraging existing resources from open communities along with our own. 
 
-Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our approach to engaging, empowering, and amplifying research communities in open data science.
+Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our approach to engaging, empowering, and amplifying research communities in open data science — how we describe kinder, better science in less time.
 
 ![Openscapes flywheel shows 6 points around a hexagon: Develop, Invest, Attract, Deliver, Transform, Inspire](img/openscapes-flywheel-eea.png)
 
@@ -30,7 +35,7 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 2.  Empowering science teams to experiment migrating their download-intensive data analysis workflows to the cloud through a partnership with Carpentries and 2i2c
 
-3.  Scaling the Openscapes Champions science cohorts with DAAC Mentors to support and amplify as many open science leaders as possible, transforming their workflows towards open, kinder science and the cloud
+3.  Scaling the Openscapes Champions program with DAAC Mentors to support science cohorts and amplify as many open science leaders as possible, transforming their workflows towards open, kinder science and the cloud
 
 ## Timeline
 

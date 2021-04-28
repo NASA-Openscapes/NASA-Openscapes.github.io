@@ -3,11 +3,11 @@ title: "NASA-Openscapes"
 image: "img/nasa-openscapes.png"
 links:
   - label: About
-    url: "/about.html"
+    url: "about.html"
   - label: Mentors
-    url: "/mentors.html"
+    url: "mentors.html"
   - label: Events
-    url: "/events.html"    
+    url: "events.html"    
   # - label: Activities
   #   url: "/activities"
   # - label: GitHub

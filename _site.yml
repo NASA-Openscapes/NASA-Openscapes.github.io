@@ -21,4 +21,4 @@ navbar:
     - icon: fab fa-github
       href: https://github.com/nasa-openscapes
 output: distill::distill_article
-#theme: theme.css
+theme: theme.css
