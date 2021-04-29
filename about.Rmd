@@ -49,33 +49,37 @@ This is the timeline for Year 1, which we will repeat in Years 2 and 3 as Mentor
 
 <br>
 
+## Why NASA? Why Openscapes?
+
+We are getting these questions a lot, so here is our take.
+
+NASA Earth Science Data Systems missions collect Earth data, including sea ice, physical oceanography, vegetation and many other parameters – data used by researchers around the world for many different purposes, including answering pressing questions in ecology and environmental science. Further, NASA promotes open science – from the NASA Earth Science Data Systems (ESDS) program 2020 Highlights report:
+
+> Open data are the foundation of ESDS efforts to fulfill the program’s vision of accelerating scientific advancement for societal benefit through innovative Earth science data stewardship and technology development…. [This includes a specific goal] to leverage the diversity of global Earth science communities to advance open science.
+
+Openscapes’ long-term goal is to enable robust, inclusive, and enduring science- and data-driven solutions to global and time-sensitive challenges. We approach open science as a spectrum, as a behavior change, and as a movement. We see data analysis and stewardship as entryways to meet scientists where they are, helping them develop new skill sets and mindsets while empowering them as leaders. With NASA support, the project team and the partners, the Openscapes Framework fundamentally changes the paradigm for supporting research teams and DAAC mentors, first to work more openly with their teams on the cloud, and ultimately to advance open science!
+
+Openscapes is co-directed by project leads Lowndes and Robinson, and operated at the National Center for Ecological Analysis and Synthesis (NCEAS), University of California Santa Barbara.
+
 ## Project Leads
 
-**Julia Stewart Lowndes, PhD**
-
-National Center for Ecological Analysis and Synthesis (NCEAS) 
-
-University of California Santa Barbara (UCSB)
-
+**Julia Stewart Lowndes, PhD**  
+National Center for Ecological Analysis and Synthesis (NCEAS)  
+University of California Santa Barbara (UCSB)  
 [lowndes at nceas.ucsb.edu](mailto:lowndes%20at%20nceas.ucsb.edu); [\@juliesquid](https://twitter.com/juliesquid)
 
 <br>
 
-**Erin Robinson, MSc**
-
-Metadata Game Changers
-
+**Erin Robinson, MSc**  
+Metadata Game Changers  
 [erin\@metadatagamechangers.com](mailto:erin@metadatagamechangers.com); [\@connector_erin](https://twitter.com/connector_erin)
 
 <br>
 
-**Amanda Tan, PhD**
-
-eScience Institute
-
-University of Washington
-
-[amandach\@uw.edu](mailto:amandach@uw.edu)
+**Amanda Tan, PhD**  
+eScience Institute  
+University of Washington  
+[amandach\@uw.edu](mailto:amandach@uw.edu)  
 
 
 ## Partners
