@@ -8,9 +8,13 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-**June 21-24, 2021. Carpentries Instructor Training**
+**August-November 2021. Openscapes Champions Science Teams Cohort ** \
+Openscapes Champions is a mentorship program that empowers science teams with open data science tools and grows the community of practice. The DAAC Mentor Cohort will also participate to help researchers migrate workflows to the cloud. 
 
-This is the suggested Carpentries Instructor training for this cohort. Members of the cohort can attend later events.
+<br>
+
+**June 21-24, 2021. Carpentries Instructor Training** \
+This is the suggested session for Carpentries Instructor training for the Mentor Cohort. Mentors can also attend later events.
 
 <br>
 
