@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 **August-November 2021. Openscapes Champions Science Teams Cohort ** \
-Openscapes Champions is a mentorship program that empowers science teams with open data science tools and grows the community of practice. The DAAC Mentor Cohort will also participate to help researchers migrate workflows to the cloud. 
+[Openscapes Champions](https://openscapes.org/champions) is a mentorship program that empowers science teams with open data science tools and grows the community of practice. The DAAC Mentor Cohort will also participate to help researchers migrate workflows to the cloud. More information about participation coming soon.
 
 <br>
 
