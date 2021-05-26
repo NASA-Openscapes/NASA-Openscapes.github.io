@@ -21,7 +21,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 **[Openscapes Champions](https://openscapes.org/champions)** is a remote-by-design mentorship program for environmental and Earth science research teams to explore open data science practices. Participants attend as a team with their research group in a cohort with other teams, together learning how to reframe data-intensive science as a collaborative effort. By discussing open software tooling and communities enabling reproducible research (e.g. R/Python, GitHub, metadata, cloud), participants develop collaborative skills, mindsets, and habits and establish shared practices for increased efficiency in their own research, while contributing to a more inclusive scientific culture.
 
-**[NASA Openscapes](https://nasa-openscapes.github.io)** is a 3-year project to support scientists using data from NASA’s Earth Observation System Data and Information System (EOSDIS) Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud. As part of this work, we will offer the Openscapes Champions program annually from 2021-2024. 
+**[NASA Openscapes](https://nasa-openscapes.github.io)** is a 3-year project to support scientists using data from NASA’s Earth Observation System Data and Information System (EOSDIS) Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud. As part of this work, we will offer the Openscapes Champions program annually from 2021-2024.
+
+
+
+<center>
+    <img src="img/nasa-openscapes.png" width="300px">
+</center>
 
 ## Champions Program Details
 
@@ -35,7 +41,7 @@ The NASA Openscapes Champions Cohort will run from August - November 2021. We wi
 
 ## Nominate your team to participate
 
-Nominate your team by completing **this [Google Form] by June 25, 2021**. This opportunity is open only to research groups that work with data from NASA DAACs. Priority will be given to researchers using data from DAACs participating in Openscapes this year: LP DAAC, NSIDC, PO.DAAC, GES DISC, and ASDC.
+Nominate your team by completing **[this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdWC8W0f1URDHV2KdPE6a53AH18FimdlOgFBhaDDhiNHJ6sMA/viewform?usp=sf_link) by June 25, 2021**. This opportunity is open only to research groups that work with data from NASA DAACs. Priority will be given to researchers using data from DAACs participating in Openscapes this year: LP DAAC, NSIDC, PO.DAAC, GES DISC, and ASDC.
 
 Please submit one nomination per team, preferably by the team lead (faculty, principal investigator, etc). We will confirm participation by mid July 2021. 
 
