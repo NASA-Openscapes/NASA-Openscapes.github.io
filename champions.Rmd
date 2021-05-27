@@ -1,7 +1,7 @@
 ---
 title: "NASA Openscapes Champions Cohort"
 description: |
-  NASA Openscapes Champions is a professional development and leadership opportunity for researchers using data from NASA Distributed Active Archive Centers (DAACs) and interested in open science and migrating their analytical workflows to the cloud. 
+  NASA Openscapes Champions is a mentorship and professional development opportunity for research teams using data from NASA Distributed Active Archive Centers (DAACs) and interested in open science and migrating their analytical workflows to the cloud. 
 output:
   distill::distill_article:
     self_contained: false
@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 **[Openscapes Champions](https://openscapes.org/champions)** is a remote-by-design mentorship program for environmental and Earth science research teams to explore open data science practices. Participants attend as a team with their research group in a cohort with other teams, together learning how to reframe data-intensive science as a collaborative effort. By discussing open software tooling and communities enabling reproducible research (e.g. R/Python, GitHub, metadata, cloud), participants develop collaborative skills, mindsets, and habits and establish shared practices for increased efficiency in their own research, while contributing to a more inclusive scientific culture.
 
-**[NASA Openscapes](https://nasa-openscapes.github.io)** is a 3-year project to support scientists using data from NASA’s Earth Observation System Data and Information System (EOSDIS) Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud. As part of this work, we will offer the Openscapes Champions program annually from 2021-2024.
+**[NASA Openscapes](https://nasa-openscapes.github.io)** is a 3-year project to support scientists using data from NASA’s Earth Observing System Data and Information System (EOSDIS) Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud. As part of this work, we will offer the Openscapes Champions program annually from 2021-2024.
 
 
 
