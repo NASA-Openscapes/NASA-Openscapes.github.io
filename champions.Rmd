@@ -31,9 +31,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Champions Program Details
 
-The NASA Openscapes Champions Cohort will run from August - November 2021. We will meet as a cohort twice monthly over four months, on alternating Fridays.
+The NASA Openscapes Champions Cohort will run from August - November 2021. We will meet as a cohort twice monthly over four months, on alternating Thursdays.
 
-*   **Dates:** August 13 & 27, September 10 & 24, October 8 & 22, November 5 & 19
+*   **Dates:** August 12 & 26, September 9 & 23, October 7 & 21, November 4 & 18
 *   **Times:** 10:00-11:30 am Pacific Time
 *   **Where:** remotely, via Zoom
 *   **Who: **Cohort of 6-8 research groups that work with data from NASA DAACs. Each team consists of a team lead (faculty, principal investigator, etc) and up to 4 team members of your choice (graduate students, post docs, research technicians, etc). 
@@ -43,7 +43,7 @@ The NASA Openscapes Champions Cohort will run from August - November 2021. We wi
 
 Nominate your team by completing **[this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdWC8W0f1URDHV2KdPE6a53AH18FimdlOgFBhaDDhiNHJ6sMA/viewform?usp=sf_link) by June 25, 2021**. This opportunity is open only to research groups that work with data from NASA DAACs. Priority will be given to researchers using data from DAACs participating in Openscapes this year: LP DAAC, NSIDC, PO.DAAC, GES DISC, and ASDC.
 
-Please submit one nomination per team, preferably by the team lead (faculty, principal investigator, etc). Program We will confirm participation by mid July 2021. 
+Please submit one nomination per team, preferably by the team lead (faculty, principal investigator, etc). We will confirm participation by mid July 2021. 
 
 Learn more about the [Openscapes Champions Program](https://openscapes.org/champions) and [FAQs about forming your team](https://openscapes.org/faq). Questions? Contact Openscapes: openscapes at nceas.ucsb.edu
 
