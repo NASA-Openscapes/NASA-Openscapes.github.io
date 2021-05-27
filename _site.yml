@@ -14,6 +14,8 @@ navbar:
       href: about.html
     - text: "Mentors"
       href: mentors.html
+    - text: "Champions"
+      href: champions.html      
     - text: "Events"
       href: events.html
     - icon: fab fa-twitter

@@ -41,7 +41,7 @@ We will have 7 Cohort Calls from March and June 2021. Linked below are blank Age
   - [GitHub Clinic #1](https://docs.google.com/document/d/1puf1UG7HVwZwnbfc0mlBIzCSGvc-99TcTOdmPHzqZc4/edit?usp=sharing): GitHub for collaborative research through publication and project management, through hands-on practice from the browser
 - [**Call 5 Agenda**](https://docs.google.com/document/d/1KwBucWKn7YFrfBs0eF8n3ZYCGcLCdKjy28UzMyP84d4/edit?usp=sharing): We heard the IMPACT share about their tutorial process, LP DAAC gave updates from their Work Session, and we did intro demos & planning with 2i2c, Jupyter Hubs, and our NASA-OpenscapesGitHub Organization
   - [GitHub Clinic #2]()
-
+- [**Call 6 Agenda**](https://docs.google.com/document/d/1R7P8sC21TWW0rIqMIv6lBrZxfRzt09g2QRd7VuV4cJU/edit?usp=sharing): NSIDC and PODAAC teams shared about their tutorial process, and we discussed plans forward with Jupyterbooks, 2i2c, Carpentries, and the upcoming Science Champions
 
 # Mentor Cohort 2021
 

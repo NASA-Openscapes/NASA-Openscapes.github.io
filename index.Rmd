@@ -6,6 +6,8 @@ links:
     url: "about.html"
   - label: Mentors
     url: "mentors.html"
+  - label: Champions
+    url: "champions.html"
   - label: Events
     url: "events.html"    
   # - label: Activities
