@@ -36,16 +36,16 @@ The NASA Openscapes Champions Cohort will run from August - November 2021. We wi
 *   **Dates:** August 13 & 27, September 10 & 24, October 8 & 22, November 5 & 19
 *   **Times:** 10:00-11:30 am Pacific Time
 *   **Where:** remotely, via Zoom
-*   **Who: **Cohort of 6-8 research groups that work with data from NASA DAACs. Each team consists of a team lead (faculty, principal investigator, etc) and up to 4 team members of your choice (graduate students, undergraduates, technicians, etc). 
+*   **Who: **Cohort of 6-8 research groups that work with data from NASA DAACs. Each team consists of a team lead (faculty, principal investigator, etc) and up to 4 team members of your choice (graduate students, post docs, research technicians, etc). 
 *   **Expected time commitment:** 5hrs/month for 4 months, which accounts for a 3 hours/month of synchronous Zoom calls, and the remaining time for collaborating with your research group in between calls.
 
 ## Nominate your team to participate
 
 Nominate your team by completing **[this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdWC8W0f1URDHV2KdPE6a53AH18FimdlOgFBhaDDhiNHJ6sMA/viewform?usp=sf_link) by June 25, 2021**. This opportunity is open only to research groups that work with data from NASA DAACs. Priority will be given to researchers using data from DAACs participating in Openscapes this year: LP DAAC, NSIDC, PO.DAAC, GES DISC, and ASDC.
 
-Please submit one nomination per team, preferably by the team lead (faculty, principal investigator, etc). We will confirm participation by mid July 2021. 
+Please submit one nomination per team, preferably by the team lead (faculty, principal investigator, etc). Program We will confirm participation by mid July 2021. 
 
-Questions? Contact Openscapes openscapes at nceas.ucsb.edu
+Learn more about the [Openscapes Champions Program](https://openscapes.org/champions) and [FAQs about forming your team](https://openscapes.org/faq). Questions? Contact Openscapes: openscapes at nceas.ucsb.edu
 
 
 [^1]:
