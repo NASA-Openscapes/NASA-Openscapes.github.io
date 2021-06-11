@@ -74,6 +74,11 @@ University of California Santa Barbara (UCSB)
 Metadata Game Changers  
 [erin\@metadatagamechangers.com](mailto:erin@metadatagamechangers.com); [\@connector_erin](https://twitter.com/connector_erin)
 
+## Project Teams
+
+[NASA-Openscapes Mentors](/mentors.html#mentor-cohort-2021) are a cross-DAAC Mentor community that is co-creating common tutorials, resources, and teaching approaches to support researchers migrating worksflows to the Cloud.
+
+Learn more about the NASA-Openscapes Champions — coming soon. 
 
 ## Partners
 
