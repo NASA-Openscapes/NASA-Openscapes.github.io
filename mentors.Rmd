@@ -39,9 +39,14 @@ We will have 7 Cohort Calls from March and June 2021. Linked below are blank Age
 - [**Call 3 Agenda**](https://docs.google.com/document/d/12TiW14wXcKkrXBYMCAjKv2igdvhIea81CUxSf2sV6e8/edit?usp=sharing):  We discussed how the group would like to work together to create teaching materials, and discussed a teaching model for future sessions
 - [**Call 4 Agenda**](https://docs.google.com/document/d/1Mzs7kNU7kfj6o-P40fl0ojgXlhw7TiUweZsk3kxZmG4/edit?usp=sharing): We will discuss how data + common resources + custom tutorials = science users starting to migrate workflows to the cloud, and the LP DAAC will lead a teaching demo 
   - [GitHub Clinic #1](https://docs.google.com/document/d/1puf1UG7HVwZwnbfc0mlBIzCSGvc-99TcTOdmPHzqZc4/edit?usp=sharing): GitHub for collaborative research through publication and project management, through hands-on practice from the browser
+  - Work Session: LP DAAC
 - [**Call 5 Agenda**](https://docs.google.com/document/d/1KwBucWKn7YFrfBs0eF8n3ZYCGcLCdKjy28UzMyP84d4/edit?usp=sharing): We heard the IMPACT share about their tutorial process, LP DAAC gave updates from their Work Session, and we did intro demos & planning with 2i2c, Jupyter Hubs, and our NASA-OpenscapesGitHub Organization
-  - [GitHub Clinic #2]()
+  - [GitHub Clinic #2](https://docs.google.com/document/d/1VXgSPKZJhz7A6KgQPQ1_gpzs_SeXT7Voq_UPHFJq0mw/edit?usp=sharing): We demoed and practiced GitHub’s branches, pull requests, and project boards to collaborate and stay organized from the browser.
 - [**Call 6 Agenda**](https://docs.google.com/document/d/1R7P8sC21TWW0rIqMIv6lBrZxfRzt09g2QRd7VuV4cJU/edit?usp=sharing): NSIDC and PODAAC teams shared about their tutorial process, and we discussed plans forward with Jupyterbooks, 2i2c, Carpentries, and the upcoming Science Champions
+  - Work Session: PO.DAAC
+- [**Call 7 Agenda**](https://docs.google.com/document/d/1x3T46lQ6wvWNgQ8l4RhzgiT0P5b8CbpwILNlq_mTXyI/edit?usp=sharing): In our last Mentor Cohort Call, we shared our pathways forward, discussed plans for the Science Champions cohort and how to contribute to our tutorial book. 
+  - [Cookbook Workflow Clinic #1](https://docs.google.com/document/d/1iUZAZu3rtKppg_lTKwcpQ-aYxBaCBxkhxrx07LVIvFk/edit?usp=sharing): We demoed and practiced contributing to our tutorial Cookbook with Quarto + GitHub
+
 
 # Mentor Cohort 2021
 
