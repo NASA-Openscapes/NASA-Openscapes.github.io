@@ -48,6 +48,18 @@ Please submit one nomination per team, preferably by the team lead (faculty, pri
 
 Learn more about the [Openscapes Champions Program](https://openscapes.org/champions) and [FAQs about forming your team](https://openscapes.org/faq). Questions? Contact Openscapes: openscapes at nceas.ucsb.edu
 
+## Frequently Asked Questions
+
+In addition to the [FAQs about forming your team](https://openscapes.org/faq), here are a few FAQs for this NASA Champions Cohort: 
+
+### Are we a good fit?
+
+The Openscapes Science Champions is meant to build on short cloud workshops when people say "OK, now I want to do that with my data..."  Our hope was that teams we select will be working with NASA data that is already in the cloud (or will be on the cloud this early this fall). We want these teams to be supported in making the transition to the cloud and to actually change the way they work, not only learn skills. By November, we'd like the teams to be applying this to their work daily. 
+
+### Can my whole research group participate?
+
+We are looking for a max of 5 people per team, including the team lead. This will likely be a subset of a whole research group. In the weeks between each Cohort Call, we ask that the teams meet together to have a '[seaside chat](https://www.openscapes.org/blog/2019/03/10/seaside-chats/)' with their whole research group, where they talk about their data issues, what they are learning and how they are moving forward along their pathway towards making this transition. 
+
 
 [^1]:
      [nature.com/articles/s41559-017-0160](https://nature.com/articles/s41559-017-0160) 
