@@ -15,17 +15,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Openscapes
 
-Openscapes champions open, inclusive practices in environmental and Earth science to help uncover data-intensive solutions faster. We do this through our flagship Champions mentorship program, as well as through community organizing, training, and coaching, leveraging existing resources from open communities along with our own. 
+Openscapes champions open, inclusive practices in environmental and Earth science to help uncover data-intensive solutions faster. We do this through our flagship Champions mentorship program, as well as through community organizing, training, and coaching, leveraging existing resources from open communities along with our own.
 
-Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our approach to engaging, empowering, and amplifying research communities in open data science — how we describe kinder, better science in less time.
+Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our approach to engaging, empowering, and amplifying research communities in open data science --- how we describe kinder, better science in less time.
 
 ![Openscapes flywheel shows 6 points around a hexagon: Develop, Invest, Attract, Deliver, Transform, Inspire](img/openscapes-flywheel-eea.png)
 
-
-
 <!---https://docs.google.com/presentation/d/14Ko80NL1qA3KsH0Spgym20DXp5ZLn6zE2KOuqUTNMVA/edit#slide=id.gc846ffc89f_2_32--->
-
-
 
 ## The NASA-Openscapes project
 
@@ -37,14 +33,9 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 3.  Scaling the Openscapes Champions program with DAAC Mentors to support science cohorts and amplify as many open science leaders as possible, transforming their workflows towards open, kinder science and the cloud
 
-## Timeline
-
-This is the timeline for Year 1, which we will repeat in Years 2 and 3 as Mentors increasingly lead science cohorts at their own DAACs.
-
-![Gantt Chart for Year 1, January to December with 3 task headers: Engage DAAC Mentor Teams, Empower Science Teams, Amplify Leaders](img/gantt-y1.png)
-
 ## Slides
 
+-   [Better Science for Future Us](https://docs.google.com/presentation/d/17XcJSxoE3_-0PqYgQ0l7NctniBNUxaZ5Zo0hjL-bjJo/edit) - June 30, 2021: Pangeo Showcase
 -   [NASA DAACs Openscapes Framework](https://docs.google.com/presentation/d/1_2ybhWlbg_Y_NrTQ_FF8JqqmbsstCkt5IKZqHmwDtFg/edit?usp=sharing) - March 25, 2021: NASA ESDS-ESDIS-DAACs-IMPACT Meeting
 
 <br>
@@ -53,40 +44,39 @@ This is the timeline for Year 1, which we will repeat in Years 2 and 3 as Mentor
 
 We are getting these questions a lot, so here is our take.
 
-NASA Earth Science Data Systems missions collect Earth data, including sea ice, physical oceanography, vegetation and many other parameters – data used by researchers around the world for many different purposes, including answering pressing questions in ecology and environmental science. Further, NASA promotes open science – from the NASA Earth Science Data Systems (ESDS) program 2020 Highlights report:
+NASA Earth Science Data Systems missions collect Earth data, including sea ice, physical oceanography, vegetation and many other parameters -- data used by researchers around the world for many different purposes, including answering pressing questions in ecology and environmental science. Further, NASA promotes open science -- from the NASA Earth Science Data Systems (ESDS) program 2020 Highlights report:
 
-> Open data are the foundation of ESDS efforts to fulfill the program’s vision of accelerating scientific advancement for societal benefit through innovative Earth science data stewardship and technology development…. [This includes a specific goal] to leverage the diversity of global Earth science communities to advance open science.
+> Open data are the foundation of ESDS efforts to fulfill the program's vision of accelerating scientific advancement for societal benefit through innovative Earth science data stewardship and technology development.... [This includes a specific goal] to leverage the diversity of global Earth science communities to advance open science.
 
-Openscapes’ long-term goal is to enable robust, inclusive, and enduring science- and data-driven solutions to global and time-sensitive challenges. We approach open science as a spectrum, as a behavior change, and as a movement. We see data analysis and stewardship as entryways to meet scientists where they are, helping them develop new skill sets and mindsets while empowering them as leaders. With NASA support, the project team and the partners, the Openscapes Framework fundamentally changes the paradigm for supporting research teams and DAAC mentors, first to work more openly with their teams on the cloud, and ultimately to advance open science!
+Openscapes' long-term goal is to enable robust, inclusive, and enduring science- and data-driven solutions to global and time-sensitive challenges. We approach open science as a spectrum, as a behavior change, and as a movement. We see data analysis and stewardship as entryways to meet scientists where they are, helping them develop new skill sets and mindsets while empowering them as leaders. With NASA support, the project team and the partners, the Openscapes Framework fundamentally changes the paradigm for supporting research teams and DAAC mentors, first to work more openly with their teams on the cloud, and ultimately to advance open science!
 
 Openscapes is co-directed by project leads Lowndes and Robinson, and operated at the National Center for Ecological Analysis and Synthesis (NCEAS), University of California Santa Barbara.
 
 ## Project Leads
 
-**Julia Stewart Lowndes, PhD**  
-National Center for Ecological Analysis and Synthesis (NCEAS)  
-University of California Santa Barbara (UCSB)  
+**Julia Stewart Lowndes, PhD**\
+National Center for Ecological Analysis and Synthesis (NCEAS)\
+University of California Santa Barbara (UCSB)\
 [lowndes at nceas.ucsb.edu](mailto:lowndes%20at%20nceas.ucsb.edu); [\@juliesquid](https://twitter.com/juliesquid)
 
 <br>
 
-**Erin Robinson, MSc**  
-Metadata Game Changers  
+**Erin Robinson, MSc**\
+Metadata Game Changers\
 [erin\@metadatagamechangers.com](mailto:erin@metadatagamechangers.com); [\@connector_erin](https://twitter.com/connector_erin)
 
 ## Project Teams
 
 [NASA-Openscapes Mentors](/mentors.html#mentor-cohort-2021) are a cross-DAAC Mentor community that is co-creating common tutorials, resources, and teaching approaches to support researchers migrating worksflows to the Cloud.
 
-Learn more about the NASA-Openscapes Champions — coming soon. 
+Learn more about the NASA-Openscapes Champions --- coming soon.
 
 ## Partners
 
-This project allows us to partner with organizations that share Openscapes’ values of open, reproducible, and inclusive science: 
+This project allows us to partner with organizations that share Openscapes' values of open, reproducible, and inclusive science:
 
-- [The Carpentries](https://carpentries.org/) teach foundational coding and data science skills to researchers worldwide. Openscapes is joining The Carpentries through this project as a Silver Member, which includes four Carpentries workshops per year and instructor training opportunities to the NASA DAAC community. 
-- [2i2c](https://2i2c.org/) develops, deploys, customizes, and manages open source tools and cloud services for interactive computing in research and education. They deploy community-driven infrastructure, inspired by use-cases such as the UC Berkeley DataHubs and the Pangeo project, that provides easy “one-click-to-cloud” access with Jupyter Notebooks through the web browser designed to reduce the startup burden for new learners, and this approach will also benefit the NASA DAAC community.
-
+-   [The Carpentries](https://carpentries.org/) teach foundational coding and data science skills to researchers worldwide. Openscapes is joining The Carpentries through this project as a Silver Member, which includes four Carpentries workshops per year and instructor training opportunities to the NASA DAAC community.
+-   [2i2c](https://2i2c.org/) develops, deploys, customizes, and manages open source tools and cloud services for interactive computing in research and education. They deploy community-driven infrastructure, inspired by use-cases such as the UC Berkeley DataHubs and the Pangeo project, that provides easy "one-click-to-cloud" access with Jupyter Notebooks through the web browser designed to reduce the startup burden for new learners, and this approach will also benefit the NASA DAAC community.
 
 ## Learn More
 
