@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Mentor Cohort Activities
 
-## March-June 2021
+## March-August 2021
 
 **Our immediate activities with the Mentors are:**
 
@@ -59,13 +59,11 @@ We will have 7 Cohort Calls from March and June 2021. Linked below are blank Age
 
     -   [Cookbook Workflow Clinic \#1](https://docs.google.com/document/d/1iUZAZu3rtKppg_lTKwcpQ-aYxBaCBxkhxrx07LVIvFk/edit?usp=sharing): We demoed and practiced contributing to our tutorial Cookbook with Quarto + GitHub
 
+-   [**Call 8 Agenda:**](https://docs.google.com/document/d/152n4kEmHhWdt2Sqh07ep3ld9tA29VriCIcVOiPlaBcI/edit#)The main focus of this call was to recap the Mentors experience with Carpentries Instructor Training and a Cookbook Work Session; Julie demoed and the group discussed and practiced pushing their work to a branch and creating a pull request
+
 # Mentor Cohort 2021
 
 ![](images/Screen%20Shot%202021-06-29%20at%203.12.03%20PM.png "NASADAAC_Logos")
-
-### Cole Krehbiel
-
-[**Cole Krehbiel**](https://www.linkedin.com/in/cole-krehbiel-6573469a/) is a remote sensing data scientist working as a contractor to NASA's Land Processes Distributed Active Archive Center (LP DAAC). He is interested in improving access to geospatial data for diverse user communities. Cole supports missions archived and distributed by the LP DAAC including MODIS, VIIRS, ASTER, ECOSTRESS, and GEDI by creating Python tutorials and data prep scripts and providing workshops and webinars to facilitate community uptake and understanding of those missions.
 
 ### Aaron Friesz
 
@@ -95,6 +93,12 @@ Jack McNelis is a Science Applications Software Engineer at NASA Jet Propulsion 
 
 Amy Steiker is the NSIDC DAAC Data Services Engineer, specializing in the development and management of data education resources, tools, and services for NSIDC DAAC's growing user community, as well as data transformation service development for NASA EOSDIS. She is excited to join this first Openscapes cohort to work together with our science communities to develop and sustain tooling that supports their data processing workflows as they transition to the Earthdata Cloud.
 
-### Paul Moth
+## Past Participants
+
+### Cole Krehbiel
+
+[**Cole Krehbiel**](https://www.linkedin.com/in/cole-krehbiel-6573469a/) is a remote sensing data scientist working as a contractor to NASA's Land Processes Distributed Active Archive Center (LP DAAC). He is interested in improving access to geospatial data for diverse user communities. Cole supports missions archived and distributed by the LP DAAC including MODIS, VIIRS, ASTER, ECOSTRESS, and GEDI by creating Python tutorials and data prep scripts and providing workshops and webinars to facilitate community uptake and understanding of those missions.
+
+### Paul Moth 
 
 Paul Moth is a Data Support Specialist at the National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC). He is part of the User Services team and currently represents MODIS, VIIRS, SMAP, High Mountain Asia, and Nimbus missions at NSIDC DAAC. He is interested in working with early adopters and science team members and gathering feedback that identifies the key operations/steps/workflows that would be most important for creating tutorials and educational materials.
