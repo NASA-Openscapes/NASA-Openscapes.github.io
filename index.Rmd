@@ -21,7 +21,7 @@ output:
 site: distill::distill_website
 ---
 
-Earth science is changing. We support scientists using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.
+Earth science is changing. We support scientists using data from NASA Earthdata served from the Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.
 
 We are influenced and inspired by many leaders and community organizers, particularly in climate justice and get out the vote movements. That means, we know this isn't just about us or an effort we can do alone. We are always looking to learn and build from, with, and for others. Please connect with us on Twitter [**\@openscapes**](https://github.com/Openscapes) or join [**our newsletter**](https://docs.google.com/forms/d/e/1FAIpQLSdgVXRp3V-w94GPWkR31RUfyBl37EphdQSlCOcnyeNlf8OLWw/viewform).
 
