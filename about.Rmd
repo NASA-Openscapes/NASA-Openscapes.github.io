@@ -23,9 +23,9 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 <!---https://docs.google.com/presentation/d/14Ko80NL1qA3KsH0Spgym20DXp5ZLn6zE2KOuqUTNMVA/edit#slide=id.gc846ffc89f_2_32--->
 
-## The NASA-Openscapes project
+## The NASA EarthData-Openscapes project
 
-**The overarching vision** is to support scientific researchers using NASA data as they migrate their workflows to the cloud. We are doing this working with NASA Distributed Active Archive Centers (DAACs) over three years by:
+**The overarching vision** is to support scientific researchers using NASA Earthdata as they migrate their workflows to the cloud. We are doing this working with NASA Distributed Active Archive Centers (DAACs) over three years by:
 
 1.  Developing a cross-DAAC Mentor community that supports growth into confident cloud data instructors, and create, curate and use shared resources and have a tutorial review process
 
@@ -40,7 +40,7 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 <br>
 
-## Why NASA? Why Openscapes?
+## Why NASA Earthdata? Why Openscapes?
 
 We are getting these questions a lot, so here is our take.
 
