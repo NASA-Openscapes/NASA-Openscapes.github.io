@@ -1,7 +1,7 @@
 ---
 title: "About"
 description: |
-  NASA-Openscapes answers a NASA call to support scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.
+  NASA Earthdata-Openscapes answers a NASA Earthdata call to support scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.
 output:
   distill::distill_article:
     self_contained: false
