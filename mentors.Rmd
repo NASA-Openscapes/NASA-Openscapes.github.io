@@ -62,8 +62,11 @@ We will have Cohort Calls with the DAAC Mentors throughout 2021. Linked below ar
 
 -   [**Call 8 Agenda:**](https://docs.google.com/document/d/152n4kEmHhWdt2Sqh07ep3ld9tA29VriCIcVOiPlaBcI/edit#) The main focus of this call was to recap the Mentors experience with Carpentries Instructor Training and a Cookbook Work Session; Julie demoed and the group discussed and practiced pushing their work to a branch and creating a pull request
 
+    - Co-working sessions
+
 - [**Call 9 Agenda:**](https://docs.google.com/document/d/1zbr1rmUpimcNgAzlt6qaDjqN7xfilpvTiyCS1Yx2xv8/edit?usp=sharing) Cookbook Co-Work Session; we’ll discuss, demo, and work!
 
+    - Co-working sessions
 
 # Mentor Cohort 2021
 
