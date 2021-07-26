@@ -15,19 +15,19 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Mentor Cohort Activities
 
-## March-August 2021
+## 2021
 
 **Our immediate activities with the Mentors are:**
 
 -   Build a DAAC community of practice through our twice monthly Openscapes Cohort Calls, a Carpentries Intro Python/Git Workshop, and Carpentries Instructor Training
--   Develop participating teams as Mentors and help them practice teaching in a style to prepare them for the Openscapes Champions cohort (Aug-Nov) and a workshop at the American Geophysical Union Conference (AGU) (Dec)
+-   Develop participating teams as Mentors and help them practice teaching in a style to prepare them for a workshop at the American Geophysical Union Conference (AGU) (Dec) and the Openscapes Champions cohort with research teams (early 2022)
 -   Support Mentors towards establishing a common set of tutorials that they can then build off their DAAC-specific and science examples
 
 <br>
 
 ### Mentors Cohort Calls Summaries
 
-We will have 7 Cohort Calls from March and June 2021. Linked below are blank Agendas that are then copied and used for live note-taking.
+We will have Cohort Calls with the DAAC Mentors throughout 2021. Linked below are blank Agendas that are then copied and used for live note-taking.
 
 -   [**Call 1 Agenda**](https://docs.google.com/document/d/1N57rC4Sj162VO3KmBibpV8Py8zA9YleQuMm5_7QFeLo/edit?usp=sharing): We started working towards a common understanding of how open science leads to transformational, better science in less time and develop our plan as a Cohort
 
@@ -55,11 +55,15 @@ We will have 7 Cohort Calls from March and June 2021. Linked below are blank Age
 
     -   Work Session: PO.DAAC
 
--   [**Call 7 Agenda**](https://docs.google.com/document/d/1x3T46lQ6wvWNgQ8l4RhzgiT0P5b8CbpwILNlq_mTXyI/edit?usp=sharing): In our last Mentor Cohort Call, we shared our pathways forward, discussed plans for the Science Champions cohort and how to contribute to our tutorial book.
+-   [**Call 7 Agenda**](https://docs.google.com/document/d/1x3T46lQ6wvWNgQ8l4RhzgiT0P5b8CbpwILNlq_mTXyI/edit?usp=sharing): We shared our pathways forward, discussed plans for the Science Champions cohort and how to contribute to our tutorial book.
 
     -   [Cookbook Workflow Clinic \#1](https://docs.google.com/document/d/1iUZAZu3rtKppg_lTKwcpQ-aYxBaCBxkhxrx07LVIvFk/edit?usp=sharing): We demoed and practiced contributing to our tutorial Cookbook with Quarto + GitHub
+    - Carpentries Instructor Training, 9 Mentors participated
 
--   [**Call 8 Agenda:**](https://docs.google.com/document/d/152n4kEmHhWdt2Sqh07ep3ld9tA29VriCIcVOiPlaBcI/edit#)The main focus of this call was to recap the Mentors experience with Carpentries Instructor Training and a Cookbook Work Session; Julie demoed and the group discussed and practiced pushing their work to a branch and creating a pull request
+-   [**Call 8 Agenda:**](https://docs.google.com/document/d/152n4kEmHhWdt2Sqh07ep3ld9tA29VriCIcVOiPlaBcI/edit#) The main focus of this call was to recap the Mentors experience with Carpentries Instructor Training and a Cookbook Work Session; Julie demoed and the group discussed and practiced pushing their work to a branch and creating a pull request
+
+- [**Call 9 Agenda:**](https://docs.google.com/document/d/1zbr1rmUpimcNgAzlt6qaDjqN7xfilpvTiyCS1Yx2xv8/edit?usp=sharing) Cookbook Co-Work Session; we’ll discuss, demo, and work!
+
 
 # Mentor Cohort 2021
 
