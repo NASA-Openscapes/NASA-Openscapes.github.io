@@ -1,6 +1,6 @@
 ---
 title: "NASA-Openscapes"
-image: "img/nasa-openscapes.png"
+image: "images/nasa-openscapes.png"
 links:
   - label: About
     url: "about.html"

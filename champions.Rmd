@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 <center>
-    <img src="img/nasa-openscapes.png" width="300px">
+    <img src="images/nasa-openscapes.png" width="300px">
 </center>
 
 ## Champions Program Details
