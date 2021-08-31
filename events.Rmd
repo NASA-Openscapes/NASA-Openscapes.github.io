@@ -1,13 +1,14 @@
 ---
 title: "Events"
 description: |
-  Upcoming and recent events
+  Events and News
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+```{=html}
 <!---
 AGU submission by DAAC Mentors: https://agu.confex.com/agu/fm21/prelim.cgi/Session/124026
 AGU submission by Chelle Gentemann: https://agu.confex.com/agu/fm21/prelim.cgi/Session/122142
@@ -17,10 +18,21 @@ AGU submission by Chelle Gentemann: https://agu.confex.com/agu/fm21/prelim.cgi/S
 [Openscapes Champions](https://openscapes.org/champions) is a mentorship program that empowers science teams with open data science tools and grows the community of practice. The DAAC Mentor Cohort will also participate to help researchers migrate workflows to the cloud. More information about participation coming soon.
 
 --->
+```
+<br>
+
+**DAAC User Working Group Presentations**\
+The NASA-Openscapes Framework is being shared at DAAC User Working Group meetings including:
+
+-   LP DAAC, August 12, 2021 ([Slides](https://docs.google.com/presentation/d/1SVwkEDe2gUzJJZ5NGsGTsGPde-NJm9HLtKieSeuthfI/edit))
+
+-   GES DISC, September 8, 2021
+
+-   NSIDC DAAC, September 16, 2021
 
 <br>
 
-**June 21-24, 2021. Carpentries Instructor Training** \
+**June 21-24, 2021. Carpentries Instructor Training**\
 This is the suggested session for Carpentries Instructor training for the Mentor Cohort. Mentors can also attend later events.
 
 <br>
@@ -33,3 +45,8 @@ For more information and to register: <https://virdi.github.io/2021-05-17-opensc
 
 **March 2021 - Feb 2021. Openscapes Champions Mentors: DAAC Cohort**\
 We are supporting and strengthening the community of DAAC folks that are already creating cloud learning resources. Through Openscapes mentorship, Carpentries instructor training, and 2i2c cloud services, these DAAC mentors will work together to create learning resources for their teams and communities.
+
+<br>
+
+**Feb 2021. Openscapes and Collaborators Announce Openscapes NASA Project** \
+We are thrilled to announce that NASA awarded Openscapes and partners a 3-year project to utilize the Openscapes Framework and support researchers using NASA Earthdata as it moves to the cloud. [Openscapes](https://www.openscapes.org/blog/2021/03/10/nasa-announcement/) and it's host institution, [NCEAS](https://www.nceas.ucsb.edu/news/nasa-openscapes), [Metadata Game Changers](https://metadatagamechangers.com/blog/2021/3/10/metadata-game-changers-partners-with-openscapes-in-new-nasa-funded-project) and [NASA's Earthdata Blog](https://earthdata.nasa.gov/learn/articles/openscapes) all shared posts about the award.
