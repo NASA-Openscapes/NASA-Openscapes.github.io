@@ -35,9 +35,9 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 ## Slides
 
-- [Openscapes: Better Science for Future Us. Supporting NASA Earth science research teams’ migration to the cloud](https://docs.google.com/presentation/d/1SVwkEDe2gUzJJZ5NGsGTsGPde-NJm9HLtKieSeuthfI/edit?usp=sharing) - August 12, 2021: LP DAAC User Working Group
+-   [Openscapes: Better Science for Future Us. Supporting NASA Earth science research teams' migration to the cloud](https://docs.google.com/presentation/d/1SVwkEDe2gUzJJZ5NGsGTsGPde-NJm9HLtKieSeuthfI/edit?usp=sharing) - August 12, 2021: LP DAAC User Working Group
 
-- [Openscapes](https://docs.google.com/presentation/d/1kxXDo80RNnA52dRL1tQPz5KO7BBDlaH7EpM9xZaA5AA/edit#slide=id.ge1618b146e_0_944) - July 6, 2021: SAFe Plenary by Amy Steiker
+-   [Openscapes](https://docs.google.com/presentation/d/1kxXDo80RNnA52dRL1tQPz5KO7BBDlaH7EpM9xZaA5AA/edit#slide=id.ge1618b146e_0_944) - July 6, 2021: SAFe Plenary by Amy Steiker
 
 -   [Better Science for Future Us](https://docs.google.com/presentation/d/17XcJSxoE3_-0PqYgQ0l7NctniBNUxaZ5Zo0hjL-bjJo/edit) - June 30, 2021: Pangeo Showcase ([PANGEO Discourse](https://discourse.pangeo.io/t/june-30-2021-the-nasa-openscapes-framework/1631), [Zenodo](https://zenodo.org/record/5090115#.YO3kom5lDUI))
 
@@ -51,7 +51,7 @@ We are getting these questions a lot, so here is our take.
 
 NASA Earth Science Data Systems missions collect Earth data, including sea ice, physical oceanography, vegetation and many other parameters -- data used by researchers around the world for many different purposes, including answering pressing questions in ecology and environmental science. Further, NASA promotes open science -- from the NASA Earth Science Data Systems (ESDS) program 2020 Highlights report:
 
-> Open data are the foundation of ESDS efforts to fulfill the program's vision of accelerating scientific advancement for societal benefit through innovative Earth science data stewardship and technology development.... [This includes a specific goal] to leverage the diversity of global Earth science communities to advance open science.
+> Open data are the foundation of ESDS efforts to fulfill the program's vision of accelerating scientific advancement for societal benefit through innovative Earth science data stewardship and technology development.... \[This includes a specific goal\] to leverage the diversity of global Earth science communities to advance open science.
 
 Openscapes' long-term goal is to enable robust, inclusive, and enduring science- and data-driven solutions to global and time-sensitive challenges. We approach open science as a spectrum, as a behavior change, and as a movement. We see data analysis and stewardship as entryways to meet scientists where they are, helping them develop new skill sets and mindsets while empowering them as leaders. With NASA support, the project team and the partners, the Openscapes Framework fundamentally changes the paradigm for supporting research teams and DAAC mentors, first to work more openly with their teams on the cloud, and ultimately to advance open science!
 
