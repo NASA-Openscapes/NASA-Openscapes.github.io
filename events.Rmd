@@ -32,6 +32,11 @@ The NASA-Openscapes Framework is being shared at DAAC User Working Group meeting
 
 <br>
 
+**June 30, 2021. NASA Openscapes Framework presented at Pangeo Showcase**\
+Our project was presented at the Pangeo Showcase, a weekly webinar that highlights relevant work around the Python/Earth science community. The talk and slides can be found on [their website](https://discourse.pangeo.io/t/june-30-2021-the-nasa-openscapes-framework/1631).
+
+<br>
+
 **June 21-24, 2021. Carpentries Instructor Training**\
 This is the suggested session for Carpentries Instructor training for the Mentor Cohort. Mentors can also attend later events.
 
