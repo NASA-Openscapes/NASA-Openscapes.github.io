@@ -35,6 +35,8 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 ## Slides
 
+-   [Openscapes: Better Science for Future Us. Supporting NASA Earth science research teams' migration to the cloud](https://docs.google.com/presentation/d/18uj2eAgzetPoq73YnRQpcYr2Q-EPuiHNaFE0sgR1XTE/edit?usp=sharing) - September 8, 2021: GES DISC User Working Group
+
 -   [Openscapes: Better Science for Future Us. Supporting NASA Earth science research teams' migration to the cloud](https://docs.google.com/presentation/d/1SVwkEDe2gUzJJZ5NGsGTsGPde-NJm9HLtKieSeuthfI/edit?usp=sharing) - August 12, 2021: LP DAAC User Working Group
 
 -   [Openscapes](https://docs.google.com/presentation/d/1kxXDo80RNnA52dRL1tQPz5KO7BBDlaH7EpM9xZaA5AA/edit#slide=id.ge1618b146e_0_944) - July 6, 2021: SAFe Plenary by Amy Steiker
