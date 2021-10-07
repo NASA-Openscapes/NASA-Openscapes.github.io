@@ -69,9 +69,11 @@ We will have Cohort Calls with the DAAC Mentors throughout 2021. Linked below ar
     - Co-working sessions
     
     
-- [Call 10](https://docs.google.com/document/d/16C-5QbZ8LR_RJUXNGcxvhlWF747tFG-aJr-lsgYIO-w/edit#)
+- [**Call 10:**](https://docs.google.com/document/d/16C-5QbZ8LR_RJUXNGcxvhlWF747tFG-aJr-lsgYIO-w/edit#)
 
     - Co-working sessions
+
+- **Late Summer and Fall**: We are preparing for the 2021 Cloud Hackathon, and using our Cohort Calls and additional Co-working sessions to develop and practice tutorials. Learn more: <https://nasa-openscapes.github.io/2021-Cloud-Hackathon>
 
 # Mentor Cohort 2021
 
