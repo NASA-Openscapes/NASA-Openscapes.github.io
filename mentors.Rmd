@@ -25,6 +25,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <br>
 
+### 2021 Cloud Hackathon
+
+The **Cloud Hackathon: Transitioning Earthdata Workflows to the Cloud** is a virtual 5-day (4 hours per day) collaborative open science learning experience aimed at exploring, creating, and promoting effective cloud-based science and applications workflows using NASA Earthdata Cloud data, tools, and services (among others), in support of Earth science data processing and analysis in the era of big data. All details and tutorials are available at: <https://nasa-openscapes.github.io/2021-Cloud-Hackathon/>.<br>
+
 ### Mentors Cohort Calls Summaries
 
 We will have Cohort Calls with the DAAC Mentors throughout 2021. Linked below are blank Agendas that are then copied and used for live note-taking.
