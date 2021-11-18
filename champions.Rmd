@@ -31,19 +31,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Champions Program Details
 
-Thank you so much for your interest in the Openscapes Champions Cohort.  We’ve decided to delay this cohort until early 2022 to better align with NASA cloud migration. Please check back here in late 2021 as we announce rescheduled Champions dates.
-
-
-<!---
-
-The NASA Openscapes Champions Cohort will run from March-April 2022. We will meet as a cohort twice monthly over four months, on alternating Fridays. Additional hands-on Clinics will be scheduled with participants.
+The Openscapes Champions Cohort will run from March-April 2022. We will meet as a cohort five times over two months, on alternating Fridays. Additional hands-on Clinics will be scheduled within this period.
 
 *   **Dates:** March 4, 18, April 1, 15, 29
 *   **Times:** 10:00-11:30 am Pacific Time
 *   **Where:** remotely, via Zoom
-*   **Who: **Cohort of 6-8 research groups that work with data from NASA DAACs. Each team consists of a team lead (faculty, principal investigator, etc) and up to 4 team members of your choice (graduate students, post docs, research technicians, etc). 
+*   **Who: **Cohort of 7 research groups that work with data from NASA DAACs. Each team consists of a team lead (faculty, principal investigator, etc) and up to 4 team members of your choice (graduate students, post docs, research techs, etc). 
 *   **Cost:** Free; this opportunity is supported by NASA through a grant to Openscapes 
-*   **Expected time commitment:** 8hrs/month for 2 months, which accounts for a 3 hours/month of synchronous Zoom calls, Clinic time, and collaborating with your research group to strengthen shared workflows.
+*   **Expected time commitment:** 8hrs/month for 2 months is a minimum expected time commitment. This accounts for 3 hours/month of synchronous Zoom calls, Clinics, and collaborating with your research group to strengthen shared workflows.
 
 ## Nominate your team to participate
 
@@ -51,9 +46,7 @@ Nominate your team by completing **[this Google Form](https://docs.google.com/fo
 
 Please submit one nomination per team, preferably by the team lead (faculty, principal investigator, etc). We will confirm participation in early February 2022. 
 
-Learn more about the [Openscapes Champions Program](https://openscapes.org/champions) and [FAQs about forming your team](https://openscapes.org/faq). Questions? Contact Openscapes: openscapes at nceas.ucsb.edu
-
---->
+Learn more about the [Openscapes Champions Program](https://openscapes.org/champions), [stories from previous cohorts](https://openscapes.org/cohorts), and [FAQs about forming your team](https://openscapes.org/faq). Questions? Contact Openscapes: openscapes at nceas.ucsb.edu
 
 [^1]:
      [nature.com/articles/s41559-017-0160](https://nature.com/articles/s41559-017-0160) 
