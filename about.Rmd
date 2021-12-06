@@ -35,6 +35,8 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 ## Slides
 
+- [Openscapes: Better Science for Future Us](https://docs.google.com/presentation/d/1i-HNx756ZsYJMYsavCwiYtp2hbQX6vNyZ6lwVdKJyzQ/edit?usp=sharing) — December 8, 2021: invited talk about data interoperability at the [National Academies of Science, Engineering, and Medicine (NASEM) meeting co-hosted by the Mapping Sciences Committee and the Geographical Sciences Committee](https://www.nationalacademies.org/event/12-08-2021/accelerating-the-analysis-of-geographic-change)
+
 - [Cross-DAAC Collab via Openscapes: Infusing Openscapes training, mentorship, and community building models into EOSDIS](https://docs.google.com/presentation/d/1zDA5GL2pN2rKnVLidfUBMynxD4AJ5EbAUBZcjOYXcwo/edit?disco=AAAAQYcgLJI&usp_dm=false#slide=id.gfacc98ea45_0_1417) — October 26, 2021: SE TIM lightning talk by Amy Steiker
 
 - [Openscapes: Better Science for Future Us](https://docs.google.com/presentation/d/1Sl4x6oTsjD4x30O_KwNoqr0-Yckh0CCK75PIqaaYdUY/edit?usp=sharing) — October 14, 2021: [NASA’s Open Source Science for Data Processing and Archives Workshop](https://science.nasa.gov/researchers/science-data/open-source-science-workshop)

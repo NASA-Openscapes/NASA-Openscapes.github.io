@@ -21,8 +21,13 @@ AGU submission by Chelle Gentemann: https://agu.confex.com/agu/fm21/prelim.cgi/S
 ```
 ## Upcoming  
 
+<!---
 **January 2022. Software Carpentries (Virtual)** \
 Kickstart the year by building your coding skills! We will be offering Software Carpentries-style training in R and Python. <br>
+--->
+
+**March-April 2022. Openscapes Champions Cohort**
+NASA Openscapes Champions is a mentorship and professional development opportunity for research teams using data from NASA Distributed Active Archive Centers (DAACs) and interested in open science and migrating their analytical workflows to the cloud. Learn more and nominate your team: <https://nasa-openscapes.github.io/champions>.
 
 **December 12 2021. AGU Fall Meeting Workshop (Virtual)** \
 NASA's Earth Science Data Systems (ESDS) Program promotes open data access for open science. The workshop will highlight novel applications that utilize EOSDIS data in the cloud. Participants will leave having a better understanding of how NASA Earthdata Cloud data and services can best be leveraged and integrated within their work across a variety of disciplines and data types. Details: <https://agu.confex.com/agu/fm21/meetingapp.cgi/Session/124026> <br>
