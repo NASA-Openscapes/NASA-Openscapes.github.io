@@ -37,6 +37,11 @@ NASA's Earth Science Data Systems (ESDS) Program promotes open data access for o
 **November 15-19 2021. Cross-DAAC Cloud Hackathon** \
 The NASA-Openscapes Framework is part of a collaborative Cross-DAAC hackathon to help transition workflows to the cloud. All details and tutorials are available at: <https://nasa-openscapes.github.io/2021-Cloud-Hackathon/><br>
 
+**Blog summaries**:
+
+- <https://earthdata.nasa.gov/learn/articles/2021-cloud-hackathon>
+- <https://podaac.jpl.nasa.gov/announcements/2021-12-15-The-2021-Cloud-Hackathon>
+
 **August-September 2021. DAAC User Working Group Presentations**\
 The NASA-Openscapes Framework is being shared at DAAC User Working Group meetings including:
 
