@@ -8,17 +8,8 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-```{=html}
-<!---
-AGU submission by DAAC Mentors: https://agu.confex.com/agu/fm21/prelim.cgi/Session/124026
-AGU submission by Chelle Gentemann: https://agu.confex.com/agu/fm21/prelim.cgi/Session/122142
+See also [slides listed on the About page](https://nasa-openscapes.github.io/about.html#slides) that have been presented about NASA Openscapes at conferences and workshops.
 
-
-**August-November 2021. Openscapes Champions Science Teams Cohort ** \
-[Openscapes Champions](https://openscapes.org/champions) is a mentorship program that empowers science teams with open data science tools and grows the community of practice. The DAAC Mentor Cohort will also participate to help researchers migrate workflows to the cloud. More information about participation coming soon.
-
---->
-```
 ## Upcoming  
 
 <!---
@@ -26,8 +17,12 @@ AGU submission by Chelle Gentemann: https://agu.confex.com/agu/fm21/prelim.cgi/S
 Kickstart the year by building your coding skills! We will be offering Software Carpentries-style training in R and Python. <br>
 --->
 
-**March-April 2022. Openscapes Champions Cohort**
+**March-April 2022. Openscapes Champions Cohort**  
 NASA Openscapes Champions is a mentorship and professional development opportunity for research teams using data from NASA Distributed Active Archive Centers (DAACs) and interested in open science and migrating their analytical workflows to the cloud. Learn more and nominate your team: <https://nasa-openscapes.github.io/champions>.
+
+**January 21, 2011. ESIP**  
+We are leading a session at ESIP's Winter Meeting: 
+[Better Science for Future Us: Planning for the Year of Open Science](https://2022esipjanuarymeeting.sched.com/event/qkp5/better-science-for-future-us-planning-for-the-year-of-open-science). 
 
 ## Past
 
