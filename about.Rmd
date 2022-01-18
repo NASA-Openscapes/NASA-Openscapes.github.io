@@ -35,6 +35,7 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 ## Slides
 
+- [Community Building: The NASA Openscapes Framework](https://openscapes.github.io/slides/esip_winter2022) - January 18, 2022: ESIP Winter Meeting
 - [NASA Earthdata Access in the Cloud Using Open-source libraries](https://nasa-openscapes.github.io/slides/Earthdata_Cloud__Open-Science-Tutorial.html#/title-slide) - December 17, 2021: invited talk by Amy Steiker at the [Open Science in Action](https://agu.confex.com/agu/fm21/meetingapp.cgi/Session) Session at the AGU Fall meeting (30 minutes)
 
 - [Open Project Design: Lessons from the NASA Openscapes Framework](https://docs.google.com/presentation/d/1uc2BGBsjVABa_ZnqYCi8EgeFjlUSMd3KMSlQJnok9T8/edit?usp=sharing) — December 17, 2021: invited talk at the [Open Science in Action](https://agu.confex.com/agu/fm21/meetingapp.cgi/Session) Session at the AGU Fall meeting (30 minutes)
