@@ -20,11 +20,15 @@ Kickstart the year by building your coding skills! We will be offering Software 
 **March-April 2022. Openscapes Champions Cohort**  
 NASA Openscapes Champions is a mentorship and professional development opportunity for research teams using data from NASA Distributed Active Archive Centers (DAACs) and interested in open science and migrating their analytical workflows to the cloud. Learn more and nominate your team: <https://nasa-openscapes.github.io/champions>.
 
+## Past
+
 **January 21, 2011. ESIP**  
 We are leading a session at ESIP's Winter Meeting: 
 [Better Science for Future Us: Planning for the Year of Open Science](https://2022esipjanuarymeeting.sched.com/event/qkp5/better-science-for-future-us-planning-for-the-year-of-open-science). 
 
-## Past
+**Blog summary**:
+
+- <https://www.openscapes.org/blog/2022/02/17/esip-winter-2022>
 
 **December 12 2021. AGU Fall Meeting Workshop (Virtual)** \
 NASA's Earth Science Data Systems (ESDS) Program promotes open data access for open science. The workshop will highlight novel applications that utilize EOSDIS data in the cloud. Participants will leave having a better understanding of how NASA Earthdata Cloud data and services can best be leveraged and integrated within their work across a variety of disciplines and data types. Details: <https://agu.confex.com/agu/fm21/meetingapp.cgi/Session/124026>; <https://nasa-openscapes.github.io/2021-Cloud-Workshop-AGU/> <br>
