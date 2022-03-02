@@ -101,7 +101,7 @@ Aaron Friesz is the Science Coordination Lead at NASA's Land Processes Distribut
 
 Jack McNelis is a Science Applications Software Engineer at NASA Jet Propulsion Laboratory (and the PO.DAAC) with experience leveraging EOS data for rangeland ecosystem monitoring applications. He develops and curates metadata to describe PO.DAAC data holdings, and to better integrate them with data delivery services and end user softwares. He also develops resources for users to be better prepared to implement their analyses in the cloud.
 
-###Christine Smit
+### Christine Smit
 
 
 ### Amy Steiker
@@ -118,6 +118,10 @@ Amy Steiker is the National Snow and Ice Data Center (NSIDC) DAAC Data Services 
 Amy Steiker is the NSIDC DAAC Data Services Engineer, specializing in the development and management of data education resources, tools, and services for NSIDC DAAC's growing user community, as well as data transformation service development for NASA EOSDIS. She is excited to join this first Openscapes cohort to work together with our science communities to develop and sustain tooling that supports their data processing workflows as they transition to the Earthdata Cloud.
 
 ## Past Participants
+
+### Jennifer Adams
+
+GES DISC
 
 ### Vishal Bagadia
 
