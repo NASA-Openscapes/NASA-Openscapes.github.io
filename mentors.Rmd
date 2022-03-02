@@ -89,6 +89,8 @@ We will have Cohort Calls with the DAAC Mentors throughout 2021. Linked below ar
 
 Aaron Friesz is the Science Coordination Lead at NASA's Land Processes Distributed Active Archive Center (LP DAAC). In his role, Aaron provides user needs insights and technical support for archive and distribution, service development, and outreach activities. He develops tutorials, scripts, and presentations that highlight the use of land remote sensing data in analysis workflows. More recently, his work has focused on advocating for the uptake of cloud computing in the land remote sensing community.
 
+### Shubhankar Gahlot
+
 ### Alexis Hunzinger
 
 ### Luis Lopez
@@ -100,6 +102,8 @@ Aaron Friesz is the Science Coordination Lead at NASA's Land Processes Distribut
 ### Jack McNelis
 
 Jack McNelis is a Science Applications Software Engineer at NASA Jet Propulsion Laboratory (and the PO.DAAC) with experience leveraging EOS data for rangeland ecosystem monitoring applications. He develops and curates metadata to describe PO.DAAC data holdings, and to better integrate them with data delivery services and end user softwares. He also develops resources for users to be better prepared to implement their analyses in the cloud.
+
+### Muthukumaran Ramasubramanian 
 
 ### Christine Smit
 
