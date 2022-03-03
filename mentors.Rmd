@@ -95,7 +95,7 @@ Aaron Friesz is the Science Coordination Lead at NASA's Land Processes Distribut
 
 ### Alexis Hunzinger
 
-[Alexis Hunzinger](https://www.linkedin.com/in/alexis-hunzinger)
+[Alexis Hunzinger](https://www.linkedin.com/in/alexis-hunzinger) is a Support Scientist at the NASA Goddard Earth Sciences Data and Information Services Center (GES DISC), focused on addressing the needs of the user community. Alexis works closely with the GES DISC User Working Group, fielding concerns and suggestions to be implemented at the DAAC. She also leads the effort at GES DISC of developing guides, tutorials, and other resources designed to educate and welcome users to the Earthdata Cloud.
 
 ### Luis Lopez
 
