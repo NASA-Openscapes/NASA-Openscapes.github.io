@@ -44,8 +44,8 @@
       "title": "Tutorials",
       "description": "The NASA Earthdata-Openscapes Mentors team and other contributors are creating open educational resources to help researchers migrate workflows to the Cloud - all available for reuse and remix. \n",
       "author": [],
-      "contents": "\n\nContents\n2021 Cloud Hackathon\n2021 Cloud AGU Workshop\nEarthdata Cloud\nCookbook\n\nAs NASA DAACs transition data to the cloud, tooling and workflows\nwill evolve. We organize tutorials in books, with the idea that each\nteaching event has its own book that is developed for a concrete\naudience and is a snapshot in time, and that the Earthdata Cloud\nCookbook will be a collection of the most up-to-date tutorials.\n2021 Cloud Hackathon\nhttps://nasa-openscapes.github.io/2021-Cloud-Hackathon\n2021 Cloud AGU Workshop\nhttps://nasa-openscapes.github.io/2021-Cloud-Workshop-AGU\nEarthdata Cloud Cookbook\nto be updated with 2021 Cloud Hackathon tutorials\nhttps://nasa-openscapes.github.io/earthdata-cloud-cookbook\n\n\n\n",
-      "last_modified": "2022-03-03T09:55:54-08:00"
+      "contents": "\n\nContents\n2022 SWOT Ocean Cloud\nWorkshop\n2021 Cloud Hackathon\n2021 Cloud AGU Workshop\nEarthdata Cloud\nCookbook\n\nAs NASA DAACs transition data to the cloud, tooling and workflows\nwill evolve. We organize tutorials in books, with the idea that each\nteaching event has its own book that is developed for a concrete\naudience and is a snapshot in time, and that the Earthdata Cloud\nCookbook will be a collection of the most up-to-date tutorials.\n2022 SWOT Ocean Cloud Workshop\nhttps://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/\n2021 Cloud Hackathon\nhttps://nasa-openscapes.github.io/2021-Cloud-Hackathon\n2021 Cloud AGU Workshop\nhttps://nasa-openscapes.github.io/2021-Cloud-Workshop-AGU\nEarthdata Cloud Cookbook\nto be updated with 2021 Cloud Hackathon tutorials\nhttps://nasa-openscapes.github.io/earthdata-cloud-cookbook\n\n\n\n",
+      "last_modified": "2022-03-14T14:13:38-07:00"
     }
   ],
   "collections": []
