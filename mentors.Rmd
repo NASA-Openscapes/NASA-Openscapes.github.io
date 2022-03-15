@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 **Our immediate activities with the Mentors are:**
 
--   Strengthen the DAAC Mentor community of practice as they iterate and teach a common set of tutorials, and through our twice monthly Openscapes Cohort Calls
+-   Strengthen the DAAC Mentor community of practice as they develop and teach a common set of tutorials and coordinate and lead learning events, in part through our twice monthly Openscapes Cohort Calls
 -   Lead the 2022 NASA Openscapes Champions cohort with research teams (March-April), with Mentors assisting to support researchers and learn a new modality of support
 
 Tentative schedule: 
