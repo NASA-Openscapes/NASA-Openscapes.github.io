@@ -10,14 +10,28 @@ knitr::opts_chunk$set(echo = FALSE)
 
 See also [slides listed on the About page](https://nasa-openscapes.github.io/about.html#slides) that have been presented about NASA Openscapes at conferences and workshops.
 
-## Upcoming  
+## Spring 2022  
 
-<!---
-**January 2022. Software Carpentries (Virtual)** \
-Kickstart the year by building your coding skills! We will be offering Software Carpentries-style training in R and Python. <br>
---->
 
-**March-April 2022. Openscapes Champions Cohort**  
+### April 2022 ECOSTRESS Workshop
+
+Point of contact: Aaron Friesz
+
+### March 2022. PO.DAAC SWOT Oceanography Workshop
+
+Point of contact: Catalina Oaida
+
+<https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/>
+
+### March 2022. Earthdata Cloud Services Working Group
+
+Point of contact: Amy Steiker
+
+<https://nasa-openscapes.github.io/earthdata-cloud-cookbook/examples/Transform-workflow.html>
+
+
+### March-April 2022. Openscapes Champions Cohort
+
 NASA Openscapes Champions is a mentorship and professional development opportunity for research teams using data from NASA Distributed Active Archive Centers (DAACs) and interested in open science and migrating their analytical workflows to the cloud. Learn more and nominate your team: <https://nasa-openscapes.github.io/champions>.
 
 ## Past
