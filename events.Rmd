@@ -17,6 +17,8 @@ See also [slides listed on the About page](https://nasa-openscapes.github.io/abo
 
 Point of contact: Aaron Friesz
 
+<https://nasa-openscapes.github.io/2022-ECOSTRESS-Workshop/>
+
 ### March 2022 GES DISC Internal Cloud Workshop
 
 Point of contact: Alexis Hunzinger

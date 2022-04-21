@@ -35,6 +35,8 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 ## Slides
 
+- [NASA Openscapes Lessons from Year 1](https://docs.google.com/presentation/d/1jtiku5yOTzBtW2vT1-qwZPri_O2Bc_uzXNebIoKGLMg/edit?usp=sharing) - April 21, 2022: Robinson, Lowndes, López
+
 - [NASA Openscapes Cloud Infrastructure](https://docs.google.com/presentation/d/100aazshfYJfIe5pjQ6w3hswjA9zuuhEd2sZ3P4LhxJc/edit?usp=sharing) - February 9, 2021: NSIDC by Luis López
 
 - [Community Building: The NASA Openscapes Framework](https://openscapes.github.io/slides/esip_winter2022) - January 18, 2022: ESIP Winter Meeting

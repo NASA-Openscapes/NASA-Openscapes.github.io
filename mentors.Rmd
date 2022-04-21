@@ -15,6 +15,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Mentor Cohort Activities
 
+**We're recruiting for Year 2!** Nominate yourself to participate to grow the DAAC Mentors community: [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSevpENjXrxu44el0SehXxwujQaTrlSxGOBsHLMIIf_KPSqpew/viewform?usp=sf_link).
+
+Background: Join a cross-DAAC mentor community creating & teaching resources to help researchers migrate workflows to the cloud. We meet and learn together, working with alignment on common needs for researchers using NASA Earthdata. Mentors receive Carpentries Instructor training and Openscapes mentorship to help you refine teaching strategies for Cloud, while collaborating on cloud tutorials to reuse rather than reinventing separately. You will teach and support in opportunities of different types: Hackathons, Workshops, and the Openscapes Champions program. We expect a range of technical ability and teaching experience. Through these growth opportunities within a broader community engagement approach, you will also gain visibility for your work as well as for your DAACs. The expected time commitment is 3-4 days/month per year. This accounts for a minimum of 4 hours/month of synchronous calls with the rest of the time being self-directed towards improving support approaches for your specific DAAC. 
+
 ## 2022
 
 **Our immediate activities with the Mentors are:**

@@ -13,7 +13,11 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## 2022 NASA Champions Cohort
 
+Meet the 10 science teams participating in the 2022 NASA Champions Cohort as they learn and plan how to migrate their research to the cloud: 
+
+**<https://nasa-openscapes.github.io/2022-nasa-champions/>**
 
 ## Overview
 
@@ -40,13 +44,19 @@ The Openscapes Champions Cohort will run from March-April 2022. We will meet as 
 *   **Cost:** Free; this opportunity is supported by NASA through a grant to Openscapes 
 *   **Expected time commitment:** 8hrs/month for 2 months is a minimum expected time commitment. This accounts for 3 hours/month of synchronous Zoom calls, Clinics, and collaborating with your research group to strengthen shared workflows.
 
-## Nominate your team to participate
+## Nominate your team for future Cohorts
+<!---to participate--->
 
+<!---
 Nominate your team by completing **[this Google Form](https://docs.google.com/forms/d/e/1FAIpQLScz-0XUEw-RFCyzn3LNXl_8sDGIxIjY4Agy-esWjnSvOk_Jlw/viewform?usp=sf_link) by February 4, 2022**. This opportunity is open only to research groups that work with data from NASA DAACs. Priority will be given to researchers using data from DAACs participating in Openscapes this year: LP DAAC, NSIDC, PO.DAAC, GES DISC, and ASDC.
 
 Please submit one nomination per team, preferably by the team lead (faculty, principal investigator, etc). We will confirm participation in early February 2022. 
 
-Learn more about the [Openscapes Champions Program](https://openscapes.org/champions), [stories from previous cohorts](https://openscapes.org/cohorts), and [FAQs about forming your team](https://openscapes.org/faq). Questions? Contact Openscapes: openscapes at nceas.ucsb.edu
+--->
+
+We will have future Champions Cohorts coming up! Until opportunities are announced - 
+
+learn more about the [Openscapes Champions Program](https://openscapes.org/champions), [stories from previous cohorts](https://openscapes.org/cohorts), and [FAQs about forming your team](https://openscapes.org/faq). Questions? Contact Openscapes: openscapes at nceas.ucsb.edu
 
 [^1]:
      [nature.com/articles/s41559-017-0160](https://nature.com/articles/s41559-017-0160) 
