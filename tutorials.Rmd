@@ -15,6 +15,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 As NASA DAACs transition data to the cloud, tooling and workflows will evolve. We organize tutorials in books, with the idea that each teaching event has its own book that is developed for a concrete audience and is a snapshot in time, and that the Earthdata Cloud Cookbook will be a collection of the most up-to-date tutorials.
 
+## 2022 ECOSTRESS Workshop
+
+**<https://nasa-openscapes.github.io/2022-ECOSTRESS-Workshop/>**
+
 ## 2022 SWOT Ocean Cloud Workshop
 
 **https://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/**
