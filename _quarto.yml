@@ -6,22 +6,29 @@ website:
   site-url: https://nasa-openscapes.github.io/
   
   page-footer: 
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/) and with inspiration from the [UCSB MEDS website](https://ucsb-meds.github.io/)"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/) and with inspiration from the [UCSB MEDS website](https://ucsb-meds.github.io/)."
     left: "&copy; CC-By Openscapes Core Team"
  
   navbar:
-    logo: openscapes_hex.png
+    logo: images/openscapes_hex.png
     href: https://openscapes.org
     right:
-      - text: "Events"
-        href: index.html
-      - text: "Home"
-        href: https://openscapes.org
-      - icon: github
-        href: https://github.com/openscapes/events
-      - icon: twitter
-        href: https://twitter.com/openscapes
-        
+    # - text: "Home"
+    #   href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Mentors"
+      href: mentors.html
+    - text: "Champions"
+      href: champions.html
+    - text: "Tutorials"
+      href: tutorials.html
+    - text: "Events"
+      href: events.html
+    - icon: fab fa-twitter
+      href: https://twitter.com/openscapes
+    - icon: fab fa-github
+      href: https://github.com/nasa-openscapes
 format:
   html:
     theme: 
@@ -30,7 +37,8 @@ format:
 
 
 
-
+# old _site.yml content below for comparison while converting to Quarto
+#
 # name: "."
 # title: "NASA-Openscapes"
 # description: |

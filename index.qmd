@@ -1,26 +1,27 @@
 ---
 title: "NASA-Openscapes"
 image: "images/nasa-openscapes.png"
-links:
-  - label: About
-    url: "about.html"
-  - label: Mentors
-    url: "mentors.html"
-  - label: Champions
-    url: "champions.html"
-  - label: Tutorials
-    url: "tutorials.html"
-  - label: Events
-    url: "events.html"    
+# links:
+#   - label: About
+#     url: "about.html"
+#   - label: Mentors
+#     url: "mentors.html"
+#   - label: Champions
+#     url: "champions.html"
+#   - label: Tutorials
+#     url: "tutorials.html"
+#   - label: Events
+#     url: "events.html"    
   # - label: Activities
   #   url: "/activities"
   # - label: GitHub
   #   url: "https://github.com/"
   # - label: Email
   #   url: "mailto:email@email.com"
-output:
-  postcards::jolla
-site: distill::distill_website
+  
+# output:
+  # postcards::jolla
+# site: distill::distill_website
 ---
 
 Earth science is changing. We support scientists using data from NASA Earthdata served from the Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.
