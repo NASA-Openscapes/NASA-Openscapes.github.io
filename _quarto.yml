@@ -4,6 +4,7 @@ project:
 website:
   title: "NASA-Openscapes"
   site-url: https://nasa-openscapes.github.io/
+  favicon: images/openscapes_hex.png  
   
   page-footer: 
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/) and with inspiration from the [UCSB MEDS website](https://ucsb-meds.github.io/)."
@@ -29,6 +30,7 @@ website:
       href: https://github.com/NASA-Openscapes
     - icon: twitter
       href: https://twitter.com/openscapes
+
 format:
   html:
     css: theme.css
