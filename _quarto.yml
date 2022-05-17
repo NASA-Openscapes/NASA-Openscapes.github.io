@@ -25,14 +25,17 @@ website:
       href: tutorials.html
     - text: "Events"
       href: events.html
-    - icon: fab fa-twitter
+    - icon: github
+      href: https://github.com/NASA-Openscapes
+    - icon: twitter
       href: https://twitter.com/openscapes
-    - icon: fab fa-github
-      href: https://github.com/nasa-openscapes
 format:
   html:
     theme: 
       - lumen 
+    toc: true
+    toc-title: Contents
+    toc-location: left  
 
 
 
