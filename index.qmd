@@ -31,3 +31,5 @@ We are influenced and inspired by many leaders and community organizers, particu
 **Recent News:**
 
 Project announcements: [NASA](https://earthdata.nasa.gov/learn/openscapes) • [Openscapes](https://www.openscapes.org/blog/2021/03/10/nasa-announcement/)
+
+[Blog](https://www.openscapes.org/tags/nasa-framework/)
