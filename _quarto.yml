@@ -31,11 +31,12 @@ website:
       href: https://twitter.com/openscapes
 format:
   html:
-    theme: 
-      - lumen 
+    css: theme.css
+    # theme:
+    #   - lumen
     toc: true
     toc-title: Contents
-    toc-location: left  
+    toc-location: left
 
 
 
