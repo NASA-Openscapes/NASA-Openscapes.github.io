@@ -1,6 +1,6 @@
 ---
-title: "NASA-Openscapes"
-image: "images/nasa-openscapes.png"
+# title: "NASA-Openscapes"
+# image: "images/nasa-openscapes.png"
 # links:
 #   - label: About
 #     url: "about.html"
@@ -23,6 +23,7 @@ image: "images/nasa-openscapes.png"
   # postcards::jolla
 # site: distill::distill_website
 ---
+<center> <a><img src="images/nasa-openscapes.png" width="300px" alt="NASA logo to left of Openscapes logo"></a> </center>
 
 Earth science is changing. We support scientists using data from NASA Earthdata served from the Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.
 
