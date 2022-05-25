@@ -7,8 +7,8 @@ website:
   favicon: images/openscapes_hex.png  
   
   page-footer: 
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/) and with inspiration from the [UCSB MEDS website](https://ucsb-meds.github.io/)."
-    left: "&copy; CC-By Openscapes Core Team"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)"
+    left: "&copy; CC-By NASA Openscapes"
  
   navbar:
     logo: images/openscapes_hex.png
@@ -33,9 +33,8 @@ website:
 
 format:
   html:
-    css: theme.css
-    # theme:
-    #   - lumen
+    theme: [sandstone, custom.scss]
+    css: styles.css
     toc: true
     toc-title: Contents
     toc-location: left
