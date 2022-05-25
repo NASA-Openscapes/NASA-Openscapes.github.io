@@ -33,6 +33,10 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 3.  Scaling the Openscapes Champions program with DAAC Mentors to support science cohorts and amplify as many open science leaders as possible, transforming their workflows towards open, kinder science and the cloud
 
+## Blog
+
+[Blog posts](https://www.openscapes.org/tags/nasa-framework/) about NASA Openscapes
+
 ## Slides
 
 - [NASA Openscapes Lessons from Year 1](https://docs.google.com/presentation/d/1jtiku5yOTzBtW2vT1-qwZPri_O2Bc_uzXNebIoKGLMg/edit?usp=sharing) - April 21, 2022: Robinson, Lowndes, López
