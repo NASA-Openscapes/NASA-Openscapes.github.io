@@ -9,10 +9,6 @@ output:
     toc_depth: 3
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
 ## 2022 NASA Champions Cohort
 
 Meet the 10 science teams participating in the 2022 NASA Champions Cohort as they learn and plan how to migrate their research to the cloud: 

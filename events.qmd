@@ -4,10 +4,6 @@ description: |
   Events and News from the NASA-Openscapes Framework Project 
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
 See also [slides listed on the About page](https://nasa-openscapes.github.io/about.html#slides) that have been presented about NASA Openscapes at conferences and workshops.
 
 ## Spring 2022  

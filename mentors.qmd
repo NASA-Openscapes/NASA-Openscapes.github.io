@@ -9,10 +9,6 @@ output:
     toc_depth: 3
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
 # Mentor Cohort Activities
 
 **We're onboarding Mentors for Year 2!** 

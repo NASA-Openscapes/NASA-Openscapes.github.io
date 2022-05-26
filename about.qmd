@@ -9,10 +9,6 @@ output:
     toc_depth: 3
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
 ## Openscapes
 
 Openscapes champions open, inclusive practices in environmental and Earth science to help uncover data-intensive solutions faster. We do this through our flagship Champions mentorship program, as well as through community organizing, training, and coaching, leveraging existing resources from open communities along with our own.
