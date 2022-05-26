@@ -7,7 +7,7 @@ website:
   favicon: images/openscapes_hex.png  
   
   page-footer: 
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/), with theme from [vetiver](https://github.com/rstudio/vetiver.rstudio.com)"
     left: "&copy; CC-By NASA Openscapes"
  
   navbar:
@@ -17,15 +17,15 @@ website:
     # - text: "Home"
     #   href: index.html
     - text: "About"
-      href: about.html
+      href: about.qmd
     - text: "Mentors"
-      href: mentors.html
+      href: mentors.qmd
     - text: "Champions"
-      href: champions.html
+      href: champions.qmd
     - text: "Tutorials"
-      href: tutorials.html
+      href: tutorials.qmd
     - text: "Events"
-      href: events.html
+      href: events.qmd
     - icon: github
       href: https://github.com/NASA-Openscapes
     - icon: twitter
