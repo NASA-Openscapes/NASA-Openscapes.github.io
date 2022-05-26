@@ -22,8 +22,8 @@ website:
       href: mentors.qmd
     - text: "Champions"
       href: champions.qmd
-    - text: "Tutorials"
-      href: tutorials.qmd
+    - text: "Cookbook"
+      href: cookbook-navbar-page.qmd
     - text: "Events"
       href: events.qmd
     - icon: github
