@@ -1,0 +1,177 @@
+[
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
+    "section": "",
+    "text": "See also slides listed on the About page that have been presented about NASA Openscapes at conferences and workshops."
+  },
+  {
+    "objectID": "events.html#spring-2022",
+    "href": "events.html#spring-2022",
+    "title": "Events",
+    "section": "Spring 2022",
+    "text": "Spring 2022\n\nApril 2022 ECOSTRESS Workshop\nPoint of contact: Aaron Friesz\nhttps://nasa-openscapes.github.io/2022-ECOSTRESS-Workshop/\n\n\nMarch 2022 GES DISC Internal Cloud Workshop\nPoint of contact: Alexis Hunzinger\n\n\nMarch 2022. PO.DAAC SWOT Oceanography Workshop\nPoint of contact: Catalina Oaida\nhttps://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/\n\n\nMarch 2022. Earthdata Cloud Services Working Group\nPoint of contact: Amy Steiker\nhttps://nasa-openscapes.github.io/earthdata-cloud-cookbook/examples/Transform-workflow.html\n\n\nMarch-April 2022. Openscapes Champions Cohort\nNASA Openscapes Champions is a mentorship and professional development opportunity for research teams using data from NASA Distributed Active Archive Centers (DAACs) and interested in open science and migrating their analytical workflows to the cloud. Learn more and nominate your team: https://nasa-openscapes.github.io/champions."
+  },
+  {
+    "objectID": "events.html#past",
+    "href": "events.html#past",
+    "title": "Events",
+    "section": "Past",
+    "text": "Past\nJanuary 21, 2011. ESIP\nWe are leading a session at ESIP’s Winter Meeting: Better Science for Future Us: Planning for the Year of Open Science.\nBlog summary:\n\nhttps://www.openscapes.org/blog/2022/02/17/esip-winter-2022\n\nDecember 12 2021. AGU Fall Meeting Workshop (Virtual)\nNASA’s Earth Science Data Systems (ESDS) Program promotes open data access for open science. The workshop will highlight novel applications that utilize EOSDIS data in the cloud. Participants will leave having a better understanding of how NASA Earthdata Cloud data and services can best be leveraged and integrated within their work across a variety of disciplines and data types. Details: https://agu.confex.com/agu/fm21/meetingapp.cgi/Session/124026; https://nasa-openscapes.github.io/2021-Cloud-Workshop-AGU/ \nNovember 15-19 2021. Cross-DAAC Cloud Hackathon\nThe NASA-Openscapes Framework is part of a collaborative Cross-DAAC hackathon to help transition workflows to the cloud. All details and tutorials are available at: https://nasa-openscapes.github.io/2021-Cloud-Hackathon/\nBlog summaries:\n\nhttps://earthdata.nasa.gov/learn/articles/2021-cloud-hackathon\nhttps://podaac.jpl.nasa.gov/announcements/2021-12-15-The-2021-Cloud-Hackathon\n\nAugust-September 2021. DAAC User Working Group Presentations\nThe NASA-Openscapes Framework is being shared at DAAC User Working Group meetings including:\n\nLP DAAC, August 12, 2021 (Slides)\nGES DISC, September 8, 2021\nNSIDC DAAC, September 16, 2021\n\nJune 30, 2021. NASA Openscapes Framework presented at Pangeo Showcase\nOur project was presented at the Pangeo Showcase, a weekly webinar that highlights relevant work around the Python/Earth science community. The talk and slides can be found on their website. \nJune 21-24, 2021. Carpentries Instructor Training\nThis is the suggested session for Carpentries Instructor training for the Mentor Cohort. Mentors can also attend later events. \nMay 17-18, 2021. Carpentries Workshop: Intro to Linux/Shell, Python, Git\nThis workshop is open to NASA Earth science data users, hosted by Openscapes, NASA, and the NASA Atmospheric Science Data Center (ASDC) DAAC.\nFor more information and to register: https://virdi.github.io/2021-05-17-openscapes-online/ \nMarch 2021 - Feb 2021. Openscapes Champions Mentors: DAAC Cohort\nWe are supporting and strengthening the community of DAAC folks that are already creating cloud learning resources. Through Openscapes mentorship, Carpentries instructor training, and 2i2c cloud services, these DAAC mentors will work together to create learning resources for their teams and communities. \nFeb 2021. Openscapes and Collaborators Announce Openscapes NASA Project\nWe are thrilled to announce that NASA awarded Openscapes and partners a 3-year project to utilize the Openscapes Framework and support researchers using NASA Earthdata as it moves to the cloud. Openscapes and it’s host institution, NCEAS, Metadata Game Changers and NASA’s Earthdata Blog all shared posts about the award."
+  },
+  {
+    "objectID": "champions.html",
+    "href": "champions.html",
+    "title": "NASA Openscapes Champions Cohort",
+    "section": "",
+    "text": "Meet the 10 science teams participating in the 2022 NASA Champions Cohort as they learn and plan how to migrate their research to the cloud:\nhttps://nasa-openscapes.github.io/2022-nasa-champions/"
+  },
+  {
+    "objectID": "champions.html#overview",
+    "href": "champions.html#overview",
+    "title": "NASA Openscapes Champions Cohort",
+    "section": "Overview",
+    "text": "Overview\nOpenscapes is an approach for doing better science in less time1. We help research groups reimagine data analysis, develop modern skills that are of immediate value to them, and cultivate collaborative and inclusive research communities. Openscapes’ mentorship and community engagement approaches center on open data science as kinder science2, enabling increased efficiency and resilience for teams so that their work has more enduring impact.\nOpenscapes Champions is a remote-by-design mentorship program for environmental and Earth science research teams to explore open data science practices. Participants attend as a team with their research group in a cohort with other teams, together learning how to reframe data-intensive science as a collaborative effort. By discussing open software tooling and communities enabling reproducible research (e.g. R/Python, GitHub, metadata, cloud), participants develop collaborative skills, mindsets, and habits and establish shared practices for increased efficiency in their own research, while contributing to a more inclusive scientific culture.\nNASA Openscapes is a 3-year project to support scientists using data from NASA’s Earth Observing System Data and Information System (EOSDIS) Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud. As part of this work, we will offer the Openscapes Champions program several times from 2022-2024."
+  },
+  {
+    "objectID": "champions.html#champions-program-details",
+    "href": "champions.html#champions-program-details",
+    "title": "NASA Openscapes Champions Cohort",
+    "section": "Champions Program Details",
+    "text": "Champions Program Details\nThe Openscapes Champions Cohort will run from March-April 2022. We will meet as a cohort five times over two months, on alternating Fridays. Additional hands-on Clinics will be scheduled within this period.\n\nDates: March 4, 18, April 1, 15, 29\nTimes: 10:00-11:30 am Pacific Time\nWhere: remotely, via Zoom\nWho: Cohort of 7 research groups that work with data from NASA DAACs. Each team consists of a team lead (faculty, principal investigator, etc) and up to 4 team members of your choice (graduate students, post docs, research techs, etc).\nCost: Free; this opportunity is supported by NASA through a grant to Openscapes\nExpected time commitment: 8hrs/month for 2 months is a minimum expected time commitment. This accounts for 3 hours/month of synchronous Zoom calls, Clinics, and collaborating with your research group to strengthen shared workflows."
+  },
+  {
+    "objectID": "champions.html#nominate-your-team-for-future-cohorts",
+    "href": "champions.html#nominate-your-team-for-future-cohorts",
+    "title": "NASA Openscapes Champions Cohort",
+    "section": "Nominate your team for future Cohorts",
+    "text": "Nominate your team for future Cohorts\n\n\nWe will have future Champions Cohorts coming up! Until opportunities are announced -\nlearn more about the Openscapes Champions Program, stories from previous cohorts, and FAQs about forming your team. Questions? Contact Openscapes: openscapes at nceas.ucsb.edu"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Openscapes champions open, inclusive practices in environmental and Earth science to help uncover data-intensive solutions faster. We do this through our flagship Champions mentorship program, as well as through community organizing, training, and coaching, leveraging existing resources from open communities along with our own.\nOur flywheel shows our approach to engaging, empowering, and amplifying research communities in open data science — how we describe kinder, better science in less time.\n\n\n\nOpenscapes flywheel shows 6 points around a hexagon: Develop, Invest, Attract, Deliver, Transform, Inspire"
+  },
+  {
+    "objectID": "about.html#the-nasa-earthdata-openscapes-project",
+    "href": "about.html#the-nasa-earthdata-openscapes-project",
+    "title": "About",
+    "section": "The NASA EarthData-Openscapes project",
+    "text": "The NASA EarthData-Openscapes project\nThe overarching vision is to support scientific researchers using NASA Earthdata as they migrate their workflows to the cloud. We are doing this working with NASA Distributed Active Archive Centers (DAACs) over three years by:\n\nDeveloping a cross-DAAC Mentor community that supports growth into confident cloud data instructors, and create, curate and use shared resources and have a tutorial review process\nEmpowering science teams to experiment migrating their download-intensive data analysis workflows to the cloud through a partnership with Carpentries and 2i2c\nScaling the Openscapes Champions program with DAAC Mentors to support science cohorts and amplify as many open science leaders as possible, transforming their workflows towards open, kinder science and the cloud"
+  },
+  {
+    "objectID": "about.html#blog",
+    "href": "about.html#blog",
+    "title": "About",
+    "section": "Blog",
+    "text": "Blog\nBlog posts about NASA Openscapes"
+  },
+  {
+    "objectID": "about.html#slides",
+    "href": "about.html#slides",
+    "title": "About",
+    "section": "Slides",
+    "text": "Slides\n\nNASA Openscapes Lessons from Year 1 - April 21, 2022: Robinson, Lowndes, López\nNASA Openscapes Cloud Infrastructure - February 9, 2021: NSIDC by Luis López\nCommunity Building: The NASA Openscapes Framework - January 18, 2022: ESIP Winter Meeting\nNASA Earthdata Access in the Cloud Using Open-source libraries - December 17, 2021: invited talk by Amy Steiker at the Open Science in Action Session at the AGU Fall meeting (30 minutes)\nOpen Project Design: Lessons from the NASA Openscapes Framework — December 17, 2021: invited talk at the Open Science in Action Session at the AGU Fall meeting (30 minutes)\nOpenscapes: Better Science for Future Us — December 8, 2021: invited talk about data interoperability at the National Academies of Science, Engineering, and Medicine (NASEM) meeting co-hosted by the Mapping Sciences Committee and the Geographical Sciences Committee\nCross-DAAC Collab via Openscapes: Infusing Openscapes training, mentorship, and community building models into EOSDIS — October 26, 2021: SE TIM lightning talk by Amy Steiker\nOpenscapes: Better Science for Future Us — October 14, 2021: NASA’s Open Source Science for Data Processing and Archives Workshop\nOpenscapes: Better Science for Future Us. Supporting NASA Earth science research teams’ migration to the cloud\n\nSeptember 16, 2021: NSIDC User Working Group\nSeptember 8, 2021: GES DISC User Working Group\n\nOpenscapes: Better Science for Future Us. Supporting NASA Earth science research teams’ migration to the cloud - August 12, 2021: LP DAAC User Working Group\nOpenscapes - July 6, 2021: SAFe Plenary by Amy Steiker\nBetter Science for Future Us - June 30, 2021: Pangeo Showcase (PANGEO Discourse, Zenodo)\nNASA DAACs Openscapes Framework - March 25, 2021: NASA ESDS-ESDIS-DAACs-IMPACT Meeting"
+  },
+  {
+    "objectID": "about.html#why-nasa-earthdata-why-openscapes",
+    "href": "about.html#why-nasa-earthdata-why-openscapes",
+    "title": "About",
+    "section": "Why NASA Earthdata? Why Openscapes?",
+    "text": "Why NASA Earthdata? Why Openscapes?\nWe are getting these questions a lot, so here is our take.\nNASA Earth Science Data Systems missions collect Earth data, including sea ice, physical oceanography, vegetation and many other parameters – data used by researchers around the world for many different purposes, including answering pressing questions in ecology and environmental science. Further, NASA promotes open science – from the NASA Earth Science Data Systems (ESDS) program 2020 Highlights report:\n\nOpen data are the foundation of ESDS efforts to fulfill the program’s vision of accelerating scientific advancement for societal benefit through innovative Earth science data stewardship and technology development….to leverage the diversity of global Earth science communities to advance open science.\n\nOpenscapes’ long-term goal is to enable robust, inclusive, and enduring science- and data-driven solutions to global and time-sensitive challenges. We approach open science as a spectrum, as a behavior change, and as a movement. We see data analysis and stewardship as entryways to meet scientists where they are, helping them develop new skill sets and mindsets while empowering them as leaders. With NASA support, the project team and the partners, the Openscapes Framework fundamentally changes the paradigm for supporting research teams and DAAC mentors, first to work more openly with their teams on the cloud, and ultimately to advance open science!\nOpenscapes is co-directed by project leads Lowndes and Robinson, and operated at the National Center for Ecological Analysis and Synthesis (NCEAS), University of California Santa Barbara."
+  },
+  {
+    "objectID": "about.html#project-leads",
+    "href": "about.html#project-leads",
+    "title": "About",
+    "section": "Project Leads",
+    "text": "Project Leads\nJulia Stewart Lowndes, PhD\nNational Center for Ecological Analysis and Synthesis (NCEAS)\nUniversity of California Santa Barbara (UCSB)\nlowndes at nceas.ucsb.edu; @juliesquid\n\nErin Robinson, MSc\nMetadata Game Changers, LLC\nUniversity of Colorado, Boulder\nerin@metadatagamechangers.com; @connector_erin"
+  },
+  {
+    "objectID": "about.html#project-teams",
+    "href": "about.html#project-teams",
+    "title": "About",
+    "section": "Project Teams",
+    "text": "Project Teams\nNASA-Openscapes Mentors are a cross-DAAC Mentor community that is co-creating common tutorials, resources, and teaching approaches to support researchers migrating worksflows to the Cloud.\nLearn more about the NASA-Openscapes Champions — coming soon."
+  },
+  {
+    "objectID": "about.html#partners",
+    "href": "about.html#partners",
+    "title": "About",
+    "section": "Partners",
+    "text": "Partners\nThis project allows us to partner with organizations that share Openscapes’ values of open, reproducible, and inclusive science:\n\nThe Carpentries teach foundational coding and data science skills to researchers worldwide. Openscapes is joining The Carpentries through this project as a Silver Member, which includes four Carpentries workshops per year and instructor training opportunities to the NASA DAAC community.\n2i2c develops, deploys, customizes, and manages open source tools and cloud services for interactive computing in research and education. They deploy community-driven infrastructure, inspired by use-cases such as the UC Berkeley DataHubs and the Pangeo project, that provides easy “one-click-to-cloud” access with Jupyter Notebooks through the web browser designed to reduce the startup burden for new learners, and this approach will also benefit the NASA DAAC community."
+  },
+  {
+    "objectID": "about.html#learn-more",
+    "href": "about.html#learn-more",
+    "title": "About",
+    "section": "Learn More",
+    "text": "Learn More\n\nearthdata.nasa.gov\nopenscapes.org"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NASA-Openscapes",
+    "section": "",
+    "text": "NASA Openscapes\n\n\n\nEarth science is changing. We support scientists using data from NASA Earthdata served from the Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.\nWe are influenced and inspired by many leaders and community organizers, particularly in climate justice and get out the vote movements. That means, we know this isn’t just about us or an effort we can do alone. We are always looking to learn and build from, with, and for others.\nProject announcements: NASA • Openscapes\nRead blog posts about the work of NASA Openscapes Mentors and Champions\nPlease connect with us on Twitter @openscapes or join our newsletter"
+  },
+  {
+    "objectID": "mentors.html",
+    "href": "mentors.html",
+    "title": "Mentors",
+    "section": "",
+    "text": "We’re onboarding Mentors for Year 2!\nBackground: Join a cross-DAAC mentor community creating & teaching resources to help researchers migrate workflows to the cloud. We meet and learn together, working with alignment on common needs for researchers using NASA Earthdata. Mentors receive Carpentries Instructor training and Openscapes mentorship to help you refine teaching strategies for Cloud, while collaborating on cloud tutorials to reuse rather than reinventing separately. You will teach and support in opportunities of different types: Hackathons, Workshops, and the Openscapes Champions program. We expect a range of technical ability and teaching experience. Through these growth opportunities within a broader community engagement approach, you will also gain visibility for your work as well as for your DAACs. The expected time commitment is 3-4 days/month per year. This accounts for a minimum of 4 hours/month of synchronous calls with the rest of the time being self-directed towards improving support approaches for your specific DAAC.\n\n\nOur immediate activities with the Mentors are:\n\nStrengthen the DAAC Mentor community of practice as they develop and teach a common set of tutorials and coordinate and lead learning events, in part through our twice monthly Openscapes Cohort Calls\nLead the 2022 NASA Openscapes Champions cohort with research teams (March-April), with Mentors assisting to support researchers and learn a new modality of support\n\nTentative schedule:\n\nMarch-April - Champions Cohort support\nMay-June - Continue Champions support through Co-working; regroup to debrief & compare from spring events; prepare to onboard new Mentors; tidy earthdata-cloud-cookbook\nJuly-Aug - summer break/breather\nAug-Sept - Onboard new DAAC Mentors (some additions from existing DAACs and some expansion into new DAACs), prepare for AGU workshop(s)\n\n\n\nThis is a Cohort for research teams using NASA Earthdata and transitioning workflows to the Cloud.\nhttps://nasa-openscapes.github.io/2022-nasa-champions/\n\n\n\n\nOur immediate activities with the Mentors are:\n\nBuild a DAAC community of practice through our twice monthly Openscapes Cohort Calls, a Carpentries Intro Python/Git Workshop, and Carpentries Instructor Training\nDevelop participating teams as Mentors and help them practice teaching in a style to prepare them for a workshop at the American Geophysical Union Conference (AGU) (Dec) and the Openscapes Champions cohort with research teams (early 2022)\nSupport Mentors towards establishing a common set of tutorials that they can then build off their DAAC-specific and science examples\n\n\n\n\nThe Cloud Hackathon: Transitioning Earthdata Workflows to the Cloud is a virtual 5-day (4 hours per day) collaborative open science learning experience aimed at exploring, creating, and promoting effective cloud-based science and applications workflows using NASA Earthdata Cloud data, tools, and services (among others), in support of Earth science data processing and analysis in the era of big data. All details and tutorials are available at: https://nasa-openscapes.github.io/2021-Cloud-Hackathon/.\n\n\n\nWe will have Cohort Calls with the DAAC Mentors throughout 2021. Linked below are blank Agendas that are then copied and used for live note-taking.\n\nCall 1 Agenda: We started working towards a common understanding of how open science leads to transformational, better science in less time and develop our plan as a Cohort\n\nSlide Decks:\nEmpowering Transformational Science - Chelle Gentemann\nBetter science in less time & Openscapes mindset - Julie Lowndes\n\nCall 2 Agenda: We heard about each other’s work more and start discussing creating cloud tutorials and thinking about next steps\n\nResources:\nPathways Template\n\nCall 3 Agenda: We discussed how the group would like to work together to create teaching materials, and discussed a teaching model for future sessions\nCall 4 Agenda: We will discuss how data + common resources + custom tutorials = science users starting to migrate workflows to the cloud, and the LP DAAC will lead a teaching demo\n\nGitHub Clinic #1: GitHub for collaborative research through publication and project management, through hands-on practice from the browser\nWork Session: LP DAAC\n\nCall 5 Agenda: We heard the IMPACT share about their tutorial process, LP DAAC gave updates from their Work Session, and we did intro demos & planning with 2i2c, Jupyter Hubs, and our NASA-OpenscapesGitHub Organization\n\nGitHub Clinic #2: We demoed and practiced GitHub’s branches, pull requests, and project boards to collaborate and stay organized from the browser.\n\nCall 6 Agenda: NSIDC and PODAAC teams shared about their tutorial process, and we discussed plans forward with Jupyterbooks, 2i2c, Carpentries, and the upcoming Science Champions\n\nWork Session: PO.DAAC\n\nCall 7 Agenda: We shared our pathways forward, discussed plans for the Science Champions cohort and how to contribute to our tutorial book.\n\nCookbook Workflow Clinic #1: We demoed and practiced contributing to our tutorial Cookbook with Quarto + GitHub\nCarpentries Instructor Training, 9 Mentors participated\n\nCall 8 Agenda: The main focus of this call was to recap the Mentors experience with Carpentries Instructor Training and a Cookbook Work Session; Julie demoed and the group discussed and practiced pushing their work to a branch and creating a pull request\n\nCo-working sessions\n\nCall 9 Agenda: Cookbook Co-Work Session; we’ll discuss, demo, and work!\n\nCo-working sessions\n\nCall 10:\n\nCo-working sessions\n\nLate Summer and Fall: We are preparing for the 2021 Cloud Hackathon, and using our Cohort Calls and additional Co-working sessions to develop and practice tutorials. Learn more: https://nasa-openscapes.github.io/2021-Cloud-Hackathon"
+  },
+  {
+    "objectID": "mentors.html#past-participants",
+    "href": "mentors.html#past-participants",
+    "title": "Mentors",
+    "section": "Past Participants",
+    "text": "Past Participants\n\nJennifer Adams\nGES DISC\n\n\nVishal Bagadia\nVishal Bagadia is a data science analyst working on contract at the Atmospheric Science Data Center DAAC, NASA Langley Research Center. His experience in exploring emissions retrievals from satellite missions and guiding science teams during the development of their research products powers his work on addressing data interoperability concerns and being responsive to user’s engagement with the archived data. He is energized in leveraging emerging, free, and open-source technologies to better represent and visualize large datasets, building web applications to meet user’s data transformation and accessibility needs, and ultimately producing sustainable solutions to meet end-user requirements as data moves into the cloud.\n\n\nCole Krehbiel\nCole Krehbiel is a remote sensing data scientist working as a contractor to NASA’s Land Processes Distributed Active Archive Center (LP DAAC). He is interested in improving access to geospatial data for diverse user communities. Cole supports missions archived and distributed by the LP DAAC including MODIS, VIIRS, ASTER, ECOSTRESS, and GEDI by creating Python tutorials and data prep scripts and providing workshops and webinars to facilitate community uptake and understanding of those missions.\n\n\nPaul Moth\nPaul Moth is a Data Support Specialist at the National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC). He is part of the User Services team and currently represents MODIS, VIIRS, SMAP, High Mountain Asia, and Nimbus missions at NSIDC DAAC. He is interested in working with early adopters and science team members and gathering feedback that identifies the key operations/steps/workflows that would be most important for creating tutorials and educational materials.\n\n\nMatt Tisdale\nMatt Tisdale is a data scientist working at the NASA Atmospheric Science Data Center (ASDC). He is interested in improving access to ASDC satellite and airborne data products. He uses ArcGIS, OPeNDAP, Python, and Jupyter notebooks to show users how to obtain and analyze data from ASDC. I am interested in learning more cloud analysis techniques to share with our user base as more and more of our ASDC data products are migrated to the cloud."
+  },
+  {
+    "objectID": "tutorials.html",
+    "href": "tutorials.html",
+    "title": "Tutorials",
+    "section": "",
+    "text": "As NASA DAACs transition data to the cloud, tooling and workflows will evolve. We organize tutorials in books, with the idea that each teaching event has its own book that is developed for a concrete audience and is a snapshot in time, and that the Earthdata Cloud Cookbook will be a collection of the most up-to-date tutorials."
+  },
+  {
+    "objectID": "tutorials.html#ecostress-workshop",
+    "href": "tutorials.html#ecostress-workshop",
+    "title": "Tutorials",
+    "section": "2022 ECOSTRESS Workshop",
+    "text": "2022 ECOSTRESS Workshop\nhttps://nasa-openscapes.github.io/2022-ECOSTRESS-Workshop/"
+  },
+  {
+    "objectID": "tutorials.html#swot-ocean-cloud-workshop",
+    "href": "tutorials.html#swot-ocean-cloud-workshop",
+    "title": "Tutorials",
+    "section": "2022 SWOT Ocean Cloud Workshop",
+    "text": "2022 SWOT Ocean Cloud Workshop\nhttps://podaac.github.io/2022-SWOT-Ocean-Cloud-Workshop/"
+  },
+  {
+    "objectID": "tutorials.html#cloud-hackathon",
+    "href": "tutorials.html#cloud-hackathon",
+    "title": "Tutorials",
+    "section": "2021 Cloud Hackathon",
+    "text": "2021 Cloud Hackathon\nhttps://nasa-openscapes.github.io/2021-Cloud-Hackathon"
+  },
+  {
+    "objectID": "tutorials.html#cloud-agu-workshop",
+    "href": "tutorials.html#cloud-agu-workshop",
+    "title": "Tutorials",
+    "section": "2021 Cloud AGU Workshop",
+    "text": "2021 Cloud AGU Workshop\nhttps://nasa-openscapes.github.io/2021-Cloud-Workshop-AGU"
+  },
+  {
+    "objectID": "tutorials.html#earthdata-cloud-cookbook",
+    "href": "tutorials.html#earthdata-cloud-cookbook",
+    "title": "Tutorials",
+    "section": "Earthdata Cloud Cookbook",
+    "text": "Earthdata Cloud Cookbook\nto be updated with 2021 Cloud Hackathon tutorials\nhttps://nasa-openscapes.github.io/earthdata-cloud-cookbook"
+  }
+]
