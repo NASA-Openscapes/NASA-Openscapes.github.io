@@ -15,6 +15,10 @@ Meet the 10 science teams participating in the 2022 NASA Champions Cohort as the
 
 <https://nasa-openscapes.github.io/2022-nasa-champions/>
 
+And learn more about their work in the blog post:
+
+[From downloading data to Cloud access: NASA Openscapes Champions Wrap-up](https://www.openscapes.org/blog/2022/05/12/nasa-2022-champions/)
+
 ## Overview
 
 [Openscapes](https://openscapes.org) is an approach for doing better science in less time[^1]. We help research groups reimagine data analysis, develop modern skills that are of immediate value to them, and cultivate collaborative and inclusive research communities. Openscapes’ mentorship and community engagement approaches center on open data science as kinder science[^2], enabling increased efficiency and resilience for teams so that their work has more enduring impact.
