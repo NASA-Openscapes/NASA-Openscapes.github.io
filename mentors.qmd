@@ -111,7 +111,7 @@ The NASA Openscapes Mentors community is growing! Mentors from five DAACs contin
 
 ### Chris Battisto
 
-Chris is a Scientific Developer working at the Goddard Earth Sciences Data Information Services Center (GES DISC). He focuses on creating documentation and guides relating to a wide array of GES DISC user support needs, including cloud data access methods and help desk queries. Chris has a background in meteorology, and received a master\'s degree in geography from Northern Illinois University in 2021. 
+Chris is a Scientific Developer working at the Goddard Earth Sciences Data Information Services Center (GES DISC). He focuses on creating documentation and guides relating to a wide array of GES DISC user support needs, including cloud data access methods and help desk queries. Chris has a background in meteorology, and received a master's degree in geography from Northern Illinois University in 2021. 
 
 ### Brandon Bottomley
 
@@ -131,13 +131,15 @@ Aaron Friesz is the Science Coordination Lead at NASA's Land Processes Distribut
 
 ### Alexander Lewandowski
 
-### Brianna Lind
+### Bri Lind
+
+Bri is a Geospatial Data Scientist at NASA\'s Land Processes Distributed Active Archive Center (LP DAAC).  Bri is formally trained as an ecologist and remote sensing scientist and is deeply interested in facilitating the fusion of diverse remote sensing products with field data to enhance scientific insight. As a visual learner and science-oriented coder, Bri is focused on making materials that are easy to understand and likes to convert challenging concepts into flexible and easy-to-apply approaches.
 
 ### Luis Lopez
 
 [Luis Lopez](https://www.linkedin.com/in/betolink/) is a Research Software Engineer at the National Snow and Ice Data Center (NSIDC) in Boulder, Colorado. He has helped develop tools and services to facilitate data access and discoverability across different NASA Earth missions. He is a passionate advocate of open science and has contributed to open source projects such as Apache Nutch, PyLDAVis and others. He's always happy to help scientists find ways to make their workflows more efficient. Luis has presented his work at SciPy LATAM, PyData Global and the IEEE annual Big Data symposium.
 
-### Catalina Oaida Taglialatela 
+### Catalina Oaida Taglialatela
 
 [**Catalina M. OaidaTaglialatela, PhD**](https://www.linkedin.com/in/catalina-oaida-1128b488/) is an Applied Science System Engineer at NASA's JPL (and PO.DAAC), combining hydrology and Earth science domain expertise (science researcher by training) with a system engineering perspective. Focus on broadening the user base for NASA Earth observations and remote sensing data in the Cloud, and helping increase discoverability, accessibility and usability of these data for the science research and applications communities, and enabling shorter "time to science". Reducing those barriers to science when data and services are in the cloud, while recognizing that there is a great diversity in user needs, experiences, domain expertise, access to resources - create and implement a comprehensive plan to ensure as many of these user 'types' are supported. Develop science use cases as training examples, leveraging open data and open science (and tools). Learning from others and co-creating.
 
@@ -149,11 +151,11 @@ Jack McNelis is a Science Applications Software Engineer at NASA Jet Propulsion 
 
 ### Cassie Nickles
 
-Dr. Nickles is an Applied Science Systems Engineer Postdoc working with the Physical Oceanography Data Active Archive Center (PO.DAAC) at NASA\'s Jet Propulsion Laboratory (JPL). As an applied science researcher herself, Cassie focuses on the end-user experience working with cloud-based datasets. She writes coding tutorials in Jupyter Notebooks to help facilitate data ease of access and provide science application examples. She actively seeks ways to curate cloud data and information so that end-users from a variety of backgrounds can understand and discover their optimal cloud workflows. Cassie has research expertise in hydrologic remote sensing and graduated with a PhD in Civil Engineering from Northeastern University in 2021.
+Dr. Nickles is an Applied Science Systems Engineer Postdoc working with the Physical Oceanography Data Active Archive Center (PO.DAAC) at NASA's Jet Propulsion Laboratory (JPL). As an applied science researcher herself, Cassie focuses on the end-user experience working with cloud-based datasets. She writes coding tutorials in Jupyter Notebooks to help facilitate data ease of access and provide science application examples. She actively seeks ways to curate cloud data and information so that end-users from a variety of backgrounds can understand and discover their optimal cloud workflows. Cassie has research expertise in hydrologic remote sensing and graduated with a PhD in Civil Engineering from Northeastern University in 2021.
 
 ### Brianna Pagán
 
-Brianna is the Lead Development Engineer at NASA\'s Goddard Earth Sciences (GES) Data and Information Services Center (DISC). In her role, Brianna guides the transition of on premise services to an entirely cloud-based infrastructure across various engineering teams. Her previous experience involves leading the research and development of remote-sensing based products, working alongside teams of geospatial scientists and developers to get services in production environments. Brianna\'s research expertise is in remote sensing and eco-hydrology. 
+Brianna is the Lead Development Engineer at NASA's Goddard Earth Sciences (GES) Data and Information Services Center (DISC). In her role, Brianna guides the transition of on premise services to an entirely cloud-based infrastructure across various engineering teams. Her previous experience involves leading the research and development of remote-sensing based products, working alongside teams of geospatial scientists and developers to get services in production environments. Brianna's research expertise is in remote sensing and eco-hydrology. 
 
 ### Muthukumaran Ramasubramanian
 
@@ -174,6 +176,8 @@ Amy Steiker is the NSIDC DAAC Data Services Engineer, specializing in the develo
 [Makhan Virdi](https://www.linkedin.com/in/mlvirdi/) is the ASDC DAAC Scientist, experienced in creating geospatial tools and services for science-based analysis, visualization (UI/UX), discovery and distribution of data generated by field/laboratory observations, remote sensing, and model simulation. He is interested in AI/ML for earth science data, multi-sensor data fusion, and data analytics in the cloud. He is excited to be part of the Openscapes community, and is looking forward to learning from peers, and sharing his knowledge and skills with the community to develop and promote data science techniques, best practices, and inter-agency collaborations.
 
 ### Jess Welch
+
+Since September 2018, [Dr. Jessica Nicole Welch](https://www.linkedin.com/in/jessicanicolewelch/) has held a position at the ORNL DAAC, which specializes in data archive for terrestrial biogeochemistry, ecology, and environmental processes. Her work focuses on dataset curation, project coordination, and science communication. Jess holds a PhD in Conservation Biology from the [Department of Ecology and Evolutionary Biology](https://eeb.utk.edu/) at the University of Tennessee. When she's not working at ORNL or participating in community service, she plays [Ultimate](https://www.usaultimate.org/about/ultimate/) with her friends.
 
 ## Past Participants
 
