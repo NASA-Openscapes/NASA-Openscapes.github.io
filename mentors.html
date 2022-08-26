@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.38">
+<meta name="generator" content="quarto-1.1.132">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -66,10 +71,14 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
-    <img src="./images/openscapes_hex.png" alt="">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/openscapes_hex.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">NASA-Openscapes</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -110,7 +119,7 @@ ul.task-list{list-style: none;}
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Contents</h2>
    
   <ul>
@@ -137,7 +146,7 @@ ul.task-list{list-style: none;}
   <li><a href="#alexis-hunzinger" id="toc-alexis-hunzinger" class="nav-link" data-scroll-target="#alexis-hunzinger">Alexis Hunzinger</a></li>
   <li><a href="#mahsa-jami" id="toc-mahsa-jami" class="nav-link" data-scroll-target="#mahsa-jami">Mahsa Jami</a></li>
   <li><a href="#alexander-lewandowski" id="toc-alexander-lewandowski" class="nav-link" data-scroll-target="#alexander-lewandowski">Alexander Lewandowski</a></li>
-  <li><a href="#brianna-lind" id="toc-brianna-lind" class="nav-link" data-scroll-target="#brianna-lind">Brianna Lind</a></li>
+  <li><a href="#bri-lind" id="toc-bri-lind" class="nav-link" data-scroll-target="#bri-lind">Bri Lind</a></li>
   <li><a href="#luis-lopez" id="toc-luis-lopez" class="nav-link" data-scroll-target="#luis-lopez">Luis Lopez</a></li>
   <li><a href="#catalina-oaida-taglialatela" id="toc-catalina-oaida-taglialatela" class="nav-link" data-scroll-target="#catalina-oaida-taglialatela">Catalina Oaida Taglialatela</a></li>
   <li><a href="#celia-ou" id="toc-celia-ou" class="nav-link" data-scroll-target="#celia-ou">Celia Ou</a></li>
@@ -288,7 +297,7 @@ ul.task-list{list-style: none;}
 </section>
 <section id="chris-battisto" class="level3">
 <h3 class="anchored" data-anchor-id="chris-battisto">Chris Battisto</h3>
-<p>Chris is a Scientific Developer working at the Goddard Earth Sciences Data Information Services Center (GES DISC). He focuses on creating documentation and guides relating to a wide array of GES DISC user support needs, including cloud data access methods and help desk queries. Chris has a background in meteorology, and received a master's degree in geography from Northern Illinois University in 2021.&nbsp;</p>
+<p>Chris is a Scientific Developer working at the Goddard Earth Sciences Data Information Services Center (GES DISC). He focuses on creating documentation and guides relating to a wide array of GES DISC user support needs, including cloud data access methods and help desk queries. Chris has a background in meteorology, and received a master’s degree in geography from Northern Illinois University in 2021.&nbsp;</p>
 </section>
 <section id="brandon-bottomley" class="level3">
 <h3 class="anchored" data-anchor-id="brandon-bottomley">Brandon Bottomley</h3>
@@ -313,8 +322,9 @@ ul.task-list{list-style: none;}
 <section id="alexander-lewandowski" class="level3">
 <h3 class="anchored" data-anchor-id="alexander-lewandowski">Alexander Lewandowski</h3>
 </section>
-<section id="brianna-lind" class="level3">
-<h3 class="anchored" data-anchor-id="brianna-lind">Brianna Lind</h3>
+<section id="bri-lind" class="level3">
+<h3 class="anchored" data-anchor-id="bri-lind">Bri Lind</h3>
+<p>Bri is a Geospatial Data Scientist at NASA's Land Processes Distributed Active Archive Center (LP DAAC).&nbsp; Bri is formally trained as an ecologist and remote sensing scientist and is deeply interested in facilitating the fusion of diverse remote sensing products with field data to enhance scientific insight. As a visual learner and science-oriented coder, Bri is focused on making materials that are easy to understand and likes to convert challenging concepts into flexible and easy-to-apply approaches.</p>
 </section>
 <section id="luis-lopez" class="level3">
 <h3 class="anchored" data-anchor-id="luis-lopez">Luis Lopez</h3>
@@ -333,11 +343,11 @@ ul.task-list{list-style: none;}
 </section>
 <section id="cassie-nickles" class="level3">
 <h3 class="anchored" data-anchor-id="cassie-nickles">Cassie Nickles</h3>
-<p>Dr.&nbsp;Nickles is an Applied Science Systems Engineer Postdoc working with the Physical Oceanography Data Active Archive Center (PO.DAAC) at NASA's Jet Propulsion Laboratory (JPL). As an applied science researcher herself, Cassie focuses on the end-user experience working with cloud-based datasets. She writes coding tutorials in Jupyter Notebooks to help facilitate data ease of access and provide science application examples. She actively seeks ways to curate cloud data and information so that end-users from a variety of backgrounds can understand and discover their optimal cloud workflows. Cassie has research expertise in hydrologic remote sensing and graduated with a PhD in Civil Engineering from Northeastern University in 2021.</p>
+<p>Dr.&nbsp;Nickles is an Applied Science Systems Engineer Postdoc working with the Physical Oceanography Data Active Archive Center (PO.DAAC) at NASA’s Jet Propulsion Laboratory (JPL). As an applied science researcher herself, Cassie focuses on the end-user experience working with cloud-based datasets. She writes coding tutorials in Jupyter Notebooks to help facilitate data ease of access and provide science application examples. She actively seeks ways to curate cloud data and information so that end-users from a variety of backgrounds can understand and discover their optimal cloud workflows. Cassie has research expertise in hydrologic remote sensing and graduated with a PhD in Civil Engineering from Northeastern University in 2021.</p>
 </section>
 <section id="brianna-pagán" class="level3">
 <h3 class="anchored" data-anchor-id="brianna-pagán">Brianna Pagán</h3>
-<p>Brianna is the Lead Development Engineer at NASA's Goddard Earth Sciences (GES) Data and Information Services Center (DISC). In her role, Brianna guides the transition of on premise services to an entirely cloud-based infrastructure across various engineering teams. Her previous experience involves leading the research and development of remote-sensing based products, working alongside teams of geospatial scientists and developers to get services in production environments. Brianna's research expertise is in remote sensing and eco-hydrology.&nbsp;</p>
+<p>Brianna is the Lead Development Engineer at NASA’s Goddard Earth Sciences (GES) Data and Information Services Center (DISC). In her role, Brianna guides the transition of on premise services to an entirely cloud-based infrastructure across various engineering teams. Her previous experience involves leading the research and development of remote-sensing based products, working alongside teams of geospatial scientists and developers to get services in production environments. Brianna’s research expertise is in remote sensing and eco-hydrology.&nbsp;</p>
 </section>
 <section id="muthukumaran-ramasubramanian" class="level3">
 <h3 class="anchored" data-anchor-id="muthukumaran-ramasubramanian">Muthukumaran Ramasubramanian</h3>
@@ -364,6 +374,7 @@ ul.task-list{list-style: none;}
 </section>
 <section id="jess-welch" class="level3">
 <h3 class="anchored" data-anchor-id="jess-welch">Jess Welch</h3>
+<p>Since September 2018, <a href="https://www.linkedin.com/in/jessicanicolewelch/">Dr.&nbsp;Jessica Nicole Welch</a> has held a position at the ORNL DAAC, which specializes in data archive for terrestrial biogeochemistry, ecology, and environmental processes. Her work focuses on dataset curation, project coordination, and science communication. Jess holds a PhD in Conservation Biology from the <a href="https://eeb.utk.edu/">Department of Ecology and Evolutionary Biology</a> at the University of Tennessee. When she’s not working at ORNL or participating in community service, she plays <a href="https://www.usaultimate.org/about/ultimate/">Ultimate</a> with her friends.</p>
 </section>
 <section id="past-participants" class="level2">
 <h2 class="anchored" data-anchor-id="past-participants">Past Participants</h2>
@@ -461,7 +472,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
