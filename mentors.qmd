@@ -9,18 +9,19 @@ output:
     toc_depth: 3
 ---
 
-# Mentor Cohort Activities
+![](images/NASA-DAAC-logos.png)
 
-**We're onboarding Mentors for Year 2!**
+This cross-DAAC mentor community is creating & teaching resources to help researchers migrate workflows to the cloud. We meet and learn together, working with alignment on common needs for researchers using NASA Earthdata. Mentors receive Carpentries Instructor training and Openscapes mentorship to help you refine teaching strategies for Cloud, while collaborating on cloud tutorials to reuse rather than reinventing separately. Mentors teach and support in opportunities of different types: Hackathons, Workshops, and the Openscapes Champions program. We expect a range of technical ability and teaching experience. Through these growth opportunities within a broader community engagement approach, Mentors will also gain visibility for their work as well as for their DAACs. The expected time commitment is 3-4 days/month per year. This accounts for a minimum of 4 hours/month of synchronous calls with the rest of the time being self-directed towards improving support approaches for specific DAACs.
 
-Background: Join a cross-DAAC mentor community creating & teaching resources to help researchers migrate workflows to the cloud. We meet and learn together, working with alignment on common needs for researchers using NASA Earthdata. Mentors receive Carpentries Instructor training and Openscapes mentorship to help you refine teaching strategies for Cloud, while collaborating on cloud tutorials to reuse rather than reinventing separately. You will teach and support in opportunities of different types: Hackathons, Workshops, and the Openscapes Champions program. We expect a range of technical ability and teaching experience. Through these growth opportunities within a broader community engagement approach, you will also gain visibility for your work as well as for your DAACs. The expected time commitment is 3-4 days/month per year. This accounts for a minimum of 4 hours/month of synchronous calls with the rest of the time being self-directed towards improving support approaches for your specific DAAC.
+# Current Activities
 
-## 2022
-
-**Our immediate activities with the Mentors are:**
+**2022 goals:**
 
 -   Strengthen the DAAC Mentor community of practice as they develop and teach a common set of tutorials and coordinate and lead learning events, in part through our twice monthly Openscapes Cohort Calls
--   Lead the annual events together (a hackathon and Champions cohort) with research teams, with Mentors assisting to support researchers and learn new modalities of support
+- Reuse and refine shared teaching resources, share stories and lessons learned at conferences and meetups
+-   Lead events together (a hackathon and Champions cohort) with research teams, with Mentors assisting to support researchers and learn new modalities of support
+
+<!---
 
 **Our schedule:**
 
@@ -32,15 +33,11 @@ Background: Join a cross-DAAC mentor community creating & teaching resources to 
 
 4.  **Back to our DAAC Mentor schedule:** We will pick back up on regular meetings on August 25 (or that week) with our biweekly meetings. Our initial call will include sharing plans, UWGs and other events on the calendar and continuing the orientation for new DAAC mentors. Returning DAAC mentors will walk through the initial cloud tutorials as a way to onboard the group to data access in the cloud and to get your fresh perspective on our existing material. (What works? What's confusing?) 
 
-### 2022 NASA Champions Cohort
+--->
 
-This is a Cohort for research teams using NASA Earthdata and transitioning workflows to the Cloud.
+# Ongoing and Previous Activities
 
-<https://nasa-openscapes.github.io/2022-nasa-champions/>
-
-## 2021
-
-**Our immediate activities with the Mentors are:**
+**2021 goals:**
 
 -   Build a DAAC community of practice through our twice monthly Openscapes Cohort Calls, a Carpentries Intro Python/Git Workshop, and Carpentries Instructor Training
 -   Develop participating teams as Mentors and help them practice teaching in a style to prepare them for a workshop at the American Geophysical Union Conference (AGU) (Dec) and the Openscapes Champions cohort with research teams (early 2022)
@@ -48,11 +45,22 @@ This is a Cohort for research teams using NASA Earthdata and transitioning workf
 
 <br>
 
+### 2022 NASA Champions Cohort
+
+This is a Cohort for research teams using NASA Earthdata and transitioning workflows to the Cloud.
+
+<https://nasa-openscapes.github.io/2022-nasa-champions/>
+
+
+
 ### 2021 Cloud Hackathon
 
 The **Cloud Hackathon: Transitioning Earthdata Workflows to the Cloud** is a virtual 5-day (4 hours per day) collaborative open science learning experience aimed at exploring, creating, and promoting effective cloud-based science and applications workflows using NASA Earthdata Cloud data, tools, and services (among others), in support of Earth science data processing and analysis in the era of big data. All details and tutorials are available at: <https://nasa-openscapes.github.io/2021-Cloud-Hackathon/>.<br>
 
-### Mentors Cohort Calls Summaries
+
+<!---
+
+Mentors Cohort Calls Summaries
 
 We will have Cohort Calls with the DAAC Mentors throughout 2021. Linked below are blank Agendas that are then copied and used for live note-taking.
 
@@ -101,13 +109,13 @@ We will have Cohort Calls with the DAAC Mentors throughout 2021. Linked below ar
 
 -   **Late Summer and Fall**: We are preparing for the 2021 Cloud Hackathon, and using our Cohort Calls and additional Co-working sessions to develop and practice tutorials. Learn more: <https://nasa-openscapes.github.io/2021-Cloud-Hackathon>
 
+--->
+
 # Mentor Cohort
 
 The NASA Openscapes Mentors community is growing! Mentors from five DAACs continuing from 2021 are noted with an \* below. We are excited to see the DAAC mentor community expand across the initial five DAACs to seven DAACS with ORNL and ASF Mentors joining us in 2022. Welcome!
 
-![](images/NASA-DAAC-logos.png)
-
-### Andy Barrett
+### Andy Barrett*
 
 ### Chris Battisto
 
@@ -115,7 +123,7 @@ Chris is a Scientific Developer working at the Goddard Earth Sciences Data Infor
 
 ### Brandon Bottomley
 
-### Aaron Friesz
+### Aaron Friesz*
 
 Aaron Friesz is the Science Coordination Lead at NASA's Land Processes Distributed Active Archive Center (LP DAAC). In his role, Aaron provides user needs insights and technical support for archive and distribution, service development, and outreach activities. He develops tutorials, scripts, and presentations that highlight the use of land remote sensing data in analysis workflows. More recently, his work has focused on advocating for the uptake of cloud computing in the land remote sensing community.
 
@@ -123,7 +131,7 @@ Aaron Friesz is the Science Coordination Lead at NASA's Land Processes Distribut
 
 ### Iksha Gurung
 
-### Alexis Hunzinger
+### Alexis Hunzinger*
 
 [Alexis Hunzinger](https://www.linkedin.com/in/alexis-hunzinger) is a Support Scientist at the NASA Goddard Earth Sciences Data and Information Services Center (GES DISC), focused on addressing the needs of the user community. Alexis works closely with the GES DISC User Working Group, fielding concerns and suggestions to be implemented at the DAAC. She also leads the effort at GES DISC of developing guides, tutorials, and other resources designed to educate and welcome users to the Earthdata Cloud.
 
@@ -133,19 +141,19 @@ Aaron Friesz is the Science Coordination Lead at NASA's Land Processes Distribut
 
 ### Bri Lind
 
-Bri is a Geospatial Data Scientist at NASA\'s Land Processes Distributed Active Archive Center (LP DAAC).  Bri is formally trained as an ecologist and remote sensing scientist and is deeply interested in facilitating the fusion of diverse remote sensing products with field data to enhance scientific insight. As a visual learner and science-oriented coder, Bri is focused on making materials that are easy to understand and likes to convert challenging concepts into flexible and easy-to-apply approaches.
+Bri is a Geospatial Data Scientist at NASA's Land Processes Distributed Active Archive Center (LP DAAC).  Bri is formally trained as an ecologist and remote sensing scientist and is deeply interested in facilitating the fusion of diverse remote sensing products with field data to enhance scientific insight. As a visual learner and science-oriented coder, Bri is focused on making materials that are easy to understand and likes to convert challenging concepts into flexible and easy-to-apply approaches.
 
-### Luis Lopez
+### Luis Lopez*
 
 [Luis Lopez](https://www.linkedin.com/in/betolink/) is a Research Software Engineer at the National Snow and Ice Data Center (NSIDC) in Boulder, Colorado. He has helped develop tools and services to facilitate data access and discoverability across different NASA Earth missions. He is a passionate advocate of open science and has contributed to open source projects such as Apache Nutch, PyLDAVis and others. He's always happy to help scientists find ways to make their workflows more efficient. Luis has presented his work at SciPy LATAM, PyData Global and the IEEE annual Big Data symposium.
 
-### Catalina Oaida Taglialatela
+### Catalina Oaida Taglialatela*
 
 [**Catalina M. OaidaTaglialatela, PhD**](https://www.linkedin.com/in/catalina-oaida-1128b488/) is an Applied Science System Engineer at NASA's JPL (and PO.DAAC), combining hydrology and Earth science domain expertise (science researcher by training) with a system engineering perspective. Focus on broadening the user base for NASA Earth observations and remote sensing data in the Cloud, and helping increase discoverability, accessibility and usability of these data for the science research and applications communities, and enabling shorter "time to science". Reducing those barriers to science when data and services are in the cloud, while recognizing that there is a great diversity in user needs, experiences, domain expertise, access to resources - create and implement a comprehensive plan to ensure as many of these user 'types' are supported. Develop science use cases as training examples, leveraging open data and open science (and tools). Learning from others and co-creating.
 
 ### Celia Ou
 
-### Jack McNelis
+### Jack McNelis*
 
 Jack McNelis is a Science Applications Software Engineer at NASA Jet Propulsion Laboratory (and the PO.DAAC) with experience leveraging EOS data for rangeland ecosystem monitoring applications. He develops and curates metadata to describe PO.DAAC data holdings, and to better integrate them with data delivery services and end user softwares. He also develops resources for users to be better prepared to implement their analyses in the cloud.
 
@@ -165,13 +173,13 @@ Brianna is the Lead Development Engineer at NASA's Goddard Earth Sciences (GES) 
 
 ### Christine Smit
 
-### Amy Steiker
+### Amy Steiker*
 
 Amy Steiker is the NSIDC DAAC Data Services Engineer, specializing in the development and management of data education resources, tools, and services for NSIDC DAAC's growing user community, as well as data transformation service development for NASA EOSDIS. She is excited to join this first Openscapes cohort to work together with our science communities to develop and sustain tooling that supports their data processing workflows as they transition to the Earthdata Cloud.
 
 ### Michele Thornton
 
-### Makhan Virdi
+### Makhan Virdi*
 
 [Makhan Virdi](https://www.linkedin.com/in/mlvirdi/) is the ASDC DAAC Scientist, experienced in creating geospatial tools and services for science-based analysis, visualization (UI/UX), discovery and distribution of data generated by field/laboratory observations, remote sensing, and model simulation. He is interested in AI/ML for earth science data, multi-sensor data fusion, and data analytics in the cloud. He is excited to be part of the Openscapes community, and is looking forward to learning from peers, and sharing his knowledge and skills with the community to develop and promote data science techniques, best practices, and inter-agency collaborations.
 
