@@ -35,6 +35,8 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 ## Slides
 
+- [NASA Openscapes Cloud Infrastructure](https://docs.google.com/presentation/d/100aazshfYJfIe5pjQ6w3hswjA9zuuhEd2sZ3P4LhxJc/edit#slide=id.g6c52a2e8d8_0_177) - October 13, Luis Lopez 
+
 - [Efforts to support end users in the journey to the cloud](https://docs.google.com/presentation/d/1OnjRhSgA_6iT4jvUCqW6plhuvwPIn_Vu-cfzo7QX2V4/edit#slide=id.g142ea985af2_0_1) - September 27, 2022: [Open Source Science Data Repositories Workshop 2022](https://science.nasa.gov/open-science-overview/data-repositories-workshop) Steiker, Hunzinger, López, Oaida Taglialatela, Friesz ([video](https://drive.google.com/file/d/1pBcWwS7MLAqbNOOH9qXGLTr42UPm1N_j/view))
 
 
