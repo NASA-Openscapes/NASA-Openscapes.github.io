@@ -42,6 +42,7 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 - [Efforts to support end users in the journey to the cloud](https://docs.google.com/presentation/d/1C9w46DCBY4eIP2KwrrQvDKtj7Uaf_Hr6VzcbxMZ6dxI/edit#slide=id.g142ea985af2_0_1) - August 17, 2022: [ESDIS SE TIM 2022](https://wiki.earthdata.nasa.gov/display/EM/ESDIS+SE+TIM+-+August+2022) Oaida Taglialatela, Hunzinger, Smit, López, Steiker
 
+- [NASA Briefing to Unidata](https://github.com/NASA-Openscapes/NASA-Openscapes.github.io/blob/main/NASA%20Unidata%20Briefing%202022-07.pdf) - July 2022, Christine Smit
 
 - [NASA Openscapes Lessons from Year 1](https://docs.google.com/presentation/d/1jtiku5yOTzBtW2vT1-qwZPri_O2Bc_uzXNebIoKGLMg/edit?usp=sharing) - April 21, 2022: ESDSWG Robinson, Lowndes, López
 
