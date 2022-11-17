@@ -32,7 +32,7 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 - [Early lessons learned from supporting end user’s transition to the cloud](https://docs.google.com/presentation/d/1aDxLzlkiunwyHjQ76GIFxHVmY0z6fsmtOqHAq-zSGms/edit?usp=sharing) - November 16, 2022, Alexis Hunzinger, LAADS DAAC User Working Group 2022
 
-- [NASA Openscapes Cloud Infrastructure](https://docs.google.com/presentation/d/100aazshfYJfIe5pjQ6w3hswjA9zuuhEd2sZ3P4LhxJc/edit#slide=id.g6c52a2e8d8_0_177) - October 13, 2022, Luis Lopez 
+- [NASA Openscapes Cloud Infrastructure](https://docs.google.com/presentation/d/100aazshfYJfIe5pjQ6w3hswjA9zuuhEd2sZ3P4LhxJc/edit#slide=id.g6c52a2e8d8_0_177) - October 13, 2022, Luis Lopez ([video](https://youtu.be/Payju0KDScg))
 
 - [Efforts to support end users in the journey to the cloud](https://docs.google.com/presentation/d/1OnjRhSgA_6iT4jvUCqW6plhuvwPIn_Vu-cfzo7QX2V4/edit#slide=id.g142ea985af2_0_1) - September 27, 2022: [Open Source Science Data Repositories Workshop 2022](https://science.nasa.gov/open-science-overview/data-repositories-workshop) Steiker, Hunzinger, López, Oaida Taglialatela, Friesz ([video](https://drive.google.com/file/d/1pBcWwS7MLAqbNOOH9qXGLTr42UPm1N_j/view)) <!---https://youtu.be/NvMk1GGiA8A?t=13944--->
 
