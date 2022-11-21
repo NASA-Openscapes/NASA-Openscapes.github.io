@@ -36,10 +36,16 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 - [Efforts to support end users in the journey to the cloud](https://docs.google.com/presentation/d/1OnjRhSgA_6iT4jvUCqW6plhuvwPIn_Vu-cfzo7QX2V4/edit#slide=id.g142ea985af2_0_1) - September 27, 2022: [Open Source Science Data Repositories Workshop 2022](https://science.nasa.gov/open-science-overview/data-repositories-workshop) Steiker, Hunzinger, López, Oaida Taglialatela, Friesz ([video](https://drive.google.com/file/d/1pBcWwS7MLAqbNOOH9qXGLTr42UPm1N_j/view)) <!---https://youtu.be/NvMk1GGiA8A?t=13944--->
 
+- [NASA Earthdata Cloud: Myths, Truths, Questions](https://docs.google.com/presentation/d/1rmzodGujlOQxy4ocl7g2BEqVxMOQoIS_Fw48rifvh0M/edit?usp=sharing) - September 7, 2022. Steiker, Heightley (NSIDC) 
+
 
 - [Efforts to support end users in the journey to the cloud](https://docs.google.com/presentation/d/1C9w46DCBY4eIP2KwrrQvDKtj7Uaf_Hr6VzcbxMZ6dxI/edit#slide=id.g142ea985af2_0_1) - August 17, 2022: [ESDIS SE TIM 2022](https://wiki.earthdata.nasa.gov/display/EM/ESDIS+SE+TIM+-+August+2022) Oaida Taglialatela, Hunzinger, Smit, López, Steiker
 
 - [NASA Briefing to Unidata](https://github.com/NASA-Openscapes/NASA-Openscapes.github.io/blob/main/NASA%20Unidata%20Briefing%202022-07.pdf) - July 2022, Christine Smit
+
+- [NSIDC DAAC User Working Group](https://docs.google.com/presentation/d/1Wtlgt-wUx8HgeWjoxvvz4BwknLlKDmGP2F-pSuI5utQ/edit?usp=sharing) - May 20, 2022. Barrett, Steiker, Meier,  Roebuck, Beig, Lopez, (NSIDC) 
+
+- [NASA Earthdata Cloud & The Cloud Paradigm](https://docs.google.com/presentation/d/1D-d3VQDG-KlRt6gnyfj5aN3yVo1FBsbYTaQInRB4eMw/edit#slide=id.p) - April 2022. Friesz (LP DAAC)
 
 - [NASA Openscapes Lessons from Year 1](https://docs.google.com/presentation/d/1jtiku5yOTzBtW2vT1-qwZPri_O2Bc_uzXNebIoKGLMg/edit?usp=sharing) - April 21, 2022: ESDSWG Robinson, Lowndes, López
 
