@@ -28,7 +28,14 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 [Blog posts](https://www.openscapes.org/tags/nasa-framework/) about NASA Openscapes
 
-## Slides
+## Slides 
+Slides, recordings, and posters
+
+- [`earthaccess`: A Python Library for NASA Earthdata](https://docs.google.com/presentation/d/e/2PACX-1vRhfv35qSFP34fbk1jNE6SHFZJwim8Q6JlQtGmnNXo6UBnjT2xKl0KxP7mxg9P7xs-107QoB9DC7lBs/pub?start=false&loop=false&delayms=3000) - December 13, 2022 - Luis López, Andrew P. Barrett, Julie Lowndes, Joseph H. Kennedy, Erin Robinson, Amy Steiker, Jessica Scheick, The NASA Openscapes mentors team. AGU Fall Conference Poster ([slide](https://docs.google.com/presentation/d/1OOSZzbHv6Ck4lzOE01FQdI4kX0VCfcVBS4pWCc7dtBo/edit?usp=sharing))
+
+- [NASA Openscapes: Lessons Learned supporting Cross-DAAC User Services to migrate to the Cloud](https://docs.google.com/presentation/d/e/2PACX-1vT6ySkrKuwL--u7UUPQ1nfdi4rgP_ccqd2jp2T4gw8WV1IWeU1w3EOADNUmKf-YBhCf5qbFiPvYHl5l/pub?start=false&loop=false&delayms=3000) - December 13, 2022, Aaron Friesz, Alexis Hunzinger, Amy Steiker, Catalina Oaida Taglialatela, Luis López, Cassandra Nickles, Bri Lind, Mahsa Jami, Celia Ou, Julia Stewart Lowndes, Erin Robinson, NASA Openscapes DAAC Mentor Community. AGU Fall Conference Poster ([slide](https://docs.google.com/presentation/d/1v3ifHQSwwwMb4tSzGvk8vHkdiEtmqP1OCSToN34Uln8/edit?usp=sharing))
+
+- [Curating information to guide NASA Earthdata users into the cloud with workflow diagrams and cheatsheets](https://docs.google.com/presentation/d/e/2PACX-1vT1HwF1T8nU4lfSGUiwhWMrrhK5oWGVXMX52x_SA18kbZr6XKXlG77mrJ5AsXUctw/pub?start=false&loop=false&delayms=3000) - December 13, 2022 - Cassandra Nickles, Catalina Oaida Taglialatela, Julie Stewart Lowndes, Amy Steiker, Alexis Hunzinger, Aaron Friesz. AGU Fall Conference Poster ([slide](https://docs.google.com/presentation/d/1xXgIXpNxKhkCfsGAT87QYkwm54Yodxqd/edit?usp=sharing&ouid=110479715275058498320&rtpof=true&sd=true))
 
 - [Early lessons learned from supporting end user’s transition to the cloud](https://docs.google.com/presentation/d/1aDxLzlkiunwyHjQ76GIFxHVmY0z6fsmtOqHAq-zSGms/edit?usp=sharing) - November 16, 2022, Alexis Hunzinger, LAADS DAAC User Working Group 2022
 
