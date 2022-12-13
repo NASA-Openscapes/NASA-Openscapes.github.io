@@ -28,6 +28,10 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 [Blog posts](https://www.openscapes.org/tags/nasa-framework/) about NASA Openscapes
 
+## White Paper
+
+[The Value of Hosted JupyterHubs in enabling Open NASA Earth Science in the Cloud](https://docs.google.com/document/d/1G3NfVtqHXUOrkxR7QzbONhEyO1yEVnys-2jaG14awhI/edit?usp=sharing)
+
 ## Slides 
 Slides, recordings, and posters
 
