@@ -6,6 +6,32 @@ description: |
 
 See also [slides listed on the About page](https://nasa-openscapes.github.io/about.html#slides) that have been presented about NASA Openscapes at conferences and workshops.
 
+## Spring 2023
+
+### April-June 2023: Openscapes Champions Cohort
+
+See <https://nasa-openscapes.github.io/champions> for more details!
+
+## Winter 2023
+
+### March 2023: ESDSWG
+
+Details soon
+
+### January 2023: ESIP 
+
+NASA Openscapes is involved with 3 talks on Tuesday and Wednesday. We're looking forward to seeing you at these and other ESIP sessions: 
+
+- Amy Steiker speaking in [Enabling Open Science with NASA's Earthdata in the Cloud](https://2023januaryesipmeeting.sched.com/event/1EwXE/enabling-open-science-with-nasas-earthdata-in-the-cloud)
+- Julie Lowndes speaking in [Earth and Space Science Knowledge Commons: From vision to implementation](https://2023januaryesipmeeting.sched.com/event/1EwXQ/earth-and-space-science-knowledge-commons-from-vision-to-implementation)
+- Luis Lopez and Cassie Nickles speaking in [Better science for future us: Openscapes stories and approaches for the Year of Open Science](https://2023januaryesipmeeting.sched.com/event/1EwXx/better-science-for-future-us-openscapes-stories-and-approaches-for-the-year-of-open-science)
+
+## Fall 2022
+
+### American Geophysical Union (AGU) Fall Conference
+
+3 posters, hackathon, and plenary lightning talk! 
+
 ## Spring 2022  
 
 
@@ -36,9 +62,9 @@ Point of contact: Amy Steiker
 
 NASA Openscapes Champions is a mentorship and professional development opportunity for research teams using data from NASA Distributed Active Archive Centers (DAACs) and interested in open science and migrating their analytical workflows to the cloud. Learn more and nominate your team: <https://nasa-openscapes.github.io/champions>.
 
-## Past
+## 2021
 
-**January 21, 2011. ESIP**  
+**January 21, 2021. ESIP**  
 We are leading a session at ESIP's Winter Meeting: 
 [Better Science for Future Us: Planning for the Year of Open Science](https://2022esipjanuarymeeting.sched.com/event/qkp5/better-science-for-future-us-planning-for-the-year-of-open-science). 
 
