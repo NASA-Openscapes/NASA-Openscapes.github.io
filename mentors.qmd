@@ -9,7 +9,7 @@ output:
     toc_depth: 3
 ---
 
-![](images/NASA-DAAC-logos.png)
+![](images/NASA-DAAC-logos-2022.png)
 
 This cross-DAAC mentor community is creating & teaching resources to help researchers migrate workflows to the cloud. We meet and learn together, working with alignment on common needs for researchers using NASA Earthdata. Mentors receive Carpentries Instructor training and Openscapes mentorship to help you refine teaching strategies for Cloud, while collaborating on cloud tutorials to reuse rather than reinventing separately. Mentors teach and support in opportunities of different types: Hackathons, Workshops, and the Openscapes Champions program. We expect a range of technical ability and teaching experience. Through these growth opportunities within a broader community engagement approach, Mentors will also gain visibility for their work as well as for their DAACs. The expected time commitment is 3-4 days/month per year. This accounts for a minimum of 4 hours/month of synchronous calls with the rest of the time being self-directed towards improving support approaches for specific DAACs.
 
