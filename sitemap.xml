@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nasa-openscapes.github.io/index.html</loc>
-    <lastmod>2023-01-18T21:42:57.429Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nasa-openscapes.github.io/about.html</loc>
-    <lastmod>2023-01-18T21:42:58.297Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nasa-openscapes.github.io/mentors.html</loc>
-    <lastmod>2023-01-18T21:42:58.801Z</lastmod>
-  </url>
-  <url>
     <loc>https://nasa-openscapes.github.io/events.html</loc>
-    <lastmod>2023-01-18T21:42:59.189Z</lastmod>
+    <lastmod>2023-01-24T19:58:50.256Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/index.html</loc>
+    <lastmod>2023-01-24T19:58:50.896Z</lastmod>
   </url>
   <url>
     <loc>https://nasa-openscapes.github.io/champions.html</loc>
-    <lastmod>2023-01-18T21:42:59.545Z</lastmod>
+    <lastmod>2023-01-24T19:58:51.276Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/about.html</loc>
+    <lastmod>2023-01-24T19:58:51.760Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/mentors.html</loc>
+    <lastmod>2023-01-24T19:58:52.220Z</lastmod>
   </url>
   <url>
     <loc>https://nasa-openscapes.github.io/cookbook-navbar-page.html</loc>
-    <lastmod>2023-01-18T21:42:59.845Z</lastmod>
+    <lastmod>2023-01-24T19:58:52.508Z</lastmod>
   </url>
 </urlset>
