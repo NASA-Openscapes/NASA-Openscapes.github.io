@@ -24,6 +24,7 @@ NASA Openscapes is involved with 3 talks on Tuesday and Wednesday. We're looking
 
 - Amy Steiker speaking in [Enabling Open Science with NASA's Earthdata in the Cloud](https://2023januaryesipmeeting.sched.com/event/1EwXE/enabling-open-science-with-nasas-earthdata-in-the-cloud)
 - Julie Lowndes speaking in [Earth and Space Science Knowledge Commons: From vision to implementation](https://2023januaryesipmeeting.sched.com/event/1EwXQ/earth-and-space-science-knowledge-commons-from-vision-to-implementation)
+- Brianna Pagan speaking in [Bringing Cloud-Native Science “Down To Earth”](https://2023januaryesipmeeting.sched.com/event/1EwXf/bringing-cloud-native-science-down-to-earth)
 - Luis Lopez and Cassie Nickles speaking in [Better science for future us: Openscapes stories and approaches for the Year of Open Science](https://2023januaryesipmeeting.sched.com/event/1EwXx/better-science-for-future-us-openscapes-stories-and-approaches-for-the-year-of-open-science)
 
 ## Fall 2022

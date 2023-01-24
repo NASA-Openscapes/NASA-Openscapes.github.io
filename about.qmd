@@ -35,6 +35,8 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 ## Slides 
 Slides, recordings, and posters
 
+- [Working with NASA Earthdata in the Cloud](https://docs.google.com/presentation/d/1rh6UGUIKp8nNc71jKYQAPPBIoVyikQmQ8CcvwGLn2hI/edit#slide=id.g142ea985af2_0_1) - January 24, 2023 - Amy Steiker, Bri Lind, Julie Lowndes, Luis López, Michele Thornton, and the NASA Openscapes Mentors. [ESIP Winter Meeting](https://2023januaryesipmeeting.sched.com/event/1EwXE/enabling-open-science-with-nasas-earthdata-in-the-cloud) "Enabling Open Science with NASA's Earthdata in the Cloud" Session
+
 - [Supporting open science as a daily practice](https://docs.google.com/presentation/d/19OoPaUVVOA6AFLLd9mYeiM8f1BNNnoAjJCP4RD6Ahe8/edit?usp=sharing)  - December 16, 2022 - Julie Lowndes, Erin Robinson, Openscapes Mentors. AGU Fall Conference Talk, "The Future is Open" session
 
 - [`earthaccess`: A Python Library for NASA Earthdata](https://docs.google.com/presentation/d/e/2PACX-1vRhfv35qSFP34fbk1jNE6SHFZJwim8Q6JlQtGmnNXo6UBnjT2xKl0KxP7mxg9P7xs-107QoB9DC7lBs/pub?start=false&loop=false&delayms=3000) - December 13, 2022 - Luis López, Andrew P. Barrett, Julie Lowndes, Joseph H. Kennedy, Erin Robinson, Amy Steiker, Jessica Scheick, The NASA Openscapes mentors team. AGU Fall Conference Poster ([slide](https://docs.google.com/presentation/d/1OOSZzbHv6Ck4lzOE01FQdI4kX0VCfcVBS4pWCc7dtBo/edit?usp=sharing))
