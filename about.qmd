@@ -30,7 +30,7 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 
 
-##  White Paper: Value of Hosted JupyterHubs
+##  White Paper: The Value of Hosted JupyterHubs
 
 [**The Value of Hosted JupyterHubs in enabling Open NASA Earth Science in the Cloud**](https://zenodo.org/record/7667299#.Y_Zxt3bMJPY) - Nickles et al. 2023. 
 
