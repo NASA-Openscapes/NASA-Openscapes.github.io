@@ -42,11 +42,11 @@
     "text": "Blog\nBlog posts about NASA Openscapes"
   },
   {
-    "objectID": "about.html#white-paper-value-of-hosted-jupyterhubs",
-    "href": "about.html#white-paper-value-of-hosted-jupyterhubs",
+    "objectID": "about.html#white-paper-the-value-of-hosted-jupyterhubs",
+    "href": "about.html#white-paper-the-value-of-hosted-jupyterhubs",
     "title": "About",
-    "section": "White Paper: Value of Hosted JupyterHubs",
-    "text": "White Paper: Value of Hosted JupyterHubs\nThe Value of Hosted JupyterHubs in enabling Open NASA Earth Science in the Cloud - Nickles et al. 2023.\nThis is a response from NASA Openscapes to NASA Request for Information (RFI) NNH23ZDA005L: Scientific Data and Computing Architecture to Support Open Science."
+    "section": "White Paper: The Value of Hosted JupyterHubs",
+    "text": "White Paper: The Value of Hosted JupyterHubs\nThe Value of Hosted JupyterHubs in enabling Open NASA Earth Science in the Cloud - Nickles et al. 2023.\nThis is a response from NASA Openscapes to NASA Request for Information (RFI) NNH23ZDA005L: Scientific Data and Computing Architecture to Support Open Science."
   },
   {
     "objectID": "about.html#slides",
@@ -95,7 +95,7 @@
     "href": "index.html",
     "title": "NASA-Openscapes",
     "section": "",
-    "text": "NASA Openscapes\n\n\n\nEarth science is changing. We support scientists using data from NASA Earthdata served from the Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.\nWe are influenced and inspired by many leaders and community organizers, particularly in climate justice and get out the vote movements. That means, we know this isn’t just about us or an effort we can do alone. We are always looking to learn from, with, and for others.\nProject announcements: NASA • Openscapes\nLearn about our recent work: blog posts • presentations\nPlease connect with us on Twitter @openscapes or join our newsletter"
+    "text": "NASA Openscapes\n\n\n\nEarth science is changing. We support scientists using data from NASA Earthdata served from the Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.\nWe are influenced and inspired by many leaders and community organizers, particularly in climate justice and get out the vote movements. That means, we know this isn’t just about us or an effort we can do alone. We are always looking to learn from, with, and for others.\nProject announcements: NASA • Openscapes\nLearn about our recent work: blog posts • presentations • White Paper: The Value of Hosted JupyterHubs\nPlease connect with us on Twitter @openscapes or join our newsletter"
   },
   {
     "objectID": "events.html",
