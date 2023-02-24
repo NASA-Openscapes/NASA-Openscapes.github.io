@@ -10,11 +10,11 @@ Openscapes champions open, inclusive practices in environmental and Earth scienc
 
 Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our approach to engaging, empowering, and amplifying research communities in open data science --- how we describe kinder, better science in less time.
 
-![Openscapes flywheel shows 6 points around a hexagon: Develop, Invest, Attract, Deliver, Transform, Inspire](images/openscapes-flywheel-eea.png)
+![Openscapes Flywheel ([Robinson & Lowndes 2022](https://eartharxiv.org/repository/view/4560/)). [The Flywheel concept](https://www.jimcollins.com/concepts/the-flywheel.html) was developed by Jim Collins in the book Good to Great. No matter how dramatic the end result, good-to-great transformations never happen in one fell swoop. Rather, the process resembles relentlessly pushing a giant, heavy flywheel, turn upon turn, building momentum until a point of breakthrough, and beyond.](images/openscapes-flywheel-vpub.png){fig-alt="The Openscapes Flywheel: the orange hexagonal logo with 6 parts of the flywheel: Welcome; Create space and place; invest in learning and trust; work openly; leverage common workflows, skills, tools; inspire" fig-align="center"}
 
 <!---https://docs.google.com/presentation/d/14Ko80NL1qA3KsH0Spgym20DXp5ZLn6zE2KOuqUTNMVA/edit#slide=id.gc846ffc89f_2_32--->
 
-## The NASA EarthData-Openscapes project
+## The NASA Openscapes Framework
 
 **The overarching vision** is to support scientific researchers using NASA Earthdata as they migrate their workflows to the cloud. We are doing this working with NASA Distributed Active Archive Centers (DAACs) over three years by:
 
@@ -24,22 +24,27 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 3.  Scaling the Openscapes Champions program with DAAC Mentors to support science cohorts and amplify as many open science leaders as possible, transforming their workflows towards open, kinder science and the cloud
 
+## **Project Impact Summary (Years 1+2)**
+
+NASA Openscapes is a 3-year effort to grow a cross-DAAC Mentor community supporting Open NASA Earth Science in the Cloud. We approach this work as movement building, and developed the Openscapes Flywheel with NASA Earth science data centers, using the concept where transformations occur from relentlessly pushing a giant, heavy flywheel that builds momentum over time. The Flywheel supports teams across NASA DAACs to to grow morale and technical capacity across their organizations by (1) Engage bright spots, through welcoming them and creating space and place; (2) Empower a learning culture through investing in learning and trust and working openly (3) Amplify Open science leaders, through leveraging the common and inspiring the bigger movement ([Robinson & Lowndes 2022](https://eartharxiv.org/repository/view/4560/)).
+
+Through this work, some highlights of impact to date: (1 Engage): 7 DAACs participating (NSIDC, PO.DAAC, LP DAAC, GES DISC, ASDC, ASF, ORNL); have a JupyterHub and Notebook-Quarto-GitHub workflow for documentation and publishing; have co-created a consistent set of tutorials and teaching style; co-led the 2021 Cloud Hackathon and 2022 Champions program; have documented our work through the Flywheel pub and Approach Guide; and given many invited talks & keynotes. (2 Empower): Mentors have led 10 Workshops: internal with DAAC staff and external with researchers; developed the [Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/); Reused tutorials, slides, graphics and facilitation and open practices; were more aware cross-DAAC, less recreating; from user feedback developed [Cheatsheets](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/cheatsheet.html) and the [earthaccess](https://nsidc.github.io/earthaccess/) python library; wrote the [Value of Hosted JupyterHubs (White paper RFI)](https://zenodo.org/record/7667299#.Y_Zxt3bMJPY); Collaborating on Hackweeks, 2i2c cont\'d access after workshops. (3 Amplify): Mentors are amplifying across-DAACs and beyond: Career advancement & bringing mindset to new places; Speaking up in other meetings (User Needs TIM, TRAIN, Cloud Playground); Connecting & consulting based on experiences - Pathfinder for 2i2c, comparing w/ SMCE; AWS; Engaging beyond (Pangeo Forge, Ladies of Landsat, pyOpenSci).
+
 ## Blog
 
 [Blog posts](https://www.openscapes.org/tags/nasa-framework/) about NASA Openscapes
 
+## White Paper: The Value of Hosted JupyterHubs
 
-
-##  White Paper: The Value of Hosted JupyterHubs
-
-[**The Value of Hosted JupyterHubs in enabling Open NASA Earth Science in the Cloud**](https://zenodo.org/record/7667299#.Y_Zxt3bMJPY) - Nickles et al. 2023. 
+[**The Value of Hosted JupyterHubs in enabling Open NASA Earth Science in the Cloud**](https://zenodo.org/record/7667299#.Y_Zxt3bMJPY) - Nickles et al. 2023.
 
 This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) to [NASA Request for Information (RFI) NNH23ZDA005L: Scientific Data and Computing Architecture to Support Open Science](https://nspires.nasaprs.com/external/solicitations/summary.do?solId=%7B78AA81B6-A7B9-D934-20F8-7B3151DA59A2%7D&path=&method=init).
 
+```{=html}
 <!---
 [Internal Draft](https://docs.google.com/document/d/1G3NfVtqHXUOrkxR7QzbONhEyO1yEVnys-2jaG14awhI/edit#heading=h.6gz7gubzv1jv)
 --->
-
+```
 ## Slides
 
 Slides, recordings, and posters
