@@ -28,58 +28,68 @@ Our [flywheel](https://www.jimcollins.com/concepts/the-flywheel.html) shows our 
 
 [Blog posts](https://www.openscapes.org/tags/nasa-framework/) about NASA Openscapes
 
-## White Paper
 
-[The Value of Hosted JupyterHubs in enabling Open NASA Earth Science in the Cloud](https://docs.google.com/document/d/1G3NfVtqHXUOrkxR7QzbONhEyO1yEVnys-2jaG14awhI/edit?usp=sharing)
 
-## Slides 
+##  White Paper: Value of Hosted JupyterHubs
+
+[**The Value of Hosted JupyterHubs in enabling Open NASA Earth Science in the Cloud**](https://zenodo.org/record/7667299#.Y_Zxt3bMJPY) - Nickles et al. 2023. 
+
+This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) to [NASA Request for Information (RFI) NNH23ZDA005L: Scientific Data and Computing Architecture to Support Open Science](https://nspires.nasaprs.com/external/solicitations/summary.do?solId=%7B78AA81B6-A7B9-D934-20F8-7B3151DA59A2%7D&path=&method=init).
+
+<!---
+[Internal Draft](https://docs.google.com/document/d/1G3NfVtqHXUOrkxR7QzbONhEyO1yEVnys-2jaG14awhI/edit#heading=h.6gz7gubzv1jv)
+--->
+
+## Slides
+
 Slides, recordings, and posters
 
-- [Working with NASA Earthdata in the Cloud](https://docs.google.com/presentation/d/1rh6UGUIKp8nNc71jKYQAPPBIoVyikQmQ8CcvwGLn2hI/edit#slide=id.g142ea985af2_0_1) - January 24, 2023 - Amy Steiker, Bri Lind, Julie Lowndes, Luis López, Michele Thornton, and the NASA Openscapes Mentors. [ESIP Winter Meeting](https://2023januaryesipmeeting.sched.com/event/1EwXE/enabling-open-science-with-nasas-earthdata-in-the-cloud) "Enabling Open Science with NASA's Earthdata in the Cloud" Session
+-   [Working with NASA Earthdata in the Cloud](https://docs.google.com/presentation/d/1rh6UGUIKp8nNc71jKYQAPPBIoVyikQmQ8CcvwGLn2hI/edit#slide=id.g142ea985af2_0_1) - January 24, 2023 - Amy Steiker, Bri Lind, Julie Lowndes, Luis López, Michele Thornton, and the NASA Openscapes Mentors. [ESIP Winter Meeting](https://2023januaryesipmeeting.sched.com/event/1EwXE/enabling-open-science-with-nasas-earthdata-in-the-cloud) "Enabling Open Science with NASA's Earthdata in the Cloud" Session
 
-- [Supporting open science as a daily practice](https://docs.google.com/presentation/d/19OoPaUVVOA6AFLLd9mYeiM8f1BNNnoAjJCP4RD6Ahe8/edit?usp=sharing)  - December 16, 2022 - Julie Lowndes, Erin Robinson, Openscapes Mentors. AGU Fall Conference Talk, "The Future is Open" session
+-   [Supporting open science as a daily practice](https://docs.google.com/presentation/d/19OoPaUVVOA6AFLLd9mYeiM8f1BNNnoAjJCP4RD6Ahe8/edit?usp=sharing) - December 16, 2022 - Julie Lowndes, Erin Robinson, Openscapes Mentors. AGU Fall Conference Talk, "The Future is Open" session
 
-- [`earthaccess`: A Python Library for NASA Earthdata](https://docs.google.com/presentation/d/e/2PACX-1vRhfv35qSFP34fbk1jNE6SHFZJwim8Q6JlQtGmnNXo6UBnjT2xKl0KxP7mxg9P7xs-107QoB9DC7lBs/pub?start=false&loop=false&delayms=3000) - December 13, 2022 - Luis López, Andrew P. Barrett, Julie Lowndes, Joseph H. Kennedy, Erin Robinson, Amy Steiker, Jessica Scheick, The NASA Openscapes mentors team. AGU Fall Conference Poster ([slide](https://docs.google.com/presentation/d/1OOSZzbHv6Ck4lzOE01FQdI4kX0VCfcVBS4pWCc7dtBo/edit?usp=sharing))
+-   [`earthaccess`: A Python Library for NASA Earthdata](https://docs.google.com/presentation/d/e/2PACX-1vRhfv35qSFP34fbk1jNE6SHFZJwim8Q6JlQtGmnNXo6UBnjT2xKl0KxP7mxg9P7xs-107QoB9DC7lBs/pub?start=false&loop=false&delayms=3000) - December 13, 2022 - Luis López, Andrew P. Barrett, Julie Lowndes, Joseph H. Kennedy, Erin Robinson, Amy Steiker, Jessica Scheick, The NASA Openscapes mentors team. AGU Fall Conference Poster ([slide](https://docs.google.com/presentation/d/1OOSZzbHv6Ck4lzOE01FQdI4kX0VCfcVBS4pWCc7dtBo/edit?usp=sharing))
 
-- [NASA Openscapes: Lessons Learned supporting Cross-DAAC User Services to migrate to the Cloud](https://docs.google.com/presentation/d/e/2PACX-1vT6ySkrKuwL--u7UUPQ1nfdi4rgP_ccqd2jp2T4gw8WV1IWeU1w3EOADNUmKf-YBhCf5qbFiPvYHl5l/pub?start=false&loop=false&delayms=3000) - December 13, 2022, Aaron Friesz, Alexis Hunzinger, Amy Steiker, Catalina Oaida Taglialatela, Luis López, Cassandra Nickles, Bri Lind, Mahsa Jami, Celia Ou, Julia Stewart Lowndes, Erin Robinson, NASA Openscapes DAAC Mentor Community. AGU Fall Conference Poster ([slide](https://docs.google.com/presentation/d/1v3ifHQSwwwMb4tSzGvk8vHkdiEtmqP1OCSToN34Uln8/edit?usp=sharing))
+-   [NASA Openscapes: Lessons Learned supporting Cross-DAAC User Services to migrate to the Cloud](https://docs.google.com/presentation/d/e/2PACX-1vT6ySkrKuwL--u7UUPQ1nfdi4rgP_ccqd2jp2T4gw8WV1IWeU1w3EOADNUmKf-YBhCf5qbFiPvYHl5l/pub?start=false&loop=false&delayms=3000) - December 13, 2022, Aaron Friesz, Alexis Hunzinger, Amy Steiker, Catalina Oaida Taglialatela, Luis López, Cassandra Nickles, Bri Lind, Mahsa Jami, Celia Ou, Julia Stewart Lowndes, Erin Robinson, NASA Openscapes DAAC Mentor Community. AGU Fall Conference Poster ([slide](https://docs.google.com/presentation/d/1v3ifHQSwwwMb4tSzGvk8vHkdiEtmqP1OCSToN34Uln8/edit?usp=sharing))
 
-- [Curating information to guide NASA Earthdata users into the cloud with workflow diagrams and cheatsheets](https://docs.google.com/presentation/d/e/2PACX-1vT1HwF1T8nU4lfSGUiwhWMrrhK5oWGVXMX52x_SA18kbZr6XKXlG77mrJ5AsXUctw/pub?start=false&loop=false&delayms=3000) - December 13, 2022 - Cassandra Nickles, Catalina Oaida Taglialatela, Julie Stewart Lowndes, Amy Steiker, Alexis Hunzinger, Aaron Friesz. AGU Fall Conference Poster ([slide](https://docs.google.com/presentation/d/1xXgIXpNxKhkCfsGAT87QYkwm54Yodxqd/edit?usp=sharing&ouid=110479715275058498320&rtpof=true&sd=true))
+-   [Curating information to guide NASA Earthdata users into the cloud with workflow diagrams and cheatsheets](https://docs.google.com/presentation/d/e/2PACX-1vT1HwF1T8nU4lfSGUiwhWMrrhK5oWGVXMX52x_SA18kbZr6XKXlG77mrJ5AsXUctw/pub?start=false&loop=false&delayms=3000) - December 13, 2022 - Cassandra Nickles, Catalina Oaida Taglialatela, Julie Stewart Lowndes, Amy Steiker, Alexis Hunzinger, Aaron Friesz. AGU Fall Conference Poster ([slide](https://docs.google.com/presentation/d/1xXgIXpNxKhkCfsGAT87QYkwm54Yodxqd/edit?usp=sharing&ouid=110479715275058498320&rtpof=true&sd=true))
 
-- [Early lessons learned from supporting end user’s transition to the cloud](https://docs.google.com/presentation/d/1aDxLzlkiunwyHjQ76GIFxHVmY0z6fsmtOqHAq-zSGms/edit?usp=sharing) - November 16, 2022, Alexis Hunzinger, LAADS DAAC User Working Group 2022
+-   [Early lessons learned from supporting end user's transition to the cloud](https://docs.google.com/presentation/d/1aDxLzlkiunwyHjQ76GIFxHVmY0z6fsmtOqHAq-zSGms/edit?usp=sharing) - November 16, 2022, Alexis Hunzinger, LAADS DAAC User Working Group 2022
 
-- [NASA Openscapes Cloud Infrastructure](https://docs.google.com/presentation/d/100aazshfYJfIe5pjQ6w3hswjA9zuuhEd2sZ3P4LhxJc/edit#slide=id.g6c52a2e8d8_0_177) - October 13, 2022, Luis Lopez ([video](https://youtu.be/Payju0KDScg))
+-   [NASA Openscapes Cloud Infrastructure](https://docs.google.com/presentation/d/100aazshfYJfIe5pjQ6w3hswjA9zuuhEd2sZ3P4LhxJc/edit#slide=id.g6c52a2e8d8_0_177) - October 13, 2022, Luis Lopez ([video](https://youtu.be/Payju0KDScg))
 
-- [Efforts to support end users in the journey to the cloud](https://docs.google.com/presentation/d/1OnjRhSgA_6iT4jvUCqW6plhuvwPIn_Vu-cfzo7QX2V4/edit#slide=id.g142ea985af2_0_1) - September 27, 2022: [Open Source Science Data Repositories Workshop 2022](https://science.nasa.gov/open-science-overview/data-repositories-workshop) Steiker, Hunzinger, López, Oaida Taglialatela, Friesz ([video](https://drive.google.com/file/d/1pBcWwS7MLAqbNOOH9qXGLTr42UPm1N_j/view)) <!---https://youtu.be/NvMk1GGiA8A?t=13944--->
+-   [Efforts to support end users in the journey to the cloud](https://docs.google.com/presentation/d/1OnjRhSgA_6iT4jvUCqW6plhuvwPIn_Vu-cfzo7QX2V4/edit#slide=id.g142ea985af2_0_1) - September 27, 2022: [Open Source Science Data Repositories Workshop 2022](https://science.nasa.gov/open-science-overview/data-repositories-workshop) Steiker, Hunzinger, López, Oaida Taglialatela, Friesz ([video](https://drive.google.com/file/d/1pBcWwS7MLAqbNOOH9qXGLTr42UPm1N_j/view)) <!---https://youtu.be/NvMk1GGiA8A?t=13944--->
 
-- [NASA Earthdata Cloud: Myths, Truths, Questions](https://docs.google.com/presentation/d/1rmzodGujlOQxy4ocl7g2BEqVxMOQoIS_Fw48rifvh0M/edit?usp=sharing) - September 7, 2022. Steiker, Heightley (NSIDC) 
+-   [NASA Earthdata Cloud: Myths, Truths, Questions](https://docs.google.com/presentation/d/1rmzodGujlOQxy4ocl7g2BEqVxMOQoIS_Fw48rifvh0M/edit?usp=sharing) - September 7, 2022. Steiker, Heightley (NSIDC)
 
+-   [Efforts to support end users in the journey to the cloud](https://docs.google.com/presentation/d/1C9w46DCBY4eIP2KwrrQvDKtj7Uaf_Hr6VzcbxMZ6dxI/edit#slide=id.g142ea985af2_0_1) - August 17, 2022: [ESDIS SE TIM 2022](https://wiki.earthdata.nasa.gov/display/EM/ESDIS+SE+TIM+-+August+2022) Oaida Taglialatela, Hunzinger, Smit, López, Steiker
 
-- [Efforts to support end users in the journey to the cloud](https://docs.google.com/presentation/d/1C9w46DCBY4eIP2KwrrQvDKtj7Uaf_Hr6VzcbxMZ6dxI/edit#slide=id.g142ea985af2_0_1) - August 17, 2022: [ESDIS SE TIM 2022](https://wiki.earthdata.nasa.gov/display/EM/ESDIS+SE+TIM+-+August+2022) Oaida Taglialatela, Hunzinger, Smit, López, Steiker
+-   [NASA Briefing to Unidata](https://github.com/NASA-Openscapes/NASA-Openscapes.github.io/blob/main/NASA%20Unidata%20Briefing%202022-07.pdf) - July 2022, Christine Smit
 
-- [NASA Briefing to Unidata](https://github.com/NASA-Openscapes/NASA-Openscapes.github.io/blob/main/NASA%20Unidata%20Briefing%202022-07.pdf) - July 2022, Christine Smit
+-   [NSIDC DAAC User Working Group](https://docs.google.com/presentation/d/1Wtlgt-wUx8HgeWjoxvvz4BwknLlKDmGP2F-pSuI5utQ/edit?usp=sharing) - May 20, 2022. Barrett, Steiker, Meier, Roebuck, Beig, Lopez, (NSIDC)
 
-- [NSIDC DAAC User Working Group](https://docs.google.com/presentation/d/1Wtlgt-wUx8HgeWjoxvvz4BwknLlKDmGP2F-pSuI5utQ/edit?usp=sharing) - May 20, 2022. Barrett, Steiker, Meier,  Roebuck, Beig, Lopez, (NSIDC) 
+-   [NASA Earthdata Cloud & The Cloud Paradigm](https://docs.google.com/presentation/d/1D-d3VQDG-KlRt6gnyfj5aN3yVo1FBsbYTaQInRB4eMw/edit#slide=id.p) - April 2022. Friesz (LP DAAC)
 
-- [NASA Earthdata Cloud & The Cloud Paradigm](https://docs.google.com/presentation/d/1D-d3VQDG-KlRt6gnyfj5aN3yVo1FBsbYTaQInRB4eMw/edit#slide=id.p) - April 2022. Friesz (LP DAAC)
+-   [NASA Openscapes Lessons from Year 1](https://docs.google.com/presentation/d/1jtiku5yOTzBtW2vT1-qwZPri_O2Bc_uzXNebIoKGLMg/edit?usp=sharing) - April 21, 2022: ESDSWG Robinson, Lowndes, López
 
-- [NASA Openscapes Lessons from Year 1](https://docs.google.com/presentation/d/1jtiku5yOTzBtW2vT1-qwZPri_O2Bc_uzXNebIoKGLMg/edit?usp=sharing) - April 21, 2022: ESDSWG Robinson, Lowndes, López
+-   [NASA Openscapes Cloud Infrastructure](https://docs.google.com/presentation/d/100aazshfYJfIe5pjQ6w3hswjA9zuuhEd2sZ3P4LhxJc/edit?usp=sharing) - February 9, 2021: NSIDC by Luis López
 
-- [NASA Openscapes Cloud Infrastructure](https://docs.google.com/presentation/d/100aazshfYJfIe5pjQ6w3hswjA9zuuhEd2sZ3P4LhxJc/edit?usp=sharing) - February 9, 2021: NSIDC by Luis López
+-   [Community Building: The NASA Openscapes Framework](https://openscapes.github.io/slides/esip_winter2022) - January 18, 2022: ESIP Winter Meeting
 
-- [Community Building: The NASA Openscapes Framework](https://openscapes.github.io/slides/esip_winter2022) - January 18, 2022: ESIP Winter Meeting
-- [NASA Earthdata Access in the Cloud Using Open-source libraries](https://nasa-openscapes.github.io/slides/Earthdata_Cloud__Open-Science-Tutorial.html#/title-slide) - December 17, 2021: invited talk by Amy Steiker at the [Open Science in Action](https://agu.confex.com/agu/fm21/meetingapp.cgi/Session) Session at the AGU Fall meeting (30 minutes)
+-   [NASA Earthdata Access in the Cloud Using Open-source libraries](https://nasa-openscapes.github.io/slides/Earthdata_Cloud__Open-Science-Tutorial.html#/title-slide) - December 17, 2021: invited talk by Amy Steiker at the [Open Science in Action](https://agu.confex.com/agu/fm21/meetingapp.cgi/Session) Session at the AGU Fall meeting (30 minutes)
 
-- [Open Project Design: Lessons from the NASA Openscapes Framework](https://docs.google.com/presentation/d/1uc2BGBsjVABa_ZnqYCi8EgeFjlUSMd3KMSlQJnok9T8/edit?usp=sharing) — December 17, 2021: invited talk at the [Open Science in Action](https://agu.confex.com/agu/fm21/meetingapp.cgi/Session) Session at the AGU Fall meeting (30 minutes)
+-   [Open Project Design: Lessons from the NASA Openscapes Framework](https://docs.google.com/presentation/d/1uc2BGBsjVABa_ZnqYCi8EgeFjlUSMd3KMSlQJnok9T8/edit?usp=sharing) --- December 17, 2021: invited talk at the [Open Science in Action](https://agu.confex.com/agu/fm21/meetingapp.cgi/Session) Session at the AGU Fall meeting (30 minutes)
 
-- [Openscapes: Better Science for Future Us](https://docs.google.com/presentation/d/1i-HNx756ZsYJMYsavCwiYtp2hbQX6vNyZ6lwVdKJyzQ/edit?usp=sharing) — December 8, 2021: invited talk about data interoperability at the [National Academies of Science, Engineering, and Medicine (NASEM) meeting co-hosted by the Mapping Sciences Committee and the Geographical Sciences Committee](https://www.nationalacademies.org/event/12-08-2021/accelerating-the-analysis-of-geographic-change)
+-   [Openscapes: Better Science for Future Us](https://docs.google.com/presentation/d/1i-HNx756ZsYJMYsavCwiYtp2hbQX6vNyZ6lwVdKJyzQ/edit?usp=sharing) --- December 8, 2021: invited talk about data interoperability at the [National Academies of Science, Engineering, and Medicine (NASEM) meeting co-hosted by the Mapping Sciences Committee and the Geographical Sciences Committee](https://www.nationalacademies.org/event/12-08-2021/accelerating-the-analysis-of-geographic-change)
 
-- [Cross-DAAC Collab via Openscapes: Infusing Openscapes training, mentorship, and community building models into EOSDIS](https://docs.google.com/presentation/d/1zDA5GL2pN2rKnVLidfUBMynxD4AJ5EbAUBZcjOYXcwo/edit?disco=AAAAQYcgLJI&usp_dm=false#slide=id.gfacc98ea45_0_1417) — October 26, 2021: SE TIM lightning talk by Amy Steiker
+-   [Cross-DAAC Collab via Openscapes: Infusing Openscapes training, mentorship, and community building models into EOSDIS](https://docs.google.com/presentation/d/1zDA5GL2pN2rKnVLidfUBMynxD4AJ5EbAUBZcjOYXcwo/edit?disco=AAAAQYcgLJI&usp_dm=false#slide=id.gfacc98ea45_0_1417) --- October 26, 2021: SE TIM lightning talk by Amy Steiker
 
-- [Openscapes: Better Science for Future Us](https://docs.google.com/presentation/d/1Sl4x6oTsjD4x30O_KwNoqr0-Yckh0CCK75PIqaaYdUY/edit?usp=sharing) — October 14, 2021: [NASA’s Open Source Science for Data Processing and Archives Workshop](https://science.nasa.gov/researchers/science-data/open-source-science-workshop)
+-   [Openscapes: Better Science for Future Us](https://docs.google.com/presentation/d/1Sl4x6oTsjD4x30O_KwNoqr0-Yckh0CCK75PIqaaYdUY/edit?usp=sharing) --- October 14, 2021: [NASA's Open Source Science for Data Processing and Archives Workshop](https://science.nasa.gov/researchers/science-data/open-source-science-workshop)
 
--   [Openscapes: Better Science for Future Us. Supporting NASA Earth science research teams' migration to the cloud](https://docs.google.com/presentation/d/18uj2eAgzetPoq73YnRQpcYr2Q-EPuiHNaFE0sgR1XTE/edit?usp=sharing) 
-    - September 16, 2021: NSIDC User Working Group
-    - September 8, 2021: GES DISC User Working Group
+-   [Openscapes: Better Science for Future Us. Supporting NASA Earth science research teams' migration to the cloud](https://docs.google.com/presentation/d/18uj2eAgzetPoq73YnRQpcYr2Q-EPuiHNaFE0sgR1XTE/edit?usp=sharing)
+
+    -   September 16, 2021: NSIDC User Working Group
+    -   September 8, 2021: GES DISC User Working Group
 
 -   [Openscapes: Better Science for Future Us. Supporting NASA Earth science research teams' migration to the cloud](https://docs.google.com/presentation/d/1SVwkEDe2gUzJJZ5NGsGTsGPde-NJm9HLtKieSeuthfI/edit?usp=sharing) - August 12, 2021: LP DAAC User Working Group
 
@@ -114,7 +124,7 @@ University of California Santa Barbara (UCSB)\
 
 **Erin Robinson, MSc**\
 Metadata Game Changers, LLC\
-University of Colorado, Boulder \
+University of Colorado, Boulder\
 [erin\@metadatagamechangers.com](mailto:erin@metadatagamechangers.com); [\@connector_erin](https://twitter.com/connector_erin)
 
 ## Project Teams
