@@ -18,6 +18,19 @@ See <https://nasa-openscapes.github.io/champions> for more details!
 
 Details soon
 
+### March 2023: Women in Data Science Conference
+
+<https://www.widsconference.org/> 
+
+We will share how we developed the Openscapes Flywheel to support the NASA DAAC Mentors, and some of their acheivements and momentum!
+
+### February 2023: EMIT Workshop
+
+<https://github.com/nasa/EMIT-Data-Resources>
+
+This workshop was designed to be completed locally, however it was offered to use the Openscapes 2i2c JupyterHub cloud workspace to revisit the EMIT Data Tutorials Workshops hosted February 3, 10, and 17th 2023. The Feb 17th event had 91 active users in large python instances in the 2i2c JupyterHub; Aaron Friesz, Bri Lind (LP DAAC) and Luis Lopez (NSIDC) worked ahead of time with 2i2c engineers to accommodate the increased CPU needs for this workshop.
+
+
 ### January 2023: ESIP 
 
 NASA Openscapes is involved with 3 talks on Tuesday and Wednesday. We're looking forward to seeing you at these and other ESIP sessions: 
@@ -32,6 +45,10 @@ NASA Openscapes is involved with 3 talks on Tuesday and Wednesday. We're looking
 ### American Geophysical Union (AGU) Fall Conference
 
 3 posters, hackathon, and plenary lightning talk! 
+
+## Summer 2022
+
+[Keynote at RStudio Conference - “Hello Quarto: share • collaborate • teach • reimagine”](rstudio.com/conference/2022/keynotes/collaborate-with-quarto). We shared how we support NASA Earthdata DAACs as part of the global launch of Quarto, an open source publishing framework that we contributed to as first external users and has been a big part of “place” - having a place to collaborate across the DAACs. Blog post with link to slides and video: <https://openscapes.org/blog/2022/08/10/quarto-keynote>
 
 ## Spring 2022  
 
