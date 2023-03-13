@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "cookbook-navbar-page.html",
-    "href": "cookbook-navbar-page.html",
-    "title": "NASA Earthdata Cloud Cookbook",
-    "section": "",
-    "text": "The NASA Earthdata-Openscapes Mentors team and other contributors are creating open educational resources to help researchers migrate workflows to the Cloud - all available for learning, reuse, and remix.\nExplore these resources in the NASA Earthdata Cloud Cookbook."
-  },
-  {
-    "objectID": "mentors.html",
-    "href": "mentors.html",
-    "title": "Mentors",
-    "section": "",
-    "text": "This cross-DAAC mentor community is creating & teaching resources to help researchers migrate workflows to the cloud. We meet and learn together, working with alignment on common needs for researchers using NASA Earthdata. Mentors receive Carpentries Instructor training and Openscapes mentorship to help you refine teaching strategies for Cloud, while collaborating on cloud tutorials to reuse rather than reinventing separately. Mentors teach and support in opportunities of different types: Hackathons, Workshops, and the Openscapes Champions program. We expect a range of technical ability and teaching experience. Through these growth opportunities within a broader community engagement approach, Mentors will also gain visibility for their work as well as for their DAACs. The expected time commitment is 3-4 days/month per year. This accounts for a minimum of 4 hours/month of synchronous calls with the rest of the time being self-directed towards improving support approaches for specific DAACs."
-  },
-  {
-    "objectID": "mentors.html#past-participants",
-    "href": "mentors.html#past-participants",
-    "title": "Mentors",
-    "section": "Past Participants",
-    "text": "Past Participants\n\nJennifer Adams\n\n\nVishal Bagadia\nVishal Bagadia is a data science analyst working on contract at the Atmospheric Science Data Center DAAC, NASA Langley Research Center. His experience in exploring emissions retrievals from satellite missions and guiding science teams during the development of their research products powers his work on addressing data interoperability concerns and being responsive to user’s engagement with the archived data. He is energized in leveraging emerging, free, and open-source technologies to better represent and visualize large datasets, building web applications to meet user’s data transformation and accessibility needs, and ultimately producing sustainable solutions to meet end-user requirements as data moves into the cloud.\n\n\nCole Krehbiel\nCole Krehbiel is a remote sensing data scientist working as a contractor to NASA’s Land Processes Distributed Active Archive Center (LP DAAC). He is interested in improving access to geospatial data for diverse user communities. Cole supports missions archived and distributed by the LP DAAC including MODIS, VIIRS, ASTER, ECOSTRESS, and GEDI by creating Python tutorials and data prep scripts and providing workshops and webinars to facilitate community uptake and understanding of those missions.\n\n\nPaul Moth\nPaul Moth is a Data Support Specialist at the National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC). He is part of the User Services team and currently represents MODIS, VIIRS, SMAP, High Mountain Asia, and Nimbus missions at NSIDC DAAC. He is interested in working with early adopters and science team members and gathering feedback that identifies the key operations/steps/workflows that would be most important for creating tutorials and educational materials.\n\n\nMatt Tisdale\nMatt Tisdale is a data scientist working at the NASA Atmospheric Science Data Center (ASDC). He is interested in improving access to ASDC satellite and airborne data products. He uses ArcGIS, OPeNDAP, Python, and Jupyter notebooks to show users how to obtain and analyze data from ASDC. I am interested in learning more cloud analysis techniques to share with our user base as more and more of our ASDC data products are migrated to the cloud."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -105,6 +84,13 @@
     "text": "NASA Openscapes\n\n\n\nEarth science is changing. We support scientists using data from NASA Earthdata served from the Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.\nWe are influenced and inspired by many leaders and community organizers, particularly in climate justice and get out the vote movements. That means, we know this isn’t just about us or an effort we can do alone. We are always looking to learn from, with, and for others.\nProject announcements: NASA • Openscapes\nLearn about our recent work: Blog Posts • Presentations • Annual Reports • White Paper: The Value of Hosted JupyterHubs\nPlease connect with us on Twitter @openscapes or join our newsletter"
   },
   {
+    "objectID": "cookbook-navbar-page.html",
+    "href": "cookbook-navbar-page.html",
+    "title": "NASA Earthdata Cloud Cookbook",
+    "section": "",
+    "text": "The NASA Earthdata-Openscapes Mentors team and other contributors are creating open educational resources to help researchers migrate workflows to the Cloud - all available for learning, reuse, and remix.\nExplore these resources in the NASA Earthdata Cloud Cookbook."
+  },
+  {
     "objectID": "events.html",
     "href": "events.html",
     "title": "Events",
@@ -179,7 +165,7 @@
     "href": "champions.html#nominate-your-team-for-spring-2023",
     "title": "NASA Openscapes Champions Cohort",
     "section": "Nominate your team for Spring 2023",
-    "text": "Nominate your team for Spring 2023\nNominate your team by completing this Google Form by March 17, 2023. This opportunity is open only to research groups that work with data from NASA DAACs. Priority will be given to researchers using data from DAACs participating in Openscapes this year: LP DAAC, NSIDC, PO.DAAC, GES DISC, ASDC, ORNL, and ASF.\nPlease submit one nomination per team, preferably by the team lead (faculty, principal investigator, etc). Participants from previous cohorts are welcome. We will confirm participation in early April 2023."
+    "text": "Nominate your team for Spring 2023\nNominate your team by completing this Google Form by April 7, 2023. This opportunity is open only to research groups that work with data from NASA DAACs. Priority will be given to researchers using data from DAACs participating in Openscapes this year: LP DAAC, NSIDC, PO.DAAC, GES DISC, ASDC, ORNL, and ASF.\nPlease submit one nomination per team, preferably by the team lead (faculty, principal investigator, etc). Participants from previous cohorts are welcome. We will confirm participation on a rolling basis."
   },
   {
     "objectID": "champions.html#learn-more",
@@ -194,5 +180,19 @@
     "title": "NASA Openscapes Champions Cohort",
     "section": "2022 NASA Champions Cohort",
     "text": "2022 NASA Champions Cohort\nMeet the 10 science teams who participated in the 2022 NASA Champions Cohort, and learn more about their work in this blog post: From downloading data to Cloud access: NASA Openscapes Champions Wrap-up"
+  },
+  {
+    "objectID": "mentors.html",
+    "href": "mentors.html",
+    "title": "Mentors",
+    "section": "",
+    "text": "This cross-DAAC mentor community is creating & teaching resources to help researchers migrate workflows to the cloud. We meet and learn together, working with alignment on common needs for researchers using NASA Earthdata. Mentors receive Carpentries Instructor training and Openscapes mentorship to help you refine teaching strategies for Cloud, while collaborating on cloud tutorials to reuse rather than reinventing separately. Mentors teach and support in opportunities of different types: Hackathons, Workshops, and the Openscapes Champions program. We expect a range of technical ability and teaching experience. Through these growth opportunities within a broader community engagement approach, Mentors will also gain visibility for their work as well as for their DAACs. The expected time commitment is 3-4 days/month per year. This accounts for a minimum of 4 hours/month of synchronous calls with the rest of the time being self-directed towards improving support approaches for specific DAACs."
+  },
+  {
+    "objectID": "mentors.html#past-participants",
+    "href": "mentors.html#past-participants",
+    "title": "Mentors",
+    "section": "Past Participants",
+    "text": "Past Participants\n\nJennifer Adams\n\n\nVishal Bagadia\nVishal Bagadia is a data science analyst working on contract at the Atmospheric Science Data Center DAAC, NASA Langley Research Center. His experience in exploring emissions retrievals from satellite missions and guiding science teams during the development of their research products powers his work on addressing data interoperability concerns and being responsive to user’s engagement with the archived data. He is energized in leveraging emerging, free, and open-source technologies to better represent and visualize large datasets, building web applications to meet user’s data transformation and accessibility needs, and ultimately producing sustainable solutions to meet end-user requirements as data moves into the cloud.\n\n\nCole Krehbiel\nCole Krehbiel is a remote sensing data scientist working as a contractor to NASA’s Land Processes Distributed Active Archive Center (LP DAAC). He is interested in improving access to geospatial data for diverse user communities. Cole supports missions archived and distributed by the LP DAAC including MODIS, VIIRS, ASTER, ECOSTRESS, and GEDI by creating Python tutorials and data prep scripts and providing workshops and webinars to facilitate community uptake and understanding of those missions.\n\n\nPaul Moth\nPaul Moth is a Data Support Specialist at the National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC). He is part of the User Services team and currently represents MODIS, VIIRS, SMAP, High Mountain Asia, and Nimbus missions at NSIDC DAAC. He is interested in working with early adopters and science team members and gathering feedback that identifies the key operations/steps/workflows that would be most important for creating tutorials and educational materials.\n\n\nMatt Tisdale\nMatt Tisdale is a data scientist working at the NASA Atmospheric Science Data Center (ASDC). He is interested in improving access to ASDC satellite and airborne data products. He uses ArcGIS, OPeNDAP, Python, and Jupyter notebooks to show users how to obtain and analyze data from ASDC. I am interested in learning more cloud analysis techniques to share with our user base as more and more of our ASDC data products are migrated to the cloud."
   }
 ]
