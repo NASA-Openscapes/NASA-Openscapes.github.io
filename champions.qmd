@@ -19,7 +19,7 @@ output:
 
 [^2]: [blogs.scientificamerican.com/observations/open-software-means-kinder-science](https://blogs.scientificamerican.com/observations/open-software-means-kinder-science)
 
-[**Openscapes Champions**](https://openscapes.org/champions) is a remote-by-design mentorship program for environmental and Earth science research teams to explore open data science practices. **For NASA Openscapes, research teams will also spend time experimenting and planning what their analytical workflows with NASA Earthdata look like in the Cloud**. Participants attend as a team with their research group in a cohort with other teams, together learning how to reframe data-intensive science as a collaborative effort. By discussing open software tooling and communities enabling reproducible research (e.g. R/Python, GitHub, metadata, cloud), participants develop collaborative skills, mindsets, and habits and establish shared practices for increased efficiency in their own research, while contributing to a more inclusive scientific culture.
+[**Openscapes Champions**](https://openscapes.org/champions) is a remote-by-design mentorship program for environmental and Earth science research teams to explore open data science practices. **For NASA Openscapes, research teams will also spend time experimenting and planning what their analytical workflows with NASA Earthdata look like in the Cloud**. Participants attend as a team with their research group in a cohort with other teams, together learning how to reframe data-intensive science as a collaborative effort. By discussing open software tooling and communities enabling reproducible research (e.g. R/ Python/ MATLAB, GitHub, metadata, cloud), participants develop collaborative skills, mindsets, and habits and establish shared practices for increased efficiency in their own research, while contributing to a more inclusive scientific culture.
 
 [**NASA Openscapes**](https://nasa-openscapes.github.io) is a 3-year project to support scientists using data from NASA's Earth Observing System Data and Information System (EOSDIS) Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud. As part of this work, we will offer the Openscapes Champions program several times from 2022-2024.
 
@@ -45,8 +45,6 @@ Please submit one nomination per team, preferably by the team lead (faculty, pri
 ## Learn more
 
 [eScience Hackweeks](https://escience.washington.edu/using-data-science/hackweeks/) share Openscapes' goals of supporting research teams with inclusive open science practices for data-intensive science, and our events are designed with complementary structure to support these goals. The Champions Program supports teams in discussion-based planning and mindsets and meets virtually for 1.5 hours every other week for 2 months. eScience Hackweeks support hands-on skillbuilding and projects and meet daily for 5-10 days. NASA Openscapes is partnering with eScience to share lessons learned and better support researchers together, and **we invite researchers to participate in both Openscapes Champions and eScience Hackweeks to learn and deepen your skills for long-term workflow change for modern science**. Upcoming Hackweeks: 
-
--   [https://snowex.hackweek.io](https://snowex.hackweek.io/)  July 10-14
 
 -   [https://icesat-2.hackweek.io](https://icesat-2.hackweek.io/)  Aug 7-11
 
