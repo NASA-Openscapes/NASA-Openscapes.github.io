@@ -55,6 +55,10 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
+-   [3 approaches for the year of open science](https://www.openscapes.org/blog/2023/03/16/esip-winter-2023/) - March 2023 Clatterbuck et al.: blog post from our ESIP session with colleagues from NASA, NOAA, California WaterBoards, UNC Chapel Hill
+
+-   [Lessons from NASA Openscapes](https://docs.google.com/presentation/d/1_AP0-I0_DUvRE9OfElPDYCniecW39y34iq_4V2ps17A/edit?pli=1#slide=id.g1251bd76375_0_653) - February 2023 presentation to AWS Cloud team
+
 -   [Working with NASA Earthdata in the Cloud](https://docs.google.com/presentation/d/1rh6UGUIKp8nNc71jKYQAPPBIoVyikQmQ8CcvwGLn2hI/edit#slide=id.g142ea985af2_0_1) - January 24, 2023 - Amy Steiker, Bri Lind, Julie Lowndes, Luis López, Michele Thornton, and the NASA Openscapes Mentors. [ESIP Winter Meeting](https://2023januaryesipmeeting.sched.com/event/1EwXE/enabling-open-science-with-nasas-earthdata-in-the-cloud) "Enabling Open Science with NASA's Earthdata in the Cloud" Session
 
 -   [Supporting open science as a daily practice](https://docs.google.com/presentation/d/19OoPaUVVOA6AFLLd9mYeiM8f1BNNnoAjJCP4RD6Ahe8/edit?usp=sharing) - December 16, 2022 - Julie Lowndes, Erin Robinson, Openscapes Mentors. AGU Fall Conference Talk, "The Future is Open" session
