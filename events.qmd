@@ -6,6 +6,15 @@ description: |
 
 See also [slides listed on the About page](https://nasa-openscapes.github.io/about.html#slides) that have been presented about NASA Openscapes at conferences and workshops.
 
+## Summer 2023: Mentors Retreat at ESIP
+
+The July 17 NASA Openscapes Mentors Retreat will bring together mentors from across seven+ DAACs that have engaged as leaders in the NASA Openscapes project.  We see the main value of this retreat as a chance to solidify these cross-DAAC relationships, share lessons learned, problem solve, and ignite new collaborations across the DAACs.
+
+Over the last two years, the mentors have built a community across DAACs, created resources in the Earthdata Cloud Cookbook and supported early adopter users migrating their workflows to the cloud. The goal of the 1-day retreat is to plan the long-term sustainability of the Mentors community from both the governance and technical side.
+
+The NASA Openscapes Mentor Retreat will be in Burlington, Vermont on Monday, July 17 before the [ESIP Summer Meeting, July 18-21](https://www.esipfed.org/meetings). We will also provide the opportunity for the Mentors to attend the ESIP Meeting in order to network and learn from the broader community. All registration, travel, accommodation, per diems will be covered.
+
+
 ## Spring 2023
 
 ### April-June 2023: Openscapes Champions Cohort
