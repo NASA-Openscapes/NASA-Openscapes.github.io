@@ -55,6 +55,11 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
+-   [Communicating impact: NASA Openscapes](https://docs.google.com/presentation/d/14iEGfbipt5HBlVyyf3kvjyxas4lBoRlbT8u8iFr2VNw/edit#slide=id.g1b5922f14f8_0_83) - March 22 2023, Julie Lowndes, Erin Robinson, & Justin Rice. NASA ESDSWG Meeting, Baltimore Maryland
+
+```{=html}
+<!-- -->
+```
 -   [3 approaches for the year of open science](https://www.openscapes.org/blog/2023/03/16/esip-winter-2023/) - March 2023 Clatterbuck et al.: blog post from our ESIP session with colleagues from NASA, NOAA, California WaterBoards, UNC Chapel Hill
 
 -   [Lessons from NASA Openscapes](https://docs.google.com/presentation/d/1_AP0-I0_DUvRE9OfElPDYCniecW39y34iq_4V2ps17A/edit?pli=1#slide=id.g1251bd76375_0_653) - February 2023 presentation to AWS Cloud team
