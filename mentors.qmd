@@ -31,8 +31,11 @@ We have twice-monthly Mentor Calls, which are planning and learning sessions tha
 
 2.  **Spring Champions Cohort -** We supported [7 research teams](https://nasa-openscapes.github.io/2023-nasa-champions/) to learn, discuss, and plan what transitioning their workflows with NASA Earthdata could look like in the Cloud.
 
-3.  **Summer and ESIP meeting -** In July and August we planned to take a break from our biweekly calls to let this group rest. However, there was interest to keep the momentum and ability to collaborate with anyone available, so we have continued to host biweekly calls and move forward with AGU workshop proposals, MATLAB, and other topics. In July many Mentors met in person at the ESIP Summer Conference in Vermont, including for a one-day retreat-workshop to shape sustainability plans for the group.
-
+3.  **Summer and ESIP meeting -** In July and August we planned to take a break from our biweekly calls to let this group rest. However, there was interest to keep the momentum and ability to collaborate with anyone available, so we have continued to host biweekly calls and move forward with AGU workshop proposals, and have guest speakers. In July many Mentors met in person at the ESIP Summer Conference in Vermont, including for a one-day retreat-workshop to shape sustainability plans for the group.
+  - Guest speakers: 
+  - Aug 3 - NOAA Fisheries - NASA Mentors exchange
+  - Aug 23 - Aimee Barciauskas will present the initial cloud optimized data guide for feedback and determine next steps for sharing science tutorials from VEDA and MAAP 
+  - Sept 6 - Cedric Wannaz, MathWorks to demo Matlab in 2i2c and analysis-in-place workflow (direct access/reading the data). Previous demo: https://www.youtube.com/watch?v=JrIp-LFpPAI 
 4.  **Fall -** We will have our first Mentor Call with the full group of mentors on Sept 20 - to introduce everyone and orient around the NASA Openscapes project. Our initial call will include sharing plans, UWGs and other events on the calendar and continuing the orientation for new DAAC mentors. In preparing for AGU workshops in December,  returning DAAC mentors will lead teaching dry runs with the cloud tutorials as a way to onboard the group to data access in the cloud and to get your fresh perspective on our existing material. (What works? What's confusing?). **We meet alternating Wednesdays from 10-11:30 PT, starting Sept 20.** If you'd like to join us please email lowndes at nceas.ucsb.edu. 
 
 
