@@ -41,7 +41,7 @@ We have twice-monthly Mentor Calls, which are planning and learning sessions tha
 
 ### Coiled 
 
-This Fall we will also be working with [Coiled.io](https://www.coiled.io/), with the goal to support Champions' Cloud workflows on their own laptops as a viable pathway forward when they leave our JupyterHub, and for us all to learn more about what this looks like and how to parallelize computation in the cloud. To sign up for Coiled, please fill out [this Google Form](https://forms.gle/a4kBrQ9HWZpGXp8m8).
+This Fall we will also be working with [Coiled.io](https://www.coiled.io/), with the goal to support Mentors' and Champions' Cloud workflows on their own laptops as a viable pathway forward when they leave our JupyterHub, and for us all to learn more about what this looks like and how to parallelize computation in the cloud. To sign up for Coiled, please fill out [this Google Form](https://forms.gle/a4kBrQ9HWZpGXp8m8).
 
 
 
