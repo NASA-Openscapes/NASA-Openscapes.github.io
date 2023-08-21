@@ -15,13 +15,37 @@ This cross-DAAC mentor community is creating & teaching resources to help resear
 
 # Current Activities
 
+## 2023 goals
+
+-   Strengthen the DAAC Mentor community as they develop and teach a common set of tutorials and coordinate and lead learning events, in part through our twice monthly Openscapes Cohort Calls. 
+- Reuse and refine shared teaching resources, share stories and lessons learned at conferences and meetups
+-   Lead events together (a hackathon and Champions cohort) with research teams, with Mentors assisting to support researchers and learn new modalities of support
+- Identify a plan for sustainability, including the technical and social infrastructure needed. Shift to a more of a community structure from a cohort structure
+
+## Our schedule
+
+1.  **Winter & Spring** We have twice-monthly Cohort Calls, which are planning and learning sessions that currently are semi-structured. We kickoff those calls with about 10 mins of check in and agenda design and then we will move to proposed topics. In alternating weeks, we have Coworking sessions to work on shared goals together, screensharing and often working in the 2i2c JupyterHub and in GitHub. From February-May focused extended Coworking sessions to be [Cookbook Hackdays](https://github.com/nasa-openscapes/earthdata-cloud-cookbook#hackdays). Mentors collaborated leading workshops and talks. 
+
+2.  **Spring Champions Cohort** We supported [7 research teams](https://nasa-openscapes.github.io/2023-nasa-champions/) to learn, discuss, and plan what transitioning their workflows with NASA Earthdata could look like in the Cloud.
+
+3.  **Summer and ESIP meeting** - In July and August we planned to take a break from our biweekly calls to let this group rest. However, there was interest to keep the momentum and ability to collaborate with anyone available, so we have continued to host biweekly calls and move forward with AGU workshop proposals, MATLAB, and other topics. In July many Mentors met in person at the ESIP Summer Conference in Vermont, including for a one-day retreat-workshop to shape sustainability plans for the group.
+
+4.  **Fall:** We will have our first call with the full group of mentors on Sept 20 - to introduce everyone and orient around the NASA Openscapes project. Our initial call will include sharing plans, UWGs and other events on the calendar and continuing the orientation for new DAAC mentors. Returning DAAC mentors will walk through the initial cloud tutorials as a way to onboard the group to data access in the cloud and to get your fresh perspective on our existing material. (What works? What's confusing?). 
+
+### Coiled 
+
+This Fall we will also be working with [Coiled.io](https://www.coiled.io/), with the goal to support Champions' Cloud workflows on their own laptops as a viable pathway forward when they leave our JupyterHub, and for us all to learn more about what this looks like and how to parallelize computation in the cloud. To sign up for Coiled, please fill out [this Google Form](https://forms.gle/a4kBrQ9HWZpGXp8m8).
+
+
+
+# Ongoing and Previous Activities
+
 **2022 goals:**
 
 -   Strengthen the DAAC Mentor community of practice as they develop and teach a common set of tutorials and coordinate and lead learning events, in part through our twice monthly Openscapes Cohort Calls
 - Reuse and refine shared teaching resources, share stories and lessons learned at conferences and meetups
 -   Lead events together (a hackathon and Champions cohort) with research teams, with Mentors assisting to support researchers and learn new modalities of support
 
-<!---
 
 **Our schedule:**
 
@@ -29,13 +53,9 @@ This cross-DAAC mentor community is creating & teaching resources to help resear
 
 2.  **June 30 Mentor Cohort Call** We will have our first call with the full group of mentors on June 30 - to introduce everyone and orient around the NASA Openscapes project.
 
-3.  **Summer Break** - From the beginning of July through mid-August we are going to take a break from our biweekly calls to let this group rest. We hope that during this break each DAAC will do a bit of light planning for what they hope to accomplish in the next year to share at our first call when we return at the end of August.  
+3.  **Summer Break** - From the beginning of July through mid-August we are going to take a break from our biweekly calls to let this group rest. We hope that during this break each DAAC will do a bit of light planning for what they hope to accomplish in the next year to share at our first call when we return at the end of August.
 
-4.  **Back to our DAAC Mentor schedule:** We will pick back up on regular meetings on August 25 (or that week) with our biweekly meetings. Our initial call will include sharing plans, UWGs and other events on the calendar and continuing the orientation for new DAAC mentors. Returning DAAC mentors will walk through the initial cloud tutorials as a way to onboard the group to data access in the cloud and to get your fresh perspective on our existing material. (What works? What's confusing?) 
-
---->
-
-# Ongoing and Previous Activities
+4.  **Back to our DAAC Mentor schedule:** We will pick back up on regular meetings on August 25 (or that week) with our biweekly meetings. Our initial call will include sharing plans, UWGs and other events on the calendar and continuing the orientation for new DAAC mentors. Returning DAAC mentors will walk through the initial cloud tutorials as a way to onboard the group to data access in the cloud and to get your fresh perspective on our existing material. (What works? What's confusing?)
 
 **2021 goals:**
 
