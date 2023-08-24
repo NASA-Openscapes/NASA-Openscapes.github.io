@@ -55,9 +55,9 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
-- [Getting to Know Open Science: Flourish in the Growing Open Science Community](https://docs.google.com/presentation/d/1uMfh0ssHGDuJ9q8pcRk8-qIerkywE4X-E_KP4CiptKc/edit#slide=id.g23d8f62188b_2_96) - August 9, 2023. Bri Lind. NASA Hyperwall, Ecological Society of America 2023 Annual Meeting, Portland, Oregon. 
-
 - [NASA Openscapes: Open communities and continued learning](https://docs.google.com/presentation/d/1WmuGxoQF3V4eb15etUfmpwy-vzWPFl9ey9q5CtXwWts/edit?usp=sharing) - August 11, 2023. ICESat-2 Hackweek
+
+- [Getting to Know Open Science: Flourish in the Growing Open Science Community](https://docs.google.com/presentation/d/1uMfh0ssHGDuJ9q8pcRk8-qIerkywE4X-E_KP4CiptKc/edit#slide=id.g23d8f62188b_2_96) - August 9, 2023. Bri Lind. NASA Hyperwall, Ecological Society of America 2023 Annual Meeting, Portland, Oregon. 
 
 -   [NASA Openscapes: Movement building with the Flywheel](https://docs.google.com/presentation/d/1BK678MADRg6QkejRQI_5KREGn6DzzQqAS4StsjXmi-k/edit#slide=id.g1b5922f14f8_0_83) - March 31, 2023, Erin Robinson & Julie Lowndes. NASA Open Source Science Working Group
 
