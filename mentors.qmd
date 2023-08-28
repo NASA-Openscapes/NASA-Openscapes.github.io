@@ -11,7 +11,7 @@ output:
 
 ![](images/NASA-DAAC-logos-2022.png)
 
-This cross-DAAC mentor community is creating & teaching resources to help researchers migrate workflows to the cloud. We meet and learn together, working with alignment on common needs for researchers using NASA Earthdata. Mentors receive Carpentries Instructor training and Openscapes mentorship to help you refine teaching strategies for Cloud, while collaborating on cloud tutorials to reuse rather than reinventing separately. Mentors teach and support in opportunities of different types: Hackathons, Workshops, and the Openscapes Champions program. We expect a range of technical ability and teaching experience. Through these growth opportunities within a broader community engagement approach, Mentors will also gain visibility for their work as well as for their DAACs. The expected time commitment is 3-4 days/month per year. This accounts for a minimum of 4 hours/month of synchronous calls with the rest of the time being self-directed towards improving support approaches for specific DAACs.
+This cross-DAAC mentor community is creating & teaching resources to help researchers migrate workflows to the cloud. We meet and learn together, working with alignment on common needs for researchers using NASA Earthdata. Mentors receive Carpentries Instructor training and Openscapes mentorship to help you refine teaching strategies for Cloud, while collaborating on cloud tutorials to reuse rather than reinventing separately. Mentors teach and support in opportunities of different types: Hackathons, Workshops, and the Openscapes Champions program. We expect a range of technical ability and teaching experience. Through these growth opportunities within a broader community engagement approach, Mentors will also gain visibility for their work as well as for their DAACs. The expected time commitment is 3 days/month per year (and this ebbs and flows with your deadlines). We have 1.5 hour Mentor Calls (planning) every 2 weeks and Coworking calls (screensharing and doing) and asynchronous work in between. The majority of your time will be spent self-directed towards improving support approaches for specific DAACs, and you'll be collaborating with others at your DAAC as well as across DAACs and the broader open science community.
 
 # Current Activities
 
@@ -138,7 +138,7 @@ We will have Cohort Calls with the DAAC Mentors throughout 2021. Linked below ar
 
 --->
 
-# Mentor Cohort
+# Mentor Community
 
 The NASA Openscapes Mentors community is growing! Mentors from five DAACs continuing from 2021 are noted with an \* below. We are excited to see the DAAC mentor community expand across the initial five DAACs to seven DAACS with ORNL and ASF Mentors joining us in 2022. Welcome!
 
