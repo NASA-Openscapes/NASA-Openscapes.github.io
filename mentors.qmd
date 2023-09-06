@@ -11,7 +11,9 @@ output:
 
 ![](images/NASA-DAAC-logos-2022.png)
 
-This cross-DAAC mentor community is creating & teaching resources to help researchers migrate workflows to the cloud. We meet and learn together, working with alignment on common needs for researchers using NASA Earthdata. Mentors receive Carpentries Instructor training and Openscapes mentorship to help you refine teaching strategies for Cloud, while collaborating on cloud tutorials to reuse rather than reinventing separately. Mentors teach and support in opportunities of different types: Hackathons, Workshops, and the Openscapes Champions program. We expect a range of technical ability and teaching experience. Through these growth opportunities within a broader community engagement approach, Mentors will also gain visibility for their work as well as for their DAACs. The expected time commitment is 3 days/month per year (and this ebbs and flows with your deadlines). We have 1.5 hour Mentor Calls (planning) every 2 weeks and Coworking calls (screensharing and doing) and asynchronous work in between. The majority of your time will be spent self-directed towards improving support approaches for specific DAACs, and you'll be collaborating with others at your DAAC as well as across DAACs and the broader open science community. Please also see [how we onboard](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding.html) documentation – this is part of the [Earthdata Cloud Cookbook](https://nasa-openscapes.github.io) that is the main place for all cloud resources the Mentors are developing.
+This cross-DAAC mentor community is creating & teaching resources to help researchers migrate workflows to the cloud. We meet and learn together, working with alignment on common needs for researchers using NASA Earthdata. Mentors receive Carpentries Instructor training and Openscapes mentorship to help you refine teaching strategies for Cloud, while collaborating on cloud tutorials to reuse rather than reinventing separately. Mentors teach and support in opportunities of different types: Hackathons, Workshops, and the Openscapes Champions program. We expect a range of technical ability and teaching experience. Through these growth opportunities within a broader community engagement approach, Mentors will also gain visibility for their work as well as for their DAACs. The expected time commitment is 3 days/month per year (and this ebbs and flows with your deadlines). We have 1.5 hour Mentor Calls (planning) every 2 weeks and Coworking calls (screensharing and doing) and asynchronous work in between. The majority of your time will be spent self-directed towards improving support approaches for specific DAACs, and you'll be collaborating with others at your DAAC as well as across DAACs and the broader open science community. 
+
+Please also see [how we onboard](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding.html) documentation – this is part of the [Earthdata Cloud Cookbook](https://nasa-openscapes.github.io) that is the main place for all cloud resources the Mentors are developing.
 
 # Current Activities
 
@@ -24,7 +26,10 @@ This cross-DAAC mentor community is creating & teaching resources to help resear
 
 ## Our schedule
 
-We have twice-monthly Mentor Calls, which are planning and learning sessions that currently are semi-structured. We kickoff those calls with about 10 mins of check in and agenda design and then we will move to proposed topics. In alternating weeks, we have Coworking sessions to work on shared goals together, screensharing and often working in the 2i2c JupyterHub and in GitHub.
+### Mentor Calls and Coworking
+
+We have twice-monthly **Mentor Calls**, which are planning and learning sessions that currently are semi-structured. We kickoff those calls with about 10 mins of check in and agenda design and then we will move to proposed topics. In alternating weeks, we have **Coworking sessions** to work on shared goals together, screensharing and often working in the 2i2c JupyterHub and in GitHub.
+
 
 1.  **Winter & Spring -** We have twice-monthly Mentor Calls and Coworking sessions in alternating weeks. February-May focused extended Coworking sessions to be [Cookbook Hackdays](https://github.com/nasa-openscapes/earthdata-cloud-cookbook#hackdays). Mentors collaborated leading workshops and talks.
 
