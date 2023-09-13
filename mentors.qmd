@@ -206,6 +206,8 @@ Bri is a Geospatial Data Scientist at NASA's Land Processes Distributed Active A
 
 ### Victoria McDonald
 
+As a Data Engineer at the Physical Oceanography Distributed Active Archive Center (PO.DAAC) at NASA’s Jet Propulsion Laboratory, Victoria spends a lot of time thinking about scientific data: how we manage it, how we make it accessible, how we reduce the steep learning curves that can hinder scientific discovery. Building better, open, collaborative, software so that we can make complex data analysis more accessible is something she is passionate about.
+
 ### Jack McNelis\*
 
 Jack McNelis is a Science Applications Software Engineer at NASA Jet Propulsion Laboratory (and the PO.DAAC) with experience leveraging EOS data for rangeland ecosystem monitoring applications. He develops and curates metadata to describe PO.DAAC data holdings, and to better integrate them with data delivery services and end user softwares. He also develops resources for users to be better prepared to implement their analyses in the cloud.
