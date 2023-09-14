@@ -289,7 +289,7 @@ Oak Ridge National Laboratory (ORNL)
 
 ### Guoqing Wang
 
-Ocean Biology DAAC (OB.DAAC)
+Guoqing Wang is the DAAC scientist for the Ocean Biology Distributed Active Archive Center (OB.DAAC). In her role, Guoqing leads the operation of user working group and acts as a bridge between users and data providers. She holds a PhD in Environmental Sciences at the University of Massachusetts Boston with a focus on ocean color remote sensing. She is experienced in ocean optics data collection, data processing and analysis, satellite validation, and algorithm development. She is looking forward to working with Openscape to leverage her existing knowledge to the cloud era.
 
 ### Jess Welch
 
