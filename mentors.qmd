@@ -9,7 +9,7 @@ output:
     toc_depth: 3
 ---
 
-![](images/NASA-DAAC-logos-2023.png)
+![](images/NASA-DAAC-logos-2023-2lines.png)
 
 This cross-DAAC mentor community is creating & teaching resources to help researchers migrate workflows to the cloud. We meet and learn together, working with alignment on common needs for researchers using NASA Earthdata. Mentors receive Carpentries Instructor training and Openscapes mentorship to help you refine teaching strategies for Cloud, while collaborating on cloud tutorials to reuse rather than reinventing separately. Mentors teach and support in opportunities of different types: Hackathons, Workshops, and the Openscapes Champions program. We expect a range of technical ability and teaching experience. Through these growth opportunities within a broader community engagement approach, Mentors will also gain visibility for their work as well as for their DAACs. The expected time commitment is 3 days/month per year (and this ebbs and flows with your deadlines). We have 1.5 hour Mentor Calls (planning) every 2 weeks and Coworking calls (screensharing and doing) and asynchronous work in between. The majority of your time will be spent self-directed towards improving support approaches for specific DAACs, and you'll be collaborating with others at your DAAC as well as across DAACs and the broader open science community.
 
@@ -43,7 +43,7 @@ We have twice-monthly **Mentor Calls**, which are planning and learning sessions
 Mentor Calls (Planning) and Coworking Calls (screensharing and doing)
 
 | Date    | Mentor Call Topics                                                                                                                                                        | Coworking Call Topics                                                                                                                                               |
-|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------|------------------------------|-----------------------------|
 | Aug 3   |                                                                                                                                                                           | NOAA Fisheries - NASA Mentors exchange                                                                                                                              |
 | Aug 9   | AGU Workshop abstracts refinement                                                                                                                                         |                                                                                                                                                                     |
 | Aug 17  |                                                                                                                                                                           | [Coiled.io](https://www.coiled.io/) collaboration kickoff with Champions teams                                                                                      |
