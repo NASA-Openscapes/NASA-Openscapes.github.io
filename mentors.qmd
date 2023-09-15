@@ -179,14 +179,6 @@ National Snow & Ice Data Center (NSIDC)
 
 Aaron Friesz is the Science Coordination Lead at NASA's Land Processes Distributed Active Archive Center (LP DAAC). In his role, Aaron provides user needs insights and technical support for archive and distribution, service development, and outreach activities. He develops tutorials, scripts, and presentations that highlight the use of land remote sensing data in analysis workflows. More recently, his work has focused on advocating for the uptake of cloud computing in the land remote sensing community.
 
-### Shubhankar Gahlot
-
-Interagency Implementation and Advanced Concepts Team (IMPACT)
-
-### Iksha Gurung
-
-Interagency Implementation and Advanced Concepts Team (IMPACT)
-
 ### Alexis Hunzinger\*
 
 [Alexis Hunzinger](https://www.linkedin.com/in/alexis-hunzinger) is a Support Scientist at the NASA Goddard Earth Sciences Data and Information Services Center (GES DISC), focused on addressing the needs of the user community. Alexis works closely with the GES DISC User Working Group, fielding concerns and suggestions to be implemented at the DAAC. She also leads the effort at GES DISC of developing guides, tutorials, and other resources designed to educate and welcome users to the Earthdata Cloud.
@@ -243,10 +235,6 @@ Dr. Nickles is an Applied Science Systems Engineer Postdoc working with the Phys
 
 Brianna is the Lead Development Engineer at NASA's Goddard Earth Sciences (GES) Data and Information Services Center (DISC). In her role, Brianna guides the transition of on premise services to an entirely cloud-based infrastructure across various engineering teams. Her previous experience involves leading the research and development of remote-sensing based products, working alongside teams of geospatial scientists and developers to get services in production environments. Brianna's research expertise is in remote sensing and eco-hydrology. 
 
-### Muthukumaran Ramasubramanian
-
-Interagency Implementation and Advanced Concepts Team (IMPACT)
-
 ### Navaneeth Selvaraj
 
 Global Hydrometeorology Resource Center (GHRC)
@@ -258,10 +246,6 @@ Oak Ridge National Laboratory (ORNL)
 ### Sargent Shriver
 
 Alaska Satellite Facility (ASF)
-
-### Christine Smit
-
-Global Hydrometeorology Resource Center (GHRC)
 
 ### Geoffrey Stano
 
@@ -305,6 +289,14 @@ Goddard Earth Sciences Data and Information Services Center (GES DISC)
 
 [Vishal Bagadia](https://www.linkedin.com/in/vishal-bagadia-a98b95113) is a data science analyst working on contract at the Atmospheric Science Data Center DAAC, NASA Langley Research Center. His experience in exploring emissions retrievals from satellite missions and guiding science teams during the development of their research products powers his work on addressing data interoperability concerns and being responsive to user's engagement with the archived data. He is energized in leveraging emerging, free, and open-source technologies to better represent and visualize large datasets, building web applications to meet user's data transformation and accessibility needs, and ultimately producing sustainable solutions to meet end-user requirements as data moves into the cloud.
 
+### Shubhankar Gahlot
+
+Interagency Implementation and Advanced Concepts Team (IMPACT)
+
+### Iksha Gurung
+
+Interagency Implementation and Advanced Concepts Team (IMPACT)
+
 ### Cole Krehbiel
 
 [**Cole Krehbiel**](https://www.linkedin.com/in/cole-krehbiel-6573469a/) is a remote sensing data scientist working as a contractor to NASA's Land Processes Distributed Active Archive Center (LP DAAC). He is interested in improving access to geospatial data for diverse user communities. Cole supports missions archived and distributed by the LP DAAC including MODIS, VIIRS, ASTER, ECOSTRESS, and GEDI by creating Python tutorials and data prep scripts and providing workshops and webinars to facilitate community uptake and understanding of those missions.
@@ -312,6 +304,14 @@ Goddard Earth Sciences Data and Information Services Center (GES DISC)
 ### Paul Moth
 
 Paul Moth is a Data Support Specialist at the National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC). He is part of the User Services team and currently represents MODIS, VIIRS, SMAP, High Mountain Asia, and Nimbus missions at NSIDC DAAC. He is interested in working with early adopters and science team members and gathering feedback that identifies the key operations/steps/workflows that would be most important for creating tutorials and educational materials.
+
+### Muthukumaran Ramasubramanian
+
+Interagency Implementation and Advanced Concepts Team (IMPACT)
+
+### Christine Smit
+
+Global Hydrometeorology Resource Center (GHRC)
 
 ### Matt Tisdale
 
