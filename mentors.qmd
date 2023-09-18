@@ -169,7 +169,7 @@ Alaska Satellite Facility (ASF)
 
 ### Ian Carroll
 
-Ocean Biology DAAC (OB.DAAC)
+Dr. Ian Carroll is a data scientist in the Ocean Ecology Lab (OEL) at NASA Goddard Space Flight Center and associate research faculty at the University of Maryland Baltimore County, with a background in mathematical ecology and cyberinfrastructure education. Project scientists in the OEL work closely with the Ocean Biology Distributed Active Archive Center (OB.DAAC) to improve satellite data products for ocean biogeochemistry and atmospheric science. As a NASA Openscapes mentor, Ian will help the ocean color research community navigate the OB.DAAC's transition to Earthdata Cloud, which commences with the [PACE Mission's](https://pace.oceansciences.org/) first light in early 2024.
 
 ### Matt Fisher
 
