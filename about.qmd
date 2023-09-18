@@ -55,6 +55,10 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
+- [Documenting things: openly for Future Us](https://openscapes.github.io/documenting-things) - September 19, 2023. Julie Lowndes, Posit Conf.
+
+- [NASA Openscapes Mentors’ Retreat 2023: Summary and Moving Toward Sustainability](https://docs.google.com/presentation/d/1m515raX2MNCF4evn0qNqTIJT3EfhKIBuS7GGRLayDpM/edit#slide=id.g1b5922f14f8_0_83) - September 18, 2023. NASA HQ Meeting
+
 - [NASA Openscapes: Open communities and continued learning](https://docs.google.com/presentation/d/1WmuGxoQF3V4eb15etUfmpwy-vzWPFl9ey9q5CtXwWts/edit?usp=sharing) - August 11, 2023. ICESat-2 Hackweek
 
 - [Getting to Know Open Science: How to Engage and Flourish in the Growing Open Science Community](https://docs.google.com/presentation/d/1uMfh0ssHGDuJ9q8pcRk8-qIerkywE4X-E_KP4CiptKc/edit#slide=id.g23d8f62188b_2_96) - August 9, 2023. Bri Lind. NASA Hyperwall, Ecological Society of America 2023 Annual Meeting, Portland, Oregon. 
@@ -90,6 +94,8 @@ Slides, recordings, and posters
 -   [Efforts to support end users in the journey to the cloud](https://docs.google.com/presentation/d/1C9w46DCBY4eIP2KwrrQvDKtj7Uaf_Hr6VzcbxMZ6dxI/edit#slide=id.g142ea985af2_0_1) - August 17, 2022: [ESDIS SE TIM 2022](https://wiki.earthdata.nasa.gov/display/EM/ESDIS+SE+TIM+-+August+2022) Oaida Taglialatela, Hunzinger, Smit, López, Steiker
 
 -   [NASA Briefing to Unidata](https://github.com/NASA-Openscapes/NASA-Openscapes.github.io/blob/main/NASA%20Unidata%20Briefing%202022-07.pdf) - July 2022, Christine Smit
+
+- [Hello Quarto: share • collaborate • teach • reimagine](https://mine.quarto.pub/hello-quarto/) — July 28, 2022: Keynote at RStudio Conference - Julie Lowndes and Mine Çetinkaya-Rundel ([video](https://posit.co/keynotes/hello-quarto-share-collaborate-teach-reimagine/))
 
 -   [NSIDC DAAC User Working Group](https://docs.google.com/presentation/d/1Wtlgt-wUx8HgeWjoxvvz4BwknLlKDmGP2F-pSuI5utQ/edit?usp=sharing) - May 20, 2022. Barrett, Steiker, Meier, Roebuck, Beig, Lopez, (NSIDC)
 
