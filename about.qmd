@@ -55,6 +55,8 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
+- [Open Science Webinar: Making Arctic Science Open Science](https://www.nna-co.org/open-science-webinar-making-arctic-science-open-science) - September 28, 2023. [Navigating the New Arctic Community Office](https://www.nna-co.org/), co-convened by Andy Barrett with speakers Julie Lowndes, Matt Fisher, and Mohommad Afzal Shadab.
+
 - [Documenting things: openly for Future Us](https://openscapes.github.io/documenting-things) - September 19, 2023. Julie Lowndes, Posit Conf.
 
 - [NASA Openscapes Mentors’ Retreat 2023: Summary and Moving Toward Sustainability](https://docs.google.com/presentation/d/1m515raX2MNCF4evn0qNqTIJT3EfhKIBuS7GGRLayDpM/edit#slide=id.g1b5922f14f8_0_83) - September 18, 2023. NASA HQ Meeting
@@ -66,8 +68,6 @@ Slides, recordings, and posters
 -   [NASA Openscapes: Movement building with the Flywheel](https://docs.google.com/presentation/d/1BK678MADRg6QkejRQI_5KREGn6DzzQqAS4StsjXmi-k/edit#slide=id.g1b5922f14f8_0_83) - March 31, 2023, Erin Robinson & Julie Lowndes. NASA Open Source Science Working Group
 
 -   [Communicating impact: NASA Openscapes](https://docs.google.com/presentation/d/14iEGfbipt5HBlVyyf3kvjyxas4lBoRlbT8u8iFr2VNw/edit#slide=id.g1b5922f14f8_0_83) - March 22 2023, Julie Lowndes, Erin Robinson, & Justin Rice. NASA ESDSWG Meeting, Baltimore Maryland
-
-<!-- -->
 
 -   [3 approaches for the year of open science](https://www.openscapes.org/blog/2023/03/16/esip-winter-2023/) - March 2023 Clatterbuck et al.: blog post from our ESIP session with colleagues from NASA, NOAA, California WaterBoards, UNC Chapel Hill
 
