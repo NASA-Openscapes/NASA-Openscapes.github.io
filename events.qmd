@@ -6,6 +6,11 @@ description: |
 
 See also [slides listed on the About page](https://nasa-openscapes.github.io/about.html#slides) that have been presented about NASA Openscapes at conferences and workshops.
 
+## Fall 2023: Mentors give workshops at AGU
+
+December 11 - 15, NASA Openscapes Mentors will attend the AGU annual meeting and deliver workshops. High-level planning happens in the [2023-planning-agu](https://github.com/NASA-Openscapes/2023-planning-agu) GitHub repo.
+
+
 ## Summer 2023: Mentors Retreat at ESIP
 
 The July 17 NASA Openscapes Mentors Retreat will bring together mentors from across seven+ DAACs that have engaged as leaders in the NASA Openscapes project.  We see the main value of this retreat as a chance to solidify these cross-DAAC relationships, share lessons learned, problem solve, and ignite new collaborations across the DAACs.
