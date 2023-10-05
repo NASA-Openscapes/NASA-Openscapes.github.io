@@ -199,7 +199,7 @@ Land Processes DAAC (LPDAAC)
 
 ### Daniel Kaufman
 
-Atmospheric Science Data Center (ASDC)
+[Danny Kaufman](https://www.linkedin.com/in/daniel-e-kaufman/) is a Lead Data Scientist for the Tropospheric Emissions: Monitoring of POllution (TEMPO) instrument at the NASA Atmospheric Science Data Center (ASDC). In this role, Danny helps lead the development and coordination of data processing tools and services for new air quality observations from TEMPO. He is excited to join the Openscapes community, and he is looking forward to learning together and working towards improved cloud-based data analysis workflows. Danny's research expertise is in numerical modeling, optimization, and analysis of ocean biogeochemistry and climate data.
 
 ### Alexander Lewandowski
 
