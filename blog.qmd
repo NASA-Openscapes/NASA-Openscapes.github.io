@@ -1,0 +1,15 @@
+---
+title: "NEWS"
+listing:
+  contents: blog
+  sort: "date desc"
+  type: default #grid
+  image-align: right
+  max-description-length: 175
+  date-format: medium
+  categories: true
+page-layout: full
+#title-block-banner: "#F8D98F" # use this for solid color banner
+#aliases: 
+#  - https://www.openscapes.org/blog/
+---

@@ -24,6 +24,8 @@ website:
       href: champions.qmd
     - text: "Cookbook"
       href: cookbook-navbar-page.qmd
+    - text: "News"
+      href: blog.qmd      
     - text: "Events"
       href: events.qmd
     - icon: github

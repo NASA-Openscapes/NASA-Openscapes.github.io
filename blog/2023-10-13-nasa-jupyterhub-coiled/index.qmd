@@ -1,0 +1,118 @@
+---
+title: "Cloud Environment Opportunities"
+description: "Managed JupyterHub options for Cryosphere and NASA Earthdata user communities"
+author:
+  - name: Amy Steiker
+    orcid: 0000-0002-3039-0260
+  - name: Luis Lopez
+  - name: Andy Barrett
+    orcid: 0000-0003-4394-5445
+  - name: the NASA Openscapes Mentors
+  - name: James Bourbeau of Coiled
+date: 2023-10-13
+citation: 
+  url: https://openscapes.org/blog/2023-10-13-nasa-jupyterhub-coiled
+categories: [nasa-framework, blog]
+image: amy-steiker-uwg.png
+---
+
+*We support users at the NASA National Snow and Ice Data Center Distributed Active Archive Center ([NSIDC DAAC](https://nsidc.org/data/data-programs/nsidc-daac)). This week we had an in person meeting with our User Working Group (UWG), a group that consists of fourteen members representing our cryospheric user community by providing recommendations on the DAAC's data resources and overall objectives and priorities. We presented a slide deck with an overview of Cloud Environment Opportunities focused on managed JupyterHub options, and a live demo of Coiled, which is a company providing software and expertise for scalable Cloud computing built on Dask. This work currently builds from our Cloud infrastructure set up with NASA Openscapes. The purpose was to share the options currently available, and to invite UWG members to work and improve from these ideas.*
+
+*We're also part of the NASA Openscapes community; we support researchers using NASA Earthdata as they migrate their data analysis workflows to the Cloud. This blog post does not go into deep detail about how NASA Earthdata is migrating to the Cloud, but you can read more about our efforts with NASA Openscapes at <https://nasa-openscapes.github.io>.*
+
+*This blog post gives a brief summary of the slides and some thoughts going forward.*
+
+*Quick link: [slides](https://docs.google.com/presentation/d/1NEsE58SIMjQ_fjC_11HIXqd7Urvi5yy5/edit#slide=id.g23808f09f20_2_714)*
+
+------------------------------------------------------------------------
+
+## When to Cloud?
+
+We started off with considerations of "When to Cloud?" This covered things to consider for you now and in the future:
+
+-   What is the data volume?
+-   How long will it take to download?
+-   Can you store all that data (cost and space)?
+-   Do you have the computing power for processing?
+-   Does your team need a common computing environment?
+-   Do you need to share data at each step or just an end product?
+
+Andy Barrett created and presented more in-depth slides to the [2023 NASA Champions Cohort](https://openscapes.org/blog/2023-08-01-nasa-champions/) of Science teams: [Data strategies for Future Us, for Cloud](https://nsidc.github.io/data_strategies_for_future_us/data_strategies_slides).
+
+**Assuming you are "ready to Cloud" based on the considerations above, there are two main solutions for accessing NASA Earthdata Cloud: Do it yourself or using a managed Cloud service.** If you do it yourself, this involves creating an AWS Account, connecting to an EC2 instance, and using resources like the [Earthdata Cloud Primer](https://earthdata.nasa.gov/learn/user-resources/webinars-and-tutorials/cloud-primer) for more setup and cost management information. If you use a managed Cloud service, organizations like [2i2c](https://2i2c.org/) can provide Cloud-hosted JupyterHubs for research and education. Your institution may also support smaller or larger scale options.
+
+## Comparing/Overview of Managed Hubs
+
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: center
+#| out-width: "75%" 
+#| fig-alt: "slide 4 in https://docs.google.com/presentation/d/1NEsE58SIMjQ_fjC_11HIXqd7Urvi5yy5/edit#slide=id.g23808f09f20_2_714. Heading 'NASA Openscapes 2i2c JupyterHub', text box to left, screenshot to right"
+knitr::include_graphics("UWG2023_Cloud_Environment_Opportunities_2i2c.png")
+```
+
+::: {.small-text .center-text .dark-gray-text}
+The NASA Openscapes 2i2c JupyterHub, one of the six options presented, provides a valuable shared Cloud environment not only for our Science Champions and workshop learners, but also for our DAAC scientists, developers, and user support staff across NASA EOSDIS (Earth Observing System Data and Information System).
+:::
+
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: center
+#| out-width: "75%" 
+#| fig-alt: "slide 6 in https://docs.google.com/presentation/d/1NEsE58SIMjQ_fjC_11HIXqd7Urvi5yy5/edit#slide=id.g23808f09f20_2_714. Heading 'Earthdata Cloud Playground', text box to left, screenshots to right show a GitHub repo and out put of a python notebook showing graphic of the Great Lakes"
+knitr::include_graphics("UWG2023_Cloud_Environment_Opportunities_playground.png")
+```
+
+::: {.small-text .center-text .dark-gray-text}
+The Earthdata Cloud Playground is in development as a long-term resource for users learning and testing their data workflows in the Cloud.
+:::
+
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: center
+#| out-width: "75%" 
+#| fig-alt: "slide 8 in https://docs.google.com/presentation/d/1NEsE58SIMjQ_fjC_11HIXqd7Urvi5yy5/edit#slide=id.g23808f09f20_2_714. Heading 'Coiled', text box to left, screenshots to right"
+knitr::include_graphics("UWG2023_Cloud_Environment_Opportunities_coiled.png")
+```
+
+::: {.small-text .center-text .dark-gray-text}
+Coiled can be a resource for those who wish to offboard or scale from an existing Hub environment.
+:::
+
+## Coiled live demo
+
+This Fall, Openscapes is partnering with [Coiled](https://www.coiled.io/) to support us experimenting with another approach to Cloud access, as well as refactoring workflows from serial processes (for-loops) to parallel in order to leverage the true power of Cloud. Amy Steiker and Luis Lopez lead a [live demo for UWG participants](https://docs.google.com/document/d/1tqV1eF15qqyZL8lMAa9a3PyXJ6CC3fvHe4oKzw_iaUs/edit#heading=h.c3zsga28bzu), leveraging the same Google doc approach used during the Science Champions [Earthdata Cloud Clinic](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/examples/Earthdata-cloud-clinic.html) for this event, including more information on Coiled. 
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: center
+#| out-width: "75%" 
+#| fig-alt: "Photo with foreground showing backs of 14 people seated at tables with labtops, watching a woman at podium and a projection of a presentation slide"
+knitr::include_graphics("amy-steiker-uwg.png")
+```
+
+::: {.small-text .center-text .dark-gray-text}
+Amy Steiker presenting to NSIDC User Working Group
+:::
+
+The demo showcased a [Python script](https://github.com/nsidc/NSIDC-Data-Tutorials/blob/main/notebooks/ICESat-2_Cloud_Access/h5cloud/workflow.py) that processed large amounts of altimetry data from NASA's ICESat-2 mission. While the script was run from Amy's local computer, the data processing steps were run on the Cloud using [Coiled Functions](https://docs.coiled.io/user_guide/usage/functions/index.html) for running Python functions on Cloud virtual machines (VMs). This approach was particularly convenient as it allows existing Python functions to be run in the Cloud by lightly annotating them with a `@coiled.function` decorator.
+
+This workflow benefited from running on the Cloud because the ICESat-2 mission data was already stored on the Cloud in S3, so moving the data processing to be co-located next to the data avoided data transfers, which are both slow and expensive.
+
+## Recap
+
+We closed our presentation and demo with the following advice for the User Working Group scientists:
+
+::: {.blockquote-blue}
+> *First ask yourself: When to Cloud? You may continue to download data, or work locally using Cloud-based service outputs, and optionally take advantage of Cloud.*
+:::
+
+
+If you "passed go", there are a growing number of options to easily onboard to a Cloud environment. The options we presented are not exhaustive! We want to hear from you on other options you are pursuing and how your Cloud transition is going.
