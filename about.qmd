@@ -55,6 +55,8 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
+- [Cloud Environment Opportunities: Managed JupyterHub options for Cryosphere and Earthdata user communities](https://docs.google.com/presentation/d/1NEsE58SIMjQ_fjC_11HIXqd7Urvi5yy5/edit#slide=id.g23808f09f20_2_714) - September 2023. Amy Steiker, Andrew Barrett, & Luis López, NSIDC User Working Group. <!---([blog post]())--->
+
 - [Open Science Webinar: Making Arctic Science Open Science](https://www.nna-co.org/open-science-webinar-making-arctic-science-open-science) - September 28, 2023. [Navigating the New Arctic Community Office](https://www.nna-co.org/), co-convened by Andy Barrett with speakers Julie Lowndes, Matt Fisher, and Mohommad Afzal Shadab.
 
 - [Documenting things: openly for Future Us](https://openscapes.github.io/documenting-things) - September 19, 2023. Julie Lowndes, Posit Conf.
