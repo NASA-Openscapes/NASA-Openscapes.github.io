@@ -1,0 +1,119 @@
+---
+title: "3 approaches for the year of open science"
+author: Corey Clatterbuck, Ileana Fenwick, Josh London, Luis Lopez, Cassie Nickles, Adyan Rios, Stefanie Butland, Julie Lowndes, Erin Robinson
+date: 2023-03-16
+slug: esip-winter-2023
+categories:
+  - blog
+  - conference
+  - noaa-fisheries
+  - nasa-framework
+image: esip-2023-speakers-square.png
+aliases: 
+  - https://www.openscapes.org/blog/2023/03/16/esip-winter-2023/
+---
+
+*At the 2023 ESIP Winter Meeting, "Opening Doors to Open Science", we held a session called "[Better Science for Future Us: Openscapes stories and approaches for the Year of Open Science](https://2023januaryesipmeeting.sched.com/event/1EwXx)" with speakers from University of North Carolina (UNC), National Oceanic and Atmospheric Administration (NOAA) Fisheries, California Water Boards, NASA's National Snow and Ice Data Center, and NASA's Physical Oceanography Distributed Active Archive Center. The goals of this session were to hear from and boost a diverse set of leaders from across the US government and academia to highlight open science in daily work, including peer-teaching, mentoring, and learning. Building from our session at ESIP Winter 2022, we hope to create more channels for inter- and cross-agency learning, and share open science stories across agencies, as part of the [2023 Year of Open Science](https://www.whitehouse.gov/ostp/news-updates/2023/01/11/fact-sheet-biden-harris-administration-announces-new-actions-to-advance-open-and-equitable-research/) as recently declared by the US Biden-Harris Administration. Speakers shared stories about open science in government and their experiences with Openscapes. Stories were shared in a "Fishbowl" format, where speakers each shared and then there was a broader discussion with the 50+ participants. This blog is co-authored with the speakers.*
+
+*Quick links:*
+
+-   [*ESIP Session page*](https://2023januaryesipmeeting.sched.com/event/1EwXx)*- links to with [video recording](https://youtu.be/1IWFIyPzsKY) and [notes](https://docs.google.com/document/d/1hUnAwjyvK8rxsybPlhwgBrKZ3pCG_1YekRLfBWtRfdg/edit)*
+-   *Movement building through:*
+    -   *A first welcome to open data science - Ileana Fenwick ([slides](https://docs.google.com/presentation/d/1j9TAXxCw1zjXBcYMe4UizOgo6LR8dRn3/edit?usp=share_link&ouid=117331415908654768512&rtpof=true&sd=true))*
+    -   *Inside NOAA Fisheries - Josh London, Adyan Rios*
+    -   *Forking Openscapes internally at the California EPA Water Boards - Corey Clatterbuck ([slides](https://docs.google.com/presentation/d/1Okil31Fe0fXEfGeAEr84GMdcqi4dFIiQtMCCFZwTljk/edit?usp=share_link))*
+    -   *Contributing back to open science at the NASA Data Centers- Cassie Nickles, Luis Lopez ([slides](https://docs.google.com/presentation/d/1nCnIxfsTC2XazHK-JvbL4qcBEB77rxSBFZp59Q4G93c/))*
+
+------------------------------------------------------------------------
+
+## 3 approaches for the year of open science
+
+This session brought together a diverse set of leaders from across the U.S. government and academia to highlight open science in daily work, including peer-teaching, mentoring, and learning. They shared stories, examples, and concrete tips for supporting each other and our colleagues with collaborative, inclusive open science approaches, with the aim of strengthening channels for inter- and cross-agency action in the Year of Open Science 2023. This session builds from our session at ESIP Winter 2022, and you can review the summary blog and videos: [3 takeaways for planning for the year of open science](https://www.openscapes.org/blog/2022/02/17/esip-winter-2022/). Those 3 takeaways were 1. Both top-down and grassroots efforts are necessary; 2. Dissolve silos by supporting early adopters; 3. Reuse and build from existing efforts to accelerate change.
+
+This year, presenters shared Openscapes stories and approaches following another year's work mentoring, coaching, and teaching colleagues as well as listening, advocating, and informing open science policy at different levels. Their stories come from the many phases of open science movement building they represent: a first welcome, inside government organizations, "forking" Openscapes internally, and contributing back to open science. What emerged was real lightbulb moments and real-time interplay between panelists who have not previously worked together as we recognized common themes and learned from each other.
+
+**Here are 3 overlapping takeaways from this session that all speakers embodied:**
+
+-   Examine the cracks; invest in real relationships
+-   Break the hero mentality in science; invest in radical collaboration
+-   Build morale through learning; advocate for learning time
+
+We describe these more fully below. And as we advocate for open science in this Year of Open Science, let's connect open science with building morale and empowering individuals as well as with the higher quality of work created.
+
+## Examine the cracks; invest in real relationships
+
+"Examining the cracks'' was a concept brought up by Ileana Fenwick at the very beginning of our session, and it resonated with the other panelists throughout. Ileana designed and leads the [Pathways to Open Science](https://openscapes.github.io/pathways-to-open-science/) program, a remote event series of community calls and coworking for Black environmental & marine researchers to build community for the future of data intensive science. The first session, held on the evening of this ESIP panel, welcomed over [80 participants](https://twitter.com/curly_scientist/status/1618735555415805953)! Ileana shared that as she became empowered with open science, she thought exposure alone would be enough to attract other people to open science events. It wasn't; there are many reasons why folks do not feel included in science and open science. It caused her to examine the cracks - why wouldn't she participate in this program if she saw it in her inbox? This influenced the design of the Pathways program, with a deep investment in engagement. Ileana partnered Openscapes with [Black in Marine Science (BIMS)](https://www.blackinmarinescience.org/) and [Black Women in Ecology, Evolution, and Marine Science (BWEEMS)](https://www.bweems.org/), and met 1:1 with faculty at HBCUs, to learn about their students' needs and introduce her ideas for the program. Ileana shared these three pieces of advice, saying"inclusion is not an afterthought":
+
+1.  Surface level efforts are easy to spot. Some questions to ask as you plan your program goals and efforts are: What is your motivation for this work? Is it genuine? Is the space you're inviting students to a safe space for marginalized students? (Do they know that?) It is clear when the broader impacts are written last. Inclusion is not an afterthought, your planning and process should demonstrate that.
+
+2.  We exist. If your efforts are not yielding diverse participation, it's not because we aren't out there. It's because your efforts need to be tailored more specifically and intentionally.
+
+3.  Center diverse voices. If there are no members of your team from your target audience or your team is not reflective, this is a moment to step back and ask yourself if YOU need to be the one doing this work. Amplify and empower diverse leadership, support them, compensate them, use privilege to push the project forward.
+
+<br> <center> <a> <img src="/img/blog/esip-2023-fenwick-cracks.png" alt="slide title Challenging my views on how to engage. Text says Exposure is not enough. Lead with listening ear, flexibility, open mind. To right of text is screenshot from website Pathways to Open Science with logos of Openscapes, BWEEMS and BIMS" width="750px"></a> </center> <figcaption>Slide from Ileana Fenwick's talk on challenging her views on how to engage. Examining the cracks led Ileana to see that that exposure to information is not enough, and this influenced the design of the Pathways to Open Science program</figcaption><br>
+
+Later, Corey Clatterbuck described the momentum at the California Water Boards following an Openscapes Cohort she and Anna Holder co-led in 2022. They knew they wanted to ["fork" the Openscapes curriculum](https://www.openscapes.org/blog/2022/12/02/swrcb-2022/) to adapt it to the needs of their colleagues, so they examined the cracks using results of an internal 2019 [Data Literacy Survey](https://www.waterboards.ca.gov/resources/oima/cowi/docs/data_literacy_strategy_202011.pdf) with Water Boards employees. Corey and Anna were surprised by the results and, like Ileana, designed their programming to meet these needs. The results showed that respondents were motivated by interest in particular data tasks (image below, top half) and not in specific software or coding languages (image below, bottom half). In short, people were more interested in learning how to do things in their job (goal-oriented), than learning specific software (tool-oriented). From this, the [design of their Cohort](https://cawaterboarddatacenter.github.io/swrcb-openscapes/) emphasized the human over technical approach to open science to reach the majority of Water Boards colleagues who might be interested in open science. They increased the length of each call from 1.5 hours to 2 hours, and added a new module on documentation to replace the one on coding-strategies.
+
+<br> <center> <a> <img src="/img/blog/esip-2023-clatterbuck-datalit-survey.png" alt="slide with 8 rows of bars filled to show percent of people not interested, somewhat, or very interested in a topic. Text says emphasize human over technical approach to open science" width="750px"></a> </center><figcaption>Results from the California Water Boards internal 2019 [Data Literacy Survey](https://www.waterboards.ca.gov/resources/oima/cowi/docs/data_literacy_strategy_202011.pdf) showed that respondents were motivated by interest in particular data tasks (top half) and not in specific software or coding languages (bottom half). Examining these cracks influenced how Clatterbuck and Holder forked and designed the Champions Program at the California Water Boards. (slide from Clatterbuck)</figcaption> <br>
+
+Ileana's approach of "Examining the cracks" also caught Cassie Nickles' ear. She is a Mentor with NASA Openscapes, a community that supports researchers as they migrate analytical workflows to the Cloud. Cassie and her colleagues across other NASA Earthdata data centers are co-creating common tutorials, a review & reuse process, and as well as community of practice for teaching, mentoring, and facilitation for NASA Earthdata Cloud. As she was onboarding into her current role, Cassie became overwhelmed by the steps and processes required by end users to access and use NASA Earthdata. She figured if she was confused, others might be too and wanted to help simplify navigating the complicated systems.
+
+> The data analysis needed for the pressing problems we face should not be limited by the complexity of the underlying systems or a lack of computer engineering skills. - Luis Lopez, NSIDC
+
+Cassie and Openscapes Mentor-colleague Catalina Oaida Taglialatela made [Cheatsheets](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/cheatsheets.html#workflow-cheatsheet) with clickable icons that lead to tutorials for NASA Earthdata Cloud researchers! Having filled some gaps, Cassie is now recognizing more cracks moving forward: how do we get these resources in front of the folks they're intended for?
+
+## Break the hero mentality in science; invest in radical collaboration
+
+Erin Robinson opened the session saying that solutions to large-scale environmental and social challenges require radical collaboration, but have been limited by the hero model, where science is competitive, siloed, and rewards an individual hero, often a white man. She said we together are changing this story. We do this by welcoming people where they are and through creative approaches that blend methods from open source software development, mentoring, coaching, and art.
+
+Reflecting as a Mentor at NOAA Fisheries supporting [6 Openscapes cohorts (240 staff) in 2022](https://www.openscapes.org/tags/noaa-fisheries/), Josh London said that "collaboration is something we're never taught." Individuality is instilled in grad school and we never have a chance to change this through "business as usual." We need the space and place to relearn. Don't spend your time trying to solve things yourself. Learn together first! It's ok to ask for help early. Adyan Rios is also a NOAA Fisheries Mentor, who is helping develop a learning culture at the Southeast Fisheries Science Center through leading "Surf Sessions" where colleagues cowork remotely and share what they know. Adyan echoed this need for radical collaboration, saying that it's radical because it means being vulnerable. It means people sharing things they haven't figured out yet, while they're still messy. Or share a cool thing you learned, like a keyboard shortcut. If you just learned it, chances are someone in your community didn't know it yet either. Sharing makes their day a little better and make their work more efficient. This harkens back to Cassie creating cheatsheets to share what she figured out to help others.
+
+::: {.blockquote-blue}
+> *"Team collaboration is not something that we've all learned from the beginning. In grad school it's instilled in us this idea that anything meaningful that we do in science is supposed to be done by us as individuals."* **-- Josh London**
+:::
+
+<br>
+
+::: {.blockquote-blue}
+> *"This mindset and practice \[of learning **together** first\] has been revolutionary for us at NOAA."* **--- Adyan Rios**
+
+Breaking the hero model is something that Luis Lopez has been thinking about too. He shared that as a software engineer, something he has learned through the NASA Openscapes Mentors community is to empathize with researchers and not expect that software alone is the hero. The key is to really understand learners and researchers, get to know them and see how they work and where they are stuck. Working with his NASA Mentor colleagues, Luis identified that there were many steps involved before researchers could be hands-on with data in the cloud, and was intent on reducing that "time to science". Luis has led development of the [earthaccess](https://nsidc.github.io/earthaccess/) python library to search, download or stream NASA Earth science data, enabling a researcher to get to the science with four lines of Python code, instead of running command line code that saves a hidden .netrc file to the user's computer and requires reactivation after one hour. Collaborating with other Mentors has been critical here -- again breaking the hero model -- as Cassie's Cheatsheets helped visualize all the steps previously involved that were cumbersome for scientists.
+
+## Build morale through learning; advocate for learning time
+
+"How to make learning part of your job" and "When do you carve out time to learn" are questions that come up frequently, as they did here. Pointing to examples of how other individuals and agencies do this has been super powerful: it is negotiated with supervisors at NOAA to be included in Individual Work Plans, and the NASA Earthdata Mentors are a fantastic example of the power of high-level support for learning. The NASA Mentors shared how the Mentor community has been able to learn and collaborate together over the past two years. This was because their time was approved at a high level, by NASA policy and by their managers. This approved time has given space for them to first share and listen, find the common, and then build together, reuse, and amplify.
+
+::: {.blockquote-blue}
+> *"Learning builds morale: it gives people an opportunity to change workflows, learn new skills, improve the culture, and take ownershipof that"* **--- Josh London**
+:::
+
+We're seeing some of this trickle out beyond the Openscapes curriculum. Josh London talked about how we often focus on the shiny new tools (python, R, Quarto, GitHub) but it's the culture shifts that are the real meaningful change. He said it's so encouraging to see in a calendar invite for a meeting that someone's already initiated an agenda in a shared document and that there are multiple people contributing notes there at the same time. Additionally, learning to use tools like GitHub for shared "todo" lists and better project management for teams has increased morale for NOAA Fisheries teams. Teams are also using these tools for more inclusive communication to onboard other team members to their projects, passing forward this increased morale that comes from learning together.
+
+Loneliness during the Pandemic was mentioned several times - Adyan, Cassie, Corey, and Ileana all onboarded to their current roles during the pandemic. They noted that shared practices like coworking along with collaborating asynchronously with GitHub and Google Docs helped them feel less alone and build real connections with their colleagues. And, it helped them learn skills they needed to do their jobs. They saw that these skills would help other colleagues as well, so they have dedicated time to teaching and supporting colleagues, and advocating for learning time from supervisors.
+
+::: {.blockquote-blue}
+> *"Not everyone needs the same learning curve; we can send down a rope and help others get to where they need to be sooner."* **--- Adyan Rios**
+
+<br> <center> <a> <img src="/img/blog/esip-2023-clatterbuck-emphasis.png" alt="slide with 3 images of round fuzzy monsters with subheading psychological safety & culture, uniting data strategies, documentation thru Pathway & GitHub" width="750px"></a> </center> <figcaption>The California Water Boards Openscapes Cohort emphasized psychological safety and culture, uniting data strategies, and documentation to create a welcoming environment, build community, and reduce loneliness in learning new skills. (slide from Clatterbuck; artwork from [GitHub Illustrated Series](https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/))</figcaption><br>
+
+## Onward
+
+One of the most inspiring aspects of this panel was the mutual recognition of common themes, challenges, and potential approaches among speakers from government agencies and academia who had not previously worked together. ESIP is a great place to make those connections across agencies and convening these sessions is an effective way to move us all forward together. Open science isn't the ultimate goal. The vision is what's possible because of open science: climate solutions, social justice, and democracy. As we advocate in this Year of Open Science, let's connect it not just to the higher efficiency and quality of work that is produced, but especially with higher team morale and empowerment of individuals to change their institutional culture.
+
+<br>
+
+## Speakers Bios
+
+**Corey Clatterbuck** is an environmental scientist at the California Water Boards in the Office of Information Management and Analysis and the Surface Water Ambient Monitoring Program. A trained ecologist, Corey's current work uses landscape and water data to identify healthy watersheds in California and determine the policies & practices to keep them that way. Having supported Openscapes trainings throughout 2021, "forked" Openscapes with her colleague Anna Holder and taught her colleagues internally within the Water Boards in 2022.
+
+**Ileana Fenwick** is a third-year marine fisheries PhD student at UNC and part of the Openscapes core team. She launched the Pathways to Open Science program to welcome more Black marine scientists to open science and to build skills and community!
+
+**Josh London** is a Wildlife Biologist at NOAA Fisheries, in the Marine Mammal Laboratory Alaska Fisheries Science Center (AFSC). Josh's research focuses on ecology and conservation of Arctic seals. Josh is a long-time open source developer and champion; mentor with Openscapes, co-leading Winter and 4 Fall Cohorts with NOAA Fisheries.
+
+**Luis Lopez** is a Research Software Engineer at the National Snow and Ice Data Center (NSIDC) in Boulder, Colorado. He has helped develop tools and services to facilitate data access and discoverability across different NASA Earth missions. He is part of the first cohort of NASA Openscapes Mentors, and lead developer for the earthaccess python library and corn jupyterhub environment.
+
+**Cassie Nickles** is an Applied Science Systems Engineer working for NASA's PO.DAAC, the Physical Oceanography Data Active Archive Center. She became a NASA-Openscapes mentor in 2022 and is consistently looking for better ways to make the complicated simple for data end users through mechanisms like data tutorials, workflow diagrams & cheatsheets!
+
+**Adyan Rios** is a research ecologist at NOAA Fisheries, in the Caribbean Fisheries Branch of the Sustainable Fisheries Division at the Southeast Fisheries Science Center (SEFSC). Adyan participated in Openscapes in Fall 2021 and became an organizer and mentor in 2022; co-leading Summer and 4 Fall Cohorts with NOAA Fisheries.
+
+<br> <img src="/img/blog/esip-2023-speakers.png" alt="headshots of 6 speakers around Openscapes hex logo" width="750px"> <figcaption>ESIP 2023 panelists</figcaption> <br>

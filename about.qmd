@@ -34,7 +34,7 @@ Through this work, some highlights of impact to date: (1 Engage): 7 DAACs partic
 
 ## Blog
 
-**We write [blog posts](https://openscapes.org/blog#category=nasa-framework) about NASA Openscapes on our main openscapes.org blog.**
+**We are cross-posting [blog posts](blog.qmd) about NASA Openscapes from our main openscapes.org blog.**
 
 **Additional blogs about our work:**
 

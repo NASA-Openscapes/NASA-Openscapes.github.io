@@ -1,0 +1,71 @@
+---
+title: "New Zenodo Openscapes Community helps you Find and Cite Openscapes things"
+author: Stefanie Butland
+date: 2023-05-31
+slug: zenodo-community
+categories:
+  - blog 
+  - how-we-work
+  - noaa-fisheries
+  - nasa-framework
+# tags:
+#   - impact
+#   - noaa-fisheries
+#   - nasa-framework
+image: zenodo-openscapes-community-square.png
+---
+
+# We created a Zenodo Openscapes Community!
+
+We want to share our work in a way that people can find it, use it, improve it, and cite it, or get credit for their contributions. For people who have participated in our programs like Openscapes Champions[^1], or Pathways to Open Science[^2], we want a robust way to add these to their CV as professional development. For contributors to our open educational resources, like the NASA Earthdata Cloud Cookbook[^3], we want them to get credit and visibility. For people who want to reuse or remix a slide from a presentation, we want them to feel great about it by providing an easy way to cite the presentation. To enable all of this, we created a [Zenodo Openscapes Community](https://zenodo.org/communities/openscapes/) as a semantically meaningful group of selected research products. NASA's Transform to Open Science ([TOPS](https://zenodo.org/communities/tops/)) and the Center for Scientific Collaboration and Community Engagement's ([CSCCE](https://zenodo.org/communities/cscce/)) Zenodo Communities were inspirations for ours.
+
+[^1]: Julia Stewart Lowndes & Erin Robinson. (2022). Openscapes Champions Lesson Series (2022.12). Zenodo. <https://doi.org/10.5281/zenodo.7407247>
+
+[^2]: Ileana Fenwick & Julia Stewart Lowndes. (2023). Pathways to Open Science (2023.02). Zenodo. <https://doi.org/10.5281/zenodo.7662700>
+
+[^3]: Andy Barrett, Chris Battisto, Brandon Bottomley, Aaron Friesz, Alexis Hunzinger, Mahsa Jami, Alex Lewandowski, Bri Lind, Luis López, Jack McNelis, Cassie Nickles, Catalina Oaida Taglialatela, Celia Ou, Brianna Pagán, Sargent Shriver, Amy Steiker, Michele Thornton, Makhan Virdi, Jessica Nicole Welch, Erin Robinson, Julia Stewart Lowndes. (2023). NASA EarthData Cloud Cookbook (2023.03). Zenodo. <https://doi.org/10.5281/zenodo.7786711>
+
+[Zenodo](https://zenodo.org/) is a general-purpose open repository that allows researchers to deposit research related digital artefacts like research papers, data sets, research software, reports, lesson materials, and presentations. For each submission, a persistent digital object identifier ([DOI](https://en.wikipedia.org/wiki/Digital_object_identifier)) is minted, which makes the stored items easily citable (adapted from [Wikipedia](https://en.wikipedia.org/wiki/Zenodo)). Zenodo allows for versioning and we can preserve GitHub repositories in Zenodo too (GitHub itself is *not* a repository!).
+
+<br>
+
+```{r}
+#| eval: true
+#| echo: false
+#| out-width: "70%"
+#| fig-align: "center"
+#| fig-alt: "screenshot of the Openscapes Community page on Zenodo"
+knitr::include_graphics("zenodo-openscapes-community.png")
+```
+
+## Our use cases
+
+The [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/approach/tooling.html#sec-zenodo) gives instructions for our use cases, with pointers for things that might not be obvious to a first-time user.
+
+-   What do we curate in our Zenodo Openscapes Community?
+-   How to add your existing Zenodo record to the Zenodo Openscapes Community
+-   How to publish a new record in Zenodo to get a DOI
+-   How to get a DOI for materials on GitHub
+-   How to cite Openscapes publications
+
+## Bonus things I learned
+
+Of course I want credit for my contributions! When we add an author's ORCID ID to a Zenodo record, their ORCID profile is automatically updated. I learned of this bonus when I uploaded a post on which I'm a co-author, and then received email notification that this record had been added to my ORCID profile. Why is this so cool? An [ORCID ID](https://support.orcid.org/hc/en-us/articles/360006897334-What-is-my-ORCID-iD-and-how-should-I-use-it-) is a unique, open digital identifier that distinguishes you from every other researcher with the same or a similar name to you. My ORCID profile is a bit like a CV. I use it to collect my research publications (not limited to peer reviewed papers) along with things like education and service on boards. Having it automatically updated is great.
+
+<br>
+
+```{r}
+#| eval: true
+#| echo: false
+#| out-width: "50%"
+#| fig-align: "center"
+#| fig-alt: "screenshot showing zenodo record called 3 Approaches for the Year of Open Science with green ID symbol linked with an arrow to a second screenshot showing the ORCID record for that publication"
+knitr::include_graphics("zenodo-orcid.png")
+```
+::: {.caption-text .center-text}
+*Associating a Zenodo record with an author's ORCID ID results in that record being automatically listed in their ORCID profile.*
+:::
+
+<br>
+
+Want to create a Zenodo Community? Play in the [Sandbox](https://sandbox.zenodo.org/) first, where anyone can create and refine a draft Community before publishing it in Zenodo. Creating a Sandbox version forced me to recognize decisions to make before creating the real thing, like: needing to create it from an account that looks professional like "curator", rather than my personal email username; or deciding what types of research products to include or exclude. This webinar section "[How to create a community](https://youtu.be/yj2r8RayIX8?t=734)" screenshares a walk-through that makes things crystal clear.

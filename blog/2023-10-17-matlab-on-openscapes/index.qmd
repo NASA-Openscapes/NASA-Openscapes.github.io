@@ -1,0 +1,76 @@
+---
+title: "MATLAB on Openscapes"
+description: "Accessing and Analyzing NASA Earthdata in the Cloud with MATLAB"
+author:
+  - name: Lisa Kempler
+date: 2023-10-17
+citation: 
+  url: https://openscapes.org/blog/2023-10-17-matlab-on-openscapes
+categories: [nasa-framework, blog]
+image: matlab-launch.png
+---
+
+*Lisa Kempler works at MathWorks as a Research and Geoscience Strategist. She supports research and educator communities seeking to integrate their platforms with software tools and resources that enable effective data access, computing, and results sharing and publishing. She regularly meets with research communities, including site developers and users of data and compute services, developing programs and working with teams to provide implementation and user support. Lisa attended Brown University, Boston University, and Northeastern University.*
+
+***Quick links:***
+
+-   [*Recording*](https://drive.google.com/file/d/15kuVavXX2fVnLqiOlr9rHVmphZQ5NZNa/view) *of the presentation at the NASA Openscapes Mentors Call on Sept. 6, 2023 by Cedric Wannaz (MathWorks)*
+-   [*Tutorial*](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/in-development/matlab.html)*: Using MATLAB on NASA Openscapes*
+
+------------------------------------------------------------------------
+
+More and more data is being made available for users on [NASA's Earthdata Cloud](https://www.earthdata.nasa.gov/eosdis/cloud-evolution) platform. [NASA Openscapes](https://nasa-openscapes.github.io/) collaborates with a community of user-support staff across ten of the NASA Earth science Distributed Active Archives (DAACs), with the aim to help researchers transition their computational workflows to the Cloud using NASA Earthdata.
+
+Through the [NASA Openscapes Champions,](https://nasa-openscapes.github.io/champions.html) an annual program that supports cohorts of science teams, a number of researchers expressed interest in using the data hosted on NASA Earthdata with MATLAB. The initial NASA Openscapes' JupyterHub platform hosted by [2i2c](https://2i2c.org/), and tutorials, were Python-based. However, to make this transition, users need to be able to use software tools that are familiar to them that enable access to the data and can process it. The NASA Openscapes team reached out to MathWorks, developers of MATLAB, to support the effort to integrate MATLAB into NASA Openscapes JupyterHub and tutorials. The goal was to enable direct Cloud data access from MATLAB. 
+
+Together, our two teams have successfully installed MATLAB on NASA Openscapes JupyterHub, visible in the screenshot below. It is now available for researchers participating in NASA Openscapes affiliated learning events to try out with Earthdata data. Researchers will "bring their own license" (BYOL) and will be prompted to input that information to access MATLAB.
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: center
+#| out-width: "75%" 
+#| fig-alt: "JupyterHub interface with folders listing on left and launcher window on right including 3 rows of icons. Top row inludes MATLAB launcher"
+knitr::include_graphics("matlab-launch.png")
+```
+
+::: {.small-text .center-text .dark-gray-text}
+Two MATLAB computing options on the Openscapes 2i2c JupyterHub: Full MATLAB desktop (with IDE) and via a Jupyter Notebook interface.
+:::
+
+The MATLAB implementation on Openscapes JupyterHub consists of
+
+-   MATLAB desktop: A full MATLAB, including the IDE (bring your own license[^1])
+
+-   15 MATLAB toolboxes available to use with the MATLAB installation
+
+    -   Including: Mapping, Signal Processing, Statistics and Machine Learning toolboxes
+    -   As users identify additional toolboxes they require, this list can grow.
+
+[^1]: Many universities and research institutes have site-wide licenses for MATLAB -- called "Campus-Wide Licenses" and "Institute-Wide Licenses", respectively. Most universities in the U.S. and Canada have CWLs. In those cases, all researchers, faculty and students have access to a MATLAB license via their institutions that work in this BYOL setup. Check with your university system administrators to find out if you have access to a MATLAB license at your institution.
+
+In addition, we've written a detailed tutorial to help users learn the system and process the data. The [MATLAB tutorial](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/in-development/matlab.html) from NASA Openscapes includes code examples, that cover:
+
+-   [Launching MATLAB in Openscapes 2i2c JupyterHub](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/in-development/matlab.html#launch-matlab-in-2i2c-jupyterhub)
+-   Login and Authentication
+-   [Accessing data](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/in-development/matlab.html#accessing-data) on Earthdata
+-   [Launching with AWS Console](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/in-development/matlab.html#launch-with-aws-console)
+
+```{r}
+#| eval: true
+#| echo: false
+#| fig-align: center
+#| out-width: "75%" 
+#| fig-alt: "Map showing sea surface temperature in yellow, green, blue. Heading 'sea surface temperature [kelvin]'; x-axis from 24 to 44; y-axis from -80 to -50"
+knitr::include_graphics("matlab-map.png")
+```
+
+::: {.small-text .center-text .dark-gray-text}
+Map showing sea surface temperature created from HDF5 data with MATLAB contour() using the AWS console (screenshot from the MATLAB tutorial in the Earthdata Cloud Cookbook)
+:::
+
+It's new to work with NASA Earthdata on the NASA Openscapes JupyterHub, and even newer with MATLAB! We are excited that teams participating in the 2022 and 2023 NASA Openscapes Champions program are already logging into Openscapes and using MATLAB on the platform and continuing to push forward NASA Earthdata Cloud access through MATLAB. We will share more results on this work at the upcoming [American Geophysical Union Fall Meeting on Tuesday, December 12.](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1281461) If you are interested in this work, please get in touch ([lisak\@mathworks.com](mailto:lisak@mathworks.com)).
+
+To learn more about using MATLAB with data on NASA Openscapes, watch the [video presentation to the NASA Openscapes Mentors](https://drive.google.com/file/d/15kuVavXX2fVnLqiOlr9rHVmphZQ5NZNa/view?pli=1) or read the [MATLAB Tutorial](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/in-development/matlab.html).
+
+*Acknowledgements: A special thanks to Erin Robinson of NASA Openscapes and Luis Lopez Espinosa of the National Snow and Ice Data Center (NSIDC) for their collaboration on the NASA Openscapes MATLAB implementation and their contributions to this blog post.*
