@@ -141,14 +141,7 @@ In our final session we paired up to coach each other through developing our own
 
 <br>
 
-```{r}
-#| echo: false
-#| fig-align: center
-#| out-width: "85%"
-#| fig-alt: "A bee standing on a pink flower with multiple florets, against a black background"
-knitr::include_graphics("mrlowndes-bee.jpg")
-```
-
+![](mrlowndes-bee.jpg){width="85%" fig-alt="A bee standing on a pink flower with multiple florets, against a black background"}
 ::: {.caption-text .center-text}
 Photo by Elliot Lowndes
 :::
