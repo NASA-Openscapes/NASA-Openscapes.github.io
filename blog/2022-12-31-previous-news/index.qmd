@@ -1,0 +1,14 @@
+---
+title: "Previous News 2021-2022"
+author:
+  - name: Julie Lowndes and Erin Robinson
+date: 2022-12-31
+categories: [nasa-framework, blog, how-we-work]
+image: /../../images/nasa-openscapes.png
+---
+
+## We're migrating previous posts
+
+As we migrate posts from 2021-2022, please find them here on the main openscapes.org website: 
+
+**<https://openscapes.org/events#category=nasa-framework>**
