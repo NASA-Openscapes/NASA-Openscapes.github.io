@@ -42,44 +42,25 @@ Andy Barrett created and presented more in-depth slides to the [2023 NASA Champi
 **Assuming you are "ready to Cloud" based on the considerations above, there are two main solutions for accessing NASA Earthdata Cloud: Do it yourself or using a managed Cloud service.** If you do it yourself, this involves creating an AWS Account, connecting to an EC2 instance, and using resources like the [Earthdata Cloud Primer](https://earthdata.nasa.gov/learn/user-resources/webinars-and-tutorials/cloud-primer) for more setup and cost management information. If you use a managed Cloud service, organizations like [2i2c](https://2i2c.org/) can provide Cloud-hosted JupyterHubs for research and education. Your institution may also support smaller or larger scale options.
 
 ## Comparing/Overview of Managed Hubs
+                        
+![](UWG2023_Cloud_Environment_Opportunities_2i2c.png){width="75%" fig-alt="screenshot of a slide with heading NASA Openscapes 2i2c JupyterHub, text box to left, screenshot to right"}
 
-
-```{r}
-#| eval: true
-#| echo: false
-#| fig-align: center
-#| out-width: "75%" 
-#| fig-alt: "slide 4 in https://docs.google.com/presentation/d/1NEsE58SIMjQ_fjC_11HIXqd7Urvi5yy5/edit#slide=id.g23808f09f20_2_714. Heading 'NASA Openscapes 2i2c JupyterHub', text box to left, screenshot to right"
-knitr::include_graphics("UWG2023_Cloud_Environment_Opportunities_2i2c.png")
-```
 
 ::: {.small-text .center-text .dark-gray-text}
 The NASA Openscapes 2i2c JupyterHub, one of the six options presented, provides a valuable shared Cloud environment not only for our Science Champions and workshop learners, but also for our DAAC scientists, developers, and user support staff across NASA EOSDIS (Earth Observing System Data and Information System).
 :::
 
 
-```{r}
-#| eval: true
-#| echo: false
-#| fig-align: center
-#| out-width: "75%" 
-#| fig-alt: "slide 6 in https://docs.google.com/presentation/d/1NEsE58SIMjQ_fjC_11HIXqd7Urvi5yy5/edit#slide=id.g23808f09f20_2_714. Heading 'Earthdata Cloud Playground', text box to left, screenshots to right show a GitHub repo and out put of a python notebook showing graphic of the Great Lakes"
-knitr::include_graphics("UWG2023_Cloud_Environment_Opportunities_playground.png")
-```
+![](UWG2023_Cloud_Environment_Opportunities_playground.png){width="75%" fig-alt="slide with heading Earthdata Cloud Playground, text box to left, screenshots to right show a GitHub repo and out put of a python notebook showing graphic of the Great Lakes"}
+
 
 ::: {.small-text .center-text .dark-gray-text}
 The Earthdata Cloud Playground is in development as a long-term resource for users learning and testing their data workflows in the Cloud.
 :::
 
 
-```{r}
-#| eval: true
-#| echo: false
-#| fig-align: center
-#| out-width: "75%" 
-#| fig-alt: "slide 8 in https://docs.google.com/presentation/d/1NEsE58SIMjQ_fjC_11HIXqd7Urvi5yy5/edit#slide=id.g23808f09f20_2_714. Heading 'Coiled', text box to left, screenshots to right"
-knitr::include_graphics("UWG2023_Cloud_Environment_Opportunities_coiled.png")
-```
+![](UWG2023_Cloud_Environment_Opportunities_coiled.png){fig-alt="slide with heading 'Coiled', text box to left, screenshots to right"}
+
 
 ::: {.small-text .center-text .dark-gray-text}
 Coiled can be a resource for those who wish to offboard or scale from an existing Hub environment.
@@ -89,14 +70,8 @@ Coiled can be a resource for those who wish to offboard or scale from an existin
 
 This Fall, Openscapes is partnering with [Coiled](https://www.coiled.io/) to support us experimenting with another approach to Cloud access, as well as refactoring workflows from serial processes (for-loops) to parallel in order to leverage the true power of Cloud. Amy Steiker and Luis Lopez lead a [live demo for UWG participants](https://docs.google.com/document/d/1tqV1eF15qqyZL8lMAa9a3PyXJ6CC3fvHe4oKzw_iaUs/edit#heading=h.c3zsga28bzu), leveraging the same Google doc approach used during the Science Champions [Earthdata Cloud Clinic](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/examples/Earthdata-cloud-clinic.html) for this event, including more information on Coiled. 
 
-```{r}
-#| eval: true
-#| echo: false
-#| fig-align: center
-#| out-width: "75%" 
-#| fig-alt: "Photo with foreground showing backs of 14 people seated at tables with labtops, watching a woman at podium and a projection of a presentation slide"
-knitr::include_graphics("amy-steiker-uwg.png")
-```
+![](amy-steiker-uwg.png){width="75%" fig-alt="Photo with foreground showing backs of 14 people seated at tables with labtops, watching a woman at podium and a projection of a presentation slide"}
+
 
 ::: {.small-text .center-text .dark-gray-text}
 Amy Steiker presenting to NSIDC User Working Group
