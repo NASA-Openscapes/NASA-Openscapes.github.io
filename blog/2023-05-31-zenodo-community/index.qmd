@@ -29,14 +29,9 @@ We want to share our work in a way that people can find it, use it, improve it, 
 
 <br>
 
-```{r}
-#| eval: true
-#| echo: false
-#| out-width: "70%"
-#| fig-align: "center"
-#| fig-alt: "screenshot of the Openscapes Community page on Zenodo"
-knitr::include_graphics("zenodo-openscapes-community.png")
-```
+
+![](zenodo-openscapes-community.png){width="70%" fig-align="center" fig-alt="screenshot of the Openscapes Community page on Zenodo"}
+
 
 ## Our use cases
 
@@ -54,14 +49,8 @@ Of course I want credit for my contributions! When we add an author's ORCID ID t
 
 <br>
 
-```{r}
-#| eval: true
-#| echo: false
-#| out-width: "50%"
-#| fig-align: "center"
-#| fig-alt: "screenshot showing zenodo record called 3 Approaches for the Year of Open Science with green ID symbol linked with an arrow to a second screenshot showing the ORCID record for that publication"
-knitr::include_graphics("zenodo-orcid.png")
-```
+![](zenodo-orcid.png){fig-align="center" width="75%" fig-alt="screenshot showing zenodo record called 3 Approaches for the Year of Open Science with green ID symbol linked with an arrow to a second screenshot showing the ORCID record for that publication"}
+
 ::: {.caption-text .center-text}
 *Associating a Zenodo record with an author's ORCID ID results in that record being automatically listed in their ORCID profile.*
 :::
