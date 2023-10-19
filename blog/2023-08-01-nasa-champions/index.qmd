@@ -26,14 +26,8 @@ Cloud migration can often have a steep learning curve and feel overwhelming. The
 
 The second NASA Openscapes Champions Cohort ran formally in April-June 2023 with seven research teams interested in a wide variety of NASA Earthdata and various stages of Cloud technology familiarity. You can learn more about their research below.
 
-```{r}
-#| eval: true 
-#| echo: false
-#| fig-align: "center"
-#| out-width: "75%" 
-#| fig-alt: "screenshot of 23 zoom participant faces smiling and waving"
-knitr::include_graphics("zoomie-2023-nasa-champions.png")
-```
+![](zoomie-2023-nasa-champions.png){width="75%" fig-align="center" fig-alt="screenshot of 23 zoom participant faces smiling and waving"}
+
 
 ::: {.caption-text .center-text}
 Zoomie (♥️) of some researchers in the 2023 NASA Openscapes Champions Cohort
@@ -49,14 +43,8 @@ Thanks to the NASA Openscapes Mentors for supporting the Champions and for their
 
 3.  Amy Steiker from NSIDC designed and led the **Earthdata Cloud Clinic**! This was a hands-on 1-hour clinic that allowed teams to get familiar with the 2i2c JupyterHub, and practice finding and accessing NASA Earthdata via direct access through two methods from a Jupyter Notebook: earthaccess and Harmony-py services. This material can be found in the cookbook here -\> <https://nasa-openscapes.github.io/earthdata-cloud-cookbook/examples/Earthdata-cloud-clinic.html> \
 
-```{r}
-#| eval: true 
-#| echo: false 
-#| fig-align: "center" 
-#| out-width: "60%" 
-#| fig-alt: "screenshot of zoom window with left side showing screenshare of 2i2c JupyterHub and right side faces of participants, some of whom have a green checkmark with 'yes'"
-knitr::include_graphics("earthdata-clinic-zoom.png")
-```
+![](earthdata-clinic-zoom.png){width="75%" fig-align="center" fig-alt="screenshot of zoom window with left side showing screenshare of 2i2c JupyterHub and right side faces of participants, some of whom have a green checkmark with 'yes'"}
+
 
 ::: {.caption-text .center-text}
 Screenshot of Amy Steiker teaching the Earthdata Clinic. We used Zoom's "green check mark" feature during pauses for people to indicate that they had completed a step.
@@ -70,14 +58,9 @@ The Openscapes Champions provides a space for teams to come together to learn fr
 
 **Understanding 'When to Cloud.'** The Cloud makes some things easier and some things harder. Over the series of five synchronous cohort calls, we considered when Cloud is effective and when the download model may still be more appropriate. Andy Barrett highlighted some considerations in Call 2 on Data Strategies for Future Us.
 
-```{r}
-#| eval: true 
-#| echo: false
-#| fig-align: "center"
-#| out-width: "60%" 
-#| fig-alt: "bullet text says: When to cloud?; What is the data volume?; How long will it take to download?; Can you store all that data (cost and space)?; Do you have the computing power for processing?; Does your team need a common computing environment?; Do you need to share data at each step or just an end product?"
-knitr::include_graphics("when-to-cloud-barrett.png")
-```
+
+![](when-to-cloud-barrett.png){width="75%" fig-align="center" fig-alt="bullet text says When to cloud?; What is the data volume?; How long will it take to download?; Can you store all that data (cost and space)?; Do you have the computing power for processing?; Does your team need a common computing environment?; Do you need to share data at each step or just an end product?"}
+
 
 ::: {.caption-text .center-text}
 Figure from [Andy's slides](https://nsidc.github.io/data_strategies_for_future_us/data_strategies_slides#/when-to-cloud).
@@ -87,14 +70,10 @@ Figure from [Andy's slides](https://nsidc.github.io/data_strategies_for_future_u
 
 **Undifferentiated Heavy Lifting - \`earthaccess\` for the win!** [Jeff Bezos coined this term in his 2006 keynote](https://aws.amazon.com/blogs/aws/we_build_muck_s/) describing AWS doing undifferentiated heavy lifting so that everyone doesn't have to do the mucky parts. The NASA DAAC Mentors' work with research teams allows them to identify places of friction that, if fixed once, would benefit many users. One of the places the NASA DAAC mentors, led by Luis Lopez, have done this is with [earthaccess](https://github.com/nsidc/earthaccess), a Python library to search, download or stream NASA Earth science data with just a few lines of code. Luis described earthaccess in a [video demo](https://github.com/nsidc/earthaccess) we shared in Call 3, and the Cohort used earthaccess in Call 4. We heard over and over how useful earthaccess was to the Cohort teams. 
 
-```{r}
-#| eval: true 
-#| echo: false
-#| fig-align: "center"
-#| out-width: "40%" 
-#| fig-alt: "screenshot of zoom chat says 'Earthaccess is a really nice improvement over the way we were doing S3 access'"
-knitr::include_graphics("zoom-chat-earthaccess.png")
-```
+
+
+![](zoom-chat-earthaccess.png){width="40%" fig-align="center" fig-alt="screenshot of zoom chat says 'Earthaccess is a really nice improvement over the way we were doing S3 access'"}
+
 
 ::: {.caption-text .center-text}
 Zoom chat from a researcher in the 2023 Champions Cohort, who also participated in the 2021 Cloud Hackathon which preceded \`earthaccess\` development.
