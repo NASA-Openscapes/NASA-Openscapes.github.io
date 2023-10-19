@@ -25,14 +25,8 @@ Through the [NASA Openscapes Champions,](https://nasa-openscapes.github.io/champ
 
 Together, our two teams have successfully installed MATLAB on NASA Openscapes JupyterHub, visible in the screenshot below. It is now available for researchers participating in NASA Openscapes affiliated learning events to try out with Earthdata data. Researchers will "bring their own license" (BYOL) and will be prompted to input that information to access MATLAB.
 
-```{r}
-#| eval: true
-#| echo: false
-#| fig-align: center
-#| out-width: "75%" 
-#| fig-alt: "JupyterHub interface with folders listing on left and launcher window on right including 3 rows of icons. Top row inludes MATLAB launcher"
-knitr::include_graphics("matlab-launch.png")
-```
+![](matlab-launch.png){width="75%" fig-alt="JupyterHub interface with folders listing on left and launcher window on right including 3 rows of icons. Top row inludes MATLAB launcher"}
+
 
 ::: {.small-text .center-text .dark-gray-text}
 Two MATLAB computing options on the Openscapes 2i2c JupyterHub: Full MATLAB desktop (with IDE) and via a Jupyter Notebook interface.
@@ -56,14 +50,9 @@ In addition, we've written a detailed tutorial to help users learn the system an
 -   [Accessing data](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/in-development/matlab.html#accessing-data) on Earthdata
 -   [Launching with AWS Console](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/in-development/matlab.html#launch-with-aws-console)
 
-```{r}
-#| eval: true
-#| echo: false
-#| fig-align: center
-#| out-width: "75%" 
-#| fig-alt: "Map showing sea surface temperature in yellow, green, blue. Heading 'sea surface temperature [kelvin]'; x-axis from 24 to 44; y-axis from -80 to -50"
-knitr::include_graphics("matlab-map.png")
-```
+
+![](matlab-map.png){fig-alt="Map showing sea surface temperature in yellow, green, blue. Heading 'sea surface temperature [kelvin]'; x-axis from 24 to 44; y-axis from -80 to -50"}
+
 
 ::: {.small-text .center-text .dark-gray-text}
 Map showing sea surface temperature created from HDF5 data with MATLAB contour() using the AWS console (screenshot from the MATLAB tutorial in the Earthdata Cloud Cookbook)
