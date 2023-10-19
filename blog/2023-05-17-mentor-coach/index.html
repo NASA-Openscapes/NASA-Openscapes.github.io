@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Tara Robertson, Stefanie Butland, Julie Lowndes">
+<meta name="dcterms.date" content="2023-05-17">
+
+<title>NASA-Openscapes - How coaching skills have made us better open data science mentors</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/openscapes_hex.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/openscapes_hex.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">NASA-Openscapes</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../mentors.html" rel="" target="">
+ <span class="menu-text">Mentors</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../champions.html" rel="" target="">
+ <span class="menu-text">Champions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../cookbook-navbar-page.html" rel="" target="">
+ <span class="menu-text">Cookbook</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
+ <span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../events.html" rel="" target="">
+ <span class="menu-text">Events</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/NASA-Openscapes" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/openscapes" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#designing-a-courageous-space" id="toc-designing-a-courageous-space" class="nav-link active" data-scroll-target="#designing-a-courageous-space">Designing a courageous space</a></li>
+  <li><a href="#building-skills-for-listening-not-solutioneering" id="toc-building-skills-for-listening-not-solutioneering" class="nav-link" data-scroll-target="#building-skills-for-listening-not-solutioneering">Building skills for listening not solutioneering</a></li>
+  <li><a href="#building-mindsets-as-leaders" id="toc-building-mindsets-as-leaders" class="nav-link" data-scroll-target="#building-mindsets-as-leaders">Building mindsets as leaders</a></li>
+  <li><a href="#fearless-in-service-of-something" id="toc-fearless-in-service-of-something" class="nav-link" data-scroll-target="#fearless-in-service-of-something">Fearless in service of something</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">How coaching skills have made us better open data science mentors</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">blog</div>
+    <div class="quarto-category">noaa-fisheries</div>
+    <div class="quarto-category">nasa-framework</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tara Robertson, Stefanie Butland, Julie Lowndes </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 17, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p><em>February through May 2023, Openscapes Mentors from across governments and academia came together for some hands-on learning and practice that had a profound effect on the way we will teach and lead going forward. We learned coaching skills that can help us as professionals – skills like listening rather than solutioneering, asking open-ended questions that empower people to find their own agency and meet their needs. This is a program designed and facilitated by Tara Robertson, a Certified Professional Co-Active and International Coaching Federation Associate Certified Coach. Openscapes has been developing a professional collaborative relationship with Tara since <a href="https://www.openscapes.org/blog/2021/05/27/tara-robertson/">2021</a>. It was also impactful because it brought together Openscapes Mentors from across government groups (NASA Earthdata, NOAA Fisheries, EPA, California Waterboard) so they can learn together and support each other in the 2023 Year of Open Science.</em></p>
+<hr>
+<div class="blockquote-blue">
+<blockquote class="blockquote">
+<p><em>“This quietly subversive training showed me how to be a better mentor and coach by using new tools or old tools in better ways to hear what people are saying and help them find solutions within themselves…and by helping me get out of my own way in the process.”</em> <strong>—Amanda Bradford, Research Ecologist, PIFSC, NOAA Fisheries</strong></p>
+</blockquote>
+</div>
+<!-- break -->
+<div class="blockquote-blue">
+<blockquote class="blockquote">
+<p><em>“This was amazing! I love the courses that make you feel uncomfortable and safe at the same time because that’s where change happens. It was such a positive growing experience. I was also able to connect with so many amazing people and that in itself was worth it. Learning from the others has expanded my views on coaching/mentoring/ etc so much!”</em> <strong>—Alex Davis, The Diversity Project, UCLA</strong></p>
+</blockquote>
+</div>
+<!-- break -->
+<div class="blockquote-blue">
+<blockquote class="blockquote">
+<p><em>“This program provides a solid foundation for learning what goes into good mentoring and coaching conducted by an instructor who leads by example. When members of the group place their trust in the instructor and program, it becomes free group therapy with other scientists, where vulnerability is welcomed and mental breakthroughs are made. This bred an extremely comfortable and supportive cohort that I would like to keep in touch with!”</em> <strong>— Alexis Hunzinger, NASA GES DISC Data Center</strong></p>
+</blockquote>
+</div>
+<!-- break -->
+<div class="blockquote-blue">
+<blockquote class="blockquote">
+<p><em>“This has been unlike any leadership training offered to us through typical NOAA/government channels. I think it has been a real eye opener to the importance of getting training outside of our typical (and comfortable) space”</em> <strong>—Josh London, Wildlife Biologist at NOAA Alaska Fisheries Science Center</strong></p>
+</blockquote>
+</div>
+<p>This program had a profound impact on the three of us too, as participants as well as program designers and facilitators. We are still trying to define what it was about the program, the process, and everyone involved that led to such a profound sense of trust among us so that we were able to be vulnerable and do courageous things. While these Openscapes Mentors have been collaborating as colleagues together within their organizations (e.g.&nbsp;as NASA Earthdata Mentors or Pathways to Open Science Mentors), this was the first time most of these folks met as a cross-Openscapes mentor community (besides brief encounters at virtual ESIP conference sessions in <a href="https://www.openscapes.org/blog/2023/03/16/esip-winter-2023/">2023</a> and <a href="https://www.openscapes.org/blog/2022/02/17/esip-winter-2022/">2022</a>).</p>
+<p>This truly was a cohort of <a href="https://en.wikipedia.org/wiki/Early_adopter">early adopter</a> “<a href="https://www.shrm.org/resourcesandtools/hr-topics/benefits/pages/danheath.aspx">bright spots</a>” - folks who wanted to be better mentors and grow as leaders, even if we didn’t know what that meant yet. Not only were folks working across organizations with other mentors they didn’t know, they were expert scientists being asked to step way outside their comfort zone and be novices. In this setting, they were enthusiastic and fearless learners. There was a really high rate of participation and very few people dropped off over the six sessions. We saw individual growth and impacts feeding back and forth: something introduced gently here that we can practice together makes us comfortable, and now we can take this to other spaces and introduce it gently to others too.</p>
+<section id="designing-a-courageous-space" class="level2">
+<h2 class="anchored" data-anchor-id="designing-a-courageous-space">Designing a courageous space</h2>
+<p>We connected these bright spots by creating space and place. We met every 2 weeks for 6 remote sessions for a total of 12 hours. Twenty-eight people participated as part of their paid jobs, supported by their organizations rather than doing it “off the side of their desk”. We used a practice already familiar to all Openscapes Mentors: collaborative note-taking Agendas all in one Google doc where we had a shared responsibility to take notes, clarify explanations, add links to resources, and add shared joy and encouragement via emojis, +1’s and comments. We co-designed and helped each other when facilitating, which was instrumental when Tara got sick and lost her voice and Julie stepped in to facilitate the session based on Tara’s prep ahead of time.</p>
+<p>The 6 sessions focused on specific topics: powerful questions, 3 levels of listening, identifying values, leader within, saboteurs and then taking these coaching skills into mentoring, supervising and sponsoring. For each of the topics, Tara briefly described the topic or skill, did a live demo with one of the participants, and the group described what they observed. Then, Tara gave us a topic to coach on, or some guardrails, and participants went into breakout rooms in pairs to practice coaching and being coached.</p>
+<p>There was a lot of hands-on doing. Most of the participants said this was the best part of the course and also the most uncomfortable bit. In these pairs, the coaches were learning how to ask questions that help people open up…and this also challenged the coachees, who really dived into their needs and blockers for how to better support open science. It was also a testament to Tara’s own willingness to be vulnerable, demonstrating as a coachee and giving us her own real-life examples.</p>
+<p><strong>Thoughts from Tara:</strong> Something really special happened with this cohort. There were three main ingredients to this magic:</p>
+<ol type="1">
+<li><p>The participants were enthusiastic and fearless learners who were willing to step outside their comfort zones and learn new things together. This group of expert scientists from different organizations were willing to be beginner learners with each other. This group embodied courage.</p></li>
+<li><p>We were intentional in the design to maximize psychological safety. At the start of Week 1 we designed an alliance together on how we wanted to be and learn together. I ordered the topics to start with the lower stakes topics and we were intentional about mixing people up across organizations. In the week 5 coaching demo one of the coaching demos the coachee chose to be quite vulnerable and bring a real challenge. This was a turning point where we saw that we can use these skills to surface challenging topics and have honest conversations about barriers in science.</p></li>
+<li><p>Openscapes investment in coaching skills was a unique way to collectively learn some new skills AND build connections between open science leaders across different organizations and Openscapes initiatives: Mentors at NOAA Fisheries, NASA and from the growing Mentor community from CalEPA and Pathways to Open Science.</p></li>
+</ol>
+</section>
+<section id="building-skills-for-listening-not-solutioneering" class="level2">
+<h2 class="anchored" data-anchor-id="building-skills-for-listening-not-solutioneering">Building skills for listening not solutioneering</h2>
+<p>So called “soft skills” are anything but. This was hard. Learning to ask open ended questions was hard, and what was harder still was listening to be able to ask the next powerful question. How we listen differs whether we are in mentor-mode or coach-mode:</p>
+<ul>
+<li><p>When we listen as mentors, we’re trying to understand where our expertise can help someone solve a problem.</p></li>
+<li><p>When we’re listening as coaches, we’re trying to help the other person define their problem, and tap into their own wisdom to find their solution, likely outside of our domain expertise.</p></li>
+</ul>
+<p>What do we mean by a “powerful question”? It’s a short question that can open up a really powerful conversation. It’s open-ended, usually starts with the word “What”, ideally is 5 words or less, and can’t be answered by yes or no. What feels like success to you? What’s in the way? What, if anything, is going unsaid? Which of your core values is being messed with?</p>
+<p>Distinguishing when we’re listening as mentors and when we’re listening as coaches is important, because it determines how we will respond as early adopters who may not know the answer to the question – think cloud computing, how to store increasingly large data, how to give hard feedback to a superior, and how to ask for help in a culture built on competition and the myth of the lone genius. Developing these coach listening skills, including what questions to ask, has helped us help others better (and notice and avoid solutioneering!). It’s also helped us feel less overwhelmed as we learn that it’s okay to not always have the answer!</p>
+<div class="blockquote-blue">
+<blockquote class="blockquote">
+<p><em>“We need these coaching skills to do powerful work and inspire meaningful connections; this program is a safe space to learn, to challenge our preconceptions, to practice, and to grow. I found it to be so invaluable because it’s a chance to acknowledge and learn about skills that are often unspoken in their ability to improve mentorship and collaboration.”</em> <strong>— Ileana Fenwick</strong></p>
+</blockquote>
+</div>
+<p><strong>Thoughts from Stef.</strong> During the first two sessions, in the breakout rooms to practice coaching in pairs, I defaulted to talking more about the process and how we felt about it because actually practicing coaching, even with specific prompts, felt really really hard. But somehow over time, it got easier. Now I find myself trying out “powerful questions” with my peers in one-to-one conversations or coworking, rather than my usual behavior of suggesting solutions to people’s challenges. And people seem to respond!</p>
+<p>But what really made this work?</p>
+<ol type="1">
+<li><p>People were primed for this based on their prior experiences as Openscapes Mentors. They came expecting a familiar set of norms and psychological safety that allowed them first to get comfortable and then to take risks. With this foundation, together we were able to build trust early on. This is key to developing healthy teams and communities. We all knew it would be worth it even if we didn’t know what we were getting into.</p></li>
+<li><p>Often, to offer a program like this, an organization might contract an external professional to deliver it. We took it a step further. Openscapes contracted Tara, with whom we’ve collaborated before, and who is highly respected for her tell-it-like-it-is approach to diversity and inclusion. The core team of Tara, Julie, and me, worked to onboard ourselves and each other to this process using an open facilitation approach rather than working behind a curtain. We met frequently and defined our roles together, agreeing to role-model transparency and vulnerability and to name these things. Julie and I took turns managing breakout rooms each week so we could also take turns practicing coaching.</p></li>
+<li><p>The mentors were not our students; they’re our peers and collaborators. Once people opted in, there was no judgment or “sorries” if someone was late or had to miss a session because of life’s responsibilities.</p></li>
+<li><p>Practice! We moved away from analyzing and into the doing. It was uncomfortable and people still came and showed up as leaders</p></li>
+</ol>
+</section>
+<section id="building-mindsets-as-leaders" class="level2">
+<h2 class="anchored" data-anchor-id="building-mindsets-as-leaders">Building mindsets as leaders</h2>
+<p>Developing coaching skills also helped us build new mindsets. There was a braveness that grew throughout our time together that showed up in different ways. One person shared that they are more brave with whom/when/where they might interact as a coach and mentor. They had recently found themselves in-person with someone senior and rather than making nervous small talk found themselves asking powerful questions and really connecting with the senior person more, and felt that they both learned something in this short moment together.</p>
+<p>We grew these new mindsets with our peers and built trust and community in a really profound way. The topics people surfaced and shared were so vulnerable – navigating racism, personal and structural saboteurs, and the integrations of personal and work life. We had never experienced such vulnerability in our work, and knew we could not shy away from difficult topics but needed to dig further and out based on the courage and trust in the room.</p>
+<p><strong>Thoughts from Julie.</strong> I’ve talked a lot about the impact of open data science on my career and my life. My science thinking was transformed when I realized I could do an analysis just as easily 100 times with a for-loop as doing it twice, and that I could publish my work via RMarkdown and GitHub to the open web and share via a single URL instead of sending followup emails with different versions of the same PDF or Word doc. Now, I am realizing that the impact of coaching on my thinking might be at this same level. I am still processing it all, but I am feeling more confident in places I have been struggling to show up as my full self. It is somehow helping me bring confidence into a room with me, knowing that I have new skills and a strengthened sense of shared braveness together with this cohort. When we first planned this cohort with Tara, this was new terrain. We asked ourselves, “<strong>If this is wildly successful what are the outcomes? What’s possible?“</strong> Here are some ideas we laid out, and I think the Mentors are meeting each one:</p>
+<ul>
+<li><p>People model inclusive behavior in work, life, Openscapes, and our home organizations, to influence culture change</p></li>
+<li><p>People are braver, share stories and energy at work and other places</p></li>
+<li><p>Someone speaks up in a meeting</p></li>
+<li><p>Everyone learns something new! (me too!)</p></li>
+<li><p>We listen better/differently</p></li>
+<li><p>We scale participation - use coaching strategies to empower others sooner, so that existing mentors don’t burn out</p></li>
+<li><p>More people feel safe in Openscapes and open science, and in turn, inspire others to be braver</p></li>
+</ul>
+</section>
+<section id="fearless-in-service-of-something" class="level2">
+<h2 class="anchored" data-anchor-id="fearless-in-service-of-something">Fearless in service of something</h2>
+<p>Working with Tara and bringing Openscapes Mentors across different organizations and initiatives is part of movement building with our <a href="https://doi.org/10.31223/X5CQ02">Flywheel</a>. This is a <a href="https://www.jimcollins.com/concepts/the-flywheel.html">concept developed by Jim Collins</a> that we adapted for Openscapes with Erin Robinson (Erin first brought coaching into Openscapes strategy and practices too!). Transformations occur from relentlessly pushing a giant, heavy flywheel that builds momentum over time. Using this model, we welcomed folks to opt in, created space and place so we could invest in learning and trust, and then worked openly together as we practiced as coaches and coachees, leveraging common experiences and skills. This turn of the flywheel is part of building the momentum of kinder and open science, building from past, parallel, and collaborative work from many places. Mentors are already inspiring others with their leadership, pushing the next turn of the flywheel.</p>
+<p>Bravery has come up throughout this cohort and this post, and this braveness and fearlessness is in service of something. We’re wanting to connect our daily work with the global moment at hand, so we can better address issues stemming from climate change and social justice. As one participant said, “I don’t want to be scared to ask questions anymore”. We want to ask questions with no ego, in rooms with our science peers. We want to break the silences, opening up the rooms so that the next person who has a question but was not sure they would voice it is empowered to speak up.</p>
+<p>In our final session we paired up to coach each other through developing our own statement of purpose in open science.</p>
+<div class="blockquote-blue">
+<blockquote class="blockquote">
+<p><em>“I am an elevator to a better tomorrow”</em></p>
+</blockquote>
+</div>
+<!-- break -->
+<div class="blockquote-blue">
+<blockquote class="blockquote">
+<p><em>“I am a pollinator who connects people to each other and ideas so everyone flourishes”</em></p>
+</blockquote>
+</div>
+<!-- break -->
+<div class="blockquote-blue">
+<blockquote class="blockquote">
+<p><em>“I am the momentum that answers to my peers”</em></p>
+</blockquote>
+</div>
+<!-- break -->
+<p><strong>We are all the momentum that answers to our peers</strong>. To make meaningful change, we must work across all levels and elevate those who will be the change along with us.</p>
+<p><br></p>
+<p><img src="mrlowndes-bee.jpg" class="img-fluid" style="width:85.0%" alt="A bee standing on a pink flower with multiple florets, against a black background"> ::: {.caption-text .center-text} Photo by Elliot Lowndes :::</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© CC-By NASA Openscapes</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>, with theme from <a href="https://github.com/rstudio/vetiver.rstudio.com">vetiver</a></div>
+  </div>
+</footer>
+
+
+
+</body></html>

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Corey Clatterbuck, Ileana Fenwick, Josh London, Luis Lopez, Cassie Nickles, Adyan Rios, Stefanie Butland, Julie Lowndes, Erin Robinson">
+<meta name="dcterms.date" content="2023-03-16">
+
+<title>NASA-Openscapes - 3 approaches for the year of open science</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/openscapes_hex.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/openscapes_hex.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">NASA-Openscapes</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../mentors.html" rel="" target="">
+ <span class="menu-text">Mentors</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../champions.html" rel="" target="">
+ <span class="menu-text">Champions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../cookbook-navbar-page.html" rel="" target="">
+ <span class="menu-text">Cookbook</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
+ <span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../events.html" rel="" target="">
+ <span class="menu-text">Events</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/NASA-Openscapes" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/openscapes" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#approaches-for-the-year-of-open-science" id="toc-approaches-for-the-year-of-open-science" class="nav-link active" data-scroll-target="#approaches-for-the-year-of-open-science">3 approaches for the year of open science</a></li>
+  <li><a href="#examine-the-cracks-invest-in-real-relationships" id="toc-examine-the-cracks-invest-in-real-relationships" class="nav-link" data-scroll-target="#examine-the-cracks-invest-in-real-relationships">Examine the cracks; invest in real relationships</a></li>
+  <li><a href="#break-the-hero-mentality-in-science-invest-in-radical-collaboration" id="toc-break-the-hero-mentality-in-science-invest-in-radical-collaboration" class="nav-link" data-scroll-target="#break-the-hero-mentality-in-science-invest-in-radical-collaboration">Break the hero mentality in science; invest in radical collaboration</a></li>
+  <li><a href="#build-morale-through-learning-advocate-for-learning-time" id="toc-build-morale-through-learning-advocate-for-learning-time" class="nav-link" data-scroll-target="#build-morale-through-learning-advocate-for-learning-time">Build morale through learning; advocate for learning time</a></li>
+  <li><a href="#onward" id="toc-onward" class="nav-link" data-scroll-target="#onward">Onward</a></li>
+  <li><a href="#speakers-bios" id="toc-speakers-bios" class="nav-link" data-scroll-target="#speakers-bios">Speakers Bios</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">3 approaches for the year of open science</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">blog</div>
+    <div class="quarto-category">conference</div>
+    <div class="quarto-category">noaa-fisheries</div>
+    <div class="quarto-category">nasa-framework</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Corey Clatterbuck, Ileana Fenwick, Josh London, Luis Lopez, Cassie Nickles, Adyan Rios, Stefanie Butland, Julie Lowndes, Erin Robinson </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 16, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p><em>At the 2023 ESIP Winter Meeting, “Opening Doors to Open Science”, we held a session called “<a href="https://2023januaryesipmeeting.sched.com/event/1EwXx">Better Science for Future Us: Openscapes stories and approaches for the Year of Open Science</a>” with speakers from University of North Carolina (UNC), National Oceanic and Atmospheric Administration (NOAA) Fisheries, California Water Boards, NASA’s National Snow and Ice Data Center, and NASA’s Physical Oceanography Distributed Active Archive Center. The goals of this session were to hear from and boost a diverse set of leaders from across the US government and academia to highlight open science in daily work, including peer-teaching, mentoring, and learning. Building from our session at ESIP Winter 2022, we hope to create more channels for inter- and cross-agency learning, and share open science stories across agencies, as part of the <a href="https://www.whitehouse.gov/ostp/news-updates/2023/01/11/fact-sheet-biden-harris-administration-announces-new-actions-to-advance-open-and-equitable-research/">2023 Year of Open Science</a> as recently declared by the US Biden-Harris Administration. Speakers shared stories about open science in government and their experiences with Openscapes. Stories were shared in a “Fishbowl” format, where speakers each shared and then there was a broader discussion with the 50+ participants. This blog is co-authored with the speakers.</em></p>
+<p><em>Quick links:</em></p>
+<ul>
+<li><a href="https://2023januaryesipmeeting.sched.com/event/1EwXx"><em>ESIP Session page</em></a><em>- links to with <a href="https://youtu.be/1IWFIyPzsKY">video recording</a> and <a href="https://docs.google.com/document/d/1hUnAwjyvK8rxsybPlhwgBrKZ3pCG_1YekRLfBWtRfdg/edit">notes</a></em></li>
+<li><em>Movement building through:</em>
+<ul>
+<li><em>A first welcome to open data science - Ileana Fenwick (<a href="https://docs.google.com/presentation/d/1j9TAXxCw1zjXBcYMe4UizOgo6LR8dRn3/edit?usp=share_link&amp;ouid=117331415908654768512&amp;rtpof=true&amp;sd=true">slides</a>)</em></li>
+<li><em>Inside NOAA Fisheries - Josh London, Adyan Rios</em></li>
+<li><em>Forking Openscapes internally at the California EPA Water Boards - Corey Clatterbuck (<a href="https://docs.google.com/presentation/d/1Okil31Fe0fXEfGeAEr84GMdcqi4dFIiQtMCCFZwTljk/edit?usp=share_link">slides</a>)</em></li>
+<li><em>Contributing back to open science at the NASA Data Centers- Cassie Nickles, Luis Lopez (<a href="https://docs.google.com/presentation/d/1nCnIxfsTC2XazHK-JvbL4qcBEB77rxSBFZp59Q4G93c/">slides</a>)</em></li>
+</ul></li>
+</ul>
+<hr>
+<section id="approaches-for-the-year-of-open-science" class="level2">
+<h2 class="anchored" data-anchor-id="approaches-for-the-year-of-open-science">3 approaches for the year of open science</h2>
+<p>This session brought together a diverse set of leaders from across the U.S. government and academia to highlight open science in daily work, including peer-teaching, mentoring, and learning. They shared stories, examples, and concrete tips for supporting each other and our colleagues with collaborative, inclusive open science approaches, with the aim of strengthening channels for inter- and cross-agency action in the Year of Open Science 2023. This session builds from our session at ESIP Winter 2022, and you can review the summary blog and videos: <a href="https://www.openscapes.org/blog/2022/02/17/esip-winter-2022/">3 takeaways for planning for the year of open science</a>. Those 3 takeaways were 1. Both top-down and grassroots efforts are necessary; 2. Dissolve silos by supporting early adopters; 3. Reuse and build from existing efforts to accelerate change.</p>
+<p>This year, presenters shared Openscapes stories and approaches following another year’s work mentoring, coaching, and teaching colleagues as well as listening, advocating, and informing open science policy at different levels. Their stories come from the many phases of open science movement building they represent: a first welcome, inside government organizations, “forking” Openscapes internally, and contributing back to open science. What emerged was real lightbulb moments and real-time interplay between panelists who have not previously worked together as we recognized common themes and learned from each other.</p>
+<p><strong>Here are 3 overlapping takeaways from this session that all speakers embodied:</strong></p>
+<ul>
+<li>Examine the cracks; invest in real relationships</li>
+<li>Break the hero mentality in science; invest in radical collaboration</li>
+<li>Build morale through learning; advocate for learning time</li>
+</ul>
+<p>We describe these more fully below. And as we advocate for open science in this Year of Open Science, let’s connect open science with building morale and empowering individuals as well as with the higher quality of work created.</p>
+</section>
+<section id="examine-the-cracks-invest-in-real-relationships" class="level2">
+<h2 class="anchored" data-anchor-id="examine-the-cracks-invest-in-real-relationships">Examine the cracks; invest in real relationships</h2>
+<p>“Examining the cracks’’ was a concept brought up by Ileana Fenwick at the very beginning of our session, and it resonated with the other panelists throughout. Ileana designed and leads the <a href="https://openscapes.github.io/pathways-to-open-science/">Pathways to Open Science</a> program, a remote event series of community calls and coworking for Black environmental &amp; marine researchers to build community for the future of data intensive science. The first session, held on the evening of this ESIP panel, welcomed over <a href="https://twitter.com/curly_scientist/status/1618735555415805953">80 participants</a>! Ileana shared that as she became empowered with open science, she thought exposure alone would be enough to attract other people to open science events. It wasn’t; there are many reasons why folks do not feel included in science and open science. It caused her to examine the cracks - why wouldn’t she participate in this program if she saw it in her inbox? This influenced the design of the Pathways program, with a deep investment in engagement. Ileana partnered Openscapes with <a href="https://www.blackinmarinescience.org/">Black in Marine Science (BIMS)</a> and <a href="https://www.bweems.org/">Black Women in Ecology, Evolution, and Marine Science (BWEEMS)</a>, and met 1:1 with faculty at HBCUs, to learn about their students’ needs and introduce her ideas for the program. Ileana shared these three pieces of advice, saying”inclusion is not an afterthought”:</p>
+<ol type="1">
+<li><p>Surface level efforts are easy to spot. Some questions to ask as you plan your program goals and efforts are: What is your motivation for this work? Is it genuine? Is the space you’re inviting students to a safe space for marginalized students? (Do they know that?) It is clear when the broader impacts are written last. Inclusion is not an afterthought, your planning and process should demonstrate that.</p></li>
+<li><p>We exist. If your efforts are not yielding diverse participation, it’s not because we aren’t out there. It’s because your efforts need to be tailored more specifically and intentionally.</p></li>
+<li><p>Center diverse voices. If there are no members of your team from your target audience or your team is not reflective, this is a moment to step back and ask yourself if YOU need to be the one doing this work. Amplify and empower diverse leadership, support them, compensate them, use privilege to push the project forward.</p></li>
+</ol>
+<br>
+<center>
+<a> <img src="../../img/blog/esip-2023-fenwick-cracks.png" alt="slide title Challenging my views on how to engage. Text says Exposure is not enough. Lead with listening ear, flexibility, open mind. To right of text is screenshot from website Pathways to Open Science with logos of Openscapes, BWEEMS and BIMS" width="750px"></a>
+</center>
+<figcaption>
+Slide from Ileana Fenwick’s talk on challenging her views on how to engage. Examining the cracks led Ileana to see that that exposure to information is not enough, and this influenced the design of the Pathways to Open Science program
+</figcaption>
+<p><br></p>
+<p>Later, Corey Clatterbuck described the momentum at the California Water Boards following an Openscapes Cohort she and Anna Holder co-led in 2022. They knew they wanted to <a href="https://www.openscapes.org/blog/2022/12/02/swrcb-2022/">“fork” the Openscapes curriculum</a> to adapt it to the needs of their colleagues, so they examined the cracks using results of an internal 2019 <a href="https://www.waterboards.ca.gov/resources/oima/cowi/docs/data_literacy_strategy_202011.pdf">Data Literacy Survey</a> with Water Boards employees. Corey and Anna were surprised by the results and, like Ileana, designed their programming to meet these needs. The results showed that respondents were motivated by interest in particular data tasks (image below, top half) and not in specific software or coding languages (image below, bottom half). In short, people were more interested in learning how to do things in their job (goal-oriented), than learning specific software (tool-oriented). From this, the <a href="https://cawaterboarddatacenter.github.io/swrcb-openscapes/">design of their Cohort</a> emphasized the human over technical approach to open science to reach the majority of Water Boards colleagues who might be interested in open science. They increased the length of each call from 1.5 hours to 2 hours, and added a new module on documentation to replace the one on coding-strategies.</p>
+<br>
+<center>
+<a> <img src="../../img/blog/esip-2023-clatterbuck-datalit-survey.png" alt="slide with 8 rows of bars filled to show percent of people not interested, somewhat, or very interested in a topic. Text says emphasize human over technical approach to open science" width="750px"></a>
+</center>
+<figcaption>
+Results from the California Water Boards internal 2019 <a href="https://www.waterboards.ca.gov/resources/oima/cowi/docs/data_literacy_strategy_202011.pdf">Data Literacy Survey</a> showed that respondents were motivated by interest in particular data tasks (top half) and not in specific software or coding languages (bottom half). Examining these cracks influenced how Clatterbuck and Holder forked and designed the Champions Program at the California Water Boards. (slide from Clatterbuck)
+</figcaption>
+<p><br></p>
+<p>Ileana’s approach of “Examining the cracks” also caught Cassie Nickles’ ear. She is a Mentor with NASA Openscapes, a community that supports researchers as they migrate analytical workflows to the Cloud. Cassie and her colleagues across other NASA Earthdata data centers are co-creating common tutorials, a review &amp; reuse process, and as well as community of practice for teaching, mentoring, and facilitation for NASA Earthdata Cloud. As she was onboarding into her current role, Cassie became overwhelmed by the steps and processes required by end users to access and use NASA Earthdata. She figured if she was confused, others might be too and wanted to help simplify navigating the complicated systems.</p>
+<blockquote class="blockquote">
+<p>The data analysis needed for the pressing problems we face should not be limited by the complexity of the underlying systems or a lack of computer engineering skills. - Luis Lopez, NSIDC</p>
+</blockquote>
+<p>Cassie and Openscapes Mentor-colleague Catalina Oaida Taglialatela made <a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook/cheatsheets.html#workflow-cheatsheet">Cheatsheets</a> with clickable icons that lead to tutorials for NASA Earthdata Cloud researchers! Having filled some gaps, Cassie is now recognizing more cracks moving forward: how do we get these resources in front of the folks they’re intended for?</p>
+</section>
+<section id="break-the-hero-mentality-in-science-invest-in-radical-collaboration" class="level2">
+<h2 class="anchored" data-anchor-id="break-the-hero-mentality-in-science-invest-in-radical-collaboration">Break the hero mentality in science; invest in radical collaboration</h2>
+<p>Erin Robinson opened the session saying that solutions to large-scale environmental and social challenges require radical collaboration, but have been limited by the hero model, where science is competitive, siloed, and rewards an individual hero, often a white man. She said we together are changing this story. We do this by welcoming people where they are and through creative approaches that blend methods from open source software development, mentoring, coaching, and art.</p>
+<p>Reflecting as a Mentor at NOAA Fisheries supporting <a href="https://www.openscapes.org/tags/noaa-fisheries/">6 Openscapes cohorts (240 staff) in 2022</a>, Josh London said that “collaboration is something we’re never taught.” Individuality is instilled in grad school and we never have a chance to change this through “business as usual.” We need the space and place to relearn. Don’t spend your time trying to solve things yourself. Learn together first! It’s ok to ask for help early. Adyan Rios is also a NOAA Fisheries Mentor, who is helping develop a learning culture at the Southeast Fisheries Science Center through leading “Surf Sessions” where colleagues cowork remotely and share what they know. Adyan echoed this need for radical collaboration, saying that it’s radical because it means being vulnerable. It means people sharing things they haven’t figured out yet, while they’re still messy. Or share a cool thing you learned, like a keyboard shortcut. If you just learned it, chances are someone in your community didn’t know it yet either. Sharing makes their day a little better and make their work more efficient. This harkens back to Cassie creating cheatsheets to share what she figured out to help others.</p>
+<div class="blockquote-blue">
+<blockquote class="blockquote">
+<p><em>“Team collaboration is not something that we’ve all learned from the beginning. In grad school it’s instilled in us this idea that anything meaningful that we do in science is supposed to be done by us as individuals.”</em> <strong>– Josh London</strong></p>
+</blockquote>
+</div>
+<p><br></p>
+<p>::: {.blockquote-blue} &gt; <em>“This mindset and practice [of learning <strong>together</strong> first] has been revolutionary for us at NOAA.”</em> <strong>— Adyan Rios</strong></p>
+<p>Breaking the hero model is something that Luis Lopez has been thinking about too. He shared that as a software engineer, something he has learned through the NASA Openscapes Mentors community is to empathize with researchers and not expect that software alone is the hero. The key is to really understand learners and researchers, get to know them and see how they work and where they are stuck. Working with his NASA Mentor colleagues, Luis identified that there were many steps involved before researchers could be hands-on with data in the cloud, and was intent on reducing that “time to science”. Luis has led development of the <a href="https://nsidc.github.io/earthaccess/">earthaccess</a> python library to search, download or stream NASA Earth science data, enabling a researcher to get to the science with four lines of Python code, instead of running command line code that saves a hidden .netrc file to the user’s computer and requires reactivation after one hour. Collaborating with other Mentors has been critical here – again breaking the hero model – as Cassie’s Cheatsheets helped visualize all the steps previously involved that were cumbersome for scientists.</p>
+</section>
+<section id="build-morale-through-learning-advocate-for-learning-time" class="level2">
+<h2 class="anchored" data-anchor-id="build-morale-through-learning-advocate-for-learning-time">Build morale through learning; advocate for learning time</h2>
+<p>“How to make learning part of your job” and “When do you carve out time to learn” are questions that come up frequently, as they did here. Pointing to examples of how other individuals and agencies do this has been super powerful: it is negotiated with supervisors at NOAA to be included in Individual Work Plans, and the NASA Earthdata Mentors are a fantastic example of the power of high-level support for learning. The NASA Mentors shared how the Mentor community has been able to learn and collaborate together over the past two years. This was because their time was approved at a high level, by NASA policy and by their managers. This approved time has given space for them to first share and listen, find the common, and then build together, reuse, and amplify.</p>
+<div class="blockquote-blue">
+<blockquote class="blockquote">
+<p><em>“Learning builds morale: it gives people an opportunity to change workflows, learn new skills, improve the culture, and take ownershipof that”</em> <strong>— Josh London</strong></p>
+</blockquote>
+</div>
+<p>We’re seeing some of this trickle out beyond the Openscapes curriculum. Josh London talked about how we often focus on the shiny new tools (python, R, Quarto, GitHub) but it’s the culture shifts that are the real meaningful change. He said it’s so encouraging to see in a calendar invite for a meeting that someone’s already initiated an agenda in a shared document and that there are multiple people contributing notes there at the same time. Additionally, learning to use tools like GitHub for shared “todo” lists and better project management for teams has increased morale for NOAA Fisheries teams. Teams are also using these tools for more inclusive communication to onboard other team members to their projects, passing forward this increased morale that comes from learning together.</p>
+<p>Loneliness during the Pandemic was mentioned several times - Adyan, Cassie, Corey, and Ileana all onboarded to their current roles during the pandemic. They noted that shared practices like coworking along with collaborating asynchronously with GitHub and Google Docs helped them feel less alone and build real connections with their colleagues. And, it helped them learn skills they needed to do their jobs. They saw that these skills would help other colleagues as well, so they have dedicated time to teaching and supporting colleagues, and advocating for learning time from supervisors.</p>
+<p>::: {.blockquote-blue} &gt; <em>“Not everyone needs the same learning curve; we can send down a rope and help others get to where they need to be sooner.”</em> <strong>— Adyan Rios</strong></p>
+<br>
+<center>
+<a> <img src="../../img/blog/esip-2023-clatterbuck-emphasis.png" alt="slide with 3 images of round fuzzy monsters with subheading psychological safety &amp; culture, uniting data strategies, documentation thru Pathway &amp; GitHub" width="750px"></a>
+</center>
+<figcaption>
+The California Water Boards Openscapes Cohort emphasized psychological safety and culture, uniting data strategies, and documentation to create a welcoming environment, build community, and reduce loneliness in learning new skills. (slide from Clatterbuck; artwork from <a href="https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/">GitHub Illustrated Series</a>)
+</figcaption>
+<p><br></p>
+</section>
+<section id="onward" class="level2">
+<h2 class="anchored" data-anchor-id="onward">Onward</h2>
+<p>One of the most inspiring aspects of this panel was the mutual recognition of common themes, challenges, and potential approaches among speakers from government agencies and academia who had not previously worked together. ESIP is a great place to make those connections across agencies and convening these sessions is an effective way to move us all forward together. Open science isn’t the ultimate goal. The vision is what’s possible because of open science: climate solutions, social justice, and democracy. As we advocate in this Year of Open Science, let’s connect it not just to the higher efficiency and quality of work that is produced, but especially with higher team morale and empowerment of individuals to change their institutional culture.</p>
+<p><br></p>
+</section>
+<section id="speakers-bios" class="level2">
+<h2 class="anchored" data-anchor-id="speakers-bios">Speakers Bios</h2>
+<p><strong>Corey Clatterbuck</strong> is an environmental scientist at the California Water Boards in the Office of Information Management and Analysis and the Surface Water Ambient Monitoring Program. A trained ecologist, Corey’s current work uses landscape and water data to identify healthy watersheds in California and determine the policies &amp; practices to keep them that way. Having supported Openscapes trainings throughout 2021, “forked” Openscapes with her colleague Anna Holder and taught her colleagues internally within the Water Boards in 2022.</p>
+<p><strong>Ileana Fenwick</strong> is a third-year marine fisheries PhD student at UNC and part of the Openscapes core team. She launched the Pathways to Open Science program to welcome more Black marine scientists to open science and to build skills and community!</p>
+<p><strong>Josh London</strong> is a Wildlife Biologist at NOAA Fisheries, in the Marine Mammal Laboratory Alaska Fisheries Science Center (AFSC). Josh’s research focuses on ecology and conservation of Arctic seals. Josh is a long-time open source developer and champion; mentor with Openscapes, co-leading Winter and 4 Fall Cohorts with NOAA Fisheries.</p>
+<p><strong>Luis Lopez</strong> is a Research Software Engineer at the National Snow and Ice Data Center (NSIDC) in Boulder, Colorado. He has helped develop tools and services to facilitate data access and discoverability across different NASA Earth missions. He is part of the first cohort of NASA Openscapes Mentors, and lead developer for the earthaccess python library and corn jupyterhub environment.</p>
+<p><strong>Cassie Nickles</strong> is an Applied Science Systems Engineer working for NASA’s PO.DAAC, the Physical Oceanography Data Active Archive Center. She became a NASA-Openscapes mentor in 2022 and is consistently looking for better ways to make the complicated simple for data end users through mechanisms like data tutorials, workflow diagrams &amp; cheatsheets!</p>
+<p><strong>Adyan Rios</strong> is a research ecologist at NOAA Fisheries, in the Caribbean Fisheries Branch of the Sustainable Fisheries Division at the Southeast Fisheries Science Center (SEFSC). Adyan participated in Openscapes in Fall 2021 and became an organizer and mentor in 2022; co-leading Summer and 4 Fall Cohorts with NOAA Fisheries.</p>
+<br> <img src="../../img/blog/esip-2023-speakers.png" alt="headshots of 6 speakers around Openscapes hex logo" width="750px">
+<figcaption>
+ESIP 2023 panelists
+</figcaption>
+<p><br></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© CC-By NASA Openscapes</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>, with theme from <a href="https://github.com/rstudio/vetiver.rstudio.com">vetiver</a></div>
+  </div>
+</footer>
+
+
+
+</body></html>

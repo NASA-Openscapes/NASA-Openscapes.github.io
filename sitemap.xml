@@ -2,26 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://nasa-openscapes.github.io/champions.html</loc>
-    <lastmod>2023-10-18T21:53:33.891Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nasa-openscapes.github.io/mentors.html</loc>
-    <lastmod>2023-10-18T21:53:33.051Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nasa-openscapes.github.io/about.html</loc>
-    <lastmod>2023-10-18T21:53:31.335Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nasa-openscapes.github.io/cookbook-navbar-page.html</loc>
-    <lastmod>2023-10-18T21:53:30.151Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nasa-openscapes.github.io/events.html</loc>
-    <lastmod>2023-10-18T21:53:31.879Z</lastmod>
+    <lastmod>2023-10-19T15:53:36.124Z</lastmod>
   </url>
   <url>
     <loc>https://nasa-openscapes.github.io/index.html</loc>
-    <lastmod>2023-10-18T21:53:33.403Z</lastmod>
+    <lastmod>2023-10-19T15:53:34.348Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/events.html</loc>
+    <lastmod>2023-10-19T15:53:32.620Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/blog/2023-08-01-nasa-champions/index.html</loc>
+    <lastmod>2023-10-19T15:53:31.276Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/blog/2023-05-31-zenodo-community/index.html</loc>
+    <lastmod>2023-10-19T15:53:29.460Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/blog/2023-10-13-nasa-jupyterhub-coiled/index.html</loc>
+    <lastmod>2023-10-19T15:53:27.752Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/about.html</loc>
+    <lastmod>2023-10-19T15:53:26.020Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/cookbook-navbar-page.html</loc>
+    <lastmod>2023-10-19T15:53:24.612Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/blog/2023-05-17-mentor-coach/index.html</loc>
+    <lastmod>2023-10-19T15:53:27.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/blog/2023-03-16-esip-winter-2023/index.html</loc>
+    <lastmod>2023-10-19T15:53:28.904Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/blog/2023-02-21-news-february-2023/index.html</loc>
+    <lastmod>2023-10-19T15:53:30.108Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/blog/2023-10-17-matlab-on-openscapes/index.html</loc>
+    <lastmod>2023-10-19T15:53:31.956Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/mentors.html</loc>
+    <lastmod>2023-10-19T15:53:33.952Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/blog.html</loc>
+    <lastmod>2023-10-19T15:53:35.568Z</lastmod>
   </url>
 </urlset>
