@@ -1,14 +1,21 @@
 <center><a><img src="images/nasa-openscapes.png" alt="NASA logo to left of Openscapes logo" width="300px"/></a></center>
 
-<center><h1>NASA Openscapes</h1></center>
+<center>
+
+<h1>NASA Openscapes</h1>
+
+</center>
+
 <br>
 
 Earth science is changing. We support scientists using data from NASA Earthdata served from the Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.
 
 We are influenced and inspired by many leaders and community organizers, particularly in climate justice and get out the vote movements. That means, we know this isn't just about us or an effort we can do alone. We are always looking to learn from, with, and for others.
 
+**Upcoming Events**: Dec 10, 2023 Workshop by NASA DAAC Mentors at AGU Fall Meeting, [Enabling Analysis in the Cloud Using NASA Earth Science Data](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/193427) (register to attend).
+
 Project announcements: [NASA](https://earthdata.nasa.gov/learn/openscapes) • [Openscapes](https://www.openscapes.org/blog/2021/03/10/nasa-announcement/)
 
-Learn about our recent work: [News](news.qmd) • [Presentations](/about.qmd#slides) • [Annual Reports](https://github.com/NASA-Openscapes/how_we_work) • [Flywheel Preprint](https://nasa-openscapes.github.io/about.html#flywheel-preprint) • [White Paper: The Value of Hosted JupyterHubs](https://nasa-openscapes.github.io/about.html#white-paper-value-of-hosted-jupyterhubs) 
+Learn about our recent work: [News](news.qmd) • [Presentations](/about.qmd#slides) • [Annual Reports](https://github.com/NASA-Openscapes/how_we_work) • [Flywheel Preprint](https://nasa-openscapes.github.io/about.html#flywheel-preprint) • [White Paper: The Value of Hosted JupyterHubs](https://nasa-openscapes.github.io/about.html#white-paper-value-of-hosted-jupyterhubs)
 
 Please connect with us on Twitter [\@openscapes](https://twitter.com/openscapes) or join [our newsletter](https://docs.google.com/forms/d/e/1FAIpQLSdgVXRp3V-w94GPWkR31RUfyBl37EphdQSlCOcnyeNlf8OLWw/viewform)
