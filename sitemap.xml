@@ -1,63 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nasa-openscapes.github.io/news/2023-10-17-matlab-on-openscapes/index.html</loc>
-    <lastmod>2023-10-20T21:10:53.987Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nasa-openscapes.github.io/news/2022-12-31-previous-news/index.html</loc>
-    <lastmod>2023-10-20T21:10:52.119Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nasa-openscapes.github.io/news/2023-05-31-zenodo-community/index.html</loc>
-    <lastmod>2023-10-20T21:10:51.143Z</lastmod>
+    <loc>https://nasa-openscapes.github.io/news/2023-08-01-nasa-champions/index.html</loc>
+    <lastmod>2023-11-07T18:54:33.770Z</lastmod>
   </url>
   <url>
     <loc>https://nasa-openscapes.github.io/news/2023-10-13-nasa-jupyterhub-coiled/index.html</loc>
-    <lastmod>2023-10-20T21:10:49.463Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nasa-openscapes.github.io/champions.html</loc>
-    <lastmod>2023-10-20T21:10:47.787Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nasa-openscapes.github.io/index.html</loc>
-    <lastmod>2023-10-20T21:10:45.823Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nasa-openscapes.github.io/events.html</loc>
-    <lastmod>2023-10-20T21:10:44.119Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nasa-openscapes.github.io/cookbook-navbar-page.html</loc>
-    <lastmod>2023-10-20T21:10:42.139Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nasa-openscapes.github.io/about.html</loc>
-    <lastmod>2023-10-20T21:10:43.507Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nasa-openscapes.github.io/mentors.html</loc>
-    <lastmod>2023-10-20T21:10:45.427Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nasa-openscapes.github.io/news.html</loc>
-    <lastmod>2023-10-20T21:10:47.239Z</lastmod>
+    <lastmod>2023-11-07T18:54:32.690Z</lastmod>
   </url>
   <url>
     <loc>https://nasa-openscapes.github.io/news/2023-05-17-mentor-coach/index.html</loc>
-    <lastmod>2023-10-20T21:10:48.715Z</lastmod>
+    <lastmod>2023-11-07T18:54:31.630Z</lastmod>
   </url>
   <url>
     <loc>https://nasa-openscapes.github.io/news/2023-03-16-esip-winter-2023/index.html</loc>
-    <lastmod>2023-10-20T21:10:50.599Z</lastmod>
+    <lastmod>2023-11-07T18:54:30.778Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/news/2023-10-17-matlab-on-openscapes/index.html</loc>
+    <lastmod>2023-11-07T18:54:29.694Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/cookbook-navbar-page.html</loc>
+    <lastmod>2023-11-07T18:54:28.842Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/about.html</loc>
+    <lastmod>2023-11-07T18:54:28.238Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/mentors.html</loc>
+    <lastmod>2023-11-07T18:54:27.330Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/news.html</loc>
+    <lastmod>2023-11-07T18:54:26.226Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/index.html</loc>
+    <lastmod>2023-11-07T18:54:27.614Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/champions.html</loc>
+    <lastmod>2023-11-07T18:54:28.614Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/events.html</loc>
+    <lastmod>2023-11-07T18:54:29.246Z</lastmod>
   </url>
   <url>
     <loc>https://nasa-openscapes.github.io/news/2023-02-21-news-february-2023/index.html</loc>
-    <lastmod>2023-10-20T21:10:51.747Z</lastmod>
+    <lastmod>2023-11-07T18:54:30.078Z</lastmod>
   </url>
   <url>
-    <loc>https://nasa-openscapes.github.io/news/2023-08-01-nasa-champions/index.html</loc>
-    <lastmod>2023-10-20T21:10:53.283Z</lastmod>
+    <loc>https://nasa-openscapes.github.io/news/2022-12-31-previous-news/index.html</loc>
+    <lastmod>2023-11-07T18:54:31.030Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/news/2023-11-07-coiled-openscapes/index.html</loc>
+    <lastmod>2023-11-07T18:54:32.222Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nasa-openscapes.github.io/news/2023-05-31-zenodo-community/index.html</loc>
+    <lastmod>2023-11-07T18:54:33.038Z</lastmod>
   </url>
 </urlset>

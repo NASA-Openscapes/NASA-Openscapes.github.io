@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="James Bourbeau of Coiled">
+<meta name="dcterms.date" content="2023-11-07">
+<meta name="description" content="Guide for NASA Cloud computing at scale. How to run existing NASA data workflows on the cloud, in parallel, with minimal code changes using Coiled.">
+
+<title>NASA-Openscapes - Processing Terabyte-Scale NASA Cloud Datasets with Coiled</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/openscapes_hex.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/openscapes_hex.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">NASA-Openscapes</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../mentors.html" rel="" target="">
+ <span class="menu-text">Mentors</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../champions.html" rel="" target="">
+ <span class="menu-text">Champions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../cookbook-navbar-page.html" rel="" target="">
+ <span class="menu-text">Cookbook</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../news.html" rel="" target="">
+ <span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../events.html" rel="" target="">
+ <span class="menu-text">Events</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/NASA-Openscapes" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/openscapes" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#processing-locally" id="toc-processing-locally" class="nav-link active" data-scroll-target="#processing-locally">Processing Locally</a></li>
+  <li><a href="#processing-on-the-cloud-with-coiled" id="toc-processing-on-the-cloud-with-coiled" class="nav-link" data-scroll-target="#processing-on-the-cloud-with-coiled">Processing on the Cloud with Coiled</a></li>
+  <li><a href="#optimizing-costs" id="toc-optimizing-costs" class="nav-link" data-scroll-target="#optimizing-costs">Optimizing Costs</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Processing Terabyte-Scale NASA Cloud Datasets with Coiled</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">nasa-framework</div>
+    <div class="quarto-category">blog</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Guide for NASA Cloud computing at scale. How to run existing NASA data workflows on the cloud, in parallel, with minimal code changes using Coiled.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>James Bourbeau of Coiled </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 7, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p><em>Cross-posted from the <a href="https://medium.com/coiled-hq/processing-terabyte-scale-nasa-cloud-datasets-with-coiled-70ab552f35ec">Coiled blog</a>. James Bourbeau is Lead OSS Engineer at Coiled, a company providing software and expertise for scalable Cloud computing built on Dask. Through the <a href="https://nasa-openscapes.github.io">NASA Openscapes</a> community, we support researchers using NASA Earthdata as they migrate their data analysis workflows to the Cloud. This Fall, Openscapes is partnering with Coiled to support us experimenting with another approach to Cloud access.</em></p>
+<p><a href="https://github.com/asteiker"><em>Amy Steiker</em></a><em>, <a href="https://github.com/betolink">Luis Lopez</a>, and <a href="https://github.com/andypbarrett">Andy Barrett</a> from NSIDC and <a href="https://github.com/aronnem">Aronne Merrelli</a> from the University of Michigan shared their scientific use cases which motivated this post.</em></p>
+<hr>
+<p><em>We show how to run existing NASA data workflows on the cloud, in parallel, with minimal code changes using Coiled. We also discuss cost optimization.</em></p>
+<p>People often run the same function over many files in cloud storage. This looks something like the following:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 1: Get a list of all of our files (typically thousands of NetCDF files).</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>files <span class="op">=</span> ...</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 2: Create a function to process each file.</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">#         Then either return the processed result</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">#         or save it to some external data store like S3.</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> process(<span class="bu">file</span>):</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> ...</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> result</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 3: Process all of the files.</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> []</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> files:</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> process(<span class="bu">file</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    results.append(result)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 4: Analyze results locally.</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>plot(results)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This straightforward but important pattern occurs frequently in groups working with <a href="https://www.earthdata.nasa.gov/">NASA Earthdata</a> and NASA Distributed Active Archive Centers (<a href="https://www.earthdata.nasa.gov/eosdis/daacs">DAACs</a>) to move scientific workloads to the cloud. Here are some examples:</p>
+<ul>
+<li><strong>Extract greenhouse gasses over urban areas from <a href="https://www.earthdata.nasa.gov/sensors/tropomi">TROPOMI</a> L2 data</strong>: TROPOMI measures trace gasses and aerosols relevant for air quality and climate. It generates a large volume of <a href="https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-information-policy/data-levels">L2 data</a> stored as millions of files on S3. In our particular project we’re interested in greenhouses over highly populated urban areas, and how they affect quality of life. We need to select those files over many cities and then construct a timeseries over them to see how air quality changes.</li>
+<li><strong>Grid sea ice freeboard data from NASA’s <a href="https://icesat-2.gsfc.nasa.gov/">ICESat-2</a> mission</strong>: This <a href="https://github.com/nsidc/NSIDC-Data-Tutorials/tree/main/notebooks/ICESat-2_Cloud_Access/h5cloud">workflow</a> from <a href="https://nsidc.org/">NSIDC</a> (National Snow and Ice Data Center) researchers loads <a href="https://nsidc.org/data/atl10/versions/5">L3 sea ice freeboard HDF5 data</a>, selects a lat-lon bounding box of interest, and regrids the dataset to the EASE-Grid v2 6.25 km projected grid using drop-in-the-bucket resampling. The resulting processed dataset is then written out to a local Parquet file to be used in further analysis. This is particularly valuable as it allows researchers to easily create their own specialized datasets with spatial and temporal resolutions relevant for their analysis.</li>
+</ul>
+<p>In this post we’ll show how to run this same “function on many files” analysis pattern on the cloud with Coiled, which you can copy and modify for your own use case. We’ll also highlight cost optimization strategies for processing terabyte-scale data for fractions of a dollar.</p>
+<div class="center-text">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="geospatial-for-loop-comparison.svg" class="img-fluid figure-img" style="width:85.0%" alt="histogram with 3 segments on x-axis: laptop, Cloud, Cloud (cost optimized) and y-axis Cost in blue and Duration in gray. Values described in the text"></p>
+<figcaption class="figure-caption"><em>Comparing cost and duration between running the same workflow locally on a laptop (data egress costs), running on AWS, and running with cost optimizations on AWS.</em></figcaption>
+</figure>
+</div>
+</div>
+<section id="processing-locally" class="level2">
+<h2 class="anchored" data-anchor-id="processing-locally">Processing Locally</h2>
+<p>In this example we process many NetCDF files stored on S3 from the <a href="https://podaac.jpl.nasa.gov/dataset/MUR-JPL-L4-GLOB-v4.1">MUR Global Sea Surface Temperature NASA dataset</a> to look at surface temperature variation over the US Great Lakes region:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tempfile</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> earthaccess</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> xarray <span class="im">as</span> xr</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 1: Get a list of all files.</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co">#         Use earthacess to authenticate and find data files (total of 500 GB).</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>granules <span class="op">=</span> earthaccess.search_data(</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    short_name<span class="op">=</span><span class="st">"MUR-JPL-L4-GLOB-v4.1"</span>,</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    temporal<span class="op">=</span>(<span class="st">"2020-01-01"</span>, <span class="st">"2021-12-31"</span>),</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 2: Create a function to process each file.</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="co">#         Load and subset each data granule / file.</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> process(granule):</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    results <span class="op">=</span> []</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> tempfile.TemporaryDirectory() <span class="im">as</span> tmpdir:</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>        files <span class="op">=</span> earthaccess.download(granule, tmpdir)</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> files:</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>            ds <span class="op">=</span> xr.open_dataset(os.path.join(tmpdir, <span class="bu">file</span>))</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>            ds <span class="op">=</span> ds.sel(lon<span class="op">=</span><span class="bu">slice</span>(<span class="op">-</span><span class="dv">93</span>, <span class="op">-</span><span class="dv">76</span>), lat<span class="op">=</span><span class="bu">slice</span>(<span class="dv">41</span>, <span class="dv">49</span>))</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>            cond <span class="op">=</span> (ds.sea_ice_fraction <span class="op">&lt;</span> <span class="fl">0.15</span>) <span class="op">|</span> np.isnan(ds.sea_ice_fraction)</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>            result <span class="op">=</span> ds.analysed_sst.where(cond)</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>            results.append(result)</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> xr.concat(results, dim<span class="op">=</span><span class="st">"time"</span>)</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 3: Run function on each file in a loop</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> []</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> granule <span class="kw">in</span> granules:</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> process(granule)</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>    results.append(result)</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 4: Combine and plot results</span></span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>ds <span class="op">=</span> xr.concat(results, dim<span class="op">=</span><span class="st">"time"</span>)</span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>ds.std(<span class="st">"time"</span>).plot(figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">6</span>), x<span class="op">=</span><span class="st">"lon"</span>, y<span class="op">=</span><span class="st">"lat"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This specific example uses <a href="https://nsidc.github.io/earthaccess/">earthacess</a> to authenticate with NASA Earthdata and download our dataset (~500 GB of NetCDF files) and Xarray to load and select the region of the data we’re interested in, but we’ve seen many different approaches here, including file formats like HDF, Zarr, and GeoTIFF, as well as libraries like Xarray, rasterio, and pandas. In each case though the underlying pattern is the same.</p>
+<p>We then combine the results from processing each data file and plot the results.</p>
+<div class="center-text">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="geospatial-sst-great-lakes.png" class="img-fluid figure-img" style="width:85.0%" alt="visualization shows the Great Lakes with longitude on x-axis and latitude on y-axis. stdev of analysed_sst [Kelvin] ranges from 5 (dark blue) to 9 (yellow). Lake Superior is darkest blue; Lake Erie is light green to yellow at its southernmost tip."></p>
+<figcaption class="figure-caption"><em>Standard deviation of sea surface temperature over the Great Lakes region in the US.</em></figcaption>
+</figure>
+</div>
+</div>
+<p>Running this locally on my laptop takes ~6.4 hours and costs NASA ~$25 in data egress costs (based on a $0.05/GB egress charge rate – normal is $0.10/GB, but presumably NASA gets a good deal).</p>
+</section>
+<section id="processing-on-the-cloud-with-coiled" class="level2">
+<h2 class="anchored" data-anchor-id="processing-on-the-cloud-with-coiled">Processing on the Cloud with Coiled</h2>
+<p>Let’s run the exact same analysis on the cloud. Running on the cloud helps in a couple of ways:</p>
+<ul>
+<li><strong>Data Proximate Computing</strong>: Running computations closer to where the data is stored increases performance and avoids data transfer costs.</li>
+<li><strong>Scale</strong>: Distributing the processing over many machines in parallel lets us tackle larger volumes.</li>
+</ul>
+<p>Using Coiled to run the same workflow on the cloud involves lightly annotating our <code>process</code> function with the <a href="https://docs.coiled.io/user_guide/usage/functions/index.html"><code>@coiled.function</code></a> decorator:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> coiled</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="at">@coiled.function</span>(</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    region<span class="op">=</span><span class="st">"us-west-2"</span>,                  <span class="co"># Run in the same region as data</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    environ<span class="op">=</span>earthaccess.auth_environ(),  <span class="co"># Forward Earthdata auth to cloud VMs</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> process(granule):</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Keep everything inside the function the same</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    ...</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This tells Coiled to run our processing function on a VM in AWS and then return the result back to our local machine.</p>
+<p>Additionally, we switch to using the Coiled Function <code>.map()</code> method (similar to <a href="https://docs.python.org/3/library/functions.html#map">Python’s builtin <code>map</code> function</a>) to run our <code>process</code> function across all the input files in parallel:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 3: Run function on each file in a loop</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># results = []</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># for granule in granules:</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">#    result = process(granule)</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">#    results.append(result)</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> process.<span class="bu">map</span>(granules)     <span class="co"># This runs on the cloud in parallel</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>With these two small code changes, the same data processing runs in parallel across many VMs on AWS. The runtime drops to ~9 minutes (a factor of ~42x speedup) and costs ~$1.52 (a factor ~16x less).</p>
+</section>
+<section id="optimizing-costs" class="level2">
+<h2 class="anchored" data-anchor-id="optimizing-costs">Optimizing Costs</h2>
+<p>Processing 500 GB of data costs us $1.52. This is cheap.</p>
+<p>We bring this cost down further to $0.36 with the following techniques:</p>
+<ul>
+<li><strong>Spot</strong>: Use <a href="https://www.coiled.io/blog/save-money-with-spot">spot instances</a>, which are excess capacity offered at a discount.</li>
+<li><strong>ARM</strong>: Use ARM-based instances, which are less expensive than their Intel-based equivalents, often with <a href="https://blog.coiled.io/blog/dask-graviton.html">similar, or better, performance</a>.</li>
+<li><strong>Instance Type Selection</strong>: Use single-core instances (only available when using ARM), because this particular computation doesn’t require large computing resources.</li>
+</ul>
+<p>With this additional configuration made to the Coiled Functions decorator, our full cost-optimized cloud workflow looks like the following:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tempfile</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> coiled</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> earthaccess</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> xarray <span class="im">as</span> xr</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 1: Get a list of all files.</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co">#         Use earthacess to authenticate and find data files (total of 500 GB).</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>granules <span class="op">=</span> earthaccess.search_data(</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>    short_name<span class="op">=</span><span class="st">"MUR-JPL-L4-GLOB-v4.1"</span>,</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    temporal<span class="op">=</span>(<span class="st">"2020-01-01"</span>, <span class="st">"2021-12-31"</span>),</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 2: Create a function to process each file.</span></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a><span class="co">#         Load and subset each data granule / file.</span></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a><span class="at">@coiled.function</span>(</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>    region<span class="op">=</span><span class="st">"us-west-2"</span>,                  <span class="co"># Run in the same region as data</span></span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>    environ<span class="op">=</span>earthaccess.auth_environ(),  <span class="co"># Forward Earthdata auth to cloud VMs</span></span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>    spot_policy<span class="op">=</span><span class="st">"spot_with_fallback"</span>,    <span class="co"># Use spot instances when available</span></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>    arm<span class="op">=</span><span class="va">True</span>,                            <span class="co"># Use ARM-based instances</span></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>    cpu<span class="op">=</span><span class="dv">1</span>,                               <span class="co"># Use Single-core instances</span></span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> process(granule):</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>    results <span class="op">=</span> []</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> tempfile.TemporaryDirectory() <span class="im">as</span> tmpdir:</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>        files <span class="op">=</span> earthaccess.download(granule, tmpdir)</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> files:</span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>            ds <span class="op">=</span> xr.open_dataset(os.path.join(tmpdir, <span class="bu">file</span>))</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>            ds <span class="op">=</span> ds.sel(lon<span class="op">=</span><span class="bu">slice</span>(<span class="op">-</span><span class="dv">93</span>, <span class="op">-</span><span class="dv">76</span>), lat<span class="op">=</span><span class="bu">slice</span>(<span class="dv">41</span>, <span class="dv">49</span>))</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>            cond <span class="op">=</span> (ds.sea_ice_fraction <span class="op">&lt;</span> <span class="fl">0.15</span>) <span class="op">|</span> np.isnan(ds.sea_ice_fraction)</span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>            result <span class="op">=</span> ds.analysed_sst.where(cond)</span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>            results.append(result)</span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> xr.concat(results, dim<span class="op">=</span><span class="st">"time"</span>)</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 3: Run function on each file in parallel</span></span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> process.<span class="bu">map</span>(granules)     <span class="co"># This runs on the cloud in parallel</span></span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 4: Combine and plot results</span></span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>ds <span class="op">=</span> xr.concat(results, dim<span class="op">=</span><span class="st">"time"</span>)</span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>ds.std(<span class="st">"time"</span>).plot(figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">6</span>), x<span class="op">=</span><span class="st">"lon"</span>, y<span class="op">=</span><span class="st">"lat"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>and, while code runtime stays the same at ~9 minutes, cost drops to ~$0.36 (a factor of ~70x less than running locally).</p>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>We ran a common data subsetting-style workflow on NASA data in the cloud with Coiled. This demonstrated the following:</p>
+<ul>
+<li><strong>Easy</strong>: Minimal code changes to migrate existing code to run on the cloud.</li>
+<li><strong>Fast</strong>: Acceleration of the workflow runtime by ~42x.</li>
+<li><strong>Cheap</strong>: Cost reduction of ~70x.</li>
+</ul>
+<p>We hope this post shows that with just a handful of lines of code you can migrate your data workflow to the cloud in a straightforward manner. We also hope it provides a template you can copy and adapt for your own analysis use case.</p>
+<div class="center-text">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="geospatial-for-loop-comparison.svg" class="img-fluid figure-img" style="width:85.0%" alt="histogram with 3 segments on x-axis: laptop, Cloud, Cloud (cost optimized) and y-axis Cost in blue and Duration in gray. Values described in the text"></p>
+<figcaption class="figure-caption"><em>Comparing cost and duration between running the same workflow locally on a laptop (data egress costs), running on AWS, and running with cost optimizations on AWS.</em></figcaption>
+</figure>
+</div>
+</div>
+<p>Want to run this example yourself?</p>
+<ul>
+<li>Get started with Coiled for free at <a href="https://coiled.io/start">coiled.io/start</a>. This example runs comfortably within the free tier.</li>
+<li>Copy and paste the code snippet above.</li>
+</ul>
+<p>Going to <a href="https://www.agu.org/Fall-Meeting">AGU 2023</a>? Come by the Coiled booth and say hi (right by the entrance next to Google).</p>
+</section>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>This work was done in collaboration with <a href="https://nasa-openscapes.github.io">NASA Openscapes</a>, a community <a href="https://openscapes.org/blog/2023-08-01-nasa-champions/">supporting research teams’ cloud migration</a> with <a href="https://openscapes.org/blog/2023-10-13-nasa-jupyterhub-coiled/">different Cloud environments and technologies</a>, including Coiled.</p>
+<p>We’d also like to thank <a href="https://github.com/asteiker">Amy Steiker</a>, <a href="https://github.com/betolink">Luis Lopez</a>, and <a href="https://github.com/andypbarrett">Andy Barrett</a> from NSIDC and <a href="https://github.com/aronnem">Aronne Merrelli</a> from the University of Michigan for sharing their scientific use cases which motivated this post.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{bourbeau of coiled2023,
+  author = {Bourbeau of Coiled, James},
+  title = {Processing {Terabyte-Scale} {NASA} {Cloud} {Datasets} with
+    {Coiled}},
+  date = {2023-11-07},
+  url = {https://openscapes.org/blog/2023-11-07-coiled-openscapes},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-bourbeau of coiled2023" class="csl-entry quarto-appendix-citeas" role="listitem">
+Bourbeau of Coiled, James. 2023. <span>“Processing Terabyte-Scale NASA
+Cloud Datasets with Coiled.”</span> November 7, 2023. <a href="https://openscapes.org/blog/2023-11-07-coiled-openscapes">https://openscapes.org/blog/2023-11-07-coiled-openscapes</a>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© CC-By NASA Openscapes</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>, with theme from <a href="https://github.com/rstudio/vetiver.rstudio.com">vetiver</a></div>
+  </div>
+</footer>
+
+
+
+</body></html>
