@@ -58,7 +58,9 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
-- [Cloud Environment Opportunities: Managed JupyterHub options for Cryosphere and Earthdata user communities](https://docs.google.com/presentation/d/1NEsE58SIMjQ_fjC_11HIXqd7Urvi5yy5/edit#slide=id.g23808f09f20_2_714) - September 2023. Amy Steiker, Andrew Barrett, & Luis López, NSIDC User Working Group. <!---([blog post]())--->
+- [NASA Openscapes: Supporting NASA EarthData Users Transition to the Cloud](https://docs.google.com/presentation/d/1klEzB3voQZ5_LB9bzuzWRIR7ldcz0gyfbiCcf1XiBE4/edit?usp=sharing) - Nov 2 2023. Erin Robinson, GHRC User Working Group
+
+- [Cloud Environment Opportunities: Managed JupyterHub options for Cryosphere and Earthdata user communities](https://docs.google.com/presentation/d/1NEsE58SIMjQ_fjC_11HIXqd7Urvi5yy5/edit#slide=id.g23808f09f20_2_714) - September 2023. Amy Steiker, Andrew Barrett, & Luis López, NSIDC User Working Group. ([blog post](https://nasa-openscapes.github.io/news/2023-10-13-nasa-jupyterhub-coiled/))
 
 - [Open Science Webinar: Making Arctic Science Open Science](https://www.nna-co.org/open-science-webinar-making-arctic-science-open-science) - September 28, 2023. [Navigating the New Arctic Community Office](https://www.nna-co.org/), co-convened by Andy Barrett with speakers Julie Lowndes, Matt Fisher, and Mohommad Afzal Shadab.
 
@@ -71,6 +73,8 @@ Slides, recordings, and posters
 - [Getting to Know Open Science: How to Engage and Flourish in the Growing Open Science Community](https://docs.google.com/presentation/d/1uMfh0ssHGDuJ9q8pcRk8-qIerkywE4X-E_KP4CiptKc/edit#slide=id.g23d8f62188b_2_96) - August 9, 2023. Bri Lind. NASA Hyperwall, Ecological Society of America 2023 Annual Meeting, Portland, Oregon. 
 
 - [Training for culture change in Open Science](https://grssieee.podbean.com/e/s4e10-down-to-earth-training-for-culture-change-in-open-science/) - June 18, 2023. Julie Lowndes & Erin Robinson, Down To Earth: A podcast for Geoscientists by Geoscientist.
+
+- [Accessing data from NASA's DAACs & Earthdata](https://docs.google.com/presentation/d/1XIpQ_MAAkmU46HfJAOO5_2cswAa6WsQH/edit?usp=sharing&ouid=114259976566100157741&rtpof=true&sd=true) - Spring 2023, Michele Thornton, USFS Applications workshop.
 
 -   [NASA Openscapes: Movement building with the Flywheel](https://docs.google.com/presentation/d/1BK678MADRg6QkejRQI_5KREGn6DzzQqAS4StsjXmi-k/edit#slide=id.g1b5922f14f8_0_83) - March 31, 2023, Erin Robinson & Julie Lowndes. NASA Open Source Science Working Group
 
