@@ -12,10 +12,14 @@ Earth science is changing. We support scientists using data from NASA Earthdata 
 
 We are influenced and inspired by many leaders and community organizers, particularly in climate justice and get out the vote movements. That means, we know this isn't just about us or an effort we can do alone. We are always looking to learn from, with, and for others.
 
-**Upcoming Events**: Dec 10, 2023 Workshop by NASA DAAC Mentors at AGU Fall Meeting, [Enabling Analysis in the Cloud Using NASA Earth Science Data](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/193427) (register to attend).
+Upcoming Events:
+
+-   Nov 28, 2023 [Openscapes Community Call: NASA Earthdata Cloud with Coiled](https://openscapes.org/events/2023-11-28-coiled-openscapes/). [Register via Zoom](https://zoom.us/meeting/register/tJMpdeuvpjMrEtbVNt5Sc1sCaxnnnlULwpXM) to get the link.
+
+-   Dec 10, 2023 Workshop by NASA DAAC Mentors at AGU Fall Meeting, [Enabling Analysis in the Cloud Using NASA Earth Science Data](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/193427) (register to attend).
 
 Project announcements: [NASA](https://earthdata.nasa.gov/learn/openscapes) • [Openscapes](https://www.openscapes.org/blog/2021/03/10/nasa-announcement/)
 
 Learn about our recent work: [News](news.qmd) • [Presentations](/about.qmd#slides) • [Annual Reports](https://github.com/NASA-Openscapes/how_we_work) • [Flywheel Preprint](https://nasa-openscapes.github.io/about.html#flywheel-preprint) • [White Paper: The Value of Hosted JupyterHubs](https://nasa-openscapes.github.io/about.html#white-paper-value-of-hosted-jupyterhubs)
 
-Please connect with us on Twitter [\@openscapes](https://twitter.com/openscapes) or join [our newsletter](https://docs.google.com/forms/d/e/1FAIpQLSdgVXRp3V-w94GPWkR31RUfyBl37EphdQSlCOcnyeNlf8OLWw/viewform)
+Please connect with us on Mastodon [\@openscapes\@fosstodon.org](https://fosstodon.org/@openscapes) or join [our newsletter](https://docs.google.com/forms/d/e/1FAIpQLSdgVXRp3V-w94GPWkR31RUfyBl37EphdQSlCOcnyeNlf8OLWw/viewform)
