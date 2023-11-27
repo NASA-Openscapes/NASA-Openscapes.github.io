@@ -1,0 +1,21 @@
+---
+title: "Activities at the AGU Fall Meeting"
+description: "Workshops, Talks, Posters, Demos, and more"
+author:
+  - name: NASA Openscapes
+date: 2023-12-10
+citation: 
+  url: https://openscapes.org/blog/2023-12-10-agu-fall-meeting
+categories: [nasa-framework, blog]
+image: agu-fall-2023.png
+---
+
+At this year's [AGU Fall Meeting](https://www.agu.org/fall-meeting) Dec 11 - 15, 2023, NASA Openscapes Mentors and collaborators will be giving learning workshops, talks, posters, demos, and more. We'll also have a Sunday Happy Hour and invite you to join us!
+
+[**Our NASA-Openscapes Planning Doc**](https://github.com/NASA-Openscapes/2023-planning-agu/blob/main/README.md) has up-to-date information of our activities.
+
+
+See also the [AGU Searchable Schedule](https://agu.confex.com/agu/fm23/meetingapp.cgi/Home/0). 
+
+Have a great Fall Meeting and we hope to connect with you there.
+
