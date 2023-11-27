@@ -6,7 +6,7 @@ author:
 date: 2023-12-10
 citation: 
   url: https://openscapes.org/blog/2023-12-10-agu-fall-meeting
-categories: [nasa-framework, blog]
+categories: [nasa-framework, conference, blog]
 image: agu-fall-2023.png
 ---
 
