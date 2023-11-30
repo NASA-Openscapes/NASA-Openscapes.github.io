@@ -15,7 +15,7 @@ image: matlab-launch.png
 ***Quick links:***
 
 -   [*Recording*](https://drive.google.com/file/d/15kuVavXX2fVnLqiOlr9rHVmphZQ5NZNa/view) *of the presentation at the NASA Openscapes Mentors Call on Sept. 6, 2023 by Cedric Wannaz (MathWorks)*
--   [*Tutorial*](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/in-development/matlab.html)*: Using MATLAB on NASA Openscapes*
+-   [*Tutorial*](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/tutorials/matlab.html)*: Using MATLAB on NASA Openscapes*
 
 ------------------------------------------------------------------------
 
@@ -43,12 +43,12 @@ The MATLAB implementation on Openscapes JupyterHub consists of
 
 [^1]: Many universities and research institutes have site-wide licenses for MATLAB -- called "Campus-Wide Licenses" and "Institute-Wide Licenses", respectively. Most universities in the U.S. and Canada have CWLs. In those cases, all researchers, faculty and students have access to a MATLAB license via their institutions that work in this BYOL setup. Check with your university system administrators to find out if you have access to a MATLAB license at your institution.
 
-In addition, we've written a detailed tutorial to help users learn the system and process the data. The [MATLAB tutorial](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/in-development/matlab.html) from NASA Openscapes includes code examples, that cover:
+In addition, we've written a detailed tutorial to help users learn the system and process the data. The [MATLAB tutorial](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/tutorials/matlab.html) from NASA Openscapes includes code examples, that cover:
 
--   [Launching MATLAB in Openscapes 2i2c JupyterHub](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/in-development/matlab.html#launch-matlab-in-2i2c-jupyterhub)
+-   [Launching MATLAB in Openscapes 2i2c JupyterHub](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/tutorials/matlab.html#launch-matlab-in-2i2c-jupyterhub)
 -   Login and Authentication
--   [Accessing data](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/in-development/matlab.html#accessing-data) on Earthdata
--   [Launching with AWS Console](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/in-development/matlab.html#launch-with-aws-console)
+-   [Accessing data](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/tutorials/matlab.html#accessing-data) on Earthdata
+-   [Launching with AWS Console](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/tutorials/matlab.html#launch-with-aws-console)
 
 
 ![](matlab-map.png){fig-alt="Map showing sea surface temperature in yellow, green, blue. Heading 'sea surface temperature [kelvin]'; x-axis from 24 to 44; y-axis from -80 to -50"}
@@ -60,6 +60,6 @@ Map showing sea surface temperature created from HDF5 data with MATLAB contour()
 
 It's new to work with NASA Earthdata on the NASA Openscapes JupyterHub, and even newer with MATLAB! We are excited that teams participating in the 2022 and 2023 NASA Openscapes Champions program are already logging into Openscapes and using MATLAB on the platform and continuing to push forward NASA Earthdata Cloud access through MATLAB. We will share more results on this work at the upcoming [American Geophysical Union Fall Meeting on Tuesday, December 12.](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1281461) If you are interested in this work, please get in touch ([lisak\@mathworks.com](mailto:lisak@mathworks.com)).
 
-To learn more about using MATLAB with data on NASA Openscapes, watch the [video presentation to the NASA Openscapes Mentors](https://drive.google.com/file/d/15kuVavXX2fVnLqiOlr9rHVmphZQ5NZNa/view?pli=1) or read the [MATLAB Tutorial](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/in-development/matlab.html).
+To learn more about using MATLAB with data on NASA Openscapes, watch the [video presentation to the NASA Openscapes Mentors](https://drive.google.com/file/d/15kuVavXX2fVnLqiOlr9rHVmphZQ5NZNa/view?pli=1) or read the [MATLAB Tutorial](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/tutorials/matlab.html).
 
 *Acknowledgements: A special thanks to Erin Robinson of NASA Openscapes and Luis Lopez Espinosa of the National Snow and Ice Data Center (NSIDC) for their collaboration on the NASA Openscapes MATLAB implementation and their contributions to this blog post.*
