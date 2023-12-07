@@ -14,8 +14,6 @@ We are influenced and inspired by many leaders and community organizers, particu
 
 Upcoming Events:
 
--   Nov 28, 2023 [Openscapes Community Call: NASA Earthdata Cloud with Coiled](https://openscapes.org/events/2023-11-28-coiled-openscapes/). [Register via Zoom](https://zoom.us/meeting/register/tJMpdeuvpjMrEtbVNt5Sc1sCaxnnnlULwpXM) to get the link.
-
 -   Dec 10, 2023 Workshop by NASA DAAC Mentors at AGU Fall Meeting, [Enabling Analysis in the Cloud Using NASA Earth Science Data](https://agu.confex.com/agu/fm23/meetingapp.cgi/Session/193427) (register to attend).
 
 Project announcements: [NASA](https://earthdata.nasa.gov/learn/openscapes) • [Openscapes](https://www.openscapes.org/blog/2021/03/10/nasa-announcement/)
