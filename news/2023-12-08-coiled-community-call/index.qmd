@@ -1,0 +1,68 @@
+---
+title: "Openscapes Community Call: NASA Earthdata Cloud with Coiled"
+description: "Panel discussion and demos with NSIDC and Coiled"
+author: 
+  - name: Amy Steiker 
+    orcid: 0000-0002-3039-0260
+  - name: Luis Lopez 
+  - name: Andrew Barrett
+    orcid: 0000-0003-4394-5445
+  - name: Julie Lowndes
+    orcid: 0000-0003-1682-3872
+  - name: Erin Robinson
+    orcid: 0000-0001-9998-0114
+  - name: James Bourbeau
+date: 2023-12-08
+citation: 
+  url: https://nasa-openscapes.org/news/2023-12-08-coiled-community-call
+categories: [community-call, blog, nasa-framework]
+image: coiled-bourbeau-demo.png
+---
+
+*Quicklinks*
+
+-   [*Video recording*](https://youtu.be/Mfpsv7NRews)
+-   [*Collaborative Notes*](https://docs.google.com/document/d/12iwOURQQ0qKwsTt37HL1M8gRcWgIg3TIREqY13p0s28)
+-   [*Slides: Processing Terrabytes of Laser Altimetry Data in The Cloud*](https://nasa-openscapes.github.io/openscapes_community_chat_coiled)
+-   [*Python notebook: Processing Large-scale Time Series of ICESat-2 Sea Ice Height in the Cloud*](https://github.com/nsidc/NSIDC-Data-Tutorials/blob/main/notebooks/ICESat-2_Cloud_Access/ATL10-h5coro.ipynb)
+
+*Our 9th Openscapes Community Call featured NASA Openscapes Mentors and the Coiled team demoing approaches to supporting researchers using NASA Earthdata in the Cloud. This built from a previous demo at the National Snow and Ice Data Center User Working Group that presented different Cloud Environment Opportunities to meet users where they are ([blog post](https://nasa-openscapes.github.io/news/2023-10-13-nasa-jupyterhub-coiled/)).*
+
+*Going to [AGU 2023](https://openscapes.org/blog/2023-12-10-agu-fall-meeting/)? Come say hi to the Coiled team at their booth (right at the entrance next to Google)*
+
+------------------------------------------------------------------------
+
+## Background
+
+[NASA Openscapes](https://nasa-openscapes.github.io/) is a project and community supporting researchers using NASA Earthdata in the Cloud. This community call welcomed our speakers [Amy Steiker](https://github.com/asteiker), [Luis Lopez](https://www.linkedin.com/in/betolink/), and [Andy Barrett](https://nsidc.org/about/about-nsidc/what-we-do/our-people/andrew_barrett) from the [National Snow and Ice Data Center](https://nsidc.org/home) (NSIDC) who are NASA Openscapes Mentors, and [James Bourbeau](https://www.jamesbourbeau.com/) from [Coiled](https://www.coiled.io/) who is collaborating with NASA Openscapes Mentors and Champions science teams. 
+
+We followed the Liberating Structures [What? So What? Now What?](https://www.liberatingstructures.com/9-what-so-what-now-what-w/) format, with silent journal prompts for reflections and 15 mins of Q&A from questions in chat.\
+
+## Easy Scalable Cloud Computing with Coiled
+
+The call started with a few demos, first from Andy Barrett and Amy Steiker from NSIDC. Andy shared a science use case based on translating photons measurements from ICESAT-2 to sea ice thickness. These data were first accessed with the [earthaccess Python library](https://earthaccess.readthedocs.io/en/latest/), then needed to be regridded over geographic areas, which Amy demoed in [this Jupyter notebook](https://github.com/nsidc/NSIDC-Data-Tutorials/blob/main/notebooks/ICESat-2_Cloud_Access/ATL10-h5coro.ipynb). Amy ran this code on her laptop and used Coiled to spin up remote virtual machines (VMs) in the cloud to run her computations.
+
+::: center-text
+![](coiled-steiker-demo.png){width="85%" fig-alt="zoom screenshot from live demo. Small image of speaker, a woman, in upper right, left side shows python code; right side shows terminal with code executing"}
+:::
+
+Then, James ran through two common workflows that process terabyte-scale cloud datasets. In the [first example](https://github.com/coiled/examples/blob/a69170ec8fc60a41f0d9b07fb59c89c512a20d1e/sea-level-rise.ipynb), we saw how to churn through many cloud-hosted NASA Earthdata files (\~500 GB of NetCDF files) in parallel on the cloud. This involved lightly decorating an existing Python function with the [Coiled Function](https://docs.coiled.io/user_guide/usage/functions/index.html) decorator. The entire workflow ran in \<10 minutes and cost \~\$0.36.
+
+In the [next example](https://github.com/coiled/examples/blob/a69170ec8fc60a41f0d9b07fb59c89c512a20d1e/national-water-model/xarray-water-model.ipynb), we used Xarray to process 6 TB of the cloud-hosted NOAA water model where we computed the average water table depth for each county in the US for the year 2020. We parallelized and distributed the work across 50 VMs using a [Coiled cluster](https://docs.coiled.io/user_guide/usage/dask/index.html). The workflow ran in \< 5 minutes and cost \~\$1.
+
+::: center-text
+![](coiled-bourbeau-demo.png){width="85%" fig-alt="screenshot of python notebook on left and Coiled cluster information on right"}
+:::
+
+Luis commented on how cloud computing is a barrier for many teams, but tools like Coiled provide options for working in the cloud easily. In fact, Coiled is just half the magic (provisioning cloud resources); the rest is the open source packages, which together help science move faster.
+
+## Closing
+
+Discussion topics included questions about egress costs, compute time, community standards, and more. See the [meeting notes](https://docs.google.com/document/d/12iwOURQQ0qKwsTt37HL1M8gRcWgIg3TIREqY13p0s28) for full details.
+
+## Resources
+
+-   [Geospatial Cloud Resources](https://www.coiled.io/geo) from Coiled
+-   [Processing Terabyte-Scale NASA Cloud Datasets with Coiled](https://medium.com/coiled-hq/processing-terabyte-scale-nasa-cloud-datasets-with-coiled-70ab552f35ec) 
+-   [Processing a 250 TB dataset with Coiled, Dask, and Xarray](https://medium.com/coiled-hq/processing-a-250-tb-dataset-with-coiled-dask-and-xarray-574370ba5bde) 
+-   [Cloud Environment Opportunities](https://openscapes.org/blog/2023-10-13-nasa-jupyterhub-coiled/). Managed JupyterHub options for Cryosphere and NASA Earthdata user communities.
