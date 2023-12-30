@@ -256,39 +256,32 @@
     "href": "champions.html",
     "title": "NASA Openscapes Champions Cohort",
     "section": "",
-    "text": "Join us for our Spring 2023 NASA Champions Cohort, details below!"
+    "text": "Details for our Spring 2024 NASA Champions Cohort will be available in February!"
   },
   {
     "objectID": "champions.html#overview",
     "href": "champions.html#overview",
     "title": "NASA Openscapes Champions Cohort",
     "section": "Overview",
-    "text": "Overview\nOpenscapes is an approach for doing better science in less time1. We help research groups reimagine data analysis, develop modern skills that are of immediate value to them, and cultivate collaborative and inclusive research communities. Openscapes’ mentorship and community engagement approaches center on open data science as kinder science2, enabling increased efficiency and resilience for teams so that their work has more enduring impact.\nOpenscapes Champions is a remote-by-design mentorship program for environmental and Earth science research teams to explore open data science practices. For NASA Openscapes, research teams will also spend time experimenting and planning what their analytical workflows with NASA Earthdata look like in the Cloud. Participants attend as a team with their research group in a cohort with other teams, together learning how to reframe data-intensive science as a collaborative effort. By discussing open software tooling and communities enabling reproducible research (e.g. R/ Python/ MATLAB, GitHub, metadata, cloud), participants develop collaborative skills, mindsets, and habits and establish shared practices for increased efficiency in their own research, while contributing to a more inclusive scientific culture.\nNASA Openscapes is a 3-year project to support scientists using data from NASA’s Earth Observing System Data and Information System (EOSDIS) Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud. As part of this work, we will offer the Openscapes Champions program several times from 2022-2024."
+    "text": "Overview\nOpenscapes is an approach for doing better science in less time1. We help research groups reimagine data analysis, develop modern skills that are of immediate value to them, and cultivate collaborative and inclusive research communities. Openscapes’ mentorship and community engagement approaches center on open data science as kinder science2, enabling increased efficiency and resilience for teams so that their work has more enduring impact.\nOpenscapes Champions is a remote-by-design mentorship program for environmental and Earth science research teams to explore open data science practices. For NASA Openscapes, research teams will also spend time experimenting and planning what their analytical workflows with NASA Earthdata look like in the Cloud. Participants attend as a team with their research group in a cohort with other teams, together learning how to reframe data-intensive science as a collaborative effort. By discussing open software tooling and communities enabling reproducible research (e.g. R/ Python/ MATLAB, GitHub, metadata, cloud), participants develop collaborative skills, mindsets, and habits and establish shared practices for increased efficiency in their own research, while contributing to a more inclusive scientific culture.\nNASA Openscapes is a project to support scientists using data from NASA’s Earth Observing System Data and Information System (EOSDIS) Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud. As part of this work, we will offer the Openscapes Champions program several times from 2022-2024."
   },
   {
     "objectID": "champions.html#champions-program-details",
     "href": "champions.html#champions-program-details",
     "title": "NASA Openscapes Champions Cohort",
     "section": "Champions Program Details",
-    "text": "Champions Program Details\nThis NASA Openscapes Champions Cohort will run from April-June 2023! We will meet as a cohort five times over two months, on alternating Wednesdays.\n\nDates: April 19; May 3, 17, 31; June 14\nTimes: 10:00-11:30 am Pacific Time\nWhere: remotely, via Zoom\nWhat we learn: details on our 2023 cohort webpage\nWho: Cohort of 7 research groups that work with data from NASA DAACs. Each team consists of a team lead (faculty, principal investigator, etc) and up to 4 team members of your choice (graduate students, post docs, research techs, etc).\nCost: Free; this opportunity is supported by NASA through a grant to Openscapes\nExpected time commitment: 8hrs/month for 2 months is a minimum expected time commitment. This accounts for 3 hours/month of synchronous Zoom calls, optional coworking times, and collaborating with your research group to strengthen shared workflows."
-  },
-  {
-    "objectID": "champions.html#nominate-your-team-for-spring-2023",
-    "href": "champions.html#nominate-your-team-for-spring-2023",
-    "title": "NASA Openscapes Champions Cohort",
-    "section": "Nominate your team for Spring 2023",
-    "text": "Nominate your team for Spring 2023\nNominate your team by completing this Google Form by April 7, 2023. This opportunity is open only to research groups that work with data from NASA DAACs. Priority will be given to researchers using data from DAACs participating in Openscapes this year: LP DAAC, NSIDC, PO.DAAC, GES DISC, ASDC, ORNL, and ASF.\nPlease submit one nomination per team, preferably by the team lead (faculty, principal investigator, etc). Participants from previous cohorts are welcome. We will confirm participation on a rolling basis."
-  },
-  {
-    "objectID": "champions.html#learn-more",
-    "href": "champions.html#learn-more",
-    "title": "NASA Openscapes Champions Cohort",
-    "section": "Learn more",
-    "text": "Learn more\neScience Hackweeks share Openscapes’ goals of supporting research teams with inclusive open science practices for data-intensive science, and our events are designed with complementary structure to support these goals. The Champions Program supports teams in discussion-based planning and mindsets and meets virtually for 1.5 hours every other week for 2 months. eScience Hackweeks support hands-on skillbuilding and projects and meet daily for 5-10 days. NASA Openscapes is partnering with eScience to share lessons learned and better support researchers together, and we invite researchers to participate in both Openscapes Champions and eScience Hackweeks to learn and deepen your skills for long-term workflow change for modern science. Upcoming Hackweeks: \n\nhttps://icesat-2.hackweek.io  Aug 7-11\nhttps://oceanhackweek.org  likely August\n\nLearn more about the Openscapes Champions Program, stories from previous cohorts, and FAQs about forming your team. Questions? Contact Openscapes: lowndes at nceas.ucsb.edu"
+    "text": "Champions Program Details\ndetails coming soon for April-June 2024"
   },
   {
     "objectID": "champions.html#nasa-champions-cohort",
     "href": "champions.html#nasa-champions-cohort",
+    "title": "NASA Openscapes Champions Cohort",
+    "section": "2023 NASA Champions Cohort",
+    "text": "2023 NASA Champions Cohort\nMeet the 7 science teams who participated in the 2023 NASA Champions Cohort, and learn more about their work in this blog post: Exciting Progress for Research Teams using NASA Earthdata in the Cloud: 2023 NASA Openscapes Champions Wrap-up"
+  },
+  {
+    "objectID": "champions.html#nasa-champions-cohort-1",
+    "href": "champions.html#nasa-champions-cohort-1",
     "title": "NASA Openscapes Champions Cohort",
     "section": "2022 NASA Champions Cohort",
     "text": "2022 NASA Champions Cohort\nMeet the 10 science teams who participated in the 2022 NASA Champions Cohort, and learn more about their work in this blog post: From downloading data to Cloud access: NASA Openscapes Champions Wrap-up"
