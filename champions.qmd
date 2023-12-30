@@ -9,7 +9,10 @@ output:
     toc_depth: 3
 ---
 
-**Join us for our Spring 2023 NASA Champions Cohort, details below!**
+<!---**Join us for our Spring 2023 NASA Champions Cohort, details below!**--->
+
+**Details for our Spring 2024 NASA Champions Cohort will be available in February!**
+
 
 ## Overview
 
@@ -21,11 +24,15 @@ output:
 
 [**Openscapes Champions**](https://openscapes.org/champions) is a remote-by-design mentorship program for environmental and Earth science research teams to explore open data science practices. **For NASA Openscapes, research teams will also spend time experimenting and planning what their analytical workflows with NASA Earthdata look like in the Cloud**. Participants attend as a team with their research group in a cohort with other teams, together learning how to reframe data-intensive science as a collaborative effort. By discussing open software tooling and communities enabling reproducible research (e.g. R/ Python/ MATLAB, GitHub, metadata, cloud), participants develop collaborative skills, mindsets, and habits and establish shared practices for increased efficiency in their own research, while contributing to a more inclusive scientific culture.
 
-[**NASA Openscapes**](https://nasa-openscapes.github.io) is a 3-year project to support scientists using data from NASA's Earth Observing System Data and Information System (EOSDIS) Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud. As part of this work, we will offer the Openscapes Champions program several times from 2022-2024.
+[**NASA Openscapes**](https://nasa-openscapes.github.io) is a project to support scientists using data from NASA's Earth Observing System Data and Information System (EOSDIS) Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud. As part of this work, we will offer the Openscapes Champions program several times from 2022-2024.
 
 <center><img src="images/nasa-openscapes.png" width="300px"/></center>
 
 ## Champions Program Details
+
+*coming soon*
+
+<!---
 
 **This NASA Openscapes Champions Cohort will run from April-June 2023!** We will meet as a cohort five times over two months, on alternating Wednesdays.
 
@@ -52,6 +59,12 @@ Please submit one nomination per team, preferably by the team lead (faculty, pri
 -   [https://oceanhackweek.org](https://oceanhackweek.org/)  likely August
 
 **Learn more about the [Openscapes Champions Program](https://openscapes.org/champions)**, [stories from previous cohorts](https://openscapes.org/cohorts), and [FAQs about forming your team](https://openscapes.org/faq). Questions? Contact Openscapes: lowndes at nceas.ucsb.edu
+
+--->
+
+## 2023 NASA Champions Cohort
+
+[Meet the 7 science teams](https://nasa-openscapes.github.io/2023-nasa-champions/) who participated in the 2023 NASA Champions Cohort, and learn more about their work in this blog post: [Exciting Progress for Research Teams using NASA Earthdata in the Cloud: 2023 NASA Openscapes Champions Wrap-up](https://nasa-openscapes.github.io/news/2023-08-01-nasa-champions/)
 
 ## 2022 NASA Champions Cohort
 
