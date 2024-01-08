@@ -30,8 +30,8 @@ website:
       href: events.qmd
     - icon: github
       href: https://github.com/NASA-Openscapes
-    - icon: twitter
-      href: https://twitter.com/openscapes
+    - icon: mastodon
+      href: https://fosstodon.org/@openscapes
 
 format:
   html:
