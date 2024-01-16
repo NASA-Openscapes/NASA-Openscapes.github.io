@@ -17,33 +17,57 @@ Please also see [how we onboard](https://nasa-openscapes.github.io/earthdata-clo
 
 # Current Activities
 
-## 2023 goals
+## 2024 goals
 
--   Strengthen the DAAC Mentor community as they develop and teach a common set of tutorials and coordinate and lead learning events, in part through our twice monthly Openscapes Cohort Calls.
+NASA Openscapes is the main access point for NASA Earth science & tutorial development on the Cloud. Openscapes is not extra work, it's the **how** of doing the work aligned with DAAC goals to enable users/science. Building from successes and momentum 2021-2023, in 2024 we will continue teaching staff & researchers, helping us all grow as open science leaders & aligned with DAAC activities. This is vital to the shift to Earthdata Cloud and to NASA's values for open science and equity.
+
+-   Provide stability for and strengthen the DAAC Mentor community as we develop and teach a common set of tutorials and coordinate and lead learning events, in part through our twice monthly Openscapes Cohort Calls.
 -   Reuse and refine shared teaching resources, share stories and lessons learned at conferences and meetups
--   Lead events together (a hackathon and Champions cohort) with research teams, with Mentors assisting to support researchers and learn new modalities of support
--   Identify a plan for sustainability, including the technical and social infrastructure needed. Shift to a more of a community structure from a cohort structure
+-   Lead events together (workshops and Champions cohort) with research teams, with Mentors assisting to support researchers and learn new modalities of support
+-   Support transition for NASA Earthdata users to the Cloud via continued effort to maintain development for cloud infrastructure & earthaccess Python library, Earthdata Cloud Cookbook & Cheatsheets, give talks, tie-in better with NASA Earthdata website, and cross-learning with NOAA and other Openscapes Mentors & Open science community. Additionally:
+    -   Support transition for post-workshop researchers to do their science longer-term ("fledging")
+    -   Scoping 3 years ahead - understand how people use Hub & Cloud - what it costs, metrics. Quantifying open science outcomes - report back our successes
+
+## 2024 focus
+
+- **earthaccess**
+- **Cloud infrastructure**
+- **Cookbook**
+- **Workshop planning**
 
 ## Our schedule
 
-### Mentor Calls and Coworking
+### Mentor Calls, Coworking, and Hackdays
 
-We have twice-monthly **Mentor Calls**, which are planning and learning sessions that currently are semi-structured. We kickoff those calls with about 10 mins of check in and agenda design and then we will move to proposed topics. In alternating weeks, we have **Coworking sessions** to work on shared goals together, screensharing and often working in the 2i2c JupyterHub and in GitHub.
+We have twice-monthly **Mentor Calls**, which are planning and learning sessions that currently are semi-structured. We kickoff those calls with about 10 mins of check in and agenda design and then we will move to proposed topics, including professional development skills like coaching. In alternating weeks, we have **Coworking sessions** to work on shared goals together, screensharing and often working in the 2i2c JupyterHub and in GitHub. **Hackdays** are additional times set to advance our four specific focus areas above.
 
-1.  **Winter & Spring -** We have twice-monthly Mentor Calls and Coworking sessions in alternating weeks. February-May focused extended Coworking sessions to be [Cookbook Hackdays](https://github.com/nasa-openscapes/earthdata-cloud-cookbook#hackdays). Mentors collaborated leading workshops and talks.
+### Calendar
+Coworking sessions & hackdays are open to anyone to join; see our [MainPlanning GitHub Project](https://github.com/orgs/NASA-Openscapes/projects/7/views/3).
 
-2.  **Spring Champions Cohort -** We supported [7 research teams](https://nasa-openscapes.github.io/2023-nasa-champions/) to learn, discuss, and plan what transitioning their workflows with NASA Earthdata could look like in the Cloud.
+1.  **Winter & Spring -** We have twice-monthly Mentor Calls and Coworking sessions in alternating weeks. February-May focused extended Hackday sessions with focus listed above.
+
+2.  **Spring Champions Cohort -** We will support 7-10 research teams to learn, discuss, and plan what transitioning their workflows with NASA Earthdata could look like in the Cloud.
 
 3.  **Summer and ESIP meeting -** In July and August we planned to take a break from our biweekly calls to let this group rest. However, there was interest to keep the momentum and ability to collaborate with anyone available, so we have continued to host biweekly calls and move forward with AGU workshop proposals, and have guest speakers. In July many Mentors met in person at the ESIP Summer Conference in Vermont, including for a one-day retreat-workshop to shape sustainability plans for the group.
 
-4.  **Fall -** We will have our first Mentor Call with the full group of mentors on Sept 20 - to introduce everyone and orient around the NASA Openscapes project. Our initial call will include sharing plans, UWGs and other events on the calendar and continuing [onboarding new DAAC mentors](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding.html). In [preparing for AGU workshops](https://github.com/NASA-Openscapes/2023-planning-agu) in December, returning DAAC mentors will lead teaching dry runs with the cloud tutorials as a way to onboard the group to data access in the cloud and to get your fresh perspective on our existing material. (What works? What's confusing?). **Our Mentor Calls are on alternating Wednesdays from 10-11:30 PT, starting Sept 20.** We also cowork on specific topics in alternating weeks. If you'd like to join us please email lowndes at nceas.ucsb.edu.
+4.  **Fall -** We onboard new mentors; we will have our first Mentor Call with the full group of mentors - to introduce everyone and orient around the NASA Openscapes project. Our initial call will include sharing plans, UWGs and other events on the calendar and continuing [onboarding new DAAC mentors](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding.html). In [preparing for AGU workshops](https://github.com/NASA-Openscapes/2023-planning-agu) in December, returning DAAC mentors will lead teaching dry runs with the cloud tutorials as a way to onboard the group to data access in the cloud and to get your fresh perspective on our existing material. (What works? What's confusing?). 
 
-### Calendar
+
+# Ongoing and Previous Activities
+
+## 2023 goals
+
+- Strengthen the DAAC Mentor community as they develop and teach a common set of tutorials and coordinate and lead learning events, in part through our twice monthly Openscapes Cohort Calls.
+- Reuse and refine shared teaching resources, share stories and lessons learned at conferences and meetups
+- Lead events together (a hackathon and Champions cohort) with research teams, with Mentors assisting to support researchers and learn new modalities of support
+- Identify a plan for sustainability, including the technical and social infrastructure needed. Shift to a more of a community structure from a cohort structure
+
+**Calendar 2023**
 
 Mentor Calls (Planning) and Coworking Calls (screensharing and doing)
 
 | Date    | Mentor Call Topics                                                                                                                                                        | Coworking Call Topics                                                                                                                                               |
-|------------------|---------------------------|---------------------------|
+|-------------------|---------------------------|---------------------------|
 | Aug 3   |                                                                                                                                                                           | NOAA Fisheries - NASA Mentors exchange                                                                                                                              |
 | Aug 9   | AGU Workshop abstracts refinement                                                                                                                                         |                                                                                                                                                                     |
 | Aug 17  |                                                                                                                                                                           | [Coiled.io](https://www.coiled.io/) collaboration kickoff with Champions teams                                                                                      |
@@ -71,7 +95,6 @@ This Fall we will also be working with [Coiled.io](https://www.coiled.io/), with
 
 This Fall during our coworking calls we'll focus one breakout room on R tutorial development for the Cookbook. We'll be joined by [Carl Boettiger](https://www.carlboettiger.info/) (Department of [Environmental Science, Policy and Management](http://ourenvironment.berkeley.edu/) and [Eric and Wendy Schmidt Center for Data Science & Environment](https://dse.berkeley.edu/about) at UC Berkeley, co-founder of [rOpenSci](https://ropensci.org/))!
 
-# Ongoing and Previous Activities
 
 **2022 goals:**
 
