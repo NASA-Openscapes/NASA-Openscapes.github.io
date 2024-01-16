@@ -58,6 +58,8 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
+- [NASA Openscapes: Supporting NASA EarthData Users Transition to the Cloud](https://docs.google.com/presentation/d/1qpXWTfhfLtEadBKlxnBh_ST6qpLMR221DFYsgLRXsCk/edit?usp=sharing) - Erin Robinson, Julie Lowndes & NASA Openscapes Mentors. Jan 16, 2024. Crustal Dynamics Data Information Systems (CDDIS) Telecon
+
 - [NASA Openscapes: Approaches and Stories of Kinder, Open Science in the Cloud](https://docs.google.com/presentation/d/1RPPgWDqoA9Ppyk0pXpY717xqKSwLr_5Ek4-nEOoYBGw/edit?usp=sharing) - Julie Lowndes, Erin Robinson & NASA Openscapes Mentors. Dec 15, AGU Fall Meeting
 
 - [NASA Openscapes: Supporting NASA EarthData Users Transition to the Cloud](https://docs.google.com/presentation/d/1klEzB3voQZ5_LB9bzuzWRIR7ldcz0gyfbiCcf1XiBE4/edit?usp=sharing) - Nov 2 2023. Erin Robinson, GHRC User Working Group
