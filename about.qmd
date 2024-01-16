@@ -58,6 +58,8 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
+- [NASA Openscapes: Better Science for Future Us](https://docs.google.com/presentation/d/1FacX0LSjCD7CLI2U2871KmO-IA4qoHjrNa7fP2S5p3o/edit?usp=sharing) - Bri Lind, Julie Lowndes, Erin Robinson & NASA Openscapes Mentors. Jan 8, SEDAC Open Science Day
+
 - [NASA Openscapes: Supporting NASA EarthData Users Transition to the Cloud](https://docs.google.com/presentation/d/1qpXWTfhfLtEadBKlxnBh_ST6qpLMR221DFYsgLRXsCk/edit?usp=sharing) - Erin Robinson, Julie Lowndes & NASA Openscapes Mentors. Jan 16, 2024. Crustal Dynamics Data Information Systems (CDDIS) Telecon
 
 - [NASA Earthdata: Open Science Workflows & Techniques from Openscapes](https://docs.google.com/presentation/d/1kOp5naA73_MiOJvmr7sYT5F-mDygbW_yKe1vhLzUCnE/edit?usp=sharing) - Cassie Nickles & the NASA Openscapes Community. Jan 9, 2024. SEDAC Open Science Workshop
