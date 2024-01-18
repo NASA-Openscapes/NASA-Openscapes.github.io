@@ -1,6 +1,6 @@
 ---
 title: "NASA Openscapes: Approaches and Stories of Kinder, Open Science in the Cloud"
-description: "Hightlights from our talk at the AGU Fall Meeting"
+description: "Highlights from our talk at the AGU Fall Meeting"
 author:
   - name: Julie Lowndes 
     orcid: 0000-0003-1682-3872
