@@ -1,0 +1,71 @@
+---
+title: "NASA Openscapes: Approaches and Stories of Kinder, Open Science in the Cloud"
+description: "Hightlights from our talk at the AGU Fall Meeting"
+author:
+  - name: Julie Lowndes 
+    orcid: 0000-0003-1682-3872
+  - name: Erin Robinson
+    orcid: 0000-0001-9998-0114
+  - name: NASA Openscapes Mentors
+date: 2024-01-18
+citation: 
+  url: https://openscapes.org/blog/2024-01-18-agu-talk-2023
+categories: [nasa-framework, conference, blog]
+image: developing-kinder-mindset-screenshot.png
+---
+
+*In December at the [AGU Fall Meeting](https://agu.confex.com/agu/fm23/meetingapp.cgi/Home/0) in San Francisco, we were so grateful to connect with so many colleagues in person. We supported NASA Mentors Cloud Workshops on Sunday and organized a Happy Hour with colleagues from across NASA and the Open Science world. We attended and gave talks thoughout the week in addition to making many great connections in the Exhibition Hall, Poster Hall, and outside in the sun. This is a brief summary of our Friday 8-minute talk titled NASA Openscapes: Approaches and Stories of Kinder, Open Science in the Cloud.*
+
+*Quick links:*
+
+-   [Slides from our talk](https://docs.google.com/presentation/d/1RPPgWDqoA9Ppyk0pXpY717xqKSwLr_5Ek4-nEOoYBGw/edit?usp=sharing)
+-   [NASA Openscapes links to all presentations](https://nasa-openscapes.github.io/about.html#slides)
+-   [Our NASA-Openscapes AGU Planning Repository](https://NASA-Openscapes.github.io/2023-planning-agu) - summary of our activities
+
+------------------------------------------------------------------------
+
+## Why we work: motivated by climate and social change
+
+::: blockquote-blue
+> *"What if we connected our skills & values as a daily practice, for climate?"*
+:::
+
+We kicked off our talk with this question to center the motivation for the work we do. As the NASA Openscapes Mentors had given [many talks, workshops, and posters](https://openscapes.org/blog/2023-12-10-agu-fall-meeting/) throughout the week showcasing and teaching their shared work, we summarized their efforts with a quote from Cassie Nickles:
+
+::: blockquote-blue
+> ***"NASA Openscapes is a collaborative environment for data center \[DAAC\] staff to collectively support open science initiatives for NASA Earthdata users.** We've developed awesome material to help Earthdata users ([cheatsheets](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/cheatsheets.html), a python package ([earthaccess](https://nsidc.github.io/earthaccess/tutorials/demo/)), [NASA Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)).*
+>
+> *Perhaps just as important as what we've done however, are mindsets we've grown into along the way. It's okay to share imperfect works in progress. Ideas are not too big or too small to share. We are better at dreaming and implementing the future together." -- **Cassie Nickles (PO.DAAC)***
+:::
+
+Then we centered our talk on a layer above: **how we work** to support these amazing user support staff to collaborate across data centers and as early adopters, co-develop teaching resources and infrastructure to support researchers in the Cloud.
+
+## How we work: Openscapes Flywheel
+
+The Openscapes Flywheel is a tool for movement building [(Robinson & Lowndes 2022)](https://eartharxiv.org/repository/view/4560/). We developed this from the early days collaborating with the NASA Mentors and it is open source: available for you to reuse and fork as other groups are starting to do. We reach for the Flywheel as a tool for planning, implementation and communication, just as we reach for R, Quarto, and JupyterHubs for analysis, documentation, and cloud computing.
+
+The Flywheel is a concept developed by [Jim Collins](https://www.jimcollins.com/concepts/the-flywheel.html), where transformations occur from consistently doing key activities that add up over time. The Openscapes Flywheel at its simplest form has six steps that we repeat daily, monthly, and over years. Starting from the bottom and going clockwise: Leverage common workflows, skills, and tools; Inspire; Welcome; Create space & place; Invest in learning and trust; Work openly.
+
+::: {.center-text}
+![The Openscapes Flywheel](flywheel-screenshot.png){fig-align="center" width="80%" fig-alt="A diagram of the Openscapes flywheel. The Openscapes logo sits in the center of a cyclical process. The text around the logo reads as follows: 'Welcome bright spots (be they mentors or researchers) -- people who want to work better and collaborate' > 'Create space and place to connect and collaborate; remove barriers to participation (paid time, part of jobs)' > 'Invest in learning and trust; Everyone has something to learn, ask, teach; don't need to be an expert in everything. Cultivate psychological safety, growth mindset. Slowing down to speed up.' > 'Work Openly; Put what you learn into practice quickly, role-modeing sharing imperfect work and identifying common challenges and opportunities. Openness is a spectrum; first Future You and then Future Us' > Leverage common workflows, skills, tools; This is where we speed up: Iterate, reuse, remix with each other and teh broader community' > 'Inspire broader scientific communities through visible examples and leaders -- Open science shift' > repeat. These six steps are summarized by three overarching goals, which are also written around the logo: 'Engage a future us mindset', 'Empower learning culture', and 'Amplify open leaders'."}
+:::
+
+We talked through what this looked like for the NASA Openscapes project in Year 1, and then again in Years 2-3 as the Flywheel gained momentum as the Mentor community grew and supported researchers on the Cloud.
+
+## Turning hundreds, thousands of times in ways big and small
+
+What's so exciting is that following these initial turns of the Flywheel, it is now turning hundreds, thousands of times in ways big and small: like when a researcher uses GitHub for the first time and then turns around to teach their supervisor, and when staff have the confidence to speak up in meetings with what they know from the broader open science community. We've shared these stories in several manuscripts and blog posts, including a cross-government collaboration:
+
+-   [The Openscapes Flywheel: A framework for managers to facilitate and scale inclusive Open science practices](https://eartharxiv.org/repository/view/4560/) (Robinson & Lowndes 2022)
+
+-   [Shifting institutional culture to develop climate solutions with Open Science](https://eartharxiv.org/repository/view/5948/) (Lowndes et al 2023)
+
+-   <https://openscapes.org>
+
+## Technical & social infrastructure together
+
+What's key here is that technical & social infrastructure have been prioritized together consistently from the start. We focus on **developing a kinder, open science mindset** together: Mentorship is a skill we can all develop, just as we can all learn coding or data management as a skill, no matter where we're starting from. In the open science world, there are many places to learn from & we can all join existing efforts with humility and a growth mindset to learn.
+
+::: {.center-text}
+![Developing a kinder, open science mindset. Slide from AGU talk](developing-kinder-mindset-screenshot.png){fig-align="center" width="80%" fig-alt="Screenshot of slide 12 from AGU talk. See slides link at top of post for text details. Developing a kinder, open science mindset. Mentorship is a skill we can all develop; let's learn from & join existing efforts. Example list: . quote from Ta7talíya Michelle Nahanee: 'Perfection is a colonial conditioning. Worrying that you’re going to get it wrong holds you back from trying, and that erases.' Right side has images of book covers and organization logos"}
+:::
