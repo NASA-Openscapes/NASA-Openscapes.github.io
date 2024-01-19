@@ -58,11 +58,13 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
-- [NASA Openscapes: Better Science for Future Us](https://docs.google.com/presentation/d/1FacX0LSjCD7CLI2U2871KmO-IA4qoHjrNa7fP2S5p3o/edit?usp=sharing) - Bri Lind, Julie Lowndes, Erin Robinson & NASA Openscapes Mentors. Jan 8, SEDAC Open Science Day
+- [NASA Openscapes: Better Science for Future Us](https://docs.google.com/presentation/d/1FacX0LSjCD7CLI2U2871KmO-IA4qoHjrNa7fP2S5p3o/edit?usp=sharing) - Bri Lind, Julie Lowndes, Erin Robinson & NASA Openscapes Mentors. Jan 9, 2024. SEDAC Open Science Day ([zenodo](https://zenodo.org/records/10523525)([video](https://www.youtube.com/watch?v=apinEk9PM_4) start at 1:31)
+
+- [Examing Environmental Justice through Open and Cloud Native Tools](https://docs.google.com/presentation/d/1N327b0xg7Mp0re3HrCVy75YeuHclV_7W/edit?usp=drive_link) - Carl Boettiger. Jan 9, 2024. SEDAC Open Science Day ([zenodo](https://zenodo.org/records/10523525)([video](https://www.youtube.com/watch?v=apinEk9PM_4) start at 3:55:05)
 
 - [NASA Openscapes: Supporting NASA EarthData Users Transition to the Cloud](https://docs.google.com/presentation/d/1qpXWTfhfLtEadBKlxnBh_ST6qpLMR221DFYsgLRXsCk/edit?usp=sharing) - Erin Robinson, Julie Lowndes & NASA Openscapes Mentors. Jan 16, 2024. Crustal Dynamics Data Information Systems (CDDIS) Telecon
 
-- [NASA Earthdata: Open Science Workflows & Techniques from Openscapes](https://docs.google.com/presentation/d/1kOp5naA73_MiOJvmr7sYT5F-mDygbW_yKe1vhLzUCnE/edit?usp=sharing) - Cassie Nickles & the NASA Openscapes Community. Jan 9, 2024. SEDAC Open Science Workshop
+- [NASA Earthdata: Open Science Workflows & Techniques from Openscapes](https://docs.google.com/presentation/d/1kOp5naA73_MiOJvmr7sYT5F-mDygbW_yKe1vhLzUCnE/edit?usp=sharing) - Cassie Nickles & the NASA Openscapes Community. Jan 9, 2024. SEDAC Open Science Workshop ([zenodo](https://zenodo.org/records/10523525)([video](https://www.youtube.com/watch?v=apinEk9PM_4) start at 3:19)
 
 - [NASA Openscapes: Approaches and Stories of Kinder, Open Science in the Cloud](https://docs.google.com/presentation/d/1RPPgWDqoA9Ppyk0pXpY717xqKSwLr_5Ek4-nEOoYBGw/edit?usp=sharing) - Julie Lowndes, Erin Robinson & NASA Openscapes Mentors. Dec 15, AGU Fall Meeting
 
