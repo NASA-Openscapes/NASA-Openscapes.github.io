@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -48,7 +48,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,6 +63,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -95,6 +102,33 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -102,9 +136,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./images/openscapes_hex.png" alt="" class="navbar-logo">
     </a>
@@ -119,43 +153,43 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./mentors.html" rel="" target="">
- <span class="menu-text">Mentors</span></a>
+    <a class="nav-link" href="./mentors.html"> 
+<span class="menu-text">Mentors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./champions.html" rel="" target="">
- <span class="menu-text">Champions</span></a>
+    <a class="nav-link" href="./champions.html"> 
+<span class="menu-text">Champions</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cookbook-navbar-page.html" rel="" target="">
- <span class="menu-text">Cookbook</span></a>
+    <a class="nav-link" href="./cookbook-navbar-page.html"> 
+<span class="menu-text">Cookbook</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./news.html" rel="" target="" aria-current="page">
- <span class="menu-text">News</span></a>
+    <a class="nav-link active" href="./news.html" aria-current="page"> 
+<span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./events.html" rel="" target="">
- <span class="menu-text">Events</span></a>
+    <a class="nav-link" href="./events.html"> 
+<span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/NASA-Openscapes" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/NASA-Openscapes"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://fosstodon.org/@openscapes" rel="" target=""><i class="bi bi-mastodon" role="img">
+    <a class="nav-link" href="https://fosstodon.org/@openscapes"> <i class="bi bi-mastodon" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -163,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
   
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(13)</span></div><div class="category" data-category="blog">blog <span class="quarto-category-count">(13)</span></div><div class="category" data-category="champions">champions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="community-call">community-call <span class="quarto-category-count">(2)</span></div><div class="category" data-category="conference">conference <span class="quarto-category-count">(3)</span></div><div class="category" data-category="how-we-work">how-we-work <span class="quarto-category-count">(2)</span></div><div class="category" data-category="nasa-framework">nasa-framework <span class="quarto-category-count">(13)</span></div><div class="category" data-category="newsletter">newsletter <span class="quarto-category-count">(1)</span></div><div class="category" data-category="noaa-fisheries">noaa-fisheries <span class="quarto-category-count">(4)</span></div></div></div>
@@ -177,7 +211,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -185,7 +219,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 
 
@@ -193,19 +229,19 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="nasa-framework,conference,blog" data-listing-date-sort="1705536000000" data-listing-file-modified-sort="1705694346822" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="0" data-categories="nasa-framework,conference,blog" data-listing-date-sort="1705536000000" data-listing-file-modified-sort="1706142640288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="978">
 <div class="thumbnail">
-<p><a href="./news/2024-01-18-agu-talk-2023/index.html"> <img src="./news/2024-01-18-agu-talk-2023/developing-kinder-mindset-screenshot.png" class="thumbnail-image"> </a></p>
+<p><a href="./news/2024-01-18-agu-talk-2023/index.html" class="no-external"></a></p><a href="./news/2024-01-18-agu-talk-2023/index.html" class="no-external">
+<p><img src="./news/2024-01-18-agu-talk-2023/developing-kinder-mindset-screenshot.png" class="thumbnail-image"></p>
+</a><p><a href="./news/2024-01-18-agu-talk-2023/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./news/2024-01-18-agu-talk-2023/index.html">
 <h3 class="no-anchor listing-title">
-NASA Openscapes: Approaches and Stories of Kinder, Open Science in the Cloud
+<a href="./news/2024-01-18-agu-talk-2023/index.html" class="no-external">NASA Openscapes: Approaches and Stories of Kinder, Open Science in the Cloud</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./news/2024-01-18-agu-talk-2023/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nasa-framework'); return false;">
 nasa-framework
@@ -217,14 +253,12 @@ conference
 blog
 </div>
 </div>
-<a href="./news/2024-01-18-agu-talk-2023/index.html">
 <div class="listing-description">
-<p>Highlights from our talk at the AGU Fall Meeting</p>
+<a href="./news/2024-01-18-agu-talk-2023/index.html" class="no-external">Highlights from our talk at the AGU Fall Meeting</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./news/2024-01-18-agu-talk-2023/index.html">
+<a href="./news/2024-01-18-agu-talk-2023/index.html" class="no-external">
 <div class="listing-date">
 Jan 18, 2024
 </div>
@@ -234,19 +268,19 @@ Julie Lowndes, Erin Robinson, NASA Openscapes Mentors
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="nasa-framework,conference,blog" data-listing-date-sort="1702166400000" data-listing-file-modified-sort="1705694346818" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="1" data-categories="nasa-framework,conference,blog" data-listing-date-sort="1702166400000" data-listing-file-modified-sort="1706142640280" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
 <div class="thumbnail">
-<p><a href="./news/2023-12-10-agu-fall-meeting/index.html"> <img src="./news/2023-12-10-agu-fall-meeting/agu-fall-2023.png" class="thumbnail-image"> </a></p>
+<p><a href="./news/2023-12-10-agu-fall-meeting/index.html" class="no-external"></a></p><a href="./news/2023-12-10-agu-fall-meeting/index.html" class="no-external">
+<p><img src="./news/2023-12-10-agu-fall-meeting/agu-fall-2023.png" class="thumbnail-image"></p>
+</a><p><a href="./news/2023-12-10-agu-fall-meeting/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./news/2023-12-10-agu-fall-meeting/index.html">
 <h3 class="no-anchor listing-title">
-Activities at the AGU Fall Meeting
+<a href="./news/2023-12-10-agu-fall-meeting/index.html" class="no-external">Activities at the AGU Fall Meeting</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./news/2023-12-10-agu-fall-meeting/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nasa-framework'); return false;">
 nasa-framework
@@ -258,14 +292,12 @@ conference
 blog
 </div>
 </div>
-<a href="./news/2023-12-10-agu-fall-meeting/index.html">
 <div class="listing-description">
-<p>Workshops, Talks, Posters, Demos, and more</p>
+<a href="./news/2023-12-10-agu-fall-meeting/index.html" class="no-external">Workshops, Talks, Posters, Demos, and more</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./news/2023-12-10-agu-fall-meeting/index.html">
+<a href="./news/2023-12-10-agu-fall-meeting/index.html" class="no-external">
 <div class="listing-date">
 Dec 10, 2023
 </div>
@@ -275,19 +307,19 @@ NASA Openscapes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="community-call,blog,nasa-framework" data-listing-date-sort="1701993600000" data-listing-file-modified-sort="1705694346814" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="2" data-categories="community-call,blog,nasa-framework" data-listing-date-sort="1701993600000" data-listing-file-modified-sort="1706142640280" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="547">
 <div class="thumbnail">
-<p><a href="./news/2023-12-08-coiled-community-call/index.html"> <img src="./news/2023-12-08-coiled-community-call/coiled-bourbeau-demo.png" class="thumbnail-image"> </a></p>
+<p><a href="./news/2023-12-08-coiled-community-call/index.html" class="no-external"></a></p><a href="./news/2023-12-08-coiled-community-call/index.html" class="no-external">
+<p><img src="./news/2023-12-08-coiled-community-call/coiled-bourbeau-demo.png" class="thumbnail-image"></p>
+</a><p><a href="./news/2023-12-08-coiled-community-call/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./news/2023-12-08-coiled-community-call/index.html">
 <h3 class="no-anchor listing-title">
-Openscapes Community Call: NASA Earthdata Cloud with Coiled
+<a href="./news/2023-12-08-coiled-community-call/index.html" class="no-external">Openscapes Community Call: NASA Earthdata Cloud with Coiled</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./news/2023-12-08-coiled-community-call/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('community-call'); return false;">
 community-call
@@ -299,14 +331,12 @@ blog
 nasa-framework
 </div>
 </div>
-<a href="./news/2023-12-08-coiled-community-call/index.html">
 <div class="listing-description">
-<p>Panel discussion and demos with NSIDC and Coiled</p>
+<a href="./news/2023-12-08-coiled-community-call/index.html" class="no-external">Panel discussion and demos with NSIDC and Coiled</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./news/2023-12-08-coiled-community-call/index.html">
+<a href="./news/2023-12-08-coiled-community-call/index.html" class="no-external">
 <div class="listing-date">
 Dec 8, 2023
 </div>
@@ -316,19 +346,19 @@ Amy Steiker, Luis Lopez, Andrew Barrett, Julie Lowndes, Erin Robinson, James Bou
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="community-call,blog,nasa-framework" data-listing-date-sort="1701820800000" data-listing-file-modified-sort="1705694346806" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="3" data-categories="community-call,blog,nasa-framework" data-listing-date-sort="1701820800000" data-listing-file-modified-sort="1706142640272" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="950">
 <div class="thumbnail">
-<p><a href="./news/2023-12-07-engaging-with-a-cross-nasa-subcommunity/index.html"> <img src="./news/2023-12-07-engaging-with-a-cross-nasa-subcommunity/nasa-openscapes-carpentries.png" class="thumbnail-image"> </a></p>
+<p><a href="./news/2023-12-07-engaging-with-a-cross-nasa-subcommunity/index.html" class="no-external"></a></p><a href="./news/2023-12-07-engaging-with-a-cross-nasa-subcommunity/index.html" class="no-external">
+<p><img src="./news/2023-12-07-engaging-with-a-cross-nasa-subcommunity/nasa-openscapes-carpentries.png" class="thumbnail-image"></p>
+</a><p><a href="./news/2023-12-07-engaging-with-a-cross-nasa-subcommunity/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./news/2023-12-07-engaging-with-a-cross-nasa-subcommunity/index.html">
 <h3 class="no-anchor listing-title">
-Engaging with a Cross-NASA Subcommunity
+<a href="./news/2023-12-07-engaging-with-a-cross-nasa-subcommunity/index.html" class="no-external">Engaging with a Cross-NASA Subcommunity</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./news/2023-12-07-engaging-with-a-cross-nasa-subcommunity/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('community-call'); return false;">
 community-call
@@ -340,14 +370,12 @@ blog
 nasa-framework
 </div>
 </div>
-<a href="./news/2023-12-07-engaging-with-a-cross-nasa-subcommunity/index.html">
 <div class="listing-description">
-<p>Recap of a Carpentries Community Session with NASA and Openscapes</p>
+<a href="./news/2023-12-07-engaging-with-a-cross-nasa-subcommunity/index.html" class="no-external">Recap of a Carpentries Community Session with NASA and Openscapes</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./news/2023-12-07-engaging-with-a-cross-nasa-subcommunity/index.html">
+<a href="./news/2023-12-07-engaging-with-a-cross-nasa-subcommunity/index.html" class="no-external">
 <div class="listing-date">
 Dec 6, 2023
 </div>
@@ -357,19 +385,19 @@ Chris Battisto, Katherine Blanchette, Alycia Crall, Elizabeth Joyner, Julie Lown
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="nasa-framework,blog" data-listing-date-sort="1699315200000" data-listing-file-modified-sort="1705694346806" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10">
+<div class="quarto-post image-right" data-index="4" data-categories="nasa-framework,blog" data-listing-date-sort="1699315200000" data-listing-file-modified-sort="1706142640272" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1934">
 <div class="thumbnail">
-<p><a href="./news/2023-11-07-coiled-openscapes/index.html"> <img src="./news/2023-11-07-coiled-openscapes/geospatial-for-loop-comparison.svg" class="thumbnail-image"> </a></p>
+<p><a href="./news/2023-11-07-coiled-openscapes/index.html" class="no-external"></a></p><a href="./news/2023-11-07-coiled-openscapes/index.html" class="no-external">
+<p><img src="./news/2023-11-07-coiled-openscapes/geospatial-for-loop-comparison.svg" class="thumbnail-image"></p>
+</a><p><a href="./news/2023-11-07-coiled-openscapes/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./news/2023-11-07-coiled-openscapes/index.html">
 <h3 class="no-anchor listing-title">
-Processing Terabyte-Scale NASA Cloud Datasets with Coiled
+<a href="./news/2023-11-07-coiled-openscapes/index.html" class="no-external">Processing Terabyte-Scale NASA Cloud Datasets with Coiled</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./news/2023-11-07-coiled-openscapes/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nasa-framework'); return false;">
 nasa-framework
@@ -378,14 +406,12 @@ nasa-framework
 blog
 </div>
 </div>
-<a href="./news/2023-11-07-coiled-openscapes/index.html">
 <div class="listing-description">
-<p>Guide for NASA Cloud computing at scale. How to run existing NASA data workflows on the cloud, in parallel, with minimal code changes using Coiled.</p>
+<a href="./news/2023-11-07-coiled-openscapes/index.html" class="no-external">Guide for NASA Cloud computing at scale. How to run existing NASA data workflows on the cloud, in parallel, with minimal code changes using Coiled.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./news/2023-11-07-coiled-openscapes/index.html">
+<a href="./news/2023-11-07-coiled-openscapes/index.html" class="no-external">
 <div class="listing-date">
 Nov 7, 2023
 </div>
@@ -395,19 +421,19 @@ James Bourbeau of Coiled
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="nasa-framework,blog" data-listing-date-sort="1697500800000" data-listing-file-modified-sort="1705694346806" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="5" data-categories="nasa-framework,blog" data-listing-date-sort="1697500800000" data-listing-file-modified-sort="1706142640272" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="742">
 <div class="thumbnail">
-<p><a href="./news/2023-10-17-matlab-on-openscapes/index.html"> <img src="./news/2023-10-17-matlab-on-openscapes/matlab-launch.png" class="thumbnail-image"> </a></p>
+<p><a href="./news/2023-10-17-matlab-on-openscapes/index.html" class="no-external"></a></p><a href="./news/2023-10-17-matlab-on-openscapes/index.html" class="no-external">
+<p><img src="./news/2023-10-17-matlab-on-openscapes/matlab-launch.png" class="thumbnail-image"></p>
+</a><p><a href="./news/2023-10-17-matlab-on-openscapes/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./news/2023-10-17-matlab-on-openscapes/index.html">
 <h3 class="no-anchor listing-title">
-MATLAB on Openscapes
+<a href="./news/2023-10-17-matlab-on-openscapes/index.html" class="no-external">MATLAB on Openscapes</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./news/2023-10-17-matlab-on-openscapes/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nasa-framework'); return false;">
 nasa-framework
@@ -416,14 +442,12 @@ nasa-framework
 blog
 </div>
 </div>
-<a href="./news/2023-10-17-matlab-on-openscapes/index.html">
 <div class="listing-description">
-<p>Accessing and Analyzing NASA Earthdata in the Cloud with MATLAB</p>
+<a href="./news/2023-10-17-matlab-on-openscapes/index.html" class="no-external">Accessing and Analyzing NASA Earthdata in the Cloud with MATLAB</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./news/2023-10-17-matlab-on-openscapes/index.html">
+<a href="./news/2023-10-17-matlab-on-openscapes/index.html" class="no-external">
 <div class="listing-date">
 Oct 17, 2023
 </div>
@@ -433,19 +457,19 @@ Lisa Kempler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="nasa-framework,blog" data-listing-date-sort="1697155200000" data-listing-file-modified-sort="1705694346806" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="6" data-categories="nasa-framework,blog" data-listing-date-sort="1697155200000" data-listing-file-modified-sort="1706142640272" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="876">
 <div class="thumbnail">
-<p><a href="./news/2023-10-13-nasa-jupyterhub-coiled/index.html"> <img src="./news/2023-10-13-nasa-jupyterhub-coiled/amy-steiker-uwg.png" class="thumbnail-image"> </a></p>
+<p><a href="./news/2023-10-13-nasa-jupyterhub-coiled/index.html" class="no-external"></a></p><a href="./news/2023-10-13-nasa-jupyterhub-coiled/index.html" class="no-external">
+<p><img src="./news/2023-10-13-nasa-jupyterhub-coiled/amy-steiker-uwg.png" class="thumbnail-image"></p>
+</a><p><a href="./news/2023-10-13-nasa-jupyterhub-coiled/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./news/2023-10-13-nasa-jupyterhub-coiled/index.html">
 <h3 class="no-anchor listing-title">
-Cloud Environment Opportunities
+<a href="./news/2023-10-13-nasa-jupyterhub-coiled/index.html" class="no-external">Cloud Environment Opportunities</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./news/2023-10-13-nasa-jupyterhub-coiled/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nasa-framework'); return false;">
 nasa-framework
@@ -454,14 +478,12 @@ nasa-framework
 blog
 </div>
 </div>
-<a href="./news/2023-10-13-nasa-jupyterhub-coiled/index.html">
 <div class="listing-description">
-<p>Managed JupyterHub options for Cryosphere and NASA Earthdata user communities</p>
+<a href="./news/2023-10-13-nasa-jupyterhub-coiled/index.html" class="no-external">Managed JupyterHub options for Cryosphere and NASA Earthdata user communities</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./news/2023-10-13-nasa-jupyterhub-coiled/index.html">
+<a href="./news/2023-10-13-nasa-jupyterhub-coiled/index.html" class="no-external">
 <div class="listing-date">
 Oct 13, 2023
 </div>
@@ -471,19 +493,19 @@ Amy Steiker, Luis Lopez, Andy Barrett, the NASA Openscapes Mentors, James Bourbe
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="blog,champions,nasa-framework" data-listing-date-sort="1690848000000" data-listing-file-modified-sort="1705694346790" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18">
+<div class="quarto-post image-right" data-index="7" data-categories="blog,champions,nasa-framework" data-listing-date-sort="1690848000000" data-listing-file-modified-sort="1706142640256" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18" data-listing-word-count-sort="3560">
 <div class="thumbnail">
-<p><a href="./news/2023-08-01-nasa-champions/index.html"> <img src="./news/2023-08-01-nasa-champions/zoomie-2023-nasa-champions-square.png" class="thumbnail-image"> </a></p>
+<p><a href="./news/2023-08-01-nasa-champions/index.html" class="no-external"></a></p><a href="./news/2023-08-01-nasa-champions/index.html" class="no-external">
+<p><img src="./news/2023-08-01-nasa-champions/zoomie-2023-nasa-champions-square.png" class="thumbnail-image"></p>
+</a><p><a href="./news/2023-08-01-nasa-champions/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./news/2023-08-01-nasa-champions/index.html">
 <h3 class="no-anchor listing-title">
-Exciting Progress for Research Teams using NASA Earthdata in the Cloud: 2023 NASA Openscapes Champions Wrap-up
+<a href="./news/2023-08-01-nasa-champions/index.html" class="no-external">Exciting Progress for Research Teams using NASA Earthdata in the Cloud: 2023 NASA Openscapes Champions Wrap-up</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./news/2023-08-01-nasa-champions/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('blog'); return false;">
 blog
@@ -495,14 +517,12 @@ champions
 nasa-framework
 </div>
 </div>
-<a href="./news/2023-08-01-nasa-champions/index.html">
 <div class="listing-description">
-<em>From April-June 2023, the NASA Openscapes project team co-led the second Champions Cohort with NASA Mentors who span seven Distributed Active Archive Centers (DAACs). The…</em>
+<a href="./news/2023-08-01-nasa-champions/index.html" class="no-external"><em>From April-June 2023, the NASA Openscapes project team co-led the second Champions Cohort with NASA Mentors who span seven Distributed Active Archive Centers (DAACs). The…</em></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./news/2023-08-01-nasa-champions/index.html">
+<a href="./news/2023-08-01-nasa-champions/index.html" class="no-external">
 <div class="listing-date">
 Aug 1, 2023
 </div>
@@ -512,19 +532,19 @@ Erin Robinson, Julie Lowndes, Amy Steiker, Alexis Hunzinger, Luis Lopez, Andy Ba
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="blog,how-we-work,noaa-fisheries,nasa-framework" data-listing-date-sort="1685491200000" data-listing-file-modified-sort="1705694346782" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="8" data-categories="blog,how-we-work,noaa-fisheries,nasa-framework" data-listing-date-sort="1685491200000" data-listing-file-modified-sort="1706142640248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="654">
 <div class="thumbnail">
-<p><a href="./news/2023-05-31-zenodo-community/index.html"> <img src="./news/2023-05-31-zenodo-community/zenodo-openscapes-community-square.png" class="thumbnail-image"> </a></p>
+<p><a href="./news/2023-05-31-zenodo-community/index.html" class="no-external"></a></p><a href="./news/2023-05-31-zenodo-community/index.html" class="no-external">
+<p><img src="./news/2023-05-31-zenodo-community/zenodo-openscapes-community-square.png" class="thumbnail-image"></p>
+</a><p><a href="./news/2023-05-31-zenodo-community/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./news/2023-05-31-zenodo-community/index.html">
 <h3 class="no-anchor listing-title">
-New Zenodo Openscapes Community helps you Find and Cite Openscapes things
+<a href="./news/2023-05-31-zenodo-community/index.html" class="no-external">New Zenodo Openscapes Community helps you Find and Cite Openscapes things</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./news/2023-05-31-zenodo-community/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('blog'); return false;">
 blog
@@ -539,14 +559,12 @@ noaa-fisheries
 nasa-framework
 </div>
 </div>
-<a href="./news/2023-05-31-zenodo-community/index.html">
 <div class="listing-description">
-We want to share our work in…<sup></sup><sup></sup><sup></sup>
+<a href="./news/2023-05-31-zenodo-community/index.html" class="no-external">We want to share our work in a way that people can find it, use it, improve it, and cite it, or get credit for their contributions. For people who have participated in our…<sup></sup><sup></sup><sup></sup></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./news/2023-05-31-zenodo-community/index.html">
+<a href="./news/2023-05-31-zenodo-community/index.html" class="no-external">
 <div class="listing-date">
 May 31, 2023
 </div>
@@ -556,19 +574,19 @@ Stefanie Butland
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="blog,noaa-fisheries,nasa-framework" data-listing-date-sort="1684281600000" data-listing-file-modified-sort="1705694346782" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14">
+<div class="quarto-post image-right" data-index="9" data-categories="blog,noaa-fisheries,nasa-framework" data-listing-date-sort="1684281600000" data-listing-file-modified-sort="1706142640248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2609">
 <div class="thumbnail">
-<p><a href="./news/2023-05-17-mentor-coach/index.html"> <img src="./news/2023-05-17-mentor-coach/mrlowndes-bee-square.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./news/2023-05-17-mentor-coach/index.html" class="no-external"></a></p><a href="./news/2023-05-17-mentor-coach/index.html" class="no-external">
+<p><img src="./news/2023-05-17-mentor-coach/mrlowndes-bee-square.jpg" class="thumbnail-image"></p>
+</a><p><a href="./news/2023-05-17-mentor-coach/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./news/2023-05-17-mentor-coach/index.html">
 <h3 class="no-anchor listing-title">
-How coaching skills have made us better open data science mentors
+<a href="./news/2023-05-17-mentor-coach/index.html" class="no-external">How coaching skills have made us better open data science mentors</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./news/2023-05-17-mentor-coach/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('blog'); return false;">
 blog
@@ -580,14 +598,12 @@ noaa-fisheries
 nasa-framework
 </div>
 </div>
-<a href="./news/2023-05-17-mentor-coach/index.html">
 <div class="listing-description">
-<em>February through May 2023, Openscapes Mentors from across governments and academia came together for some hands-on learning and practice that had a profound effect on the…</em>
+<a href="./news/2023-05-17-mentor-coach/index.html" class="no-external"><em>February through May 2023, Openscapes Mentors from across governments and academia came together for some hands-on learning and practice that had a profound effect on the…</em></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./news/2023-05-17-mentor-coach/index.html">
+<a href="./news/2023-05-17-mentor-coach/index.html" class="no-external">
 <div class="listing-date">
 May 17, 2023
 </div>
@@ -597,19 +613,19 @@ Tara Robertson, Stefanie Butland, Julie Lowndes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="blog,conference,noaa-fisheries,nasa-framework" data-listing-date-sort="1678924800000" data-listing-file-modified-sort="1705694346782" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15">
+<div class="quarto-post image-right" data-index="10" data-categories="blog,conference,noaa-fisheries,nasa-framework" data-listing-date-sort="1678924800000" data-listing-file-modified-sort="1706142640248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2934">
 <div class="thumbnail">
-<p><a href="./news/2023-03-16-esip-winter-2023/index.html"> <img src="./news/2023-03-16-esip-winter-2023/esip-2023-speakers-square.png" class="thumbnail-image"> </a></p>
+<p><a href="./news/2023-03-16-esip-winter-2023/index.html" class="no-external"></a></p><a href="./news/2023-03-16-esip-winter-2023/index.html" class="no-external">
+<p><img src="./news/2023-03-16-esip-winter-2023/esip-2023-speakers-square.png" class="thumbnail-image"></p>
+</a><p><a href="./news/2023-03-16-esip-winter-2023/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./news/2023-03-16-esip-winter-2023/index.html">
 <h3 class="no-anchor listing-title">
-3 approaches for the year of open science
+<a href="./news/2023-03-16-esip-winter-2023/index.html" class="no-external">3 approaches for the year of open science</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./news/2023-03-16-esip-winter-2023/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('blog'); return false;">
 blog
@@ -624,14 +640,12 @@ noaa-fisheries
 nasa-framework
 </div>
 </div>
-<a href="./news/2023-03-16-esip-winter-2023/index.html">
 <div class="listing-description">
-<em>At the 2023 ESIP Winter Meeting, “Opening Doors to Open Science”, we held a session called “Better…</em>
+<a href="./news/2023-03-16-esip-winter-2023/index.html" class="no-external"><em>At the 2023 ESIP Winter Meeting, “Opening Doors to Open Science”, we held a session called “Better Science for Future Us: Openscapes stories and approaches for the Year of…</em></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./news/2023-03-16-esip-winter-2023/index.html">
+<a href="./news/2023-03-16-esip-winter-2023/index.html" class="no-external">
 <div class="listing-date">
 Mar 16, 2023
 </div>
@@ -641,19 +655,19 @@ Corey Clatterbuck, Ileana Fenwick, Josh London, Luis Lopez, Cassie Nickles, Adya
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="blog,newsletter,nasa-framework,noaa-fisheries" data-listing-date-sort="1676937600000" data-listing-file-modified-sort="1705694346778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="11" data-categories="blog,newsletter,nasa-framework,noaa-fisheries" data-listing-date-sort="1676937600000" data-listing-file-modified-sort="1706142640244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="960">
 <div class="thumbnail">
-<p><a href="./news/2023-02-21-news-february-2023/index.html"> <img src="./news/2023-02-21-news-february-2023/sb_paradise_road.png" class="thumbnail-image"> </a></p>
+<p><a href="./news/2023-02-21-news-february-2023/index.html" class="no-external"></a></p><a href="./news/2023-02-21-news-february-2023/index.html" class="no-external">
+<p><img src="./news/2023-02-21-news-february-2023/sb_paradise_road.png" class="thumbnail-image"></p>
+</a><p><a href="./news/2023-02-21-news-february-2023/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./news/2023-02-21-news-february-2023/index.html">
 <h3 class="no-anchor listing-title">
-Openscapes Newsletter #6: Winter 2023
+<a href="./news/2023-02-21-news-february-2023/index.html" class="no-external">Openscapes Newsletter #6: Winter 2023</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./news/2023-02-21-news-february-2023/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('blog'); return false;">
 blog
@@ -668,14 +682,12 @@ nasa-framework
 noaa-fisheries
 </div>
 </div>
-<a href="./news/2023-02-21-news-february-2023/index.html">
 <div class="listing-description">
-<em>Welcome to Openscapes’ sixth newsletter! If you’re interested in seeing these infrequent updates in your inbox, please sign up here (linked from our get involved page).</em>
+<a href="./news/2023-02-21-news-february-2023/index.html" class="no-external"><em>Welcome to Openscapes’ sixth newsletter! If you’re interested in seeing these infrequent updates in your inbox, please sign up here (linked from our get involved page).</em></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./news/2023-02-21-news-february-2023/index.html">
+<a href="./news/2023-02-21-news-february-2023/index.html" class="no-external">
 <div class="listing-date">
 Feb 21, 2023
 </div>
@@ -685,19 +697,19 @@ Julie Lowndes and Stefanie Butland
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="nasa-framework,blog,how-we-work" data-listing-date-sort="1672444800000" data-listing-file-modified-sort="1705694346778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="12" data-categories="nasa-framework,blog,how-we-work" data-listing-date-sort="1672444800000" data-listing-file-modified-sort="1706142640244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
 <div class="thumbnail">
-<p><a href="./news/2022-12-31-previous-news/index.html"> <img src="./../../images/nasa-openscapes.png" class="thumbnail-image"> </a></p>
+<p><a href="./news/2022-12-31-previous-news/index.html" class="no-external"></a></p><a href="./news/2022-12-31-previous-news/index.html" class="no-external">
+<p><img src="./../../images/nasa-openscapes.png" class="thumbnail-image"></p>
+</a><p><a href="./news/2022-12-31-previous-news/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./news/2022-12-31-previous-news/index.html">
 <h3 class="no-anchor listing-title">
-Previous News 2021-2022
+<a href="./news/2022-12-31-previous-news/index.html" class="no-external">Previous News 2021-2022</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./news/2022-12-31-previous-news/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('nasa-framework'); return false;">
 nasa-framework
@@ -709,14 +721,12 @@ blog
 how-we-work
 </div>
 </div>
-<a href="./news/2022-12-31-previous-news/index.html">
 <div class="listing-description">
-As we migrate posts from 2021-2022, please find them here on the main openscapes.org website:
+<a href="./news/2022-12-31-previous-news/index.html" class="no-external">As we migrate posts from 2021-2022, please find them here on the main openscapes.org website:</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./news/2022-12-31-previous-news/index.html">
+<a href="./news/2022-12-31-previous-news/index.html" class="no-external">
 <div class="listing-date">
 Dec 31, 2022
 </div>
@@ -810,10 +820,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -823,8 +832,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -837,6 +855,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -880,6 +1017,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -905,6 +1043,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -967,13 +1131,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© CC-By NASA Openscapes</div>   
+    <div class="nav-footer-left">
+<p>© CC-By NASA Openscapes</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right">This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>, with theme from <a href="https://github.com/rstudio/vetiver.rstudio.com">vetiver</a></div>
+    <div class="nav-footer-right">
+<p>This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>, with theme from <a href="https://github.com/rstudio/vetiver.rstudio.com">vetiver</a></p>
+</div>
   </div>
 </footer>
+
 
 
 
