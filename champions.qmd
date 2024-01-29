@@ -9,9 +9,9 @@ output:
     toc_depth: 3
 ---
 
-<!---**Join us for our Spring 2023 NASA Champions Cohort, details below!**--->
+**Join us for our Spring 2024 NASA Champions Cohort, details below!**
 
-**Details for our Spring 2024 NASA Champions Cohort will be available in February!**
+<!---**Details for our Spring 2024 NASA Champions Cohort will be available in February!** --->
 
 
 ## Overview
@@ -30,27 +30,27 @@ output:
 
 ## Champions Program Details
 
-*details coming soon for April-June 2024*
+<!---*details coming soon for April-June 2024*--->
 
-<!---
+**This NASA Openscapes Champions Cohort will run from April-May 2024!** We will meet as a cohort five times over two months, on alternating Wednesdays.
 
-**This NASA Openscapes Champions Cohort will run from April-June 2023!** We will meet as a cohort five times over two months, on alternating Wednesdays.
-
--   **Dates:** April 19; May 3, 17, 31; June 14
+-   **Dates:** April 3, 17, May 1, 15, 29.
 -   **Times:** 10:00-11:30 am Pacific Time
 -   **Where:** remotely, via Zoom
--   **What we learn:** details on our [2023 cohort webpage](https://nasa-openscapes.github.io/2023-nasa-champions/)
--   **Who:** Cohort of 7 research groups that work with data from NASA DAACs. Each team consists of a team lead (faculty, principal investigator, etc) and up to 4 team members of your choice (graduate students, post docs, research techs, etc).
--   **Cost:** Free; this opportunity is supported by NASA through a grant to Openscapes
--   **Expected time commitment:** 8hrs/month for 2 months is a minimum expected time commitment. This accounts for 3 hours/month of synchronous Zoom calls, optional coworking times, and collaborating with your research group to strengthen shared workflows.
+-   **What we learn:** details coming soon, see the [2023 cohort webpage](https://nasa-openscapes.github.io/2023-nasa-champions/)
+-   **Who:** Cohort of 7 research groups that work with NASA Earthdata and interested in working on the Cloud. Each team consists of a team lead (faculty, principal investigator, etc) and up to 4 team members of your choice (graduate students, post docs, research techs, etc).
+-   **Cost:** Free; this opportunity is supported by NASA funding to Openscapes
+-   **Expected time commitment:** 8hrs/month for 2 months is a minimum expected time commitment. This accounts for 3 hours/month of synchronous Cohort Calls, optional Coworking hours, and team Seaside Chats where you plan with your research group to strengthen shared workflows.
 
-## Nominate your team for Spring 2023
+## Nominate your team for Spring 2024
 
-**Nominate your team by completing [this Google Form](https://forms.gle/USrLfoGRfPo78NZx6) by April 7, 2023**. This opportunity is open only to research groups that work with data from NASA DAACs. Priority will be given to researchers using data from DAACs participating in Openscapes this year: LP DAAC, NSIDC, PO.DAAC, GES DISC, ASDC, ORNL, and ASF.
+**Nominate your team by completing [this Google Form] (TODO) by March 1, 2024**. This opportunity is open only to research groups that work with data from NASA DAACs. Priority will be given to researchers using data from DAACs participating in Openscapes this year: LP DAAC, NSIDC, PO.DAAC, GES DISC, ASDC, ORNL, and ASF. <- TODO 
 
 Please submit one nomination per team, preferably by the team lead (faculty, principal investigator, etc). Participants from previous cohorts are welcome. We will confirm participation on a rolling basis.
 
 ## Learn more
+
+<!---
 
 [eScience Hackweeks](https://escience.washington.edu/using-data-science/hackweeks/) share Openscapes' goals of supporting research teams with inclusive open science practices for data-intensive science, and our events are designed with complementary structure to support these goals. The Champions Program supports teams in discussion-based planning and mindsets and meets virtually for 1.5 hours every other week for 2 months. eScience Hackweeks support hands-on skillbuilding and projects and meet daily for 5-10 days. NASA Openscapes is partnering with eScience to share lessons learned and better support researchers together, and **we invite researchers to participate in both Openscapes Champions and eScience Hackweeks to learn and deepen your skills for long-term workflow change for modern science**. Upcoming Hackweeks: 
 
@@ -58,9 +58,11 @@ Please submit one nomination per team, preferably by the team lead (faculty, pri
 
 -   [https://oceanhackweek.org](https://oceanhackweek.org/)  likely August
 
+--->
+
 **Learn more about the [Openscapes Champions Program](https://openscapes.org/champions)**, [stories from previous cohorts](https://openscapes.org/cohorts), and [FAQs about forming your team](https://openscapes.org/faq). Questions? Contact Openscapes: lowndes at nceas.ucsb.edu
 
---->
+
 
 ## 2023 NASA Champions Cohort
 
