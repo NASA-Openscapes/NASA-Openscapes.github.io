@@ -22,9 +22,9 @@ output:
 
 [^2]: [blogs.scientificamerican.com/observations/open-software-means-kinder-science](https://blogs.scientificamerican.com/observations/open-software-means-kinder-science)
 
-[**Openscapes Champions**](https://openscapes.org/champions) is a remote-by-design mentorship program for environmental and Earth science research teams to explore open data science practices. **For NASA Openscapes, research teams will also spend time experimenting and planning what their analytical workflows with NASA Earthdata look like in the Cloud**. Participants attend as a team with their research group in a cohort with other teams, together learning how to reframe data-intensive science as a collaborative effort. By discussing open software tooling and communities enabling reproducible research (e.g. R/ Python/ MATLAB, GitHub, metadata, cloud), participants develop collaborative skills, mindsets, and habits and establish shared practices for increased efficiency in their own research, while contributing to a more inclusive scientific culture.
+[**Openscapes Champions**](https://openscapes.org/champions) is a remote-by-design mentorship program for environmental and Earth science research teams to explore open data science practices. **For NASA Openscapes, research teams will also spend time experimenting and planning what their analytical workflows with NASA Earthdata look like in the Cloud**. Participants attend as a team with their research group in a cohort with other teams, together learning how to reframe data-intensive science as a collaborative effort. By discussing open software tooling and communities enabling reproducible research (e.g. R/ Python/ MATLAB, JupyterHub, GitHub, metadata, cloud), participants develop collaborative skills, mindsets, and habits and establish shared practices for increased efficiency in their own research, while contributing to a more inclusive scientific culture.
 
-[**NASA Openscapes**](https://nasa-openscapes.github.io) is a project to support scientists using data from NASA's Earth Observing System Data and Information System (EOSDIS) Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud. As part of this work, we will offer the Openscapes Champions program several times from 2022-2024.
+[**NASA Openscapes**](https://nasa-openscapes.github.io) is a project to support scientists using data from NASA's Earth Observing System Data and Information System (EOSDIS) Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud. As part of this work, we will offer the Openscapes Champions program several times from 2024-2026.
 
 <center><img src="images/nasa-openscapes.png" width="300px"/></center>
 
@@ -32,7 +32,7 @@ output:
 
 <!---*details coming soon for April-June 2024*--->
 
-**This NASA Openscapes Champions Cohort will run from April-May 2024!** We will meet as a cohort five times over two months, on alternating Wednesdays.
+**This NASA Openscapes Champions Cohort will run from April-May 2024!** We will meet as a cohort five times over two months, on alternating Wednesdays, with additional optional coworking times. 
 
 -   **Dates:** April 3, 17, May 1, 15, 29.
 -   **Times:** 10:00-11:30 am Pacific Time
@@ -44,7 +44,7 @@ output:
 
 ## Nominate your team for Spring 2024
 
-**Nominate your team by completing [this Google Form] (TODO) by March 1, 2024**. This opportunity is open only to research groups that work with data from NASA DAACs. Priority will be given to researchers using data from DAACs participating in Openscapes this year: LP DAAC, NSIDC, PO.DAAC, GES DISC, ASDC, ORNL, and ASF. <- TODO 
+**Nominate your team by completing [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfMREB4ERi0gq6NAcRpwEUOqH0g5g68sgbeWhI4Sj2tdYtS-w/viewform?usp=sf_link) by March 1, 2024**. This opportunity is open only to research groups that work with data from NASA DAACs. Priority will be given to researchers using data from DAACs participating in Openscapes this year: LP DAAC, NSIDC, PO.DAAC, GES DISC, ASDC, ORNL DAAC, ASDC, SEDAC, and ASF.
 
 Please submit one nomination per team, preferably by the team lead (faculty, principal investigator, etc). Participants from previous cohorts are welcome. We will confirm participation on a rolling basis.
 
@@ -60,7 +60,7 @@ Please submit one nomination per team, preferably by the team lead (faculty, pri
 
 --->
 
-**Learn more about the [Openscapes Champions Program](https://openscapes.org/champions)**, [stories from previous cohorts](https://openscapes.org/cohorts), and [FAQs about forming your team](https://openscapes.org/faq). Questions? Contact Openscapes: lowndes at nceas.ucsb.edu
+**Learn more about the [Openscapes Champions Program](https://openscapes.org/champions)**, [NASA Openscapes News](news.qmd), [stories from previous cohorts](https://openscapes.org/blog#category=champions), and [FAQs about forming your team](https://openscapes.org/faq). Questions? Contact Openscapes: julie at openscapes.org
 
 
 
