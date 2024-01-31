@@ -16,11 +16,13 @@ output:
 
 ## Overview
 
-[**Openscapes**](https://openscapes.org) is an approach for doing better science in less time[^1]. We help research groups reimagine data analysis, develop modern skills that are of immediate value to them, and cultivate collaborative and inclusive research communities. Openscapes' mentorship and community engagement approaches center on open data science as kinder science[^2], enabling increased efficiency and resilience for teams so that their work has more enduring impact.
+[**Openscapes**](https://openscapes.org) is an approach and a movement for doing better science in less time[^1],[^2]. We help research groups reimagine data analysis, develop modern skills that are of immediate value to them, and cultivate collaborative and inclusive research communities. Openscapes' mentorship and community engagement approaches center on open data science as kinder science[^3], enabling increased efficiency and resilience for teams so that their work has more enduring impact.
 
-[^1]: [nature.com/articles/s41559-017-0160](https://nature.com/articles/s41559-017-0160)
+[^1]: Robinson & Lowndes. [The Openscapes Flywheel: A framework for managers to facilitate and scale inclusive Open science practices](https://eartharxiv.org/repository/view/4560/), preprint, 2022.
 
-[^2]: [blogs.scientificamerican.com/observations/open-software-means-kinder-science](https://blogs.scientificamerican.com/observations/open-software-means-kinder-science)
+[^2]: Lowndes et al. [Our path to better science in less time using open data science tools](https://nature.com/articles/s41559-017-0160), Nature Ecology & Evolution, 2017.
+
+[^3]: Lowndes. [Open software means kinder science](https://blogs.scientificamerican.com/observations/open-software-means-kinder-science), Scientific American, 2019.
 
 [**Openscapes Champions**](https://openscapes.org/champions) is a remote-by-design mentorship program for environmental and Earth science research teams to explore open data science practices. **For NASA Openscapes, research teams will also spend time experimenting and planning what their analytical workflows with NASA Earthdata look like in the Cloud**. Participants attend as a team with their research group in a cohort with other teams, together learning how to reframe data-intensive science as a collaborative effort. By discussing open software tooling and communities enabling reproducible research (e.g. R/ Python/ MATLAB, JupyterHub, GitHub, metadata, cloud), participants develop collaborative skills, mindsets, and habits and establish shared practices for increased efficiency in their own research, while contributing to a more inclusive scientific culture.
 
@@ -38,13 +40,13 @@ output:
 -   **Times:** 10:00-11:30 am Pacific Time
 -   **Where:** remotely, via Zoom
 -   **What we learn:** details coming soon, see the [2023 cohort webpage](https://nasa-openscapes.github.io/2023-nasa-champions/)
--   **Who:** Cohort of 7 research groups that work with NASA Earthdata and interested in working on the Cloud. Each team consists of a team lead (faculty, principal investigator, etc) and up to 4 team members of your choice (graduate students, post docs, research techs, etc).
+-   **Who:** Cohort of 7 research groups that work with NASA Earthdata and interested in workflows in the Cloud. Each team consists of a team lead (faculty, principal investigator, etc) and up to 4 team members of your choice (graduate students, post docs, research techs, etc). Teams can also be collaborating in other ways and do not need to be a formal research group.
 -   **Cost:** Free; this opportunity is supported by NASA funding to Openscapes
 -   **Expected time commitment:** 8hrs/month for 2 months is a minimum expected time commitment. This accounts for 3 hours/month of synchronous Cohort Calls, optional Coworking hours, and team Seaside Chats where you plan with your research group to strengthen shared workflows.
 
 ## Nominate your team for Spring 2024
 
-**Nominate your team by completing [this Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfMREB4ERi0gq6NAcRpwEUOqH0g5g68sgbeWhI4Sj2tdYtS-w/viewform?usp=sf_link) by March 1, 2024**. This opportunity is open only to research groups that work with data from NASA DAACs. Priority will be given to researchers using data from DAACs participating in Openscapes this year: LP DAAC, NSIDC, PO.DAAC, GES DISC, ASDC, ORNL DAAC, ASDC, OBDAAC, LAADS, GHRC, SEDAC, and ASF.
+**Nominate your team by completing [this Google Form](https://forms.gle/N5TuCwUXQPipL8Y77) by March 1, 2024**. This opportunity is open only to research groups that work with data from [NASA Data Centers [DAACs]](https://www.earthdata.nasa.gov/eosdis/daacs). Priority will be given to researchers using data from DAACs participating in Openscapes this year: LP DAAC, NSIDC, PO.DAAC, GES DISC, ASDC, ORNL DAAC, ASDC, OBDAAC, LAADS, GHRC, SEDAC, and ASF.
 
 Please submit one nomination per team, preferably by the team lead (faculty, principal investigator, etc). Participants from previous cohorts are welcome. We will confirm participation on a rolling basis.
 
