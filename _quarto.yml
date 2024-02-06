@@ -16,18 +16,25 @@ website:
     right:
     # - text: "Home"
     #   href: index.html
-    - text: "About"
-      href: about.qmd
+    - text: "About"                      
+      menu:
+        - text: "About"
+          href: about.qmd
+        - text: "Events Archive"
+          href: events.qmd
+#        - text: "Slides"
+#          href: 
+#      href: about.qmd
     - text: "Mentors"
       href: mentors.qmd
     - text: "Champions"
       href: champions.qmd
     - text: "Cookbook"
       href: cookbook-navbar-page.qmd
-    - text: "News"
+    - text: "News & Events"
       href: news.qmd    
-    - text: "Events"
-      href: events.qmd
+#    - text: "Events"
+#      href: events.qmd
     - icon: github
       href: https://github.com/NASA-Openscapes
     - icon: mastodon
