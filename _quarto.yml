@@ -24,7 +24,6 @@ website:
           href: events.qmd
 #        - text: "Slides"
 #          href: 
-#      href: about.qmd
     - text: "Mentors"
       href: mentors.qmd
     - text: "Champions"
@@ -32,9 +31,7 @@ website:
     - text: "Cookbook"
       href: cookbook-navbar-page.qmd
     - text: "News & Events"
-      href: news.qmd    
-#    - text: "Events"
-#      href: events.qmd
+      href: news.qmd  
     - icon: github
       href: https://github.com/NASA-Openscapes
     - icon: mastodon
