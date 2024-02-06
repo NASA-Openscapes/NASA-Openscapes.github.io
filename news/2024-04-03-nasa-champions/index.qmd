@@ -1,0 +1,22 @@
+---
+title: "NASA Openscapes Champions Cohort"
+description: |
+  Openscapes Champions Cohort for research teams using data from NASA Distributed Active Archive Centers (DAACs) and interested in open science and migrating their analytical workflows to the cloud.
+author:
+  - name: Openscapes and NASA
+    url: {}
+date: 2024-04-03
+categories:
+  - event 
+  - champions
+  - nasa-framework
+image: "nasa-openscapes.png"   
+---
+
+This is a mentorship and professional development opportunity for research teams using NASA Earthdata to learn open science practices and spend time experimenting and planning what their analytical workflows with NASA Earthdata look like in the Cloud.
+
+For details, please see the 2024 NASA Openscapes Champions Cohort [webpage](https://nasa-openscapes.github.io/2024-nasa-champions/) and summary [blog post](https://openscapes.org/blog/2023-08-01-nasa-champions/) about the 2023 Champions: Exciting Progress for Research Teams using NASA Earthdata in the Cloud: 2023 NASA Openscapes Champions Wrap-up
+
+<br>
+
+[![](nasa-openscapes.png){fig-align="center" width="40%"}](https://nasa-openscapes.github.io/)
