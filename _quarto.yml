@@ -20,10 +20,10 @@ website:
       menu:
         - text: "About"
           href: about.qmd
+        - text: "Slides"
+          href: about.qmd#slides          
         - text: "Events Archive"
           href: events.qmd
-#        - text: "Slides"
-#          href: 
     - text: "Mentors"
       href: mentors.qmd
     - text: "Champions"
