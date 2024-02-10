@@ -93,10 +93,25 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./about.html">
+ <span class="dropdown-text">About</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./about.html#slides">
+ <span class="dropdown-text">Slides</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./events.html">
+ <span class="dropdown-text">Events Archive</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link active" href="./mentors.html" aria-current="page"> 
 <span class="menu-text">Mentors</span></a>
@@ -111,11 +126,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./news.html"> 
-<span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./events.html"> 
-<span class="menu-text">Events</span></a>
+<span class="menu-text">News &amp; Events</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/NASA-Openscapes"> <i class="bi bi-github" role="img">
