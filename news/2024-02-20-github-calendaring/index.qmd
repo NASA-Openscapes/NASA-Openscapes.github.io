@@ -1,0 +1,49 @@
+---
+title: "Community Call: GitHub for NASA Openscapes community calendaring & project management"
+description: |
+  An open work in progress
+author:
+  - name: Openscapes
+#    url: {}
+date: "2024-02-20"
+categories: [event, community-call, nasa-framework]
+image: github-roadmap-view.png
+---
+
+**Date**: Tuesday, February 20, 2024   
+**Time**: 10:00 - 11:00 am PT ([find your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Openscapes+Community+Call&iso=20240220T10&p1=1050&ah=1))  
+**Where**: Zoom   
+**Register (free)** via [Zoom](https://zoom.us/meeting/register/tJ0pf-itqD0qHdK6MSbzMP8nGs7wNrflUqZS) to get the meeting link
+<!--- **View** [event summary and video](/blog/2023-12-08-coiled-community-call/) --->
+
+NASA Openscapes Mentors develop, teach, and support **many** workshops, events, conversations, and each other with their main goal to support scientists using NASA Earthdata as they migrate workflows to the cloud. We all want (need!) to be able to see ongoing NASA Openscapes events and relevant events across 11 NASA data centers, their planning status, and where they fit in our calendars. We need something that is lightweight with a low barrier to entry. Sure, there are many add-ons to make it more “functional” (GitHub templates, Actions), but for whom? These might be barriers to people less familiar with GitHub.
+
+We embrace working in the open and sharing how-we-work early before trying to make something "perfect" that doesn't suit people's needs. Join us for a screenshare-and-tell of how we're using GitHub Issues, Projects, and Roadmap to have an open, dynamic way for many people to use and contribute to this "calendar". It's not just about the tools though. We'll talk about how it started, how it's going, the mindset, skills, and how we document as we go. 
+
+Bring your questions and your experiences. We're keen to hear about how others have done this and how we can improve our setup. We always save time for audience discussion!
+
+**Speakers** will include [**Bri Lind**](https://nasa-openscapes.github.io/mentors.html#bri-lind), a Geospatial Data Scientist at NASA’s Land Processes Distributed Active Archive Center (LP DAAC) and a NASA Openscapes Mentor, [**Stefanie Butland**](/team) from the Openscapes team, and staff from other NASA data centers who are trying out this approach.
+
+
+## Background and Resources
+
+Starter documentation in our NASA Earthdata Cloud Cookbook: [GitHub for Calendaring and Project Management](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/calendar-project-management.html) 
+
+Read more on our blog about how we work with [NASA Openscapes Mentors](https://openscapes.org/blog#category=nasa-framework) to support scientists using data from NASA Earthdata as they migrate workflows to the cloud.
+
+Related CSCCE Open Source Tools Trials:
+
+- [Using GitHub to facilitate community activities](https://www.cscce.org/2023/09/06/cscce-open-source-tools-trial-recap-using-github-to-facilitate-community-activities/)
+- [GitHub and Bitergia to support research and developer communities](https://www.cscce.org/2023/10/24/cscce-open-source-tools-trial-4-recap-github-and-bitergia-to-support-research-and-developer-communities/)
+- [Using GitHub and HedgeDoc to organize and support community events](https://www.cscce.org/2023/09/19/cscce-open-source-tools-trial-2-recap-using-github-and-hedgedoc-to-organize-and-support-community-events/)
+
+
+
+<!--- 
+## Speaker bios
+
+[**Bri Lind**] (link) is . ---> 
+
+::: {.center-text}
+![MainPlanning GitHub Project - Roadmap Schedule view](github-roadmap-view.png){fig-align="center" width="75%" fig-alt="screenshot of a GitHub Project Roadmap view. Across top is horizontal line marking time with December 2023, January 2024. Left side has heading 'This Week in Progress' and 'This Quarter Upcoming' with a list of issues under each. Right side shows a green circle for each of those issues, lined up where their dates align with the horizontal time line."} 
+:::
