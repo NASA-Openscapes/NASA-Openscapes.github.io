@@ -1,0 +1,18 @@
+---
+title: "NASA Earthdata Webinar. Community Developed Cloud Computing Resources: the Cloud Cookbook from NASA Openscapes"
+description: "Speakers, Bri Lind, LP DAAC; Cassie Nickles, PO.DAAC; Luis Lopez, NSIDC; Alexis Hunzinger, GES DISC"
+date: "2024-02-28"
+author: Openscapes and NASA
+categories:  [event, talk,  nasa-framework]
+image: "nasa-earthdata-logo.png"
+---
+
+Join the NASA Earthdata Webinar **Wednesday, February 28, 2:00 - 3:30 ET**, to learn how to use the [NASA Openscapes Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)—a compilation of open-source tutorials, workflows, libraries, and cheatsheets that help users find, access, and work with Earth science data.
+
+[**Details and to register**](https://www.earthdata.nasa.gov/learn/webinars-and-tutorials/openscapes-2024-02-28) (free)
+
+**Abstract**
+
+NASA Openscapes ([nasa-openscapes.github.io](https://nasa-openscapes.github.io/)) is a community of NASA data center staff and open science contributors who are supporting researchers migrating workflows to the Cloud. As part of this effort we are openly developing the Earthdata Cloud Cookbook: a compilation of open source tutorials, workflows, and cheatsheets that we have refined through teaching over 20 Cloud workshops with researchers using NASA Earthdata. We support NASA Earthdata users by developing an open science mindset focused on kindness and inclusion, as well as developing software to reduce time to science and meet researchers where they are. The earthaccess library and corn base image helps researchers access NASA Earthdata in a few lines of code – in Python, R, and MATLAB. We will share about this ongoing work and how we collaborate to share lessons learned and tackle challenges together - and welcome you to join the open science movement.
+
+![](earthdata-speakers.png){fig-alt="headshots of 4 smiling people. 3 women and 1 man wearing glasses" fig-align="center" width="60%"}
