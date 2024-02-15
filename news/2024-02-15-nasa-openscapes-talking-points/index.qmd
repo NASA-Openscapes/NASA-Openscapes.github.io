@@ -1,0 +1,68 @@
+---
+title: "NASA Openscapes: Talking points for 3-year recap & vision for next two years"
+author: 
+  - name: Erin Robinson
+    orcid: 0000-0001-9998-0114
+  - name: Julie Lowndes (Openscapes)
+    orcid: 0000-0003-1682-3872
+  - name: NASA Openscapes Team 
+date: 2024-02-15 
+citation:                                                                           
+  url: https://openscapes.org/blog/2024-02-15-nasa-openscapes-talking-points/ 
+categories: 
+  - blog    
+  - nasa-framework 
+image: nasa-puppy-porters-agu.jpg 
+---
+
+*This week we joined a standing meeting with NASA [DAAC](https://www.earthdata.nasa.gov/eosdis/daacs) and [ESDIS](https://www.earthdata.nasa.gov/esdis) managers (DMC-ESDIS Telecon). We had 30 minutes to present the goals for the upcoming year, and describe why the increase in roles and responsibilities for the [NASA Openscapes Mentors](https://nasa-openscapes.github.io/mentors.html). We were introduced by [Justin Rice](https://www.nasa.gov/image-article/deputy-manager-justin-rice/) ESDIS Deputy Project Manager, and were thrilled to have the opportunity to reconnect with this group and share the joy of what the Mentors have done and continue to do together. This blog post outlines our talking points that we covered in the meeting. There was a lot of support for the NASA Openscapes Mentors overall, and for the earthaccess python library. Someone even showed the [contributors list](https://github.com/nsidc/earthaccess/graphs/contributors), highlighting that contributors came from across DAACs and the broader open science community.*
+
+*This post is addressed to the audience of NASA DAAC and ESDIS managers.*
+
+------------------------------------------------------------------------
+
+### Supporting users transitioning to the Cloud across different timelines
+
+Over the last several years, NASA has been making a transition from on-prem hosted data at each of the DAACs to migrating that data to the cloud. Each of the DAACs has been on its own transition path, with some DAACs nearing (or completely) migrating like PO.DAAC, and others just starting to explore, like the CDDIS DAAC. This shift has had ripple effects on how each of the DAACs supports their users accessing NASA Earthdata in the cloud.
+
+Fortunately, the different timelines of each DAAC mean that we can learn from each other and there are a lot of common elements that can be shared across the DAACs in this transition. That is where our project, the NASA Openscapes project, sits - supporting a community of practice for staff that are charged with helping NASA Earthdata users migrate to the cloud. We want to pause here and underline that all the work that NASA Openscapes Mentors and team do, is in support of NASA Earthdata users.
+
+### NASA Openscapes goals
+
+**NASA Openscapes has three primary goals** set in our initial proposal, that still stand going forward.
+
+**First, to develop a NASA Earthdata Mentor community** of collaborative cloud data instructors, that co-create, curate, and use shared resources (“make once, use often”).
+
+-   From there, we have connected DAAC staff with similar roles across 11 DAACs and provided space for them to learn from each other, and reuse material (like the cheatsheets).
+
+**Second, to support the Mentors as they empower science teams** to migrate their download-intensive data analysis workflows to the cloud to continue to do the premier science that each of you supports.
+
+-   To date we’ve supported 17 [Champions teams](https://nasa-openscapes.github.io/champions.html), 285 users active within last 6 months; many of these folks are DAAC staff and from your UWGs (User Working Groups). 480 users logged in ever.
+
+-   The transition takes time, but we are starting to see some initial science success stories! (Aronne Merrelli with PI Nadia Smith - developing CLIMCLAPS data product archived at GES DISC; used the Champions program as proposal planning for NASA ROSES. Aronne developed workflows in 2i2c, learned to parallelize workflows with Coiled, and swapped to his University credit card once he had a functional workflow. Aronne will present to a 2024 Champions Cohort to show what’s possible for better science in less time.
+
+**Third, to scale Cloud workshop infrastructure,** so that each DAAC can leverage it easily and efficiently.
+
+-   Our first workshop was the Nov 2021 hackathon led by PO.DAAC and supported by NSIDC, LP DAAC and many other mentors. This hackathon helped the mentors develop the seed material for new-to-cloud audiences. Collectively they have developed a curriculum in the [Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/) that helps a majority of NASA Earthdata users access data in the cloud. Just at the 2023 AGU Fall Meeting, there were 4 workshops using these common materials, two used the 2i2c JupyterHub, and we had 12 talks and posters that described different elements of the transition to the cloud. And in every slide deck the participating DAACs are recognized and acknowledged. This is a stunning amount of presented work from any group, and we hope that you all feel very proud.
+
+**The NASA Mentors group has rapidly identified user needs and developed resources**. Two examples of that are:
+
+First, [**earthaccess**](https://earthaccess.readthedocs.io/en/latest/), a Python library being developed openly on GitHub. The initial mechanism to access NASA data in the cloud required 30 lines of bash code that created a netrc file and adding earthdata login credentials to that file to get the AWS Secret keys. This as a first step for a new user to the cloud is a high barrier to entry. Luis Lopez from the NSIDC DAAC led the development of this package and we are grateful for the flexibility and support from NSDIC DAAC to meet this emergent need. Earthaccess now obscures those steps for the user with a single line of Python, and it works across DAACs easily accessing data from NSIDC, LP DAAC, PO.DAAC, and others. It is one of the things that most users comment about being a highlight. Also this early intervention means that just dozens of users experienced the clunky initial approach, but thousands of users moving forward will just know the easy earthaccess approach. We’ve worked directly with R and MATLAB developers from our networks who have developed R and MATLAB libraries as complements to earthaccess, which further enable a large swath of Earthdata users.
+
+Second, [**cheatsheets**](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/glossary.html)**.** We know that Cloud jargon is intense. Cassie Nickles and Catalina Taglialatela from PO.DAAC spearheaded a set of cheat sheets that new users can refer to as they navigate planning and executing their transition to the cloud. They intentionally created them to meet PO.DAAC's needs but in a way that was generalized so that all DAACs could use them so they are heavily reused in presentations and workshops.
+
+There are so many other examples that we could provide of ways creating this space for these folks to work together has led to increased efficiency, overall better support for new users moving to the cloud and has avoided significant friction and frustration that users might have had if each DAAC was working alone. In the last three years, we have seen significant, exciting scientific advances in NASA Earthdata users' ability to work in the cloud and this is in part thanks to your teams and your investment. Mindsets as leaders across DAACs and in the broader Open Science community
+
+Today, most DAACs have at least one mentor who is a Carpentries Instructor (many have undergone certification). This is something that our grant paid for and the benefits to each DAAC we hope will pay dividends for better teaching of many topics. All of the mentors are more comfortable teaching the Cloud Cookbook material and live coding in the 2i2c Hub than they were at the beginning. Each DAAC is able to leverage the collective resources for DAAC-specific workshops (a lot of value for a fraction of the cost). Many DAAC staff beyond the named mentors access the 2i2c Hub for DAAC-specific tutorial development, so they also have seen an increase in efficiency utilizing services that our grant and now contract provide.
+
+I hope that you can see that all of this work is aligned with the mission you are all supporting and not extra. Each mentor gives about .2WYE (work year equivalents) and we estimate that last year we had between 4 and 5 WYE total across the DAACs, in addition to the staff support that our NASA Openscapes team (Erin, Julie, Stefanie) provides \~ 1-2 WYE.
+
+### Going forward: the next two years
+
+We started this project three years ago. Our hope was to connect with all the DAACs by the end of the award, to build instructor capacity and common tutorial material, and to leave the DAACs in a place where they would continue to sustain the work we started together transitioning users to the cloud.
+
+In the next two years the Openscapes team (Erin, Julie and Stefanie) will phase out our involvement in the DAAC support, starting with Erin in July. The user support tasks will not go away at that point. We have been in discussions with Justin over the last eight months about this and have begun to set up scaffolding that documents the process and allows the systems to continue. Likely, when we step fully away it will require 5-6 WYE’s across the DAAC
+
+We’d like to use this time to answer any questions you might have, discuss alignment across the DAACs, identify better ways we can support you all and how each of you see your DAACs contributing to this investment. Thank you, we appreciate you and continue to be so grateful for all the time that DAACs have put towards this work.
+
+[![Some NASA Openscapes Mentors and colleagues holding puppies at the AGU 2023 conference #NASAPuppyPorters](nasa-puppy-porters-agu.jpg){fig-alt="10 people standing or kneeling, holding puppies and smiling, against a backdrop that says 'through the eyes of NASA' with nasa logo and tall trees and night sky trees" width="85%"}](https://www.flickr.com/photos/eospso/53410682458/in/album-72177720313492330/)
