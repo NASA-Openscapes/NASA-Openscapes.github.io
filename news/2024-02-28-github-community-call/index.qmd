@@ -8,7 +8,7 @@ author:
     orcid: 0000-0002-5427-8951
 date: 2024-02-28
 citation: 
-  url: https://openscapes.org/blog/2024-02-28-github-community-call
+  url: https://nasa-openscapes.github.io//blog/2024-02-28-github-community-call
 categories: [community-call, blog, nasa-framework]
 image: github-roadmap-view.png
 ---
