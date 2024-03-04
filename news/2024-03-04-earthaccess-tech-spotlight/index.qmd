@@ -1,0 +1,78 @@
+---
+title: "earthaccess: Accelerating NASA Earthdata access through open, collaborative development"
+author: 
+  - name: Luis López
+    orcid: 0000-0003-4896-3263
+  - name: Matt Fisher
+    orcid: 0000-0003-3260-5445
+  - name: Aaron Friesz
+    orcid: 0000-0003-4096-3824
+  - name: Qiusheng Wu
+    orcid: 0000-0001-5437-4073
+  - name: Amy Steiker
+    orcid: 0000-0002-3039-0260  
+  - name: earthaccess community
+date: 2024-03-04 
+citation:                                                                           
+  url: https://openscapes.org/blog/2024-03-04-nasa-openscapes-talking-points/ 
+categories: 
+  - blog    
+  - nasa-framework 
+image: earthaccess-interface-daacs-open-community.png
+---
+
+*`earthaccess` is Python library that simplifies data discovery and access to NASA Earthdata. On February 26, the authors co-presented at the NASA Earth Science Data Systems ([ESDS](https://www.earthdata.nasa.gov/esds)) Tech Spotlight meeting — to a crowd of 88 people! The author list is testament to this open community of developers: Luis López, Matt Fisher and Amy Steiker are at the National Snow and Ice Data Center (NSIDC), Aaron Friesz is at the Land Processes Distributed Active Archive Center (LP DAAC), and Qiusheng Wu is at University of Tennessee and an active open science community leader. This is a brief post to share resources and a few highlights - we encourage you to review the slides, recording, repos, and notebooks below. Additionally, please join this open science community effort via regular remote hackdays!*
+
+*Quicklinks:*
+
+-   [*slides*](https://docs.google.com/presentation/d/1K5RbQj4OKWt49kznIF9ct-cmWADlvdYA0eI7dA7_fFg/edit#slide=id.g269ad4ab477_0_691) *- slides co-presented by the authors*
+-   [*recording*](https://youtu.be/EIr3j1_wDc0)
+-   [*earthaccess and the cloud: the force awakens notebook*](https://notebooksharing.space/view/48e044f22f8fd9bb18eb9dcb6d080a277dd5d1be203dd30b68a747e70c65aae7#displayOptions=) *- from Luis' demo*
+-   [*OpenGeos: NASA-Earth-Data GitHub repository*](https://github.com/opengeos/NASA-Earth-Data) *- from Qiusheng's demo*
+-   [*leafmap: nasa earth data notebook*](https://leafmap.org/notebooks/88_nasa_earth_data/) *- from Qiusheng's demo*
+-   *Bi-weekly hackdays, [Announcement](https://github.com/nsidc/earthaccess/discussions/440) and [ongoing discussions](https://github.com/nsidc/earthaccess/discussions/categories/hack-days) for more info.*
+
+------------------------------------------------------------------------
+
+**Amy Steiker** began the presentation framing the problems that `earthaccess` addresses: data accessibility, API fragmentation, and authentication in the cloud.
+
+![`earthaccess` eliminates the need to know the intricacies of NASA’s Application Programming Interfaces (APIs) and cloud data storage systems.](earthaccess-tech-spotlight-intro.png){fig-alt="screenshot of slide 5 titled earthaccess: making things simpler. left side shows code; right side text says what the code does: Line 4:   earthaccess handles authentication with NASA EDL.  Line 6:   earthaccess abstracts NASA’s search API (CMR).  Line 12: earthaccess can download or open data for both cloud and on-prem hosted datasets with the same code." fig-align="center" width="85%"}
+
+She described **earthaccess as a community**, with roots in the [NASA Openscapes](https://nasa-openscapes.github.io/) community where staff with similar roles supporting users across the [DAACs](https://www.earthdata.nasa.gov/eosdis/daacs) (NASA data centers) have been able to learn, develop common tutorials, and teach together.
+
+![The `earthaccess` design came from learning/responding to researcher pain points from cross-DAAC Hackathons and Champions Cohorts](earthaccess-tech-spotlight-hackathon.png){fig-alt="screenshot of slide 8, title Learning from cross-DAAC Hackathons & Tutorials. with screenshot of Luis presenting a python notebook in the JupyterHub and a quote \"earthaccess is a really nice improvement over the way we were doing S3 access\"" fig-align="center"}
+
+![This community strategy is a theme and enabler of `earthaccess` growth and utilization.](earthaccess-tech-spotlight-community-strategy.png){fig-alt="screenshot of slide 9 titled Community strategy. with screenshot of GitHub activity graph, and green circle with phases 01 Discussion or Issue raised on GitHub; 02 Maintainer triaging ; 03 Develop, review, merge" fig-align="center"}
+
+**Aaron Friesz** then shared about Earthdata Authentication - Old vs New. The old approach was 30 lines of code, where the user also had to interface with the Earthdata login site. `earthaccess` now replaces this with 1 line of code. Plus, `earthaccess` also takes care of AWS credentials.
+
+LP DAAC uses `earthaccess` in all of its tutorials and teaching events, including [ECOSTRESS](https://ecostress.jpl.nasa.gov/) and [EMIT](https://earth.jpl.nasa.gov/emit/) workshops and hackathons. It has changed the way they work, develop, and teach.
+
+Luis López, `earthaccess` lead developer, then shared about **scaling in the cloud using `earthaccess`** from a [`earthaccess` and the cloud: the force awakens notebook](https://notebooksharing.space/view/48e044f22f8fd9bb18eb9dcb6d080a277dd5d1be203dd30b68a747e70c65aae7#displayOptions=). He shared how `earthaccess` interfaces between DAACs-AWS and open science community resources.
+
+![`earthaccess` interfaces between DAACs-AWS and open science community resources.](earthaccess-interface-daacs-open-community.png){fig-alt="earthaccess hex sticker in center with 3 orange bidirectional arrows pointing to DAAC logos and AWS logo on left and open science community logos e.g. pandas, plotly, jupyterhub, pangeo on right" fig-align="center"}
+
+Luis demo'ed many parts of `earthaccess`:
+
+-   Access remote files, automatically handling authentication and serialization.
+-   Generate an on-the-fly Zarr compatible cache with Kerchunk!
+-   Smart Access - Sneak peak today, *more details at SciPy 2024!*
+-   Scale out workflows with Dask - [Processing Terabyte-Scale NASA Cloud Datasets with Coiled](https://blog.coiled.io/blog/processing-terabyte-scale-nasa-cloud-datasets-with-coiled.html)
+
+Luis demo'd upcoming features in development for `earthaccess` that reduce egress sizes (saves NASA \$\$) and time to science! This is incredibly exciting!
+
+```         
+Egress:
+ without earthaccess: 3199.29 MB 
+ with earthaccess   :  112.0 MB
+
+Time to science:
+ without earthaccess: 15.9 minutes 
+ with earthaccess   :  0.52 minutes
+```
+
+Qiusheng Wu then shared **earthaccess in action with leafmap**. Qiusheng built the [NASA Earth Data Catalog](https://github.com/opengeos/NASA-Earth-Data) on top of `earthaccess`, which uses GitHub Actions to pull the most recent metadata records for NASA Earthdata. Then, using leafmap — Python package for geospatial analysis and interactive mapping in a Jupyter environment that Qiusheng developed — users can interact and view the metadata on a map, exploring and selecting to find the data they want.
+
+This is so exciting to have `earthaccess` involved as the 88th notebook example in the leafmap resource list! You can click to launch the notebook in different coding environments, including Google Colab.
+
+**earthaccess has a lot of momentum moving forward as an open science community,** and we welcome you to join our bi-weekly hackdays: fostering new contributions through small group work aligning around specific topics or features. Please reach out if you are interested in joining! See our [Announcement](https://github.com/nsidc/earthaccess/discussions/440) and [ongoing discussions](https://github.com/nsidc/earthaccess/discussions/categories/hack-days) for more info.
