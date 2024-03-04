@@ -1,0 +1,83 @@
+---
+title: "From downloading data to Cloud access: NASA Openscapes Champions Wrap-up"
+author: NASA Openscapes Mentors, Erin Robinson, Julie Lowndes, Andy Barrett, Aaron Friesz, Alexis Hunzinger, Luis Lopez, Catalina Oaida, Jack McNelis, Christine Smit, Amy Steiker, Makhan Virdi
+date: 2022-05-12
+# slug: nasa-2022-champions
+categories:
+  - blog 
+  - champions
+  - nasa-framework
+image: zoom-2022-nasa-champions.png
+citation:                                                                        
+  url: https://nasa-openscapes.github.io/news/2022-05-12/nasa-2022-champions/
+# aliases: 
+#  - https://www.openscapes.org/blog/2022/05/12/nasa-2022-champions/
+---
+
+*In Spring 2022 we led our first NASA Openscapes Champions Cohort for research teams that work with NASA EarthData. This cohort is funded by NASA and part of our [NASA Openscapes Framework project](https://nasa-openscapes.github.io/). For this Cohort, we co-led the cohort with the NASA DAAC mentors and we focused on shifting toward Open science, collaborative, reproducible practices to support research teams as they transition from the download model to the Cloud. We also actively experimented with cloud data access through the Openscapes 2i2c-hosted JupyterHub.*
+
+*Quick links:*
+
+-   Cohort webpage: <https://nasa-openscapes.github.io/2022-nasa-champions/>
+
+------------------------------------------------------------------------
+
+## NASA Champions Cohort overview
+
+The [NASA Openscapes](https://nasa-openscapes.github.io/) Framework project is a 3-year project to support scientists using NASA Earthdata from NASA's Earth Observing System Data and Information System (EOSDIS) Distributed Active Archive Centers (DAACs), as they migrate workflows to the cloud. We are just wrapping up Year 1 and amazed at how much we have collectively accomplished this year with the DAAC mentors and participating DAACs as well as all the researchers and research teams we have worked with. You can read more about our first year in our [2021 annual report](https://github.com/NASA-Openscapes/how_we_work/blob/main/Openscapes_NASAProgressReport_2021.pdf). 
+
+As part of this work, with the DAAC mentors, we co-led our first NASA Openscapes Champions cohort. Based on Openscapes' flagship program, Openscapes Champions, the[NASA Openscapes Champions Cohort](https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fnasa-openscapes.github.io%2Fchampions&data=04%7C01%7Cjustin.l.rice%40nasa.gov%7C5b955d1f1d65469df84c08d9e51aeea5%7C7005d45845be48ae8140d43da96dd17b%7C0%7C0%7C637792726110138768%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=sNPV5GG5PMhX04EhEDex32K1lUHZUy%2BDoZeK%2BjYppxY%3D&reserved=0) was a professional development and mentorship opportunity for early adopter, science teams that use NASA Earthdata and were interested in migrating their existing workflows to the cloud through collaborative open data science practices. The Openscapes Champions Cohort ran formally in March - April 2022. 
+
+The ten research teams who participated were interested in a wide variety of NASA Earthdata and various stages of cloud technology familiarity. You can learn more about their research below. Together as a Champions cohort they discussed what worked and didn't work as they migrated workflows to the cloud, with a focus on collaboration and open science. We met as a cohort five times over two months, on alternating Fridays. Each cohort call included a welcome and code of conduct reminder, two teaching sessions with time for reflection in small groups or silent journaling and group discussion, before closing with suggestions for future team meeting topics ("Seaside Chats"), Efficiency Tips, and Inclusion Tips. Additional hands-on clinics and coworking sessions were scheduled within this period and will extend for the next two months to support these teams as they continue to work on the cloud workflow migration. In addition, the teams were supported by the Openscapes DAAC mentors and staff and Element84 and had access to Openscapes' 2i2c Jupyter Hub, which will continue for the next year.
+
+![Zoomie class photo of NASA Champions](zoom-2022-nasa-champions.png){fig-alt="screenshot of zoom attendees smiling and waving. in 6 x 5 grid" fig-align="center" width="85%"}
+
+## What did participants achieve?
+
+Just like our DAAC mentors have built collaborative bridges across the distributed data centers to identify the common parts of cloud data access over the first year of our project, this cohort was an opportunity to connect NASA Earthdata users, building a community that is eager to use data in the cloud and provides a forum to discuss common techniques and challenges. The teams devoted at least 8 hours a month to focus on their workflows. In this time, they thought through and discussed their current NASA Earthdata workflows and planned and experimented with transitioning their workflows to the cloud using Openscapes' 2i2c-hosted Jupyter Hub as a first step. As in other Openscapes Champions cohorts, teams also realized the power of onboarding to create more resilient labs and they explored creating collaborative spaces for their teams through Google Drive, Slack, and GitHub. 
+
+Themes we revisited throughout the cohort included: 
+
+The **Open science underpinnings of the Openscapes Champions program are important.** During our last Champions session when the teams presented their pathways, it was amazing to hear how many times that teams were trying to use Github, Gitlab, or taking away other Open science practices in addition to the cloud-specific. It wasn't all or nothing, they were taking small steps. It was also great to hear that a takeaway from this cohort is, working more openly and reproducibly provides for a more resilient workflow and team. 
+
+We **intentionally focus on providing a kind welcome to technical topics.** The kind space that we co-created with the teams and DAAC mentors provided an opportunity to collaborate as teams and ask questions that may in other settings go unasked because of fear that everyone else already knows. (Note: everyone else doesn't know and will be glad you asked!)   
+
+This also led to **several challenges** that consistently surfaced and still need more focused effort to resolve. The vocabulary to understand the Cloud needs to be clearly explained. For example, what is an S3 bucket or a "requester pays bucket" and why does a user need to know about AWS West-2? Cloud cost is another challenge. We lower the barrier by providing the 2i2c Jupyterhub, but teams don't want to depend on our hub. They want their own workspace and want to be able to predict costs more effectively. Finally, our work has been focused on Python because that was the language of choice for DAAC mentors and it is a widely used open-source language in the broader Earth science community. In the Champions Cohort we had three teams using Matlab and one team using R; we need to think about how to expand our support and tutorial materials for these other languages. 
+
+## Closing thoughts
+
+As we indicated at the beginning of this blog, this transition isn't one that is completed in 2.5 months and so this is not the end for this Cohort. We are moving from the structured sessions of the Champions program into two additional months of coworking time and 1-1 interactions with DAAC mentors and staff and Element84 in order to make lasting changes with cloud data access. 
+
+We will focus on specific topics like: 
+
+-   Practicing GitHub workflows and teaching others on your team 
+-   Cloud spatial subsetting 
+-   Environment management for creating cloud computing space that is reproducible and scalable (e.g. docker images) 
+-   Dask/Pangeo software stack to enable scalable processing 
+-   Cloud costs and setup 
+-   NetCDF to Zarr
+-   Docker containers 
+
+Finally, we are grateful to this Champion Cohort's early adopter spirit, their time and effort to make this migration, and all of the feedback and input they provided. They all participated in this cohort knowing that they were some of the first research teams to use NASA Earthdata in the cloud and that they were the first NASA Openscapes Champions cohort. This meant that there would be technical challenges as we work out migrating to the cloud, yet what they learn will make it easier for subsequent teams making this same shift. It also exhibited the reciprocal learning that happens; we will refine the NASA Openscapes Champions as we plan for our next cohort and our work with the DAAC mentors in year 2.
+
+## NASA Openscapes Champions Teams
+
+The **Cryosphere Geophysics and Remote Sensing (CryoGARS) Glaciology Team** at Boise State University analyzes modern changes to the Earth's cryosphere, with a focus on rapid changes in glacier flow, glacier-ocean interactions, iceberg melting, and seasonal snow accumulation and melt. Nearly all of our projects use Landsat imagery to map changes in glacier, iceberg, and/or snow extent. Several projects also use Landsat data to map glacier velocities or rely on NASA-produced glacier velocities computed from Landsat and Sentinel-2 data. We also use ICESat-2 data to map glacier volume change and seasonal snow in mountain regions. We look forward to using more cloud resources so that we can expand our analyses in space and time in order to advance our understanding of Cryosphere change!
+
+The **Mapes Team** at the University of Miami studies atmospheric dynamics through multi-source data synthesis, with global grids as the glue. The global grids are huge, so downloading is out of the question. Fetching from aggregations (THREDDS, GDS) works for case studies, but sometimes we need to process it all (simplest example: make a multi-year climatology, to give context to actual fields as "anomalies"). So the data lake in the cloud will be a nice resource, and open new vistas like machine learning which always benefits from more data.
+
+The **Cornillon Team** at the University of Rhode Island has several projects making use of MODIS and VIIRS sea surface temperature (SST). The project of focus for this cohort has been the statistical description of the location, strength, and temporal evolution of SST fronts. As part of this project, we developed an algorithm to unmask pixels improperly flagged as cloud contaminated in the standard MODIS SST products. The improved masks will be made available to the community at large as will the fronts identified by our edge detection algorithm. 
+
+The **Ladies of Landsat Team** has members from USGS, UCSB, and the University of Arizona. Kate uses dense time series of Landsat data to build harmonic models to predict land use cover and land use change and its links to climatological signals. Crista and Sarah research the human dimensions of earth observation data, such as Landsat. Nikki uses NASA drought models to map climate hazards in her Navajo Nation community. The research project "Power of the Pixel: Connecting Indigenous Communities through Remote Sensing in the United States" combines the power of all three foci to use NASA/USGS Landsat data to build earth observation capacity in Indigenous communities across the United States.
+
+The **SASSIE Team** has members from the University of Washington, JPL, and APL. They are part of the NASA salinity and SWOT science teams, and regularly use satellite salinity, temperature, altimetry and sea ice data, as well as in situ holdings (SPURS-2, upcoming SASSIE experiment).
+
+The **Tandon Team** at the University of Massachusetts Dartmouth uses remotely sensed data to setup the larger scale perspectives for our more in depth analysis and cruise based work for in-situ experimental data from initiatives in the Indian Ocean such as ASIRI and MISOBOB.
+
+The **Palter Team** at the University of Rhode Island uses NASA data to compare with in-situ observations taken from ships and Uncrewed Surface Vehicles. NASA data provides additional parameters (like ocean surface topography) that are useful in the understanding of in-situ data (for example identifying fronts in the ACC). We have also used ocean color data from MODIS-Aqua to map distributions of ocean surface properties, such as chlorophyll concentration & sea surface salinity (region-specific algorithm), to analyze seasonal, annual, and decadal trends of key biogeochemical processes in the ocean.
+
+The **Just Team** at the Icahn School of Medicine at Mount Sinai uses earth observations to reconstruct ground-level environmental exposures to fine particulate matter, air temperature, and humidity which we use in epidemiologic health studies with cohorts and large registries in the US and Mexico. In a project that started out by seeking to understand the pattern of error in Aerosol Optical Depth (AOD) retrievals, we have developed an R-based reproducible workflow using the targets package for collocating and correcting AOD from the MAIAC algorithm (product MCD19A2 for Aqua and Terra) versus ground stations using gradient-boosted machine learning. This workflow adds reproducibility and extensibility for further development and new applications, building on results we have published for AOD (<https://doi.org/10.3390/rs10050803)> and for column water vapor (<https://doi.org/10.5194/amt-13-4669-2020>; data/code in Zenodo: 10.5281/zenodo.3568449).
+
+The **Hain/SPoRT Team** is a directly funded NASA activity and engages with operational stakeholders to transition unique NASA observations and capabilities to improve decision-making.
+
+The **Roberts Team** supports evaluation of global energy and water budgets, develops retrieval algorithms and climate data records (e.g. SeaFlux V1), evaluates air-sea interaction and ocean winds, and downscales and bias corrects models for use in hydrologic and agricultural modeling).
