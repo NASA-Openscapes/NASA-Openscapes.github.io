@@ -14,7 +14,7 @@ author:
   - name: earthaccess community
 date: 2024-03-04 
 citation:                                                                           
-  url: https://openscapes.org/blog/2024-03-04-nasa-openscapes-talking-points/ 
+  url: https://nasa-openscapes.github.io/news/2024-03-04-earthaccess-tech-spotlight/
 categories: 
   - blog    
   - nasa-framework 
