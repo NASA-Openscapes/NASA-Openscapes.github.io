@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -213,21 +213,21 @@ ul.task-list li input[type="checkbox"] {
 <p>In brief, the main purpose of this presentation will be to share with the broad NASA user communities what cloud computing looks like and what the benefits of cloud computing are for an interdisciplinary study. We also share the lessons and challenges learned from this case study. By the way, this talk IS for cloud novices, NOT for cloud gurus.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="pan-talk-title.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:55.0%" alt="A title slide of Pan et al's talk titled 'Pathfinder of Cloud Computing using NASA Resources: A case study of characterizing wildfires in the western US' with 3 photos of people: an asian woman and two white men from NASA GES DISC"></p>
+<p><img src="pan-talk-title.png" class="img-fluid figure-img" style="width:55.0%"></p>
 <figcaption>Title slide from the presentation by Pan et al.</figcaption>
 </figure>
 </div>
 <p>This presentation aims to inform and educate the NASA user community on cloud data and cloud computing. They shared the pathways, benefits, and roadblocks to cloud computing using an interdisciplinary case study and live demos of various cloud-accessing scenarios done in a JupyterHub that is part of the <a href="https://nasa-openscapes.github.io">NASA Openscapes</a> project managed by <a href="http://2i2c.org/">2i2c</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="pan-talk-outline.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:55.0%" alt="An outline slide of Pan's talk with the motivation, introduction, FAQ, Demo, Take-home messages, and question time"></p>
+<p><img src="pan-talk-outline.png" class="img-fluid figure-img" style="width:55.0%"></p>
 <figcaption>Outline of the presentation by Pan et al.</figcaption>
 </figure>
 </div>
 <p>Xiaohua also shared her journal from a scientist doing her research with all on-premises data to a pathfinder conducting her wildfire research in the cloud to shed some light on others to find their journeys to the cloud. Finally, she emphasized the importance of cloud training gained through openscapes as a DAAC staff. This presentation reached about 70 people from NASA earth science divisions and universities. It was well received, with many questions and positive feedback, reflecting the interest and puzzlement of the NASA user community on cloud data and cloud computing.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="pan-talk-case-study.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:55.0%" alt="A slide from Pan's talk with a map of the United States wih an arrow pointing to the Dixie Fire in California, and a time series of fire hotspots showing spikes in 2021"></p>
+<p><img src="pan-talk-case-study.png" class="img-fluid figure-img" style="width:55.0%"></p>
 <figcaption>Interdisciplinary case study of characterizing wildfires in the western US, from the presentation by Pan et al.</figcaption>
 </figure>
 </div>
@@ -332,6 +332,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/nasa-openscapes\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -366,7 +384,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

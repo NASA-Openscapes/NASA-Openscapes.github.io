@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -218,20 +218,20 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Amy Steiker</strong> began the presentation framing the problems that <code>earthaccess</code> addresses: data accessibility, API fragmentation, and authentication in the cloud.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="earthaccess-tech-spotlight-intro.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%" alt="screenshot of slide 5 titled earthaccess: making things simpler. left side shows code; right side text says what the code does: Line 4:   earthaccess handles authentication with NASA EDL.  Line 6:   earthaccess abstracts NASA’s search API (CMR).  Line 12: earthaccess can download or open data for both cloud and on-prem hosted datasets with the same code."></p>
+<p><img src="earthaccess-tech-spotlight-intro.png" class="img-fluid figure-img" style="width:85.0%"></p>
 <figcaption><code>earthaccess</code> eliminates the need to know the intricacies of NASA’s Application Programming Interfaces (APIs) and cloud data storage systems.</figcaption>
 </figure>
 </div>
 <p>She described <strong>earthaccess as a community</strong>, with roots in the <a href="https://nasa-openscapes.github.io/">NASA Openscapes</a> community where staff with similar roles supporting users across the <a href="https://www.earthdata.nasa.gov/eosdis/daacs">DAACs</a> (NASA data centers) have been able to learn, develop common tutorials, and teach together.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="earthaccess-tech-spotlight-hackathon.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="screenshot of slide 8, title Learning from cross-DAAC Hackathons &amp; Tutorials. with screenshot of Luis presenting a python notebook in the JupyterHub and a quote &quot;earthaccess is a really nice improvement over the way we were doing S3 access&quot;"></p>
+<p><img src="earthaccess-tech-spotlight-hackathon.png" class="img-fluid figure-img"></p>
 <figcaption>The <code>earthaccess</code> design came from learning/responding to researcher pain points from cross-DAAC Hackathons and Champions Cohorts</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="earthaccess-tech-spotlight-community-strategy.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="screenshot of slide 9 titled Community strategy. with screenshot of GitHub activity graph, and green circle with phases 01 Discussion or Issue raised on GitHub; 02 Maintainer triaging ; 03 Develop, review, merge"></p>
+<p><img src="earthaccess-tech-spotlight-community-strategy.png" class="img-fluid figure-img"></p>
 <figcaption>This community strategy is a theme and enabler of <code>earthaccess</code> growth and utilization.</figcaption>
 </figure>
 </div>
@@ -240,7 +240,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Luis López, <code>earthaccess</code> lead developer, then shared about <strong>scaling in the cloud using <code>earthaccess</code></strong> from a <a href="https://notebooksharing.space/view/48e044f22f8fd9bb18eb9dcb6d080a277dd5d1be203dd30b68a747e70c65aae7#displayOptions="><code>earthaccess</code> and the cloud: the force awakens notebook</a>. He shared how <code>earthaccess</code> interfaces between DAACs-AWS and open science community resources.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="earthaccess-interface-daacs-open-community.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="earthaccess hex sticker in center with 3 orange bidirectional arrows pointing to DAAC logos and AWS logo on left and open science community logos e.g. pandas, plotly, jupyterhub, pangeo on right"></p>
+<p><img src="earthaccess-interface-daacs-open-community.png" class="img-fluid figure-img"></p>
 <figcaption><code>earthaccess</code> interfaces between DAACs-AWS and open science community resources.</figcaption>
 </figure>
 </div>
@@ -359,6 +359,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/nasa-openscapes\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -393,7 +411,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
