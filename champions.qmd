@@ -46,7 +46,7 @@ output:
 
 ## Nominate your team for Spring 2024
 
-**Nominate your team by completing [this Google Form](https://forms.gle/N5TuCwUXQPipL8Y77) by March 12, 2024**. This opportunity is open only to research groups that work with data from [NASA Data Centers [DAACs]](https://www.earthdata.nasa.gov/eosdis/daacs). Priority will be given to researchers using data from DAACs participating in Openscapes this year: LP DAAC, NSIDC, PO.DAAC, GES DISC, ASDC, ORNL DAAC, ASDC, OBDAAC, LAADS, GHRC, SEDAC, and ASF.
+**Nominate your team by completing [this Google Form](https://forms.gle/N5TuCwUXQPipL8Y77) by March 19, 2024** - date extended. This opportunity is open only to research groups that work with data from [NASA Data Centers [DAACs]](https://www.earthdata.nasa.gov/eosdis/daacs). Priority will be given to researchers using data from DAACs participating in Openscapes this year: LP DAAC, NSIDC, PO.DAAC, GES DISC, ASDC, ORNL DAAC, ASDC, OBDAAC, LAADS, GHRC, SEDAC, and ASF.
 
 Please submit one nomination per team, preferably by the team lead (faculty, principal investigator, etc). Participants from previous cohorts are welcome. We will confirm participation on a rolling basis.
 
