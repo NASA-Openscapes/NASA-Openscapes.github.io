@@ -72,6 +72,8 @@ Slides, recordings, and posters
 
 - [NASA Openscapes: Approaches and Stories of Kinder, Open Science in the Cloud](https://docs.google.com/presentation/d/1RPPgWDqoA9Ppyk0pXpY717xqKSwLr_5Ek4-nEOoYBGw/edit?usp=sharing) - Julie Lowndes, Erin Robinson & NASA Openscapes Mentors. Dec 15, AGU Fall Meeting
 
+- [Enabling Analysis in the Cloud Using NASA Earth Science Data](https://docs.google.com/presentation/d/13huOTE6EQUY84qzqiRbRdK8coB1ZooU2dDLv1OaNiqI/edit#slide=id.g1ea649c3126_1_0) - Dec 10, Cassie Nickles, Michele Thornton et al. AGU Fall Meeting Workshops ([video](https://www.youtube.com/watch?v=E5Dpeap16hU))
+
 - [NASA Openscapes: Supporting NASA EarthData Users Transition to the Cloud](https://docs.google.com/presentation/d/1klEzB3voQZ5_LB9bzuzWRIR7ldcz0gyfbiCcf1XiBE4/edit?usp=sharing) - Nov 2 2023. Erin Robinson, GHRC User Working Group
 
 - [Cloud Environment Opportunities: Managed JupyterHub options for Cryosphere and Earthdata user communities](https://docs.google.com/presentation/d/1NEsE58SIMjQ_fjC_11HIXqd7Urvi5yy5/edit#slide=id.g23808f09f20_2_714) - September 2023. Amy Steiker, Andrew Barrett, & Luis López, NSIDC User Working Group. ([blog post](https://nasa-openscapes.github.io/news/2023-10-13-nasa-jupyterhub-coiled/))
