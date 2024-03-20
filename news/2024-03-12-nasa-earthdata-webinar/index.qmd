@@ -1,0 +1,95 @@
+---
+title: "NASA Earthdata Webinar: NASA Openscapes Mentors from 4 data centers present the Earthdata Cloud Cookbook"
+author: 
+  - name: Bri Lind
+    orcid: 0000-0002-5306-9963
+  - name: Alexis Hunzinger
+    orcid: 0000-0003-2369-5370
+  - name: Luis Lopez
+    orcid: 0000-0003-4896-3263
+  - name: Cassandra Nickles  
+    orcid: 0000-0001-9930-1433
+  - name: NASA Openscapes Community
+date: 2024-03-12 
+citation:                                                                           
+  url: https://openscapes.org/blog/2024-03-12-nasa-earthdata-webinar/ 
+categories: 
+  - blog    
+  - nasa-framework 
+image: nasa-openscapes-shell.png
+---
+
+*On Wednesday, February 28, NASA Openscapes Mentors from 4 data centers shared how to use the Openscapes Earthdata Cloud Cookbook—a compilation of open-source tutorials, workflows, libraries, and cheatsheets that help users find, access, and work with Earth science data. This was really exciting to have the opportunity for the Mentors to share about this work on a big stage! There were 106 attendees, and recordings of these webinars are often watched by many more! Presenters were Bri Lind from the Land Processes Data Active Archive Center(LP DAAC); Luis Alberto Lopez Espinosa, from the National Snow and Ice Data Center (NSIDC); Cassie Nickles from the Physical Oceanography Data Active Archive Center (PO.DAAC); and Alexis Hunzinger from the Goddard Earth Sciences Data and Information Services Center (GES DISC).*
+
+*Quicklinks:*
+
+-   [NASA Earthdata Webinar page with recording](https://www.earthdata.nasa.gov/learn/webinars-and-tutorials/openscapes-2024-02-28)
+-   [Slides](https://docs.google.com/presentation/d/1VbWZREJAPTVUPeVK0s8JC-yw-x3n2044qKZC1I6E34I/edit?usp=sharing)
+-   [NASA Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/) <!---link to NASA Earthdata blog post when live --->
+
+------------------------------------------------------------------------
+
+## Community Developed Resources—Explore the Openscapes Earthdata Cloud Cookbook
+
+Bri Lind kicked things off by describing data stewardship at NASA. NASA has many discipline specific data centers that archive and manage data from all of the Earth observation missions. She then shifted to NASA Openscapes - a mentor community across those NASA Earth science data centers that helps support users though co-creating common tutorials, hosting cloud training events, and practicing open science ourselves! Bri shared how open science is something we do in our daily work - we write open source code using tools like python, R, Quarto, and GitHub, and interact with open communities like leafmap, Pangeo, and rOpenSci.
+
+::: blockquote-blue
+> *"We really like to be active in other open source communities"* - **Bri Lind, Land Processes data center (LP DAAC)**
+:::
+
+![Like a spiralling shell, we co-developed across different teams of people that work with NASA Earthdata](nasa-openscapes-shell.png){fig-alt="figure with spiralling shell shape where each section has logos representing a segment of people who work with NASA Earthdata. Sections are labeled NASA Openscapes Mentor Community Values, NASA Archive Center Staff, Open Science Community. Text in box to right says 'Consistent feedback and iteration has shaped development of migration tools and support mechanisms'" width="85%" }
+
+Bri showed an illustration we refer to as the "shell" that shows how like a spiraling shell we co-developed across different teams of people that work with NASA Earthdata. The way this plays out for us: We as a small mentor community (in gray at the top) are able bring our deep expertise about NASA Earthdata from our data centers together to co-develop and learn across the data centers. Then we share back and incorporate with our colleagues at each of our data centers (blue). This means more people and time focussing real-life users (yellow). And we incorporate what we learn back into the open science community (orange). She emphasized that our resources are built with consistent feedback and iteration has shaped development of migration tools and support mechanisms (purple)
+
+Bri also shared that in addition to everything we've accomplished together, we've all learned new skills and developed new friendships. This trust and ability to work together helps all of the data centers: we can help diverse users and also address the common needs across all users.
+
+## When to Cloud?
+
+Alexis Hunzinger started the "When to Cloud" portion by reminding us that "Cloud" can mean multiple things at once - we also work with data from clouds in the sky!
+
+What is the Cloud? An analogy is helpful: we can compare to how we shifted from renting physical movie DVDs from a store to how we now stream them online. When we think about scientific analysis in the Cloud, we can also think about streaming data. Like streaming a movie, we have to create an account with a provider, choose files from the provider’s archive, and then using your own device (computer), view and analyze with the provider’s resources (remote computers).
+
+::: blockquote-blue
+> *"What is the Cloud? Any internet-accessible system providing on-demand computing and distributed mass storage"* - **Alexis Hunzinger, Goddard Earth Sciences Data and Information Services Center (GES DISC)**
+:::
+
+![Slide from Alexis showing "What is the Cloud" for NASA Earthdata Cloud](what-is-the-cloud-nasa.png){fig-alt="slide screenshot titled 'What is the Cloud?' has central image of computer devices pointing up to a cloud. Left side shows imaage of North and South America with locations of AWS Global Cloud Infrastructure. Right side says 'Data Services: Some NASA Earthdata services are *hosted* on AWS, but are accessible to anyone with an internet connection' and 'Computing: “Rent” compute resources through AWS and use only what you need, when you need it (on-demand)'" width="85%" }
+
+Now that we have a shared understanding of what is the Cloud, we can ask ourselves these questions to consider when to Cloud:
+
+-   What is the data volume?
+-   How long will it take to download?
+-   Can you store all that data (cost and space)?
+-   Do you have the computing power for processing?
+-   Does your team need a common computing environment?
+-   Do you need to share data at each step or just an end product?
+
+The Cookbook chapter [When To ‘Cloud’](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/when-to-cloud.html) section shares more!
+
+## Openscapes Cloud Infrastructure
+
+Luis Lopez said that once we have decided we will work in the Cloud, there are infrastructure considerations.
+
+::: blockquote-blue
+> *"We are working to bridge the technological gap as well as the knowledge gap to make it easer for everyone to get started in the Cloud"* - **Luis Lopez, National Snow and Ice Data Center (NSIDC)**
+:::
+
+Luis shared that working in the Cloud in a curated environment supports new learners by lowering technical barriers. In our NASA Openscapes JupyterHub managed by 2i2c, we're able to support Python, RStudio, MATLAB users, and users can also bring their own base image. AND, the ecosystem of packages like matplotlib and ggplot2 are available from any of those images! This is important since many researchers use a combination of tools.
+
+![A slide from Luis: infrastructure like Jupyter, RStudio, and MATLAB that the user selects will work with the whole ecosytem of R and Python tools](cloud-infra-base-images.png){fig-alt="slide title 'Openscapes Cloud Infrastructure. Runtime is language agnostic'. Text to right 'Ecosystem Mix & match', Image of device with ecosystem logos. Left side image of 2i2c Cloud server options showing logos for Jupyter, RStudio, MATLAB, and docker" width="85%"}
+
+## Earthdata Cloud Cookbook Walk-through
+
+Cassie screenshared a live walk-through of the [NASA Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook). She pointed out the When to Cloud chapter, as well as a glossary and cheatsheets, Cloud environment setup (under active development), a 'How do I ...' chapter to do things like find and subset data, or use APIs, a Tutorials chapter with notebooks, and a chapter of workshops and hackathon materials developed by the Mentors.
+
+::: blockquote-blue
+> *"We would love for anyone to be able to contribute to this. If you're thinking, 'I have a workflow that I would love share', please send it our way"!* - **Cassie Nickles, Physical Oceanography Data Active Archive Center (PO.DAAC)**
+:::
+
+Cassie welcomed people to contribute - the Cookbook is built on Quarto and GitHub - and showed [how to cite](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/#citation) the Cookbook.
+
+![Slide from Cassie showing the NASA Earthdata Cloud Cookbook](cookbook-screenshot.png){fig-alt="screenshot of Cookbook home page with QR code to access it. Title 'Let's explore together'" width="85%"}
+
+In closing, on behalf of the NASA Openscapes Mentors, Cassie shared her joy of working with this open community of people who are united around shared interests and needs.
+
+![](open-community.png){fig-alt="We are an open community! cartoon of smiling animals on a landscape with green grass and a path, fox with a welcome sign. Text says People openly creating, sharing, teaching, collaborating united around shared interests (coding language, topic, discipline, etc.) with a culture of shared & continued learning; prioritizing diversity, equity, belonging that can connect online and/or in-person." width="85%"}
