@@ -58,6 +58,8 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
+-[Open Science/Source around ASDC, Openscapes](https://docs.google.com/presentation/d/10VUcSYLz2z2u4FwyvsF2yB5_0nyvZELeXqoxlKi97os/edit#slide=id.g26b52aa47a4_0_120) - Danny Kaufman. March 15, 2024. Atmospheric Science Data Center (ASDC) Feedback Friday (subset of original slides)
+
 - [NASA Openscapes: How we work supporting Earthdata science in the Cloud (First story of a scientist “fledging” from JupyterHub!)](https://docs.google.com/presentation/d/1Th2NScRyrWLKgGvaMccDMvR1ZLA6VTpNON0eUvo5TgY/edit?usp=sharing) - Julie Lowndes, Erin Robinson, NASA Openscapes Mentors. March 5, 2024. ESDSWG, Huntsville Alabama.
 
 - [earthaccess: Accelerating NASA Earthdata access through open, collaborative development](https://docs.google.com/presentation/d/1K5RbQj4OKWt49kznIF9ct-cmWADlvdYA0eI7dA7_fFg/edit#slide=id.g269ad4ab477_0_691) - Luis López, Matt Fisher, Aaron Friesz, Qiusheng Wu, Amy Steiker, earthaccess community. Feb 26, 2024. NASA ESDS Tech Spotlight. 
