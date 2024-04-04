@@ -6,16 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Amy Steiker">
-<meta name="author" content="Luis Lopez">
-<meta name="author" content="Andrew Barrett">
-<meta name="author" content="Julie Lowndes">
-<meta name="author" content="Erin Robinson">
-<meta name="author" content="James Bourbeau">
-<meta name="dcterms.date" content="2023-12-08">
-<meta name="description" content="Panel discussion and demos with NSIDC and Coiled">
+<meta name="author" content="Aaron Friesz">
+<meta name="author" content="Joseph M. Smith">
+<meta name="dcterms.date" content="2024-04-04">
 
-<title>NASA-Openscapes - Openscapes Community Call: NASA Earthdata Cloud with Coiled</title>
+<title>NASA-Openscapes - NASA Earthdata Data Chat with Aaron Friesz</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -156,16 +151,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Contents</h2>
-   
-  <ul>
-  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
-  <li><a href="#easy-scalable-cloud-computing-with-coiled" id="toc-easy-scalable-cloud-computing-with-coiled" class="nav-link" data-scroll-target="#easy-scalable-cloud-computing-with-coiled">Easy Scalable Cloud Computing with Coiled</a></li>
-  <li><a href="#closing" id="toc-closing" class="nav-link" data-scroll-target="#closing">Closing</a></li>
-  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
-  </ul>
-</nav>
+    
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
@@ -176,19 +162,13 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Openscapes Community Call: NASA Earthdata Cloud with Coiled</h1>
+<h1 class="title">NASA Earthdata Data Chat with Aaron Friesz</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">community-call</div>
     <div class="quarto-category">blog</div>
     <div class="quarto-category">nasa-framework</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    Panel discussion and demos with NSIDC and Coiled
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -196,19 +176,15 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
-             <p>Amy Steiker <a href="https://orcid.org/0000-0002-3039-0260" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-             <p>Luis Lopez </p>
-             <p>Andrew Barrett <a href="https://orcid.org/0000-0003-4394-5445" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-             <p>Julie Lowndes <a href="https://orcid.org/0000-0003-1682-3872" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-             <p>Erin Robinson <a href="https://orcid.org/0000-0001-9998-0114" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-             <p>James Bourbeau </p>
+             <p>Aaron Friesz <a href="https://orcid.org/0000-0003-4096-3824" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+             <p>Joseph M. Smith </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 8, 2023</p>
+      <p class="date">April 4, 2024</p>
     </div>
   </div>
   
@@ -220,64 +196,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><em>Quicklinks</em></p>
-<ul>
-<li><a href="https://youtu.be/Mfpsv7NRews"><em>Video recording</em></a></li>
-<li><a href="https://docs.google.com/document/d/12iwOURQQ0qKwsTt37HL1M8gRcWgIg3TIREqY13p0s28"><em>Collaborative Notes</em></a></li>
-<li><a href="https://nasa-openscapes.github.io/openscapes_community_chat_coiled"><em>Slides: Processing Terrabytes of Laser Altimetry Data in The Cloud</em></a></li>
-<li><a href="https://github.com/nsidc/NSIDC-Data-Tutorials/blob/main/notebooks/ICESat-2_Cloud_Access/ATL10-h5coro.ipynb"><em>Python notebook: Processing Large-scale Time Series of ICESat-2 Sea Ice Height in the Cloud</em></a></li>
-</ul>
-<p><em>Our 9th Openscapes Community Call featured NASA Openscapes Mentors and the Coiled team demoing approaches to supporting researchers using NASA Earthdata in the Cloud. This built from a previous demo at the National Snow and Ice Data Center User Working Group that presented different Cloud Environment Opportunities to meet users where they are (<a href="https://nasa-openscapes.github.io/news/2023-10-13-nasa-jupyterhub-coiled/">blog post</a>).</em></p>
-<p><em>Going to <a href="https://openscapes.org/blog/2023-12-10-agu-fall-meeting/">AGU 2023</a>? Come say hi to the Coiled team at their booth (right at the entrance next to Google)</em></p>
-<hr>
-<section id="background" class="level2">
-<h2 class="anchored" data-anchor-id="background">Background</h2>
-<p><a href="https://nasa-openscapes.github.io/">NASA Openscapes</a> is a project and community supporting researchers using NASA Earthdata in the Cloud. This community call welcomed our speakers <a href="https://github.com/asteiker">Amy Steiker</a>, <a href="https://www.linkedin.com/in/betolink/">Luis Lopez</a>, and <a href="https://nsidc.org/about/about-nsidc/what-we-do/our-people/andrew_barrett">Andy Barrett</a> from the <a href="https://nsidc.org/home">National Snow and Ice Data Center</a> (NSIDC) who are NASA Openscapes Mentors, and <a href="https://www.jamesbourbeau.com/">James Bourbeau</a> from <a href="https://www.coiled.io/">Coiled</a> who is collaborating with NASA Openscapes Mentors and Champions science teams.&nbsp;</p>
-<p>We followed the Liberating Structures <a href="https://www.liberatingstructures.com/9-what-so-what-now-what-w/">What? So What? Now What?</a> format, with silent journal prompts for reflections and 15 mins of Q&amp;A from questions in chat.<br>
-</p>
-</section>
-<section id="easy-scalable-cloud-computing-with-coiled" class="level2">
-<h2 class="anchored" data-anchor-id="easy-scalable-cloud-computing-with-coiled">Easy Scalable Cloud Computing with Coiled</h2>
-<p>The call started with a few demos, first from Andy Barrett and Amy Steiker from NSIDC. Andy shared a science use case based on translating photons measurements from ICESAT-2 to sea ice thickness. These data were first accessed with the <a href="https://earthaccess.readthedocs.io/en/latest/">earthaccess Python library</a>, then needed to be regridded over geographic areas, which Amy demoed in <a href="https://github.com/nsidc/NSIDC-Data-Tutorials/blob/main/notebooks/ICESat-2_Cloud_Access/ATL10-h5coro.ipynb">this Jupyter notebook</a>. Amy ran this code on her laptop and used Coiled to spin up remote virtual machines (VMs) in the cloud to run her computations.</p>
-<div class="center-text">
-<p><img src="coiled-steiker-demo.png" class="img-fluid" style="width:85.0%" alt="zoom screenshot from live demo. Small image of speaker, a woman, in upper right, left side shows python code; right side shows terminal with code executing"></p>
-</div>
-<p>Then, James ran through two common workflows that process terabyte-scale cloud datasets. In the <a href="https://github.com/coiled/examples/blob/a69170ec8fc60a41f0d9b07fb59c89c512a20d1e/sea-level-rise.ipynb">first example</a>, we saw how to churn through many cloud-hosted NASA Earthdata files (~500 GB of NetCDF files) in parallel on the cloud. This involved lightly decorating an existing Python function with the <a href="https://docs.coiled.io/user_guide/usage/functions/index.html">Coiled Function</a> decorator. The entire workflow ran in &lt;10 minutes and cost ~$0.36.</p>
-<p>In the <a href="https://github.com/coiled/examples/blob/a69170ec8fc60a41f0d9b07fb59c89c512a20d1e/national-water-model/xarray-water-model.ipynb">next example</a>, we used Xarray to process 6 TB of the cloud-hosted NOAA water model where we computed the average water table depth for each county in the US for the year 2020. We parallelized and distributed the work across 50 VMs using a <a href="https://docs.coiled.io/user_guide/usage/dask/index.html">Coiled cluster</a>. The workflow ran in &lt; 5 minutes and cost ~$1.</p>
-<div class="center-text">
-<p><img src="coiled-bourbeau-demo.png" class="img-fluid" style="width:85.0%" alt="screenshot of python notebook on left and Coiled cluster information on right"></p>
-</div>
-<p>Luis commented on how cloud computing is a barrier for many teams, but tools like Coiled provide options for working in the cloud easily. In fact, Coiled is just half the magic (provisioning cloud resources); the rest is the open source packages, which together help science move faster.</p>
-</section>
-<section id="closing" class="level2">
-<h2 class="anchored" data-anchor-id="closing">Closing</h2>
-<p>Discussion topics included questions about egress costs, compute time, community standards, and more. See the <a href="https://docs.google.com/document/d/12iwOURQQ0qKwsTt37HL1M8gRcWgIg3TIREqY13p0s28">meeting notes</a> for full details.</p>
-</section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<ul>
-<li><a href="https://www.coiled.io/geo">Geospatial Cloud Resources</a> from Coiled</li>
-<li><a href="https://medium.com/coiled-hq/processing-terabyte-scale-nasa-cloud-datasets-with-coiled-70ab552f35ec">Processing Terabyte-Scale NASA Cloud Datasets with Coiled</a>&nbsp;</li>
-<li><a href="https://medium.com/coiled-hq/processing-a-250-tb-dataset-with-coiled-dask-and-xarray-574370ba5bde">Processing a 250 TB dataset with Coiled, Dask, and Xarray</a>&nbsp;</li>
-<li><a href="https://openscapes.org/blog/2023-10-13-nasa-jupyterhub-coiled/">Cloud Environment Opportunities</a>. Managed JupyterHub options for Cryosphere and NASA Earthdata user communities.</li>
-</ul>
+<p>Aaron Friesz, science coordination lead at NASA’s Land Processes Distributed Active Archive Center (<a href="https://www.earthdata.nasa.gov/eosdis/daacs/lpdaac">LP DAAC</a>) and NASA Openscapes Mentor, helps promote open science principles to empower more diverse, inclusive, and effective data science communities.</p>
+<p>Read the <a href="https://www.earthdata.nasa.gov/learn/data-chats/aaron-friesz">NASA Earthdata Data Chat interview with Aaron</a> where he discusses what being a NASA Openscapes Mentor entails, how he and his fellow mentors promote open science, and the resources available to help users develop their cloud computing skills.</p>
+<p><img src="aaron-friesz_headshot_data-chat.jpg" class="img-fluid" style="width:20.0%" alt="headshot of Aaron Friesz in black and white. White man, dark hair beard and mustache wearing a dark buttoned shirt with light narrow vertical stripes"></p>
 
 
-</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{steiker2023,
-  author = {Steiker, Amy and Lopez, Luis and Barrett, Andrew and
-    Lowndes, Julie and Robinson, Erin and Bourbeau, James},
-  title = {Openscapes {Community} {Call:} {NASA} {Earthdata} {Cloud}
-    with {Coiled}},
-  date = {2023-12-08},
-  url = {https://nasa-openscapes.org/news/2023-12-08-coiled-community-call},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{friesz2024,
+  author = {Friesz, Aaron and M. Smith, Joseph},
+  title = {NASA {Earthdata} {Data} {Chat} with {Aaron} {Friesz}},
+  date = {2024-04-04},
+  url = {https://nasa-openscapes.github.io/news/2024-04-04-nasa-earthdata-aaron-friesz/},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-steiker2023" class="csl-entry quarto-appendix-citeas" role="listitem">
-Steiker, Amy, Luis Lopez, Andrew Barrett, Julie Lowndes, Erin Robinson,
-and James Bourbeau. 2023. <span>“Openscapes Community Call: NASA
-Earthdata Cloud with Coiled.”</span> December 8, 2023. <a href="https://nasa-openscapes.org/news/2023-12-08-coiled-community-call">https://nasa-openscapes.org/news/2023-12-08-coiled-community-call</a>.
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-friesz2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Friesz, Aaron, and Joseph M. Smith. 2024. <span>“NASA Earthdata Data
+Chat with Aaron Friesz.”</span> April 4, 2024. <a href="https://nasa-openscapes.github.io/news/2024-04-04-nasa-earthdata-aaron-friesz/">https://nasa-openscapes.github.io/news/2024-04-04-nasa-earthdata-aaron-friesz/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
