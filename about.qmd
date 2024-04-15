@@ -74,6 +74,8 @@ Slides, recordings, and posters
 
 - [NASA Openscapes: Approaches and Stories of Kinder, Open Science in the Cloud](https://docs.google.com/presentation/d/1RPPgWDqoA9Ppyk0pXpY717xqKSwLr_5Ek4-nEOoYBGw/edit?usp=sharing) - Julie Lowndes, Erin Robinson & NASA Openscapes Mentors. Dec 15, AGU Fall Meeting
 
+- [Accessing NASA Earthdata in the Cloud: Experiences Using MATLAB on NASA Openscapes’ 2i2c JupyterHub](https://docs.google.com/presentation/d/1Z-scJq6HioWB9CC7-OO4N8J1410aVNz0/edit?usp=sharing&ouid=103686217804830910341&rtpof=true&sd=true) - Dec 12, 2024, Lisa Kempler, MathWorks
+
 - [Enabling Analysis in the Cloud Using NASA Earth Science Data](https://docs.google.com/presentation/d/13huOTE6EQUY84qzqiRbRdK8coB1ZooU2dDLv1OaNiqI/edit#slide=id.g1ea649c3126_1_0) - Dec 10, Cassie Nickles, Michele Thornton et al. AGU Fall Meeting Workshops ([video](https://www.youtube.com/watch?v=E5Dpeap16hU))
 
 - [NASA Openscapes: Supporting NASA EarthData Users Transition to the Cloud](https://docs.google.com/presentation/d/1klEzB3voQZ5_LB9bzuzWRIR7ldcz0gyfbiCcf1XiBE4/edit?usp=sharing) - Nov 2 2023. Erin Robinson, GHRC User Working Group
