@@ -1,0 +1,17 @@
+---
+title: "Learn about and use Surface Water and Ocean Topography (SWOT) Data!"
+description: "SWOT workshop at Hacking Limnology Virtual Summit"
+author: 
+  - name: Hacking Limnology Virtual Summit, NASA PO.DAAC & Openscapes
+date: 2024-07-16
+categories: [event]
+image: SWOT_artistic_render.png
+---
+
+We have an upcoming free hands-on virtual workshop led by NASA PO.DAAC on data access for the Surface Water Ocean Topography (SWOT) satellite. The SWOT session will be held July 16, 2024, as part of the [Hacking Limnology Virtual Summit](https://aquaticdatasciopensci.github.io/), a week-long series of talks and workshops broadly focused on open data science and modeling by early career scientists and researchers. This [remote sensing SWOT session](https://aquaticdatasciopensci.github.io/day2-remote-sensing/) will be introduced by Merritt Harlan from the USGS and feature an exciting talk from Craig Brinkerhoff on SWOT-related research, followed by a 2-hour hands on demonstration by Cassie Nickles with support from NASA Openscapes Mentors. 
+
+To find out more about SWOT, visit the [SWOT PO.DAAC Website](https://podaac.jpl.nasa.gov/SWOT) and explore other SWOT tutorials and resources in our [PO.DAAC Cookbook: SWOT Chapter](https://podaac.github.io/tutorials/quarto_text/SWOT.html) ahead of time.
+
+Registration is free and open to all career stages: https://aquaticdatasciopensci.github.io/registration/
+
+During the workshop we will use a learning platform that requires a GitHub account to login. Please make an account [here](https://github.com/signup?user_email=&source=form-home-signup) if you do not already have one and make sure you give your username during registration.
