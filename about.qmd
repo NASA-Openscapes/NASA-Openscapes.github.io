@@ -58,6 +58,8 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
+- [earthaccess: Programmatic search and access of NASA Earthdata in Python](https://docs.google.com/presentation/d/1zRdQ03f-uHLy46Ko5dhgj3ETwpLhTtOq_QLyqWobmZc/edit) - Luis López et al. May 9, 2024. [Software for the NASA Science Mission Directorate Workshop 2024](https://science.data.nasa.gov/news/software-workshop-2024/)
+
 - [Open Science/Source around ASDC, Openscapes](https://docs.google.com/presentation/d/10VUcSYLz2z2u4FwyvsF2yB5_0nyvZELeXqoxlKi97os/edit#slide=id.g26b52aa47a4_0_120) - Danny Kaufman. March 15, 2024. Atmospheric Science Data Center (ASDC) Feedback Friday (subset of original slides)
 
 - [NASA Openscapes: How we work supporting Earthdata science in the Cloud (First story of a scientist “fledging” from JupyterHub!)](https://docs.google.com/presentation/d/1Th2NScRyrWLKgGvaMccDMvR1ZLA6VTpNON0eUvo5TgY/edit?usp=sharing) - Julie Lowndes, Erin Robinson, NASA Openscapes Mentors. March 5, 2024. ESDSWG, Huntsville Alabama.
