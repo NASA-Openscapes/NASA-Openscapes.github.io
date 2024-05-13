@@ -1,0 +1,20 @@
+---
+title: "How the NASA Openscapes community supports Earthdata users migrating workflows to the Cloud"
+description: "A presentation for the NOAA Enterprise Data Management (EDMW) Workshop"
+author:
+  - name: Openscapes and NASA
+date: 2024-05-14
+categories:
+  - event 
+  - talk
+  - nasa-framework
+image: "NASA-Openscapes-10min_2024-05-14.png"   
+---
+
+The NOAA Enterprise Data Management Workshop (EDMW) is an annual workshop organized by NOAA staff and affiliates. The purpose of the workshop is to build on past work in enterprise data management at NOAA by highlighting progress, identifying issues, fostering discussions, and determining where new technologies can be applied. This year's theme is "Bridging the Gap: Ensuring Seamless Data Flow from Acquisition to Access"
+
+NASA Openscapes was invited to present via Bri Lind (NASA Land Processes data center, [LP DAAC](https://lpdaac.usgs.gov/)). Julie Lowndes (Openscapes) & Ian Carroll (NASA Ocean Biology data center, [OB.DAAC](https://www.earthdata.nasa.gov/eosdis/daacs/obdaac)) will co-present.
+
+**How the NASA Openscapes community supports Earthdata users migrating workflows to the Cloud**
+
+**Abstract**: [NASA Openscapes](https://nasa-openscapes.github.io/) is a community where staff with similar roles supporting users across 12 NASA Earth Science Data Centers ([DAACs](https://www.earthdata.nasa.gov/eosdis/daacs)) have been able to learn, develop common tutorials, and teach together to support users migrating workflows to the Cloud. NASA Openscapes Mentors co-create and maintain an open [Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/) of common reusable open source tutorials that they have co-developed for specific audiences and tested and refined through frequent workshops, hackathons, and Openscapes Champions Cohorts. They also created the [earthaccess Python library](https://earthaccess.readthedocs.io/) which made users' first experience with NASA Earthdata Cloud be two lines of Python code rather than 30 lines of bash code (that also required clicking and managing hidden files for authentication). The work these Mentors do together as a small community has enormous cascading effects, particularly as they visibly practice open science daily via contributions to open source code and documentation. Further, they are connected to other open communities to enable further innovation: like when a conversation at the Ecological Society of America conference led to building the [earthdatalogin R library](https://boettiger-lab.github.io/earthdatalogin/index.html) to support researchers R as well as Python and create portable docker containers cloud users. We will share stories and how we work, and how approaches fit and can be leveraged by the NOAA Enterprise Data Management community.
