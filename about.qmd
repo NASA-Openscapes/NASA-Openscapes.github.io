@@ -58,7 +58,9 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
-- [How the NASA Openscapes community supports Earthdata users migrating workflows to the Cloud](https://docs.google.com/presentation/d/1gkdlVU-5WEb3-nB5Wjprw61BE4CVDjHbgTwoyd59ckA/edit#slide=id.g262cd94a96b_0_0) - Julie Lowndes & Ian Carroll, May 14, 2024. NASA Crustal Dynamics Data Information System (CDDIS) and NOAA Enterprise Data Management Workshop (EDMW)
+- [How the NASA Openscapes community supports Earthdata users migrating workflows to the Cloud](https://docs.google.com/presentation/d/151KBqHLs-Ee-B_AS5wFPjnD2hx-XadJJ8f17O2hQiWI/edit?usp=sharing) - Julie Lowndes & Celia Ou (PO.DAAC), May 14, 2024. NASA Jet Propulsion Laboratory. 
+
+- [How the NASA Openscapes community supports Earthdata users migrating workflows to the Cloud](https://docs.google.com/presentation/d/1gkdlVU-5WEb3-nB5Wjprw61BE4CVDjHbgTwoyd59ckA/edit#slide=id.g262cd94a96b_0_0) - Julie Lowndes & Ian Carroll (OB.DAAC), May 14, 2024. NASA Crustal Dynamics Data Information System (CDDIS) and NOAA Enterprise Data Management Workshop (EDMW)
 
 - [earthaccess: Programmatic search and access of NASA Earthdata in Python](https://docs.google.com/presentation/d/1zRdQ03f-uHLy46Ko5dhgj3ETwpLhTtOq_QLyqWobmZc/edit) - Luis López et al. May 9, 2024. [Software for the NASA Science Mission Directorate Workshop 2024](https://science.data.nasa.gov/news/software-workshop-2024/)
 
