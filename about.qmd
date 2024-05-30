@@ -58,6 +58,8 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
+- [How the NASA Openscapes community supports Earthdata users migrating workflows to the Cloud](https://docs.google.com/presentation/d/1CVom4_fWYz309Oqlzl-lTRHxmyzP-Vj_IWJO-XbzLyQ/edit#slide=id.g1ff9784e90d_0_0) - Julie Lowndes, May 30, 2024. Ocean Biology (OB.DAAC) User Working Group.
+
 - [How the NASA Openscapes community supports Earthdata users migrating workflows to the Cloud](https://docs.google.com/presentation/d/151KBqHLs-Ee-B_AS5wFPjnD2hx-XadJJ8f17O2hQiWI/edit?usp=sharing) - Julie Lowndes & Celia Ou (PO.DAAC), May 14, 2024. NASA Jet Propulsion Laboratory. 
 
 - [How the NASA Openscapes community supports Earthdata users migrating workflows to the Cloud](https://docs.google.com/presentation/d/1gkdlVU-5WEb3-nB5Wjprw61BE4CVDjHbgTwoyd59ckA/edit#slide=id.g262cd94a96b_0_0) - Julie Lowndes & Ian Carroll (OB.DAAC), May 14, 2024. NASA Crustal Dynamics Data Information System (CDDIS) and NOAA Enterprise Data Management Workshop (EDMW)
