@@ -1,0 +1,25 @@
+---
+title: "Shifting institutional culture to develop climate solutions with Open Science"
+description: "An Open Access Editorial written collaboratively by mentors across the Openscapes community"
+author:
+  - name: Openscapes  
+date: 2024-06-06
+citation: 
+  url: https://https://nasa-openscapes.github.io/blog/2024-06-06-editorial-published
+categories: [blog, noaa-fisheries, nasa-framework, water-boards, pathways, how-we-work]
+image: ece311341-fig-0001-m.jpg
+---
+
+We are so happy to share that a paper co-authored by Openscapes mentors across organizations – including NASA Earthdata, NOAA Fisheries, EPA, California Water Boards, Pathways to Open Science, Fred Hutch Cancer Center – was just published: [Shifting institutional culture to develop climate solutions with Open Science](https://onlinelibrary.wiley.com/doi/10.1002/ece3.11341). From co-author Anna Holder, Cal EPA / Water Boards: "It’s a short read and quite uplifting and inspirational and provides some more insight and what we’re learning as we implement Openscapes across organizations.” 
+
+::: blockquote-blue
+> "*Our best advice to start shifting culture is to have regularly scheduled learning meetings—with structure and intention to make them different from other work meetings.*"
+:::
+
+Please let us know what you think, and share with colleagues!
+
+We deeply appreciate the contributions made by all Openscapes Mentors and community members who are not listed here.
+
+**Citation**: Julia Stewart Lowndes, Anna M. Holder, Emily H. Markowitz, Corey Clatterbuck, Amanda L. Bradford, Kathryn Doering, Molly H. Stevens, Stefanie Butland, Devan Burke, Sean Kross, Jeffrey W. Hollister, Christine Stawitz, Margaret C. Siple, Adyan Rios, Jessica Nicole Welch, Bai Li, Farnaz Nojavan, Alexandra Davis, Erin Steiner, Josh M. London, Ileana Fenwick, Alexis Hunzinger, Juliette Verstaen, Elizabeth Holmes, Makhan Virdi, Andrew P. Barrett, Erin Robinson (2024). Shifting institutional culture to develop climate solutions with Open Science. *Ecology and Evolution*, 14, e11341. <https://doi.org/10.1002/ece3.11341>
+
+![Similar to how plants use the resources available to them to develop fruits and seeds for future plants, values, culture, and technical infrastructure continually influence the generation and reproduction of relevant, rigorous, and insightful science. Illustration by Adyan Rios and Su Kim, NOAA Fisheries.](ece311341-fig-0001-m.jpg){width="50%"}
