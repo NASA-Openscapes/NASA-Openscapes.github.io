@@ -14,4 +14,4 @@ To find out more about SWOT, visit the [SWOT PO.DAAC Website](https://podaac.jpl
 
 Registration is free and open to all career stages: https://aquaticdatasciopensci.github.io/registration/
 
-During the workshop we will use a learning platform that requires a GitHub account to login. Please make an account [here](https://github.com/signup?user_email=&source=form-home-signup) if you do not already have one and make sure you give your username during registration.
+The hands-on demonstration will be using this GitHub Repository with Binder: [https://github.com/podaac/2024-SWOT-ECR-Workshop](https://github.com/podaac/2024-SWOT-ECR-Workshop).
