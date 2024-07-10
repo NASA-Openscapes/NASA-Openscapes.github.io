@@ -8,14 +8,18 @@ categories: [blog, how-we-work]
 image: sbg-screenshot.png
 ---
 
-*Note from Julie Lowndes: Our partners [2i2c](https://2i2c.org/) host our NASA Openscapes JupyterHub as part of their mission to support open science and building communities in the cloud using interactive computing.*
-
-*Recently Yuvi Panda and colleagues at 2i2c collaborated with NASA Openscapes Mentors Bri Lind and Erik Bolch and colleagues at the NASA [Land Processes Distributed Activate Archive Center (LP DAAC)](https://lpdaac.usgs.gov/) to setup a frictionless shared password access for the [Surface Biology and Geology: VITALS Workshop](https://nasa.github.io/VITALS/). This workshop had 250 participants, and this frictionless approach involved a link shared with participants for access, removing gathering GitHub usernames as the requirement for 2i2c access for a workshop of this size.*
-
-*We will be continuing to use this approach for large workshops going forward, and have added instructions for workshop leads to the [NASA Earthdata Cloud Cookbook - Policies & Admin](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/policies-admin/add-folks-to-2i2c-github-teams.html#workshop-access-with-a-shared-password) section.*
-
-------------------------------------------------------------------------
 
 Read the blog post [**Openscapes Host a Surface Biology and Geology Workshop with Shared Password Feature**](https://2i2c.org/blog/2024/openscapes-sbg-workshop/) by 2i2c Team members Yuvi Panda and Jenny Wong!
 
-![Surface Biology and Geology: VITALS Workshop](sbg-screenshot.png){fig-align="center" width="456"}
+
+**Background** from Julie Lowndes: Recently Yuvi Panda and colleagues at [2i2c](https://2i2c.org/) collaborated with NASA Openscapes Mentors Bri Lind and Erik Bolch and colleagues at the NASA [Land Processes Distributed Activate Archive Center (LP DAAC)](https://lpdaac.usgs.gov/) to setup a frictionless shared password access to the Openscapes JupyterHub for the [Surface Biology and Geology: VITALS Workshop](https://nasa.github.io/VITALS/). This workshop had 250 participants, and this frictionless approach involved sharing a link for access (like you would with Zoom/Teams) rather than requiring participants to create and share GitHub usernames in advance (and workshop hosts to manage and add them to the Hub).
+
+We will be continuing to use this approach for large workshops going forward, and have added instructions for workshop leads to the [NASA Earthdata Cloud Cookbook - Policies & Admin](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/policies-admin/add-folks-to-2i2c-github-teams.html#workshop-access-with-a-shared-password) section.
+
+
+<br>
+![Surface Biology and Geology: VITALS Workshop](sbg-screenshot.png){fig-align="center" width="60%"}
+
+<br>
+
+Our partners [2i2c](https://2i2c.org/) host our NASA Openscapes JupyterHub as part of their mission to support open science and building communities in the cloud using interactive computing. Learn more about their approach and other community impact stories!
