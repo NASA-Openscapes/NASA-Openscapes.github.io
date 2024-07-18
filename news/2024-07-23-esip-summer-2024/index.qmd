@@ -1,0 +1,24 @@
+---
+title: "Supporting NASA Earthdata users in the Cloud: NASA Openscapes onboarding and 'fledging'"
+description: "A facilitated session at ESIP summer 2024" 
+author: Openscapes and NASA
+date: 2024-07-23
+categories:
+  - conference
+  - nasa-framework
+  - event
+image: esip-banner.png 
+---
+
+**NASA Openscapes Mentors** Aaron Friesz, Andy Barrett, Danny Kaufman, Rhys Leahy, Alexis Hunzinger, with Julia Lowndes are co-leading this session at the ESIP Summer 2024 meeting.
+
+**ESIP Meeting theme:** Grounded in Trust: Data Ethics Empower Collaboration
+
+[Details](https://2024julyesipmeeting.sched.com/event/1eVNz/mt-pisgah-supporting-nasa-earthdata-users-in-the-cloud-nasa-openscapes-onboarding-and-fledging) on the ESIP site.
+
+**Purpose of our session:** Facilitate a space to find common challenges & solutions for “moving to the cloud”, which includes onboarding people to a shared compute space and fledging them to their own space. We will share stories of how people go from 0 to Hub and then fledge to other clouds. Have mechanisms to hear many voices and come up with creative solutions. We will also invite people to contribute (earthaccess, Cookbook) and how we onboard. Share stories of how people go from 0 to Hub and then fledge to other cloud. \
+**Outcomes from our session**: Learn from participants: what are challenges encountered from onboarding & fledging? Co-design solutions. Blog post - summary posted on ESIP/NASA-Openscapes blog. We’ll include authors from Roll Call unless you’d prefer to opt out; we’ll share a draft beforehand. \
+**Process**: Stories from NASA Openscapes (30 min); Breakout groups (25 min); Discussion (25 min)\
+\
+\
+**NASA Openscapes** is a community where staff with similar roles supporting users across 12 NASA Earth Science Data Centers (DAACs) – through building trust – have been able to learn, develop common tutorials, and teach together to support users migrating workflows using NASA Earthdata to the Cloud. NASA Openscapes Mentors co-create and maintain an open Earthdata Cloud Cookbook of common reusable open source tutorials that they have co-developed for specific audiences and tested and refined through frequent workshops, hackathons, and Openscapes Champions Cohorts. We also created the earthaccess Python library which made users' first experience with NASA Earthdata Cloud be two lines of Python code rather than 30 lines of bash code (that also required clicking and managing hidden files for authentication). The work we do together as a small community has enormous cascading effects, particularly as they visibly practice open science daily via contributions to open source code and documentation. We have supported hundreds of users to have their first hands-on experience with NASA Earthdata in the Cloud in a 2i2c JupyterHub configured for Jupyter, RStudio, MATLAB, and QGIS using our tutorials and docker base images (set up for libraries/environments, Quarto, etc). As the purpose of our JupyterHub is initial learning and exploration, we are now focused on “fledging” – answering the question “where do researchers go when they leave the Openscapes 2i2c JupyterHub?” We will share first stories of researchers shifting to their own cloud spaces, attaching their university credit cards in order to do science at scale in the cloud. We will share stories and challenges, and how approaches fit and can be leveraged by the ESIP community.
