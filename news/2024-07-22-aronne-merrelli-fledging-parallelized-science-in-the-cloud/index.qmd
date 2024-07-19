@@ -4,7 +4,6 @@ description: "Aronne Merrelli describes developing cloud workflows with 2i2c, pa
 author: 
   - name: "Aronne Merrelli, University of Michigan"
 date: 2024-07-22
-draft: true
 categories: [blog, nasa-framework, champions]
 image: merrelli-workflow-scales.png
 ---
