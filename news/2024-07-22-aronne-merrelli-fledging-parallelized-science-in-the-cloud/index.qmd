@@ -19,17 +19,17 @@ image: merrelli-workflow-scales.png
 
 ------------------------------------------------------------------------
 
-> "In the 2023 Champions Cohort we got a teaser of how to work in the Cloud. With Coiled and I did some simple things and now I’ve moved into my own workflow to Cloud. I have an Amazon account now paying my own way." - Aronne Merelli
+> "In the 2023 Champions Cohort we got a teaser of how to work in the Cloud. With Coiled I did some simple things and now I’ve moved into my own workflow to Cloud. I have an Amazon account now paying my own way." - Aronne Merrelli
 
 ## Cloud Takeaways from Aronne Merrelli
 
-Aronne Merrelli, University of Michigan, is a research scientist and a A 2023 NASA Openscapes Champion, and he shared his story with 2024 Champions teams. His main takeaways:
+Aronne Merrelli, University of Michigan, is a research scientist and a 2023 NASA Openscapes Champion, and he shared his story with 2024 Champions teams. His main takeaways:
 
 -   **Finds cloud to be “a super power”**
 
-    -   New science questions: can process data to big to imagine processing in current places
+    -   New science questions: can process data too big to imagine processing in current places
 
-    -   Details: "I did an analysis for my AGU poster: 150 TB of L1 and L2 data, and I only needed some tiny fraction that were of interest to me. In the old way I would need to find a way to download it all first, and I don’t have a machine big enough. But parallelizing with Coiled, I can subset. Now once I realize that, I realize there are bigger datasets that just seem unworkable before.” - Aronne Merrelli
+    -   Details: "I did an analysis for my AGU poster: 150 TB of L1 and L2 data, and I only needed some tiny fraction that were of interest to me. In the old way I would need to find a way to download it all first, and I don’t have a machine big enough. But parallelizing with Coiled, I can subset. Now once I realize that, I realize there are bigger datasets that just seemed unworkable before.” - Aronne Merrelli
 
 -   **Cloud costs: cheaper than expected**
 
@@ -39,17 +39,17 @@ Aronne Merrelli, University of Michigan, is a research scientist and a A 2023 NA
 
 -   **Infrastructure: less intensive than expected**
 
-    -   Shifting workflow to earthaccess then parallelizing with Coiled. Little setup required
+    -   Shifting workflow to [earthaccess](https://earthaccess.readthedocs.io/en/latest/) then parallelizing with Coiled. Little setup required
 
-Aronne describes himself as a Level 1 or Level 2 algorithm scientist. He had been interested in learning how to use the cloud and had some previous unhelpful experiences, since most discussions revolved around the administration of cloud services, that made it seem like there was a large overhead to using the cloud, including specialized packages seemed hard to use, or inefficient on datasets he uses.
+Aronne describes himself as a Level 1 or Level 2 algorithm scientist. He had been interested in learning how to use the cloud and had some previous unhelpful experiences, since most discussions revolved around the administration of cloud services that made it seem like there was a large overhead to using the cloud, including specialized packages that seemed hard to use, or inefficient on datasets he uses.
 
 ## What makes this a fledging story
 
-NASA Openscapes gave a chance for Aaron to learn how to run code in the cloud without much extra overhead. Learning in the 2i2c JupyterHub and then with Coiled, he could focus on the science and not require a cloud optimized data format. The key thing is that he didn't really need to modify his workflow! He sees cloud computing as a new capability that allows me to do analyses on big data sets that would have been hard to do on any other machine. Here is the steps of what fledging looked like:
+NASA Openscapes gave a chance for Aaron to learn how to run code in the cloud without much extra overhead. Learning in the 2i2c JupyterHub and then with Coiled, he could focus on the science and not require a cloud optimized data format. The key thing is that he didn't really need to modify his workflow! He sees cloud computing as a new capability that allows him to do analyses on big data sets that would have been hard to do on any other machine. Here are the steps of what fledging looked like:
 
 -   **Learned when and how to cloud (via NASA Openscapes Champions cohort)**
 
-    -   Cross-DAAC Mentors led, scientist focused, open science, inclusive (Aronne’s previous attempts to learn geared towards engineers)
+    -   Cross-DAAC Mentors led, scientist focused, open science, inclusive (Aronne’s previous attempts to learn were geared towards engineers)
 
 -   **Experimented in JupyterHub (managed by 2i2c & Openscapes, NASA credits)**
 
@@ -61,7 +61,7 @@ NASA Openscapes gave a chance for Aaron to learn how to run code in the cloud wi
 
     -   Very easy to use, essentially zero administrative overhead
 
-    -   Learned to parallelized code in small pieces, easy transition to my workflow
+    -   Learned to parallelize code in small pieces, easy transition to my workflow
 
 -   **Did real science in Coiled (managed by Coiled & University credit card!!!)**
 
@@ -71,13 +71,13 @@ NASA Openscapes gave a chance for Aaron to learn how to run code in the cloud wi
 
 ## Aronne's recommendations to proceed
 
-For Champions curious what this could look like for them, Aronne suggests they identify a near term task that you can shift to cloud processing. Aronne chose to do the analysis for my AGU poster through coiled, which fit his 3 criteria:
+For Champions curious what this could look like for them, Aronne suggests they identify a near term task that you can shift to cloud processing. Aronne chose to do the analysis for his AGU poster through Coiled, which fit his 3 criteria:
 
 1.  something you were going to do anyway
 
 2.  requires use of a dataset in the cloud (NASA Earthdata cloud, NOAA open data)
 
-3.  Is “largeish”, so you will get some immediate benefit (meaning, that you will potentially save yourself some time by doing it in the cloud)
+3.  Is “large-ish”, so you will get some immediate benefit (meaning, that you will potentially save yourself some time by doing it in the cloud)
 
 ## Fledging - building momentum
 
