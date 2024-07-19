@@ -67,7 +67,7 @@ NASA Openscapes gave a chance for Aaron to learn how to run code in the cloud wi
 
     -   UM’s institutional AWS account is a big help here
 
-![Slide from Aronne Merrelli showing how cloud computing is a new way to work: "see this as a new capability that allows me to do analyses on big data sets that would have been hard to do on any other machine."](merrelli-workflow-scales.png){fig-alt="slide showing an x-y axis of Workflow scales, with \"calc time\" y axis showing laptop/desktop, research group server, university shared compute cluster with small x axis data size. Then, Cloud computing is in the top-right space, not overlapping" fig-align="center" width="434"}
+![Slide from Aronne Merrelli showing how cloud computing is a new way to work: "see this as a new capability that allows me to do analyses on big data sets that would have been hard to do on any other machine."](merrelli-workflow-scales.png){fig-alt="slide showing an x-y axis of Workflow scales, with 'calc time' y axis showing laptop/desktop, research group server, university shared compute cluster with small x axis data size. Then, Cloud computing is in the top-right space, not overlapping" fig-align="center" width="434"}
 
 ## Aronne's recommendations to proceed
 
