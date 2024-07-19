@@ -4,6 +4,8 @@ description: "Aronne Merrelli describes developing cloud workflows with 2i2c, pa
 author: 
   - name: "Aronne Merrelli, University of Michigan"
 date: 2024-07-22
+citation: 
+  url: https://nasa-openscapes.github.io/news/2024-07-22-aronne-merrelli-fledging-parallelized-science-in-the-cloud/
 categories: [blog, nasa-framework, champions]
 image: merrelli-workflow-scales.png
 ---
