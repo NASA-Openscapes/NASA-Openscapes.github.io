@@ -32,7 +32,7 @@ image: storage-infrastructure.png
 
 ------------------------------------------------------------------------
 
-## **NASA Champions Cohort Overview**
+## NASA Champions Cohort Overview
 
 [NASA Openscapes](https://nasa-openscapes.github.io/) is a multi-year project to develop a cohesive approach to building cloud migration capacity across NASA Earthdata from NASA’s Earth Observing System Data and Information System ([EOSDIS](https://www.earthdata.nasa.gov/eosdis)) Distributed Active Archive Centers ([DAACs](https://www.earthdata.nasa.gov/eosdis/daacs)) and the research teams supported by the DAACs. We do this through supporting a community of NASA DAAC mentors, who are primarily dedicated to user support. This community has learned together how to use NASA Earthdata in the Cloud. They have translated that experience into a series of hackathons, workshops, self-paced tutorial material in the [NASA Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/), and through an intensive, 10-week [NASA Openscapes Champions](https://nasa-openscapes.github.io/2023-nasa-champions/) program.
 
@@ -40,7 +40,7 @@ User cloud adaption can often have a steep learning curve and feel overwhelming.
 
 The third NASA Openscapes Champions Cohort ran during April-May 2024 with nine research teams interested in a wide variety of NASA Earthdata and various stages of cloud technology familiarity. You can learn more about their research below.
 
-\
+
 
 ![Video conference screen shot (♥) of some researchers in the 2024 NASA Openscapes Champions Cohort.](zoomie-2024-nasa-champions.png){fig-alt="screenshot of smiling waving people in 5 x 5 grid view of a video conference" width="80%"}
 
@@ -72,7 +72,7 @@ The NASA Openscapes Mentors supported the Champions and contributed to the curri
 
 Teams also heard a **NASA Earthdata Cloud Update** ([slides](https://docs.google.com/presentation/d/1bgAVPHUIwbobc3ASGgCliQDHaM5vgOTq5mTVuEhv6NI/edit#slide=id.p1)) from Special Guest Justin Rice, NASA Goddard Space Flight Center, ESDIS Project Office, Deputy Project Manager/Data Systems.\
 
-## **What we learned and challenges**
+## What we learned and challenges
 
 The Openscapes Champions provides a space for teams to come together to learn from each other and across teams. It is a way to collaborate and distribute leadership roles across the various teams, helping to reduce the burden team leaders often feel of needing to learn everything first before teaching it to the rest of the team. 
 
@@ -140,13 +140,13 @@ Additional Cloud resources shared from the NOAA Enterprise Data Management Works
 
 -   <https://projectpythia.org/dask-cookbook/>
 
-## **Onward!**
+## Onward!
 
 If the 2024 NASA Openscapes Champions Cohort is any indication, the NASA Earthdata community is making substantial strides in building capacity to use cloud resources, and the transition is successfully happening. Although the cohort is officially over, these teams are just at their beginning, and we are excited to follow their results as they experiment with parallelizing code and incorporating storage considerations in their workflows. We plan to continue to work with them in the next year, as their 2i2c managed cloud Hub access continues. As we did last year, we are planning to offer the Carpentries Instructor Training for interested Champions this summer. The Carpentries is a nonprofit that teaches introductory coding skills around the world. Instructor Training is not coding-specific, but it is an educational approach to teaching technical topics. As part of our NASA grant, we have partnered with The Carpentries and are excited to extend this opportunity to Champions because many of them mentioned wanting to contribute more to open science efforts going forward.
 
 We are grateful to this Champion Cohort for their early adopter spirit, their time and effort to make this migration, and all the feedback and input they provided. They all participated in this cohort, knowing that while this was the third Cohort, they were among the first research teams to use NASA Earthdata in the Cloud. What they learned and shared will make it easier for subsequent teams to make this same shift. Many teams articulated this spirit of open leadership, explicitly asking how they could help other teams. We also learned so much from this cohort, which will help us refine the NASA Openscapes Champions program, as we plan for our next cohort and our work with the DAAC mentors in the future years of our project.
 
-## **About the NASA Openscapes Champions Teams**
+## About the NASA Openscapes Champions Teams
 
 **The Liu-Zhang (University of Louisiana at Lafayette & University of Southern** Mississippi) team primarily uses NASA Earthdata Search to access datasets from Earth Surface Mineral Dust Source Investigation (EMIT) and The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) missions, which we then use to create algorithms for ecosystem analysis. We have a particular interest in using hyperspectral data, such as the upcoming PACE data to study vegetation and algae in water bodies. Our work involves developing deep learning models for habitat classification and analyzing water quality. Transitioning to hyperspectral imaging and deep learning greatly increases computational demands, making it challenging to execute code locally compared to leveraging cloud computing resources. Additionally, this transition enhances the accessibility of our algorithm to the public. Currently funded by EMIT and serving as early adopters of PACE, we are eager to contribute to the NASA Cookbook by offering new algorithms that apply to NASA's latest satellite data, such as EMIT and PACE.
 
