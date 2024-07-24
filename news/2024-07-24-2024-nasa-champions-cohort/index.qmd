@@ -27,8 +27,8 @@ image: storage-infrastructure.png
 
 ***Quick links:***
 
--   Cohort webpage: <https://nasa-openscapes.github.io/2024-nasa-champions>
--   Aronne Merrelli’s talk: First Forays into the Cloud: Experiences from NASA Openscapes in 2023. [YouTube Video](https://www.youtube.com/watch?v=2Yd0eR6M04Y)
+-   *Cohort webpage: <https://nasa-openscapes.github.io/2024-nasa-champions>*
+-   *Aronne Merrelli’s talk: First Forays into the Cloud: Experiences from NASA Openscapes in 2023. [YouTube Video](https://www.youtube.com/watch?v=2Yd0eR6M04Y)*
 
 ------------------------------------------------------------------------
 
