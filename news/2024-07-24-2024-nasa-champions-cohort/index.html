@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.55">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Michele Thornton (ORNL)">
+<meta name="author" content="Catalina Taglialatela (PO.DAAC, Jet Propulsion Laboratory, California Institute of Technology)">
+<meta name="author" content="Luis Lopez (NSIDC)">
+<meta name="author" content="Matt Fisher (NSIDC)">
+<meta name="author" content="Alexis Hunzinger (GES DISC)">
+<meta name="author" content="Bri Lind (LP DAAC, KBR Inc., under contract to the U.S. Geological Survey)">
+<meta name="author" content="Mahsa Jami (LP DAAC, KBR Inc., under contract to the U.S. Geological Survey)">
+<meta name="author" content="Cassie Nickles (PO.DAAC, Jet Propulsion Laboratory, California Institute of Technology)">
+<meta name="author" content="Andy Teucher (NASA Openscapes)">
+<meta name="author" content="Aronne Merrelli (University of Michigan &amp; 2023 Champion)">
+<meta name="author" content="Erin Robinson">
+<meta name="author" content="Julie Lowndes">
+<meta name="author" content="NASA Openscapes Mentors">
+<meta name="dcterms.date" content="2024-07-24">
+
+<title>NASA Champions 2024: Data strategies for when to use cloud, coding strategies for parallelization, &amp; first examples of big science in the Cloud – NASA-Openscapes</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/openscapes_hex.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/openscapes_hex.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">NASA-Openscapes</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../../about.html">
+ <span class="dropdown-text">About</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../about.html#slides">
+ <span class="dropdown-text">Slides</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../events.html">
+ <span class="dropdown-text">Events Archive</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../mentors.html"> 
+<span class="menu-text">Mentors</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../champions.html"> 
+<span class="menu-text">Champions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../cookbook-navbar-page.html"> 
+<span class="menu-text">Cookbook</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../news.html"> 
+<span class="menu-text">News &amp; Events</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/NASA-Openscapes"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://fosstodon.org/@openscapes"> <i class="bi bi-mastodon" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#nasa-champions-cohort-overview" id="toc-nasa-champions-cohort-overview" class="nav-link active" data-scroll-target="#nasa-champions-cohort-overview"><strong>NASA Champions Cohort Overview</strong></a></li>
+  <li><a href="#what-we-learned-and-challenges" id="toc-what-we-learned-and-challenges" class="nav-link" data-scroll-target="#what-we-learned-and-challenges"><strong>What we learned and challenges</strong></a></li>
+  <li><a href="#team-pathways-and-cloud-momentum" id="toc-team-pathways-and-cloud-momentum" class="nav-link" data-scroll-target="#team-pathways-and-cloud-momentum">Team Pathways and Cloud Momentum</a></li>
+  <li><a href="#onward" id="toc-onward" class="nav-link" data-scroll-target="#onward"><strong>Onward!</strong></a></li>
+  <li><a href="#about-the-nasa-openscapes-champions-teams" id="toc-about-the-nasa-openscapes-champions-teams" class="nav-link" data-scroll-target="#about-the-nasa-openscapes-champions-teams"><strong>About the NASA Openscapes Champions Teams</strong></a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">NASA Champions 2024: Data strategies for when to use cloud, coding strategies for parallelization, &amp; first examples of big science in the Cloud</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">blog</div>
+    <div class="quarto-category">nasa-framework</div>
+    <div class="quarto-category">champions</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Michele Thornton (ORNL) </p>
+             <p>Catalina Taglialatela (PO.DAAC, Jet Propulsion Laboratory, California Institute of Technology) </p>
+             <p>Luis Lopez (NSIDC) </p>
+             <p>Matt Fisher (NSIDC) </p>
+             <p>Alexis Hunzinger (GES DISC) </p>
+             <p>Bri Lind (LP DAAC, KBR Inc., under contract to the U.S. Geological Survey) </p>
+             <p>Mahsa Jami (LP DAAC, KBR Inc., under contract to the U.S. Geological Survey) </p>
+             <p>Cassie Nickles (PO.DAAC, Jet Propulsion Laboratory, California Institute of Technology) </p>
+             <p>Andy Teucher (NASA Openscapes) </p>
+             <p>Aronne Merrelli (University of Michigan &amp; 2023 Champion) </p>
+             <p>Erin Robinson </p>
+             <p>Julie Lowndes </p>
+             <p>NASA Openscapes Mentors </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 24, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><em>From April-May 2024, the NASA Mentors who span eleven Distributed Active Archive Centers (DAACs) co-led the third Champions Cohort with the NASA Openscapes project team, this year focusing on, teaching lessons they adapted for geospatial and cloud analysis. The Cohort included nine international research teams from academia and government that were curious about working with NASA Earthdata in the Cloud. Many teams were interested in using data from multiple DAACs. User cloud adaption takes time, given the new conceptual mindsets and technical skillsets it requires. During the ten weeks we worked together, NASA Mentors refined and extended previous lessons to focus on thinking through and planning the transition to using the Cloud for science research and applications, and initial experiments using the Cloud through our 2i2c JupyterHub. Below are these updates and YouTube clips!</em></p>
+<p><em>There were also recurring themes/questions that we have heard before, some of which remain as open questions and continue to remain a challenge. Importantly, Amazon Web Services (AWS) Cloud onboarding, when to use what resources, how to set them up, and how to discuss needs with organizational leadership and IT staff, which often falls outside the scope of NASA DAACs, yet it’s a key element of helping users adopt the Cloud and use NASA data in the Cloud. It is encouraging to hear some of the champions starting to have conversations with their institutions, IT departments, and making their needs known, which is likely a big part of the solution, too. We are thankful to NASA Openscapes Champions for informing and nudging these conversations! All of this work is underpinned by Openscapes and NASA’s commitment to open science practices and a kinder collaborative culture. This cohort is funded by NASA and is part of our <a href="https://nasa-openscapes.github.io/">NASA Openscapes Framework project</a>.</em></p>
+<p><strong><em>Quick links:</em></strong></p>
+<ul>
+<li>Cohort webpage: <a href="https://nasa-openscapes.github.io/2024-nasa-champions" class="uri">https://nasa-openscapes.github.io/2024-nasa-champions</a></li>
+<li>Aronne Merrelli’s talk: First Forays into the Cloud: Experiences from NASA Openscapes in 2023. <a href="https://www.youtube.com/watch?v=2Yd0eR6M04Y">YouTube Video</a></li>
+</ul>
+<hr>
+<section id="nasa-champions-cohort-overview" class="level2">
+<h2 class="anchored" data-anchor-id="nasa-champions-cohort-overview"><strong>NASA Champions Cohort Overview</strong></h2>
+<p><a href="https://nasa-openscapes.github.io/">NASA Openscapes</a> is a multi-year project to develop a cohesive approach to building cloud migration capacity across NASA Earthdata from NASA’s Earth Observing System Data and Information System (<a href="https://www.earthdata.nasa.gov/eosdis">EOSDIS</a>) Distributed Active Archive Centers (<a href="https://www.earthdata.nasa.gov/eosdis/daacs">DAACs</a>) and the research teams supported by the DAACs. We do this through supporting a community of NASA DAAC mentors, who are primarily dedicated to user support. This community has learned together how to use NASA Earthdata in the Cloud. They have translated that experience into a series of hackathons, workshops, self-paced tutorial material in the <a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook/">NASA Earthdata Cloud Cookbook</a>, and through an intensive, 10-week <a href="https://nasa-openscapes.github.io/2023-nasa-champions/">NASA Openscapes Champions</a> program.</p>
+<p>User cloud adaption can often have a steep learning curve and feel overwhelming. The NASA Openscapes Champions Cohort brings together research teams that are interested in migrating their existing NASA Earthdata workflows to the Cloud with NASA DAAC Mentors who are extremely knowledgeable about the data they serve and the initial pathways to using that data in the Cloud. This Cohort provides a common, welcoming place for teams to learn together, ask questions about using the Cloud, plan their transition, and do initial experimentation using the NASA Openscapes 2i2c JupyterHub. Because this is a more intensive experience, the teams build collaborative partnerships with DAAC mentors, and the mentors can more quickly identify and work on solving issues that will make cloud migration easier for many more users. We led the <a href="https://openscapes.org/blog/2022-05-12-nasa-2022-champions/">first NASA Openscapes Champions Cohort in 2022</a>.</p>
+<p>The third NASA Openscapes Champions Cohort ran during April-May 2024 with nine research teams interested in a wide variety of NASA Earthdata and various stages of cloud technology familiarity. You can learn more about their research below.</p>
+<p><br>
+</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="zoomie-2024-nasa-champions.png" class="img-fluid figure-img" style="width:80.0%" alt="screenshot of smiling waving people in 5 x 5 grid view of a video conference"></p>
+<figcaption>Video conference screen shot (♥) of some researchers in the 2024 NASA Openscapes Champions Cohort.</figcaption>
+</figure>
+</div>
+<p>Together as a Champions Cohort, these teams discussed what worked and didn’t work as they migrated workflows to the Cloud, focusing on collaboration and Open Science. We met as a cohort five times over two months on alternating Wednesdays. Each cohort call included a welcome and code of conduct reminder and two teaching sessions with time for reflection in small groups or silent journaling and group discussion before closing with suggestions for future team meeting topics (“Seaside Chats”), Efficiency Tips, and Inclusion Tips. All topics and the slides presented are shared on the <a href="https://nasa-openscapes.github.io/2024-nasa-champions/">2024 Cohort page</a>. Additional coworking sessions were scheduled on alternate weeks, where researchers could work quietly, screenshare to ask questions, or meet with their team to discuss further. In addition, the teams have access to Openscapes’ 2i2c Jupyter Hub, which will continue for the next year.&nbsp;</p>
+<p>The NASA Openscapes Mentors supported the Champions and contributed to the curriculum (all available at <a href="https://openscapes.github.io/series" class="uri">https://openscapes.github.io/series</a>). In particular, the NASA Openscapes Champions Curriculum had important additions.&nbsp;</p>
+<ol type="1">
+<li><p><strong>Aronne Merrelli (University of Michigan, 2023 Champion) shared his experiences of First Forays into the Cloud,</strong> and how it’s possible to go from cloud novice to feeling like it’s a superpower and doing real analyses for his American Geophysical Union (AGU) poster (and beyond!). <a href="https://www.youtube.com/watch?v=2Yd0eR6M04Y">YouTube clip</a>&nbsp;</p></li>
+<li><p><strong>Catalina Taglialatela (PO.DAAC) led the Earthdata Cloud Clinic with datasets from several DAACs</strong> and using the earthaccess Python library for NASA Earthdata search &amp; access in the Cloud.&nbsp;</p></li>
+<li><p><strong>Matt Fisher (NSIDC) updated psychological safety examples</strong> - this lesson particularly resonated with the Champions teams who reflected together about how this is important for learning new things. <a href="https://www.youtube.com/watch?v=rzi-qkl8u5M">YouTube clip</a>.</p></li>
+<li><p><strong>Alexis Hunzinger (GES DISC) extended the <a href="https://docs.google.com/presentation/d/1ZbDimYsDfM_7iXc5O6a1tgKC1uFoa4Xue173wjUcCbs/edit#slide=id.p">Data strategies in the Cloud</a> lesson with considerations of environmental impact /climate change and streaming data</strong> in the same way you stream video on a streaming service such as Netflix, without downloading to a local computer or server.</p></li>
+<li><p><strong>Cassie Nickles (PO.DAAC) walked through and welcomed contributions to <a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook/">NASA Earthdata Cloud Cookbook</a>,</strong> a learning-oriented resources hub to support scientific researchers who use NASA Earthdata as NASA migrates data and workflows to the cloud.- <a href="https://www.youtube.com/watch?v=V4nW5tPYRIA">YouTube clip</a>.</p></li>
+<li><p><strong>Brianna Lind (LP DAAC,</strong> KBR Inc., under contract to the U.S. Geological Survey<strong>)’s Open Communities lesson solicited many additional examples</strong> including Cloud Native Computing Foundation (<a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook/">CNCF</a>), US Research Software Engineering (<a href="https://us-rse.org/">US-RSE</a>), Research Data Alliance (<a href="https://www.rd-alliance.org/">RDA</a>), Earth Science Information Partners (<a href="https://esipfed.org/">ESIP</a>), <a href="https://book.cryointhecloud.com/intro.html">CryoCloud</a>, <a href="https://projectpythia.org/dask-cookbook/README.html">Project Pythia</a>.</p></li>
+<li><p><strong>Mahsa Jami (LP DAAC,</strong> KBR Inc., under contract to the U.S. Geological Survey<strong>) shared <a href="https://docs.google.com/presentation/d/1HjOXgvlGcq01srJF5RD7y5sx5u8pXJzHb1E5W7s9aKc/edit#slide=id.p">coding strategies for parallelizing code</a></strong> and dove into parallel processing from a scientist perspective. “Pleasingly parallel” is a term for tasks that are completely independent from each other - for example, to validate whether each value in a dataset is within a threshold. <a href="https://www.youtube.com/watch?v=pXx9JKWkuJ4">YouTube clip</a>.</p></li>
+<li><p><strong>Luis Lopez (NSIDC) demonstrated new interactive features of the earthaccess Python library: earthaccess.explore()</strong>which provides interactivity without having to download data. This feature only streams metadata (of the dataset’s spatial coverage, volume size) and not the data itself. earthaccess.explore() enables previewing the data and helps narrow down what you may eventually want to stream to memory or download. Additional features enable you to identify different satellite swath overlaps in a selected area and save egress costs because it works more efficiently. <a href="https://www.youtube.com/watch?v=7ZVo8GWhDhQ">YouTube clip</a>.</p></li>
+<li><p><strong>Andy Teucher demoed data storage strategies in the Cloud,</strong> first via a notebook tutorial about <a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook/how-tos/using-s3-storage.html">How to store data in the Cloud</a> (including where to store and how to delete your intermediate &amp; test files) and then about <a href="https://docs.google.com/presentation/d/1iaqP8Hc4sEYBJnwftKFRhVGTaQPu2uLvQboQB-Dbeew/edit#slide=id.p">storage strategies &amp; costs</a>. <a href="https://www.youtube.com/watch?v=okardTHoYYM">YouTube clip</a>.</p></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="earthaccess-satellite-swath-overlaps.png" class="img-fluid figure-img" style="width:80.0%" alt="satellite view of land and water. blue rectangle over a segment and green lines that intersect inside the blue rectangle."></p>
+<figcaption>Luis López demonstrates new interactive features of the earthaccess Python library that enable users to identify different satellite swath overlaps in a selected area.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="storage-infrastructure.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Figure by Andy Teucher showing costs of compute (purple) and storage (blue and green) in the Cloud. HOME directory (Amazon calls this EFS on the backend) is far more expensive than the other options (Amazon calls these S3 buckets).</figcaption>
+</figure>
+</div>
+<p>Teams also heard a <strong>NASA Earthdata Cloud Update</strong> (<a href="https://docs.google.com/presentation/d/1bgAVPHUIwbobc3ASGgCliQDHaM5vgOTq5mTVuEhv6NI/edit#slide=id.p1">slides</a>) from Special Guest Justin Rice, NASA Goddard Space Flight Center, ESDIS Project Office, Deputy Project Manager/Data Systems.<br>
+</p>
+</section>
+<section id="what-we-learned-and-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="what-we-learned-and-challenges"><strong>What we learned and challenges</strong></h2>
+<p>The Openscapes Champions provides a space for teams to come together to learn from each other and across teams. It is a way to collaborate and distribute leadership roles across the various teams, helping to reduce the burden team leaders often feel of needing to learn everything first before teaching it to the rest of the team.&nbsp;</p>
+<p><strong>Here are the highlights of the third Champions Cohort:</strong></p>
+<ul>
+<li><p><strong>Science teams were using data across DAACs - more this year than ever!</strong> It felt great to demonstrate the same earthaccess workflows with datasets from different DAACs.</p></li>
+<li><p><strong>Everyone had less capacity to engage this year - both from the Mentors’ side and Champions side.</strong> We saw less activity between sessions on Slack and in Coworking. This could in part be video conferencing fatigue, but also might <strong>highlight the benefit of</strong> people (Mentors + Champions) having additional time outside of the normal five calls to experiment, ask questions, and develop. This kind of engagement has led to useful development in the past (refer to next bullet).</p></li>
+<li><p><strong>Past Champions Cohorts have resulted in useful developments, including the earthaccess Python library and MATLAB integration in the Hub.</strong> This year, emerging development is around “how to talk to your institution’s IT about your cloud needs” and NASA Plankton, Aerosol, Cloud, ocean Ecosystem (<a href="https://pace.gsfc.nasa.gov/">PACE</a>) data access. More to come!</p></li>
+<li><p><strong>We had a lot of “new” content added from what we learned in the last year (Hub storage in S3 buckets, computing concepts, psychological safety!).</strong> This meant that we spent less time on core open science skills &amp; practices that we do in the Core Champions Lesson Series (<a href="https://openscapes.github.io/series" class="uri">https://openscapes.github.io/series</a>). These core open science skills &amp; practices can help people feel confident and willing to share needs.</p></li>
+<li><p><strong>Feedback from participants was valuable:</strong></p>
+<ul>
+<li><p>“<strong>Openscapes has allowed me to see that working in Python and in the Cloud is not as scary as I once thought it was.</strong> I hope to collaborate more with others that are already using cloud computing so I can get my feet wet in some publishable research using S3 buckets. Where before I would not have thought that I could be a viable contributor.”</p></li>
+<li><p>“<strong>I used to think that cloud computing was for parallelizing processes and when you needed a really fast computer.</strong> I never thought about its ability to store data in a format that is easily accessed for VERY large data sets. I wish that more people in fisheries would start thinking about how their data could be stored in multidimensional arrays rather than flat data frames.”</p></li>
+<li><p>“<strong>Many people have great ideas but facilitators often have to work to get those ideas out into the open and the same method of getting those ideas out will NOT work on everyone.</strong> So, if you care about progress you should care about using multiple avenues to allow people to express themselves.”</p></li>
+</ul></li>
+</ul>
+<p><strong>Several challenges working with NASA Earthdata in the Cloud are still unresolved, many which apply more broadly than just NASA data and rather to user adoption of the cloud computing technology in general.</strong> These include:&nbsp;</p>
+<ul>
+<li><p><strong>While Aronne Merrelli’s story was inspiring, Champions reflected that they find it hard to think about projects that would be good for the Cloud</strong> when they have no experience using the Cloud – so how can you find a project to move to the Cloud when your brain won’t let you go there in the first place?</p></li>
+<li><p><strong>Cost - we still need to have and communicate a better sense of this.</strong> We intentionally do not have the “how much does it cost” conversation early on because our intention is to help people experience what it involves and first think about “when to cloud.” However, we do have cost numbers from previous years and plan to gather more cost statistics for the upcoming ESIP summer meeting.</p></li>
+<li><p><strong>We need to think about storage differently in the Cloud</strong> because users pay daily to store data in the Cloud. Champions commented that they often “over-produce” files because storage is cheap and access is easy on local machines. How do we learn what is really important and what we can “toss”?</p></li>
+<li><p><strong>Folks had interest in learning more about working with confidential data in the Cloud</strong>, as researchers often combine non-NASA data for their analyses and this is expected to be an increasing need.</p></li>
+<li><p><strong>Several themes/questions recurred that we have heard before and for which remain as open questions.</strong> Importantly, Amazon&nbsp;Web&nbsp;Services (AWS) Cloud onboarding, when to use what resources, how to set them up, and how to discuss needs with organizational leadership and IT staff, often falls outside the scope of NASA DAACs, yet it’s a key element of helping users adopt the Cloud and use NASA data in the Cloud. It is encouraging to hear some of the champions starting to have conversations with their institutions, IT departments, and making their needs known, which is likely a big part of the solution, too.</p></li>
+</ul>
+<p><br>
+</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="table-cloud-for-data-storage-and-compute.png" class="img-fluid figure-img" alt="Illustrated table. Column 1 is Data Storage. Row 1 is Compute.  Data storage Not Cloud &amp; Compute Not Cloud shows local server + local user. Data storage Cloud &amp; Compute Cloud is highlighted in pink, showing logo of Earthdata Cloud streaming, User in JupyterHub and earthaccess logo managing data between them"></p>
+<figcaption>Figure by Alexis Hunzinger showing the focus of cloud for data storage and compute. This figure was also used to frame the EDMW-EarthData-Workshop-2024 taught by the NOAA Coastwatch Champions team.</figcaption>
+</figure>
+</div>
+<p><br>
+</p>
+</section>
+<section id="team-pathways-and-cloud-momentum" class="level2">
+<h2 class="anchored" data-anchor-id="team-pathways-and-cloud-momentum">Team Pathways and Cloud Momentum</h2>
+<p>Part of the Openscapes Champions approach is that teams decide what to work on. The teams devoted at least 8 hours a month to focus on their workflows, learning, and collaborating within and across their teams. During this time, they thought through and discussed their current NASA Earthdata workflows and planned and experimented with transitioning their workflows to the Cloud using Openscapes’ 2i2c-hosted Jupyter Hub as a first step. As in <a href="https://openscapes.org/blog.html#category=champions">other Openscapes Champions cohorts</a>, teams also realized the power of Open Science and that open is a spectrum that includes considering future us - potentially just you or your group in 3 months.&nbsp;</p>
+<p><strong>“Fledging” was a big theme this year, especially following Aronne Merrelli’s talk.</strong> We think of this as where do researchers go to do their real science, when they leave the Openscapes 2i2c Hub for experimental purposes? What do they need to know in terms of cost estimates, docker images, administrative personnel (potentially both technical and policy)? We saw teams and the NASA DAAC mentors make substantial progress in migrating workflows to the Cloud. <strong>A few highlights from teams that participated in the cohort included:</strong><br>
+</p>
+<ul>
+<li><p><strong>The Ocean Science Analytics team experimented with and found ‎earthaccess to be insightful and useful!</strong> This was valuable as a hands-on activity. The team members have questions about setting up AWS on their own and would like to understand what tools are needed for a specific task. For example, when could dask, an open-source Python library for parallel computing, be used for a task or would another tool be more appropriate?</p></li>
+<li><p><strong>The NOAA IEA (Integrated Ecosystem Assessment) team benefitted from having an improved conceptual understanding of what is involved with cloud workflows</strong> – they would like to work with NOAA IT to understand what’s available and possible with JupyterHubs and find workable solutions, now that we understand more of the possibilities.</p></li>
+<li><p><strong>The PACE Hackweek team found Hubs ‎very instrumental in learning cloud computing and helping to create hackweek tutorials.</strong> They have used their seaside chats for tutorial development, using GitHub, and have included people outside their team. They have gained more understanding about AWS EC2/storage service by having conversations with Science Managed Cloud Environment (<a href="https://smce.nasa.gov/">SMCE</a>) for gaining access to Open Science Studio (OSS).</p></li>
+<li><p><strong>The NOAA Coastwatch team took what they learned from the Earthdata Cloud Clinic and reused it to teach 70 colleagues from across NOAA at the NOAA Enterprise Data Management Workshop</strong> in their <a href="https://nmfs-opensci.github.io/EDMW-EarthData-Workshop-2024/">EDMW-EarthData-Workshop-2024</a>. They taught the same tutorials twice, first in Python using earthaccess and then in R using earthdatalogin.</p></li>
+<li><p><strong>The Wimberly Lab Team shared their pathway with a bridge metaphor and how they are tackling challenges</strong> through talking about this in lab meetings and learning new tools together.&nbsp;</p></li>
+<li><p>Asynchronously, <strong>Lucas Barbedo from the Liu-Zhang team shared about using NASA PACE data</strong> [<a href="https://github.com/NASA-Openscapes/2i2cAccessPolicies/discussions/2#discussioncomment-9335271">comment + thread</a>] in the 2i2c JupyterHub following the Earthdata Cloud Clinic, and shared progress through a GitHub discussion: <a href="https://github.com/NASA-Openscapes/2i2cAccessPolicies/discussions/2">What’s happening on the NASA Openscapes Hub!?</a> .&nbsp;</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ecograph-pathways.png" class="img-fluid figure-img" style="width:80.0%" alt="image of a bridge below text EcoGRAPH Pathways. Below bridge are 3 columns of text in bullets labelled Current State Examples, Bridging the Gap, Potential Future Paths"></p>
+<figcaption>Figure by Wimberly Lab (Yusuf Jamal) showing the teams’ pathway with a bridge metaphor.&nbsp;</figcaption>
+</figure>
+</div>
+<p>Additional Cloud resources shared from the NOAA Enterprise Data Management Workshop</p>
+<ul>
+<li><p><a href="https://guide.cloudnativegeo.org/" class="uri">https://guide.cloudnativegeo.org/</a></p></li>
+<li><p><a href="https://abarciauskas-bgse.github.io/presentations/noaa-edmw-intro-2024.html#/title-slide">https://abarciauskas-bgse.github.io/presentations/noaa-edmw-intro-2024</a>‎</p></li>
+<li><p><a href="https://projectpythia.org/dask-cookbook/" class="uri">https://projectpythia.org/dask-cookbook/</a></p></li>
+</ul>
+</section>
+<section id="onward" class="level2">
+<h2 class="anchored" data-anchor-id="onward"><strong>Onward!</strong></h2>
+<p>If the 2024 NASA Openscapes Champions Cohort is any indication, the NASA Earthdata community is making substantial strides in building capacity to use cloud resources, and the transition is successfully happening. Although the cohort is officially over, these teams are just at their beginning, and we are excited to follow their results as they experiment with parallelizing code and incorporating storage considerations in their workflows. We plan to continue to work with them in the next year, as their 2i2c managed cloud Hub access continues. As we did last year, we are planning to offer the Carpentries Instructor Training for interested Champions this summer. The Carpentries is a nonprofit that teaches introductory coding skills around the world. Instructor Training is not coding-specific, but it is an educational approach to teaching technical topics. As part of our NASA grant, we have partnered with The Carpentries and are excited to extend this opportunity to Champions because many of them mentioned wanting to contribute more to open science efforts going forward.</p>
+<p>We are grateful to this Champion Cohort for their early adopter spirit, their time and effort to make this migration, and all the feedback and input they provided. They all participated in this cohort, knowing that while this was the third Cohort, they were among the first research teams to use NASA Earthdata in the Cloud. What they learned and shared will make it easier for subsequent teams to make this same shift. Many teams articulated this spirit of open leadership, explicitly asking how they could help other teams. We also learned so much from this cohort, which will help us refine the NASA Openscapes Champions program, as we plan for our next cohort and our work with the DAAC mentors in the future years of our project.</p>
+</section>
+<section id="about-the-nasa-openscapes-champions-teams" class="level2">
+<h2 class="anchored" data-anchor-id="about-the-nasa-openscapes-champions-teams"><strong>About the NASA Openscapes Champions Teams</strong></h2>
+<p><strong>The Liu-Zhang (University of Louisiana at Lafayette &amp; University of Southern</strong> Mississippi) team primarily uses NASA Earthdata Search to access datasets from Earth Surface Mineral Dust Source Investigation (EMIT) and The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) missions, which we then use to create algorithms for ecosystem analysis. We have a particular interest in using hyperspectral data, such as the upcoming PACE data to study vegetation and algae in water bodies. Our work involves developing deep learning models for habitat classification and analyzing water quality. Transitioning to hyperspectral imaging and deep learning greatly increases computational demands, making it challenging to execute code locally compared to leveraging cloud computing resources. Additionally, this transition enhances the accessibility of our algorithm to the public. Currently funded by EMIT and serving as early adopters of PACE, we are eager to contribute to the NASA Cookbook by offering new algorithms that apply to NASA’s latest satellite data, such as EMIT and PACE.</p>
+<p><strong>The Ocean Science Analytics team</strong> incorporates NASA data in our studies of coastal and offshore marine regions, specifically as it pertains to marine mammals. Combining in situ data from hydrophones to determine the vocal occurrence of marine mammals with remotely sensed ocean color data, we use chlorophyll, net primary productivity, sea surface temperature, etc. to characterize the associated habitat and document changes over time. As a PACE early adopter, we are incorporating PACE data in our studies through large scale observations of photosynthesizing organisms, which will allow us to incorporate direct measurements of the presence and distributions of plankton species. This in connection with feeding behavior will provide a better understanding of the spatial use of these habitats.</p>
+<p><strong>The PACE Hackweek team</strong> supports the NASA PACE mission, which launched in February 2024 and is collecting unprecedented data from our global oceans, atmosphere, and land. PACE data will be hosted in the Cloud; therefore, we are interested in learning more about cloud-based workflows to access and analyze PACE data and contribute our efforts and outcomes to our community of end-users.</p>
+<p><strong>The NOAA CoastWatch team</strong> is motivated by how rising ocean temperatures, higher sea levels, melting ice, and increasing ocean acidity are changing the way marine life and ecosystems function in our world’s oceans. This affects everything from how we manage fisheries and protect communities that depend on fishing to how we protect important habitats and species. The ocean is expected to continue changing and changes are expected to become more extreme. A lot is at stake. Improving how we use Earth data in our workflows is essential. We have much we can learn about migrating to the Cloud by connecting with other earth science teams at NASA and with the NASA Openscapes mentors.</p>
+<p><strong>The Wimberly Lab (University of Oklahoma) team</strong> explores the impacts of changing climate and landscapes on ecosystems and human health, with an emphasis on developing spatial decision support tools to support public health decisions, land use planning, and natural resource management. We address these topics through landscape, regional, and global analyses using satellite remote sensing and other sources of environmental monitoring data. Specific research areas include the effects of environmental change on vector-borne disease outbreaks, the influences of human land use and wildfires on forest landscape dynamics, the impacts of agricultural expansion and intensification on native ecosystems, and the development of computer software for disease outbreak forecasting and landscape change modeling. We conduct our research in locations throughout the world including North America, West Africa, Ethiopia, and India.</p>
+<p><strong>The NOAA IEA team’s</strong> approach provides cross-disciplinary science to support ecosystem-based management in the Gulf of Mexico. For example, we conduct research on climate-fisheries interactions, changes in species ranges and distributions, and environmental impacts on fisheries such as those driven by harmful algal blooms. We use data from earth system modeling and remotely sensed data, including sea surface temperature, sea surface height, ocean currents, wind, ocean color, salinity, dissolved oxygen, and primary production indices. We are particularly interested in integrating modern open-science techniques to automate our core deliverables, called Ecosystem Status Reports, and other data products related to NOAA surveys. We’re beginning to test some of these approaches in ongoing projects. For example, the ongoing IEA-Wind project aims to develop data baselines to track the impacts of forthcoming offshore wind energy infrastructure development. The project has been conceptualized and executed thus far with an open-data approach. We believe that a deeper understanding of the concepts and approaches offered by this Cohort would allow for a more holistic application across Gulf of Mexico IEA efforts.&nbsp;</p>
+<p><strong>The NASA SERVIR Central America team</strong> are representatives of Costa Rica’s National System of Conservation Areas (SINAC, in Spanish), the Forest Research and Services Institute of the National University of Costa Rica, and the Central America Aerospace Network (RAC, in Spanish). The NASA / USAID SERVIR program is helping to connect the Costa Rican researchers with Openscapes. The team is responsible for generating Costa Rica’s official national forest cover maps, in the context of its national forest monitoring system. Therefore, involving the team will have a notable national impact in terms of their reporting to international commitments (e.g., the United Nations Convention on Biological Diversity (CBD), the United Nations Convention to Combat Desertification (UNCCD), the United Nations Framework Convention on Climate Change (UNFCCC), and <a href="https://www.unodc.org/lpo-brazil/en/frontpage/2019/05/sdg-15-on-life-on-land--is-one-of-the-objectives-of-the-month-in-may.html#:~:text=Goal%2015%3A%20Protect%2C%20restore%20and,degradation%20and%20halt%20biodiversity%20loss">Sustainable Development Goals (SDG)</a> 15.2). The team is currently using Google Earth Engine (GEE) to access and process data from Sentinel-1 (SAR) and Sentinel-2 (optical). They combine these datasets and perform a supervised classification to generate land cover maps. While the team’s workflow is already in the Cloud (via GEE), they are interested in exploring additional computational capabilities that may be available via AWS for processing big data, including the inclusion of other datasets like that of the Landsat archive.</p>
+<p><strong>The POSTECH (University South Korea) team</strong> is actively engaged in climate modeling research, utilizing both Python and NCAR Command Language (NCL) scripts to analyze climate data. We are eager to expand our knowledge and skills by collaborating with experts in the field, and we are keen to explore new methodologies and insights. Joining your team presents an exciting opportunity for us to enhance our expertise and broaden our exposure to cutting-edge techniques in climate science.</p>
+<p><em>Disclaimer: Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</em></p>
+<p><em>Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise, does not constitute or imply its endorsement by the United States Government or the Jet Propulsion Laboratory, California Institute of Technology.</em></p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{thornton_(ornl)2024,
+  author = {Thornton (ORNL), Michele and Taglialatela (PO.DAAC, Jet
+    Propulsion Laboratory, California Institute of Technology), Catalina
+    and Lopez (NSIDC), Luis and Fisher (NSIDC), Matt and Hunzinger (GES
+    DISC), Alexis and Lind (LP DAAC, KBR Inc., under contract to the
+    U.S. Geological Survey), Bri and Jami (LP DAAC, KBR Inc., under
+    contract to the U.S. Geological Survey), Mahsa and Nickles (PO.DAAC,
+    Jet Propulsion Laboratory, California Institute of Technology),
+    Cassie and Teucher (NASA Openscapes), Andy and Merrelli (University
+    of Michigan \&amp; 2023 Champion), Aronne and Robinson, Erin and
+    Lowndes, Julie and Openscapes Mentors, NASA},
+  title = {NASA {Champions} 2024: {Data} Strategies for When to Use
+    Cloud, Coding Strategies for Parallelization, \&amp; First Examples of
+    Big Science in the {Cloud}},
+  date = {2024-07-24},
+  url = {https://nasa-openscapes.github.io/news/2024-07-24-2024-nasa-champions-cohort/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-thornton_(ornl)2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Thornton (ORNL), Michele, Catalina Taglialatela (PO.DAAC, Jet Propulsion
+Laboratory, California Institute of Technology), Luis Lopez (NSIDC),
+Matt Fisher (NSIDC), Alexis Hunzinger (GES DISC), Bri Lind (LP DAAC, KBR
+Inc., under contract to the U.S. Geological Survey), Mahsa Jami (LP
+DAAC, KBR Inc., under contract to the U.S. Geological Survey), et al.
+2024. <span>“NASA Champions 2024: Data Strategies for When to Use Cloud,
+Coding Strategies for Parallelization, &amp; First Examples of Big
+Science in the Cloud.”</span> July 24, 2024. <a href="https://nasa-openscapes.github.io/news/2024-07-24-2024-nasa-champions-cohort/">https://nasa-openscapes.github.io/news/2024-07-24-2024-nasa-champions-cohort/</a>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/nasa-openscapes\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© CC-By NASA Openscapes</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>, with theme from <a href="https://github.com/rstudio/vetiver.rstudio.com">vetiver</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
