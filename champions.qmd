@@ -9,9 +9,9 @@ output:
     toc_depth: 3
 ---
 
-**Join us for our Spring 2024 NASA Champions Cohort, details below!**
+<!---**Join us for our Spring 2024 NASA Champions Cohort, details below!** --->
 
-<!---**Details for our Spring 2024 NASA Champions Cohort will be available in February!** --->
+**Details for our Spring 2025 NASA Champions Cohort will be available in February!**
 
 
 ## Overview
@@ -32,8 +32,9 @@ output:
 
 ## Champions Program Details
 
-<!---*details coming soon for April-June 2024*--->
+*details coming in February for April-June 2025*
 
+<!---
 **This NASA Openscapes Champions Cohort will run from April-May 2024!** We will meet as a cohort five times over two months, on alternating Wednesdays, with additional optional coworking times. 
 
 -   **Dates:** April 3, 17, May 1, 15, 29.
@@ -50,7 +51,12 @@ output:
 
 Please submit one nomination per team, preferably by the team lead (faculty, principal investigator, etc). Participants from previous cohorts are welcome. We will confirm participation on a rolling basis.
 
+
+--->
+
 ## Learn more
+
+
 
 <!---
 
@@ -64,6 +70,10 @@ Please submit one nomination per team, preferably by the team lead (faculty, pri
 
 **Learn more about the [Openscapes Champions Program](https://openscapes.org/champions)**, [NASA Openscapes News](news.qmd), [stories from previous cohorts](https://openscapes.org/blog#category=champions), and [FAQs about forming your team](https://openscapes.org/faq). Questions? Contact Openscapes: julia at openscapes.org
 
+
+## 2024 NASA Champions Cohort
+
+[Meet the 9 science teams](https://nasa-openscapes.github.io/2024-nasa-champions/) who participated in the 2024 NASA Champions Cohort, and learn more about their work in this blog post: [Data strategies for when to use cloud, coding strategies for parallelization, & first examples of big science in the Cloud](https://nasa-openscapes.github.io/news/2024-07-24-2024-nasa-champions-cohort/)
 
 
 ## 2023 NASA Champions Cohort
