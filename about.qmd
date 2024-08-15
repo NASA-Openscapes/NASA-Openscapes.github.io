@@ -58,6 +58,8 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
+- [earthacces: Simplifying Earth Science in The Cloud](https://docs.google.com/presentation/d/1Ot879tfrjhok3BzSwSUr2Xpd26dX-hyVGHQzATLVRTo/edit?pli=1#slide=id.g6c52a2e8d8_0_177) - Luis López (NSIDC) et al., August 14, 2024. [posit::conf](https://posit.co/conference/)
+
 - [Supporting NASA Earthdata users in the Cloud: NASA Openscapes onboarding & fledging](https://docs.google.com/presentation/d/1-TiPN8bfY6iDL5EVcEuCQSjqFMs3jPSX2MlNWA6no2E/edit#slide=id.g2eae202a90f_4_248) - Alexis Hunzinger (GES DISC), Danny Kaufman (ASDS), Aaron Friesz (LP DAAC), Andy Barrett (NSIDC), Rhys Leahy (GES DISC), Michele Thronton (ORNL), Eli Holmes (NOAA Fisheries), Julie Lowndes (Openscapes). July 23, 2024. [ESIP Summer Meeting](https://2024julyesipmeeting.sched.com/event/1eVNz/mt-pisgah-supporting-nasa-earthdata-users-in-the-cloud-nasa-openscapes-onboarding-and-fledging)
 
 - [How the NASA Openscapes community supports Earthdata users migrating workflows to the Cloud](https://docs.google.com/presentation/d/1CVom4_fWYz309Oqlzl-lTRHxmyzP-Vj_IWJO-XbzLyQ/edit#slide=id.g1ff9784e90d_0_0) - Julie Lowndes, May 30, 2024. Ocean Biology (OB.DAAC) User Working Group.
