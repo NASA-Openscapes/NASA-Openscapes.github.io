@@ -30,10 +30,10 @@ NASA Openscapes is the main access point for NASA Earth science & tutorial devel
 
 ## 2024 focus
 
-- **earthaccess**
-- **Cloud infrastructure**
-- **Cookbook**
-- **Workshop planning**
+-   **earthaccess**
+-   **Cloud infrastructure**
+-   **Cookbook**
+-   **Workshop planning**
 
 ## Our schedule
 
@@ -42,6 +42,7 @@ NASA Openscapes is the main access point for NASA Earth science & tutorial devel
 We have twice-monthly **Mentor Calls**, which are planning and learning sessions that currently are semi-structured. We kickoff those calls with about 10 mins of check in and agenda design and then we will move to proposed topics, including professional development skills like coaching. In alternating weeks, we have **Coworking sessions** to work on shared goals together, screensharing and often working in the 2i2c JupyterHub and in GitHub. **Hackdays** are additional times set to advance our four specific focus areas above.
 
 ### Calendar
+
 Coworking sessions & hackdays are open to anyone to join; see our [MainPlanning GitHub Project](https://github.com/orgs/NASA-Openscapes/projects/7/views/3).
 
 1.  **Winter & Spring -** We have twice-monthly Mentor Calls and Coworking sessions in alternating weeks. February-May focused extended Hackday sessions with focus listed above.
@@ -50,17 +51,26 @@ Coworking sessions & hackdays are open to anyone to join; see our [MainPlanning 
 
 3.  **Summer and ESIP meeting -** In July and August we planned to take a break from our biweekly calls to let this group rest. However, there was interest to keep the momentum and ability to collaborate with anyone available, so we have continued to host biweekly calls and move forward with AGU workshop proposals, and have guest speakers. In July many Mentors met in person at the ESIP Summer Conference in Vermont, including for a one-day retreat-workshop to shape sustainability plans for the group.
 
-4.  **Fall -** We onboard new mentors; we will have our first Mentor Call with the full group of mentors - to introduce everyone and orient around the NASA Openscapes project. Our initial call will include sharing plans, UWGs and other events on the calendar and continuing [onboarding new DAAC mentors](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding.html). In [preparing for AGU workshops](https://github.com/NASA-Openscapes/2023-planning-agu) in December, returning DAAC mentors will lead teaching dry runs with the cloud tutorials as a way to onboard the group to data access in the cloud and to get your fresh perspective on our existing material. (What works? What's confusing?). 
+4.  **Fall -** We onboard new mentors; we will have our first Mentor Call with the full group of mentors - to introduce everyone and orient around the NASA Openscapes project. Our initial call will include sharing plans, UWGs and other events on the calendar and continuing [onboarding new DAAC mentors](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding.html). In [preparing for AGU workshops](https://github.com/NASA-Openscapes/2023-planning-agu) in December, returning DAAC mentors will lead teaching dry runs with the cloud tutorials as a way to onboard the group to data access in the cloud and to get your fresh perspective on our existing material. (What works? What's confusing?).
 
+### Mentors Retreat 2024
+
+**We are excited to be hosting a NASA Openscapes Mentors Retreat Oct 16-17 2024 (remotely, online).** Please share this email with your DAAC Managers. This retreat will bring together user support staff from across the DAACs that have engaged as leaders through NASA Openscapes and are helping users migrate workflows using NASA Earthdata to the cloud. It is also a way to onboard new user support staff as mentors. NASA Openscapes is not meant to be extra time, but time where people do their existing work in a different way – with open source science workflows to tackle common things together. We have seen the biggest momentum when there are 2-3 mentors at each DAAC, so that pairs/trios can work together within their DAAC as they bring back what they learn from cross-DAAC work. NASA Openscapes Lead Julie Lowndes is happy to email/meet with mentors and managers for any questions. More momentum & background below.
+
+**Retreat Details - Oct 16-17 2024, 10am-2pm PT each day (remotely, online).** We see the main value of this retreat as a chance to reconnect and ​​reinvigorate our cross-DAAC community. We will hear from many voices to share progress and barriers to support users, and onboard more of our growing community as contributors as we refine our shared vision for momentum forward. **Mentor actions by Sept 20: Please confirm Y/N in [this spreadsheet](https://docs.google.com/spreadsheets/d/1i7dm6NfQoVGDKXP8wQqpkEI7maimaNhQewEEWb3-v5E/edit?usp=sharing)** if you are able to attend, and protect this time as intensively as if we were in person. We will follow up with report-out summaries and ways to contribute and for mentors not able to join.
+
+**Momentum - NASA Openscapes Mentors have created “go-to” resources for staff and users across DAACs** **– such as the earthaccess python library and tutorials in the Earthdata Cloud Cookbook.** Over the last 3.5 years, mentors have developed a supportive community and created these resources in response to teaching hundreds of DAAC users via workshops and events together, and then further iterated through active use, documentation, and teaching. A recent talk showcasing this work is [Supporting NASA Earthdata users in the Cloud: NASA Openscapes onboarding & fledging](https://docs.google.com/presentation/d/1-TiPN8bfY6iDL5EVcEuCQSjqFMs3jPSX2MlNWA6no2E/edit#slide=id.g2eae202a90f_4_248); all work is developed openly and linked from <https://nasa-openscapes.github.io>. 
+
+**Background - Openscapes is an open source approach and a movement.** It is a way to work together that shifts culture by helping people find each other and collaboratively evolve their work with modern and kind open data science workflows. Openscapes launched in 2018 through funding from Mozilla, via an open science fellowship awarded to Julia Lowndes. Openscapes grew with funding from NASA Earthdata, via decades-long community building leadership by Erin Robinson. In addition to our flagship Champions program that helps science teams shift workflows to open science, we lead multi-year projects with NASA and NOAA. Our NASA work supports scientific researchers using data from NASA Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud; our NOAA work is part of the Biden-Harris Administration’s Inflation Reduction Act funds to support NOAA Fisheries’ data, infrastructure, and workforce modernization. In 2022, Lowndes formed Openscapes LLC, a certified Woman-Owned Small Business to support Openscapes work sustainably. Lowndes is also an affiliate at UC Santa Barbara, after 11 years as a Project Scientist at the National Center for Ecological Analysis and Synthesis (NCEAS).
 
 # Ongoing and Previous Activities
 
 ## 2023 goals
 
-- Strengthen the DAAC Mentor community as they develop and teach a common set of tutorials and coordinate and lead learning events, in part through our twice monthly Openscapes Cohort Calls.
-- Reuse and refine shared teaching resources, share stories and lessons learned at conferences and meetups
-- Lead events together (a hackathon and Champions cohort) with research teams, with Mentors assisting to support researchers and learn new modalities of support
-- Identify a plan for sustainability, including the technical and social infrastructure needed. Shift to a more of a community structure from a cohort structure
+-   Strengthen the DAAC Mentor community as they develop and teach a common set of tutorials and coordinate and lead learning events, in part through our twice monthly Openscapes Cohort Calls.
+-   Reuse and refine shared teaching resources, share stories and lessons learned at conferences and meetups
+-   Lead events together (a hackathon and Champions cohort) with research teams, with Mentors assisting to support researchers and learn new modalities of support
+-   Identify a plan for sustainability, including the technical and social infrastructure needed. Shift to a more of a community structure from a cohort structure
 
 **Calendar 2023**
 
@@ -95,7 +105,6 @@ This Fall we will also be working with [Coiled.io](https://www.coiled.io/), with
 
 This Fall during our coworking calls we'll focus one breakout room on R tutorial development for the Cookbook. We'll be joined by [Carl Boettiger](https://www.carlboettiger.info/) (Department of [Environmental Science, Policy and Management](http://ourenvironment.berkeley.edu/) and [Eric and Wendy Schmidt Center for Data Science & Environment](https://dse.berkeley.edu/about) at UC Berkeley, co-founder of [rOpenSci](https://ropensci.org/))!
 
-
 **2022 goals:**
 
 -   Strengthen the DAAC Mentor community of practice as they develop and teach a common set of tutorials and coordinate and lead learning events, in part through our twice monthly Openscapes Cohort Calls
@@ -122,9 +131,7 @@ This Fall during our coworking calls we'll focus one breakout room on R tutorial
 
 ### 2022 NASA Champions Cohort
 
-This is a Cohort for research teams using NASA Earthdata and transitioning workflows to the Cloud.
-
-<https://nasa-openscapes.github.io/2022-nasa-champions/>
+Please see the [Champions page](champions.qmd)!
 
 ### 2021 Cloud Hackathon
 
@@ -202,8 +209,7 @@ Alaska Satellite Facility (ASF)
 
 ### Ian Carroll
 
-Dr. Carroll is an Associate Research Scientist at the University of Maryland Baltimore County working at NASA Goddard Space Flight Center on phytoplankton community ecology and data science. Phytoplankton are a diverse collection of photosynthetic organisms, found in all water bodies, that range in size from less-than a micron to millimeters in length. Despite their small size, their presence in the photic zone can be detected from space due to their light-absorbing pigments. Dr. Carroll investigates machine learning approaches to predicting the community composition (abundances of each type) of phytoplankton using data from ocean color instruments. He also supports science data production for NASA's PACE mission.
-### Matt Fisher
+Dr. Carroll is an Associate Research Scientist at the University of Maryland Baltimore County working at NASA Goddard Space Flight Center on phytoplankton community ecology and data science. Phytoplankton are a diverse collection of photosynthetic organisms, found in all water bodies, that range in size from less-than a micron to millimeters in length. Despite their small size, their presence in the photic zone can be detected from space due to their light-absorbing pigments. Dr. Carroll investigates machine learning approaches to predicting the community composition (abundances of each type) of phytoplankton using data from ocean color instruments. He also supports science data production for NASA's PACE mission. \### Matt Fisher
 
 National Snow & Ice Data Center (NSIDC)
 
