@@ -82,7 +82,9 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
--   [earthacces: Simplifying Earth Science in The Cloud](https://docs.google.com/presentation/d/1Ot879tfrjhok3BzSwSUr2Xpd26dX-hyVGHQzATLVRTo/edit?pli=1#slide=id.g6c52a2e8d8_0_177) - Luis López (NSIDC) et al., August 14, 2024. [posit::conf](https://posit.co/conference/)
+- [Forking as a Worldview: A big idea that frames Openscapes thinking](https://docs.google.com/presentation/d/1u0pQ3p3eNMxPn44GsZF0OKxhnJem7MD_3MWp8W_qXp8/edit#slide=id.g2f7acce46f8_0_357) - Julie Lowndes. September 10, 2024. NASA Earthdata PI Planning Plenary.
+
+-   [earthaccess: Simplifying Earth Science in The Cloud](https://docs.google.com/presentation/d/1Ot879tfrjhok3BzSwSUr2Xpd26dX-hyVGHQzATLVRTo/edit?pli=1#slide=id.g6c52a2e8d8_0_177) - Luis López (NSIDC) et al., August 14, 2024. [posit::conf](https://posit.co/conference/)
 
 -   [Supporting NASA Earthdata users in the Cloud: NASA Openscapes onboarding & fledging](https://docs.google.com/presentation/d/1-TiPN8bfY6iDL5EVcEuCQSjqFMs3jPSX2MlNWA6no2E/edit#slide=id.g2eae202a90f_4_248) - Alexis Hunzinger (GES DISC), Danny Kaufman (ASDS), Aaron Friesz (LP DAAC), Andy Barrett (NSIDC), Rhys Leahy (GES DISC), Michele Thronton (ORNL), Eli Holmes (NOAA Fisheries), Julie Lowndes (Openscapes). July 23, 2024. [ESIP Summer Meeting](https://2024julyesipmeeting.sched.com/event/1eVNz/mt-pisgah-supporting-nasa-earthdata-users-in-the-cloud-nasa-openscapes-onboarding-and-fledging) ([video](https://www.youtube.com/watch?v=lZ9R8LjUcsY&list=PL8X9E6I5_i8iIFrualb2PriPQoF52aIPh&index=9))
 
