@@ -1,0 +1,36 @@
+---
+title: "Community Call: Openscapes Goes to The White House!"
+description: |
+  Julie Lowndes & Ileana Fenwick will debrief their White House trip and share the  celebration of Openscapes being recognized at the 'Celebration of the OSTP Year of Open Science Recognition Challenge Winners'
+author:
+  - name: Openscapes
+#    url: {}
+date: "2024-09-26"
+categories: [event, community-call, nasa-framework, noaa-fisheries, pathways]
+image: white-house.png
+---
+
+*Cross-posted at [openscapes.org/blog](https://openscapes.org/blog), [nmfs-openscapes.github.io/blog](https://nmfs-openscapes.github.io/blog.html), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html), [openscapes.github.io/pathways-to-open-science/blog](https://openscapes.github.io/pathways-to-open-science/blog.html)*
+
+**Date**: Thursday, September 26, 2024\
+**Time**: 1:00 - 2:00 pm PT ([find your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Community+Call%3A+Openscapes+Goes+to+the+White+House&iso=20240926T13&p1=1050&ah=1))\
+<!--- **Where**: Zoom 
+---> **Register (free)** via [Zoom](https://zoom.us/meeting/register/tJwvce2grzwsHtY5fAG5DWmp2m3wOw0T9_6q) to get the meeting link\
+<!--- **View** [event summary and video](/blog/2024-02-28-github-community-call)
+--->
+
+### Openscapes is being recognized at the "Celebration of the OSTP Year of Open Science Recognition Challenge Winners" at The White House!
+
+Julia Lowndes and Ileana Fenwick will be representing the Openscapes Team and our community at two events in Washington DC September 18 -19, 2024. Ileana & Julie will be attending and Julie is an invited panelist at the [Open Science Dynamic Convergence Workshop](Open Science ‘Dynamic Convergence’ Workshop) and they are attending the Celebration of the OSTP Year of Open Science Recognition Challenge Winners at The White House!
+
+This is a BIG DEAL. We're so excited that Openscapes is being recognized and to share this moment.
+
+**Our September 26 Community Call debriefing The White House trip** will continue the celebration as Ileana and Julie interview each other to share their excitement, some anxiousness, and their experiences, underpinned by so much hard work over years. Why was Openscapes recognized? Who else was there? How did you prepare? What was your 'big ask'? What would you like to ask them?
+
+## Resources
+
+-   The [Open Science Dynamic Convergence Workshop](Open Science ‘Dynamic Convergence’ Workshop) brings together researchers, students, policymakers, funders, and other stakeholders to highlight impactful open science activities, explore collaboration opportunities, and find practical ways to speed up the global adoption of open science.
+-   Openscapes post: [Biden-Harris Administration announces support for NOAA Fisheries’ data, infrastructure, and workforce modernization in part via Openscapes](https://openscapes.org/blog/2024-08-19-biden-harris-noaa-fisheries/)
+-   NOAA Fisheries announcement Aug 15, 2024: [Biden-Harris Administration Announces \$34 Million to Modernize NOAA Fisheries’ Data, Infrastructure and Workforce](https://www.fisheries.noaa.gov/media-release/biden-harris-administration-announces-34-million-modernize-noaa-fisheries-data)
+-   Openscapes post: [White House Fact Sheet Mentions Openscapes!](https://openscapes.org/blog/2024-02-09-white-house-factsheet-openscapes/)
+-   [FACT SHEET: Biden-⁠Harris Administration Marks the Anniversary of OSTP’s Year of Open Science](https://www.whitehouse.gov/ostp/news-updates/2024/01/31/fact-sheet-biden-harris-administration-marks-the-anniversary-of-ostps-year-of-open-science/), Jan 31, 2024
