@@ -1,0 +1,29 @@
+---
+title: "Plenary at internal NASA meeting: Together We Innovate"
+description: |
+  PI Planning, Fall 2024
+author:
+  - name: Openscapes
+#    url: {}
+date: "2024-09-10"
+categories: [event, nasa-framework]
+image: ForkingWorldview_NASA-PI-Planning_slide1_2024-09-10.png
+---
+
+*Cross-posted at [openscapes.org/blog](https://openscapes.org/blog), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html)*
+
+------------------------------------------------------------------------
+
+[Julie Lowndes](https://openscapes.org/team) gave a talk:
+
+**Title:** Forking as a worldview
+
+**Abstract:** Forking is a concept from software development, which has evolved with open source software and the internet. Forking means taking something that works and is made available, and adapting it to your own use, while being networked back to the source – this networking serves dual purposes of being able to contribute back and also to provide appropriate credit. Forking “something” has traditionally been code, but it can be applied to nearly anything. It is about taking something that works to new places to solve problems faster. Since 2018, Openscapes has been working with teams in government and academia to help upskill science teams to work on big collaborative challenges through open science. With NASA Openscapes, this big challenge is upskilling people that use NASA Earthdata to migrate their workflows to cloud computing, as NASA Earthdata holdings migrate to the cloud. We’ve supported this effort through developing a mentor community across NASA Earth science data centers (DAACs) to co-create common tutorials and develop skills for teaching, mentoring, facilitation. And, in the process, we’ve forked a lot of code, documentation, workshop setup, slides, art, teaching approaches, and even whole programs like NOAA Fisheries Openscapes and Pathways to Open Science. We’ve come to realize that forking is a way of thinking, a worldview. Forking is an important thing to call out as we think about how we innovate together through open science, and I'm excited to talk about it with you all!
+
+Following the talk, she remarked,
+
+::: {.blockquote-blue}
+> *"I just gave a plenary at an internal NASA meeting (240 people): [Forking as a Worldview: A big idea that frames Openscapes thinking](https://docs.google.com/presentation/d/1u0pQ3p3eNMxPn44GsZF0OKxhnJem7MD_3MWp8W_qXp8/edit#slide=id.g2f7acce46f8_0_0). I talked about forking as reusing what works in new places, with examples of [earthaccess](https://earthaccess.readthedocs.io/en/latest/) forking the open source software dev approach into government, and NASA Openscapes and then NOAA Fisheries Openscapes forking open source frameworks to tackle big challenges (cloud migration, data modernization). I shared what people can do to develop forking as a worldview through centering inclusion, and real challenges as individuals and orgs make these shifts. And, why it’s worth it: so we can tackle big challenges together and increase morale for teams doing this hard work. So much here from what the whole Openscapes community is doing, I wish we could call out every single example you do to celebrate! Kudos also to Liz Neeley (Liminal) and Maryam Zaringhalam (The White House, NIH National Libraries of Medicine), who reacted to the “forking” concept so much it inspired me to center a whole talk around it, and Erin Robinson – turns out, forking is the first step of the [Openscapes Flywheel](https://openscapes.org/approach#openscapes-flywheel):)"*
+:::
+
+![](ForkingWorldview_NASA-PI-Planning_slide1_2024-09-10.png){fig-alt="Title slide of talk, white text on blue background: Forking as a Worldview. A big idea that frames Openscapes thinking. Julie Lowndes and the Openscapes community. NASA Earthdata PI Planning Plenary. To right, a half-globe satellite image of Earth showing clouds, water, South America" width="60%"}
