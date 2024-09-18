@@ -80,6 +80,6 @@ Recordings and slides are linked from the posts below.
 
 -   September 10: [Forking as a Worldview: A big idea that frames Openscapes thinking](https://openscapes.org/events/2024-09-10-nasa-pi-plenary/). Julie Lowndes gave a plenary talk at NASA’s internal PI Planning meeting and talked about forking as reusing what works in new places, with examples of earthaccess package development forking the open source software dev approach into government, and NASA Openscapes and then NOAA Fisheries Openscapes forking open source frameworks to tackle big challenges (cloud migration, data modernization). And it turns out, forking is the first step of the Openscapes Flywheel :)
 
-Thank you for reading, and for all that you do. Read more about what this amazing community has been up to via [blog posts](../../blog.qmd), talks on our [media page](../../media.qmd) and [events page](../../events).
+Thank you for reading, and for all that you do. Read more about what this amazing community has been up to via [blog posts](https://openscapes.org/blog), talks on our [media page](https://openscapes.org/media) and [events page](https://openscapes.org/events).
 
 ![Photo by Elliot Lowndes](mr-lowndesDSCF1746-square.jpg){fig-alt="photo with fluffy clouds dominating a blue sky, blue-grey mountains in background, purple clusters of flowers in foreground, green-yellow groundcover and a river barely visible in midground running across the photo" width="50%"}
