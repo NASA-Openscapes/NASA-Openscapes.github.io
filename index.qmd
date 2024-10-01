@@ -14,8 +14,7 @@ We are influenced and inspired by many leaders and community organizers, particu
 
 **Upcoming Events:**
 
--   **Community Call September 26**: Openscapes Goes to The White House! Julie Lowndes & Ileana Fenwick will debrief their White House trip and share the celebration of Openscapes being recognized at the ‘Celebration of the OSTP Year of Open Science Recognition Challenge Winners’. [Details & Registration](https://openscapes.org/events/2024-09-26-openscapes-whitehouse/)
--   [Open Science ‘Dynamic Convergence’ Workshop](https://openscapes.org/events/2024-09-18-dynamic-convergence/), hosted by the Open Research Community Accelerator (ORCA), in collaboration with CERN and UNESCO, with the participation of NASA and the National Science Foundation (NSF). Sep 18-19, 2024. Openscapes core team members Julia Lowndes and Ileana Fenwick are attending; Julie is an invited panel speaker.
+-   NASA Openscapes Mentors Retreat Oct 16-17 2024 (remotely, online)
 -   Just published! A paper co-authored by Openscapes Mentors across organizations – including NASA Earthdata, NOAA Fisheries, EPA, California Water Boards, Pathways to Open Science, Fred Hutch Cancer Center: [Shifting institutional culture to develop climate solutions with Open Science](https://onlinelibrary.wiley.com/doi/10.1002/ece3.11341), Ecology and Evolution, 2024.
 
 Learn about our recent work: [News](news.qmd) • [Presentations](/about.qmd#slides) • [Annual Reports](https://github.com/NASA-Openscapes/how_we_work) • [Flywheel Preprint](https://nasa-openscapes.github.io/about.html#flywheel-preprint) • [White Paper: The Value of Hosted JupyterHubs](https://nasa-openscapes.github.io/about.html#white-paper-value-of-hosted-jupyterhubs)
