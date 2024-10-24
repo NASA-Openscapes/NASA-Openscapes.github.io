@@ -63,6 +63,8 @@ Through this work, some highlights of impact to date: (1 Engage): 7 DAACs partic
 
 **Additional blogs about our work:**
 
+- [Easier Access to NASA Earth Science Data in the Cloud](https://www.earthdata.nasa.gov/news/easier-access-nasa-earth-science-data-cloud), June 5, 2024, NASA Earthdata Blog.
+
 -   [Cooking up collaborative resources on how to use the Earthdata Cloud](https://nsidc.org/news-analyses/news-stories/cooking-collaborative-resources-how-use-earthdata-cloud), October 10, 2023. National Snow and Ice Data Center (NSIDC)
 
 -   [Using the NASA Openscapes Framework to enable open science](https://nsidc.org/news-analyses/news-stories/using-nasa-openscapes-framework-enable-open-science), by Audrey Payne, March 14, 2023. National Snow and Ice Data Center (NSIDC)
