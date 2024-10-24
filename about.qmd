@@ -63,6 +63,8 @@ Through this work, some highlights of impact to date: (1 Engage): 7 DAACs partic
 
 **Additional blogs about our work:**
 
+- [From Onboarding to Fledging and Beyond—An Openscapes Journey](https://earthdata.nasa.gov/news/blog/from-onboarding-fledging-beyond-openscapes-journey), September 17, 2024. NASA Earthdata blog.
+
 - [Easier Access to NASA Earth Science Data in the Cloud](https://www.earthdata.nasa.gov/news/easier-access-nasa-earth-science-data-cloud), June 5, 2024, NASA Earthdata Blog.
 
 -   [Cooking up collaborative resources on how to use the Earthdata Cloud](https://nsidc.org/news-analyses/news-stories/cooking-collaborative-resources-how-use-earthdata-cloud), October 10, 2023. National Snow and Ice Data Center (NSIDC)
