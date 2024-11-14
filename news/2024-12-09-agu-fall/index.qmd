@@ -1,0 +1,41 @@
+---
+title: "AGU: What's Next for Science"
+description: "Presentations from the Openscapes community - NASA Earthdata, NOAA Fisheries, EPA, and the Openscapes Team -  at the American Geophysical Union (AGU) 2024 conference"
+author: Openscapes
+date: 2024-12-09
+categories: 
+  - event 
+  - conference
+  - nasa-framework
+  - noaa-fisheries
+  - pathways
+image: "agu-fall-2024.png"
+---
+
+*Cross-posted at [openscapes.org/events](https://openscapes.org/events), [nmfs-openscapes.github.io/blog](https://nmfs-openscapes.github.io/blog), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html), [openscapes.github.io/pathways-to-open-science/blog](https://openscapes.github.io/pathways-to-open-science/blog.html)*
+
+------------------------------------------------------------------------
+
+At this year’s [AGU Fall Meeting](https://www.agu.org/annual-meeting), the Openscapes team and mentors and collaborators from across different agencies - NASA Earthdata, NOAA Fisheries, EPA, UC Berkeley - will be giving talks and posters and participating in hackathons. Below we list just a few highlights. For a full list and up-to-date information, see our [AGU 2024 planning repo](https://github.com/NASA-Openscapes/2024-agu-planning/) and the [AGU Searchable Schedule](https://agu.confex.com/agu/agu24/meetingapp.cgi/Home/0). Have a great Fall Meeting and we hope to connect with you there!
+
+![](agu-fall-2024.png){fig-alt="AGU 2024 meeting logo white text on blue background says AGU24 Washington, DC | 9-13 December 2024 above a teal horizontal line, then text What's Next for Science" fig-align="center" width="300"}
+
+### Monday Dec 09
+
+**Poster - a collaboration across NASA DAACs**: Supporting NASA Earthdata users in the Cloud: NASA Openscapes JupyterHub and User Onboarding & Fledging. Contact: Julie Lowndes (Openscapes) [AGU link](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1708480)
+
+**Talk - a collaboration across NASA, NOAA Fisheries, and UC Berkeley**: py-rocket: A Docker image to promote cross-language (Python, R) collaboration across diverse user platforms for cloud computing in the earth sciences. Contact: Eli Holmes (NOAA Fisheries), Carl Boettiger (UC Berkeley), Luis López (NASA NSIDC). [AGU link](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1619232)
+
+**Poster - following Openscapes' [award](https://openscapes.org/blog/2024-10-03-openscapes-recognized-white-house/) at the White House**: Including more solutions and more solvers via actionable open science. Contact: Julie Lowndes (Openscapes), Luis López (NASA NSIDC), Eli Holmes (NOAA Fisheries), Ileana Fenwick (Openscapes), Erin Robinson (Metadata Game Changers). [AGU link](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1709763).
+
+### Wednesday Dec 11
+
+**Poster - a collaboration across NASA Earthdata**: The earthaccess Python Library: Awesome Discovery and Access of NASA Earthdata. Contact: Amy Steiker (NASA NSIDC). [AGU link](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1706883).
+
+### Friday Dec 13
+
+**Talk - Openscapes at the EPA**: Cultivating open and collaborative data science at a U.S. EPA research center. Contact: Gayle Hagler (EPA). [AGU link](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1621791).
+
+### Saturday Dec 14
+
+**Hackday**: We'll join Pangeo's hackday to meet and work with other open science/ cloud/ geospatial folks! [Pangeo link](https://discourse.pangeo.io/t/post-agu-pangeo-hack-day-working-meeting-december-14-2024-in-washington-dc/4440).
