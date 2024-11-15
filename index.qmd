@@ -14,8 +14,8 @@ We are influenced and inspired by many leaders and community organizers, particu
 
 **Upcoming Events:**
 
--   NASA Openscapes Mentors Retreat Oct 16-17 2024 (remotely, online)
--   Just published! A paper co-authored by Openscapes Mentors across organizations – including NASA Earthdata, NOAA Fisheries, EPA, California Water Boards, Pathways to Open Science, Fred Hutch Cancer Center: [Shifting institutional culture to develop climate solutions with Open Science](https://onlinelibrary.wiley.com/doi/10.1002/ece3.11341), Ecology and Evolution, 2024.
+-   [AGU Fall Meeting](https://nasa-openscapes.github.io/news/2024-12-09-agu-fall/), Dec 9 - 13. Talks and posters from Openscapes Mentors and collaborators across agencies - NASA DAACs, NOAA Fisheries, U.S. EPA, UC Berkeley, and more.
+-   Published! A paper co-authored by Openscapes Mentors across organizations – including NASA Earthdata, NOAA Fisheries, EPA, California Water Boards, Pathways to Open Science, Fred Hutch Cancer Center: [Shifting institutional culture to develop climate solutions with Open Science](https://onlinelibrary.wiley.com/doi/10.1002/ece3.11341), Ecology and Evolution, 2024.
 
 Learn about our recent work: [News](news.qmd) • [Presentations](/about.qmd#slides) • [Annual Reports](https://github.com/NASA-Openscapes/how_we_work) • [Flywheel Preprint](https://nasa-openscapes.github.io/about.html#flywheel-preprint) • [White Paper: The Value of Hosted JupyterHubs](https://nasa-openscapes.github.io/about.html#white-paper-value-of-hosted-jupyterhubs)
 

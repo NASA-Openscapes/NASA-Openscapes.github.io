@@ -30,7 +30,7 @@ At this year’s [AGU Fall Meeting](https://www.agu.org/annual-meeting), the Ope
 
 ### Wednesday Dec 11
 
-**Poster - a collaboration across NASA Earthdata**: The earthaccess Python Library: Awesome Discovery and Access of NASA Earthdata. Contact: Amy Steiker (NASA NSIDC). [AGU link](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1706883).
+**Poster - a collaboration across NASA DAACs,** **University of Alaska, University of New Hampshire, Development Seed, Openscapes**: The earthaccess Python Library: Awesome Discovery and Access of NASA Earthdata. Contact: Amy Steiker (NASA NSIDC). [AGU link](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1706883).
 
 ### Friday Dec 13
 
