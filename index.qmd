@@ -21,4 +21,6 @@ Learn about our recent work: [News](news.qmd) • [Presentations](/about.qmd#sli
 
 ![](images/earthaccesslogo.png){fig-alt="hexagonal earthaccess logo, an illustrated earth as pixels with blue text arcing across" fig-align="left" width="30"} [earthaccess](https://earthaccess.readthedocs.io/en/latest/) python library • [Earth Science Data Simplified](https://www.earthdata.nasa.gov/learn/blog/earthaccess) (NASA Earthdata blog!)
 
+![](images/openscapes_hex.png){fig-alt="hexagonal Openscapes logo" fig-align="left" width="30"} [openscapes.cloud](https://openscapes.cloud) - A central location for Openscapes JupyterHub access, policies, and fledging information.
+
 Project announcements: [NASA](https://earthdata.nasa.gov/learn/openscapes) • [Openscapes](https://www.openscapes.org/blog/2021/03/10/nasa-announcement/) • Please connect with us on Mastodon [\@openscapes\@fosstodon.org](https://fosstodon.org/@openscapes) or join [our newsletter](https://docs.google.com/forms/d/e/1FAIpQLSdgVXRp3V-w94GPWkR31RUfyBl37EphdQSlCOcnyeNlf8OLWw/viewform)
