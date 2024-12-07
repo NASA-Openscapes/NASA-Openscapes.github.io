@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cdaa02f34f0a5028d73d251da7f4f8c5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -155,7 +155,9 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">
+NASA Openscapes
+</h1></header>
 
 
 
@@ -164,9 +166,7 @@ ul.task-list li input[type="checkbox"] {
 <a><img src="images/nasa-openscapes.png" alt="NASA logo to left of Openscapes logo" width="300px"></a>
 </center>
 <center>
-<h1>
-NASA Openscapes
-</h1>
+
 </center>
 <p><br></p>
 <p>Earth science is changing. We support scientists using data from NASA Earthdata served from the Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.</p>
@@ -178,6 +178,7 @@ NASA Openscapes
 </ul>
 <p>Learn about our recent work: <a href="./news.html">News</a> • <a href="./about.html#slides">Presentations</a> • <a href="https://github.com/NASA-Openscapes/how_we_work">Annual Reports</a> • <a href="https://nasa-openscapes.github.io/about.html#flywheel-preprint">Flywheel Preprint</a> • <a href="https://nasa-openscapes.github.io/about.html#white-paper-value-of-hosted-jupyterhubs">White Paper: The Value of Hosted JupyterHubs</a></p>
 <p><img src="images/earthaccesslogo.png" class="img-fluid quarto-figure quarto-figure-left" alt="hexagonal earthaccess logo, an illustrated earth as pixels with blue text arcing across" width="30"> <a href="https://earthaccess.readthedocs.io/en/latest/">earthaccess</a> python library • <a href="https://www.earthdata.nasa.gov/learn/blog/earthaccess">Earth Science Data Simplified</a> (NASA Earthdata blog!)</p>
+<p><img src="images/openscapes_hex.png" class="img-fluid quarto-figure quarto-figure-left" alt="hexagonal Openscapes logo" width="30"> <a href="https://openscapes.cloud">openscapes.cloud</a> - A central location for Openscapes JupyterHub access, policies, and fledging information.</p>
 <p>Project announcements: <a href="https://earthdata.nasa.gov/learn/openscapes">NASA</a> • <a href="https://www.openscapes.org/blog/2021/03/10/nasa-announcement/">Openscapes</a> • Please connect with us on Mastodon <a href="https://fosstodon.org/@openscapes">@openscapes@fosstodon.org</a> or join <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgVXRp3V-w94GPWkR31RUfyBl37EphdQSlCOcnyeNlf8OLWw/viewform">our newsletter</a></p>
 
 
@@ -265,8 +266,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -377,7 +376,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
