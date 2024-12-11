@@ -86,8 +86,10 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
+- [Beyond Open Data: How Openscapes supports teams in open science](https://docs.google.com/presentation/d/12DxSZzaKQ7LrqVpHCSLqsmanIt8cbZk0F4dVWrjmZg8/edit#slide=id.g31de1f510e1_0_1071) - Brianna Pagán, Julie Lowndes, NASA Openscapes Mentors. December 11, AGU Fall Conference (invited)
+
 - [Supporting NASA Earthdata users in the Cloud: NASA Openscapes JupyterHub and User Onboarding & Fledging](https://docs.google.com/presentation/d/1p5qVbSqUij9FQ9yf7deSVVuXGM6GYjcAyRA78ZtsSxA/pub?start=false&loop=false&delayms=3000) - Julie Lowndes, Catalina Taglialatela, Luis Lopez, Andy Barrett, Amy Steiker, Alexis Hunzinger, Aaron Friesz, Danny Kaufman, Michele Thornton, Andy Teucher, Eli Holmes, Carl Boettiger, Yuvi Panda,
-NASA Openscapes DAAC Mentor Community; Artwork by Allison Horst, Adyan Rios, and Su Kim. December 9, 2024. AGU Fall Conference Poster ([slide]((https://docs.google.com/presentation/d/1p5qVbSqUij9FQ9yf7deSVVuXGM6GYjcAyRA78ZtsSxA/)))
+NASA Openscapes DAAC Mentor Community; Artwork by Allison Horst, Adyan Rios, and Su Kim. December 9, 2024. AGU Fall Conference Poster ([slide](https://docs.google.com/presentation/d/1p5qVbSqUij9FQ9yf7deSVVuXGM6GYjcAyRA78ZtsSxA/))
 
 - [The earthaccess Python Library: Awesome Discovery and Access of NASA Earthdata](https://docs.google.com/presentation/d/e/2PACX-1vT8BN1C4FkHrid_eVfOwJjZzKGn9Nomb6mnDj3Nld-nD0ekzoenxQIq6Xzo9VFQsXbixCNskadBwPwM/pub?start=false&loop=false&delayms=3000) - Amy Steiker, Andrew P. Barrett, Charles Daniels, Matthew Fisher, Daniel Kaufman, Joseph H. Kennedy, Luis López, Julia S. Stewart Lowndes, Jessica Scheick, The NASA Openscapes mentors team. December 9, 2024. AGU Fall Conference Poster ([slide](https://docs.google.com/presentation/d/1iBqeMQcdNAxQfhIH9jdcvI2m1HmBxJFixLX1BnwG-S8/edit#slide=id.g317ff1cef8c_1_87))
 
