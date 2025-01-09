@@ -1,0 +1,25 @@
+---
+title: "openscapes.cloud: A central place for Openscapes JupyterHubs and documentation"
+author:
+  - name: Andy Teucher
+    orcid: 0000-0002-7840-692X
+date: 2025-01-09
+citation: 
+  url: https://openscapes.org/blog/2025-01-09-openscapes.cloud/
+categories: [blog, nasa-framework, noaa-fisheries]
+image: openscapes-cloud-homepage.png
+---
+
+*We have created a centralized web resource for the [2i2c](https://2i2c.org) JupyterHubs that we host with NASA and NOAA Fisheries, for learning and experimenting with cloud computing: <https://openscapes.cloud>*
+
+*Cross-posted at [openscapes.org/blog](https://openscapes.org/blog), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html), [nmfs-openscapes.github.io/blog](https://nmfs-openscapes.github.io/blog.html)*
+
+----------------------------------
+
+Through our work with NASA and NOAA Fisheries, Openscapes is working with our partners at [2i2c](https://2i2c.org) to manage two separate JupyterHubs for researchers to use for experimenting with cloud computing, and for mentors to host workshops.
+
+Hub usage policies, access instructions, and other documentation was initially developed with NASA mentors for the NASA-Openscapes Hub, and was hosted in the [Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/). 
+Now that we host a second hub for NOAA Fisheries, we have centralized and continue to build on the documentation in our new website, [openscapes.cloud](https://openscapes.cloud).
+A key part of the new website that we have been working on is the ["fledging"](https://openscapes.cloud/fledging.html) content - advice for users on how to transfer the knowledge they have gained in the Openscapes hubs to using cloud data and computing resources to perform "real" scientific analysis.
+
+This website will continue to develop as we work on policies and documentation for accessing, using, and fledging from the hubs. Please let us know what you think by opening an [issue](https://github.com/Openscapes/openscapes.cloud/issues).
