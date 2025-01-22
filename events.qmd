@@ -32,7 +32,7 @@ See <https://nasa-openscapes.github.io/champions> for more details!
 
 Details soon
 
-### March 2023: Women in Data Science Conference
+### March 2023: WIDS Conference
 
 <https://www.widsconference.org/> 
 

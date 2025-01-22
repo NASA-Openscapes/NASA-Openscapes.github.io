@@ -39,7 +39,7 @@ See the Photo Gallery – [Annotated slide deck](https://docs.google.com/present
 
 **Openscapes was recognized for “movement building for kinder open science for future us: a cross-agency effort at NOAA Fisheries, NASA, and EPA”.** Being recognized for “movement building” is significant; it is not an easily-measurable impact. Openscapes’ focus on movement building is having real impact shifting culture across academia, government, and non-profit groups. We help people find each other and collaboratively evolve their work with modern and kind workflows, and there are now over 1000 people who are/have been involved with Openscapes, including those who have brought this with them to new positions and jobs. We all approach open science as a daily practice, a way to work differently, in a kinder way and connect big challenges with daily work. This can show up in different ways depending on our situations, and the work that is long-term, ongoing, and intentional. [Scroll recent blog posts](https://openscapes.org/blog) to get a sense of this work.
 
-The White House recognition follows from an [Openscapes submission](https://docs.google.com/document/d/e/2PACX-1vRF0K3ZUANFAUJ-AWVN7q6luVOcIbx-oS-Jid5K6j-Y7OY1h9KWVw-T4D5PfzN8TJiZ5gA-m4XHgYwp/pub) to The White House Office of Science & Technology Policy Open Science Recognition Challenge in Fall 2023, which was looking to recognize open science stories to benefit society. Co-authors (5 max) were: Julia Lowndes (Openscapes founding director who co-leads & supports initiatives); Erin Robinson (Metadata Game Changers co-founder who co-leads NASA Openscapes & helped scale Openscapes with the Flywheel); Eli Holmes (NOAA Fisheries Open Science lead, a 3-year initiative by the NOAA Fish Office of Science & Tech); Ileana Fenwick (Pathways to Open Science lead & a fierce advocate for HBCU equity); Luis López (NASA Openscapes cloud infrastructure lead & develops open source tools).
+The White House recognition follows from an [Openscapes submission](https://docs.google.com/document/d/e/2PACX-1vRF0K3ZUANFAUJ-AWVN7q6luVOcIbx-oS-Jid5K6j-Y7OY1h9KWVw-T4D5PfzN8TJiZ5gA-m4XHgYwp/pub) to The White House Office of Science & Technology Policy Open Science Recognition Challenge in Fall 2023, which was looking to recognize open science stories to benefit society. Co-authors (5 max) were: Julia Lowndes (Openscapes founding director who co-leads & supports initiatives); Erin Robinson (Metadata Game Changers co-founder who co-leads NASA Openscapes & helped scale Openscapes with the Flywheel); Eli Holmes (NOAA Fisheries Open Science lead, a 3-year initiative by the NOAA Fish Office of Science & Tech); Ileana Fenwick (Pathways to Open Science lead & a fierce advocate for HBCU fairness); Luis López (NASA Openscapes cloud infrastructure lead & develops open source tools).
 
 ::: grid
 ::: g-col-6
@@ -83,7 +83,7 @@ Our big ask was that people need to be paid to learn, teach, contribute to open 
 
 ## Teams recognized
 
-**ELOKA** - Co-developing tools for sharing Arctic Indigenous Knowledge
+**ELOKA** - Co-developing tools for sharing Arctic Knowledge
 
 **Pediatric Cancer Data Commons** - Curing childhood cancer: Transforming human health through data
 

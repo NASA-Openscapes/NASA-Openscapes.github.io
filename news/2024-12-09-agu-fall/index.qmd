@@ -24,7 +24,7 @@ At this year’s [AGU Fall Meeting](https://www.agu.org/annual-meeting), the Ope
 
 **Poster - a collaboration across NASA DAACs**: Supporting NASA Earthdata users in the Cloud: NASA Openscapes JupyterHub and User Onboarding & Fledging. Contact: Julie Lowndes (Openscapes) [AGU link](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1708480)
 
-**Talk - a collaboration across NASA, NOAA Fisheries, and UC Berkeley**: py-rocket: A Docker image to promote cross-language (Python, R) collaboration across diverse user platforms for cloud computing in the earth sciences. Contact: Eli Holmes (NOAA Fisheries), Carl Boettiger (UC Berkeley), Luis López (NASA NSIDC). [AGU link](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1619232)
+**Talk - a collaboration across NASA, NOAA Fisheries, and UC Berkeley**: py-rocket: A Docker image to promote cross-language (Python, R) collaboration across broad user platforms for cloud computing in the earth sciences. Contact: Eli Holmes (NOAA Fisheries), Carl Boettiger (UC Berkeley), Luis López (NASA NSIDC). [AGU link](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1619232)
 
 **Poster - following Openscapes' [award](https://openscapes.org/blog/2024-10-03-openscapes-recognized-white-house/) at the White House**: Including more solutions and more solvers via actionable open science. Contact: Julie Lowndes (Openscapes), Luis López (NASA NSIDC), Eli Holmes (NOAA Fisheries), Ileana Fenwick (Openscapes), Erin Robinson (Metadata Game Changers). [AGU link](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1709763).
 

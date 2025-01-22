@@ -20,13 +20,13 @@ aliases:
 
 ------------------------------------------------------------------------
 
-Hello! As we continue into 2023, we at Openscapes continue to come back to the core of what we do: we engage, empower, and amplify. Whether it is with tech like Quarto and JupyterHubs or communities like R-Ladies, Ladies of Landsat, Black in Marine Science, and NASA Earthdata, it's about welcoming folks to better ways of working and open science.
+Hello! As we continue into 2023, we at Openscapes continue to come back to the core of what we do: we engage, empower, and amplify. Whether it is with tech like Quarto and JupyterHubs or communities like Black in Marine Science, and NASA Earthdata, it's about welcoming folks to better ways of working and open science.
 
 In 2023, we're committed to being braver in connecting the impact of our work to the environment and the climate movement; to culture and mindset change for individuals, for teams, and for institutions; and as always, to kinder science.
 
 **In the last year**, what emerged was a clear sense of movement building towards better science for future us. The Openscapes community grew as Champions and Mentors prioritized time for learning, sharing, teaching with each other, and also advocated for themselves and their colleagues to have time to do so.
 
--   [NASA Openscapes Mentors](https://nasa-openscapes.github.io/mentors.html) continued co-creating and reusing teaching resources to support colleagues and researchers using NASA Earthdata to migrate workflows to the Cloud. Mentors also taught workshops, gave talks, participated and created in public forums, and built software and conceptual infrastructure to support users and practice open science, and are also investing their knowledge and lessons back into the [Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/). Co-lead Erin Robinson led a publication now under review about The Openscapes Flywheel: A framework for managers to facilitate and scale inclusive Open science practices ([preprint](https://eartharxiv.org/repository/view/4560/)).  
+-   [NASA Openscapes Mentors](https://nasa-openscapes.github.io/mentors.html) continued co-creating and reusing teaching resources to support colleagues and researchers using NASA Earthdata to migrate workflows to the Cloud. Mentors also taught workshops, gave talks, participated and created in public forums, and built software and conceptual infrastructure to support users and practice open science, and are also investing their knowledge and lessons back into the [Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/). Co-lead Erin Robinson led a publication now under review about The Openscapes Flywheel: A framework for managers to facilitate and scale Open science practices ([preprint](https://eartharxiv.org/repository/view/4560/)).  
 
 -   [NOAA Fisheries Mentors](https://nmfs-openscapes.github.io/mentors.html) supported their colleagues through six Champions Cohorts. Read about the experiences and impacts of Fall 2022 Openscapes training [nationwide](https://openscapes.org/blog/2023/01/24/2022-noaa-nmfs-fall/), with additional posts from NOAA Fisheries [Alaska](https://openscapes.org/blog/2023/02/16/2022-noaa-afsc-fall/), and [Southwest](https://openscapes.org/blog/2022/12/09/case-study-swfsc-sael/), Summer [Southeast](https://openscapes.org/blog/2022/09/30/2022-sefsc-summer/), and Winter [Alaska](https://openscapes.org/blog/2022/04/07/afsc-supportive-forum/) Fisheries Science Centers. Additional resources include the [NMFS Openscapes](https://nmfs-openscapes.github.io/) site and [NMFS Open Science Resource Book](https://nmfs-opensci.github.io/ResourceBook/).
 
@@ -36,7 +36,7 @@ In 2023, we're committed to being braver in connecting the impact of our work to
 
 -   Ileana Fenwick and Stefanie Butland joined the Openscapes team ([tweet](https://twitter.com/openscapes/status/1534951248369025031))! They both do incredibly valuable work and we are so grateful to work together.
 
--   We hosted 3 Community Calls: A Qualitative Data Analysis Chat with Dr. Beth Duckles; Hello Quarto! A Quarto Chat with NASA Openscapes, co-hosted with R-Ladies Santa Barbara; Reimagining open science as part of the climate movement, a chat with Dr. Monica Granados ([summary posts](https://www.openscapes.org/tags/community-call/) of Community Calls).
+-   We hosted 3 Community Calls: A Qualitative Data Analysis Chat with Dr. Beth Duckles; Hello Quarto! A Quarto Chat with NASA Openscapes, co-hosted with R Santa Barbara; Reimagining open science as part of the climate movement, a chat with Dr. Monica Granados ([summary posts](https://www.openscapes.org/tags/community-call/) of Community Calls).
 
 -   Julie gave a co-keynote at rstudio::conf(2022) with Mine Cetinkaya-Rundel, titled Hello Quarto: share, collaborate, teach, reimagine. This was the official launch of Quarto ([blog post](https://www.openscapes.org/blog/2022/08/10/quarto-keynote/)) and it was such an honor to share about the Openscapes community on this big stage!
 
@@ -44,9 +44,9 @@ In 2023, we're committed to being braver in connecting the impact of our work to
 
 -   Shoutout to all the Champions and Mentors and community who have shared their successes - big and small - with us. You keep us energized!
 
-**This year**, we're continuing our work with NASA, NOAA, and the California Water Boards and have started new relationships and programs. We're excited to continue to grow the Open Science movement as part of the Year of Open Science ([Biden Harris administration announcement](https://www.whitehouse.gov/ostp/news-updates/2023/01/11/fact-sheet-biden-harris-administration-announces-new-actions-to-advance-open-and-equitable-research/)).
+**This year**, we're continuing our work with NASA, NOAA, and the California Water Boards and have started new relationships and programs. We're excited to continue to grow the Open Science movement as part of the Year of Open Science Biden Harris administration announcement.
 
--   Already we've launched [Pathways to Open Science](https://openscapes.github.io/pathways-to-open-science/) for Black environmental & marine researchers, led by Ileana Fenwick in partnership with [Black in Marine Science (BIMS)](https://www.blackinmarinescience.org/) and [Black Women in Ecology, Evolution, and Marine Science (BWEEMS)](https://www.bweems.org/). 80 people attended the first session(!) and we are committing to offer this annually.
+-   Already we've launched [Pathways to Open Science](https://openscapes.github.io/pathways-to-open-science/) for Black environmental & marine researchers, led by Ileana Fenwick in partnership with [Black in Marine Science (BIMS)](https://www.blackinmarinescience.org/) and [Black in Ecology, Evolution, and Marine Science (BWEEMS)](https://www.bweems.org/). 80 people attended the first session(!) and we are committing to offer this annually.
 
 -   At the [ESIP Winter meeting](https://2023januaryesipmeeting.sched.com/event/1EwXx) in January we coordinated a panel discussion. Mentors from NASA, NOAA Fisheries, CalEPA, and Pathways to Open Science programs shared their stories of open science movement building through Openscapes. Look for a summary blog post in March!
 
