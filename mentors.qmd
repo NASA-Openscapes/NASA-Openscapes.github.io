@@ -19,7 +19,7 @@ Please also see [how we onboard](https://nasa-openscapes.github.io/earthdata-clo
 
 ## 2024 goals
 
-NASA Openscapes is the main access point for NASA Earth science & tutorial development on the Cloud. Openscapes is not extra work, it's the **how** of doing the work aligned with DAAC goals to enable users/science. Building from successes and momentum 2021-2023, in 2024 we will continue teaching staff & researchers, helping us all grow as open science leaders & aligned with DAAC activities. This is vital to the shift to Earthdata Cloud and to NASA's values for open science and equity.
+NASA Openscapes is the main access point for NASA Earth science & tutorial development on the Cloud. Openscapes is not extra work, it's the **how** of doing the work aligned with DAAC goals to enable users/science. Building from successes and momentum 2021-2023, in 2024 we will continue teaching staff & researchers, helping us all grow as open science leaders & aligned with DAAC activities. This is vital to the shift to Earthdata Cloud and to NASA's values for open science.
 
 -   Provide stability for and strengthen the DAAC Mentor community as we develop and teach a common set of tutorials and coordinate and lead learning events, in part through our twice monthly Openscapes Cohort Calls.
 -   Reuse and refine shared teaching resources, share stories and lessons learned at conferences and meetups
@@ -76,26 +76,26 @@ Coworking sessions & hackdays are open to anyone to join; see our [MainPlanning 
 
 Mentor Calls (Planning) and Coworking Calls (screensharing and doing)
 
-| Date    | Mentor Call Topics                                                                                                                                                        | Coworking Call Topics                                                                                                                                               |
+| Date | Mentor Call Topics | Coworking Call Topics |
 |-------------------|---------------------------|---------------------------|
-| Aug 3   |                                                                                                                                                                           | NOAA Fisheries - NASA Mentors exchange                                                                                                                              |
-| Aug 9   | AGU Workshop abstracts refinement                                                                                                                                         |                                                                                                                                                                     |
-| Aug 17  |                                                                                                                                                                           | [Coiled.io](https://www.coiled.io/) collaboration kickoff with Champions teams                                                                                      |
-| Aug 23  | Aimee Barciauskas will present the initial cloud optimized data guide for feedback and determine next steps for sharing science tutorials from VEDA and MAAP              |                                                                                                                                                                     |
-| Aug 31  |                                                                                                                                                                           | R Cloud Hackdays kickoff; [Carl Boettiger](https://www.carlboettiger.info/)                                                                                         |
-| Sept 6  | Cedric Wannaz, MathWorks to demo Matlab in 2i2c and analysis-in-place workflow (direct access/reading the data). Previous demo: <https://youtube.com/watch?v=JrIp-LFpPAI> |                                                                                                                                                                     |
-| Sept 14 |                                                                                                                                                                           | JupyterBook and JupyterHubs via CI - [discourse](https://discourse.pangeo.io/t/statement-of-need-integrating-jupyterbook-and-jupyterhubs-via-ci/2705/14?u=betolink) |
-| Sept 20 | Fall Kickoff & new mentors onboarding                                                                                                                                     |                                                                                                                                                                     |
-| Sept 28 |                                                                                                                                                                           |                                                                                                                                                                     |
-| Oct 4   | AGU workshop planning overview ([GitHub repo](https://github.com/NASA-Openscapes/2023-planning-agu)): goals, topics, people. Hyperwall. AGU mtg Dec 11-15.                |                                                                                                                                                                     |
-| Oct 12  |                                                                                                                                                                           |                                                                                                                                                                     |
-| Oct 18  | AGU (30 mins)                                                                                                                                                             |                                                                                                                                                                     |
-| Oct 26  |                                                                                                                                                                           |                                                                                                                                                                     |
-| Nov 1   | AGU (30 mins)                                                                                                                                                             |                                                                                                                                                                     |
-| Nov 9   |                                                                                                                                                                           |                                                                                                                                                                     |
-| Nov 15  | AGU dry runs with helpers                                                                                                                                                 |                                                                                                                                                                     |
-| Nov 23  |                                                                                                                                                                           | US Thanksgiving. No Coworking                                                                                                                                       |
-| Nov 29  | AGU dry runs with helpers                                                                                                                                                 |                                                                                                                                                                     |
+| Aug 3 |  | NOAA Fisheries - NASA Mentors exchange |
+| Aug 9 | AGU Workshop abstracts refinement |  |
+| Aug 17 |  | [Coiled.io](https://www.coiled.io/) collaboration kickoff with Champions teams |
+| Aug 23 | Aimee Barciauskas will present the initial cloud optimized data guide for feedback and determine next steps for sharing science tutorials from VEDA and MAAP |  |
+| Aug 31 |  | R Cloud Hackdays kickoff; [Carl Boettiger](https://www.carlboettiger.info/) |
+| Sept 6 | Cedric Wannaz, MathWorks to demo Matlab in 2i2c and analysis-in-place workflow (direct access/reading the data). Previous demo: <https://youtube.com/watch?v=JrIp-LFpPAI> |  |
+| Sept 14 |  | JupyterBook and JupyterHubs via CI - [discourse](https://discourse.pangeo.io/t/statement-of-need-integrating-jupyterbook-and-jupyterhubs-via-ci/2705/14?u=betolink) |
+| Sept 20 | Fall Kickoff & new mentors onboarding |  |
+| Sept 28 |  |  |
+| Oct 4 | AGU workshop planning overview ([GitHub repo](https://github.com/NASA-Openscapes/2023-planning-agu)): goals, topics, people. Hyperwall. AGU mtg Dec 11-15. |  |
+| Oct 12 |  |  |
+| Oct 18 | AGU (30 mins) |  |
+| Oct 26 |  |  |
+| Nov 1 | AGU (30 mins) |  |
+| Nov 9 |  |  |
+| Nov 15 | AGU dry runs with helpers |  |
+| Nov 23 |  | US Thanksgiving. No Coworking |
+| Nov 29 | AGU dry runs with helpers |  |
 
 ### Coiled
 
@@ -191,6 +191,7 @@ We will have Cohort Calls with the DAAC Mentors throughout 2021. Linked below ar
 
 --->
 ```
+
 # Mentor Community
 
 The NASA Openscapes Mentors community is growing! Mentors from five DAACs who have continued from 2021 are noted with an \* below. We are excited to see the DAAC mentor community expand with ORNL and ASF Mentors joining us in 2022 and SEDAC and OBDAAC Mentors joining in 2023 for representation from nine DAACs all together. Welcome!
@@ -209,7 +210,9 @@ Alaska Satellite Facility (ASF)
 
 ### Ian Carroll
 
-Dr. Carroll is an Associate Research Scientist at the University of Maryland Baltimore County working at NASA Goddard Space Flight Center on phytoplankton community ecology and data science. Phytoplankton are a diverse collection of photosynthetic organisms, found in all water bodies, that range in size from less-than a micron to millimeters in length. Despite their small size, their presence in the photic zone can be detected from space due to their light-absorbing pigments. Dr. Carroll investigates machine learning approaches to predicting the community composition (abundances of each type) of phytoplankton using data from ocean color instruments. He also supports science data production for NASA's PACE mission. \### Matt Fisher
+Dr. Carroll is an Associate Research Scientist at the University of Maryland Baltimore County working at NASA Goddard Space Flight Center on phytoplankton community ecology and data science. Phytoplankton are a broad collection of photosynthetic organisms, found in all water bodies, that range in size from less-than a micron to millimeters in length. Despite their small size, their presence in the photic zone can be detected from space due to their light-absorbing pigments. Dr. Carroll investigates machine learning approaches to predicting the community composition (abundances of each type) of phytoplankton using data from ocean color instruments. He also supports science data production for NASA's PACE mission. 
+
+### Matt Fisher
 
 National Snow & Ice Data Center (NSIDC)
 
@@ -235,7 +238,7 @@ Alaska Satellite Facility (ASF)
 
 ### Bri Lind
 
-Bri is a Geospatial Data Scientist at NASA's Land Processes Distributed Active Archive Center (LP DAAC).  Bri is formally trained as an ecologist and remote sensing scientist and is deeply interested in facilitating the fusion of diverse remote sensing products with field data to enhance scientific insight. As a visual learner and science-oriented coder, Bri is focused on making materials that are easy to understand and likes to convert challenging concepts into flexible and easy-to-apply approaches.
+Bri is a Geospatial Data Scientist at NASA's Land Processes Distributed Active Archive Center (LP DAAC).  Bri is formally trained as an ecologist and remote sensing scientist and is deeply interested in facilitating the fusion of broad remote sensing products with field data to enhance scientific insight. As a visual learner and science-oriented coder, Bri is focused on making materials that are easy to understand and likes to convert challenging concepts into flexible and easy-to-apply approaches.
 
 ### Luis Lopez\*
 
@@ -243,7 +246,7 @@ Bri is a Geospatial Data Scientist at NASA's Land Processes Distributed Active A
 
 ### Catalina Oaida Taglialatela\*
 
-[**Catalina M. OaidaTaglialatela, PhD**](https://www.linkedin.com/in/catalina-oaida-1128b488/) is an Applied Science System Engineer at NASA's JPL (and PO.DAAC), combining hydrology and Earth science domain expertise (science researcher by training) with a system engineering perspective. Focus on broadening the user base for NASA Earth observations and remote sensing data in the Cloud, and helping increase discoverability, accessibility and usability of these data for the science research and applications communities, and enabling shorter "time to science". Reducing those barriers to science when data and services are in the cloud, while recognizing that there is a great diversity in user needs, experiences, domain expertise, access to resources - create and implement a comprehensive plan to ensure as many of these user 'types' are supported. Develop science use cases as training examples, leveraging open data and open science (and tools). Learning from others and co-creating.
+[**Catalina M. OaidaTaglialatela, PhD**](https://www.linkedin.com/in/catalina-oaida-1128b488/) is an Applied Science System Engineer at NASA's JPL (and PO.DAAC), combining hydrology and Earth science domain expertise (science researcher by training) with a system engineering perspective. Focus on broadening the user base for NASA Earth observations and remote sensing data in the Cloud, and helping increase discoverability and usability of these data for the science research and applications communities, and enabling shorter "time to science". Reducing those barriers to science when data and services are in the cloud, while recognizing that are different user needs, experiences, domain expertise, access to resources - create and implement a comprehensive plan to ensure as many of these user 'types' are supported. Develop science use cases as training examples, leveraging open data and open science (and tools). Learning from others and co-creating.
 
 ### Celia Ou
 
@@ -259,7 +262,7 @@ Socioeconomic Data and Application Data Center (SEDAC)
 
 ### Victoria McDonald
 
-As a Data Engineer at the Physical Oceanography Distributed Active Archive Center (PO.DAAC) at NASA's Jet Propulsion Laboratory, Victoria spends a lot of time thinking about scientific data: how we manage it, how we make it accessible, how we reduce the steep learning curves that can hinder scientific discovery. Building better, open, collaborative, software so that we can make complex data analysis more accessible is something she is passionate about.
+As a Data Engineer at the Physical Oceanography Distributed Active Archive Center (PO.DAAC) at NASA's Jet Propulsion Laboratory, Victoria spends a lot of time thinking about scientific data: how we manage it, how we make it usable, how we reduce the steep learning curves that can hinder scientific discovery. Building better, open, collaborative, software so that we can make complex data analysis more usable is something she is passionate about.
 
 ### Jack McNelis\*
 
@@ -325,7 +328,7 @@ Goddard Earth Sciences Data and Information Services Center (GES DISC)
 
 ### Vishal Bagadia
 
-[Vishal Bagadia](https://www.linkedin.com/in/vishal-bagadia-a98b95113) is a data science analyst working on contract at the Atmospheric Science Data Center DAAC, NASA Langley Research Center. His experience in exploring emissions retrievals from satellite missions and guiding science teams during the development of their research products powers his work on addressing data interoperability concerns and being responsive to user's engagement with the archived data. He is energized in leveraging emerging, free, and open-source technologies to better represent and visualize large datasets, building web applications to meet user's data transformation and accessibility needs, and ultimately producing sustainable solutions to meet end-user requirements as data moves into the cloud.
+[Vishal Bagadia](https://www.linkedin.com/in/vishal-bagadia-a98b95113) is a data science analyst working on contract at the Atmospheric Science Data Center DAAC, NASA Langley Research Center. His experience in exploring emissions retrievals from satellite missions and guiding science teams during the development of their research products powers his work on addressing data interoperability concerns and being responsive to user's engagement with the archived data. He is energized in leveraging emerging, free, and open-source technologies to better represent and visualize large datasets, building web applications to meet user's data transformation and usability needs, and ultimately producing sustainable solutions to meet end-user requirements as data moves into the cloud.
 
 ### Shubhankar Gahlot
 
@@ -337,7 +340,7 @@ Interagency Implementation and Advanced Concepts Team (IMPACT)
 
 ### Cole Krehbiel
 
-[**Cole Krehbiel**](https://www.linkedin.com/in/cole-krehbiel-6573469a/) is a remote sensing data scientist working as a contractor to NASA's Land Processes Distributed Active Archive Center (LP DAAC). He is interested in improving access to geospatial data for diverse user communities. Cole supports missions archived and distributed by the LP DAAC including MODIS, VIIRS, ASTER, ECOSTRESS, and GEDI by creating Python tutorials and data prep scripts and providing workshops and webinars to facilitate community uptake and understanding of those missions.
+[**Cole Krehbiel**](https://www.linkedin.com/in/cole-krehbiel-6573469a/) is a remote sensing data scientist working as a contractor to NASA's Land Processes Distributed Active Archive Center (LP DAAC). He is interested in improving access to geospatial data for many user communities. Cole supports missions archived and distributed by the LP DAAC including MODIS, VIIRS, ASTER, ECOSTRESS, and GEDI by creating Python tutorials and data prep scripts and providing workshops and webinars to facilitate community uptake and understanding of those missions.
 
 ### Paul Moth
 

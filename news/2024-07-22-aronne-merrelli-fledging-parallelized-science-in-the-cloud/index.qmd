@@ -50,7 +50,7 @@ NASA Openscapes gave a chance for Aaron to learn how to run code in the cloud wi
 
 -   **Learned when and how to cloud (via NASA Openscapes Champions cohort)**
 
-    -   Cross-DAAC Mentors led, scientist focused, open science, inclusive (Aronne’s previous attempts to learn were geared towards engineers)
+    -   Cross-DAAC Mentors led, scientist focused, open science (Aronne’s previous attempts to learn were geared towards engineers)
 
 -   **Experimented in JupyterHub (managed by 2i2c & Openscapes, NASA credits)**
 

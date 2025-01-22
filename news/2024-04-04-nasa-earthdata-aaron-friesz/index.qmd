@@ -13,7 +13,7 @@ categories:
 image: aaron-friesz_headshot_data-chat.jpg
 ---
 
-Aaron Friesz, science coordination lead at NASA's Land Processes Distributed Active Archive Center ([LP DAAC](https://www.earthdata.nasa.gov/eosdis/daacs/lpdaac)) and NASA Openscapes Mentor, helps promote open science principles to empower more diverse, inclusive, and effective data science communities.
+Aaron Friesz, science coordination lead at NASA's Land Processes Distributed Active Archive Center ([LP DAAC](https://www.earthdata.nasa.gov/eosdis/daacs/lpdaac)) and NASA Openscapes Mentor, helps promote open science principles to empower more effective data science communities.
 
 Read the [NASA Earthdata Data Chat interview with Aaron](https://www.earthdata.nasa.gov/learn/data-chats/aaron-friesz) where he discusses what being a NASA Openscapes Mentor entails, how he and his fellow mentors promote open science, and the resources available to help users develop their cloud computing skills.
 

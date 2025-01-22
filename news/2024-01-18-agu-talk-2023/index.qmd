@@ -56,7 +56,7 @@ We talked through what this looked like for the NASA Openscapes project in Year 
 
 What's so exciting is that following these initial turns of the Flywheel, it is now turning hundreds, thousands of times in ways big and small: like when a researcher uses GitHub for the first time and then turns around to teach their supervisor, and when staff have the confidence to speak up in meetings with what they know from the broader open science community. We've shared these stories in several manuscripts and blog posts, including a cross-government collaboration:
 
--   [The Openscapes Flywheel: A framework for managers to facilitate and scale inclusive Open science practices](https://eartharxiv.org/repository/view/4560/) (Robinson & Lowndes 2022)
+-   [The Openscapes Flywheel: A framework for managers to facilitate and scale Open science practices](https://eartharxiv.org/repository/view/4560/) (Robinson & Lowndes 2022)
 
 -   [Shifting institutional culture to develop climate solutions with Open Science](https://eartharxiv.org/repository/view/5948/) (Lowndes et al 2023)
 
