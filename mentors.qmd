@@ -204,6 +204,10 @@ National Snow & Ice Data Center (NSIDC)
 
 Chris is a Scientific Developer working at the Goddard Earth Sciences Data Information Services Center (GES DISC). He focuses on creating documentation and guides relating to a wide array of GES DISC user support needs, including cloud data access methods and help desk queries. Chris has a background in meteorology, and received a master's degree in geography from Northern Illinois University in 2021. 
 
+### Mikala Beig
+
+National Snow & Ice Data Center (NSIDC)
+
 ### Brandon Bottomley
 
 Alaska Satellite Facility (ASF)
