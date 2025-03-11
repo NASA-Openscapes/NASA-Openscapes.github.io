@@ -214,11 +214,7 @@ Alaska Satellite Facility (ASF)
 
 ### Ian Carroll
 
-Dr. Carroll is an Associate Research Scientist at the University of Maryland Baltimore County working at NASA Goddard Space Flight Center on phytoplankton community ecology and data science. Phytoplankton are a broad collection of photosynthetic organisms, found in all water bodies, that range in size from less-than a micron to millimeters in length. Despite their small size, their presence in the photic zone can be detected from space due to their light-absorbing pigments. Dr. Carroll investigates machine learning approaches to predicting the community composition (abundances of each type) of phytoplankton using data from ocean color instruments. He also supports science data production for NASA's PACE mission. 
-
-### Matt Fisher
-
-National Snow & Ice Data Center (NSIDC)
+Dr. Carroll is an Associate Research Scientist at the University of Maryland Baltimore County working at NASA Goddard Space Flight Center on phytoplankton community ecology and data science. Phytoplankton are a broad collection of photosynthetic organisms, found in all water bodies, that range in size from less-than a micron to millimeters in length. Despite their small size, their presence in the photic zone can be detected from space due to their light-absorbing pigments. Dr. Carroll investigates machine learning approaches to predicting the community composition (abundances of each type) of phytoplankton using data from ocean color instruments. He also supports science data production for NASA's PACE mission.
 
 ### Aaron Friesz\*
 
@@ -239,10 +235,6 @@ Land Processes DAAC (LPDAAC)
 ### Alexander Lewandowski
 
 Alaska Satellite Facility (ASF)
-
-### Bri Lind
-
-Bri is a Geospatial Data Scientist at NASA's Land Processes Distributed Active Archive Center (LP DAAC).  Bri is formally trained as an ecologist and remote sensing scientist and is deeply interested in facilitating the fusion of broad remote sensing products with field data to enhance scientific insight. As a visual learner and science-oriented coder, Bri is focused on making materials that are easy to understand and likes to convert challenging concepts into flexible and easy-to-apply approaches.
 
 ### Luis Lopez\*
 
@@ -271,14 +263,6 @@ As a Data Engineer at the Physical Oceanography Distributed Active Archive Cente
 ### Jack McNelis\*
 
 Jack McNelis is a Science Applications Software Engineer at NASA Jet Propulsion Laboratory (and the PO.DAAC) with experience leveraging EOS data for rangeland ecosystem monitoring applications. He develops and curates metadata to describe PO.DAAC data holdings, and to better integrate them with data delivery services and end user softwares. He also develops resources for users to be better prepared to implement their analyses in the cloud.
-
-### Cassie Nickles
-
-Dr. Nickles is an Applied Science Systems Engineer Postdoc working with the Physical Oceanography Data Active Archive Center (PO.DAAC) at NASA's Jet Propulsion Laboratory (JPL). As an applied science researcher herself, Cassie focuses on the end-user experience working with cloud-based datasets. She writes coding tutorials in Jupyter Notebooks to help facilitate data ease of access and provide science application examples. She actively seeks ways to curate cloud data and information so that end-users from a variety of backgrounds can understand and discover their optimal cloud workflows. Cassie has research expertise in hydrologic remote sensing and graduated with a PhD in Civil Engineering from Northeastern University in 2021.
-
-### Brianna Pagán
-
-Brianna is the Lead Development Engineer at NASA's Goddard Earth Sciences (GES) Data and Information Services Center (DISC). In her role, Brianna guides the transition of on premise services to an entirely cloud-based infrastructure across various engineering teams. Her previous experience involves leading the research and development of remote-sensing based products, working alongside teams of geospatial scientists and developers to get services in production environments. Brianna's research expertise is in remote sensing and eco-hydrology. 
 
 ### Navaneeth Selvaraj
 
@@ -324,11 +308,17 @@ Guoqing Wang is the DAAC scientist for the Ocean Biology Distributed Active Arch
 
 Since September 2018, [Dr. Jessica Nicole Welch](https://www.linkedin.com/in/jessicanicolewelch/) has held a position at the ORNL DAAC, which specializes in data archive for terrestrial biogeochemistry, ecology, and environmental processes. Her work focuses on dataset curation, project coordination, and science communication. Jess holds a PhD in Conservation Biology from the [Department of Ecology and Evolutionary Biology](https://eeb.utk.edu/) at the University of Tennessee. When she's not working at ORNL or participating in community service, she plays [Ultimate](https://www.usaultimate.org/about/ultimate/) with her friends.
 
-## Past Participants
+# Past Participants
+
+Here we list past NASA Openscapes Mentors, with their affiliations at the time of their participation.
 
 ### Jennifer Adams
 
 Goddard Earth Sciences Data and Information Services Center (GES DISC)
+
+### Matt Fisher
+
+National Snow & Ice Data Center (NSIDC)
 
 ### Vishal Bagadia
 
@@ -346,9 +336,21 @@ Interagency Implementation and Advanced Concepts Team (IMPACT)
 
 [**Cole Krehbiel**](https://www.linkedin.com/in/cole-krehbiel-6573469a/) is a remote sensing data scientist working as a contractor to NASA's Land Processes Distributed Active Archive Center (LP DAAC). He is interested in improving access to geospatial data for many user communities. Cole supports missions archived and distributed by the LP DAAC including MODIS, VIIRS, ASTER, ECOSTRESS, and GEDI by creating Python tutorials and data prep scripts and providing workshops and webinars to facilitate community uptake and understanding of those missions.
 
+### Bri Lind
+
+Bri is a Geospatial Data Scientist at NASA's Land Processes Distributed Active Archive Center (LP DAAC).  Bri is formally trained as an ecologist and remote sensing scientist and is deeply interested in facilitating the fusion of broad remote sensing products with field data to enhance scientific insight. As a visual learner and science-oriented coder, Bri is focused on making materials that are easy to understand and likes to convert challenging concepts into flexible and easy-to-apply approaches.
+
 ### Paul Moth
 
 Paul Moth is a Data Support Specialist at the National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC). He is part of the User Services team and currently represents MODIS, VIIRS, SMAP, High Mountain Asia, and Nimbus missions at NSIDC DAAC. He is interested in working with early adopters and science team members and gathering feedback that identifies the key operations/steps/workflows that would be most important for creating tutorials and educational materials.
+
+### Cassie Nickles
+
+Dr. Nickles is an Applied Science Systems Engineer Postdoc working with the Physical Oceanography Data Active Archive Center (PO.DAAC) at NASA's Jet Propulsion Laboratory (JPL). As an applied science researcher herself, Cassie focuses on the end-user experience working with cloud-based datasets. She writes coding tutorials in Jupyter Notebooks to help facilitate data ease of access and provide science application examples. She actively seeks ways to curate cloud data and information so that end-users from a variety of backgrounds can understand and discover their optimal cloud workflows. Cassie has research expertise in hydrologic remote sensing and graduated with a PhD in Civil Engineering from Northeastern University in 2021.
+
+### Brianna Pagán
+
+Brianna is the Lead Development Engineer at NASA's Goddard Earth Sciences (GES) Data and Information Services Center (DISC). In her role, Brianna guides the transition of on premise services to an entirely cloud-based infrastructure across various engineering teams. Her previous experience involves leading the research and development of remote-sensing based products, working alongside teams of geospatial scientists and developers to get services in production environments. Brianna's research expertise is in remote sensing and eco-hydrology. 
 
 ### Muthukumaran Ramasubramanian
 
