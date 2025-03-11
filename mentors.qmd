@@ -216,10 +216,6 @@ Alaska Satellite Facility (ASF)
 
 Dr. Carroll is an Associate Research Scientist at the University of Maryland Baltimore County working at NASA Goddard Space Flight Center on phytoplankton community ecology and data science. Phytoplankton are a broad collection of photosynthetic organisms, found in all water bodies, that range in size from less-than a micron to millimeters in length. Despite their small size, their presence in the photic zone can be detected from space due to their light-absorbing pigments. Dr. Carroll investigates machine learning approaches to predicting the community composition (abundances of each type) of phytoplankton using data from ocean color instruments. He also supports science data production for NASA's PACE mission.
 
-### Aaron Friesz\*
-
-Aaron Friesz is the Science Coordination Lead at NASA's Land Processes Distributed Active Archive Center (LP DAAC). In his role, Aaron provides user needs insights and technical support for archive and distribution, service development, and outreach activities. He develops tutorials, scripts, and presentations that highlight the use of land remote sensing data in analysis workflows. More recently, his work has focused on advocating for the uptake of cloud computing in the land remote sensing community.
-
 ### Alexis Hunzinger\*
 
 [Alexis Hunzinger](https://www.linkedin.com/in/alexis-hunzinger) is a Support Scientist at the NASA Goddard Earth Sciences Data and Information Services Center (GES DISC), focused on addressing the needs of the user community. Alexis works closely with the GES DISC User Working Group, fielding concerns and suggestions to be implemented at the DAAC. She also leads the effort at GES DISC of developing guides, tutorials, and other resources designed to educate and welcome users to the Earthdata Cloud.
@@ -316,13 +312,17 @@ Here we list past NASA Openscapes Mentors, with their affiliations at the time o
 
 Goddard Earth Sciences Data and Information Services Center (GES DISC)
 
+### Vishal Bagadia
+
+[Vishal Bagadia](https://www.linkedin.com/in/vishal-bagadia-a98b95113) is a data science analyst working on contract at the Atmospheric Science Data Center DAAC, NASA Langley Research Center. His experience in exploring emissions retrievals from satellite missions and guiding science teams during the development of their research products powers his work on addressing data interoperability concerns and being responsive to user's engagement with the archived data. He is energized in leveraging emerging, free, and open-source technologies to better represent and visualize large datasets, building web applications to meet user's data transformation and usability needs, and ultimately producing sustainable solutions to meet end-user requirements as data moves into the cloud.
+
 ### Matt Fisher
 
 National Snow & Ice Data Center (NSIDC)
 
-### Vishal Bagadia
+### Aaron Friesz\*
 
-[Vishal Bagadia](https://www.linkedin.com/in/vishal-bagadia-a98b95113) is a data science analyst working on contract at the Atmospheric Science Data Center DAAC, NASA Langley Research Center. His experience in exploring emissions retrievals from satellite missions and guiding science teams during the development of their research products powers his work on addressing data interoperability concerns and being responsive to user's engagement with the archived data. He is energized in leveraging emerging, free, and open-source technologies to better represent and visualize large datasets, building web applications to meet user's data transformation and usability needs, and ultimately producing sustainable solutions to meet end-user requirements as data moves into the cloud.
+Aaron Friesz is the Science Coordination Lead at NASA's Land Processes Distributed Active Archive Center (LP DAAC). In his role, Aaron provides user needs insights and technical support for archive and distribution, service development, and outreach activities. He develops tutorials, scripts, and presentations that highlight the use of land remote sensing data in analysis workflows. More recently, his work has focused on advocating for the uptake of cloud computing in the land remote sensing community.
 
 ### Shubhankar Gahlot
 
