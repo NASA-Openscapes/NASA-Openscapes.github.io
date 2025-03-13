@@ -18,15 +18,9 @@ Building from successes and momentum 2021-2024, in 2025 we will continue teachin
 
 ## 2025 goals
 
-Our 2025 focus is strengthening NASA networks between DAACs, missions, training programs, and applications, aligned with SPD-41a open science, as we continue support users through developing skills and tools.
+Our 2025 focus is strengthening NASA networks between DAACs, missions, training programs, and applications, aligned with SPD-41a open science, as we continue support users through developing skills and tools. 2025 goals were determined by Mentors during our Fall 2024 Mentors Retreat.
 
-2025 goals were determined by Mentors during our Fall 2024 Mentors Retreat.
-[Julie TODO in progress]
-
-We will move forward on the following four interleaving goals, with a brief overview of the purpose, outcomes, and process of each. 
-
-
-*💡 indicates Hackdays occurring, with an [open invite to join!](https://github.com/orgs/NASA-Openscapes/projects/7/views/1)*
+We will move forward on the following four interlinking goals, with a brief overview of the purpose, outcomes, and process of each, and how to join us.
 
 ### 1. Champions Cohort (Fall 2025)
 
@@ -34,7 +28,8 @@ We will move forward on the following four interleaving goals, with a brief over
 
 -   **Outcomes**: Users learn skills for current best practices for using NASA Earthdata and are empowered to ask questions and work more collaboratively within and across teams. Users have more awareness of what is available, what is coming, and how to get involved as contributors.
 
--   **Process**: This flagship Openscapes Champions program has been led 27 times since 2019, with 3 previous Cohorts co-led with NASA Mentors. We will lead this year's Cohort in Fall 2025, giving time to align with ESDIS and NASA Earth Action’s goals and communities. As there is current instability in our user communities, we will focus the spring and summer on developing relationships with user groups and restructure the Champions Cohorts to best meet user needs. Details and registration will be available in late summer on our [News & Events page](/news.qmd).
+-   **Process**: This flagship Openscapes Champions program has been led 27 times since 2019, with 3 previous Cohorts co-led with NASA Mentors. We will lead this year's Cohort in Fall 2025, giving time to align with ESDIS and NASA Earth Action’s goals and communities. As there is current instability in our user communities, we will focus the spring and summer on developing relationships with user groups and restructure the Champions Cohorts to best meet user needs. 
+  - **To join**: Check our [News & Events page](/news.qmd) for registration, available in late summer.
 
 ### 2. `earthaccess` python library
 
@@ -42,7 +37,8 @@ We will move forward on the following four interleaving goals, with a brief over
 
 -   **Outcomes**: More users can easily access NASA Earthdata. Increased community engagement via developing scaffolding to reduce participation barriers (education and outreach); Software sustainabilty and maintenance and further feature development including integrating virtualizarr, testing on Cloud OPeNDAP-enabled collections (dmrpp compliance/consistency), and building a plugin interface for services like Harmony, development of a “Results” Class that will be interoperable with the STAC ecosystem, use earthaccess for download scripts from Earthdata Search, and developing a Command Line Interface (CLI).
 
--   **Process**:💡 Biweekly hackdays and further feature development asyncronously; Continued talks and events to support users and showcase capabilities. 
+-   **Process**: Community-driven and community-requested development, currently including contributors from multiple DAACs, NASA, and the open science community. We develop asyncronously as well as via biweekly hackdays (see below). We also share progress and features via continued talks and events to support users and showcase capabilities. 
+  - **To join**: The earthaccess [contributing guide](https://earthaccess.readthedocs.io/en/latest/contributing/) shares information about joining biweekly hackdays and the Zulip messaging board.
 
 
 ### 3. User support and co-development
@@ -51,7 +47,8 @@ We will move forward on the following four interleaving goals, with a brief over
 
 -   **Outcomes**: Users have a friendly onboarding experience using NASA Earthdata in the cloud, and develop good practices for sustained work in the cloud (parallelizing code, managing storage, understanding cloud costs and options for "fledging" from our workshop Hub).
     
--   **Process**: We lead well-planned, welcoming, user-designed teaching events in a variety of formats including in-person and online (hackathons, workshops, Champions Cohorts, Community Calls, conference sessions); we develop open documentation, slides, and tutorials that are available for reuse and remix; we host a JupyterHub compute space in partnership with 2i2c; we co-develop technical cloud technical infrastructure including scientific software docker images; user access administration; cost reports/tracking; and documentation of user stories. Details and registration will be available in late summer on our [News & Events page](/news.qmd).
+-   **Process**: We lead well-planned, welcoming, user-designed teaching events in a variety of formats including in-person and online (hackathons, workshops, Champions Cohorts, Community Calls, conference sessions); we develop open documentation, slides, and tutorials that are available for reuse and remix; we host a JupyterHub compute space in partnership with 2i2c; we co-develop technical cloud technical infrastructure including scientific software docker images; user access administration; cost reports/tracking; and documentation of user stories. 
+  - **To join**: Check our [News & Events page](/news.qmd) for registration, available in late summer.
 
 ### 4. Earthdata Cloud Cookbook 
 
@@ -59,7 +56,8 @@ We will move forward on the following four interleaving goals, with a brief over
 
 -   **Outcomes**: A better-maintained resource that has contributors beyond the Mentors and a broadened set of users. What if we opened the scope beyond “cloud” and included other common Earthdata tutorials? 
 
--   **Process**: 💡Cookbook Hackdays - we will start biweekly hackdays in March 2025, building momentum with DevSeed contributions from VEDA. We can collaborate with ESDIS about for sharing cloud resources on the unified site, answering questions like, Does it need to be cloud-specific? Can it just be Earthdata specific?
+-   **Process**: Throughout all our user support, we trial materials with users that help us to update and improve the Earthdata Cloud Cookbook. Tutorials, presentations, and approaches are added to the Cookbook based on latest user needs and trends/tooling. For example, we are adding more support for R users, and we are reporting openly on compute and storage costs so that they could allot cloud funding into future proposals. Most Cookbook development is motivated by teaching events (workshops and hackathons and Champions). 
+  - **To join**: Check our [Cookbook GitHub Discussions](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/discussions); in Spring 2025 we are starting biweekly hackdays to drive more continual development alongside event-driven development. We are excited to build momentum with DevSeed contributions from VEDA. We can also collaborate with ESDIS about for sharing cloud resources on the unified site, answering questions like, Does it need to be cloud-specific? Can it just be Earthdata specific? 
 
 ## How we work
 
