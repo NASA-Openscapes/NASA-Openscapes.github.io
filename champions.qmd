@@ -2,16 +2,11 @@
 title: "NASA Openscapes Champions Cohort"
 description: |
   NASA Openscapes Champions is a mentorship and professional development opportunity for research teams using data from NASA Distributed Active Archive Centers (DAACs) and interested in open science and migrating their analytical workflows to the cloud. 
-output:
-  distill::distill_article:
-    self_contained: false
-    toc: true
-    toc_depth: 3
 ---
 
 <!---**Join us for our Spring 2024 NASA Champions Cohort, details below!** --->
 
-**Details for our Spring 2025 NASA Champions Cohort will be available in February!**
+**Our 2025 NASA Champions Cohort will be in Fall, please check back for more details and registration in late summer.**
 
 
 ## Overview
@@ -32,7 +27,7 @@ output:
 
 ## Champions Program Details
 
-*details coming in February for April-June 2025*
+*details coming for Fall 2025*
 
 <!---
 **This NASA Openscapes Champions Cohort will run from April-May 2024!** We will meet as a cohort five times over two months, on alternating Wednesdays, with additional optional coworking times. 
