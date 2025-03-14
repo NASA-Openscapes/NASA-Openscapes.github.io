@@ -67,7 +67,7 @@ iterating with feedback, with a “make once, use often”, future us web-first 
 
 ### Mentor Calls, Coworking, and Hackdays
 
-We meet each week in different formats to move our work forward in different ways. To join us, see details of date-times on our [MainPlanning GitHub Project](https://github.com/orgs/NASA-Openscapes/projects/7/views/3).
+We meet each week in different formats to move our work forward in different ways. The cadence in which we meet is available on our [MainPlanning GitHub Project](https://github.com/orgs/NASA-Openscapes/projects/7/views/3).
 
 -   Mentor Calls for planning, sharing, and learning (biweekly, for Mentors)
 -   Hackdays and Coworking for working synchronously and screensharing (biweekly, various topics, open to anyone!)
@@ -81,7 +81,7 @@ We meet each week in different formats to move our work forward in different way
 
 3.  **Fall Champions Cohort -** We will support research teams to learn, discuss, and plan what transitioning their workflows with NASA Earthdata could look like in the Cloud. 2022-2024 Cohorts were during the Spring.
 
-4.  **Fall -** We onboard new mentors; we will have our first Mentor Call with the full group of mentors - to introduce everyone and orient around the NASA Openscapes project. Our initial call will include sharing plans, UWGs and other events on the calendar and continuing [onboarding new DAAC mentors](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding.html). In preparing for AGU workshops in December, returning DAAC mentors will lead teaching dry runs with the cloud tutorials as a way to onboard the group to data access in the cloud and to get your fresh perspective on our existing material. (What works? What's confusing?).
+4.  **Fall -** We regroup in Fall. Our initial call will include sharing plans, UWGs and other events on the calendar and continuing onboarding new DAAC mentors. In preparing for AGU workshops in December, returning DAAC mentors will lead teaching dry runs with the cloud tutorials as a way to onboard the group to data access in the cloud and to get your fresh perspective on our existing material. (What works? What's confusing?).
 
 ### Onboarding Mentors
 
