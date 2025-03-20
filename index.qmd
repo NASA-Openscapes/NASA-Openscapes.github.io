@@ -14,6 +14,8 @@ We are influenced and inspired by many leaders and community organizers, particu
 
 **Upcoming Events:**
 
+[Community Call April 22](https://nasa-openscapes.github.io/news/2025-04-22-community-call-hub-cloud-costs/): What we’re learning about cloud costs for Earth science workflows in our JupyterHub.
+
 Learn about our recent work: [News](news.qmd) • [Presentations](/about.qmd#slides) • [Flywheel Preprint](https://nasa-openscapes.github.io/about.html#flywheel-preprint) • [White Paper: The Value of Hosted JupyterHubs](https://nasa-openscapes.github.io/about.html#white-paper-value-of-hosted-jupyterhubs)
 
 ![](images/earthaccesslogo.png){fig-alt="hexagonal earthaccess logo, an illustrated earth as pixels with blue text arcing across" fig-align="left" width="30"} [earthaccess](https://earthaccess.readthedocs.io/en/latest/) python library • [Earth Science Data Simplified](https://www.earthdata.nasa.gov/learn/blog/earthaccess) (NASA Earthdata blog!)
