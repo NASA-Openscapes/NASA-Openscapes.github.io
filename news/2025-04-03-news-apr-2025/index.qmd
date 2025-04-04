@@ -1,0 +1,81 @@
+---
+title: "Openscapes Newsletter #11: Spring 2025"
+author:
+  - name: Julie Lowndes
+    orcid: 0000-0003-1682-3872
+  - name: Stefanie Butland
+    orcid: 0000-0002-5427-8951  
+date: 2025-04-03
+citation: 
+  url: https://openscapes.org/blog/2025-04-03-news-apr-2025/
+categories: [blog, newsletter, nasa-framework, noaa-fisheries, pathways, reflections]
+image: MtWhitneySunrise-ElliotLowndes.jpeg
+---
+
+*Welcome to Openscapes' eleventh newsletter! If you're interested in seeing these infrequent updates in your inbox, please [sign up here](https://docs.google.com/forms/d/e/1FAIpQLSd25jpfiAn1gYNwUPcfMVudsL625_pYbKsqxXpRazHCL6QA7g/viewform) (linked from our [connect with us](https://openscapes.org/connect) page). And! If you have signed up but did not see this in your inbox, please check your spam folder!*
+
+*Cross-posted at [openscapes.org/blog](https://openscapes.org/blog), [nmfs-openscapes.github.io/blog](https://nmfs-openscapes.github.io/blog), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html), [openscapes.github.io/pathways-to-open-science/blog](https://openscapes.github.io/pathways-to-open-science/blog.html)*
+
+------------------------------------------------------------------------
+
+Hello all,
+
+It’s been really hard these past few months, as scientists and people supporting science in the United States. We have lost amazing, smart, and hard-working federal colleagues, and important, impactful science is being disrupted daily. We are grateful for our strong, resilient, and thoughtful networked communities that continue to learn and connect to support each other – as Stef Butland recently said, whose “impact goes beyond people’s jobs and into our lives”. We are grateful at this moment that Openscapes is funded, and this newsletter is a short update on our work with our awesome partners.
+
+Many folks are looking for ways to come together and connect. Here are two opportunities for you and the community to join us this spring.
+
+-   **May 5-30: The Reflections Program** helps folks identify and plan around their workflow needs in \~1 hour/week. This year we are adding a 4th week to teach our GitHub Clinic for publishing & project management, designed for collaboration skills for absolute beginners and seasoned version control users alike; no coding involved. [Registration](https://docs.google.com/forms/d/e/1FAIpQLSd3cWPwA9jz7DRgbzwBLv2V4X0M3iQW71kunXbhnkP7FDGSKA/viewform). Former federal and state government employees are encouraged to participate at the sponsored cost of \$5. [Full details and open source materials](https://openscapes.github.io/booklet).
+
+-   **April 22, 9:30 - 10:30 am PT: Community Call: What we’re learning about cloud costs for Earth science workflows in our JupyterHub.** This will be a conversation with Openscapes and our partners at NASA, NOAA, and 2i2c go beyond “it depends” as we share what we’re learning about cloud costs for science by building reusable open tooling for monitoring and reporting. We’re interested in hearing your questions, challenges, and experiences so please join us: [details & registration](https://openscapes.org/events/2025-04-22-community-call-hub-cloud-costs/). 
+
+## **We are focused on supporting the missions of the organizations we work with by supporting their staff and scientists** 
+
+We’re starting to talk about Openscapes as a mechanism that can rapidly identify problems and bring people together to solve them. The communities below include people within our partner organizations that work together to deliver work aligned with their goals to enable science and society, and are enriched by collaborating with the open science community.
+
+### NASA Earthdata
+
+-   [**Vision**](https://www.earthdata.nasa.gov/)**:** NASA Earthdata’s vision is to make NASA's free and open Earth science data interactive, interoperable, and accessible for research and societal benefit both today and tomorrow. This follows NASA Earth Science’s Vision: A thriving world, driven by trusted, actionable Earth science, and their Mission: Compelled by our planet’s rapid change, we innovate and collaborate to explore and understand the Earth system, make new discoveries, and enable solutions for the benefit of all.
+
+-   **Openscapes Update:** NASA Openscapes Mentors have created “go-to” resources for staff and users using NASA Earthdata – such as the [earthaccess](https://earthaccess.readthedocs.io/en/latest/) python library and tutorials in the [Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/). Our 2025 focus is strengthening NASA networks between Distributed Active Archive Centers ([DAACs](https://www.earthdata.nasa.gov/centers)), missions, training programs, and applications, aligned with [SPD-41a open science](https://science.nasa.gov/researchers/science-information-policy/), as we continue to support users through developing skills and tools. The NASA Openscapes Mentors developed this focus together during our Fall 2024 Mentors Retreat, building on the past three years of work together. We make progress through hosting regular online hackdays and coworking, where we develop tutorials, design and lead workshops, expand features of the earthaccess – a faster way to access and analyze NASA Earth data, develop open infrastructure through science environments (docker base images), cost monitoring and reporting for users, and open documentation. We are also planning the 2025 NASA Openscapes Champions Cohort - we will lead this year's Cohort in Fall 2025, giving time to iterate the program to support more science teams and users. Mentors will be leading other workshops this summer too; details will be at <https://nasa-openscapes.github.io/news> and we’ll share about NASA Champions via the next newsletter. 
+
+### NOAA Fisheries
+
+-   [**Mission**](https://www.fisheries.noaa.gov/about-us)**:** NOAA Fisheries is responsible for the stewardship of the nation's ocean resources and their habitat. We provide vital services for the nation, all backed by sound science and an ecosystem-based approach to management: productive and sustainable fisheries; safe sources of seafood; recovery and conservation of protected resources; healthy ecosystems.
+
+-   **Openscapes Update:** Data and workforce modernization is happening at NOAA Fisheries – in many reinforcing ways through providing staff with the necessary skills and collaborative tools to drive changes in data and technical infrastructure. Over 2 months in fall 2024, 120 NOAA Fisheries staff from all six science centers, two regional offices and four headquarters offices tackled projects to improve or restructure data workflows via the [Openscapes Champions Program](https://nmfs-openscapes.github.io/champions.html). They made substantial progress on complex workflow transformation goals: Transitioning to contemporary data storage solutions; Automating large data-heavy reports with programmatic code and version control; Developing coordinated science program onboarding and operating procedures that are harmonized across NOAA Fisheries; and Prototyping cloud computing workflows for new data streams from satellites and ocean modeling. Now, the NOAA Fisheries mentor community is making progress on shared goals of data active archiving; infrastructure testing and governance; automated & templated reporting, and hosting coding & cloud training events. After sharing about GitHub governance at the ESIP winter meeting ([slides](https://docs.google.com/presentation/d/1WTVD403FCJsLoYAVAc51PG8_UoXyZmcuofZ0c-w3Wgo/edit#slide=id.g3270b11283a_1_267); [recording](https://youtu.be/Df6ps0o8GU4?feature=shared)), mentors continue to use a GitHub [Project Board](https://github.com/orgs/nmfs-openscapes/projects/46/views/6) to track progress, have awareness across the group, and continue growing synergies. Examples include a small group of mentors testing, troubleshooting, and documenting the new Google Workstations for Cloud computing, saving time and preventing frustration for hundreds of new users ([issue](https://github.com/orgs/nmfs-openscapes/projects/46/views/6?pane=issue&itemId=102920703&issue=nmfs-openscapes%7Chow-we-work%7C33)); improving metadata creation for datasets and inPort, including facilitating meetings between research teams and developers ([issue](https://github.com/nmfs-openscapes/how-we-work/issues/16)); creating diagrams and tables to help folks find the right infrastructure for a data project ([issue](https://github.com/orgs/nmfs-openscapes/projects/46?pane=issue&itemId=102584748&issue=nmfs-openscapes%7Chow-we-work%7C35)); and sharing templates for manuscripts, publications, and research compendia in Quarto ([issue](https://github.com/orgs/nmfs-openscapes/projects/46/views/6?pane=issue&itemId=96503986&issue=nmfs-openscapes%7Chow-we-work%7C21); [issue](https://github.com/orgs/nmfs-openscapes/projects/46/views/6?pane=issue&itemId=96504062&issue=nmfs-openscapes%7Chow-we-work%7C22); [issue](https://github.com/orgs/nmfs-openscapes/projects/46/views/6?pane=issue&itemId=95739969&issue=nmfs-openscapes%7Chow-we-work%7C15); [issue](https://github.com/orgs/nmfs-openscapes/projects/46/views/6?filterQuery=compen&pane=issue&itemId=96540311&issue=nmfs-openscapes%7Chow-we-work%7C30)). This April we are launching our first [NOAA Fisheries Data Academy](https://nmfs-openscapes.github.io/data-academy.html) with a cohort of 40 R beginners who will learn R for data analysis and visualization. 
+
+### California Water Boards
+
+-   [**Mission**](https://www.waterboards.ca.gov/about_us/): To preserve, enhance, and restore the quality of California’s water resources and drinking water for the protection of the environment, public health, and all beneficial uses, and to ensure proper water resource allocation and efficient use, for the benefit of present and future generations. The Office of Information Management and Analysis ([OIMA](https://www.waterboards.ca.gov/resources/oima/)) has operationalized their values into process ([pdf](https://www.waterboards.ca.gov/resources/oima/docs/oima-values-statement-2023.pdf)). 
+
+-   **Openscapes Update:** OIMA is refining their strategic plan that has included upskilling staff through the Openscapes Champions Program since 2021. We are currently advising OIMA as they develop a communication strategy and a mentor community to grow the community of staff supporting open data science and amplify this work. This work is not only for research teams but also for teams who manage contracts, as we shared in a [talk](https://docs.google.com/presentation/d/1yOTdJcvWdVWSLIE72L4cCN2b22y-6ZDlOouqP1i_bSI/edit#slide=id.g2c1dee5ed55_3_272) co-presented with OIMA staff at the California Department of Water Resources last year. 
+
+### Fred Hutch Cancer Center 
+
+-   [**Mission**](https://www.fredhutch.org/en/about/about-the-hutch/mission-values.html)**:** Fred Hutch Cancer Center unites innovative research and compassionate care to prevent and eliminate cancer and infectious disease. We’re driven by the urgency of our patients, the hope of our community and our passion for discovery to pursue scientific breakthroughs and healthier lives for every person in every community. The Hutch lists specific Values describing how “our mission is directly tied to the humanity, dignity and inherent value of each employee, patient, community member and supporter. Our commitment to learning across our differences and similarities make us stronger.”
+
+-   **Openscapes Update:** Next week we kick off the second Champions Cohort in partnership with the Fred Hutch Data Science Lab ([DaSL](https://hutchdatascience.org/)); this is our 24th Champions Cohort since 2019. Through the Champions Program we will introduce concepts, workflows and examples to help teams surface their problems and ideas so that they can solve them with accountability and support. It is a remote-by-design program, designed for folks with busy schedules to make real progress. The DaSL team will support through mentoring and being a direct link between teams’ needs and solutions at Fred Hutch. Learn about how the Fred Hutch mentors are working on [solving the lonely data scientist problem](https://openscapes.org/blog/2025-01-07-solving-the-lonely-data-scientist-problem/), and stay tuned to hear about Champions accomplishments this spring.
+
+## Other good stuff
+
+-   [Cloud Native Geospatial Conference](https://2025-ut.cloudnativegeo.org): on May 1 Julie is keynoting in collaboration with the amazing Eli Holmes (NOAA Fisheries). Eli was invited to speak based on her contributions to the open science geospatial community that are huge and wide-spanning, and include developing novel important infrastructure for science and teaching & building strong communities across NOAA and connected far beyond. Eli is on travel freeze, and it is an honor to support and step in for her, while deeply sad it won’t be her on that stage.
+
+-   [USGS Community for Data Integration Conference](https://www.usgs.gov/centers/community-for-data-integration-cdi/2025-cdi-workshop): on April 29 Julie is keynoting to share about open data communities lessons learned across federal and state agencies and academia. We’re excited to learn more about USGS data community progress and needs and meet more folks involved.
+
+-   We’ve been experimenting with using our [Flywheel](https://openscapes.org/blog/2024-01-18-agu-talk-2023/index.html#how-we-work-openscapes-flywheel) each month to reflect together on shared progress and impacts as a team and community and we use that to inform reporting to our partners. 
+
+-   [jupycost](https://github.com/Openscapes/jupycost) is an R package for JupyterHub cost monitoring and reporting that Andy Teucher is developing as a common cost/usage reporting framework based on needs by [NASA and NOAA JupyterHubs](https://openscapes.cloud/usage-reporting.html), in collaboration with 2i2c. Andy will share more about it at the April 22 Community Call!
+
+-   In February we completed the third year of our [Pathways to Open Science Program](https://openscapes.github.io/pathways-to-open-science/), with 11 speakers and 69 certificates issued to participants! As well as being an important skill- and community-building opportunity for participants, we have been learning through iterating shared leadership roles, designing to include more guest speakers (two in conversation in the same coworking breakout room), and developing a strong sense of community for participants within a drop-in cohort design.
+
+-   Julie [reflected](https://openscapes.org/blog/2025-01-20-abundance-of-community-agu/) on the abundance of community at the American Geophysical Union (AGU) Fall Meeting 
+
+-   The Openscapes and rOpenSci organizations and communities share values around enabling people doing open and kinder science and many of our activities are complementary. In November, we teamed up for “Getting to know Openscapes” at [rOpenSci’s monthly social coworking](https://ropensci.org/coworking/) and the discussion led to a [post](https://ropensci.org/blog/2025/02/20/forks-upstream-relationship/) by Hugo Gruson, Stefanie Butland, and Ruby Krasnow on The Dynamic Relationship of Forks with their Upstream Repository.
+
+-   We are making plans for the 2025 [ESIP summer conference](https://www.esipfed.org/meetings/) in Seattle, and looking forward to seeing folks there.
+
+## Closing thoughts
+
+Something that has resonated through this work is adrienne marie brown’s [idea of fractals](https://adriennemareebrown.net/book/emergent-strategy/) – “what we practice at the small scale sets patterns for the whole system.” We see this showing up in small and big ways over short and long time scales as we continue to learn [from, with, and for each other](https://www.scientificamerican.com/blog/observations/open-software-means-kinder-science/). We have been quieter than usual, but we continue to do the work and are here. Thank you for reading, and for all that you do.
+
+![Photo by Elliot Lowndes](MtWhitneySunrise-ElliotLowndes.jpeg){fig-alt="Mount Whitney sunrise. Deep blue clear sky. Reddish mountains with a dusting of snow, with each sharp ridge casting a shadow on the next ridge to the right. Boulders in the foreground." fig-align="left" width="80%"}
