@@ -14,7 +14,9 @@ We are influenced and inspired by many leaders and community organizers, particu
 
 **Upcoming Events:**
 
-[Community Call April 22](https://nasa-openscapes.github.io/news/2025-04-22-community-call-hub-cloud-costs/): What we’re learning about cloud costs for Earth science workflows in our JupyterHub.
+-   [Community Call April 22](https://nasa-openscapes.github.io/news/2025-04-22-community-call-hub-cloud-costs/): What we’re learning about cloud costs for Earth science workflows in our JupyterHub.
+
+-   [Reflections Program May 5 - 30](news/2025-05-05-reflections/): An open data science coaching program for researchers and those who support research.
 
 Learn about our recent work: [News](news.qmd) • [Presentations](/about.qmd#slides) • [Flywheel Preprint](https://nasa-openscapes.github.io/about.html#flywheel-preprint) • [White Paper: The Value of Hosted JupyterHubs](https://nasa-openscapes.github.io/about.html#white-paper-value-of-hosted-jupyterhubs)
 

@@ -1,0 +1,30 @@
+---
+title: "2025 Reflections Program"
+description: |
+  An open data science coaching program for researchers and those who support research.
+author:
+  - name: Openscapes
+    url: {}
+date: 2025-05-05
+categories:
+  - event 
+  - mentorship
+  - reflections
+image: "fig-mountain-2023-square.jpg"   
+---
+
+[**Registration is open for the 2025 Reflections Program**](https://forms.gle/aq9vPiyHSoVjfY9t9)**!**
+
+**Dates: May 5 - 30 2025** (1-2 hour/week for 4 weeks)
+
+> “I’m taking away a bit of energy and motivation to keep my spotlight shining on my workflow. I also have a feeling of hope for a community.” - *2023 Reflections Participant*
+
+**Openscapes Reflections is an open data science coaching program for researchers and those who support research.** We know many like you have been looking for a lighter-weight way to get involved or continue building habits to support yourself and your colleagues. We’ve designed the Reflections Program to meet this need; Reflections is a \< 1 month program (1-2 hour/week for 4 weeks) modeled from leadership coaching, something now core to the Openscapes approach. This year we are adding a 4th week to teach our GitHub Clinic for publishing & project management (designed for collaboration skills for absolute beginners and seasoned version control users alike).
+
+This program has a \$95 value. We intend to make this program accessible to anyone interested, with sponsorship available through the [registration form](https://forms.gle/aq9vPiyHSoVjfY9t9). Former federal and state government employees are encouraged to participate at the sponsored cost of \$5.
+
+We designed Reflections to be rewarding for people who haven't been part of Openscapes initiatives so far, as well as returning folks who want some accountability and space to reflect on their workflows and plan how open data science practices can fuel institutional culture change. This will help you make goals going into summer. **Learn more - full details and open source materials available at <https://openscapes.github.io/booklet>**.
+
+[Reflections program helps folks identify and plan around their workflow needs in 1 hour/week](https://openscapes.org/blog/2023-09-06-reflections-2023/) - 2023 summary blog post & participant testimonials
+
+![](fig-mountain-2023-square.jpg){fig-alt="landscape with blue sky, mountains and valley in background, trees in midground, dense cover of purple lupins and orange poppies on hillside in foreground. Mountains look as if flower colors are reflected there." width="40%"}
