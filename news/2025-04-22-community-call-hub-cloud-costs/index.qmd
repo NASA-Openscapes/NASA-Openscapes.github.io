@@ -5,11 +5,11 @@ author:
   - name: Openscapes
 #    url: {}
 date: "2025-04-22"
-categories: [event, community-call, nasa-framework]
+categories: [event, community-call, nasa-framework, noaa-fisheries]
 image: nasa-noaa-openscapes-jupyter-2i2c.png
 ---
 
-*Cross-posted at [openscapes.org/blog](https://openscapes.org/blog), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html)*
+*Cross-posted at [openscapes.org/blog](https://openscapes.org/blog), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html), [nmfs-openscapes.github.io/blog](https://nmfs-openscapes.github.io/blog.html)*
 
 ------------------------------------------------------------------------
 
