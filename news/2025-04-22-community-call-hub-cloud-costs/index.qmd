@@ -28,7 +28,7 @@ Openscapes and our partners at NASA, NOAA, and 2i2c have been learning together 
 **Where**: Zoom\
 **Register (free)** via [Zoom](https://zoom.us/meeting/register/_SSlgeuuToiLNH5p5VZSXw) to get the meeting link <!--- **View** [recording](https://youtu.be/uKAm3uEyUks) and [event summary](/blog/2024-10-03-openscapes-recognized-white-house/). --->
 
-Many organizations are using cloud computing for computational analysis and teaching workshops, often using JupyterHubs as the platform for this work. Tracking usage and attributing costs to specific users and workflows can be tricky on these shared hubs, and we have been learning some strategies and tools to help us understand them. The purpose of this Community Call is to share what we've learned: tools and processes to explore cloud costs, as well as figures like the basic costs for hosting a hub, cost per user, cost per science workflow, and what it costs to run a workshop in the hub. Through a light interview structure, Andy Teucher (Openscapes), Alex Lewandowski (NASA Alaska Satellite Facility), Eli Holmes (NOAA Fisheries), and Yuvi Panda (2i2c) will share their experiences and what they are building. Participants will leave with new insights and we'll post a recording after the event.
+Many organizations are using cloud computing for computational analysis and teaching workshops, often using JupyterHubs as the platform for this work. Tracking usage and attributing costs to specific users and workflows can be tricky on these shared hubs, and we have been learning some strategies and tools to help us understand them. The purpose of this Community Call is to share what we've learned: tools and processes to explore cloud costs, as well as figures like the basic costs for hosting a hub, cost per user, cost per science workflow, and what it costs to run a workshop in the hub. Through a light interview structure, Andy Teucher (Openscapes), Alex Lewandowski (NASA Alaska Satellite Facility), Eli Holmes (NOAA Fisheries), Tasha Snow (CryoCloud), and Yuvi Panda (2i2c) will share their experiences and what they are building. Participants will leave with new insights and we'll post a recording after the event.
 
 What would **you** like to ask them?
 
@@ -39,6 +39,8 @@ What would **you** like to ask them?
 Alex Lewandowski is a Software Engineer at the [NASA Alaska Satellite Facility (ASF)](https://www.earthdata.nasa.gov/centers/asf-daac) data center, University of Alaska Fairbanks Geophysical Institute.
 
 [Eli Holmes](https://eeholmes.github.io/) is the [Open Science lead at NOAA Fisheries](https://nmfs-opensci.github.io/).
+
+[Tasha Snow](https://tsnow03.github.io/) is the Co-Founder and Lead of [CryoCloud](https://cryointhecloud.com/).
 
 [Yuvi Panda](https://2i2c.org/author/yuvi-panda/) is the technical lead and co-founder of [2i2c](https://2i2c.org/).
 
