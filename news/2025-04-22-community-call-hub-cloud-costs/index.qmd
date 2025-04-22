@@ -25,8 +25,7 @@ Openscapes and our partners at NASA, NOAA, and 2i2c have been learning together 
 
 **Date**: Tuesday, April 22, 2025\
 **Time**: 9:30 - 10:30 am PT ([find your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Community+Call%3A+What+we%E2%80%99re+learning+about+cloud+costs+for+Earth+science+workflows+in+our+JupyterHub&iso=20250422T0930&p1=1050&ah=1))\
-**Where**: Zoom\
-**Register (free)** via [Zoom](https://zoom.us/meeting/register/_SSlgeuuToiLNH5p5VZSXw) to get the meeting link <!--- **View** [recording](https://youtu.be/uKAm3uEyUks) and [event summary](/blog/2024-10-03-openscapes-recognized-white-house/). --->
+<!--- **Register (free)** via [Zoom](https://zoom.us/meeting/register/_SSlgeuuToiLNH5p5VZSXw) to get the meeting link  --->**View** [recording](https://youtu.be/D1k3OqZZRDw)<!--- and [event summary](/blog/2024-10-03-openscapes-recognized-white-house/)--->.
 
 Many organizations are using cloud computing for computational analysis and teaching workshops, often using JupyterHubs as the platform for this work. Tracking usage and attributing costs to specific users and workflows can be tricky on these shared hubs, and we have been learning some strategies and tools to help us understand them. The purpose of this Community Call is to share what we've learned: tools and processes to explore cloud costs, as well as figures like the basic costs for hosting a hub, cost per user, cost per science workflow, and what it costs to run a workshop in the hub. Through a light interview structure, Andy Teucher (Openscapes), Alex Lewandowski (NASA Alaska Satellite Facility), Eli Holmes (NOAA Fisheries), Tasha Snow (CryoCloud), and Yuvi Panda (2i2c) will share their experiences and what they are building. Participants will leave with new insights and we'll post a recording after the event.
 
