@@ -65,6 +65,10 @@ We will move forward on the following four interlinking goals. Below is a brief 
 Openscapes is about working effectively and openly as teams. We are user-focused and meet regularly to learn skills of immediate use together and to work on common needs for researchers using NASA Earthdata. We have an open science approach to resource development, where we focus on having space and place, sharing early and 
 iterating with feedback, with a “make once, use often”, future us web-first mindset. Mentors build skills through Openscapes mentorship, co-developing events, software, and open practices and relationships with the open source community, with access to a JupyterHub that helps refine teaching strategies for Cloud.
 
+![](images/shell-diagram-how-we-work.png)
+
+<br>
+
 ### Mentor Calls, Coworking, and Hackdays
 
 We meet each week in different formats to move our work forward in different ways. The cadence in which we meet is available on our [MainPlanning GitHub Project](https://github.com/orgs/NASA-Openscapes/projects/7/views/3).
