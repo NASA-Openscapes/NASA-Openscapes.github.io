@@ -6,11 +6,15 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Andy Teucher">
+<meta name="author" content="Alex Lewandowski">
+<meta name="author" content="Eli Holmes">
+<meta name="author" content="Tasha Snow">
+<meta name="author" content="Yuvi">
 <meta name="author" content="Julie Lowndes">
-<meta name="author" content="Stefanie Butland">
-<meta name="dcterms.date" content="2025-04-03">
+<meta name="dcterms.date" content="2025-05-01">
 
-<title>Openscapes Newsletter #11: Spring 2025 – NASA-Openscapes</title>
+<title>What we’re learning about cloud costs for Earth science workflows in our JupyterHub – NASA-Openscapes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -156,15 +160,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#we-are-focused-on-supporting-the-missions-of-the-organizations-we-work-with-by-supporting-their-staff-and-scientists" id="toc-we-are-focused-on-supporting-the-missions-of-the-organizations-we-work-with-by-supporting-their-staff-and-scientists" class="nav-link active" data-scroll-target="#we-are-focused-on-supporting-the-missions-of-the-organizations-we-work-with-by-supporting-their-staff-and-scientists"><strong>We are focused on supporting the missions of the organizations we work with by supporting their staff and scientists</strong>&nbsp;</a>
-  <ul class="collapse">
-  <li><a href="#nasa-earthdata" id="toc-nasa-earthdata" class="nav-link" data-scroll-target="#nasa-earthdata">NASA Earthdata</a></li>
-  <li><a href="#noaa-fisheries" id="toc-noaa-fisheries" class="nav-link" data-scroll-target="#noaa-fisheries">NOAA Fisheries</a></li>
-  <li><a href="#california-water-boards" id="toc-california-water-boards" class="nav-link" data-scroll-target="#california-water-boards">California Water Boards</a></li>
-  <li><a href="#fred-hutch-cancer-center" id="toc-fred-hutch-cancer-center" class="nav-link" data-scroll-target="#fred-hutch-cancer-center">Fred Hutch Cancer Center&nbsp;</a></li>
-  </ul></li>
-  <li><a href="#other-good-stuff" id="toc-other-good-stuff" class="nav-link" data-scroll-target="#other-good-stuff">Other good stuff</a></li>
-  <li><a href="#closing-thoughts" id="toc-closing-thoughts" class="nav-link" data-scroll-target="#closing-thoughts">Closing thoughts</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link active" data-scroll-target="#resources"><strong>Resources</strong></a></li>
+  <li><a href="#speakers" id="toc-speakers" class="nav-link" data-scroll-target="#speakers"><strong>Speakers</strong></a></li>
   </ul>
 </nav>
 </nav>
@@ -177,14 +174,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Openscapes Newsletter #11: Spring 2025</h1>
+<h1 class="title">What we’re learning about cloud costs for Earth science workflows in our JupyterHub</h1>
   <div class="quarto-categories">
     <div class="quarto-category">blog</div>
-    <div class="quarto-category">newsletter</div>
+    <div class="quarto-category">event</div>
     <div class="quarto-category">nasa-framework</div>
     <div class="quarto-category">noaa-fisheries</div>
-    <div class="quarto-category">pathways</div>
-    <div class="quarto-category">reflections</div>
   </div>
   </div>
 
@@ -195,15 +190,19 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Authors</div>
     <div class="quarto-title-meta-contents">
+             <p>Andy Teucher <a href="https://orcid.org/0000-0002-7840-692X" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+             <p>Alex Lewandowski <a href="https://orcid.org/0009-0006-9584-0687" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+             <p>Eli Holmes <a href="https://orcid.org/0000-0001-9128-8393" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+             <p>Tasha Snow <a href="https://orcid.org/0000-0001-5697-5470" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+             <p>Yuvi <a href="https://orcid.org/0000-0002-8055-2870" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
              <p>Julie Lowndes <a href="https://orcid.org/0000-0003-1682-3872" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-             <p>Stefanie Butland <a href="https://orcid.org/0000-0002-5427-8951" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 3, 2025</p>
+      <p class="date">May 1, 2025</p>
     </div>
   </div>
   
@@ -215,84 +214,99 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><em>Welcome to Openscapes’ eleventh newsletter! If you’re interested in seeing these infrequent updates in your inbox, please <a href="https://docs.google.com/forms/d/e/1FAIpQLSd25jpfiAn1gYNwUPcfMVudsL625_pYbKsqxXpRazHCL6QA7g/viewform">sign up here</a> (linked from our <a href="https://openscapes.org/connect">connect with us</a> page). And! If you have signed up but did not see this in your inbox, please check your spam folder!</em></p>
-<p><em>Cross-posted at <a href="https://openscapes.org/blog">openscapes.org/blog</a>, <a href="https://nmfs-openscapes.github.io/blog">nmfs-openscapes.github.io/blog</a>, <a href="https://nasa-openscapes.github.io/news.html">nasa-openscapes.github.io/news</a>, <a href="https://openscapes.github.io/pathways-to-open-science/blog.html">openscapes.github.io/pathways-to-open-science/blog</a></em></p>
+<p><em>On April 22, 2025 Openscapes hosted a Community Call to share what we’re learning about cloud costs for Earth science workflows in our JupyterHubs. We are working deeply with NASA Openscapes Mentors and NOAA Openscapes Mentors to use, teach, and develop with 2i2c; and increasingly have cross-NASA collaborations with other hubs like the Alaska Satellite Facility (ASF) and CryoCloud. This was a first conversation. There is so much more to share than we had time for, and there was a lot more interest in questions and community examples. Through a light interview structure, Andy Teucher (Openscapes), Alex Lewandowski (NASA Alaska Satellite Facility), Eli Holmes (NOAA Fisheries), Tasha Snow (CryoCloud), and Yuvi (2i2c) shared their experiences and what they are building.</em></p>
+<p><em>Quick links:</em></p>
+<ul>
+<li><em>Community Call YouTube <a href="https://youtu.be/D1k3OqZZRDw">Recording</a></em></li>
+<li><em>Speakers <a href="https://docs.google.com/presentation/d/1S6qnxEvc_25plQMgYZfObBsoCxJWUj6_JoO_IP-mv6w/edit?usp=sharing">slides</a></em></li>
+<li><em>Community Call <a href="https://docs.google.com/document/d/11jMJuE6-ujyur0_RzFgMjZFMeUz5F8f934hpo9XWRNU/edit?tab=t.0">Collaborative Notes</a></em></li>
+</ul>
 <hr>
-<p>Hello all,</p>
-<p>It’s been really hard these past few months, as scientists and people supporting science in the United States. We have lost amazing, smart, and hard-working federal colleagues, and important, impactful science is being disrupted daily. We are grateful for our strong, resilient, and thoughtful networked communities that continue to learn and connect to support each other – as Stef Butland recently said, whose “impact goes beyond people’s jobs and into our lives”. We are grateful at this moment that Openscapes is funded, and this newsletter is a short update on our work with our awesome partners.</p>
-<p>Many folks are looking for ways to come together and connect. Here are two opportunities for you and the community to join us this spring.</p>
-<ul>
-<li><p><strong>May 5-30: The Reflections Program</strong> helps folks identify and plan around their workflow needs in ~1 hour/week. This year we are adding a 4th week to teach our GitHub Clinic for publishing &amp; project management, designed for collaboration skills for absolute beginners and seasoned version control users alike; no coding involved. <a href="https://docs.google.com/forms/d/e/1FAIpQLSd3cWPwA9jz7DRgbzwBLv2V4X0M3iQW71kunXbhnkP7FDGSKA/viewform">Registration</a>. Former federal and state government employees are encouraged to participate at the sponsored cost of $5. <a href="https://openscapes.github.io/booklet">Full details and open source materials</a>.</p></li>
-<li><p><strong>April 22, 9:30 - 10:30 am PT: Community Call: What we’re learning about cloud costs for Earth science workflows in our JupyterHub.</strong> This will be a conversation with Openscapes and our partners at NASA, NOAA, and 2i2c go beyond “it depends” as we share what we’re learning about cloud costs for science by building reusable open tooling for monitoring and reporting. We’re interested in hearing your questions, challenges, and experiences so please join us: <a href="https://openscapes.org/events/2025-04-22-community-call-hub-cloud-costs/">details &amp; registration</a>.&nbsp;</p></li>
-</ul>
-<section id="we-are-focused-on-supporting-the-missions-of-the-organizations-we-work-with-by-supporting-their-staff-and-scientists" class="level2">
-<h2 class="anchored" data-anchor-id="we-are-focused-on-supporting-the-missions-of-the-organizations-we-work-with-by-supporting-their-staff-and-scientists"><strong>We are focused on supporting the missions of the organizations we work with by supporting their staff and scientists</strong>&nbsp;</h2>
-<p>We’re starting to talk about Openscapes as a mechanism that can rapidly identify problems and bring people together to solve them. The communities below include people within our partner organizations that work together to deliver work aligned with their goals to enable science and society, and are enriched by collaborating with the open science community.</p>
-<section id="nasa-earthdata" class="level3">
-<h3 class="anchored" data-anchor-id="nasa-earthdata">NASA Earthdata</h3>
-<ul>
-<li><p><a href="https://www.earthdata.nasa.gov/"><strong>Vision</strong></a><strong>:</strong> NASA Earthdata’s vision is to make NASA’s free and open Earth science data interactive, interoperable, and accessible for research and societal benefit both today and tomorrow. This follows NASA Earth Science’s Vision: A thriving world, driven by trusted, actionable Earth science, and their Mission: Compelled by our planet’s rapid change, we innovate and collaborate to explore and understand the Earth system, make new discoveries, and enable solutions for the benefit of all.</p></li>
-<li><p><strong>Openscapes Update:</strong> NASA Openscapes Mentors have created “go-to” resources for staff and users using NASA Earthdata – such as the <a href="https://earthaccess.readthedocs.io/en/latest/">earthaccess</a> python library and tutorials in the <a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook/">Earthdata Cloud Cookbook</a>. Our 2025 focus is strengthening NASA networks between Distributed Active Archive Centers (<a href="https://www.earthdata.nasa.gov/centers">DAACs</a>), missions, training programs, and applications, aligned with <a href="https://science.nasa.gov/researchers/science-information-policy/">SPD-41a open science</a>, as we continue to support users through developing skills and tools. The NASA Openscapes Mentors developed this focus together during our Fall 2024 Mentors Retreat, building on the past three years of work together. We make progress through hosting regular online hackdays and coworking, where we develop tutorials, design and lead workshops, expand features of the earthaccess – a faster way to access and analyze NASA Earth data, develop open infrastructure through science environments (docker base images), cost monitoring and reporting for users, and open documentation. We are also planning the 2025 NASA Openscapes Champions Cohort - we will lead this year’s Cohort in Fall 2025, giving time to iterate the program to support more science teams and users. Mentors will be leading other workshops this summer too; details will be at <a href="https://nasa-openscapes.github.io/news" class="uri">https://nasa-openscapes.github.io/news</a> and we’ll share about NASA Champions via the next newsletter.&nbsp;</p></li>
-</ul>
-</section>
-<section id="noaa-fisheries" class="level3">
-<h3 class="anchored" data-anchor-id="noaa-fisheries">NOAA Fisheries</h3>
-<ul>
-<li><p><a href="https://www.fisheries.noaa.gov/about-us"><strong>Mission</strong></a><strong>:</strong> NOAA Fisheries is responsible for the stewardship of the nation’s ocean resources and their habitat. We provide vital services for the nation, all backed by sound science and an ecosystem-based approach to management: productive and sustainable fisheries; safe sources of seafood; recovery and conservation of protected resources; healthy ecosystems.</p></li>
-<li><p><strong>Openscapes Update:</strong> Data and workforce modernization is happening at NOAA Fisheries – in many reinforcing ways through providing staff with the necessary skills and collaborative tools to drive changes in data and technical infrastructure. Over 2 months in fall 2024, 120 NOAA Fisheries staff from all six science centers, two regional offices and four headquarters offices tackled projects to improve or restructure data workflows via the <a href="https://nmfs-openscapes.github.io/champions.html">Openscapes Champions Program</a>. They made substantial progress on complex workflow transformation goals: Transitioning to contemporary data storage solutions; Automating large data-heavy reports with programmatic code and version control; Developing coordinated science program onboarding and operating procedures that are harmonized across NOAA Fisheries; and Prototyping cloud computing workflows for new data streams from satellites and ocean modeling. Now, the NOAA Fisheries mentor community is making progress on shared goals of data active archiving; infrastructure testing and governance; automated &amp; templated reporting, and hosting coding &amp; cloud training events. After sharing about GitHub governance at the ESIP winter meeting (<a href="https://docs.google.com/presentation/d/1WTVD403FCJsLoYAVAc51PG8_UoXyZmcuofZ0c-w3Wgo/edit#slide=id.g3270b11283a_1_267">slides</a>; <a href="https://youtu.be/Df6ps0o8GU4?feature=shared">recording</a>), mentors continue to use a GitHub <a href="https://github.com/orgs/nmfs-openscapes/projects/46/views/6">Project Board</a> to track progress, have awareness across the group, and continue growing synergies. Examples include a small group of mentors testing, troubleshooting, and documenting the new Google Workstations for Cloud computing, saving time and preventing frustration for hundreds of new users (<a href="https://github.com/orgs/nmfs-openscapes/projects/46/views/6?pane=issue&amp;itemId=102920703&amp;issue=nmfs-openscapes%7Chow-we-work%7C33">issue</a>); improving metadata creation for datasets and inPort, including facilitating meetings between research teams and developers (<a href="https://github.com/nmfs-openscapes/how-we-work/issues/16">issue</a>); creating diagrams and tables to help folks find the right infrastructure for a data project (<a href="https://github.com/orgs/nmfs-openscapes/projects/46?pane=issue&amp;itemId=102584748&amp;issue=nmfs-openscapes%7Chow-we-work%7C35">issue</a>); and sharing templates for manuscripts, publications, and research compendia in Quarto (<a href="https://github.com/orgs/nmfs-openscapes/projects/46/views/6?pane=issue&amp;itemId=96503986&amp;issue=nmfs-openscapes%7Chow-we-work%7C21">issue</a>; <a href="https://github.com/orgs/nmfs-openscapes/projects/46/views/6?pane=issue&amp;itemId=96504062&amp;issue=nmfs-openscapes%7Chow-we-work%7C22">issue</a>; <a href="https://github.com/orgs/nmfs-openscapes/projects/46/views/6?pane=issue&amp;itemId=95739969&amp;issue=nmfs-openscapes%7Chow-we-work%7C15">issue</a>; <a href="https://github.com/orgs/nmfs-openscapes/projects/46/views/6?filterQuery=compen&amp;pane=issue&amp;itemId=96540311&amp;issue=nmfs-openscapes%7Chow-we-work%7C30">issue</a>). This April we are launching our first <a href="https://nmfs-openscapes.github.io/data-academy.html">NOAA Fisheries Data Academy</a> with a cohort of 40 R beginners who will learn R for data analysis and visualization.&nbsp;</p></li>
-</ul>
-</section>
-<section id="california-water-boards" class="level3">
-<h3 class="anchored" data-anchor-id="california-water-boards">California Water Boards</h3>
-<ul>
-<li><p><a href="https://www.waterboards.ca.gov/about_us/"><strong>Mission</strong></a>: To preserve, enhance, and restore the quality of California’s water resources and drinking water for the protection of the environment, public health, and all beneficial uses, and to ensure proper water resource allocation and efficient use, for the benefit of present and future generations. The Office of Information Management and Analysis (<a href="https://www.waterboards.ca.gov/resources/oima/">OIMA</a>) has operationalized their values into process (<a href="https://www.waterboards.ca.gov/resources/oima/docs/oima-values-statement-2023.pdf">pdf</a>).&nbsp;</p></li>
-<li><p><strong>Openscapes Update:</strong> OIMA is refining their strategic plan that has included upskilling staff through the Openscapes Champions Program since 2021. We are currently advising OIMA as they develop a communication strategy and a mentor community to grow the community of staff supporting open data science and amplify this work. This work is not only for research teams but also for teams who manage contracts, as we shared in a <a href="https://docs.google.com/presentation/d/1yOTdJcvWdVWSLIE72L4cCN2b22y-6ZDlOouqP1i_bSI/edit#slide=id.g2c1dee5ed55_3_272">talk</a> co-presented with OIMA staff at the California Department of Water Resources last year.&nbsp;</p></li>
-</ul>
-</section>
-<section id="fred-hutch-cancer-center" class="level3">
-<h3 class="anchored" data-anchor-id="fred-hutch-cancer-center">Fred Hutch Cancer Center&nbsp;</h3>
-<ul>
-<li><p><a href="https://www.fredhutch.org/en/about/about-the-hutch/mission-values.html"><strong>Mission</strong></a><strong>:</strong> Fred Hutch Cancer Center unites innovative research and compassionate care to prevent and eliminate cancer and infectious disease. We’re driven by the urgency of our patients, the hope of our community and our passion for discovery to pursue scientific breakthroughs and healthier lives for every person in every community. The Hutch lists specific Values describing how “our mission is directly tied to the humanity, dignity and inherent value of each employee, patient, community member and supporter. Our commitment to learning across our differences and similarities make us stronger.”</p></li>
-<li><p><strong>Openscapes Update:</strong> Next week we kick off the second Champions Cohort in partnership with the Fred Hutch Data Science Lab (<a href="https://hutchdatascience.org/">DaSL</a>); this is our 24th Champions Cohort since 2019. Through the Champions Program we will introduce concepts, workflows and examples to help teams surface their problems and ideas so that they can solve them with accountability and support. It is a remote-by-design program, designed for folks with busy schedules to make real progress. The DaSL team will support through mentoring and being a direct link between teams’ needs and solutions at Fred Hutch. Learn about how the Fred Hutch mentors are working on <a href="https://openscapes.org/blog/2025-01-07-solving-the-lonely-data-scientist-problem/">solving the lonely data scientist problem</a>, and stay tuned to hear about Champions accomplishments this spring.</p></li>
-</ul>
-</section>
-</section>
-<section id="other-good-stuff" class="level2">
-<h2 class="anchored" data-anchor-id="other-good-stuff">Other good stuff</h2>
-<ul>
-<li><p><a href="https://2025-ut.cloudnativegeo.org">Cloud Native Geospatial Conference</a>: on May 1 Julie is keynoting in collaboration with the amazing Eli Holmes (NOAA Fisheries). Eli was invited to speak based on her contributions to the open science geospatial community that are huge and wide-spanning, and include developing novel important infrastructure for science and teaching &amp; building strong communities across NOAA and connected far beyond. Eli is on travel freeze, and it is an honor to support and step in for her, while deeply sad it won’t be her on that stage.</p></li>
-<li><p><a href="https://www.usgs.gov/centers/community-for-data-integration-cdi/2025-cdi-workshop">USGS Community for Data Integration Conference</a>: on April 29 Julie is keynoting to share about open data communities lessons learned across federal and state agencies and academia. We’re excited to learn more about USGS data community progress and needs and meet more folks involved.</p></li>
-<li><p>We’ve been experimenting with using our <a href="https://openscapes.org/blog/2024-01-18-agu-talk-2023/index.html#how-we-work-openscapes-flywheel">Flywheel</a> each month to reflect together on shared progress and impacts as a team and community and we use that to inform reporting to our partners.&nbsp;</p></li>
-<li><p><a href="https://github.com/Openscapes/jupycost">jupycost</a> is an R package for JupyterHub cost monitoring and reporting that Andy Teucher is developing as a common cost/usage reporting framework based on needs by <a href="https://openscapes.cloud/usage-reporting.html">NASA and NOAA JupyterHubs</a>, in collaboration with 2i2c. Andy will share more about it at the April 22 Community Call!</p></li>
-<li><p>In February we completed the third year of our <a href="https://openscapes.github.io/pathways-to-open-science/">Pathways to Open Science Program</a>, with 11 speakers and 69 certificates issued to participants! As well as being an important skill- and community-building opportunity for participants, we have been learning through iterating shared leadership roles, designing to include more guest speakers (two in conversation in the same coworking breakout room), and developing a strong sense of community for participants within a drop-in cohort design.</p></li>
-<li><p>Julie <a href="https://openscapes.org/blog/2025-01-20-abundance-of-community-agu/">reflected</a> on the abundance of community at the American Geophysical Union (AGU) Fall Meeting&nbsp;</p></li>
-<li><p>The Openscapes and rOpenSci organizations and communities share values around enabling people doing open and kinder science and many of our activities are complementary. In November, we teamed up for “Getting to know Openscapes” at <a href="https://ropensci.org/coworking/">rOpenSci’s monthly social coworking</a> and the discussion led to a <a href="https://ropensci.org/blog/2025/02/20/forks-upstream-relationship/">post</a> by Hugo Gruson, Stefanie Butland, and Ruby Krasnow on The Dynamic Relationship of Forks with their Upstream Repository.</p></li>
-<li><p>We are making plans for the 2025 <a href="https://www.esipfed.org/meetings/">ESIP summer conference</a> in Seattle, and looking forward to seeing folks there.</p></li>
-</ul>
-</section>
-<section id="closing-thoughts" class="level2">
-<h2 class="anchored" data-anchor-id="closing-thoughts">Closing thoughts</h2>
-<p>Something that has resonated through this work is adrienne marie brown’s <a href="https://adriennemareebrown.net/book/emergent-strategy/">idea of fractals</a> – “what we practice at the small scale sets patterns for the whole system.” We see this showing up in small and big ways over short and long time scales as we continue to learn <a href="https://www.scientificamerican.com/blog/observations/open-software-means-kinder-science/">from, with, and for each other</a>. We have been quieter than usual, but we continue to do the work and are here. Thank you for reading, and for all that you do.</p>
-<div class="quarto-figure quarto-figure-left">
+<p>Openscapes and our partners at NASA, NOAA, and 2i2c have been learning together about monitoring and managing the costs of cloud computing in a JupyterHub. Many organizations are starting to use cloud computing for computational analysis and teaching workshops, often using JupyterHubs as the platform for this work.&nbsp; Tracking usage and attributing costs to specific users and workflows can be tricky on these shared hubs, and we have been learning some strategies and tools to help us understand them. The purpose of this Community Call was to share what we’ve learned so far: tools and processes to explore cloud costs, as well as figures like the basic costs for hosting a hub, cost per user, cost per science workflow, and what it costs to run a workshop in the hub.</p>
+<p><strong>One punchline:</strong> yes it is possible to run real science workflows in different Hubs – and we can estimate the costs. An example workflow transported from Alaska Satellite Facility (ASF) OpenSARLab to NASA Openscapes Hub cost $0.74. This cost does not reflect the cost of technical infrastructure &amp; development, plus the training and upskilling the researcher needs. When comparing costs, it is important to keep in mind that different JupyterHubs have different focuses (e.g., data type(s) and usage patterns) and, consequently, different architectures that can greatly affect costs even for similar workflows. Yet, it is an exciting step in understanding the cost of earth science workflows in the cloud!</p>
+<div class="center-text">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="MtWhitneySunrise-ElliotLowndes.jpeg" class="img-fluid figure-img" style="width:80.0%" alt="Mount Whitney sunrise. Deep blue clear sky. Reddish mountains with a dusting of snow, with each sharp ridge casting a shadow on the next ridge to the right. Boulders in the foreground."></p>
-<figcaption>Photo by Elliot Lowndes</figcaption>
+<p><img src="cpu-and-memory-requests-osl-nasa-openscapes.png" class="img-fluid figure-img" style="width:80.0%" alt="2 plots: CPU cores and Memory (GB) Data size: ~28GB; Instance type: r5.xlarge ($0.252 per hour); Total cost: $0.74"></p>
+<figcaption>CPU &amp; Memory Requests for OSL workflow in NASA Openscapes Hub</figcaption>
 </figure>
 </div>
+</div>
+<p>The format of the call was several stories and demos from this cutting-edge collaboration between open source infrastructure, government agencies, science communities (<a href="https://docs.google.com/presentation/d/1S6qnxEvc_25plQMgYZfObBsoCxJWUj6_JoO_IP-mv6w/edit?usp=sharing">slides</a>). Here is the story arc, and a few key notes.</p>
+<ul>
+<li><p><strong>Why JupyterHubs for research, how do people use them, and why are they different?</strong> - Tasha Snow, CryoCloud.&nbsp;</p>
+<ul>
+<li><p>Showed what JupyterHubs looked like; compared Cryocloud, Openscapes (NASA and NOAA), and OpenSARLab&nbsp;</p></li>
+<li><p>“With training and support we can have an undergrad working with NASA data in the cloud in an afternoon” 💜</p></li>
+</ul></li>
+<li><p><strong>Communicating usage and costs - creating monthly reports</strong> - Andy Teucher, Openscapes.&nbsp;</p>
+<ul>
+<li><p>Showed Automated reporting (R package <a href="https://github.com/Openscapes/jupycost">jupycost</a> to query Prometheus and AWS Cost Explorer, automated monthly reports for NASA and NOAA at <a href="https://openscapes.cloud/usage-reporting.html">openscapes.cloud</a>). Also showed costs for Hub to sit unused; cost to run a workshop; cost of data storage.</p></li>
+<li><p>Data storage in the cloud can be very expensive, and incurs ongoing costs just sitting there. There are different storage types (e.g., AWS S3) that can be cheaper but require different skills and mindsets.</p></li>
+</ul></li>
+<li><p><strong>What we’re seeing with researchers: the need for py-rocket, a cross-language (R, python) docker image</strong> - Eli Holmes, NOAA Fisheries</p>
+<ul>
+<li><p>Creating Python-R environments that promote integrated Python/R teams by reducing the little barriers and road bumps</p></li>
+<li><p>Fisheries science has siloed language communities: Python’s ‘conda install R’ is a non-starter for R users; the <a href="https://rstudio.github.io/reticulate/">reticulate</a> R interface to Python feels similar for Python users.</p></li>
+<li><p>Documentation with an eye to extension and reuse: <a href="https://nmfs-opensci.github.io/py-rocket-base/" class="uri">https://nmfs-opensci.github.io/py-rocket-base/</a>&nbsp;</p></li>
+<li><p>Upskilling has been a big part at NOAA Fisheries. Building a cross-agency community of mentors to support staff learning new skills for cloud computing.</p></li>
+</ul></li>
+<li><p><strong>Building Guard Rails to control Cloud Costs</strong> - Yuvi, 2i2c</p>
+<ul>
+<li><p>JupyterHub is an open source software / ecosystem, so we the community have a lot of power in building what serves us</p></li>
+<li><p>Use Open Source tools to help you track and estimate costs and visualize usage (e.g., Grafana and Prometheus) - these provide “guardrails” for users to understand what they are trying to do and get the support they need.</p></li>
+</ul></li>
+<li><p><strong>A real science workflow, what it costs, transferability across Hubs</strong> - Alex Lewandowski, ASF</p>
+<ul>
+<li><p>Andy queried Prometheus and AWS to determine the resource usage and cost of Alex’s work in the Openscapes Hub. Challenges of “the right size”: overallocate and pay too much for what you need; or underallocate and run out of memory or compute. We can use these tools to help uncover this</p></li>
+<li><p>How do we provide this information to users so they can pick the appropriate resources they need? So we don’t waste resources for the Hub (or their grants) and also not cause frustration of running out of space/size and redo multiple times – this wastes money too.</p></li>
+<li><p>Some people will still need to work locally sometimes; we should make that as easy as possible.</p></li>
+<li><p>Different hubs have different architectures for a reason - e.g., ASF supports SAR (Synthetic Aperture Radar) data and their JupyterHub’s configuration is optimized for SAR workflows used for research, decision-making, and disaster response as well as training.<br>
+</p></li>
+</ul></li>
+</ul>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources"><strong>Resources</strong></h2>
+<ul>
+<li><p><a href="https://openscapes.cloud/">openscapes.cloud</a> for NASA and NOAA Fisheries JupyterHub policies and <a href="https://openscapes.cloud/usage-reporting.html">cost reporting</a>.</p></li>
+<li><p><a href="https://2i2c.org/">2i2c</a> helps communities build their own interactive computing hub in the cloud with open infrastructure.</p></li>
+<li><p><a href="https://cryointhecloud.com/">CryoCloud</a>: Accelerating discovery and enhancing collaboration for NASA Cryosphere communities.</p></li>
+<li><p><a href="https://grafana.com/grafana/">Grafana</a> for monitoring and visualizing usage data.</p></li>
+<li><p><a href="https://aws.amazon.com/aws-cost-management/aws-cost-explorer/">AWS Cost Explorer</a> and <a href="https://docs.aws.amazon.com/aws-cost-management/latest/APIReference/API_Operations_AWS_Cost_Explorer_Service.html">API docs</a> for managing cloud costs on AWS.</p></li>
+<li><p><a href="https://github.com/openscapes/jupycost">jupycost</a>: A work-in-progress R package from Openscapes for querying and summarizing JupyterHub cost and usage statistics.</p></li>
+<li><p><a href="https://github.com/getwilds/sixtyfour">sixtyfour</a>: An R package for interfacing with AWS APIs, from the Fred Hutch Cancer Center Data Science Lab</p></li>
+<li><p><a href="https://github.com/jupyterhub/grafana-dashboards">grafana-dashboards</a>: Grafana Dashboards used in our JupyterHubs. Provides Grafana Dashboards as code – very useful for learning how to query Prometheus metrics.<br>
+</p></li>
+</ul>
+</section>
+<section id="speakers" class="level2">
+<h2 class="anchored" data-anchor-id="speakers"><strong>Speakers</strong></h2>
+<ul>
+<li><p><a href="https://tsnow03.github.io/">Tasha Snow</a> is a co-founder of CryoCloud, a remote sensing glaciologist at ESSIC University of Maryland and NASA GSFC, and was the recipient of the 2023 AGU Open Science Recognition Prize.&nbsp;</p></li>
+<li><p><a href="https://andyteucher.ca/">Andy Teucher</a> is a core Openscapes team member and develops software and cloud infrastructure. He is a biologist turned data scientist, specializing in helping people and organizations build maintainable, reproducible data workflows. Andy is a strong open data and open code advocate, and believes in the value of using and contributing to open-source software.</p></li>
+<li><p><a href="https://eeholmes.github.io/">Eli Holmes</a> is currently lead of NOAA Fisheries Open Science and in this role, facilitates and runs trainings in computing, data access and statistics for NOAA Fisheries. She is co-lead of the Inter-agency R User Group (federal agencies) and NMFS Openscapes, and other trainings and HackWeeks.&nbsp;</p></li>
+<li><p><a href="https://yuvi.in">Yuvi</a> is a co-founder and tech lead of 2i2c.org, a core member of the JupyterHub team, ex-member of the Wikimedia DevOps team and has been doing open source work for about 17 years in various communities.</p></li>
+<li><p><a href="mailto:aflewandowski@alaska.edu">Alex Lewandowski</a> is a research software engineer at the Alaska Satellite Facility. He works on the Science Enabling Services Team. Much of his work focuses on providing support, educational materials, and tools to ASF’s users of SAR data. He has been an Openscapes Mentor since 2022.</p></li>
+</ul>
+<p><br>
+</p>
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{lowndes2025,
-  author = {Lowndes, Julie and Butland, Stefanie},
-  title = {Openscapes {Newsletter} \#11: {Spring} 2025},
-  date = {2025-04-03},
-  url = {https://openscapes.org/blog/2025-04-03-news-apr-2025/},
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{teucher2025,
+  author = {Teucher, Andy and Lewandowski, Alex and Holmes, Eli and
+    Snow, Tasha and , Yuvi and Lowndes, Julie},
+  title = {What We’re Learning about Cloud Costs for {Earth} Science
+    Workflows in Our {JupyterHub}},
+  date = {2025-05-01},
+  url = {https://nasa-openscapes.github.io/news/2025-05-01-community-call-hub-cloud-costs/},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-lowndes2025" class="csl-entry quarto-appendix-citeas" role="listitem">
-Lowndes, Julie, and Stefanie Butland. 2025. <span>“Openscapes Newsletter
-#11: Spring 2025.”</span> April 3, 2025. <a href="https://openscapes.org/blog/2025-04-03-news-apr-2025/">https://openscapes.org/blog/2025-04-03-news-apr-2025/</a>.
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-teucher2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+Teucher, Andy, Alex Lewandowski, Eli Holmes, Tasha Snow, Yuvi, and Julie
+Lowndes. 2025. <span>“What We’re Learning about Cloud Costs for Earth
+Science Workflows in Our JupyterHub.”</span> May 1, 2025. <a href="https://nasa-openscapes.github.io/news/2025-05-01-community-call-hub-cloud-costs/">https://nasa-openscapes.github.io/news/2025-05-01-community-call-hub-cloud-costs/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
