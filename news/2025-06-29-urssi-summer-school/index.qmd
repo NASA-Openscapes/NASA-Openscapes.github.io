@@ -2,6 +2,8 @@
 title: "URSSI Summer School in Open Science + Research Software Engineering"
 description: "Apply by June 29th"
 author:
+  - name: Madicken Munk
+    orcid: 0000-0003-0117-5366
   - name: Joseph Kennedy
     orcid: 0000-0002-9348-693X
   - name: Openscapes
@@ -18,7 +20,7 @@ image: "ASF20Logo20Small.png"
 
 Have you thought about how software impacts your research? Do you already use research software or develop scripts in your day-to-day work? Do you want to make your scientific workflow open and accessible to people in and outside of your research group?
 
-If this sounds like you, then you may be interested in the URSSI ([US Research Software Sustainability Institute](https://urssi.us/)) summer school organized by NASA-Openscapes Mentor, Joe Kennedy, with support from the Alaska Satellite Facility, August 11th-15th at the University of Alaska Fairbanks, which brings together open science and research software engineering.
+If this sounds like you, then you may be interested in the URSSI ([US Research Software Sustainability Institute](https://urssi.us/)) summer school organized by Madicken Munk and NASA-Openscapes Mentor, Joseph H. Kennedy, with support from the Alaska Satellite Facility, August 11th-15th at the University of Alaska Fairbanks, which brings together open science and research software engineering.
 
 Ideal candidates for this school are early-career researchers who want to make their research open, accessible, and reproducible by implementing open science best practices in addition to building and contributing to research software.
 
