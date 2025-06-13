@@ -12,7 +12,7 @@ categories:
 image: "ASF20Logo20Small.png"   
 ---
 
-**[Details](https://urssi.us/blog/2025/06/03/applications-open-for-2025-summer-school-in-open-science--research-software-engineering/) on target audience, format and topics, and logistics** at the URSSI blog.
+[**Details**](https://urssi.us/blog/2025/06/03/applications-open-for-2025-summer-school-in-open-science--research-software-engineering/) **on target audience, format and topics, and logistics** at the URSSI blog.
 
 [**Applications are open**](https://docs.google.com/forms/d/e/1FAIpQLSeyE2wep5bSsquKFKrsrL3BjzmtXjnZTpAZsjDmfgUzVTE-Fg/viewform) through June 29th.
 
