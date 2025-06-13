@@ -1,0 +1,27 @@
+---
+title: "URSSI Summer School in Open Science + Research Software Engineering"
+description: "Apply by June 29th"
+author:
+  - name: Joseph Kennedy
+    orcid: 0000-0002-9348-693X
+  - name: Openscapes
+date: 2025-06-29
+categories:
+  - event 
+  - nasa-framework
+image: "ASF20Logo20Small.png"   
+---
+
+**[Details](https://urssi.us/blog/2025/06/03/applications-open-for-2025-summer-school-in-open-science--research-software-engineering/) on target audience, format and topics, and logistics** at the URSSI blog.
+
+[**Applications are open**](https://docs.google.com/forms/d/e/1FAIpQLSeyE2wep5bSsquKFKrsrL3BjzmtXjnZTpAZsjDmfgUzVTE-Fg/viewform) through June 29th.
+
+Have you thought about how software impacts your research? Do you already use research software or develop scripts in your day-to-day work? Do you want to make your scientific workflow open and accessible to people in and outside of your research group?
+
+If this sounds like you, then you may be interested in the URSSI ([US Research Software Sustainability Institute](https://urssi.us/)) summer school organized by NASA-Openscapes Mentor, Joe Kennedy, with support from the Alaska Satellite Facility, August 11th-15th at the University of Alaska Fairbanks, which brings together open science and research software engineering.
+
+Ideal candidates for this school are early-career researchers who want to make their research open, accessible, and reproducible by implementing open science best practices in addition to building and contributing to research software.
+
+This workshop complements previous [summer](https://urssi.us/blog/2024/05/20/applications-now-open-for-a-summer-school-in-open-science--research-software-engineering/) and [winter](https://urssi.us/blog/2024/02/29/applications-now-open-for-the-2024-urssi-summer-school-in-research-software-engineering/) schools hosted by URSSI on research software engineering. Travel support available for US-based researchers!
+
+![](ASF20Logo20Small.png){fig-alt="landscape with blue sky, mountains and valley in background, trees in midground, dense cover of purple lupins and orange poppies on hillside in foreground. Mountains look as if flower colors are reflected there." width="40%"}
