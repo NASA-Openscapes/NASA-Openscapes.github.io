@@ -14,7 +14,7 @@ We are influenced and inspired by many leaders and community organizers, particu
 
 **Upcoming Events:**
 
--   [URSSI Summer School in Open Science + Research Software Engineering](https://nasa-openscapes.github.io/news/2025-06-29-urssi-summer-school/) organized by NASA-Openscapes Mentor, Joe Kennedy, with support from the Alaska Satellite Facility, August 11th-15th at the University of Alaska Fairbanks. Apply by June 29th.
+-   [URSSI Summer School in Open Science + Research Software Engineering](https://nasa-openscapes.github.io/news/2025-06-29-urssi-summer-school/) organized by NASA-Openscapes Mentor, Joseph H. Kennedy, with support from the Alaska Satellite Facility, August 11th-15th at the University of Alaska Fairbanks. Apply by June 29th.
 
 -   [Community Call summary published](https://nasa-openscapes.github.io/news/2025-05-01-community-call-hub-cloud-costs/): What we’re learning about cloud costs for Earth science workflows in our JupyterHub.
 
