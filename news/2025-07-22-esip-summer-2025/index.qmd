@@ -1,0 +1,34 @@
+---
+title: "Openscapes at the ESIP Summer Meeting"
+# description: "txt" 
+author: Openscapes, NASA, NOAA Fisheries
+date: 2025-07-22
+categories:
+  - conference
+  - nasa-framework
+  - noaa-fisheries
+  - event
+image: esip-banner-2025.png 
+---
+
+ESIP - Earth Science Information Partners - is a home for Earth science data and computing professionals - a neutral space for exciting cross-domain collaborations. The [summer conference](https://2025julyesipmeeting.sched.com/) sessions bring together the community for hands-on, interdisciplinary deep dives as they explore "Innovation to Impact" this year in Seattle WA.
+
+Please find us at these sessions!
+
+### Openscapes co-leading sessions with NOAA Fisheries and other colleagues
+
+-   Wednesday, July 23, 11:00am - 12:30pm PT. [Archive your first or second data set](https://2025julyesipmeeting.sched.com/event/25ehj/archive-your-first-or-second-data-set). Hands-on session. Bring your own data set! Co-organizers and speakers: Joseph Gum, Rachael Blake, Kate Wing, Eli Holmes, Julie Lowndes.
+
+-   Thursday, July 24, 11:00am - 12:30pm PT. [Consistent reproducible workflows for geospatial stewardship](https://2025julyesipmeeting.sched.com/event/25eiV/consistent-reproducible-workflows-for-geospatial-stewardship). Co-organizers and speakers: Rich Signell, Brianna Pagán, Carl Boettiger, Kate Wing, Jed Sundwall, Julie Lowndes.
+
+-   Friday, July 25, 9:00am - 10:30am PT. [Crossing the chasm: amplifying success stories about co-creating across institutions](https://2025julyesipmeeting.sched.com/event/25ej2/crossing-the-chasm-amplifying-success-stories-about-co-creating-across-institutions). Co-organizers and speakers: Eli Holmes, Julie Lowndes, Amy Steiker, Jennifer Schropf, Yuvi Panda.
+
+### NASA Openscapes `earthaccess` talks
+
+-   Tuesday, July 22, 2:00pm - 3:30pm PT and 4:00pm - 5:30pm PT. Foundational to Emerging Cloud-Native Technology [Part 1](https://2025julyesipmeeting.sched.com/event/25ehF/foundational-to-emerging-cloud-native-technology-part-1) and [Part 2](https://2025julyesipmeeting.sched.com/event/25ehR/foundational-to-emerging-cloud-native-technology-part-2). Organized by Brianna Pagán, Rich Signell, Max Jones, Aimee Barciauskas. Joe Kennedy will give a perspective on the future of `earthaccess`, upstreaming into Virtualizarr, and what earthaccess could do with consolidated metadata files.
+
+-   Thursday, July 24, 11:00am - 12:30pm PT. [Interoperable and discipline-neutral community metadata standards for cloud-optimized data access](https://2025julyesipmeeting.sched.com/event/25eiY/interoperable-and-discipline-neutral-community-metadata-standards-for-cloud-optimized-data-access). Organized by Miguel Jimenez-Urias, James Gallagher. Danny Kaufman will talk about `earthaccess` new features, usage on DMR++, benchmarking results.
+
+-   Friday, July 25, see above for [Crossing the chasm: amplifying success stories about co-creating across institutions](https://2025julyesipmeeting.sched.com/event/25ej2/crossing-the-chasm-amplifying-success-stories-about-co-creating-across-institutions). Organized by Julie Lowndes, Eli Holmes. Amy Steiker will tell the story of `earthaccess` crossing the chasm.
+
+![](esip-banner-2025.png){fig-alt="banner image with background photo of blue sky, a mountain, and Seattle skyline, with white letters saying ESIP MEETING July 2025. Innovation to Impact." fig-align="center" width="80%"}
