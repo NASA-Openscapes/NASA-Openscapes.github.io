@@ -1,0 +1,48 @@
+---
+title: "Community Call: `earthaccess` — helping users leverage the awesomeness of NASA Earthdata"
+description: The story of building a game-changing bridge for users, plus new technical features including Virtualizarr 
+author:
+  - name: Openscapes
+#    url: {}
+date: "2025-07-29"
+categories: [event, community-call, nasa-framework]
+image: earthaccesslogo.png
+---
+
+*Cross-posted at [openscapes.org/blog](https://openscapes.org/events), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html)*
+
+------------------------------------------------------------------------
+
+::::: grid
+::: g-col-4
+![](earthaccesslogo.png){fig-alt="The earthaccess logo by Allison Horst: a hexagonal shape with the words earth access on two separate lines with pixalated sky with clouds and earth with land and sea" fig-align="left" width="100%"}
+:::
+
+::: g-col-8
+Join us to celebrate `earthaccess`, a python library helping users leverage the awesomeness of NASA Earthdata! 
+
+We are sharing talks that the NASA Openscapes Mentors prepared for the ESIP summer conference but were then unable to present. Our Community Call includes impact stories, new technical features, and "Open Mic" time for the folks to share questions, work, progress — we know there is a mosaic of ways people are interested in and have used and contributed to earthaccess, and you're welcome! We will record the presentations and post on [Openscapes YouTube](https://www.youtube.com/@openscapes/videos).
+:::
+:::::
+
+**Date**: Tuesday, July 29, 2025\
+**Time**: 9:30 - 11:00 am PT ([find your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Community+Call%3A+What+we%E2%80%99re+learning+about+cloud+costs+for+Earth+science+workflows+in+our+JupyterHub&iso=20250422T0930&p1=1050&ah=1))\
+**Where**: Zoom\
+**Register (free)** COMING SOON, PLEASE CHECK BACK TO REGISTER
+
+<!--- via [Zoom](https://zoom.us/meeting/register/_SSlgeuuToiLNH5p5VZSXw) to get the meeting link  
+**View** [recording](https://youtu.be/D1k3OqZZRDw) and [summary](/blog/2025-05-01-community-call-hub-cloud-costs/). --->
+
+### Speakers
+
+- Amy Steiker, NSIDC
+- Luis Lopez, NSIDC
+- Danny Kaufman, ASDC
+- Joe Kennedy, ASF
+- Chris Battisto, GES DISC
+
+### Resources
+
+- <https://earthdata.nasa.gov/data/tools/earthaccess> <- yes, `earthaccess` is on nasa.gov! 🥳
+-   <https://earthdata.nasa.gov/news/blog/earthaccess-earth-science-data-simplified>
+- <https://nsidc.github.io/earthaccess>
