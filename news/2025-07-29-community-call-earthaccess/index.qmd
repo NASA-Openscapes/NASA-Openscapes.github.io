@@ -1,6 +1,6 @@
 ---
 title: "Community Call: `earthaccess` — helping users leverage the awesomeness of NASA Earthdata"
-description: The story of building a game-changing bridge for users, plus new technical features including Virtualizarr 
+description: The story of building a game-changing bridge between a data system and its open communities, plus new technical features including VirtualiZarr integration.
 author:
   - name: Openscapes
 #    url: {}
