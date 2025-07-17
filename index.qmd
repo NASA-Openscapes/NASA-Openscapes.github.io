@@ -14,6 +14,8 @@ We are influenced and inspired by many leaders and community organizers, particu
 
 **Upcoming Events:**
 
+- [Community Call: earthaccess — helping users leverage the awesomeness of NASA Earthdata](https://nasa-openscapes.github.io/news/2025-07-29-community-call-earthaccess/), July 29 2025
+
 -   [Openscapes at the ESIP Summer Meeting](https://nasa-openscapes.github.io/news/2025-07-22-esip-summer-2025/), July 22 - 25th.
 
 -   [URSSI Summer School in Open Science + Research Software Engineering](https://nasa-openscapes.github.io/news/2025-06-29-urssi-summer-school/) organized by Madicken Munk and NASA-Openscapes Mentor, Joseph H. Kennedy, with support from the Alaska Satellite Facility, August 11th-15th at the University of Alaska Fairbanks. Apply by June 29th.
