@@ -1,6 +1,6 @@
 ---
 title: "Community Call: `earthaccess` — helping users leverage the awesomeness of NASA Earthdata"
-description: The story of building a game-changing bridge between a data system and its open communities, plus new technical features including VirtualiZarr integration. And how we're now all helping to further and enhance NASA Earthdata workflows for all.
+description: The story of building a game-changing bridge between a data system and its open communities, plus new technical features including VirtualiZarr integration. And how we collaborate to further enhance NASA Earthdata workflows for all.
 author:
   - name: Openscapes
 #    url: {}
@@ -35,12 +35,11 @@ We are sharing talks that the NASA Openscapes Mentors prepared for the ESIP summ
 
 ### Speakers
 
-- Amy Steiker, NASA National Snow and Ice Data Center (NSIDC) Distributed Active Archive Centers (DAAC)
-   - Amy specializes in the usability and interoperability of NASA Earthdata. She has been a NASA Openscapes Mentor since 2021, working to foster the growth and sustainment of the earthaccess community.
-- Luis Lopez, NSIDC
-- Danny Kaufman, ASDC
-- Joe Kennedy, ASF
-- Chris Battisto, GES DISC
+- Amy Steiker, National Snow and Ice Data Center (NSIDC) Distributed Active Archive Center (DAAC)
+- Luis Lopez, NSIDC DAAC
+- Danny Kaufman, Atmospheric Science Data Center (ASDC) DAAC 
+- Joe Kennedy, Alaska Satellite Facility (ASF) DAAC
+- Chris Battisto, Goddard Earth Sciences Data and Information Services Center (GES DISC) DAAC
 
 ### Resources
 
