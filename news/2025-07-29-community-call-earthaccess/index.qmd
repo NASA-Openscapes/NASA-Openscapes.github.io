@@ -35,7 +35,8 @@ We are sharing talks that the NASA Openscapes Mentors prepared for the ESIP summ
 
 ### Speakers
 
-- Amy Steiker, NSIDC
+- Amy Steiker, NASA National Snow and Ice Data Center (NSIDC) DAAC
+   - Amy specializes in the usability and interoperability of NASA Earthdata. She has been a NASA Openscapes Mentor since 2021, working to foster the growth and sustainment of the earthaccess community.
 - Luis Lopez, NSIDC
 - Danny Kaufman, ASDC
 - Joe Kennedy, ASF
