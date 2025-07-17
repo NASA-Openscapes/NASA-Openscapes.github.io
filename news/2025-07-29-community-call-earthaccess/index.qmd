@@ -19,7 +19,7 @@ image: earthaccesslogo.png
 :::
 
 ::: g-col-8
-Join us to celebrate `earthaccess`, a python library helping users leverage the awesomeness of NASA Earthdata! 
+Join us to celebrate `earthaccess`, a python library that simplifies search and access of NASA Earth science data to a few lines of code. 
 
 We are sharing talks that the NASA Openscapes Mentors prepared for the ESIP summer conference but were then unable to present. Our Community Call includes impact stories, new technical features, and "Open Mic" time for the folks to share questions, work, progress — we know there is a mosaic of ways people are interested in and have used and contributed to earthaccess, and you're welcome! We will record the presentations and post on [Openscapes YouTube](https://www.youtube.com/@openscapes/videos).
 :::
