@@ -9,7 +9,7 @@ categories: [event, community-call, nasa-framework]
 image: earthaccesslogo.png
 ---
 
-*Cross-posted at [openscapes.org/blog](https://openscapes.org/events), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html)*
+*Cross-posted at [openscapes.org/events](https://openscapes.org/events), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html)*
 
 ------------------------------------------------------------------------
 
