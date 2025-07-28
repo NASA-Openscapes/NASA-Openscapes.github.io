@@ -18,7 +18,7 @@ The two-day training, [Fundamentals to use Hyperspectral and Thermal NASA Earth 
 
 This workshop is hosted by NASA Marshall Space Flight Center, NASA Land Processes Distributed Active Archive Center(LP DAAC), NASA Jet Propulsion Laboratory (JPL), and NASA Goddard Space Flight Center with support from the NASA Openscapes project. Hands-on exercises were executed from a Jupyter Hub on the Openscapes 2i2c workshop cloud instance. On the second day, a shared password was provided, and 234 participants successfully accessed the hub. Using the workshop cloud instance significantly improves the mentors’ and participants experience and facilitates the trainings.
 
-We presented the following three notebooks from the[VITALS GitHub Repository](https://github.com/nasa/VITALS "https://github.com/nasa/VITALS"):
+We presented the following three notebooks from the [VITALS GitHub Repository](https://github.com/nasa/VITALS "https://github.com/nasa/VITALS"):
 
 -   [Exploring_ECOSTRESS_L2T_LSTE.ipynb](https://github.com/nasa/VITALS/blob/main/python/Exploring_ECOSTRESS_L2T_LSTE.ipynb)
 -   [Exploring_EMIT_L2A_RFL.ipynb](https://github.com/nasa/VITALS/blob/main/python/Exploring_EMIT_L2A_RFL.ipynb)
