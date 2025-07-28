@@ -1,0 +1,27 @@
+---
+title: "Fundamentals to use Hyperspectral and Thermal NASA Earth Observations"
+author:
+  - name: Mahsa Jami
+   # orcid: 
+  - name: Erik Bolch
+   # orcid: 
+date: 2025-07-21
+citation: 
+  url: https://openscapes.org/blog/2025-07-21-hyperspectral-thermal-workshop/
+categories: [blog, nasa-framework]
+image: MtWhitneySunrise-ElliotLowndes.jpeg
+---
+
+*This is a short note to celebrate a recent workshop with **234 hands-on participants in a Jupyter Hub** led by NASA Marshall Space Flight Center, NASA Land Processes Distributed Active Archive Center (LP DAAC), NASA Jet Propulsion Laboratory (JPL), and NASA Goddard Space Flight Center with support from the NASA Openscapes project.*
+
+The two-day training, [Fundamentals to use Hyperspectral and Thermal NASA Earth Observations,](https://nasa.github.io/VITALS/) was held on July 21–22, 2025, with over 800 participants on the first day and more than 500 on the second.
+
+This workshop is hosted by NASA Marshall Space Flight Center, NASA Land Processes Distributed Active Archive Center(LP DAAC), NASA Jet Propulsion Laboratory (JPL), and NASA Goddard Space Flight Center with support from the NASA Openscapes project. Hands-on exercises were executed from a Jupyter Hub on the Openscapes 2i2c workshop cloud instance. On the second day, a shared password was provided, and 234 participants successfully accessed the hub. Using the workshop cloud instance significantly improves the mentors’ and participants experience and facilitates the trainings.
+
+We presented the following three notebooks from the [VITALS GitHub Repository](https://github.com/nasa/VITALS "https://github.com/nasa/VITALS"):
+
+-   [Exploring_ECOSTRESS_L2T_LSTE.ipynb](https://github.com/nasa/VITALS/blob/main/python/Exploring_ECOSTRESS_L2T_LSTE.ipynb)
+-   [Exploring_EMIT_L2A_RFL.ipynb](https://github.com/nasa/VITALS/blob/main/python/Exploring_EMIT_L2A_RFL.ipynb)
+-   [Exploring_PACE_OCI_L2_SFRFL.ipynb](https://github.com/nasa/VITALS/blob/main/python/Exploring_PACE_OCI_L2_SFRFL.ipynb)
+
+Special thanks to Openscapes team for supporting NASA mentors and also the 2i2c support crew for their responsiveness and quick changes they implemented to help us support our user community.
