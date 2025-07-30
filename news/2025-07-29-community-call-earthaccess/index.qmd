@@ -27,11 +27,9 @@ We are sharing talks that the NASA Openscapes Mentors prepared for the ESIP summ
 
 **Date**: Tuesday, July 29, 2025\
 **Time**: 9:30 - 11:00 am PT ([find your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Community+Call%3A+What+we%E2%80%99re+learning+about+cloud+costs+for+Earth+science+workflows+in+our+JupyterHub&iso=20250422T0930&p1=1050&ah=1))\
-**Where**: Zoom\
-**Register (free)** via [Zoom](https://zoom.us/meeting/register/Lnt3E9NRSK-deXCN1kkviw)
-
-<!--- via [Zoom](https://zoom.us/meeting/register/_SSlgeuuToiLNH5p5VZSXw) to get the meeting link  
-**View** [recording](https://youtu.be/D1k3OqZZRDw) and [summary](/blog/2025-05-01-community-call-hub-cloud-costs/). --->
+<!---**Where**: Zoom\
+**Register (free)** via [Zoom](https://zoom.us/meeting/register/Lnt3E9NRSK-deXCN1kkviw) to get the meeting link.--->
+**View** [recording](https://youtu.be/t8gUSUlSqnc)<!--- and [summary](/blog/LINK).--->
 
 ### Speakers
 
