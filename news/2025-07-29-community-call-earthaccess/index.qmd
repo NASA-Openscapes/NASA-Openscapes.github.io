@@ -9,6 +9,8 @@ categories: [event, community-call, nasa-framework]
 image: earthaccesslogo.png
 ---
 
+*Blog post: /2025-08-01-earthaccess-awesomeness-nasa-earthdata*
+
 *Cross-posted at [openscapes.org/events](https://openscapes.org/events), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html)*
 
 ------------------------------------------------------------------------
