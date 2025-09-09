@@ -1,0 +1,40 @@
+---
+title: "Cloud Access Mini-Workshop"
+description: "Demonstrating virtual dataset capabilities for satellite data analysis"
+author:
+  - name: Daniel Kaufman
+    orcid: 0000-0002-1487-7298
+date: 2025-09-09
+citation: 
+  url: https://openscapes.org/blog/2025-09-09-tempo-workshop/
+categories: [blog, nasa-framework]
+image: tempo-virtual-datasets.png
+---
+
+*This is a short note to celebrate a recent workshop with 9 hands-on participants in a Jupyter Hub led by NASA's Atmospheric Science Data Center (ASDC) with support from the NASA Openscapes project.*
+
+*Cross-posted at [openscapes.org/blog](https://openscapes.org/blog),* [*nasa-openscapes.github.io/news*](https://nasa-openscapes.github.io/news.html)*.*
+
+------------------------------------------------------------------------
+
+The ASDC led a "Cloud Access Mini-Workshop" that demonstrated virtual dataset capabilities for satellite data analysis. Participants learned hands-on techniques for accessing TEMPO Level-3 data using the Openscapes 2i2c JupyterHub in AWS Cloud—approaches that directly support NASA's Open Science principles by making data more accessible and analyses more efficient and easy to collaborate on.
+
+**Tackling Real Challenges Together**
+
+The workshop addressed a common challenge: satellite data stored in traditional HDF and netCDF formats can be slow to access and download from the cloud. A collaborative team spanning NASA DAACs (Distributed Active Archive Centers), Openscapes, OPeNDAP (Open-source Project for a Network Data Access Protocol), and open source contributors is working to solve this through innovative approaches like DMR++ reference files and VirtualiZarr tools that create "virtual datasets" without requiring massive downloads.
+
+The hands-on session featured engaging experimentation with TEMPO satellite data, where participants explored treating individual data granules as virtual datasets. The collaborative discussion also identified concrete opportunities to improve tools like earthaccess to make virtual datacube workflows even more user-friendly.
+
+**Learning and Improving Together**
+
+What made this workshop especially valuable was the community learning approach. Based on the discussion and participant feedback, future workshops will incorporate several enhancements:
+
+-   **Enhanced preparation**: Pre-workshop surveys to understand participants' specific use-cases, and technical prerequisites checklist to reduce workshop setup time
+
+-   **More time and structure**: Extended 3+ hour sessions (or multiple sessions) with dedicated troubleshooting time, breakouts into small groups, and an associated Slack channel
+
+-   **Clearer examples**: Tiered/increasing complexity examples, including "failure cases" that show technology limitations
+
+-   **Visual learning aids**: Additional diagrams showing how tools connect and development status/timelines
+
+-   **Practical next steps**: Decision trees for choosing approaches, before/after workflow comparisons with performance metrics, and clear guidance for applying techniques to participants' own research post-workshop
