@@ -10,44 +10,32 @@ categories: [blog, nasa-framework]
 image: MtWhitneySunrise-ElliotLowndes.jpeg
 ---
 
-*This is a short note to celebrate a recent workshop with **NUMBER hands-on participants in a Jupyter Hub** led by NASA Atmospheric Science Data Center (ASDC) with support from the NASA Openscapes project.*
+*This is a short note to celebrate a recent workshop with 9 hands-on participants in a Jupyter Hub led by NASA's Atmospheric Science Data Center (ASDC) with support from the NASA Openscapes project.*
 
 *Cross-posted at [openscapes.org/blog](https://openscapes.org/blog),* [*nasa-openscapes.github.io/news*](https://nasa-openscapes.github.io/news.html)*.*
 
 ------------------------------------------------------------------------
 
-The ASDC led a "Cloud Access Mini-Workshop" demonstrating virtual dataset capabilities through hands-on Jupyter notebook tutorials, where participants accessed TEMPO Level-3 data using Openscapes' 2i2c JupyterHub in AWS Cloud while learning techniques aligned with NASA's Open Science principles. 
+The ASDC led a "Cloud Access Mini-Workshop" that demonstrated virtual dataset capabilities for satellite data analysis. Participants learned hands-on techniques for accessing TEMPO Level-3 data using the Openscapes 2i2c JupyterHub in AWS Cloud—approaches that directly support NASA's Open Science principles by making data more accessible and analyses more efficient and easy to collaborate on. 
 
-The discussion examined satellite data access challenges from traditional HDF and NetCDF formats rather than cloud-optimized files, which a collaborative team—comprising NASA DAACs, Openscapes, OPeNDAP, and open source contributors—is addressing through DMR++ granule-level references and VirtualiZarr approaches using collection-level references. The successful workshop featured engaging collaborative discussion with hands-on Level-2 TEMPO experimentation that explored treating individual granules as virtual datasets via DMR++ reference files and identified opportunities for earthaccess improvements to simplify virtual datacube configuration. 
+**Tackling Real Challenges Together**
 
-Based on participant feedback and observed engagement, future workshops will benefit from pre-workshop use-case surveys, extended duration for technical depth, tiered complexity examples, and structured breakout sessions to maximize learning outcomes and support users' transition to cloud-native data access approaches. Ideas for improving future such workshops:
+The workshop addressed a common challenge: satellite data stored in traditional HDF and netCDF formats can be slow to access and download from the cloud. A collaborative team spanning NASA DAACs (Distributed Active Archive Centers), Openscapes, OPeNDAP (Open-source Project for a Network Data Access Protocol), and open source contributors is working to solve this through innovative approaches like DMR++ reference files and VirtualiZarr tools that create "virtual datasets" without requiring massive downloads.
 
--   1\. Enhanced Pre-Workshop Preparation
+The hands-on session featured engaging experimentation with TEMPO satellite data, where participants explored treating individual data granules as virtual datasets. The collaborative discussion also identified concrete opportunities to improve tools like earthaccess to make virtual datacube workflows even more user-friendly.
 
-    -   Survey participants beforehand to collect specific use-cases and tailor examples to real user needs (if able to provide Hub access beforehand).
 
-    -   Provide technical prerequisites checklist to reduce setup time during workshops.
+**Learning and Improving Together**
 
--   2\. Structural Modifications
+What made this workshop especially valuable was the community learning approach. Based on the discussion and participant feedback, future workshops will incorporate several enhancements:
 
-    -   Extend duration to 3+ hours or multi-session format to accommodate technical depth.
+- **Enhanced preparation**: Pre-workshop surveys to understand participants' specific use-cases, and technical prerequisites checklist to reduce workshop setup time
 
-    -   Build in dedicated troubleshooting time and implement breakout groups approach as originally planned.
+- **More time and structure**: Extended 3+ hour sessions (or multiple sessions) with dedicated troubleshooting time, breakouts into small groups, and an associated Slack channel 
 
-    -   Establish ongoing Slack channel for post-workshop support and community building.
+- **Clearer examples**: Tiered/increasing complexity examples, including "failure cases" that show technology limitations
 
--   3\. Content & Material Enhancements
+- **Visual learning aids**: Additional diagrams showing how tools connect and development status/timelines
 
-    -   Develop tiered examples progressing from simple to complex virtual datacube scenarios.
+- **Practical next steps**: Decision trees for choosing approaches, before/after workflow comparisons with performance metrics, and clear guidance for applying techniques to participants' own research post-workshop
 
-    -   Include failure case demonstrations to set realistic expectations about technology limitations.
-
-    -   Create visual aids showing tool ecosystem relationships (DMR++, VirtualiZarr, earthaccess) and development status/timelines.
-
--   4\. Practical Applications Support
-
-    -   Develop decision trees for when to use virtual vs. traditional approaches.
-
-    -   Create before/after workflow comparisons with performance metrics.
-
-    -   Provide clear "next steps" guidance for participants to apply concepts to their own datasets.
