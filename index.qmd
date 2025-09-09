@@ -14,9 +14,13 @@ We are influenced and inspired by many leaders and community organizers, particu
 
 **News and Upcoming Events:**
 
-- [Community Call summary published: earthaccess — helping users leverage the awesomeness of NASA Earthdata](https://nasa-openscapes.github.io/news/2025-08-01-earthaccess-awesomeness-nasa-earthdata/)
+-   Recent workshops
 
--   [Community Call summary published](https://nasa-openscapes.github.io/news/2025-05-01-community-call-hub-cloud-costs/): What we’re learning about cloud costs for Earth science workflows in our JupyterHub.
+    -   [Cloud Access Mini-Workshop](https://openscapes.org/blog/2025-09-09-tempo-workshop/) demonstrating virtual dataset capabilities for satellite data analysis
+
+    -   [Fundamentals to use Hyperspectral and Thermal NASA Earth Observations](https://nasa-openscapes.github.io/news/2025-07-21-hyperspectral-thermal-workshop/)
+
+-   [Community Call summary published: earthaccess — helping users leverage the awesomeness of NASA Earthdata](https://nasa-openscapes.github.io/news/2025-08-01-earthaccess-awesomeness-nasa-earthdata/)
 
 Learn about our recent work: [News](news.qmd) • [Presentations](/about.qmd#slides) • [Flywheel Preprint](https://nasa-openscapes.github.io/about.html#flywheel-preprint) • [White Paper: The Value of Hosted JupyterHubs](https://nasa-openscapes.github.io/about.html#white-paper-value-of-hosted-jupyterhubs)
 
