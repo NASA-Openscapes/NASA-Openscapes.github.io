@@ -8,7 +8,7 @@ date: 2025-09-09
 citation: 
   url: https://openscapes.org/blog/2025-09-09-tempo-workshop/
 categories: [blog, nasa-framework]
-image: MtWhitneySunrise-ElliotLowndes.jpeg
+image: tempo-virtual-datasets.png
 ---
 
 *This is a short note to celebrate a recent workshop with 9 hands-on participants in a Jupyter Hub led by NASA's Atmospheric Science Data Center (ASDC) with support from the NASA Openscapes project.*
