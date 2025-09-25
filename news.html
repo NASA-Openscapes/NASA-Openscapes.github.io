@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.34">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,14 +35,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-854fe65777eeaf54af9003b939c14df3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a4b37ce2a05f80339cf5ad595c61cf04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -115,7 +116,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -142,7 +143,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/openscapes_hex.png" alt="" class="navbar-logo">
+    <img src="./images/openscapes_hex.png" alt="" class="navbar-logo light-content">
+    <img src="./images/openscapes_hex.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">NASA-Openscapes</span>
@@ -242,7 +244,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1757376000000" data-listing-file-modified-sort="1757434447256" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="329">
+<div class="quarto-post image-right" data-index="0" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1757376000000" data-listing-file-modified-sort="1758822178743" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="329">
 <div class="thumbnail"><a href="./news/2025-09-09-tempo-workshop/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2025-09-09-tempo-workshop/tempo-virtual-datasets.png" class="thumbnail-image">
@@ -274,7 +276,7 @@ Daniel Kaufman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="YmxvZyUyQ2NvbW11bml0eS1jYWxsJTJDbmFzYS1mcmFtZXdvcms=" data-listing-date-sort="1754006400000" data-listing-file-modified-sort="1757434447256" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1831">
+<div class="quarto-post image-right" data-index="1" data-categories="YmxvZyUyQ2NvbW11bml0eS1jYWxsJTJDbmFzYS1mcmFtZXdvcms=" data-listing-date-sort="1754006400000" data-listing-file-modified-sort="1758822178742" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1831">
 <div class="thumbnail"><a href="./news/2025-08-01-earthaccess-awesomeness-nasa-earthdata/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2025-08-01-earthaccess-awesomeness-nasa-earthdata/earthaccess-cc-slide-6.png" class="thumbnail-image">
@@ -308,7 +310,7 @@ Amy Steiker, Luis López, Danny Kaufman, Joe Kennedy, Chris Battisto, Andy Teuch
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="ZXZlbnQlMkNjb21tdW5pdHktY2FsbCUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1753747200000" data-listing-file-modified-sort="1757434447246" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="219">
+<div class="quarto-post image-right" data-index="2" data-categories="ZXZlbnQlMkNjb21tdW5pdHktY2FsbCUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1753747200000" data-listing-file-modified-sort="1758822178733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="219">
 <div class="thumbnail"><a href="./news/2025-07-29-community-call-earthaccess/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2025-07-29-community-call-earthaccess/earthaccesslogo.png" class="thumbnail-image">
@@ -342,7 +344,7 @@ Openscapes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Y29uZmVyZW5jZSUyQ25hc2EtZnJhbWV3b3JrJTJDbm9hYS1maXNoZXJpZXMlMkNldmVudA==" data-listing-date-sort="1753142400000" data-listing-file-modified-sort="1757434447246" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="311">
+<div class="quarto-post image-right" data-index="3" data-categories="Y29uZmVyZW5jZSUyQ25hc2EtZnJhbWV3b3JrJTJDbm9hYS1maXNoZXJpZXMlMkNldmVudA==" data-listing-date-sort="1753142400000" data-listing-file-modified-sort="1758822178733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="311">
 <div class="thumbnail"><a href="./news/2025-07-22-esip-summer-2025/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2025-07-22-esip-summer-2025/esip-banner-2025.png" class="thumbnail-image">
@@ -378,7 +380,7 @@ Openscapes, NASA, NOAA Fisheries
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1753056000000" data-listing-file-modified-sort="1757434447244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="214">
+<div class="quarto-post image-right" data-index="4" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1753056000000" data-listing-file-modified-sort="1758822178731" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="214">
 <div class="thumbnail"><a href="./news/2025-07-21-hyperspectral-thermal-workshop/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2025-07-21-hyperspectral-thermal-workshop/MtWhitneySunrise-ElliotLowndes.jpeg" class="thumbnail-image">
@@ -410,7 +412,7 @@ Mahsa Jami, Erik Bolch
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="ZXZlbnQlMkNuYXNhLWZyYW1ld29yaw==" data-listing-date-sort="1751155200000" data-listing-file-modified-sort="1757434447242" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
+<div class="quarto-post image-right" data-index="5" data-categories="ZXZlbnQlMkNuYXNhLWZyYW1ld29yaw==" data-listing-date-sort="1751155200000" data-listing-file-modified-sort="1758822178729" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="197">
 <div class="thumbnail"><a href="./news/2025-06-29-urssi-summer-school/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2025-06-29-urssi-summer-school/ASF20Logo20Small.png" class="thumbnail-image">
@@ -442,7 +444,7 @@ Madicken Munk, Joseph Kennedy, Openscapes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="ZXZlbnQlMkNtZW50b3JzaGlwJTJDcmVmbGVjdGlvbnM=" data-listing-date-sort="1746403200000" data-listing-file-modified-sort="1757434447242" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="309">
+<div class="quarto-post image-right" data-index="6" data-categories="ZXZlbnQlMkNtZW50b3JzaGlwJTJDcmVmbGVjdGlvbnM=" data-listing-date-sort="1746403200000" data-listing-file-modified-sort="1758822178729" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="309">
 <div class="thumbnail"><a href="./news/2025-05-05-reflections/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2025-05-05-reflections/fig-mountain-2023-square.jpg" class="thumbnail-image">
@@ -476,7 +478,7 @@ Openscapes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="YmxvZyUyQ2V2ZW50JTJDbmFzYS1mcmFtZXdvcmslMkNub2FhLWZpc2hlcmllcw==" data-listing-date-sort="1746057600000" data-listing-file-modified-sort="1757434447241" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1349">
+<div class="quarto-post image-right" data-index="7" data-categories="YmxvZyUyQ2V2ZW50JTJDbmFzYS1mcmFtZXdvcmslMkNub2FhLWZpc2hlcmllcw==" data-listing-date-sort="1746057600000" data-listing-file-modified-sort="1758822178728" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1349">
 <div class="thumbnail"><a href="./news/2025-05-01-community-call-hub-cloud-costs/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2025-05-01-community-call-hub-cloud-costs/cpu-and-memory-requests-osl-nasa-openscapes.png" class="thumbnail-image">
@@ -512,7 +514,7 @@ Andy Teucher, Alex Lewandowski, Eli Holmes, Tasha Snow, Yuvi , Julie Lowndes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="ZXZlbnQlMkNjb21tdW5pdHktY2FsbCUyQ25hc2EtZnJhbWV3b3JrJTJDbm9hYS1maXNoZXJpZXM=" data-listing-date-sort="1745280000000" data-listing-file-modified-sort="1757434447239" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="421">
+<div class="quarto-post image-right" data-index="8" data-categories="ZXZlbnQlMkNjb21tdW5pdHktY2FsbCUyQ25hc2EtZnJhbWV3b3JrJTJDbm9hYS1maXNoZXJpZXM=" data-listing-date-sort="1745280000000" data-listing-file-modified-sort="1758822178726" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="421">
 <div class="thumbnail"><a href="./news/2025-04-22-community-call-hub-cloud-costs/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2025-04-22-community-call-hub-cloud-costs/nasa-noaa-openscapes-jupyter-2i2c.png" class="thumbnail-image">
@@ -548,7 +550,7 @@ Openscapes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="YmxvZyUyQ25ld3NsZXR0ZXIlMkNuYXNhLWZyYW1ld29yayUyQ25vYWEtZmlzaGVyaWVzJTJDcGF0aHdheXMlMkNyZWZsZWN0aW9ucw==" data-listing-date-sort="1743638400000" data-listing-file-modified-sort="1757434447238" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1881">
+<div class="quarto-post image-right" data-index="9" data-categories="YmxvZyUyQ25ld3NsZXR0ZXIlMkNuYXNhLWZyYW1ld29yayUyQ25vYWEtZmlzaGVyaWVzJTJDcGF0aHdheXMlMkNyZWZsZWN0aW9ucw==" data-listing-date-sort="1743638400000" data-listing-file-modified-sort="1758822178726" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1881">
 <div class="thumbnail"><a href="./news/2025-04-03-news-apr-2025/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2025-04-03-news-apr-2025/MtWhitneySunrise-ElliotLowndes.jpeg" class="thumbnail-image">
@@ -588,7 +590,7 @@ Julie Lowndes, Stefanie Butland
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3JrJTJDbm9hYS1maXNoZXJpZXM=" data-listing-date-sort="1736380800000" data-listing-file-modified-sort="1757434447236" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
+<div class="quarto-post image-right" data-index="10" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3JrJTJDbm9hYS1maXNoZXJpZXM=" data-listing-date-sort="1736380800000" data-listing-file-modified-sort="1758822178724" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
 <div class="thumbnail"><a href="./news/2025-01-09-openscapes.cloud/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2025-01-09-openscapes.cloud/openscapes-cloud-homepage.png" class="thumbnail-image">
@@ -622,7 +624,7 @@ Andy Teucher
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="ZXZlbnQlMkNjb25mZXJlbmNlJTJDbmFzYS1mcmFtZXdvcmslMkNub2FhLWZpc2hlcmllcyUyQ3BhdGh3YXlz" data-listing-date-sort="1733702400000" data-listing-file-modified-sort="1757434447236" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="304">
+<div class="quarto-post image-right" data-index="11" data-categories="ZXZlbnQlMkNjb25mZXJlbmNlJTJDbmFzYS1mcmFtZXdvcmslMkNub2FhLWZpc2hlcmllcyUyQ3BhdGh3YXlz" data-listing-date-sort="1733702400000" data-listing-file-modified-sort="1758822178724" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="304">
 <div class="thumbnail"><a href="./news/2024-12-09-agu-fall/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2024-12-09-agu-fall/agu-fall-2024.png" class="thumbnail-image">
@@ -660,7 +662,7 @@ Openscapes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3JrJTJDbm9hYS1maXNoZXJpZXMlMkNwYXRod2F5cw==" data-listing-date-sort="1727913600000" data-listing-file-modified-sort="1757434447234" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1382">
+<div class="quarto-post image-right" data-index="12" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3JrJTJDbm9hYS1maXNoZXJpZXMlMkNwYXRod2F5cw==" data-listing-date-sort="1727913600000" data-listing-file-modified-sort="1758822178721" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1382">
 <div class="thumbnail"><a href="./news/2024-10-03-openscapes-recognized-white-house/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2024-10-03-openscapes-recognized-white-house/white-house-ileana-julie-poster.jpg" class="thumbnail-image">
@@ -696,7 +698,7 @@ Ileana Fenwick, Julie Lowndes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="ZXZlbnQlMkNjb21tdW5pdHktY2FsbCUyQ25hc2EtZnJhbWV3b3JrJTJDbm9hYS1maXNoZXJpZXMlMkNwYXRod2F5cw==" data-listing-date-sort="1727308800000" data-listing-file-modified-sort="1757434447233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="293">
+<div class="quarto-post image-right" data-index="13" data-categories="ZXZlbnQlMkNjb21tdW5pdHktY2FsbCUyQ25hc2EtZnJhbWV3b3JrJTJDbm9hYS1maXNoZXJpZXMlMkNwYXRod2F5cw==" data-listing-date-sort="1727308800000" data-listing-file-modified-sort="1758822178721" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="293">
 <div class="thumbnail"><a href="./news/2024-09-26-openscapes-whitehouse/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2024-09-26-openscapes-whitehouse/white-house.png" class="thumbnail-image">
@@ -734,7 +736,7 @@ Openscapes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="YmxvZyUyQ25ld3NsZXR0ZXIlMkNuYXNhLWZyYW1ld29yayUyQ25vYWEtZmlzaGVyaWVzJTJDcGF0aHdheXMlMkNyZWZsZWN0aW9ucw==" data-listing-date-sort="1726531200000" data-listing-file-modified-sort="1757434447233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1241">
+<div class="quarto-post image-right" data-index="14" data-categories="YmxvZyUyQ25ld3NsZXR0ZXIlMkNuYXNhLWZyYW1ld29yayUyQ25vYWEtZmlzaGVyaWVzJTJDcGF0aHdheXMlMkNyZWZsZWN0aW9ucw==" data-listing-date-sort="1726531200000" data-listing-file-modified-sort="1758822178721" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1241">
 <div class="thumbnail"><a href="./news/2024-09-17-news-sep-2024/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2024-09-17-news-sep-2024/mr-lowndesDSCF1746-square.jpg" class="thumbnail-image">
@@ -774,7 +776,7 @@ Julie Lowndes, Stefanie Butland
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="ZXZlbnQlMkNuYXNhLWZyYW1ld29yaw==" data-listing-date-sort="1725926400000" data-listing-file-modified-sort="1757434447233" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="488">
+<div class="quarto-post image-right" data-index="15" data-categories="ZXZlbnQlMkNuYXNhLWZyYW1ld29yaw==" data-listing-date-sort="1725926400000" data-listing-file-modified-sort="1758822178720" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="488">
 <div class="thumbnail"><a href="./news/2024-09-10-nasa-pi-plenary/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2024-09-10-nasa-pi-plenary/ForkingWorldview_NASA-PI-Planning_slide1_2024-09-10.png" class="thumbnail-image">
@@ -806,7 +808,7 @@ Openscapes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3JrJTJDbm9hYS1maXNoZXJpZXM=" data-listing-date-sort="1724976000000" data-listing-file-modified-sort="1757434447224" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1265">
+<div class="quarto-post image-right" data-index="16" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3JrJTJDbm9hYS1maXNoZXJpZXM=" data-listing-date-sort="1724976000000" data-listing-file-modified-sort="1758822178713" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1265">
 <div class="thumbnail"><a href="./news/2024-08-30-esip-summer-2024/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2024-08-30-esip-summer-2024/tooling-people-policy.png" class="thumbnail-image">
@@ -840,7 +842,7 @@ Alexis Hunzinger, Danny Kaufman, Aaron Friesz, Michele Thornton, Andy Barrett, R
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3JrJTJDY2hhbXBpb25z" data-listing-date-sort="1721779200000" data-listing-file-modified-sort="1757434447216" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4196">
+<div class="quarto-post image-right" data-index="17" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3JrJTJDY2hhbXBpb25z" data-listing-date-sort="1721779200000" data-listing-file-modified-sort="1758822178708" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4196">
 <div class="thumbnail"><a href="./news/2024-07-24-2024-nasa-champions-cohort/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2024-07-24-2024-nasa-champions-cohort/storage-infrastructure.png" class="thumbnail-image">
@@ -874,7 +876,7 @@ Michele Thornton (ORNL), Catalina Taglialatela (PO.DAAC, Jet Propulsion Laborato
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="Y29uZmVyZW5jZSUyQ25hc2EtZnJhbWV3b3JrJTJDZXZlbnQ=" data-listing-date-sort="1721692800000" data-listing-file-modified-sort="1757434447210" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="454">
+<div class="quarto-post image-right" data-index="18" data-categories="Y29uZmVyZW5jZSUyQ25hc2EtZnJhbWV3b3JrJTJDZXZlbnQ=" data-listing-date-sort="1721692800000" data-listing-file-modified-sort="1758822178702" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="454">
 <div class="thumbnail"><a href="./news/2024-07-23-esip-summer-2024/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2024-07-23-esip-summer-2024/esip-banner.png" class="thumbnail-image">
@@ -908,7 +910,7 @@ Openscapes and NASA
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3JrJTJDY2hhbXBpb25z" data-listing-date-sort="1721606400000" data-listing-file-modified-sort="1757434447207" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1001">
+<div class="quarto-post image-right" data-index="19" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3JrJTJDY2hhbXBpb25z" data-listing-date-sort="1721606400000" data-listing-file-modified-sort="1758822178700" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1001">
 <div class="thumbnail"><a href="./news/2024-07-22-aronne-merrelli-fledging-parallelized-science-in-the-cloud/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2024-07-22-aronne-merrelli-fledging-parallelized-science-in-the-cloud/merrelli-workflow-scales.png" class="thumbnail-image">
@@ -942,7 +944,7 @@ Aronne Merrelli, University of Michigan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="YmxvZyUyQ2hvdy13ZS13b3Jr" data-listing-date-sort="1721260800000" data-listing-file-modified-sort="1757434447204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2758">
+<div class="quarto-post image-right" data-index="20" data-categories="YmxvZyUyQ2hvdy13ZS13b3Jr" data-listing-date-sort="1721260800000" data-listing-file-modified-sort="1758822178697" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2758">
 <div class="thumbnail"><a href="./news/2024-07-18-openscapes-update/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2024-07-18-openscapes-update/llanwrst-wales-jslowndes.jpg" class="thumbnail-image">
@@ -974,7 +976,7 @@ Julie Lowndes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="ZXZlbnQ=" data-listing-date-sort="1721088000000" data-listing-file-modified-sort="1757434447204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="149">
+<div class="quarto-post image-right" data-index="21" data-categories="ZXZlbnQ=" data-listing-date-sort="1721088000000" data-listing-file-modified-sort="1758822178697" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="149">
 <div class="thumbnail"><a href="./news/2024-07-16-swot-workshop/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2024-07-16-swot-workshop/SWOT_artistic_render.png" class="thumbnail-image">
@@ -1004,7 +1006,7 @@ Hacking Limnology Virtual Summit, NASA PO.DAAC &amp; Openscapes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="YmxvZyUyQ2hvdy13ZS13b3Jr" data-listing-date-sort="1720483200000" data-listing-file-modified-sort="1757434447197" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
+<div class="quarto-post image-right" data-index="22" data-categories="YmxvZyUyQ2hvdy13ZS13b3Jr" data-listing-date-sort="1720483200000" data-listing-file-modified-sort="1758822178690" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
 <div class="thumbnail"><a href="./news/2024-07-09-2i2c-shared-password/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2024-07-09-2i2c-shared-password/sbg-screenshot.png" class="thumbnail-image">
@@ -1036,7 +1038,7 @@ Jul 9, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="YmxvZyUyQ25vYWEtZmlzaGVyaWVzJTJDbmFzYS1mcmFtZXdvcmslMkN3YXRlci1ib2FyZHMlMkNwYXRod2F5cyUyQ2hvdy13ZS13b3Jr" data-listing-date-sort="1717632000000" data-listing-file-modified-sort="1757434447197" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="335">
+<div class="quarto-post image-right" data-index="23" data-categories="YmxvZyUyQ25vYWEtZmlzaGVyaWVzJTJDbmFzYS1mcmFtZXdvcmslMkN3YXRlci1ib2FyZHMlMkNwYXRod2F5cyUyQ2hvdy13ZS13b3Jr" data-listing-date-sort="1717632000000" data-listing-file-modified-sort="1758822178690" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="335">
 <div class="thumbnail"><a href="./news/2024-06-06-editorial-published/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2024-06-06-editorial-published/ece311341-fig-0001-m.jpg" class="thumbnail-image">
@@ -1076,7 +1078,7 @@ Openscapes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="ZXZlbnQlMkN0YWxrJTJDbmFzYS1mcmFtZXdvcms=" data-listing-date-sort="1715644800000" data-listing-file-modified-sort="1757434447195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="317">
+<div class="quarto-post image-right" data-index="24" data-categories="ZXZlbnQlMkN0YWxrJTJDbmFzYS1mcmFtZXdvcms=" data-listing-date-sort="1715644800000" data-listing-file-modified-sort="1758822178687" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="317">
 <div class="thumbnail"><a href="./news/2024-05-14-noaa-edmw/index.html" class="no-external">
 
 <img loading="lazy" src="./news/2024-05-14-noaa-edmw/NASA-Openscapes-10min_2024-05-14.png" class="thumbnail-image">
@@ -1110,7 +1112,7 @@ Openscapes and NASA
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1712188800000" data-listing-file-modified-sort="1757434447193" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
+<div class="quarto-post image-right" data-index="25" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1712188800000" data-listing-file-modified-sort="1758822178686" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
 <div class="thumbnail"><a href="./news/2024-04-04-nasa-earthdata-aaron-friesz/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2024-04-04-nasa-earthdata-aaron-friesz/aaron-friesz_headshot_data-chat.jpg" class="thumbnail-image">
@@ -1142,7 +1144,7 @@ Aaron Friesz, Joseph M. Smith
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="26" data-categories="ZXZlbnQlMkNjaGFtcGlvbnMlMkNuYXNhLWZyYW1ld29yaw==" data-listing-date-sort="1712102400000" data-listing-file-modified-sort="1757434447192" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
+<div class="quarto-post image-right" data-index="26" data-categories="ZXZlbnQlMkNjaGFtcGlvbnMlMkNuYXNhLWZyYW1ld29yaw==" data-listing-date-sort="1712102400000" data-listing-file-modified-sort="1758822178685" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
 <div class="thumbnail"><a href="./news/2024-04-03-nasa-champions/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2024-04-03-nasa-champions/nasa-openscapes.png" class="thumbnail-image">
@@ -1176,7 +1178,7 @@ Openscapes and NASA
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="27" data-categories="ZXZlbnQlMkNuYXNhLWZyYW1ld29yaw==" data-listing-date-sort="1710374400000" data-listing-file-modified-sort="1757434447192" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
+<div class="quarto-post image-right" data-index="27" data-categories="ZXZlbnQlMkNuYXNhLWZyYW1ld29yaw==" data-listing-date-sort="1710374400000" data-listing-file-modified-sort="1758822178684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
 <div class="thumbnail"><a href="./news/2024-03-14-emit-methane/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2024-03-14-emit-methane/emit-methane-workshop.png" class="thumbnail-image">
@@ -1208,7 +1210,7 @@ Openscapes and NASA
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="28" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1710201600000" data-listing-file-modified-sort="1757434447186" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1260">
+<div class="quarto-post image-right" data-index="28" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1710201600000" data-listing-file-modified-sort="1758822178679" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1260">
 <div class="thumbnail"><a href="./news/2024-03-12-nasa-earthdata-webinar/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2024-03-12-nasa-earthdata-webinar/nasa-openscapes-shell.png" class="thumbnail-image">
@@ -1240,7 +1242,7 @@ Bri Lind, Alexis Hunzinger, Luis Lopez, Cassandra Nickles, NASA Openscapes Commu
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="29" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1709510400000" data-listing-file-modified-sort="1757434447182" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="839">
+<div class="quarto-post image-right" data-index="29" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1709510400000" data-listing-file-modified-sort="1758822178675" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="839">
 <div class="thumbnail"><a href="./news/2024-03-04-earthaccess-tech-spotlight/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2024-03-04-earthaccess-tech-spotlight/earthaccess-interface-daacs-open-community.png" class="thumbnail-image">
@@ -1272,7 +1274,7 @@ Luis López, Matt Fisher, Aaron Friesz, Qiusheng Wu, Amy Steiker, earthaccess co
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="30" data-categories="Y29tbXVuaXR5LWNhbGwlMkNibG9nJTJDbmFzYS1mcmFtZXdvcms=" data-listing-date-sort="1709078400000" data-listing-file-modified-sort="1757434447177" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="884">
+<div class="quarto-post image-right" data-index="30" data-categories="Y29tbXVuaXR5LWNhbGwlMkNibG9nJTJDbmFzYS1mcmFtZXdvcms=" data-listing-date-sort="1709078400000" data-listing-file-modified-sort="1758822178670" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="884">
 <div class="thumbnail"><a href="./news/2024-02-28-github-community-call/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2024-02-28-github-community-call/github-roadmap-view.png" class="thumbnail-image">
@@ -1306,7 +1308,7 @@ Bri Lind, Stefanie Butland
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="31" data-categories="ZXZlbnQlMkN0YWxrJTJDbmFzYS1mcmFtZXdvcms=" data-listing-date-sort="1709078400000" data-listing-file-modified-sort="1757434447174" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
+<div class="quarto-post image-right" data-index="31" data-categories="ZXZlbnQlMkN0YWxrJTJDbmFzYS1mcmFtZXdvcms=" data-listing-date-sort="1709078400000" data-listing-file-modified-sort="1758822178666" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
 <div class="thumbnail"><a href="./news/2024-02-28-earthdata-webinar/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2024-02-28-earthdata-webinar/nasa-earthdata-logo.png" class="thumbnail-image">
@@ -1340,7 +1342,7 @@ Openscapes and NASA
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="32" data-categories="ZXZlbnQlMkNuYXNhLWZyYW1ld29yaw==" data-listing-date-sort="1708905600000" data-listing-file-modified-sort="1757434447173" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
+<div class="quarto-post image-right" data-index="32" data-categories="ZXZlbnQlMkNuYXNhLWZyYW1ld29yaw==" data-listing-date-sort="1708905600000" data-listing-file-modified-sort="1758822178666" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
 <div class="thumbnail"><a href="./news/2024-02-26-esds-tech-spotlight/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2024-02-26-esds-tech-spotlight/earthaccess-logo.png" class="thumbnail-image">
@@ -1372,7 +1374,7 @@ Openscapes and NASA
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="33" data-categories="ZXZlbnQlMkNjb21tdW5pdHktY2FsbCUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1708387200000" data-listing-file-modified-sort="1757434447172" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="433">
+<div class="quarto-post image-right" data-index="33" data-categories="ZXZlbnQlMkNjb21tdW5pdHktY2FsbCUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1708387200000" data-listing-file-modified-sort="1758822178664" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="433">
 <div class="thumbnail"><a href="./news/2024-02-20-github-calendaring/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2024-02-20-github-calendaring/github-roadmap-view.png" class="thumbnail-image">
@@ -1406,7 +1408,7 @@ Openscapes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="34" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1707955200000" data-listing-file-modified-sort="1757434447170" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1472">
+<div class="quarto-post image-right" data-index="34" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1707955200000" data-listing-file-modified-sort="1758822178662" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1472">
 <div class="thumbnail"><a href="./news/2024-02-15-nasa-openscapes-talking-points/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2024-02-15-nasa-openscapes-talking-points/nasa-puppy-porters-agu.jpg" class="thumbnail-image">
@@ -1438,7 +1440,7 @@ Erin Robinson, Julie Lowndes (Openscapes), NASA Openscapes Team
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="35" data-categories="YmxvZyUyQ25vYWEtZmlzaGVyaWVzJTJDbmFzYS1mcmFtZXdvcmslMkN3YXRlci1ib2FyZHMlMkNwYXRod2F5cw==" data-listing-date-sort="1707436800000" data-listing-file-modified-sort="1757434447169" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="416">
+<div class="quarto-post image-right" data-index="35" data-categories="YmxvZyUyQ25vYWEtZmlzaGVyaWVzJTJDbmFzYS1mcmFtZXdvcmslMkN3YXRlci1ib2FyZHMlMkNwYXRod2F5cw==" data-listing-date-sort="1707436800000" data-listing-file-modified-sort="1758822178662" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="416">
 <div class="thumbnail"><a href="./news/2024-02-09-white-house-factsheet-openscapes/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2024-02-09-white-house-factsheet-openscapes/white-house.png" class="thumbnail-image">
@@ -1476,7 +1478,7 @@ Openscapes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="36" data-categories="bmFzYS1mcmFtZXdvcmslMkNjb25mZXJlbmNlJTJDYmxvZw==" data-listing-date-sort="1705536000000" data-listing-file-modified-sort="1757434447167" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="977">
+<div class="quarto-post image-right" data-index="36" data-categories="bmFzYS1mcmFtZXdvcmslMkNjb25mZXJlbmNlJTJDYmxvZw==" data-listing-date-sort="1705536000000" data-listing-file-modified-sort="1758822178660" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="977">
 <div class="thumbnail"><a href="./news/2024-01-18-agu-talk-2023/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2024-01-18-agu-talk-2023/developing-kinder-mindset-screenshot.png" class="thumbnail-image">
@@ -1510,7 +1512,7 @@ Julie Lowndes, Erin Robinson, NASA Openscapes Mentors
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="37" data-categories="bmFzYS1mcmFtZXdvcmslMkNjb25mZXJlbmNlJTJDYmxvZw==" data-listing-date-sort="1702166400000" data-listing-file-modified-sort="1757434447162" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
+<div class="quarto-post image-right" data-index="37" data-categories="bmFzYS1mcmFtZXdvcmslMkNjb25mZXJlbmNlJTJDYmxvZw==" data-listing-date-sort="1702166400000" data-listing-file-modified-sort="1758822178654" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
 <div class="thumbnail"><a href="./news/2023-12-10-agu-fall-meeting/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2023-12-10-agu-fall-meeting/agu-fall-2023.png" class="thumbnail-image">
@@ -1544,7 +1546,7 @@ NASA Openscapes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="38" data-categories="Y29tbXVuaXR5LWNhbGwlMkNibG9nJTJDbmFzYS1mcmFtZXdvcms=" data-listing-date-sort="1701993600000" data-listing-file-modified-sort="1757434447159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="547">
+<div class="quarto-post image-right" data-index="38" data-categories="Y29tbXVuaXR5LWNhbGwlMkNibG9nJTJDbmFzYS1mcmFtZXdvcms=" data-listing-date-sort="1701993600000" data-listing-file-modified-sort="1758822178652" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="547">
 <div class="thumbnail"><a href="./news/2023-12-08-coiled-community-call/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2023-12-08-coiled-community-call/coiled-bourbeau-demo.png" class="thumbnail-image">
@@ -1578,7 +1580,7 @@ Amy Steiker, Luis Lopez, Andrew Barrett, Julie Lowndes, Erin Robinson, James Bou
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="39" data-categories="Y29tbXVuaXR5LWNhbGwlMkNibG9nJTJDbmFzYS1mcmFtZXdvcms=" data-listing-date-sort="1701820800000" data-listing-file-modified-sort="1757434447155" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="950">
+<div class="quarto-post image-right" data-index="39" data-categories="Y29tbXVuaXR5LWNhbGwlMkNibG9nJTJDbmFzYS1mcmFtZXdvcms=" data-listing-date-sort="1701820800000" data-listing-file-modified-sort="1758822178648" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="950">
 <div class="thumbnail"><a href="./news/2023-12-07-engaging-with-a-cross-nasa-subcommunity/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2023-12-07-engaging-with-a-cross-nasa-subcommunity/nasa-openscapes-carpentries.png" class="thumbnail-image">
@@ -1612,7 +1614,7 @@ Chris Battisto, Katherine Blanchette, Alycia Crall, Elizabeth Joyner, Julie Lown
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="40" data-categories="bmFzYS1mcmFtZXdvcmslMkNibG9n" data-listing-date-sort="1699315200000" data-listing-file-modified-sort="1757434447155" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1934">
+<div class="quarto-post image-right" data-index="40" data-categories="bmFzYS1mcmFtZXdvcmslMkNibG9n" data-listing-date-sort="1699315200000" data-listing-file-modified-sort="1758822178648" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1934">
 <div class="thumbnail"><a href="./news/2023-11-07-coiled-openscapes/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2023-11-07-coiled-openscapes/geospatial-for-loop-comparison.svg" class="thumbnail-image">
@@ -1644,7 +1646,7 @@ James Bourbeau of Coiled
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="41" data-categories="bmFzYS1mcmFtZXdvcmslMkNibG9n" data-listing-date-sort="1697500800000" data-listing-file-modified-sort="1757434447153" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="742">
+<div class="quarto-post image-right" data-index="41" data-categories="bmFzYS1mcmFtZXdvcmslMkNibG9n" data-listing-date-sort="1697500800000" data-listing-file-modified-sort="1758822178646" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="742">
 <div class="thumbnail"><a href="./news/2023-10-17-matlab-on-openscapes/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2023-10-17-matlab-on-openscapes/matlab-launch.png" class="thumbnail-image">
@@ -1676,7 +1678,7 @@ Lisa Kempler
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="42" data-categories="bmFzYS1mcmFtZXdvcmslMkNibG9n" data-listing-date-sort="1697155200000" data-listing-file-modified-sort="1757434447153" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="876">
+<div class="quarto-post image-right" data-index="42" data-categories="bmFzYS1mcmFtZXdvcmslMkNibG9n" data-listing-date-sort="1697155200000" data-listing-file-modified-sort="1758822178646" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="876">
 <div class="thumbnail"><a href="./news/2023-10-13-nasa-jupyterhub-coiled/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2023-10-13-nasa-jupyterhub-coiled/amy-steiker-uwg.png" class="thumbnail-image">
@@ -1708,7 +1710,7 @@ Amy Steiker, Luis Lopez, Andy Barrett, the NASA Openscapes Mentors, James Bourbe
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="43" data-categories="YmxvZyUyQ2NoYW1waW9ucyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1690848000000" data-listing-file-modified-sort="1757434447139" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18" data-listing-word-count-sort="3560">
+<div class="quarto-post image-right" data-index="43" data-categories="YmxvZyUyQ2NoYW1waW9ucyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1690848000000" data-listing-file-modified-sort="1758822178631" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18" data-listing-word-count-sort="3560">
 <div class="thumbnail"><a href="./news/2023-08-01-nasa-champions/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2023-08-01-nasa-champions/zoomie-2023-nasa-champions-square.png" class="thumbnail-image">
@@ -1742,7 +1744,7 @@ Erin Robinson, Julie Lowndes, Amy Steiker, Alexis Hunzinger, Luis Lopez, Andy Ba
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="44" data-categories="YmxvZyUyQ2hvdy13ZS13b3JrJTJDbm9hYS1maXNoZXJpZXMlMkNuYXNhLWZyYW1ld29yaw==" data-listing-date-sort="1685491200000" data-listing-file-modified-sort="1757434447135" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="654">
+<div class="quarto-post image-right" data-index="44" data-categories="YmxvZyUyQ2hvdy13ZS13b3JrJTJDbm9hYS1maXNoZXJpZXMlMkNuYXNhLWZyYW1ld29yaw==" data-listing-date-sort="1685491200000" data-listing-file-modified-sort="1758822178626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="654">
 <div class="thumbnail"><a href="./news/2023-05-31-zenodo-community/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2023-05-31-zenodo-community/zenodo-openscapes-community-square.png" class="thumbnail-image">
@@ -1778,7 +1780,7 @@ Stefanie Butland
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="45" data-categories="YmxvZyUyQ25vYWEtZmlzaGVyaWVzJTJDbmFzYS1mcmFtZXdvcms=" data-listing-date-sort="1684281600000" data-listing-file-modified-sort="1757434447134" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2601">
+<div class="quarto-post image-right" data-index="45" data-categories="YmxvZyUyQ25vYWEtZmlzaGVyaWVzJTJDbmFzYS1mcmFtZXdvcms=" data-listing-date-sort="1684281600000" data-listing-file-modified-sort="1758822178625" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2601">
 <div class="thumbnail"><a href="./news/2023-05-17-mentor-coach/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2023-05-17-mentor-coach/mrlowndes-bee-square.jpg" class="thumbnail-image">
@@ -1812,7 +1814,7 @@ Tara Robertson, Stefanie Butland, Julie Lowndes
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="46" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1683763200000" data-listing-file-modified-sort="1757434447129" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="732">
+<div class="quarto-post image-right" data-index="46" data-categories="YmxvZyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1683763200000" data-listing-file-modified-sort="1758822178619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="732">
 <div class="thumbnail"><a href="./news/2023-05-11-pathway-cloud-computing/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2023-05-11-pathway-cloud-computing/pan-talk-case-study.png" class="thumbnail-image">
@@ -1844,7 +1846,7 @@ Xiaohua Pan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="47" data-categories="YmxvZyUyQ2NvbmZlcmVuY2UlMkNub2FhLWZpc2hlcmllcyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1678924800000" data-listing-file-modified-sort="1757434447129" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2930">
+<div class="quarto-post image-right" data-index="47" data-categories="YmxvZyUyQ2NvbmZlcmVuY2UlMkNub2FhLWZpc2hlcmllcyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1678924800000" data-listing-file-modified-sort="1758822178619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2930">
 <div class="thumbnail"><a href="./news/2023-03-16-esip-winter-2023/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2023-03-16-esip-winter-2023/esip-2023-speakers-square.png" class="thumbnail-image">
@@ -1880,7 +1882,7 @@ Corey Clatterbuck, Ileana Fenwick, Josh London, Luis Lopez, Cassie Nickles, Adya
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="48" data-categories="YmxvZyUyQ25ld3NsZXR0ZXIlMkNuYXNhLWZyYW1ld29yayUyQ25vYWEtZmlzaGVyaWVz" data-listing-date-sort="1676937600000" data-listing-file-modified-sort="1757434447125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="954">
+<div class="quarto-post image-right" data-index="48" data-categories="YmxvZyUyQ25ld3NsZXR0ZXIlMkNuYXNhLWZyYW1ld29yayUyQ25vYWEtZmlzaGVyaWVz" data-listing-date-sort="1676937600000" data-listing-file-modified-sort="1758822178614" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="954">
 <div class="thumbnail"><a href="./news/2023-02-21-news-february-2023/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2023-02-21-news-february-2023/sb_paradise_road.png" class="thumbnail-image">
@@ -1916,7 +1918,7 @@ Julie Lowndes and Stefanie Butland
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="49" data-categories="bmFzYS1mcmFtZXdvcmslMkNibG9nJTJDaG93LXdlLXdvcms=" data-listing-date-sort="1672444800000" data-listing-file-modified-sort="1757434447125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
+<div class="quarto-post image-right" data-index="49" data-categories="bmFzYS1mcmFtZXdvcmslMkNibG9nJTJDaG93LXdlLXdvcms=" data-listing-date-sort="1672444800000" data-listing-file-modified-sort="1758822178614" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="16">
 <div class="thumbnail"><a href="./news/2022-12-31-previous-news/index.html" class="no-external">
 
 <img loading="lazy" data-src="./../../images/nasa-openscapes.png" class="thumbnail-image">
@@ -1950,7 +1952,7 @@ Julie Lowndes and Erin Robinson
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="50" data-categories="YmxvZyUyQ2NoYW1waW9ucyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1652313600000" data-listing-file-modified-sort="1757434447119" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1912">
+<div class="quarto-post image-right" data-index="50" data-categories="YmxvZyUyQ2NoYW1waW9ucyUyQ25hc2EtZnJhbWV3b3Jr" data-listing-date-sort="1652313600000" data-listing-file-modified-sort="1758822178609" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1912">
 <div class="thumbnail"><a href="./news/2022-05-12-nasa-2022-champions/index.html" class="no-external">
 
 <img loading="lazy" data-src="./news/2022-05-12-nasa-2022-champions/zoom-2022-nasa-champions.png" class="thumbnail-image">
@@ -2041,13 +2043,14 @@ NASA Openscapes Mentors, Erin Robinson, Julie Lowndes, Andy Barrett, Aaron Fries
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

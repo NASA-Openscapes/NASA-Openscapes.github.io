@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.34">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -71,14 +71,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../../images/openscapes_hex.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-854fe65777eeaf54af9003b939c14df3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-a4b37ce2a05f80339cf5ad595c61cf04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -119,7 +120,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/openscapes_hex.png" alt="" class="navbar-logo">
+    <img src="../../images/openscapes_hex.png" alt="" class="navbar-logo light-content">
+    <img src="../../images/openscapes_hex.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">NASA-Openscapes</span>
@@ -251,7 +253,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <hr>
 <p><em>We show how to run existing NASA data workflows on the cloud, in parallel, with minimal code changes using Coiled. We also discuss cost optimization.</em></p>
 <p>People often run the same function over many files in cloud storage. This looks something like the following:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 1: Get a list of all of our files (typically thousands of NetCDF files).</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 1: Get a list of all of our files (typically thousands of NetCDF files).</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>files <span class="op">=</span> ...</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 2: Create a function to process each file.</span></span>
@@ -268,7 +270,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    results.append(result)</span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 4: Analyze results locally.</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>plot(results)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>plot(results)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>This straightforward but important pattern occurs frequently in groups working with <a href="https://www.earthdata.nasa.gov/">NASA Earthdata</a> and NASA Distributed Active Archive Centers (<a href="https://www.earthdata.nasa.gov/eosdis/daacs">DAACs</a>) to move scientific workloads to the cloud. Here are some examples:</p>
 <ul>
 <li><strong>Extract greenhouse gasses over urban areas from <a href="https://www.earthdata.nasa.gov/sensors/tropomi">TROPOMI</a> L2 data</strong>: TROPOMI measures trace gasses and aerosols relevant for air quality and climate. It generates a large volume of <a href="https://www.earthdata.nasa.gov/engage/open-data-services-and-software/data-information-policy/data-levels">L2 data</a> stored as millions of files on S3. In our particular project we’re interested in greenhouses over highly populated urban areas, and how they affect quality of life. We need to select those files over many cities and then construct a timeseries over them to see how air quality changes.</li>
@@ -286,7 +288,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="processing-locally" class="level2">
 <h2 class="anchored" data-anchor-id="processing-locally">Processing Locally</h2>
 <p>In this example we process many NetCDF files stored on S3 from the <a href="https://podaac.jpl.nasa.gov/dataset/MUR-JPL-L4-GLOB-v4.1">MUR Global Sea Surface Temperature NASA dataset</a> to look at surface temperature variation over the US Great Lakes region:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tempfile</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> earthaccess</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
@@ -324,7 +326,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 4: Combine and plot results</span></span>
 <span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>ds <span class="op">=</span> xr.concat(results, dim<span class="op">=</span><span class="st">"time"</span>)</span>
-<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>ds.std(<span class="st">"time"</span>).plot(figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">6</span>), x<span class="op">=</span><span class="st">"lon"</span>, y<span class="op">=</span><span class="st">"lat"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>ds.std(<span class="st">"time"</span>).plot(figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">6</span>), x<span class="op">=</span><span class="st">"lon"</span>, y<span class="op">=</span><span class="st">"lat"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>This specific example uses <a href="https://nsidc.github.io/earthaccess/">earthacess</a> to authenticate with NASA Earthdata and download our dataset (~500 GB of NetCDF files) and Xarray to load and select the region of the data we’re interested in, but we’ve seen many different approaches here, including file formats like HDF, Zarr, and GeoTIFF, as well as libraries like Xarray, rasterio, and pandas. In each case though the underlying pattern is the same.</p>
 <p>We then combine the results from processing each data file and plot the results.</p>
 <div class="center-text">
@@ -345,7 +347,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>Scale</strong>: Distributing the processing over many machines in parallel lets us tackle larger volumes.</li>
 </ul>
 <p>Using Coiled to run the same workflow on the cloud involves lightly annotating our <code>process</code> function with the <a href="https://docs.coiled.io/user_guide/usage/functions/index.html"><code>@coiled.function</code></a> decorator:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> coiled</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> coiled</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="at">@coiled.function</span>(</span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    region<span class="op">=</span><span class="st">"us-west-2"</span>,                  <span class="co"># Run in the same region as data</span></span>
@@ -353,15 +355,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> process(granule):</span>
 <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Keep everything inside the function the same</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    ...</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    ...</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>This tells Coiled to run our processing function on a VM in AWS and then return the result back to our local machine.</p>
 <p>Additionally, we switch to using the Coiled Function <code>.map()</code> method (similar to <a href="https://docs.python.org/3/library/functions.html#map">Python’s builtin <code>map</code> function</a>) to run our <code>process</code> function across all the input files in parallel:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 3: Run function on each file in a loop</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 3: Run function on each file in a loop</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># results = []</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># for granule in granules:</span></span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co">#    result = process(granule)</span></span>
 <span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co">#    results.append(result)</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> process.<span class="bu">map</span>(granules)     <span class="co"># This runs on the cloud in parallel</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> process.<span class="bu">map</span>(granules)     <span class="co"># This runs on the cloud in parallel</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>With these two small code changes, the same data processing runs in parallel across many VMs on AWS. The runtime drops to ~9 minutes (a factor of ~42x speedup) and costs ~$1.52 (a factor ~16x less).</p>
 </section>
 <section id="optimizing-costs" class="level2">
@@ -374,7 +376,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>Instance Type Selection</strong>: Use single-core instances (only available when using ARM), because this particular computation doesn’t require large computing resources.</li>
 </ul>
 <p>With this additional configuration made to the Coiled Functions decorator, our full cost-optimized cloud workflow looks like the following:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tempfile</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> coiled</span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> earthaccess</span>
@@ -417,7 +419,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 4: Combine and plot results</span></span>
 <span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>ds <span class="op">=</span> xr.concat(results, dim<span class="op">=</span><span class="st">"time"</span>)</span>
-<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>ds.std(<span class="st">"time"</span>).plot(figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">6</span>), x<span class="op">=</span><span class="st">"lon"</span>, y<span class="op">=</span><span class="st">"lat"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>ds.std(<span class="st">"time"</span>).plot(figsize<span class="op">=</span>(<span class="dv">14</span>, <span class="dv">6</span>), x<span class="op">=</span><span class="st">"lon"</span>, y<span class="op">=</span><span class="st">"lat"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>and, while code runtime stays the same at ~9 minutes, cost drops to ~$0.36 (a factor of ~70x less than running locally).</p>
 </section>
 <section id="summary" class="level2">
@@ -515,13 +517,14 @@ Cloud Datasets with Coiled.”</span> November 7, 2023. <a href="https://opensca
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
