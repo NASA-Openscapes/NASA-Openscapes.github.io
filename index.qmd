@@ -14,6 +14,8 @@ We are influenced and inspired by many leaders and community organizers, particu
 
 **News and Upcoming Events:**
 
+-   [Workshop on use of NASA satellite data for water management and climate analysis, and NASA International Space Apps Challenge, in Hermosillo, Sonora, Mexico](news/2025-10-02-mexico-workshop/)
+
 -   Recent workshops
 
     -   [Cloud Access Mini-Workshop](news/2025-09-09-tempo-workshop/) demonstrating virtual dataset capabilities for satellite data analysis
