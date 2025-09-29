@@ -20,6 +20,8 @@ image: "ESPACIO_SOSTENIBILIDAD-2.png"
 
 ------------------------------------------------------------------------
 
+![](ESPACIO_SOSTENIBILIDAD-2.png){fig-alt="landscape with blue sky, mountains and valley in background, trees in midground, dense cover of purple lupins and orange poppies on hillside in foreground. Mountains look as if flower colors are reflected there." width="40%"}
+
 ## **🌎 III International Colloquium on Space and Sustainability 2025**
 
 **Science and International Cooperation for Sustainable Water Management**
@@ -145,8 +147,6 @@ Source:
 🔵 **Official website of the III International Colloquium on Space and Sustainability 2025:**
 
 <https://espacioysostenibilidad.com/>
-
-![](ESPACIO_SOSTENIBILIDAD-2.png){fig-alt="landscape with blue sky, mountains and valley in background, trees in midground, dense cover of purple lupins and orange poppies on hillside in foreground. Mountains look as if flower colors are reflected there." width="40%"}
 
 ------------------------------------------------------------------------
 
