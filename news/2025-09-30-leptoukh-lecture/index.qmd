@@ -1,0 +1,33 @@
+---
+title: "Julie Lowndes selected to receive the Greg Leptoukh Lecture at AGU 2025 Fall Meeting"
+author:
+  - name: Stefanie Butland
+    orcid: 0000-0002-5427-8951
+  - name: the Openscapes Team
+  - name: and the NASA Openscapes Mentors
+date: 2025-09-30
+citation: 
+  url: https://openscapes.org/blog/2025-09-30/leptoukh-lecture
+categories: [blog, noaa-fisheries, nasa-framework]
+image: nasa-mentors-asheville2023.jpg
+---
+
+*Julie Lowndes has been selected to receive the Greg Leptoukh Lecture at AGU 2025 Fall Meeting*
+
+*Quicklinks:*
+
+-   <https://www.agu.org/honors/leptoukh>
+-   <https://www.agu.org/honors/leptoukh/past-recipients>
+
+*Cross-posted at [openscapes.org/blog](https://openscapes.org/blog), [nmfs-openscapes.github.io/blog](https://nmfs-openscapes.github.io/blog)*, [*nasa-openscapes.github.io/news*](https://nasa-openscapes.github.io/news.html).
+
+------------------------------------------------------------------------
+
+Openscapes is delighted to announce that Julie Lowndes has been selected to receive the Greg Leptoukh Lecture at the AGU 2025 Fall Meeting! This is a huge honor to celebrate the life and achievements of Dr. Greg Leptoukh. It is deeply meaningful because the [NASA Openscapes Mentors](https://nasa-openscapes.github.io/mentors) nominated Julie for the award.
+
+**The Greg Leptoukh Lecture** Recognizing Computational and Data Advances that Enable Scientific Discovery was established 2013. From [AGU's webpage](https://www.agu.org/honors/leptoukh):
+
+> The Greg Leptoukh Lecture is presented annually and recognizes significant contributions to informatics, computational, or data sciences through research, education, and related activities. It is given to a mid-career or senior scientist. The Leptoukh Lecture aims to raise awareness of computational and data advances that enable scientific discoveries and to foster continued contributions in informatics and data science.\
+> It honors the life of Greg Leptoukh, an Earth scientist who was active in the informatics community and worked on projects related to both data quality and data provenance.
+
+Julie will be receiving the award at the Informatics Section reception during [AGU's annual meeting](https://www.agu.org/annual-meeting). She will also give an hour lecture, drawing from experiences and lessons learned working with the informatics and data sciences communities in the last years. Thank you!

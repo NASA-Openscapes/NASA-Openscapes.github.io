@@ -16,6 +16,8 @@ We are influenced and inspired by many leaders and community organizers, particu
 
 -   [Workshop on use of NASA satellite data for water management and climate analysis, and NASA International Space Apps Challenge, in Hermosillo, Sonora, Mexico](news/2025-10-02-mexico-workshop/)
 
+-   [Julie Lowndes selected to receive the Greg Leptoukh Lecture at AGU 2025 Fall Meeting](news/2025-09-30-leptoukh-lecture/index.qmd)
+
 -   Recent workshops
 
     -   [Cloud Access Mini-Workshop](news/2025-09-09-tempo-workshop/) demonstrating virtual dataset capabilities for satellite data analysis
