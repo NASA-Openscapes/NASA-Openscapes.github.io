@@ -1,0 +1,41 @@
+---
+title: "NASA Openscapes Champions Program - Fall 2025"
+# description: " "
+author:
+  - name: Openscapes
+  - name: NASA Openscapes Mentors
+#    url: {}
+date: "2025-11-13"
+categories: [event, champions, community-call, nasa-framework]
+image: nasa-openscapes-logos.png
+---
+
+*Cross-posted at [openscapes.org/blog](https://openscapes.org/blog), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html)*
+
+------------------------------------------------------------------------
+
+NASA Openscapes invites you to join our annual [Champions Program](https://nasa-openscapes.github.io/champions), this year focused on “A welcome to [NASA Earthdata](https://www.earthdata.nasa.gov/) and [earthaccess](https://www.earthdata.nasa.gov/data/tools/earthaccess)”. Come expand your knowledge and use of NASA Earthdata, building on momentum behind the earthaccess python library and workflows in the Cloud. Events planned for Fall 2025 and Winter 2026.
+
+**Dates**: November 13 & 14, 2025\
+**Time**: 10:00 am - 1:00 pm Pacific Time ([find your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=NASA+Openscapes+Champions+Program+-+Fall+2025&iso=20251113T10&p1=224&ah=3))\
+**Where**: remotely, via Zoom\
+**Register (free)** via [Zoom](https://zoom.us/meeting/register/xqsatMPHT4qhp8l3CDGwgA) to get the meeting link.\
+**Details**: [https://nasa-openscapes.github.io/champions](https://nasa-openscapes.github.io/champions.html)\
+<!--- **View** [recording](https://youtu.be/t8gUSUlSqnc) and [summary](/blog/LINK).--->
+
+```{=html}
+<!--- ### Speakers
+
+- Amy Steiker, National Snow and Ice Data Center (NSIDC) Distributed Active Archive Center (DAAC)
+- Luis Lopez, NSIDC DAAC
+- Danny Kaufman, Atmospheric Science Data Center (ASDC) DAAC 
+- Joe Kennedy, Alaska Satellite Facility (ASF) DAAC
+- Chris Battisto, Goddard Earth Sciences Data and Information Services Center (GES DISC) DAAC
+--->
+```
+
+### Resources
+
+-   <https://nasa-openscapes.github.io/champions>
+-   <https://earthdata.nasa.gov/news/blog/earthaccess-earth-science-data-simplified>
+-   <https://www.earthdata.nasa.gov/data/tools/earthaccess>
