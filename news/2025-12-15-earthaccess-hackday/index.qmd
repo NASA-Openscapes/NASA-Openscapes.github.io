@@ -1,0 +1,30 @@
+---
+title: "Openscapes earthaccess Hackday"
+# description: " "
+author:
+  - name: Openscapes
+  - name: NASA Openscapes Mentors
+#    url: {}
+date: "2025-12-15"
+categories: [event, nasa-framework]
+image: nasa-openscapes-earthaccess-logos.png
+---
+
+*Cross-posted at [openscapes.org/events](https://openscapes.org/events), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html)*
+
+------------------------------------------------------------------------
+
+Join us for our [earthaccess](https://earthaccess.readthedocs.io/en/stable/) hackday in **New Orleans and online**! This hackday is independent of [AGU2025](https://www.agu.org/annual-meeting) but conveniently co-located for attendees.
+
+### Details and registration
+
+**Date**: December 15, 2025\
+**Time**: 1:00 p.m. - 6:00 p.m. CST\
+**Where**: New Orleans and online\
+**Register** at <https://luma.com/7hp819zp>
+
+​This hackday is supported through the Earth Science Information Partners (ESIP)’s FUNding Friday initiative, and is co-hosted by Cloud-Native Geospatial Forum (CNG) and Openscapes. 
+
+![](nasa-openscapes-earthaccess-logos.png){fig-alt="left to right: nasa logo, openscapes logo, earthaccess logo" fig-align="center" width="319"}
+
+\
