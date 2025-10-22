@@ -22,11 +22,13 @@ We are influenced and inspired by many leaders and community organizers, particu
 
 -   Recent workshops
 
+    -   [Airborne Data Applications for Invasive Species Mapping](news/2025-09-30-ornl-arset-workshop/)
+
     -   [Cloud Access Mini-Workshop](news/2025-09-09-tempo-workshop/) demonstrating virtual dataset capabilities for satellite data analysis
 
     -   [Fundamentals to use Hyperspectral and Thermal NASA Earth Observations](news/2025-07-21-hyperspectral-thermal-workshop/)
 
-    -   [Workshop on use of NASA satellite data for water management and climate analysis, and NASA International Space Apps Challenge, in Hermosillo, Sonora, Mexico](news/2025-10-02-mexico-workshop/)
+    -   [Workshop on use of NASA satellite data for water management and climate analysis, and NASA International Space Apps Challenge](news/2025-10-02-mexico-workshop/), in Hermosillo, Sonora, Mexico
 
 -   [Community Call summary published: earthaccess — helping users leverage the awesomeness of NASA Earthdata](https://nasa-openscapes.github.io/news/2025-08-01-earthaccess-awesomeness-nasa-earthdata/)
 

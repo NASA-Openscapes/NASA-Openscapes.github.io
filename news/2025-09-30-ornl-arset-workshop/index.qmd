@@ -1,0 +1,48 @@
+---
+title: "Airborne Data Applications for Invasive Species Mapping"
+description: "Notebook: Mapping Invasive Species Using Supervised Machine Learning and AVIRIS-NG"
+author:
+  - name: Michele Thornton
+    orcid: 0000-0002-6533-6328
+  - name: Rupesh Shrestha
+    orcid: 0000-0002-3140-6623
+date: 2025-10-22
+citation: 
+  url: https://openscapes.org/blog/2025-10-22-ornl-arset-workshop/
+categories: [blog, nasa-framework]
+image: fynbos_est_XGBOOST60.png
+---
+
+*This is a short note to celebrate a recent hands-on workshop with 401 participants from 68 countries and 33 US states in a JupyterHub led by ORNL DAAC's NASA openscapes Mentors Michele Thornton and Rupesh Shrestha hosted by the NASA Applied Remote Sensing Training (ARSET) Program.*
+
+*Cross-posted at [openscapes.org/blog](https://openscapes.org/blog), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html).*
+
+------------------------------------------------------------------------
+
+The training, [NASA ARSET: Airborne Data Applications for Invasive Species Mapping, Part 1/1](https://ornldaac.github.io/airborne/events/2025-ARSET/README.html), ([Recording](https://www.youtube.com/watch?v=2bukmnvg5OA)), was held on September, 30, 2025, with 401 participants.
+
+### Participants learned to
+
+-   Recognize how image classification of airborne imaging spectroscopy and labeled field data can be used to map invasive species.
+
+-   Use a Jupyter Notebook to access NASA JPL AVIRIS-NG data located on the NASA Earthdata cloud for a spatial and temporal region of interest.
+
+-   Apply a cloud based workflow in a provided Jupyter Notebook to classify species using a trained machine learning model for the Greater Cape Floristic Region, South Africa.
+
+-   Identify key considerations for interpreting machine learning end products for invasive species mapping for land management decisions.
+
+### Target Audience
+
+-   Resource managers (local, state, regional, international), agriculture sector, remote sensing technicians, ecologists, and academics.
+
+Hands-on exercises were executed in a [JupyterHub on the Openscapes 2i2c NASA workshop cloud instance](https://openscapes.cloud/). Using the cloud-hosted JupyterHub for the workshop allowed participants real time and active participation during the Notebook presentation. This is significant in that it allows global participants successful access to NASA Earthdata resources and demonstrates the processes of discovery, access, and analysis of NASA Cloud-hosted Earthdata data. Participants were allowed access the the workshop hub for an extended period of two weeks to continue their exploration of the Notebook and resources.
+
+We presented the following notebooks from the ORNL DAAC's repository of [NASA Airborne Data Science Tutorials](https://ornldaac.github.io/airborne/README.html):
+
+-   [Mapping Invasive Species Using Supervised Machine Learning and AVIRIS-NG](https://ornldaac.github.io/airborne/notebooks/AVIRIS-NG_L3_invasive_species.html#mapping-invasive-species-using-supervised-machine-learning-and-aviris-ng)
+
+### Lessons learned
+
+-   2i2c was amazing in allowing for an extended period of Workshop Hub access and juggling a few workshop needs over that time period
+
+-   The training video will continue to be public. We removed the username/password information from the recording, but we did not provide content for running Notebooks outside the hub for future users.
