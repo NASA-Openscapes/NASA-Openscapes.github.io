@@ -22,17 +22,10 @@ Join us for our [earthaccess](https://earthaccess.readthedocs.io/en/stable/) hac
 
 ### Details and registration
 
-**Date**: December 15, 2025
-**Time**: 1:00 p.m. - 6:00 p.m. CST
-**Where**: New Orleans and online
-**Register** at <https://luma.com/7hp819zp>
-
-### Details and registration
-
-**Date**: December 15, 2025\
-**Time**: 1:00 p.m. - 6:00 p.m. CST\
-**Where**: New Orleans and online\
-**Register** at <https://luma.com/7hp819zp>
+**Date**: December 15, 2025  
+**Time**: 1:00 p.m. - 6:00 p.m. CST  
+**Where**: New Orleans and online  
+**Register** at <https://luma.com/7hp819zp>  
 
 ​This hackday is supported through the Earth Science Information Partners (ESIP)’s FUNding Friday initiative, and is co-hosted by Cloud-Native Geospatial Forum (CNG) and Openscapes. 
 
