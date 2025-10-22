@@ -6,8 +6,12 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Michele Thornton">
+<meta name="author" content="Rupesh Shrestha">
+<meta name="dcterms.date" content="2025-10-22">
+<meta name="description" content="Notebook: Mapping Invasive Species Using Supervised Machine Learning and AVIRIS-NG">
 
-<title>NASA-Openscapes</title>
+<title>Airborne Data Applications for Invasive Species Mapping – NASA-Openscapes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +27,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/openscapes_hex.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a4b37ce2a05f80339cf5ad595c61cf04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/openscapes_hex.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a4b37ce2a05f80339cf5ad595c61cf04.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="floating nav-fixed quarto-light">
@@ -81,11 +85,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/openscapes_hex.png" alt="" class="navbar-logo light-content">
-    <img src="./images/openscapes_hex.png" alt="" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/openscapes_hex.png" alt="" class="navbar-logo light-content">
+    <img src="../../images/openscapes_hex.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">NASA-Openscapes</span>
     </a>
   </div>
@@ -101,33 +105,33 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="./about.html">
+    <a class="dropdown-item" href="../../about.html">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./about.html#slides">
+    <a class="dropdown-item" href="../../about.html#slides">
  <span class="dropdown-text">Slides</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./events.html">
+    <a class="dropdown-item" href="../../events.html">
  <span class="dropdown-text">Events Archive</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./mentors.html"> 
+    <a class="nav-link" href="../../mentors.html"> 
 <span class="menu-text">Mentors</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./champions.html"> 
+    <a class="nav-link" href="../../champions.html"> 
 <span class="menu-text">Champions</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./cookbook-navbar-page.html"> 
+    <a class="nav-link" href="../../cookbook-navbar-page.html"> 
 <span class="menu-text">Cookbook</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
+    <a class="nav-link" href="../../news.html"> 
 <span class="menu-text">News &amp; Events</span></a>
   </li>  
   <li class="nav-item compact">
@@ -151,51 +155,110 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#participants-learned-to" id="toc-participants-learned-to" class="nav-link active" data-scroll-target="#participants-learned-to">Participants learned to</a></li>
+  <li><a href="#target-audience" id="toc-target-audience" class="nav-link" data-scroll-target="#target-audience">Target Audience</a></li>
+  <li><a href="#lessons-learned" id="toc-lessons-learned" class="nav-link" data-scroll-target="#lessons-learned">Lessons learned</a></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">
-NASA Openscapes
-</h1></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Airborne Data Applications for Invasive Species Mapping</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">blog</div>
+    <div class="quarto-category">nasa-framework</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Notebook: Mapping Invasive Species Using Supervised Machine Learning and AVIRIS-NG
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Michele Thornton <a href="https://orcid.org/0000-0002-6533-6328" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+             <p>Rupesh Shrestha <a href="https://orcid.org/0000-0002-3140-6623" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 22, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
-<center>
-<a><img src="images/nasa-openscapes.png" alt="NASA logo to left of Openscapes logo" width="300px"></a>
-</center>
-<center>
+</header>
 
-</center>
-<p><br></p>
-<p>Earth science is changing. We support scientists using data from NASA Earthdata served from the Distributed Active Archive Centers (DAACs) as they migrate workflows to the cloud.</p>
-<p>We are influenced and inspired by many leaders and community organizers, particularly in the climate and get out the vote movements. That means, we know this isn’t just about us or an effort we can do alone. We are always looking to learn from, with, and for others.</p>
-<p><strong>News and Upcoming Events:</strong></p>
+
+<p><em>This is a short note to celebrate a recent hands-on workshop with 401 participants from 68 countries and 33 US states in a JupyterHub led by ORNL DAAC’s NASA openscapes Mentors Michele Thornton and Rupesh Shrestha hosted by the NASA Applied Remote Sensing Training (ARSET) Program.</em></p>
+<p><em>Cross-posted at <a href="https://openscapes.org/blog">openscapes.org/blog</a>, <a href="https://nasa-openscapes.github.io/news.html">nasa-openscapes.github.io/news</a>.</em></p>
+<hr>
+<p>The training, <a href="https://ornldaac.github.io/airborne/events/2025-ARSET/README.html">NASA ARSET: Airborne Data Applications for Invasive Species Mapping, Part 1/1</a>, (<a href="https://www.youtube.com/watch?v=2bukmnvg5OA">Recording</a>), was held on September, 30, 2025, with 401 participants.</p>
+<section id="participants-learned-to" class="level3">
+<h3 class="anchored" data-anchor-id="participants-learned-to">Participants learned to</h3>
 <ul>
-<li><p>Register now for <a href="news/2025-11-13-nasa-champions">NASA Openscapes Champions Program - Fall 2025</a>.</p></li>
-<li><p>Register now for <a href="news/2025-12-15-earthaccess-hackday">earthaccess Hackday Dec 15</a>.</p></li>
-<li><p><a href="./news/2025-09-30-leptoukh-lecture/index.html">Julie Lowndes selected to receive the Greg Leptoukh Lecture at AGU 2025 Fall Meeting</a></p></li>
-<li><p>Recent workshops</p>
-<ul>
-<li><p><a href="news/2025-09-30-ornl-arset-workshop/">Airborne Data Applications for Invasive Species Mapping</a></p></li>
-<li><p><a href="news/2025-09-09-tempo-workshop/">Cloud Access Mini-Workshop</a> demonstrating virtual dataset capabilities for satellite data analysis</p></li>
-<li><p><a href="news/2025-07-21-hyperspectral-thermal-workshop/">Fundamentals to use Hyperspectral and Thermal NASA Earth Observations</a></p></li>
-<li><p><a href="news/2025-10-02-mexico-workshop/">Workshop on use of NASA satellite data for water management and climate analysis, and NASA International Space Apps Challenge</a>, in Hermosillo, Sonora, Mexico</p></li>
-</ul></li>
-<li><p><a href="https://nasa-openscapes.github.io/news/2025-08-01-earthaccess-awesomeness-nasa-earthdata/">Community Call summary published: earthaccess — helping users leverage the awesomeness of NASA Earthdata</a></p></li>
+<li><p>Recognize how image classification of airborne imaging spectroscopy and labeled field data can be used to map invasive species.</p></li>
+<li><p>Use a Jupyter Notebook to access NASA JPL AVIRIS-NG data located on the NASA Earthdata cloud for a spatial and temporal region of interest.</p></li>
+<li><p>Apply a cloud based workflow in a provided Jupyter Notebook to classify species using a trained machine learning model for the Greater Cape Floristic Region, South Africa.</p></li>
+<li><p>Identify key considerations for interpreting machine learning end products for invasive species mapping for land management decisions.</p></li>
 </ul>
-<p>Learn about our recent work: <a href="./news.html">News</a> • <a href="./about.html#slides">Presentations</a> • <a href="https://nasa-openscapes.github.io/about.html#flywheel-preprint">Flywheel Preprint</a> • <a href="https://nasa-openscapes.github.io/about.html#white-paper-value-of-hosted-jupyterhubs">White Paper: The Value of Hosted JupyterHubs</a></p>
-<p><img src="images/earthaccesslogo.png" class="img-fluid quarto-figure quarto-figure-left" alt="hexagonal earthaccess logo, an illustrated earth as pixels with blue text arcing across" width="30"> <a href="https://earthaccess.readthedocs.io/en/latest/">earthaccess</a> python library • <a href="https://www.earthdata.nasa.gov/learn/blog/earthaccess">Earth Science Data Simplified</a> (NASA Earthdata blog!)</p>
-<p><img src="images/openscapes_hex.png" class="img-fluid quarto-figure quarto-figure-left" alt="hexagonal Openscapes logo" width="30"> <a href="https://openscapes.cloud">openscapes.cloud</a> - A central location for Openscapes JupyterHub access and fledging information.</p>
-<p>Project announcements: <a href="https://earthdata.nasa.gov/learn/openscapes">NASA</a> • <a href="https://www.openscapes.org/blog/2021/03/10/nasa-announcement/">Openscapes</a> • Please connect with us on Mastodon <a href="https://fosstodon.org/@openscapes">@openscapes@fosstodon.org</a> or join <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgVXRp3V-w94GPWkR31RUfyBl37EphdQSlCOcnyeNlf8OLWw/viewform">our newsletter</a></p>
+</section>
+<section id="target-audience" class="level3">
+<h3 class="anchored" data-anchor-id="target-audience">Target Audience</h3>
+<ul>
+<li>Resource managers (local, state, regional, international), agriculture sector, remote sensing technicians, ecologists, and academics.</li>
+</ul>
+<p>Hands-on exercises were executed in a <a href="https://openscapes.cloud/">JupyterHub on the Openscapes 2i2c NASA workshop cloud instance</a>. Using the cloud-hosted JupyterHub for the workshop allowed participants real time and active participation during the Notebook presentation. This is significant in that it allows global participants successful access to NASA Earthdata resources and demonstrates the processes of discovery, access, and analysis of NASA Cloud-hosted Earthdata data. Participants were allowed access the the workshop hub for an extended period of two weeks to continue their exploration of the Notebook and resources.</p>
+<p>We presented the following notebooks from the ORNL DAAC’s repository of <a href="https://ornldaac.github.io/airborne/README.html">NASA Airborne Data Science Tutorials</a>:</p>
+<ul>
+<li><a href="https://ornldaac.github.io/airborne/notebooks/AVIRIS-NG_L3_invasive_species.html#mapping-invasive-species-using-supervised-machine-learning-and-aviris-ng">Mapping Invasive Species Using Supervised Machine Learning and AVIRIS-NG</a></li>
+</ul>
+</section>
+<section id="lessons-learned" class="level3">
+<h3 class="anchored" data-anchor-id="lessons-learned">Lessons learned</h3>
+<ul>
+<li><p>2i2c was amazing in allowing for an extended period of Workshop Hub access and juggling a few workshop needs over that time period</p></li>
+<li><p>The training video will continue to be public. We removed the username/password information from the recording, but we did not provide content for running Notebooks outside the hub for future users.</p></li>
+</ul>
 
 
+</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{thornton2025,
+  author = {Thornton, Michele and Shrestha, Rupesh},
+  title = {Airborne {Data} {Applications} for {Invasive} {Species}
+    {Mapping}},
+  date = {2025-10-22},
+  url = {https://openscapes.org/blog/2025-10-22-ornl-arset-workshop/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-thornton2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+Thornton, Michele, and Rupesh Shrestha. 2025. <span>“Airborne Data
+Applications for Invasive Species Mapping.”</span> October 22, 2025. <a href="https://openscapes.org/blog/2025-10-22-ornl-arset-workshop/">https://openscapes.org/blog/2025-10-22-ornl-arset-workshop/</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
