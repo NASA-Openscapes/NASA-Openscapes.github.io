@@ -95,9 +95,23 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
-### 2025
+### Slides 2025
 
-### 2024
+- [earthaccess — helping users leverage the awesomeness of NASA Earthdata](https://docs.google.com/presentation/d/1cbjjlAlVfJq7n7TIt0fgQxz3lwhfRZvX-ctlPQC8D0I/edit?slide=id.g344f6b45c2f_0_380#slide=id.g344f6b45c2f_0_380) - Steiker, López, Kaufman, Kennedy, Battisto. Openscapes Community Call ([blog with more link](https://nasa-openscapes.github.io/news/2025-08-01-earthaccess-awesomeness-nasa-earthdata/)). July 29, 2025.
+
+- [Crossing the chasm at NASA Earthdata and NOAA Fisheries](https://docs.google.com/presentation/d/1-lzXyOWejwiA83JXbn6Z4EugTSIuDBYJWt5wMPiJIUI/edit?slide=id.g344f6b45c2f_0_380#slide=id.g344f6b45c2f_0_380) - Kaufman, Steiker, Lowndes, NCAR CISL Seminar. September 25, 2025
+
+- [Crossing the chasm: change & resilience within organizations. Diffusion of Innovation theory in practice with NOAA Fisheries Openscapes](https://docs.google.com/presentation/d/1bclZQBu3QHxYSptg2lbchDz870PbkrDig-ZfQmoK7Wk/edit#slide=id.g34b3b339705_0_2152) - Lowndes & Holmes, Cloud Native Geospatial Conference, Snowbird Utah, May 1, 2025
+
+- [Supporting data modernization and workforce development within federal agencies](https://docs.google.com/presentation/d/1DJq0lrGYgcxRiPGYM1z8-EBwB7eZSthymzZNNdcrHuk/edit?usp=sharing); USGS Community for Data Integration (CDI) Workshop April 29, 2025
+
+- [What we’re learning about cloud costs for Earth science workflows in our JupyterHub](https://docs.google.com/presentation/d/1S6qnxEvc_25plQMgYZfObBsoCxJWUj6_JoO_IP-mv6w/edit?usp=sharing) - Teucher, Lewandowski, Holmes, Snow, Yuvi. Openscapes Community Call ([blog with more link](https://nasa-openscapes.github.io/news/2025-05-01-community-call-hub-cloud-costs/)). April 22, 2025.
+
+- [The Openscapes Story at NASA: Supporting users’ first & sustained experiences with Earthdata in the Cloud](https://docs.google.com/presentation/d/11tB43uq1E31lKjLk4HtyKy_J5v7BpGErVpoFlS0KSs8/edit?usp=sharing) - Julia Lowndes (Openscapes);
+Amy Steiker, Luis López (NSIDC DAAC); Ian Carroll (OB.DAAC); Chris Battisto (GES DISC); NASA Openscapes Mentor Community - NASA Headquarters, Earth Action briefing. February 27, 2025
+
+
+### Slides 2024
 
 - [Beyond Open Data: How Openscapes supports teams in open science](https://docs.google.com/presentation/d/12DxSZzaKQ7LrqVpHCSLqsmanIt8cbZk0F4dVWrjmZg8/edit#slide=id.g31de1f510e1_0_1071) - Brianna Pagán, Julie Lowndes, NASA Openscapes Mentors. December 11, 2024, AGU Fall Conference (invited)
 
@@ -138,7 +152,7 @@ NASA Openscapes DAAC Mentor Community; Artwork by Allison Horst, Adyan Rios, and
 
 -   [NASA Earthdata: Open Science Workflows & Techniques from Openscapes](https://docs.google.com/presentation/d/1kOp5naA73_MiOJvmr7sYT5F-mDygbW_yKe1vhLzUCnE/edit?usp=sharing) - Cassie Nickles & the NASA Openscapes Community. Jan 9, 2024. SEDAC Open Science Workshop ([zenodo](https://zenodo.org/records/10523525)([video](https://www.youtube.com/watch?v=apinEk9PM_4) start at 3:19)
 
-### 2023
+### Slides 2023
 
 -   [NASA Openscapes: Approaches and Stories of Kinder, Open Science in the Cloud](https://docs.google.com/presentation/d/1RPPgWDqoA9Ppyk0pXpY717xqKSwLr_5Ek4-nEOoYBGw/edit?usp=sharing) - Julie Lowndes, Erin Robinson & NASA Openscapes Mentors. Dec 15, AGU Fall Meeting
 
@@ -174,7 +188,7 @@ NASA Openscapes DAAC Mentor Community; Artwork by Allison Horst, Adyan Rios, and
 
 -   [Working with NASA Earthdata in the Cloud](https://docs.google.com/presentation/d/1rh6UGUIKp8nNc71jKYQAPPBIoVyikQmQ8CcvwGLn2hI/edit#slide=id.g142ea985af2_0_1) - January 24, 2023 - Amy Steiker, Bri Lind, Julie Lowndes, Luis López, Michele Thornton, and the NASA Openscapes Mentors. [ESIP Winter Meeting](https://2023januaryesipmeeting.sched.com/event/1EwXE/enabling-open-science-with-nasas-earthdata-in-the-cloud) "Enabling Open Science with NASA's Earthdata in the Cloud" Session
 
-### 2022
+### Slides 2022
 
 -   [Supporting open science as a daily practice](https://docs.google.com/presentation/d/19OoPaUVVOA6AFLLd9mYeiM8f1BNNnoAjJCP4RD6Ahe8/edit?usp=sharing) - December 16, 2022 - Julie Lowndes, Erin Robinson, Openscapes Mentors. AGU Fall Conference Talk, "The Future is Open" session
 
@@ -208,7 +222,7 @@ NASA Openscapes DAAC Mentor Community; Artwork by Allison Horst, Adyan Rios, and
 
 -   [Community Building: The NASA Openscapes Framework](https://openscapes.github.io/slides/esip_winter2022) - January 18, 2022: ESIP Winter Meeting
 
-### 2021
+### Slides 2021
 
 -   [NASA Earthdata Access in the Cloud Using Open-source libraries](https://nasa-openscapes.github.io/slides/Earthdata_Cloud__Open-Science-Tutorial.html#/title-slide) - December 17, 2021: invited talk by Amy Steiker at the [Open Science in Action](https://agu.confex.com/agu/fm21/meetingapp.cgi/Session) Session at the AGU Fall meeting (30 minutes)
 

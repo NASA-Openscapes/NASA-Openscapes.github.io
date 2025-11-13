@@ -75,14 +75,18 @@ Please submit one nomination per team, preferably by the team lead (faculty, pri
 
 **Learn more about the [Openscapes Champions Program](https://openscapes.org/champions)**, [NASA Openscapes News](news.qmd), [stories from previous cohorts](https://openscapes.org/blog#category=champions), and [FAQs about forming your team](https://openscapes.org/faq). Questions? Contact Openscapes: julia at openscapes.org
 
-## 2024 NASA Champions Cohort
+## NASA Cohort 2025
+
+[Slides](https://docs.google.com/presentation/d/1fJbUpbfXX0N19bKTRHD8FYncXqt4E9v7_5d3Yaraw1U/edit?usp=sharing) for the 2025 Fall Community Call. Blog with resources will follow.   
+
+## NASA Cohort 2024
 
 [Meet the 9 science teams](https://nasa-openscapes.github.io/2024-nasa-champions/) who participated in the 2024 NASA Champions Cohort, and learn more about their work in this blog post: [Data strategies for when to use cloud, coding strategies for parallelization, & first examples of big science in the Cloud](https://nasa-openscapes.github.io/news/2024-07-24-2024-nasa-champions-cohort/)
 
-## 2023 NASA Champions Cohort
+## NASA Cohort 2023
 
 [Meet the 7 science teams](https://nasa-openscapes.github.io/2023-nasa-champions/) who participated in the 2023 NASA Champions Cohort, and learn more about their work in this blog post: [Exciting Progress for Research Teams using NASA Earthdata in the Cloud: 2023 NASA Openscapes Champions Wrap-up](https://nasa-openscapes.github.io/news/2023-08-01-nasa-champions/)
 
-## 2022 NASA Champions Cohort
+## NASA Cohort 2022
 
 [Meet the 10 science teams](https://nasa-openscapes.github.io/2022-nasa-champions/) who participated in the 2022 NASA Champions Cohort, and learn more about their work in this blog post: [From downloading data to Cloud access: NASA Openscapes Champions Wrap-up](https://www.openscapes.org/blog/2022/05/12/nasa-2022-champions/)
