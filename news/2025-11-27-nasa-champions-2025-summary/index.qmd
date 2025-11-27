@@ -1,0 +1,101 @@
+---
+title: "Thoughts from NASA Champions 2025 - A welcome to NASA Earthdata and earthaccess"
+# description: 
+author:
+  - name: Mikaela Beig
+  - name: Danny Kaufman
+    orcid: 0000-0002-1487-7298
+  - name: Celia Ou
+  - name: Amy Steiker  
+    orcid: 0000-0002-3039-0260
+  - name: Andy Barrett
+    orcid: 0000-0003-4394-5445
+  - name: Luis López
+    orcid: 0000-0003-4896-3263
+  - name: Michele Thornton
+    orcid: 0000-0002-6533-6328
+  - name: Saber Brasher
+    orcid: 0000-0003-2925-5691
+  - name: Chuck Daniels
+  - name: Jessica Scheick
+    orcid: 0000-0002-3421-4459
+  - name: Julie Lowndes 
+    orcid: 0000-0003-1682-3872
+  - name: Stefanie Butland
+    orcid: 0000-0002-5427-8951  
+  - name: Andy Teucher
+    orcid: 0000-0002-7840-692X
+  - NASA Openscapes Mentors  
+date: "2025-11-27"
+categories: [blog, community-call, champions, nasa-framework]
+image: slide-earthaccess-cookbook.png
+---
+
+*Cross-posted at [openscapes.org/events](https://openscapes.org/events), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html)*
+
+------------------------------------------------------------------------
+
+*On Nov 13-14 we worked with 30 people interested in learning about NASA Earthdata and earthaccess. This was our annual NASA Openscapes Champions program, which we modified this year to be one 3-hour Community Call with lessons and discussion, and one 3-hour Coworking session where participants had access to our 2i2c JupyterHub and went into breakout rooms to work hands-on with NASA Openscapes Mentors and earthaccess developers. We learned a lot with this group of 30 that were able to show up the day the US government reopened, and we know the interest is far greater: 130 people had registered.*
+
+*Quicklinks:*
+
+-   [*Recording*](https://youtu.be/M_g1K_CEzbY) *of Day 1 (2.5hrs)*
+-   [*Agenda & notes*](https://docs.google.com/document/d/1SFwP9O0DaxCBK3Uc5S1dwseSZ8bDwrk0Q16hboeFw-g/edit?tab=t.0)
+-   [*Slides*](https://docs.google.com/presentation/d/1fJbUpbfXX0N19bKTRHD8FYncXqt4E9v7_5d3Yaraw1U/) *contain links to resources*
+-   [*earthaccess*](https://earthaccess.readthedocs.io/en/stable/)*; [contributing](https://earthaccess.readthedocs.io/en/stable/contributing/)* 
+
+------------------------------------------------------------------------
+
+## Navigating NASA Earthdata together with earthaccess
+
+NASA Earthdata has a 5-year track record of successful and collaborative Cloud trainings. [NASA Openscapes Mentors](https://nasa-openscapes.github.io/mentors.html) are supporting Earthdata users and doing so efficiently and with less maintenance burden, while solving previously unseen gaps, together and openly. This was evident in the way we were able to lead Champions by leveraging our existing systems and reusing materials during a time when many NASA staff were furloughed. For our Nov 13-14 events, earthaccess contributors from 4 different NASA Data Centers (NSIDC, ORNL, ASDC, PO.DAAC), as well as Development Seed, University of New Hampshire, and Openscapes collaborated and co-taught using resources co-developed by the NASA Openscapes and earthaccess communities. See the [slides](https://docs.google.com/presentation/d/1fJbUpbfXX0N19bKTRHD8FYncXqt4E9v7_5d3Yaraw1U/edit?slide=id.g3a27e6ef73f_0_2417#slide=id.g3a27e6ef73f_0_2417) for more details on each topic: 
+
+-   **What is Openscapes & NASA Openscapes?,** Julie Lowndes (Openscapes) + Amy Steiker (NSIDC)
+
+-   **NASA Earthdata & cloud computing,** Michele Thornton (ORNL)
+
+-   **Accelerating access through open, collaborative dev,** Amy Steiker (NSIDC)
+
+-   **Using earthaccess - quickstart & in action**, Mikala Beig (NSIDC)
+
+-   **Streamlining analyses for real research projects. ex ICESat-2 tracks with Mosaic Cruise (temporal)** ([notebook](https://github.com/andypbarrett/mosaic_icesat2_with_earthaccess)) (20 min) - Andy Barrett (NSIDC)
+
+-   **Vision for earthaccess: Broadening the scope & virtual datasets** Danny Kaufman (ASDC)
+
+-   **Resources and Contributing - Cookbook and Open Communities**, Celia Ou (PO.DAAC)
+
+The goals of the events were to provide a friendly welcome to [NASA Earthdata](https://www.earthdata.nasa.gov/) and [earthaccess](https://earthaccess.readthedocs.io/en/stable/) for new and seasoned adopters\*. We wanted participants to feel ready to get hands-on experience in Day 2; feel comfortable using earthaccess; provide the tools to engage in the community and to contribute; and capture needs and feedback. Here are a few things that stood out from these events.
+
+\*Credit to Max Jones (Development Seed) for using the word “adopters” rather than “users” in describing the recent [Zarr Summit](https://discourse.pangeo.io/t/pangeo-showcase-zarr-summit-review-unlocking-scalable-and-accessible-open-science-on-the-cloud-november-5-2025-at-4-pm-et/5435).
+
+### “How do you know” what data you’re looking for and then find it ?
+
+::: blockquote-blue
+> I am wondering how you "know" what the most recent version is and is the [Data Catalog](https://www.earthdata.nasa.gov/data/catalog) on the website the easiest way for someone to understand what data are potentially out there? Or do you recommend searching here?
+:::
+
+For newcomers to NASA Earthdata, we heard from learners that it is still daunting to know what datasets are out there, what information they provide, how to know what the latest version is, etc. In the group discussion on Day 1 and the breakout rooms on Day 2, Mentors spent a lot of quality time demonstrating navigating the Earthdata Search website to look for datasets for a particular topic. Mentors screenshared how to use keywords to key into a dataset, then using the spatial and temporal querying in Earthdata Search to narrow it down and look at it visually. And then taking what was learned from that exploration back to the code with `earthaccess.search_data()`. A complementary approach to Earthdata Search was to screenshare [Earthdata to Worldview](https://www.earthdata.nasa.gov/data/tools/worldview) to discover new datasets (and there was discussion of how an Earthdata AI tool would be amazing too).
+
+Amy Steiker (NSIDC) suggested a new feature idea:I wonder if we can do more to bridge the gap from `earthaccess.search_datasets()` to `earthaccess.search_data()`. Maybe more guidance on parsing some of the key information from the UMM-C record? (Keywords, DOI). Maybe more use cases to explore through Luis López’s <https://github.com/betolink/midstac>.
+
+### R users are looking for support accessing NASA Earthdata
+
+::: blockquote-blue
+> “Is there any "earthaccess" package for R?”
+:::
+
+Several people asked about support in the R programming language. Amy Steiker (NSIDC) shared how we have a How-to guide on how to [access Earthdata using R](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/how-tos/find-data/find-r) in our Cookbook, and that there is an earthdatalogin R package that was derived from earthaccess, though it is focused more on the login functionality. More info on NASA’s blog: [Easier Access to NASA Earth Science Data in the Cloud](https://www.earthdata.nasa.gov/news/easier-access-nasa-earth-science-data-cloud). Amy also noted that there are some conversations about how much earthaccess could be called from R with the new improvements to R’s reticulate package, since the current R package is mostly for authentication. 
+
+Following this question, Chuck Daniels (Development Seed) developed a brief GitHub gist showing [how to use reticulate to use the earthaccess library from R](https://gist.github.com/chuckwondo/1cdef96c19a8fe9465664d0cdbd15922), and shared it live with the group. And since then, Andy Teucher (Openscapes) has posted a [discussion in the Cookbook](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/406) about the current status of using R for NASA Earthdata tutorials. More on this as it develops in the following months.
+
+### Access to compute is still a question for folks
+
+::: blockquote-blue
+> “Accessing/downloading the data to our disk is important but our personal computers are limited and spatial data is huge. How can I work on the cloud and keep our projects with the data there. Is there a complementary initiative for that analysis on the cloud?”
+:::
+
+We still do not have a great answer for this question of “where can I work in the cloud?” Andy Barrett (NSIDC) was able to demonstrate a method called streaming so he can open the data in the cloud without downloading. Then, in the Nov 14 Coworking, participants had access to Openscapes 2i2c JupterHub to try this and other demos hands-on. The purpose of the Openscapes 2i2c JupyterHub is for learning during workshops (and with continued short-term access to experiment), but is not a place for long-term “real science”. Folks suggested [CryoCloud](https://cryointhecloud.com/) as one option for longer term work.
+
+## Continuing in Winter 2026
+
+We will continue the [NASA Openscapes Champions Program](https://nasa-openscapes.github.io/champions.html) in 2026. In 2025-2026, we are trying something different. We are modifying the traditional Champions structure to be more light-weight so that participants can engage at whatever level they can (rather than the full 10-week cohort-based model of usual Champions programs). Following the Fall 2025 events, in Winter 2026 we will lead a 4-Part Series of Community Calls and Coworking sessions, likely February - April. With the disruptions from the US government shutdown, we are delayed in our planning, and will announce the dates and plan as we develop it at <https://nasa-openscapes.github.io/champions>.
