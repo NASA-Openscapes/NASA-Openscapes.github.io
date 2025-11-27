@@ -44,7 +44,7 @@ image: slide-earthaccess-cookbook.png
 -   [*Slides*](https://docs.google.com/presentation/d/1fJbUpbfXX0N19bKTRHD8FYncXqt4E9v7_5d3Yaraw1U/) *contain links to resources*
 -   [*earthaccess*](https://earthaccess.readthedocs.io/en/stable/)*; [contributing](https://earthaccess.readthedocs.io/en/stable/contributing/)* 
 
-—---
+------------------------------------------------------------------------
 
 ## Navigating NASA Earthdata together with earthaccess
 
@@ -66,7 +66,7 @@ NASA Earthdata has a 5-year track record of successful and collaborative Cloud t
 
 The goals of the events were to provide a friendly welcome to [NASA Earthdata](https://www.earthdata.nasa.gov/) and [earthaccess](https://earthaccess.readthedocs.io/en/stable/) for new and seasoned adopters\*. We wanted participants to feel ready to get hands-on experience in Day 2; feel comfortable using earthaccess; provide the tools to engage in the community and to contribute; and capture needs and feedback. Here are a few things that stood out from these events.
 
-*Credit to Max Jones (Development Seed) for using the word “adopters” rather than “users” in describing the recent [Zarr Summit](https://discourse.pangeo.io/t/pangeo-showcase-zarr-summit-review-unlocking-scalable-and-accessible-open-science-on-the-cloud-november-5-2025-at-4-pm-et/5435).
+\*Credit to Max Jones (Development Seed) for using the word “adopters” rather than “users” in describing the recent [Zarr Summit](https://discourse.pangeo.io/t/pangeo-showcase-zarr-summit-review-unlocking-scalable-and-accessible-open-science-on-the-cloud-november-5-2025-at-4-pm-et/5435).
 
 ### “How do you know” what data you’re looking for and then find it ?
 
