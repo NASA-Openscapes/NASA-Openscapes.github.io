@@ -26,8 +26,11 @@ description: |
 
 Our goals continue to be to expand knowledge and use of [NASA Earthdata](https://www.earthdata.nasa.gov/), building on momentum behind the [`earthaccess`](https://www.earthdata.nasa.gov/data/tools/earthaccess) python library and workflows in the Cloud.
 
-**In Fall 2025 we will lead 1 Community Call + 1 Coworking session**: a welcome to NASA Earthdata and `earthaccess`. Participants can participate at the level they choose - on either the Community Call, or the Coworking session, or both.
+**In Fall 2025 on Nov 13-14, we led 1 Community Call + 1 Coworking session**: a welcome to NASA Earthdata and `earthaccess`. Participants contributed at the level they chose - on either the Community Call, or the Coworking session, or both.
 
+We've published a summary post that includes links to the recording, slides, and notes: [Thoughts from NASA Champions 2025 - A welcome to NASA Earthdata and earthaccess](https://nasa-openscapes.github.io/news/2025-11-27-nasa-champions-2025-summary/).
+
+<!---
 -   **Dates:** November 13 & 14, 2025
 -   **Times:** 10:00am - 1:00 pm Pacific Time
 -   **Where:** remotely, via [Zoom](https://zoom.us/meeting/register/xqsatMPHT4qhp8l3CDGwgA)
@@ -39,11 +42,12 @@ We are designing this to be valuable across many skillsets and experience levels
 
 -   Yes, if you’re using (or want to use) NASA Earthdata and wondering how to access it more efficiently!
 -   Also yes, if you support users via user services, help desks, forums, or engineering and are curious about how to support users and get involved with the earthaccess community!
--    PI, graduate student, user, developer.
+-   PI, graduate student, user, developer.
 
 ### Registration
 
 **Register (free) via [Zoom](https://zoom.us/meeting/register/xqsatMPHT4qhp8l3CDGwgA).**
+--->
 
 ### Continuing in Winter 2026
 
@@ -77,7 +81,7 @@ Please submit one nomination per team, preferably by the team lead (faculty, pri
 
 ## NASA Cohort 2025
 
-[Slides](https://docs.google.com/presentation/d/1fJbUpbfXX0N19bKTRHD8FYncXqt4E9v7_5d3Yaraw1U/edit?usp=sharing) for the 2025 Fall Community Call. Blog with resources will follow.   
+[Thoughts from NASA Champions 2025 - A welcome to NASA Earthdata and earthaccess](https://nasa-openscapes.github.io/news/2025-11-27-nasa-champions-2025-summary/)
 
 ## NASA Cohort 2024
 
