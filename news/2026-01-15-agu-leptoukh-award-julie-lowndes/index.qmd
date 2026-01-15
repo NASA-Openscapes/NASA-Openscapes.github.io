@@ -1,0 +1,74 @@
+---
+title: "Receiving the Dr. Greg Leptoukh Award lecture at AGU"
+description: "Julie Lowndes reveived the Greg Leptoukh Lecture Award at AGU 2025"
+author:
+  - name: Julie Lowndes
+    orcid: 0000-0003-1682-3872
+date: 2026-01-15
+citation: 
+  url: https://openscapes.org/blog/2026-01-15-agu-leptoukh-award-julie-lowndes
+categories: [blog, noaa-fisheries, nasa-framework]
+image: leptoukh-receiving-award.jpg
+bibliography: references.bib
+---
+
+*At the AGU 2025 Fall Meeting I received the AGU [Greg Leptoukh Lecture Award.](https://www.agu.org/honors/leptoukh) This award celebrates the life of an inspiring Earth scientist in our community and recognizes significant contributions to informatics, computational, or data sciences through research, education, and related activities. Receiving this award is a huge honor. I have worked hard and am proud of what I have done for science, scientists, and people supporting science. And I greatly value my many collaborators who work closely with me; we are receiving this award together. I know this award reflects all our work, as well as me, and it’s really special to be called out.*
+
+*The blog shares a quick overview of my lecture. It focuses on the official citation for my award written by NASA Openscapes Mentors Aaron Friesz (now at ESIP), Amy Steiker, Luis Lopez, plus Allison Horst, and my official response. I will give the lecture again online in early 2026 – we will share details when we know – and we will update this post with a recording.*
+
+*Quicklinks:*
+
+-   [*Slides*](https://docs.google.com/presentation/d/10RbeoshmsHx06ZIFA1x-KERbrMkcBtnOtFVyt9UCs5o/edit?slide=id.g3af247f9d45_0_0#slide=id.g3af247f9d45_0_0) *- ”Forking as a Worldview”: How Openscapes uses the open source concept of copy-modify to support researchers & shift culture in science*
+-   [*https://www.agu.org/honors/leptoukh*](https://www.agu.org/honors/leptoukh)
+-   [*https://www.agu.org/honors/leptoukh/past-recipients*](https://www.agu.org/honors/leptoukh/past-recipients)
+
+*Cross-posted at [openscapes.org/blog](https://openscapes.org/blog), [nmfs-openscapes.github.io/blog](https://nmfs-openscapes.github.io/blog)*, [*nasa-openscapes.github.io/news*](https://nasa-openscapes.github.io/news.html).
+
+------------------------------------------------------------------------
+
+In December 2025 in New Orleans, as part of the [Greg Leptoukh Lecture Award](https://www.agu.org/honors/leptoukh) I gave a 75-minute invited lecture: ”Forking as a Worldview: How Openscapes uses the open source concept of copy-modify to support researchers & shift culture in science”. Openscapes Mentors were sitting in the front row, boosting my courage and sharing my joy.
+
+I co-authored the talk with the [Openscapes Core Team](https://openscapes.org/team): Stefanie Butland, Andy Teucher, Melanie Burgess, Stephanie Amend, Ileana Fenwick, Liz Neeley. We told more stories and practices of our team – the unseen infrastructure that enables us to have outsized impact, and continually expand possibilities with our collaborators.
+
+::: {style="text-align:center;"}
+![Aaron Friesz, Amy Steiker, Sudhir Shrestha, Julie Lowndes, Danie Kinkade, Alex Lewandowski, Luis Lopez as Julie receives Leptoukh Award, AGU 2025.](leptoukh-receiving-award.jpg){fig-alt="6 women and men smiling, wearing conference lanyards, standing in front of a large screen projecting a headshot of Julie Lowndes and her talk title Forking as a worldview: How Openscapes uses the open source concept of copy-modify to support researchers & shift culture in science" fig-align="center" width="70%"}
+:::
+
+The talk’s structure (forked from my [documenting things talk](https://openscapes.org/blog/2023-09-27-documenting-things-posit-conf/index.html) at Posit Conf 2023):
+
+-   **Forking mindset** - forking (v) means to copy and modify. We fork code, and also ideas, structures, agendas, documentation, programs…
+
+-   **What’s possible from this + how we work** - stories of how forking has made it possible for NOAA scientists to develop collaborative workflows for data-intensive science; how forking has made it possible for NASA data center staff to revolutionize [Earthdata](https://www.earthdata.nasa.gov/) workflows in the Cloud; and how forking has made it possible for Openscapes to be sustainable. This was my first time talking more about how I shifted from academic scientist to small business owner and growing the team to support the work we do.
+
+-   **Meeting the moment together** - it’s been a hard, disappointing year. And yet. We can all continue to work together, create our own certainty, default to open. The (Hidden) social infrastructure that drives this is scaled with trust and kindness.
+
+### Official AGU Citation - Greg Leptoukh Lecture Award
+
+*Note: this citation and response will be posted on [Julie's AGU profile](https://www.agu.org/user-profile?cstkey=AE3F6984-BCBF-4433-B7CB-03326C308576) in the coming months.*
+
+Dr. Julia Stewart Lowndes is transforming environmental and Earth science through her visionary leadership in open, collaborative, and inclusive data science. She has redefined how scientific teams work together—empowering researchers to do better science in less time, together—and inspiring a movement toward more effective, inclusive, and reproducible Research.
+
+Trained as a marine scientist with a Ph.D. from Stanford University, and later as a scientist at the National Center for Ecological Analysis and Synthesis ([NCEAS](https://www.nceas.ucsb.edu/)), Dr. Lowndes gained key insights into the challenges faced by solo scientists when working with big data. Her 2017 paper in Nature Ecology and Evolution, “Our path to better science in less time using open data science tools,” [@lowndes2017] articulated a compelling vision for modernizing scientific workflows. By addressing both the technical and human challenges of data science, her work has catalyzed cultural change across government agencies, academic institutions, and research networks.
+
+In 2018, Dr. Lowndes founded [Openscapes](https://openscapes.org/), a pioneering program that mentors individuals and research teams in open, reproducible, and collaborative science. Through initiatives such as [NASA Openscapes](https://nasa-openscapes.github.io/), she has reshaped how NASA data centers and researchers collaborate—accelerating cloud migration, strengthening interdisciplinary connections, and fostering psychological safety within teams. Openscapes’ work with NOAA, NASA, and EPA has advanced the culture of open science across the federal research landscape and was [featured in the White House’s](https://openscapes.org/blog/2024-10-03-openscapes-recognized-white-house/) [2024 Year of Open Science fact sheet](https://openscapes.org/blog/2024-02-09-white-house-factsheet-openscapes/) for its exemplary mentorship with [NOAA Fisheries](https://nmfs-openscapes.github.io/).
+
+Dr. Lowndes is also a dedicated advocate for equity and inclusion in data science. She co- founded [R-Ladies](https://rladies.org/) Santa Barbara and advises the [Pathways to Open Science](https://openscapes.github.io/pathways-to-open-science/) program supporting Black environmental and marine researchers. Her efforts have built welcoming communities that empower those historically excluded from technical fields to lead in open Science.
+
+Dr. Lowndes exemplifies the spirit of the Greg Leptoukh Lecture, which honors innovations in informatics that enable scientific discovery. Like Greg Leptoukh, she recognizes that progress in science depends not only on technical excellence but also on collaboration, transparency, and community. Her leadership has created a more inclusive, efficient, and hopeful model for how science is done—making her a profoundly deserving recipient of this honor.
+
+**Aaron Friesz, Earth Science Information Partners (ESIP)**\
+**NASA Openscapes Mentors and Allison Horst**
+
+### Julia’s Response - Greg Leptoukh Lecture Award
+
+It is an absolute honor to receive the Greg Leptoukh Lecture award recognizing innovations in computational and data informatics that enable scientific discovery. I feel an intense upwelling of love and gratitude for my colleagues that is difficult to describe. It is a privilege to feel such joy about one’s colleagues. And yet, it is quite a common trait of our greater open science community that reflects the deep value of collaboration through trust, empathy, and kindness.
+
+I created Openscapes to be a feeling of welcome and empowerment around data-intensive science, having felt this myself as a marine ecologist welcomed and empowered by the R open source programming community. Since 2018 we’ve been directly mentoring nearly one thousand researchers and people supporting research, while co-creating mechanisms together so we can all turn around and support countless others within our work-lives. We continue to learn from, with, and for each other, every effort turning our [Flywheel](https://openscapes.org/approach#openscapes-flywheel) [@robinson2022]. We reuse and “fork” what works in new places, using a concept from software engineering for reuse and credit. Openscapes now means more to people than I can possibly define. Its impacts are impossible to quantify, as so many “n of 1” individuals make a whole wave of change in a different place, and in a way that is specific and empathetic to that place. This is movement building. The connections and innovations across interleaving communities and what it means for science and society is beautiful.
+
+My nomination for the Leptoukh Lecture is one example. My dear colleagues [Amy Steiker](https://nsidc.org/about/about-nsidc/what-we-do/our-people/amy_steiker) and [Luis Lopez](https://github.com/betolink) of [NSIDC](https://nsidc.org/home) (National Snow and Ice Data Center) – representing the [NASA Openscapes Mentors](https://nasa-openscapes.github.io/mentors.html) co-creating and teaching common tutorials to support researchers as they migrate analytical workflows to the Cloud – collaborated even as [Aaron Friesz](https://www.esipfed.org/about/people/#people_bios-1-5) moved on to a new job at [ESIP](https://www.esipfed.org/), where he supports the data community in new ways. And they included [Allison Horst](https://allisonhorst.com/), a data scientist, teacher, and longtime collaborator who developed all Openscapes art, but who they had not yet met. They forked their systems for co-development and drew from our open community networks for a new purpose, just as we do when we build other social and technical infrastructure for science.
+
+We’ve got more work to do. As Johnson & Wilkinson write in “[All We Can Save](https://www.allwecansave.earth/anthology)” continue to drive us: “We” speaks to the collective, to collaboration, to community, to the relational work at hand. Addressing the climate crisis…will take everyone. We cannot, we must not, go it alone.”
+
+**Dr. Julia Stewart Lowndes**\
+**Openscapes**\
+**Founding director**
