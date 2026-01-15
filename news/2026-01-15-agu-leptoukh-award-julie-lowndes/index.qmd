@@ -1,6 +1,6 @@
 ---
 title: "Receiving the Dr. Greg Leptoukh Award lecture at AGU"
-description: "Julie Lowndes reveived the Greg Leptoukh Lecture Award at AGU 2025"
+description: "Julie Lowndes received the Greg Leptoukh Lecture Award at AGU 2025"
 author:
   - name: Julie Lowndes
     orcid: 0000-0003-1682-3872
