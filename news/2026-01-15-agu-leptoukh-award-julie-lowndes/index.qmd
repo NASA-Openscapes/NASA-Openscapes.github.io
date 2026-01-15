@@ -6,7 +6,7 @@ author:
     orcid: 0000-0003-1682-3872
 date: 2026-01-15
 citation: 
-  url: https://openscapes.org/blog/2026-01-15-agu-leptoukh-award-julie-lowndes
+  url: https://nasa-openscapes.github.io/news/2026-01-15-agu-leptoukh-award-julie-lowndes
 categories: [blog, noaa-fisheries, nasa-framework]
 image: leptoukh-receiving-award.jpg
 bibliography: references.bib
