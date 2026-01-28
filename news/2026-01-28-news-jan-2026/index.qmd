@@ -1,5 +1,5 @@
 ---
-title: "Openscapes Newsletter #12: Winter 2025"
+title: "Openscapes Newsletter #12: Winter 2026"
 author:
   - name: Julie Lowndes
     orcid: 0000-0003-1682-3872
@@ -7,7 +7,7 @@ author:
     orcid: 0000-0002-5427-8951  
 date: 2026-01-28
 citation: 
-  url: https://openscapes.org/blog/2026-01-28-news-jan-2026/
+  url: https://nasa-openscapes.github.io/news/2026-01-28-news-jan-2026/
 categories: [blog, newsletter, nasa-framework, noaa-fisheries, pathways, reflections]
 image: MtWhitneySunrise-ElliotLowndes.jpeg
 ---
