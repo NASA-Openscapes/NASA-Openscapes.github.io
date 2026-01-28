@@ -1,0 +1,103 @@
+---
+title: "Openscapes Newsletter #12: Winter 2025"
+author:
+  - name: Julie Lowndes
+    orcid: 0000-0003-1682-3872
+  - name: Stefanie Butland
+    orcid: 0000-0002-5427-8951  
+date: 2026-01-28
+citation: 
+  url: https://openscapes.org/blog/2026-01-28-news-jan-2026/
+categories: [blog, newsletter, nasa-framework, noaa-fisheries, pathways, reflections]
+image: MtWhitneySunrise-ElliotLowndes.jpeg
+---
+
+*Welcome to Openscapes' twelfth newsletter! If you're interested in seeing these infrequent updates in your inbox, please [sign up here](https://docs.google.com/forms/d/e/1FAIpQLSd25jpfiAn1gYNwUPcfMVudsL625_pYbKsqxXpRazHCL6QA7g/viewform) (linked from our [connect with us](https://openscapes.org/connect) page).*
+
+*Cross-posted at [openscapes.org/blog](https://openscapes.org/blog), [nmfs-openscapes.github.io/blog](https://nmfs-openscapes.github.io/blog), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html), [openscapes.github.io/pathways-to-open-science/blog](https://openscapes.github.io/pathways-to-open-science/blog.html)*.
+
+------------------------------------------------------------------------
+
+Hello all,
+
+It is a new year, 2026. We are back from the holidays and already feeling the sense of togetherness and not aloneness as we get back to work. We feel this through the shared effort of many groups supporting science, supporting open practices, supporting each other. There are many ways to get this right. We are grateful to be a part of your community and this huge effort supporting science. Openscapes is here, funded, strong and resolved, and providing stability and community for people in their daily work.
+
+We spent 2025 building and iterating with our collaborators. Many of our shared accomplishments are listed in this newsletter’s blog post. We tested systems we have developed, and met the moment by “forking” these systems to respond to changing needs with little turnaround time. As we shared in Julie’s [Greg Leptoukh Lecture Award](https://www.agu.org/honors/leptoukh) “[Forking as a worldview](https://openscapes.org/blog/2026-01-15-agu-leptoukh-award-julie-lowndes/)” talk at the December [2025 AGU Fall Meeting](https://www.agu.org/annual-meeting) – co-authored as our core team – this mindset and practice of “forking” enables us to be responsive and impactful, weathering uncertainty and looking out for each other. For example, “forking” enabled us to support NASA Earthdata users and NOAA Fisheries staff this fall, despite the disruptive government shutdown. We supported them through the [NASA Openscapes Champions](https://openscapes.org/blog/2025-11-27-nasa-champions-2025-summary/) (Nov 13-14) and **earthaccess Hackday on Dec 15** (online and in New Orleans); and leading **3x NOAA Fisheries Champions Cohorts** Nov 18-Jan 21 (online; original dates Oct 7-Dec 11 shifted due to the shutdown).
+
+In 2026 we’re continuing to support our current partners as we expand our collaborations with new partners. We will be leading a **Champions Cohort with the European Space Agency**’s [EarthCODE](https://earthcode.esa.int/) project – our first international cohort! This is also part of the **sustainability and business infrastructure** building in the past year that we shared a bit about in Julie’s Leptoukh lecture.
+
+We have upcoming blog posts in the works detailing the items in **bold** above.
+
+We are currently planning events for 2026 – later than normal since we have just finished the 3 NOAA Fisheries Champions Cohorts that were delayed 5 weeks with the shutdown. Needing to "slow down to speed up", we have made the difficult decision to pause our annual [Pathways to Open Science](https://openscapes.github.io/pathways-to-open-science/) and [Reflections](https://openscapes.github.io/booklet/) Programs this year. We appreciate our partners in cultivating the Pathways to Open Science community these past three years! We are also focused on “showing up at other people’s parties” and learning in solidarity with other open communities, as well as leading events with partners. Please check our [events page](https://openscapes.org/events) for upcoming 2026 events, including community calls, cohorts, and conference talks, as they are planned.
+
+When things are hard, we shift to create and empower mode. And we do this together. It can feel overwhelming and not enough at the same time. But we are creating our own certainty where we can, and it matters. Openscapes team member and Liminal founder, Liz Neeley, writes [Meeting the Moment](https://buttondown.com/liminalcreations), a weekly digest to help us keep current—but avoid feeling flooded—by staying focused.
+
+We appreciate what you are all doing.
+
+## Learn more about our work with our partners since our [last newsletter](https://openscapes.org/blog/2025-04-03-news-apr-2025/)
+
+### NOAA Fisheries
+
+-   Published highlights of 2024 Champions on [fisheries.gov](http://fisheries.gov) site! Open Science Momentum at NOAA Fisheries ([post](https://www.fisheries.noaa.gov/science-blog/open-science-momentum-noaa-fisheries); Openscapes [post](https://openscapes.org/blog/2025-07-14-nmfs-champions-2024/) with more info).
+
+-   NOAA Fisheries Openscapes Summer Mentors Workshop in July. Building a Culture of Reproducible Science ([post](https://openscapes.org/blog/2025-08-19-nmfs-mentors-workshop/)).
+
+-   [Fall 2025 Champions](https://nmfs-openscapes.github.io/champions) just completed. Theme: cloud migration and data preservation. New [Zenodo Clinic](https://openscapes.github.io/series/additional-lessons/zenodo-clinic.html) and metadata lesson, thanks to Rachael Blake and Kate Wing, [Intertidal Agency](https://www.intertidalagency.org/). 
+
+-   Experts from our extended network have been coming to share their knowledge and cowork with NOAA Fisheries Mentors. Many mutual benefits. 
+
+    -   Carlos Scheidegger of Posit has been invaluable at Mentors Coworking with helping some Mentors with SAR (Stock Assessment Report) workflows in Quarto and some accessibility functions in [nmfspalette](https://nmfs-ost.github.io/nmfspalette/) R package are being incorporated into Quarto!!
+
+    -   Nick Tierney, R community hero, recorded a [live software review](https://github.com/nmfs-openscapes/how-we-work/issues/43) of the [nmfspalette](https://nmfs-ost.github.io/nmfspalette/) package, joined Mentors Coworking for followup Q&A and then put his feedback in a [Pull Request](https://github.com/nmfs-ost/nmfspalette/pull/60) that was merged.
+
+-   Make your own software cheatsheet ([post](https://nmfs-ost.github.io/noaa-fit-resources/developer%20resources/software-cheatsheet/) by Sophie Breitbart, Sam Schiano, Kelli Johnson, Kathryn Doering, for the NOAA Fisheries Integrated Toolbox).
+
+-   [NMFS Openscapes Data Academy](https://nmfs-openscapes.github.io/data-academy.html) Spring 2025 Cohort completed; Fall 2025 Cohort in progress. Participants learn the basics of R programming and data visualization using the Dataquest platform and the Openscapes team provides support through a weekly help desk and asynchronous Q&A.
+
+-   “We crossed the chasm at NOAA Fisheries.” Keynote at the Cloud Native Geospatial Conference ([post](https://openscapes.org/blog/2025-05-13-cng-conf/)).
+
+### NASA Earthdata
+
+-   Thoughts from NASA Champions 2025 - A welcome to NASA Earthdata and earthaccess ([post](https://openscapes.org/blog/2025-11-27-nasa-champions-2025-summary/))
+
+-   Workshops by Mentors, using [openscapes.cloud](https://openscapes.cloud/) - A central location for Openscapes JupyterHub access and fledging information.
+
+    -   Cloud Access Mini-Workshop demonstrating virtual dataset capabilities for satellite data analysis, led by Danny Kaufman ([post](https://nasa-openscapes.github.io/news/2025-09-09-tempo-workshop/)).
+
+    -   Fundamentals to use Hyperspectral and Thermal NASA Earth Observations, led by Mahsa Jami, Erik Bolch ([post](https://nasa-openscapes.github.io/news/2025-07-21-hyperspectral-thermal-workshop/)).
+
+    -   Airborne Data Applications for Invasive Species Mapping; 401 participants from 68 countries! led by Michele Thornton, Rupesh Shrestha ([post](https://openscapes.org/blog/2025-09-30-ornl-arset-workshop/)).
+
+    -   Workshop on use of NASA satellite data for water management and climate analysis, and NASA International Space Apps Challenge, in Hermosillo, Sonora, Mexico, led by Luis Lopez ([post](https://nasa-openscapes.github.io/news/2025-10-02-mexico-workshop/)).
+
+    -   2i2c is amplifying these workshop successes on their blog ([post](https://2i2c.org/blog/nasa-openscapes-champions-2025/), [post](https://2i2c.org/blog/openscapes-workshop/)).
+
+-   Community Calls:
+
+    -   earthaccess — helping users leverage the awesomeness of NASA Earthdata ([post](https://openscapes.org/blog/2025-08-01-earthaccess-awesomeness-nasa-earthdata/)).
+
+    -   What we’re learning about cloud costs for Earth science workflows in our JupyterHub ([post](https://openscapes.org/blog/2025-05-01-community-call-hub-cloud-costs/)).
+
+### Fred Hutch Cancer Center
+
+-   Champions cohort completed. ‘Taking stock’ to support infrastructure and people at the Fred Hutch ([post](https://openscapes.org/blog/2025-07-09-fred-hutch-champions-2025/)).
+
+### California Water Boards
+
+-   Openscapes advising Water Boards' mentor community building strategy ([blog](https://openscapes.org/blog/2025-10-24-ca-water-boards-openscapes/)).
+
+-   Mentors are kicking off [25 scheduled Road Show presentations](https://cawaterboarddatacenter.github.io/swrcb-openscapes/events.html#road-show-presentations) about their Data Equity Handbook and Openscapes opportunities this year!
+
+### Other good stuff
+
+-   Andy Teucher attended [posit::conf 2025](https://posit.co/conference/) including Tidyverse developer day, and the Extending Quarto day-long workshop and brought back inspirations and skills to share with our team and NOAA and NASA Mentors ([some favorite talks](https://github.com/Openscapes/how_we_work/issues/441)).
+
+-   Crossing the chasm together - notes from ESIP July 2025 meeting, including a little team from Openscapes, NASA, NOAA, & Intertidal Agency winning FUNding Friday funds to run an [earthaccess hackday](https://openscapes.org/blog/2025-11-16-esip-july-2025/index.html#earthaccess-hackday-on-dec-15) ([post](https://openscapes.org/blog/2025-11-16-esip-july-2025/)).
+
+-   Julie participated in Cloud Native Geospatial Conference ([post](https://openscapes.org/blog/2025-05-13-cng-conf/)), European Space Agency’s Living Planet Symposium ([event](https://openscapes.org/events/2025-06-25-esa-symposium/index.html)).
+
+-   Our [blog](https://openscapes.org/blog) and [events](https://openscapes.org/events) pages capture even more good stuff!
+
+\
+
+![Photo of Mt Whitney sunrise by Elliot Lowndes](MtWhitneySunrise-ElliotLowndes.jpeg){fig-alt="Mount Whitney sunrise. Deep blue clear sky. Reddish mountains with a dusting of snow, with each sharp ridge casting a shadow on the next ridge to the right. Boulders in the foreground." fig-align="left" width="80%"}
