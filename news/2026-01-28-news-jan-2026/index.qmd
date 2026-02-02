@@ -46,7 +46,7 @@ We appreciate what you are all doing.
 
 -   Experts from our extended network have been coming to share their knowledge and cowork with NOAA Fisheries Mentors. Many mutual benefits. 
 
-    -   Carlos Scheidegger of Posit has been invaluable at Mentors Coworking with helping some Mentors with SAR (Stock Assessment Report) workflows in Quarto and some accessibility functions in [nmfspalette](https://nmfs-ost.github.io/nmfspalette/) R package are being incorporated into Quarto!!
+    -   Carlos Scheidegger of Posit has been invaluable at Mentors Coworking with helping some Mentors with SAR (Stock Assessment Report) workflows in Quarto and some accessibility functions in the [asar](https://nmfs-ost.github.io/asar/) R package are being incorporated into Quarto!!
 
     -   Nick Tierney, R community hero, recorded a [live software review](https://github.com/nmfs-openscapes/how-we-work/issues/43) of the [nmfspalette](https://nmfs-ost.github.io/nmfspalette/) package, joined Mentors Coworking for followup Q&A and then put his feedback in a [Pull Request](https://github.com/nmfs-ost/nmfspalette/pull/60) that was merged.
 
