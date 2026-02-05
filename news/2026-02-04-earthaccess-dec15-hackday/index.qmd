@@ -46,7 +46,7 @@ author:
     orcid: 0000-0003-1682-3872
 date: 2026-02-04
 citation: 
-  url: https://openscapes.org/blog/2026-02-04-earthaccess-dec15-hackday/
+  url: https://nasa-openscapes.github.io/news/2026-02-04-earthaccess-dec15-hackday/
 categories: [blog, nasa-framework]
 image: earthaccess-stickerheads_20251215.jpg
 ---
