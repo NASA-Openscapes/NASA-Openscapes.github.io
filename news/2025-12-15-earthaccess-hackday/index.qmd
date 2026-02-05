@@ -14,20 +14,21 @@ image: nasa-openscapes-earthaccess-logos.png
 
 ------------------------------------------------------------------------
 
+This event is completed. Read the summary, "[People, structure, mechanics: How we led the earthaccess December 15 Hackday online and in New Orleans](../2026-02-04-earthaccess-dec15-hackday)".
+
 Join us for our [earthaccess](https://earthaccess.readthedocs.io/en/stable/) hackday in **New Orleans and online**! This hackday is independent of [AGU2025](https://www.agu.org/annual-meeting) but conveniently co-located for attendees. Registration is free. Please sign up by November 19, end of day in your time zone. We will send confirmations by November 25.
 
-​[earthaccess](https://earthaccess.readthedocs.io/en/stable/) is a Python library that enables authentication, search, and access for NASA Earth science data with just a few lines of code. We see great potential for “growing the family” by integrating with other Earth science data beyond NASA, including NOAA, USGS, Copernicus, and others!
+[earthaccess](https://earthaccess.readthedocs.io/en/stable/) is a Python library that enables authentication, search, and access for NASA Earth science data with just a few lines of code. We see great potential for “growing the family” by integrating with other Earth science data beyond NASA, including NOAA, USGS, Copernicus, and others!
 
-​At this hackday, our goal is to have a workable “growing the family” prototype and roadmap. Please join us if you are interested – there are many ways to contribute and incorporate your ideas and expertise. A hackday to our earthaccess community means we will be collaboratively problem-solving and strategizing around "growing the family", and translating ideas into code and documentation. 
+At this hackday, our goal is to have a workable “growing the family” prototype and roadmap. Please join us if you are interested – there are many ways to contribute and incorporate your ideas and expertise. A hackday to our earthaccess community means we will be collaboratively problem-solving and strategizing around "growing the family", and translating ideas into code and documentation.
 
 ### Details and registration
 
-**Date**: December 15, 2025  
-**Time**: 1:00 p.m. - 6:00 p.m. CST  
-**Where**: New Orleans and online  
-**Register** at <https://luma.com/7hp819zp>  
+**Date**: December 15, 2025\
+**Time**: 1:00 p.m. - 6:00 p.m. CST\
+**Where**: New Orleans and online\
+<!--- **Register** at <https://luma.com/7hp819zp> --->
 
-​This hackday is supported through the Earth Science Information Partners (ESIP)’s FUNding Friday initiative, and is co-hosted by Cloud-Native Geospatial Forum (CNG) and Openscapes. 
+This hackday is supported through the Earth Science Information Partners (ESIP)’s FUNding Friday initiative, and is co-hosted by Cloud-Native Geospatial Forum (CNG) and Openscapes.
 
 ![](nasa-openscapes-earthaccess-logos.png){fig-alt="left to right: nasa logo, openscapes logo, earthaccess logo" fig-align="center" width="319"}
-
