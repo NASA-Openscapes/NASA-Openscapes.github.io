@@ -18,7 +18,7 @@ We are influenced and inspired by many leaders and community organizers, particu
 
 -   [Summary](news/2025-11-27-nasa-champions-2025-summary) of NASA Openscapes Champions Program, Fall 2025: "Thoughts from NASA Champions 2025 - A welcome to NASA Earthdata and earthaccess".
 
--   [earthaccess Hackday Dec 15](news/2025-12-15-earthaccess-hackday) - summary post coming.
+-   [Summary](news/2026-02-04-earthaccess-dec15-hackday/) of earthaccess Hackday Dec 15.
 
 -   Julie Lowndes, Openscapes founding director received the Greg Leptoukh Lecture Award at AGU 2025 [(post with slides)](news/2025-09-30-leptoukh-lecture/index.qmd).
 
