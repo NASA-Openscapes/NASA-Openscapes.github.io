@@ -16,6 +16,34 @@ Openscapes is a mechanism that can rapidly identify problems and bring people to
 
 Building from successes and momentum 2021-2024, in 2025 NASA Openscapes will continue teaching users and developing solutions for pain points, while we all grow as open science leaders. This is vital work to support the shift to Earthdata Cloud and to NASA's values for open science.
 
+## 2026 goals
+
+In 2026, we continue to build on our work together over the past five years and focus on these interlinking goals: 
+
+### 1. Earthdata Cookbooks - supporting web unification
+
+NASA Earthdata has a 5-year track record of successful collaborative tutorial governance through cross-DAAC "Cookbook" development, facilitated by Openscapes. NASA Earthdata's code-based tutorials — executable notebooks combining data access, code, and scientific context — are a critical resource for users and for enabling NASA’s cloud migration, Web Unification, and Earth Science to Action initiatives. This proven GitHub-based approach can serve as a foundational component of Web Unification's code-based tutorial needs while reducing maintenance burden across DAACs. 
+
+This year we are focused on how to continue to improve this critical user support and how Mentors can provide their deep expertise and services for the current [NASA Web Unification](https://www.earthdata.nasa.gov/about/web-unification-project) project.
+
+### 2. `earthaccess` - growing the family
+
+`earthaccess` is a Python library that simplifies access to NASA Earth science data, turning complex authentication and data discovery into just a few lines of code. It has become essential infrastructure for researchers working with Earth observation data, whether they work in the cloud or locally. In 2025 we were [awarded ESIP’s FUNding Friday to host a hackday](https://nasa-openscapes.github.io/news/2026-02-04-earthaccess-dec15-hackday/) and build a prototype and roadmap, for “Growing the Family” by integrating earthaccess with non-NASA Earth science data (NOAA, USGS, Copernicus, and more!). This year, we will continue to expand the `earthaccess` community, contributors, and expand its reach beyond NASA to other Earth science data providers.
+
+[Learn more and get involved!](https://earthaccess.readthedocs.io/en/stable/contributing/our-meet-ups/)
+
+### 3. Suborbital data - growing the Mentor community and supporting science teams
+
+
+
+
+### 4. User support — including workshops and Champions Cohort
+
+
+
+Growing Mentor community and skills
+- with NOAA skills
+
 ## 2025 goals
 
 Our 2025 focus is strengthening NASA networks between DAACs, missions, training programs, and applications, aligned with SPD-41a open science, as we continue to support users through developing skills and tools. 2025 goals were determined by Mentors during our Fall 2024 Mentors Retreat.
