@@ -14,11 +14,13 @@ We are influenced and inspired by many leaders and community organizers, particu
 
 **News and Upcoming Events:**
 
--   Register now for [NASA Openscapes Champions Program - Fall 2025](news/2025-11-13-nasa-champions).
+-   [Openscapes Newsletter, Winter 2026](news/2026-01-28-news-jan-2026/)
 
--   Register now for [earthaccess Hackday Dec 15](news/2025-12-15-earthaccess-hackday).
+-   [Summary](news/2025-11-27-nasa-champions-2025-summary) of NASA Openscapes Champions Program, Fall 2025: "Thoughts from NASA Champions 2025 - A welcome to NASA Earthdata and earthaccess".
 
--   [Julie Lowndes selected to receive the Greg Leptoukh Lecture at AGU 2025 Fall Meeting](news/2025-09-30-leptoukh-lecture/index.qmd)
+-   [Summary](news/2026-02-04-earthaccess-dec15-hackday/) of earthaccess Hackday Dec 15.
+
+-   Julie Lowndes, Openscapes founding director received the Greg Leptoukh Lecture Award at AGU 2025 [(post with slides)](news/2025-09-30-leptoukh-lecture/index.qmd).
 
 -   Recent workshops
 
@@ -29,8 +31,6 @@ We are influenced and inspired by many leaders and community organizers, particu
     -   [Fundamentals to use Hyperspectral and Thermal NASA Earth Observations](news/2025-07-21-hyperspectral-thermal-workshop/)
 
     -   [Workshop on use of NASA satellite data for water management and climate analysis, and NASA International Space Apps Challenge](news/2025-10-02-mexico-workshop/), in Hermosillo, Sonora, Mexico
-
--   [Community Call summary published: earthaccess — helping users leverage the awesomeness of NASA Earthdata](https://nasa-openscapes.github.io/news/2025-08-01-earthaccess-awesomeness-nasa-earthdata/)
 
 Learn about our recent work: [News](news.qmd) • [Presentations](/about.qmd#slides) • [Flywheel Preprint](https://nasa-openscapes.github.io/about.html#flywheel-preprint) • [White Paper: The Value of Hosted JupyterHubs](https://nasa-openscapes.github.io/about.html#white-paper-value-of-hosted-jupyterhubs)
 
