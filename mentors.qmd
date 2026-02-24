@@ -14,11 +14,11 @@ Openscapes is a mechanism that can rapidly identify problems and bring people to
 
 # Current Activities
 
-Building from successes and momentum 2021-2024, in 2025 NASA Openscapes will continue teaching users and developing solutions for pain points, while we all grow as open science leaders. This is vital work to support the shift to Earthdata Cloud and to NASA's values for open science.
+Building from successes and momentum 2021-2025, in 2026 NASA Openscapes will continue teaching users and developing solutions for pain points, while we all grow as open science leaders. This is vital work to support the shift to Earthdata Cloud and to NASA's values for open science.
 
 ## 2026 goals
 
-In 2026, we continue to build on our work together over the past five years and focus on these interlinking goals: 
+In 2026, we continue to build on our work together over the past five years and focus on these interlinking goals. From April-May, Mentors are invited join NOAA Fisheries in our annual cross-agency Mentors coaching and leadership skill-building course "mentoring with a coach approach". We continue to meet weekly via mentors calls and coworking to surface and work on shared goals, organized in our [GitHub Project Board](https://github.com/orgs/NASA-Openscapes/projects/7/views/1). 
 
 ### 1. Earthdata Cookbooks - supporting web unification
 
@@ -34,15 +34,57 @@ This year we are focused on how to continue to improve this critical user suppor
 
 ### 3. Suborbital data - growing the Mentor community and supporting science teams
 
+NASA Earthdata has volumes of remote sensing data collected from satellites, as well as substantial suborbital data collected from field sampling, airborne sampling, boats, and buoys that is used to ground-truth satellite data, among other research. Suborbital science teams (i.e. science teams creating suborbital data via NASA programs) archive data at several NASA Distributed Active Archive Centers (DAACs) including ORNL, LP DAAC, and NSIDC, and receive additional support from other NASA centers and Headquarters (HQ). 
+
+This year we have added focus on strengthening the suborbital Mentor community and supporting suborbital science teams with the [Openscapes Flywheel](https://nasa-openscapes.github.io/about.html#flywheel-preprint) (engage • empower • amplify): 
+
+1. **Engaging a suborbital science team community.** Suborbital teams are already meeting in smaller groups, perhaps based on mission or a specific DAAC; and we will develop these relationships further into a cross-DAAC community. 
+2. **Empowering suborbital science teams involves leading a Notebook Clinic** that will be remote, cohort-based, and designed for their needs. 
+3. **Amplifying suborbital science teams involves bringing them into the fold of NASA Openscapes Flywheel, along with increasing numbers of NASA center staff.** As always, open documentation and storytelling via blogs and talks will center this work. 
 
 
+### 4. User support - including workshops and Champions Cohort
 
-### 4. User support — including workshops and Champions Cohort
+Supporting users in the Cloud requires infrastructure and skills. Skills include mindset shifts, as well as new technical and collaboration skills. Infrastructure requires co-developing software and resources as well as providing a JupyterHub compute space for developing tutorials and teaching workshops, which we do in partnership with [2i2c](https://2i2c.org/). The goal is to "make once, use often", reusing materials and iterating and improving upon them as a distributed group of mentors who learn with, from, and for each other.
 
+We lead well-planned, welcoming, user-designed teaching events in a variety of formats including in-person and online (hackathons, workshops, Champions Cohorts, Community Calls, conference sessions). To prepare for these events, we develop open documentation, slides, and tutorials that are available for reuse and remix; we host a JupyterHub compute space in partnership with 2i2c; we co-develop technical cloud technical infrastructure including scientific software docker images, user access administration, cost reports/tracking, and documentation of user stories. We develop together asynchronously and synchronously via hackdays and coworking.
 
+**To join our events**: Check our [News & Events page](/news.qmd) for registration to events. Mentors will be leading events starting in late spring/summer, and information about the Notebook Clinic / Champions Cohort in late summer.
 
-Growing Mentor community and skills
-- with NOAA skills
+## How we work
+
+Openscapes is about working effectively and openly as teams. We are user-focused and meet regularly to learn skills of immediate use together and to work on common needs for researchers using NASA Earthdata. We have an open science approach to resource development, where we focus on having space and place, sharing early and 
+iterating with feedback, with a “make once, use often”, future us web-first mindset. Mentors build skills through Openscapes mentorship, co-developing events, software, and open practices and relationships with the open source community, with access to a JupyterHub that helps refine teaching strategies for Cloud.
+
+![](images/shell-diagram-how-we-work.png)
+
+<br>
+
+### Mentor Calls, Coworking, and Hackdays
+
+We meet each week in different formats to move our work forward in different ways. The cadence in which we meet is available on our [MainPlanning GitHub Project](https://github.com/orgs/NASA-Openscapes/projects/7/views/3).
+
+-   Mentor Calls for planning, sharing, and learning (biweekly, for Mentors)
+-   Hackdays and Coworking for working synchronously and screensharing (biweekly, various topics, open to anyone!)
+-   Asynchronous work via 2i2c JupyterHub, GitHub, Slack, Google Drive. The majority of time is spent self-directed based on your goals, and you'll be collaborating with others at your DAAC as well as across DAACs and the broader open science community.
+
+### Calendar
+
+1.  **All Year** We have recurring biweekly Mentor Calls, Coworking sessions, and Hackdays. 
+
+2.  **Summer and ESIP meeting -** In July and August we planned to take a break from our biweekly calls to let this group rest. However, there was interest to keep the momentum and ability to collaborate with anyone available, so we have continued to host biweekly calls and move forward with AGU workshop proposals, and have guest speakers. In July many Mentors meet for the ESIP Summer Conference.
+
+3.  **Fall Champions Cohort -** We will support research teams to learn, discuss, and plan what transitioning their workflows with NASA Earthdata could look like in the Cloud. 2022-2024 Cohorts were during the Spring.
+
+4.  **Fall -** We regroup in Fall. Our initial call will include sharing plans, UWGs and other events on the calendar and continuing onboarding new DAAC mentors. In preparing for AGU workshops in December, returning DAAC mentors will lead teaching dry runs with the cloud tutorials as a way to onboard the group to data access in the cloud and to get your fresh perspective on our existing material. (What works? What's confusing?).
+
+### Onboarding Mentors
+
+Interested staff from the DAACs are welcome to join as Mentors at any time. Mentors teach and support in opportunities of different types, including Hackathons, Workshops, and the Openscapes Champions program. We expect a range of technical ability and teaching experience. Through these growth opportunities within a broader community engagement approach, Mentors will also gain visibility for their work as well as for their DAACs.
+
+Please also see [how we onboard](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding.html) documentation -- this is part of the [Earthdata Cloud Cookbook](https://nasa-openscapes.github.io) that is the main place for all cloud resources the Mentors are developing.
+
+# Ongoing and Previous Activities
 
 ## 2025 goals
 
@@ -87,41 +129,6 @@ We will move forward on the following four interlinking goals. Below is a brief 
 
 -   **Process**: Throughout all our user support, we trial materials with users that help us to update and improve the Earthdata Cloud Cookbook. Tutorials, presentations, and approaches are added to the Cookbook based on latest user needs and trends/tooling. For example, we are adding more support for R users, and we are reporting openly on compute and storage costs so that they could allot cloud funding into future proposals. Most Cookbook development is motivated by teaching events (workshops and hackathons and Champions). 
     - **To join**: Check our [Cookbook GitHub Discussions](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/discussions); in Spring 2025 we are starting biweekly hackdays to drive more continual development alongside event-driven development. We are excited to build momentum with Development Seed contributions from VEDA. We can also collaborate with ESDIS for sharing cloud resources on the unified site, answering questions like: Does it need to be cloud-specific? Can it just be Earthdata specific? 
-
-## How we work
-
-Openscapes is about working effectively and openly as teams. We are user-focused and meet regularly to learn skills of immediate use together and to work on common needs for researchers using NASA Earthdata. We have an open science approach to resource development, where we focus on having space and place, sharing early and 
-iterating with feedback, with a “make once, use often”, future us web-first mindset. Mentors build skills through Openscapes mentorship, co-developing events, software, and open practices and relationships with the open source community, with access to a JupyterHub that helps refine teaching strategies for Cloud.
-
-![](images/shell-diagram-how-we-work.png)
-
-<br>
-
-### Mentor Calls, Coworking, and Hackdays
-
-We meet each week in different formats to move our work forward in different ways. The cadence in which we meet is available on our [MainPlanning GitHub Project](https://github.com/orgs/NASA-Openscapes/projects/7/views/3).
-
--   Mentor Calls for planning, sharing, and learning (biweekly, for Mentors)
--   Hackdays and Coworking for working synchronously and screensharing (biweekly, various topics, open to anyone!)
--   Asynchronous work via 2i2c JupyterHub, GitHub, Slack, Google Drive. The majority of time is spent self-directed based on your goals, and you'll be collaborating with others at your DAAC as well as across DAACs and the broader open science community.
-
-### Calendar
-
-1.  **All Year** We have recurring biweekly Mentor Calls, Coworking sessions, and Hackdays. 
-
-2.  **Summer and ESIP meeting -** In July and August we planned to take a break from our biweekly calls to let this group rest. However, there was interest to keep the momentum and ability to collaborate with anyone available, so we have continued to host biweekly calls and move forward with AGU workshop proposals, and have guest speakers. In July many Mentors meet for the ESIP Summer Conference.
-
-3.  **Fall Champions Cohort -** We will support research teams to learn, discuss, and plan what transitioning their workflows with NASA Earthdata could look like in the Cloud. 2022-2024 Cohorts were during the Spring.
-
-4.  **Fall -** We regroup in Fall. Our initial call will include sharing plans, UWGs and other events on the calendar and continuing onboarding new DAAC mentors. In preparing for AGU workshops in December, returning DAAC mentors will lead teaching dry runs with the cloud tutorials as a way to onboard the group to data access in the cloud and to get your fresh perspective on our existing material. (What works? What's confusing?).
-
-### Onboarding Mentors
-
-Interested staff from the DAACs are welcome to join as Mentors at any time. Mentors teach and support in opportunities of different types, including Hackathons, Workshops, and the Openscapes Champions program. We expect a range of technical ability and teaching experience. Through these growth opportunities within a broader community engagement approach, Mentors will also gain visibility for their work as well as for their DAACs.
-
-Please also see [how we onboard](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding.html) documentation -- this is part of the [Earthdata Cloud Cookbook](https://nasa-openscapes.github.io) that is the main place for all cloud resources the Mentors are developing.
-
-# Ongoing and Previous Activities
 
 ## 2024 goals
 
