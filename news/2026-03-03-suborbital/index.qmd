@@ -1,0 +1,42 @@
+---
+title: "Suborbital"
+# description: "Subtitle"
+author:
+  - name: Andy Teucher
+    orcid: 0000-0002-7840-692X  
+  - name: Stefanie Butland
+    orcid: 0000-0002-5427-8951
+  - name: Julie Lowndes
+    orcid: 0000-0003-1682-3872
+date: 2026-03-03
+citation: 
+  url: TODO
+categories: [blog, nasa-framework]
+image: TODO
+---
+
+*This blog post is introducing some additional focus we have in 2026. TO ADD next week: welcoming a new team member!*
+
+*Quicklinks:*
+
+------------------------------------------------------------------------
+
+NASA Earthdata has volumes of remote sensing data collected from satellites, as well as substantial suborbital data collected from field sampling, airborne sampling, boats, and buoys that is used to ground-truth satellite data, among other research. Suborbital science teams (i.e. science teams creating suborbital data via NASA programs) archive data at several NASA Distributed Active Archive Centers (DAACs) including ORNL, LP DAAC, and NSIDC, and receive additional support from other NASA centers and Headquarters (HQ). 
+
+Below is our POP: Purpose, Outcomes, Process.
+
+## Purpose
+
+The purpose is to develop user skills and reproducible workflows for using NASA suborbital data. This work will benefit StratusGeo and other communities using NASA Earthdata more broadly, as well as growing the NASA Openscapes community in a new focus area.
+
+## Outcomes
+
+Suborbital science teams will create reusable open source notebooks (Jupyter, Quarto, GitHub) to analyze their data archived at the NASA DAACs. This may mean learning new skills (coding, version control, collaborating for reuse), and working with colleagues in new ways as they develop confidence in the open ecosystem to continue their work. At the same time, Openscapes will increase the Mentor capacity of staff at NASA centers beyond user support staff by engaging operational and communications staff, program managers.
+
+## Process
+
+This work will be aligned with NASA HQ priorities to identify and meet suborbital teams, understand goals, progress, tooling, and needs. The following are distinct but overlapping activities.
+
+1.  **Developing a suborbital science team community.** Suborbital teams are already meeting in smaller groups, perhaps based on mission or a specific DAAC; and we will develop these relationships further into a cross-DAAC community. This will involve joining meetings already ongoing, asking questions and building relationships, giving talks, sending followup messages, having open documentation of activities, 1:1 conversations; all to welcome and support scientists with busy schedules. We will lead biweekly “Coworking” learning meetings with suborbital science teams where we will increasingly fold in NASA center staff to learn and build relationships with suborbital users. For suborbital science teams, this will be a chance to ​​help find what is common (i.e. airborne data differs but they all have flight tracks; all need to learn version control and write metadata), and build together, always with a “future us” and reuse mindset.
+2.  **Empowering suborbital science teams involves leading a Notebook Clinic** that will be remote, cohort-based, and designed for their needs. Lessons will focus on developing reproducible workflows with Jupyter Notebooks, Quarto, and GitHub, using the earthaccess python library, and writing documentation that focuses on reuse and onboarding. This Clinic will not focus on specific datasets, but the methods for writing reusable analyses that combine different datasets, using open source tooling and practices. 
+3.  **Amplifying suborbital science teams involves bringing them into the fold of NASA Openscapes Flywheel, along with increasing numbers of NASA center staff.** By connecting users and NASA Openscapes Mentors (DAAC user support staff), data access issues will be surfaced for NASA development teams (e.g. earthaccess, CMR, cloud optimized). We will develop a process to add suborbital teams’ tutorials after the Notebook Clinic to the NASA Earthdata Cookbook for increased discoverability and reuse. Throughout, we will share and connect suborbital science teams with others at NASA and the broader open science community so they become confident contributors to further support science with NASA Earthdata.
