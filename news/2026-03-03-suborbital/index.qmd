@@ -1,5 +1,5 @@
 ---
-title: "Suborbital"
+title: "Supporting NASA suborbital science teams to develop reproducible workflows"
 # description: "Subtitle"
 author:
   - name: Andy Teucher
@@ -15,7 +15,7 @@ categories: [blog, nasa-framework]
 image: TODO
 ---
 
-*This blog post is introducing some additional focus we have in 2026. TO ADD next week: welcoming a new team member!*
+*TODO: refine. This blog post is introducing some additional focus we have in 2026. TO ADD next week: welcoming a new team member!*
 
 *Quicklinks:*
 
