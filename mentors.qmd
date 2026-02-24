@@ -303,10 +303,6 @@ Chris is a Scientific Developer working at the Goddard Earth Sciences Data Infor
 
 National Snow & Ice Data Center (NSIDC)
 
-### Brandon Bottomley
-
-Alaska Satellite Facility (ASF)
-
 ### Ian Carroll
 
 Dr. Carroll is an Associate Research Scientist at the University of Maryland Baltimore County working at NASA Goddard Space Flight Center on phytoplankton community ecology and data science. Phytoplankton are a broad collection of photosynthetic organisms, found in all water bodies, that range in size from less-than a micron to millimeters in length. Despite their small size, their presence in the photic zone can be detected from space due to their light-absorbing pigments. Dr. Carroll investigates machine learning approaches to predicting the community composition (abundances of each type) of phytoplankton using data from ocean color instruments. He also supports science data production for NASA's PACE mission.
@@ -322,6 +318,10 @@ Land Processes DAAC (LPDAAC)
 ### Daniel Kaufman
 
 [Danny Kaufman](https://www.linkedin.com/in/daniel-e-kaufman/) is a Lead Data Scientist for the Tropospheric Emissions: Monitoring of POllution (TEMPO) instrument at the NASA Atmospheric Science Data Center (ASDC). In this role, Danny helps lead the development and coordination of data processing tools and services for new air quality observations from TEMPO. He is excited to join the Openscapes community, and he is looking forward to learning together and working towards improved cloud-based data analysis workflows. Danny's research expertise is in numerical modeling, optimization, and analysis of ocean biogeochemistry and climate data.
+
+### Joe Kennedy
+
+Alaska Satellite Facility (ASF)
 
 ### Alexander Lewandowski
 
@@ -351,10 +351,6 @@ Socioeconomic Data and Application Data Center (SEDAC)
 
 As a Data Engineer at the Physical Oceanography Distributed Active Archive Center (PO.DAAC) at NASA's Jet Propulsion Laboratory, Victoria spends a lot of time thinking about scientific data: how we manage it, how we make it usable, how we reduce the steep learning curves that can hinder scientific discovery. Building better, open, collaborative, software so that we can make complex data analysis more usable is something she is passionate about.
 
-### Jack McNelis\*
-
-Jack McNelis is a Science Applications Software Engineer at NASA Jet Propulsion Laboratory (and the PO.DAAC) with experience leveraging EOS data for rangeland ecosystem monitoring applications. He develops and curates metadata to describe PO.DAAC data holdings, and to better integrate them with data delivery services and end user softwares. He also develops resources for users to be better prepared to implement their analyses in the cloud.
-
 ### Navaneeth Selvaraj
 
 Global Hydrometeorology Resource Center (GHRC)
@@ -379,10 +375,6 @@ Amy Steiker is the NSIDC DAAC Data Services Engineer, specializing in the develo
 
 Goddard Earth Sciences Data and Information Services Center (GES DISC)
 
-### Nikki Tebaldi
-
-Nikki Tebaldi is a Cloud Adoption Engineer for the Physical Oceanographic Distributed Active Archive Center (PO.DAAC). Nikki has led the migration of an on-premise workflow to the cloud which produces GHRSST Level 2P Sea Surface Temperature datasets and continues to work to improve the workflow architecture in the cloud. Her past and current work also includes integrating cloud-based data endpoints into a workflow that produces GHRSST Level 4 MUR Sea Surface Temperature datasets and architecting a cloud workflow that produces river discharge parameter estimates from SWOT data. Nikki is interested in collaborating on and developing strategies for migrating scientific workflows to the cloud.
-
 ### Michele Thornton
 
 Oak Ridge National Laboratory (ORNL)
@@ -399,7 +391,7 @@ Guoqing Wang is the DAAC scientist for the Ocean Biology Distributed Active Arch
 
 Since September 2018, [Dr. Jessica Nicole Welch](https://www.linkedin.com/in/jessicanicolewelch/) has held a position at the ORNL DAAC, which specializes in data archive for terrestrial biogeochemistry, ecology, and environmental processes. Her work focuses on dataset curation, project coordination, and science communication. Jess holds a PhD in Conservation Biology from the [Department of Ecology and Evolutionary Biology](https://eeb.utk.edu/) at the University of Tennessee. When she's not working at ORNL or participating in community service, she plays [Ultimate](https://www.usaultimate.org/about/ultimate/) with her friends.
 
-# Past Participants
+# Alumni
 
 Here we list past NASA Openscapes Mentors, with their affiliations at the time of their participation.
 
@@ -410,6 +402,10 @@ Goddard Earth Sciences Data and Information Services Center (GES DISC)
 ### Vishal Bagadia
 
 [Vishal Bagadia](https://www.linkedin.com/in/vishal-bagadia-a98b95113) is a data science analyst working on contract at the Atmospheric Science Data Center DAAC, NASA Langley Research Center. His experience in exploring emissions retrievals from satellite missions and guiding science teams during the development of their research products powers his work on addressing data interoperability concerns and being responsive to user's engagement with the archived data. He is energized in leveraging emerging, free, and open-source technologies to better represent and visualize large datasets, building web applications to meet user's data transformation and usability needs, and ultimately producing sustainable solutions to meet end-user requirements as data moves into the cloud.
+
+### Brandon Bottomley
+
+Alaska Satellite Facility (ASF)
 
 ### Matt Fisher
 
@@ -435,6 +431,10 @@ Interagency Implementation and Advanced Concepts Team (IMPACT)
 
 Bri is a Geospatial Data Scientist at NASA's Land Processes Distributed Active Archive Center (LP DAAC).  Bri is formally trained as an ecologist and remote sensing scientist and is deeply interested in facilitating the fusion of broad remote sensing products with field data to enhance scientific insight. As a visual learner and science-oriented coder, Bri is focused on making materials that are easy to understand and likes to convert challenging concepts into flexible and easy-to-apply approaches.
 
+### Jack McNelis\*
+
+Jack McNelis is a Science Applications Software Engineer at NASA Jet Propulsion Laboratory (and the PO.DAAC) with experience leveraging EOS data for rangeland ecosystem monitoring applications. He develops and curates metadata to describe PO.DAAC data holdings, and to better integrate them with data delivery services and end user softwares. He also develops resources for users to be better prepared to implement their analyses in the cloud.
+
 ### Paul Moth
 
 Paul Moth is a Data Support Specialist at the National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC). He is part of the User Services team and currently represents MODIS, VIIRS, SMAP, High Mountain Asia, and Nimbus missions at NSIDC DAAC. He is interested in working with early adopters and science team members and gathering feedback that identifies the key operations/steps/workflows that would be most important for creating tutorials and educational materials.
@@ -454,6 +454,10 @@ Interagency Implementation and Advanced Concepts Team (IMPACT)
 ### Christine Smit
 
 Global Hydrometeorology Resource Center (GHRC)
+
+### Nikki Tebaldi
+
+Nikki Tebaldi is a Cloud Adoption Engineer for the Physical Oceanographic Distributed Active Archive Center (PO.DAAC). Nikki has led the migration of an on-premise workflow to the cloud which produces GHRSST Level 2P Sea Surface Temperature datasets and continues to work to improve the workflow architecture in the cloud. Her past and current work also includes integrating cloud-based data endpoints into a workflow that produces GHRSST Level 4 MUR Sea Surface Temperature datasets and architecting a cloud workflow that produces river discharge parameter estimates from SWOT data. Nikki is interested in collaborating on and developing strategies for migrating scientific workflows to the cloud.
 
 ### Matt Tisdale
 
