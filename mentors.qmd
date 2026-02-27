@@ -8,7 +8,7 @@ description: |
 
 <br>
 
-**NASA Openscapes Mentors have created “go-to” resources for staff and users using NASA Earthdata – such as the `earthaccess` python library and tutorials in the Earthdata Cloud Cookbook.** Over the last four years, Mentors have developed these resources as a supportive community in response to teaching hundreds of NASA Earthdata users via workshops and events together, where they identify and rapidly respond to common needs then iterate through active use, documentation, and further teaching. Recent presentations showcasing this work is [Supporting NASA Earthdata users in the Cloud: NASA Openscapes onboarding & fledging](https://docs.google.com/presentation/d/1-TiPN8bfY6iDL5EVcEuCQSjqFMs3jPSX2MlNWA6no2E/edit#slide=id.g2eae202a90f_4_248) and [earthaccess: how to accelerate user value through open, collaborative development](https://docs.google.com/presentation/d/1D3C2_wBSHAPMNes0hLQHjaRuU_ifEzcKIvf3_H5rZGM/edit#slide=id.g269ad4ab477_0_691).
+**NASA Openscapes Mentors have created “go-to” resources for staff and users using NASA Earthdata – such as the `earthaccess` python library and tutorials in the Earthdata Cloud Cookbook.** Over the last five years, Mentors have developed these resources as a supportive community in response to teaching hundreds of NASA Earthdata users via workshops and events together, where they identify and rapidly respond to common needs then iterate through active use, documentation, and further teaching. Recent presentations showcasing this work are [Supporting NASA Earthdata users in the Cloud: NASA Openscapes onboarding & fledging](https://docs.google.com/presentation/d/1-TiPN8bfY6iDL5EVcEuCQSjqFMs3jPSX2MlNWA6no2E/edit#slide=id.g2eae202a90f_4_248) and [earthaccess: how to accelerate user value through open, collaborative development](https://docs.google.com/presentation/d/1D3C2_wBSHAPMNes0hLQHjaRuU_ifEzcKIvf3_H5rZGM/edit#slide=id.g269ad4ab477_0_691).
 
 Openscapes is a mechanism that can rapidly identify problems and bring people together to solve them. The NASA Openscapes Mentor community includes people across NASA Earth science data centers (DAACs) that work together to deliver work aligned with DAAC goals to enable science, enriched by collaborating with the open science community beyond NASA.
 
@@ -42,15 +42,15 @@ This year we have added focus on strengthening the suborbital Mentor community a
 2. **Empowering suborbital science teams involves leading a Notebook Clinic** that will be remote, cohort-based, and designed for their needs. 
 3. **Amplifying suborbital science teams involves bringing them into the fold of NASA Openscapes Flywheel, along with increasing numbers of NASA center staff.** As always, open documentation and storytelling via blogs and talks will center this work. 
 
-This work is in collaboration with the CryoCloud/StratusGeo Community, which is an exciting continuation of the JupyterHub community work we have been collaborating on them with in the past years.
+This work is in collaboration with the CryoCloud/StratusGeo Community, which is an exciting continuation of the JupyterHub community work we have been collaborating on with them with in the past years.
 
 ### 4. User support - including workshops and Champions Cohort
 
 Supporting users in the Cloud requires infrastructure and skills. Skills include mindset shifts, as well as new technical and collaboration skills. Infrastructure requires co-developing software and resources as well as providing a JupyterHub compute space for developing tutorials and teaching workshops, which we do in partnership with [2i2c](https://2i2c.org/). The goal is to "make once, use often", reusing materials and iterating and improving upon them as a distributed group of mentors who learn with, from, and for each other.
 
-We lead well-planned, welcoming, user-designed teaching events in a variety of formats including in-person and online (hackathons, workshops, Champions Cohorts, Community Calls, conference sessions). To prepare for these events, we develop open documentation, slides, and tutorials that are available for reuse and remix; we host a JupyterHub compute space in partnership with 2i2c; we co-develop technical cloud technical infrastructure including scientific software docker images, user access administration, cost reports/tracking, and documentation of user stories. We develop together asynchronously and synchronously via hackdays and coworking.
+We lead well-planned, welcoming, user-designed teaching events in a variety of formats including in-person and online (hackathons, workshops, Champions Cohorts, Community Calls, conference sessions). To prepare for these events, we develop open documentation, slides, and tutorials that are available for reuse and remix; we host a JupyterHub compute space in partnership with 2i2c; we co-develop technical cloud infrastructure including scientific software docker images, user access administration, cost reports/tracking, and documentation of user stories. We develop together asynchronously and synchronously via hackdays and coworking.
 
-**To join our events**: Check our [News & Events page](/news.qmd) for registration to events. Mentors will be leading events starting in late spring/summer, and information about the Notebook Clinic / Champions Cohort in late summer.
+**To join our events**: Check our [News & Events page](/news.qmd) for registration to events. Mentors will be leading events starting in late spring/summer, and information about the Notebook Clinic / Champions Cohort will be posted in late summer.
 
 ## How we work
 
@@ -63,7 +63,7 @@ iterating with feedback, with a “make once, use often”, future us web-first 
 
 ### Mentor Calls, Coworking, and Hackdays
 
-We meet each week in different formats to move our work forward in different ways. The cadence in which we meet is available on our [MainPlanning GitHub Project](https://github.com/orgs/NASA-Openscapes/projects/7/views/3).
+We meet each week in different formats to move our work forward in different ways.
 
 -   Mentor Calls for planning, sharing, and learning (biweekly, for Mentors)
 -   Hackdays and Coworking for working synchronously and screensharing (biweekly, various topics, open to anyone!)
