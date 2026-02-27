@@ -63,7 +63,7 @@ iterating with feedback, with a “make once, use often”, future us web-first 
 
 ### Mentor Calls, Coworking, and Hackdays
 
-We meet each week in different formats to move our work forward in different ways. The cadence in which we meet is available on our [MainPlanning GitHub Project](https://github.com/orgs/NASA-Openscapes/projects/7/views/3).
+We meet each week in different formats to move our work forward in different ways.
 
 -   Mentor Calls for planning, sharing, and learning (biweekly, for Mentors)
 -   Hackdays and Coworking for working synchronously and screensharing (biweekly, various topics, open to anyone!)
