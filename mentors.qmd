@@ -42,7 +42,7 @@ This year we have added focus on strengthening the suborbital Mentor community a
 2. **Empowering suborbital science teams involves leading a Notebook Clinic** that will be remote, cohort-based, and designed for their needs. 
 3. **Amplifying suborbital science teams involves bringing them into the fold of NASA Openscapes Flywheel, along with increasing numbers of NASA center staff.** As always, open documentation and storytelling via blogs and talks will center this work. 
 
-This work is in collaboration with the CryoCloud/StratusGeo Community, which is an exciting continuation of the JupyterHub community work we have been collaborating on them with in the past years.
+This work is in collaboration with the CryoCloud/StratusGeo Community, which is an exciting continuation of the JupyterHub community work we have been collaborating on with them with in the past years.
 
 ### 4. User support - including workshops and Champions Cohort
 
