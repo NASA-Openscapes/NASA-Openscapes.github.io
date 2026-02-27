@@ -50,7 +50,7 @@ Supporting users in the Cloud requires infrastructure and skills. Skills include
 
 We lead well-planned, welcoming, user-designed teaching events in a variety of formats including in-person and online (hackathons, workshops, Champions Cohorts, Community Calls, conference sessions). To prepare for these events, we develop open documentation, slides, and tutorials that are available for reuse and remix; we host a JupyterHub compute space in partnership with 2i2c; we co-develop technical cloud infrastructure including scientific software docker images, user access administration, cost reports/tracking, and documentation of user stories. We develop together asynchronously and synchronously via hackdays and coworking.
 
-**To join our events**: Check our [News & Events page](/news.qmd) for registration to events. Mentors will be leading events starting in late spring/summer, and information about the Notebook Clinic / Champions Cohort in late summer.
+**To join our events**: Check our [News & Events page](/news.qmd) for registration to events. Mentors will be leading events starting in late spring/summer, and information about the Notebook Clinic / Champions Cohort will be posted in late summer.
 
 ## How we work
 
