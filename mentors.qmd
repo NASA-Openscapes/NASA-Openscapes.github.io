@@ -36,11 +36,11 @@ This year we are focused on how to continue to improve this critical user suppor
 
 NASA Earthdata has volumes of remote sensing data collected from satellites, as well as substantial suborbital data collected from field sampling, airborne sampling, boats, and buoys that is used to ground-truth satellite data, among other research. Suborbital science teams (i.e. science teams creating suborbital data via NASA programs) archive data at several NASA Distributed Active Archive Centers (DAACs) including ORNL, LP DAAC, and NSIDC, and receive additional support from other NASA centers and Headquarters (HQ). 
 
-This year we have added focus on strengthening the suborbital Mentor community and supporting suborbital science teams with the [Openscapes Flywheel](https://nasa-openscapes.github.io/about.html#flywheel-preprint) (engage • empower • amplify): 
+This year we have added focus on strengthening the suborbital Mentor community and supporting suborbital science teams with the [Openscapes Flywheel](https://nasa-openscapes.github.io/about.html#flywheel-preprint) (engage • empower • amplify, this time starting with amplify): 
 
-1. **Engaging a suborbital science team community.** Suborbital teams are already meeting in smaller groups, perhaps based on mission or a specific DAAC; and we will develop these relationships further into a cross-DAAC community. 
-2. **Empowering suborbital science teams involves leading a Notebook Clinic** that will be remote, cohort-based, and designed for their needs. 
-3. **Amplifying suborbital science teams involves bringing them into the fold of NASA Openscapes Flywheel, along with increasing numbers of NASA center staff.** As always, open documentation and storytelling via blogs and talks will center this work. 
+1. **Amplifying suborbital science teams involves bringing them into the fold of NASA Openscapes Flywheel, along with increasing numbers of NASA center staff.** As always, open documentation, contributing to the NASA Earthdata Cookbook, and storytelling via blogs and talks will center this work. We will onboard new NASA Mentors from NASA's SOAR (SubObrital Archive Readiness) Team and other parts of NASA to collaborate across the agency to support science teams.
+2. **Engaging a suborbital science team community.** Suborbital teams are already meeting in smaller groups, perhaps based on mission or a specific DAAC; and we will develop these relationships further into a cross-DAAC community. 
+3. **Empowering suborbital science teams involves leading a Notebook Clinic** that will be remote, cohort-based, and designed for their needs. 
 
 This work is in collaboration with the CryoCloud/StratusGeo Community, which is an exciting continuation of the JupyterHub community work we have been collaborating on with them with in the past years.
 
