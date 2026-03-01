@@ -68,7 +68,7 @@ We will follow the NASA Openscapes Flywheel mechanism (Robinson & Lowndes 2022, 
 
     -   Developing lessons to focus on building code-based reusable workflows with Jupyter Notebooks, Quarto, and GitHub, using the `earthaccess` python library and other open source tools, and writing documentation that focuses on onboarding. We will develop documentation, tutorials, and templates the teams can reuse.
 
-    -   We will teach with an open facilitation approach, drawing on our experience as Carpentries certified instructors, using agenda as live shared note taking, and having multiple channels for asking help, including asynchronous chat and synchronous having breakout rooms.
+    -   We will teach with an open facilitation approach, drawing on our experience as Carpentries certified instructors, using agendas as live shared note taking, and having multiple channels for asking help, including asynchronous chat and synchronous breakout rooms.
 
     -   Notebook Clinic lessons will be added to the Earthdata Cloud Cookbook for discoverability and reuse.
 
