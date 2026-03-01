@@ -27,7 +27,7 @@ We are thrilled to welcome [Ronny Hernández Mora](https://ronnyale.com/) to the
 
 ## Purpose
 
-The purpose is to develop user skills and reproducible workflows for using NASA suborbital data. This work will communities using NASA Earthdata and open science more broadly, as well as growing the NASA Openscapes community in a new focus area. This work is in collaboration with the \[CryoCloud/StratusGeo Community\]([https://cryointhecloud.com](https://cryointhecloud.com/)), which is an exciting continuation of the JupyterHub community work we have been collaborating on with them with in the past years.
+The purpose is to develop user skills and reproducible workflows for using NASA suborbital data. This work will help communities using NASA Earthdata and open science more broadly, as well as growing the NASA Openscapes community in a new focus area. This work is in collaboration with the [CryoCloud/StratusGeo Community](https://cryointhecloud.com/), which is an exciting continuation of the JupyterHub community work we have been collaborating on with them with in the past years.
 
 ## Outcomes
 
