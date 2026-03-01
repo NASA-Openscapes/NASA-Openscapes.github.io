@@ -52,7 +52,7 @@ We will follow the NASA Openscapes Flywheel mechanism (Robinson & Lowndes 2022, 
 
     - Onboarding new NASA Mentors from NASA's SOAR (SubObrital Archive Readiness) Team and other parts of NASA to collaborate across DAACs and across the agency to support science teams.
     
-    - Improving documentation and onboarding for suborbital teams (and anyone) to contribute workflows to the NASA Earthdata Cookbook.
+    - Improving documentation and onboarding for suborbital teams (and anyone) to contribute workflows to the NASA Earthdata Cloud Cookbook.
     
 -   **To engage and develop the suborbital community** we will reuse and grow from what works from the last five years of building the NASA Openscapes Mentor community, and connecting to community momentum at NASA. This will not happen in a vacuum, but coordinating with other NASA groups takes time. We know scientists and NASA staff are at the same time busy and feeling stuck+alone, and not knowing where to ask for help. This work involves:
 
