@@ -48,7 +48,7 @@ We will follow the NASA Openscapes Flywheel mechanism (Robinson & Lowndes 2022, 
 
     - Giving talks to different groups, particularly with NASA staff, including NASA Openscapes' network of open source communities, industry, academia, other government agencies. 
 
-    - Connecting suborbital teams to Openscapes’ network of engineers, teachers, managers, scientists, facilitators, we can help people get the help they need, and help their work get in front of people who need to hear about it.
+    - Connecting suborbital teams to Openscapes’ network of engineers, teachers, managers, scientists, facilitators - we can help people get the help they need, and help their work get in front of people who need to hear about it.
 
     - Onboarding new NASA Mentors from NASA's SOAR (SubObrital Archive Readiness) Team and other parts of NASA to collaborate across DAACs and across the agency to support science teams.
     
