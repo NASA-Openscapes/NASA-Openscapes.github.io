@@ -11,15 +11,29 @@ categories: [blog, nasa-framework]
 image: TODO
 ---
 
-*In 2026 we are proud to continue supporting NASA teams, building from our work with the [NASA Openscapes Mentors](https://nasa-openscapes.github.io/mentors) over the past five years. This year we will additionally be supporting suborbital science teams and growing the NASA Openscapes Mentor community to develop reproducible workflows.*
+*In 2026 we are proud to continue supporting NASA teams, building from our work with the [NASA Openscapes Mentors](https://nasa-openscapes.github.io/mentors) from across the NASA Distributed Active Archive Centers (DAACs) over the past five years. NASA Openscapes Mentors support scientists using data from satellite and suborbital missions — with suborbital meaning field sampling on land and from airplanes, boats, and buoys. This year we have additional focus supporting suborbital science teams to develop reproducible workflows and growing the NASA Openscapes Mentor community supporting suborbital data.*
 
 ------------------------------------------------------------------------
 
 ## NASA suborbital science and Openscapes proposed support
 
-NASA Earthdata has volumes of remote sensing data collected from satellites, as well as substantial suborbital data collected from field sampling, airborne sampling, boats, and buoys that is used to ground-truth satellite data, among other awesome research like studying Arctic coastlines via the [FORTE mission](https://espo.nasa.gov/forte) and glaciers and ice sheets via the [Snow4Flow mission](https://snow4flow.lpl.arizona.edu/). Suborbital science teams (i.e. science teams creating suborbital data via NASA programs) work with staff at several NASA Distributed Active Archive Centers (DAACs) to archive data, including ORNL, LP DAAC, and NSIDC. They receive additional support from other NASA centers and Headquarters (HQ).
+NASA Earthdata has volumes of remote sensing data collected by [platforms in space, air, water, and land](https://www.earthdata.nasa.gov/data/platforms). Substantial suborbital data is collected from field sampling from airborne sampling via airplanes, field sampling on land, boats, and buoys. 
 
-Starting in March and for the rest of 2026, we will be supporting NASA suborbital science teams to develop reproducible workflows. We are thrilled to welcome [Ronny Hernández Mora](https://ronnyale.com/) to the Openscapes core team to support this work! Ronny works at the intersection of Earth data, open and reproducible workflows, and has spent the last past eight years teaching professionals and researchers in industry and academia how to adopt collaborative, open, and maintainable workflows in real-world contexts.
+Suborbital science teams are science teams that create and use suborbital data via NASA programs like [EVS-4](https://essp.nasa.gov/earth-pathfinder-quests/projects/earth-venture-suborbital-evs-4/). The science teams use suborbital data to ground-truth satellite data, as well as other awesome research like studying Arctic coastlines via the [FORTE mission](https://espo.nasa.gov/forte) and glaciers and ice sheets via the [Snow4Flow mission](https://snow4flow.lpl.arizona.edu/). 
+
+Suborbital teams connect with NASA Distributed Active Archive Center (DAAC) staff at both the beginning and the end of the data cycle, and receive additional support from other NASA centers and NASA Headquarters (HQ). They co-design and run the missions to collect the data using planes, boats, etc, and then archive the data in the DAACs. Then, they also retrieve the data from the DAACs for their analyses, meaning they are relying on the DAACs for the processing as well as storage and distribution. Thus, relationships with science teams and DAACs are very important for effective collaboration and communication, as well as for establishing standards and common workflows.
+
+Staff at many NASA DAACs work with science teams to archive suborbital data, including: 
+
+- Oak Ridge National Laboratory [ORNL](https://www.earthdata.nasa.gov/centers/ornl-daac),
+- Land Processes [LP DAAC](https://www.earthdata.nasa.gov/centers/lp-daac), 
+- National Snow and Ice Data Center [NSIDC](https://www.earthdata.nasa.gov/centers/nsidc-daac), 
+- Atmospheric Science Data Center [ASDC](https://asdc.larc.nasa.gov/), 
+- Global Hydrometeorology Resource Center [GHRC](https://www.earthdata.nasa.gov/centers/ghrc-daac),
+- Ocean Biology [OB.DAAC](https://www.earthdata.nasa.gov/centers/ob-daac)
+- Physical Oceanography [PO.DAAC](https://www.earthdata.nasa.gov/centers/po-daac) 
+
+In our NASA Openscapes Mentor Community, most of these DAACs supporting suborbital work have been consistent contributors in past five years. However, we have not specifically focused on suborbital data users or growing the Mentor community focused on suborbital user support. Our goal in 2026 is to increase that specific support for NASA suborbital science teams to develop reproducible workflows. In March, we are thrilled to welcome [Ronny Hernández Mora](https://ronnyale.com/) to the Openscapes core team to support this work! Ronny works at the intersection of Earth data, open and reproducible workflows, and has spent the last past eight years teaching professionals and researchers in industry and academia how to adopt collaborative, open, and maintainable workflows in real-world contexts.
 
 Below is our planned approach from our proposal, presented through POP: Purpose, Outcomes, Process.
 
