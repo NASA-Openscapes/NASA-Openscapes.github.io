@@ -64,7 +64,7 @@ We will follow the NASA Openscapes Flywheel mechanism (Robinson & Lowndes 2022, 
 
     -   Focusing on developing relationships with potential participants (above) as well as developing the Clinic itself. The Clinic will build on the rhythm from Coworking and be a friendly place to learn. We will invite suborbital teams to join via a short nomination form, which Openscapes has found to both increase buy-in and decrease attrition. 
 
-    -   Size of cohort will be 35 people max; we have found this is best for learning, since it enables active engagement and any bigger starts feeling like a webinar. 
+    -   Prioritizing learning and engagement by controlling the size of the cohort. We will keep the cohort to a maximum of 35 people; we have found this is best for learning, since it enables active engagement and any bigger starts feeling like a webinar. 
 
     -   Developing lessons to focus on building reusable workflows with Jupyter Notebooks, Quarto, and GitHub, using the `earthaccess` python library, and writing documentation that focuses on onboarding. We will develop documentation, tutorials, and templates the teams can reuse.
 
