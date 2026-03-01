@@ -23,7 +23,6 @@ Starting in March and for the rest of 2026, we will be supporting NASA suborbita
 
 Below is our planned approach from our proposal, presented through POP: Purpose, Outcomes, Process.
 
-We are thrilled to welcome [Ronny Hernández Mora](https://ronnyale.com/) to the Openscapes core team to support this work! Ronny works at the intersection of Earth data, open and reproducible workflows, and has spent the last past eight years teaching professionals and researchers in industry and academia how to adopt collaborative, open, and maintainable workflows in real-world contexts.
 
 ## Purpose
 
