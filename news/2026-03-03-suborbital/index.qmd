@@ -11,7 +11,7 @@ categories: [blog, nasa-framework]
 image: TODO
 ---
 
-*In 2026 we are proud be supporting NASA teams in additional ways, building from our work with the NASA Openscapes Mentors over the past five years. This year we will additionally be supporting suborbital science teams and growing the NASA Openscapes Mentor community to develop reproducible workflows.*
+*In 2026 we are proud to continue supporting NASA teams, building from our work with the [NASA Openscapes Mentors](https://nasa-openscapes.github.io/mentors) over the past five years. This year we will additionally be supporting suborbital science teams and growing the NASA Openscapes Mentor community to develop reproducible workflows.*
 
 ------------------------------------------------------------------------
 
