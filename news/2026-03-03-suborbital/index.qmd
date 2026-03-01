@@ -30,7 +30,7 @@ The purpose is to develop user skills and reproducible workflows for using NASA 
 
 ## Outcomes
 
-Suborbital science teams will create reusable open source notebooks (Jupyter, Quarto, GitHub) to analyze their data archived at the NASA DAACs. This may mean learning new skills (coding, version control, collaborating for reuse), and working with colleagues in new ways as they develop confidence in the open ecosystem to continue their work. At the same time, Openscapes will increase the Mentor capacity of staff at NASA centers beyond user support staff by engaging operational and communications staff, program managers.
+Suborbital science teams will create reusable open source notebooks (Jupyter, Quarto, GitHub) to analyze their data archived at the NASA DAACs. This may mean learning new skills (coding, version control, collaborating for reuse), and working with colleagues in new ways as they develop confidence in the open ecosystem to continue their work. At the same time, Openscapes will increase the Mentor capacity of staff at NASA centers by onboarding suborbital-focused user support staff, and also by engaging operational and communications staff and program managers.
 
 ## Process
 
