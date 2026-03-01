@@ -62,7 +62,7 @@ We will follow the NASA Openscapes Flywheel mechanism (Robinson & Lowndes 2022, 
 
 -   **To empower teams through the Notebook Clinic** we will draw from what we’ve learned from leading 27 Champions Cohorts (Openscapes’ flagship program where we have helped 175 teams make real change around reproducible and transparent workflows). We will design the Clinic for what best meets suborbital team needs, likely forking the structure of the Champions program: 10 weeks, 1.5 hours each week, with alternating weeks being lesson-based and hands-on work-based. Our approach includes:
 
-    -   Focusing on developing relationships with potential participants (above) as well as developing the Clinic itself. The Clinic will build on the rhythm from Coworking and be a friendly place to learn. We will invite suborbital teams to join via a short nomination form, both which Openscapes has found to increase buy-in and decrease attrition. 
+    -   Focusing on developing relationships with potential participants (above) as well as developing the Clinic itself. The Clinic will build on the rhythm from Coworking and be a friendly place to learn. We will invite suborbital teams to join via a short nomination form, which Openscapes has found to both increase buy-in and decrease attrition. 
 
     -   Size of cohort will be 35 people max; we have found this is best for learning, since it enables active engagement and any bigger starts feeling like a webinar. 
 
