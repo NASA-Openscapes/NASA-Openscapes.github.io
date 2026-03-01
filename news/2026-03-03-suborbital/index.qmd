@@ -42,7 +42,7 @@ This work will be aligned with NASA HQ priorities to identify and meet suborbita
 
 ### Methodology
 
-We will follow the NASA Openscapes Flywheel mechanism (Robinson & Lowndes 2022, <https://eartharxiv.org/repository/view/4560>) to facilitate and scale open source practices (e.g. from groups like Pangeo, rOpenSci, The Carpentries):
+We will follow the NASA Openscapes Flywheel mechanism (Robinson & Lowndes 2022, <https://eartharxiv.org/repository/view/4560>) to facilitate and scale open source practices (e.g. from groups like [Pangeo](https://pangeo.io/), [rOpenSci](https://ropensci.org/), [The Carpentries](https://carpentries.org/)):
 
 -   **To amplify suborbital teams and grow the Mentor community** we will create opportunities to share work, both through talks and through a mechanism for adding contributions to the Earthdata Cloud Cookbook. This involves:
 
