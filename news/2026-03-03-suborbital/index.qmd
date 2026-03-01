@@ -19,7 +19,9 @@ image: TODO
 
 NASA Earthdata has volumes of remote sensing data collected from satellites, as well as substantial suborbital data collected from field sampling, airborne sampling, boats, and buoys that is used to ground-truth satellite data, among other awesome research like studying Arctic coastlines via the [FORTE mission](https://espo.nasa.gov/forte) and glaciers and ice sheets via the [Snow4Flow mission](https://snow4flow.lpl.arizona.edu/). Suborbital science teams (i.e. science teams creating suborbital data via NASA programs) work with staff at several NASA Distributed Active Archive Centers (DAACs) to archive data, including ORNL, LP DAAC, and NSIDC. They receive additional support from other NASA centers and Headquarters (HQ).
 
-Starting in March and for the rest of 2026, we will be supporting NASA suborbital science teams to develop reproducible workflows. Below is our planned approach from our proposal, presented through POP: Purpose, Outcomes, Process.
+Starting in March and for the rest of 2026, we will be supporting NASA suborbital science teams to develop reproducible workflows. We are thrilled to welcome [Ronny Hernández Mora](https://ronnyale.com/) to the Openscapes core team to support this work! Ronny works at the intersection of Earth data, open and reproducible workflows, and has spent the last past eight years teaching professionals and researchers in industry and academia how to adopt collaborative, open, and maintainable workflows in real-world contexts.
+
+Below is our planned approach from our proposal, presented through POP: Purpose, Outcomes, Process.
 
 We are thrilled to welcome [Ronny Hernández Mora](https://ronnyale.com/) to the Openscapes core team to support this work! Ronny works at the intersection of Earth data, open and reproducible workflows, and has spent the last past eight years teaching professionals and researchers in industry and academia how to adopt collaborative, open, and maintainable workflows in real-world contexts.
 
