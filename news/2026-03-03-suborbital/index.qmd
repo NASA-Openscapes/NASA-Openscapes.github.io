@@ -6,12 +6,15 @@ author:
     orcid: 0000-0003-1682-3872
 date: 2026-03-03
 citation: 
-  url: TODO
+  url: https://nasa-openscapes.github.io/news/2026-03-03-suborbital/
 categories: [blog, nasa-framework]
-image: TODO
+image: nasa-openscapes.png
+bibliography: references.bib
 ---
 
 *In 2026 we are proud to continue supporting NASA teams, building from our work with the [NASA Openscapes Mentors](https://nasa-openscapes.github.io/mentors) from across the NASA Distributed Active Archive Centers (DAACs) over the past five years. NASA Openscapes Mentors support scientists using data from satellite and suborbital missions — with suborbital meaning field sampling on land and from airplanes, boats, and buoys. This year we have additional focus supporting suborbital science teams to develop reproducible workflows and growing the NASA Openscapes Mentor community supporting suborbital data.*
+
+*Cross-posted at [openscapes.org/blog](https://openscapes.org/blog), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news)*.
 
 ------------------------------------------------------------------------
 
@@ -19,9 +22,9 @@ image: TODO
 
 NASA Earthdata has volumes of remote sensing data collected by [platforms in space, air, water, and land](https://www.earthdata.nasa.gov/data/platforms). Substantial suborbital data is collected from airborne sampling via airplanes, ground networks, and field sampling on land, boats, and buoys.
 
-Suborbital science teams are science teams that create and use suborbital data via NASA programs like [EVS-4](https://essp.nasa.gov/earth-pathfinder-quests/projects/earth-venture-suborbital-evs-4/). The science teams use suborbital data to ground-truth satellite data, as well as other awesome research like studying Arctic coastlines via the [FORTE mission](https://espo.nasa.gov/forte) and glaciers and ice sheets via the [Snow4Flow mission](https://snow4flow.lpl.arizona.edu/).
+Suborbital science teams are teams that create and use suborbital data via NASA programs like [EVS-4](https://essp.nasa.gov/earth-pathfinder-quests/projects/earth-venture-suborbital-evs-4/). The science teams use suborbital data to ground-truth satellite data, as well as to conduct other awesome research like studying Arctic coastlines via the [FORTE mission](https://espo.nasa.gov/forte) and glaciers and ice sheets via the [Snow4Flow mission](https://snow4flow.lpl.arizona.edu/).
 
-Suborbital teams connect with NASA Distributed Active Archive Center (DAAC) staff at both the beginning and the end of the data cycle, and receive additional support from other NASA centers and NASA Headquarters (HQ). The science teams design and run the missions to collect the data using planes, boats, etc, and then archive the data in the DAACs. Then, they also retrieve the data from the DAACs for their analyses, meaning they are relying on the DAACs for the processing as well as storage and distribution. Thus, relationships with science teams and DAACs are very important for effective collaboration and communication, as well as for establishing standards and common workflows.
+Suborbital teams connect with NASA Distributed Active Archive Center (DAAC) staff at both the beginning and the end of the data cycle, and receive additional support from other NASA centers and NASA Headquarters (HQ). The science teams design and run the missions to collect the data using planes, boats, etc, and then archive the data in the DAACs. Then, they also retrieve the data from the DAACs for their analyses, meaning they are relying on the DAACs for processing as well as storage and distribution. Thus, relationships with science teams and DAACs are very important for effective collaboration and communication, as well as for establishing standards and common workflows.
 
 Staff at many NASA DAACs work with science teams to archive and use suborbital data, including:
 
@@ -33,9 +36,9 @@ Staff at many NASA DAACs work with science teams to archive and use suborbital d
 -   Ocean Biology [OB.DAAC](https://www.earthdata.nasa.gov/centers/ob-daac)
 -   Physical Oceanography [PO.DAAC](https://www.earthdata.nasa.gov/centers/po-daac)
 
-Our NASA Openscapes Mentor Community have been collaborating across the DAACs tosupport Earthdata users and doing so efficiently and with less maintenance burden, while solving previously unseen gaps, together and openly. NASA Openscapes Mentors have created “go-to” resources for staff and users using NASA Earthdata – such as the `earthaccess` python library and tutorials in the [Earthdata Cloud Cookbook](NASA Openscapes Mentors have created “go-to” resources for staff and users using NASA Earthdata – such as the earthaccess python library and tutorials in the Earthdata Cloud Cookbook.). Many other tools and resources have originated from these cross-agency Openscapes relationships with the DAACs, such as [VITALS](https://nasa.github.io/VITALS/), which has developed [specific airborne tools](https://nasa.github.io/VITALS/python/Finding_Coincident_Airborne_and_Orbital_Data.html).
+Our NASA Openscapes Mentor Community has been collaborating across the DAACs to support Earthdata users and doing so efficiently and with less maintenance burden, while closing previously unseen gaps, together and openly. NASA Openscapes Mentors have created “go-to” resources for staff and users using NASA Earthdata – such as the [`earthaccess`](https://earthaccess.readthedocs.io/en/stable/) python library and tutorials in the [Earthdata Cloud Cookbook](NASA%20Openscapes%20Mentors%20have%20created%20“go-to”%20resources%20for%20staff%20and%20users%20using%20NASA%20Earthdata%20–%20such%20as%20the%20earthaccess%20python%20library%20and%20tutorials%20in%20the%20Earthdata%20Cloud%20Cookbook.). Many other tools and resources have originated from these cross-agency Openscapes relationships with the DAACs, such as [VITALS](https://nasa.github.io/VITALS/), which has developed [specific airborne tools](https://nasa.github.io/VITALS/python/Finding_Coincident_Airborne_and_Orbital_Data.html).
 
-In our NASA Openscapes Mentor Community, most of the DAACs listed above that are supporting suborbital work have been consistent contributors in past five years. However, we have not specifically focused on suborbital data users or growing the Mentor community focused on suborbital user support. Our goal in 2026 is to increase that specific support for NASA suborbital science teams to develop reproducible workflows. In March, we are thrilled to welcome [Ronny Hernández Mora](https://ronnyale.com/) to the Openscapes core team to support this work! Ronny works at the intersection of Earth data, open and reproducible workflows, and has spent the last past eight years teaching professionals and researchers in industry and academia how to adopt collaborative, open, and maintainable workflows in real-world contexts.
+In this Mentor Community, most of the DAACs listed above that are supporting suborbital work have been consistent contributors over the past five years. However, we have not specifically focused on suborbital data users or growing the Mentor community focused on suborbital user support. Our goal in 2026 is to increase specific support for NASA suborbital science teams to develop reproducible workflows. In March, we are thrilled to welcome [Ronny Hernández Mora](https://ronnyale.com/) to the Openscapes core team to support this work! Ronny works at the intersection of Earth data, open and reproducible workflows, and has spent the last past eight years teaching professionals and researchers in industry and academia how to adopt collaborative, open, and maintainable workflows in real-world contexts.
 
 Below is our planned approach from our proposal, presented through POP: Purpose, Outcomes, Process.
 
@@ -51,13 +54,13 @@ Suborbital science teams will create reusable open source notebooks (Jupyter, Qu
 
 This work will be aligned with NASA HQ priorities to identify and meet suborbital teams, understand goals, progress, tooling, and needs. The following are distinct but overlapping activities: engage • empower • amplify.
 
-1.  **Engaging suborbital science teams to help build a community.** Suborbital teams are already meeting in smaller sub-groups, perhaps based on mission or a specific field; and we will strengthen these relationships further as a cross-DAAC community. We will onboard new NASA Mentors from NASA's SoAR (Suborbital Archive Readiness) Team and other parts of NASA to collaborate across the agency to support science teams.
-2.  **Empowering suborbital science teams involves leading a Notebook Clinic** that will be remote, cohort-based, and designed for their needs. Lessons will focus on developing reproducible workflows with Jupyter Notebooks, Quarto, and GitHub, using the [earthaccess](https://earthaccess.readthedocs.io/en/stable/) python library, and writing documentation that focuses on reuse and onboarding others to these workflows.
-3.  **Amplifying the work of suborbital science teams involves bringing them into the fold of the NASA Openscapes Flywheel, along with additional NASA center staff.** By connecting users (science teams) and NASA Openscapes Mentors and building skills and relationships together, data access issues will be surfaced for NASA development teams (e.g. earthaccess, tutorials, cloud optimization).
+1.  **Engaging suborbital science teams to help build a community.** Suborbital teams are already meeting in smaller sub-groups, perhaps based on mission or a specific field; we will strengthen these relationships further as a cross-DAAC community. We will onboard new NASA Openscapes Mentors from NASA's SoAR (Suborbital Archive Readiness) Team and other parts of NASA to collaborate across the agency to support science teams.
+2.  **Empowering suborbital science teams involves leading a Notebook Clinic** that will be remote, cohort-based, and designed for their needs. Lessons will focus on developing reproducible workflows with Jupyter Notebooks, Quarto, and GitHub, using the `earthaccess` python library, and writing documentation that focuses on reuse and onboarding others to these workflows.
+3.  **Amplifying the work of suborbital science teams involves bringing them into the fold of the NASA Openscapes Flywheel, along with additional NASA center staff.** By connecting users (science teams) and NASA Openscapes Mentors and building skills and relationships together, data access issues will be surfaced for NASA development teams (e.g. `earthaccess`, tutorials, cloud optimization).
 
 ### Methodology
 
-We will follow the NASA Openscapes Flywheel mechanism (Robinson & Lowndes 2022, <https://eartharxiv.org/repository/view/4560>) to facilitate and scale open source practices (e.g. from groups like [Pangeo](https://pangeo.io/), [rOpenSci](https://ropensci.org/), [The Carpentries](https://carpentries.org/)):
+We will follow the NASA Openscapes Flywheel mechanism [@robinson2022] to facilitate and scale open source practices (e.g. from groups like [Pangeo](https://pangeo.io/), [rOpenSci](https://ropensci.org/), [The Carpentries](https://carpentries.org/)):
 
 -   **To engage the suborbital community** we will reuse and grow from what works from the last five years of building the NASA Openscapes Mentor community, and connecting to community momentum at NASA. This will not happen in a vacuum, but coordinating with other NASA groups takes time. We know scientists and NASA staff are at the same time busy and feeling stuck+alone, and not knowing where to ask for help. This work involves:
 
@@ -69,13 +72,13 @@ We will follow the NASA Openscapes Flywheel mechanism (Robinson & Lowndes 2022, 
 
     -   In Coworking meetings we teach and role-model open facilitation and documentation using the same tools that science teams use for analysis (ex: Google Docs, Quarto, Jupyter Notebooks, GitHub) as well as psychological safety and social infrastructure that underpins collaborative science. We empower partners by providing templates and processes (emails, agendas, checklists, etc.) that they just need to tweak and deploy to start off a new thing (for example, regular science team meetings). And we engage them in the broader open community too (for example from NOAA Fisheries Openscapes Mentors: "I need to make this report, or methods manual". "Oh hey, Here's one I made. I'll turn it into a template on GitHub." And "I've made project management checklists, see if this would help you".)
 
-    -   This will build trust so they would prioritize time for the Clinic, as we design the Clinic to fit their needs. 
+    -   This work will build trust so they would prioritize time for the Clinic, as we design the Clinic to fit their needs.
 
 -   **To empower teams through the Notebook Clinic** we will draw from what we’ve learned from leading [27 Champions Cohorts](https://openscapes.org/initiatives#champions-program) (Openscapes’ flagship program where we have helped 175 teams make real change around reproducible and transparent workflows). We will design the Clinic for what best meets suborbital team needs, likely forking the structure of the Champions program: 10 weeks, 1.5 hours each week, with alternating weeks being lesson-based and hands-on work-based. Our approach includes:
 
     -   This Clinic will not focus on specific datasets, but rather the methods for writing reusable analyses that combine different datasets, using open source tooling and practices. After the Notebook Clinic we will develop a process to add suborbital teams’ new tutorials to the NASA Earthdata Cookbook for increased discoverability and reuse.
 
-    -   Focusing on developing relationships with potential participants (above) as well as developing the Clinic itself. The Clinic will build on the rhythm from Coworking and be a friendly place to learn. We will invite suborbital teams to join via a short nomination form, which Openscapes has found to both increase buy-in and decrease attrition. 
+    -   Focusing on developing relationships with potential participants (engagement above) as well as developing the Clinic itself. The Clinic will build on the rhythm from Coworking and be a friendly place to learn. We will invite suborbital teams to join via a short nomination form, which Openscapes has found to both increase buy-in and decrease attrition.
 
     -   Prioritizing learning and engagement by controlling the size of the cohort. We will keep the cohort to a maximum of 35 people; we have found this is best for learning, since it enables active engagement and any bigger starts feeling like a webinar. 
 
@@ -84,8 +87,6 @@ We will follow the NASA Openscapes Flywheel mechanism (Robinson & Lowndes 2022, 
     -   We will teach with an open facilitation approach, drawing on our experience as Carpentries certified instructors, using agendas for live shared note taking, and having multiple channels for asking help, including asynchronous chat and synchronous breakout rooms.
 
     -   Notebook Clinic lessons will be added to the Earthdata Cloud Cookbook for discoverability and reuse.
-
-<!-- -->
 
 -   **To amplify suborbital teams and grow the Mentor community** we will create opportunities to share work, both through talks and through a mechanism for adding contributions to the Earthdata Cloud Cookbook. This involves:
 
