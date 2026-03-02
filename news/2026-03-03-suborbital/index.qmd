@@ -17,7 +17,7 @@ image: TODO
 
 ## NASA suborbital science and Openscapes proposed support
 
-NASA Earthdata has volumes of remote sensing data collected by [platforms in space, air, water, and land](https://www.earthdata.nasa.gov/data/platforms). Substantial suborbital data is collected from from airborne sampling via airplanes, ground networks, and field sampling on land, boats, and buoys.
+NASA Earthdata has volumes of remote sensing data collected by [platforms in space, air, water, and land](https://www.earthdata.nasa.gov/data/platforms). Substantial suborbital data is collected from airborne sampling via airplanes, ground networks, and field sampling on land, boats, and buoys.
 
 Suborbital science teams are science teams that create and use suborbital data via NASA programs like [EVS-4](https://essp.nasa.gov/earth-pathfinder-quests/projects/earth-venture-suborbital-evs-4/). The science teams use suborbital data to ground-truth satellite data, as well as other awesome research like studying Arctic coastlines via the [FORTE mission](https://espo.nasa.gov/forte) and glaciers and ice sheets via the [Snow4Flow mission](https://snow4flow.lpl.arizona.edu/).
 
