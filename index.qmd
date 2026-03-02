@@ -14,6 +14,8 @@ We are influenced and inspired by many leaders and community organizers, particu
 
 **News and Upcoming Events:**
 
+-   [Supporting NASA suborbital science teams to develop reproducible workflows](news/2026-03-03-suborbital/)
+
 -   [Openscapes Newsletter, Winter 2026](news/2026-01-28-news-jan-2026/)
 
 -   Recent workshops
