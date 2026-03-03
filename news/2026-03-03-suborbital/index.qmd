@@ -56,7 +56,7 @@ This work will be aligned with NASA HQ priorities to identify and meet suborbita
 
 1.  **Engaging suborbital science teams to help build a community.** Suborbital teams are already meeting in smaller sub-groups, perhaps based on mission or a specific field; we will strengthen these relationships further as a cross-DAAC community. We will onboard new NASA Openscapes Mentors from NASA's SoAR (Suborbital Archive Readiness) Team and other parts of NASA to collaborate across the agency to support science teams.
 2.  **Empowering suborbital science teams involves leading a Notebook Clinic** that will be remote, cohort-based, and designed for their needs. Lessons will focus on developing reproducible workflows with Jupyter Notebooks, Quarto, and GitHub, using the `earthaccess` python library, and writing documentation that focuses on reuse and onboarding others to these workflows.
-3.  **Amplifying the work of suborbital science teams involves bringing them into the fold of the NASA Openscapes Flywheel, along with additional NASA center staff.** By connecting users (science teams) and NASA Openscapes Mentors and building skills and relationships together, data access issues will be surfaced for NASA development teams (e.g. `earthaccess`, tutorials, cloud optimization).
+3.  **Amplifying the work of suborbital science teams involves bringing them into the fold of the NASA Openscapes Flywheel, along with additional NASA center staff.** By connecting users (science teams) and NASA Openscapes Mentors and building skills and relationships together, data access issues will be surfaced for NASA development teams (e.g. `earthaccess`, Cookbook tutorials, cloud optimization).
 
 ### Methodology
 
