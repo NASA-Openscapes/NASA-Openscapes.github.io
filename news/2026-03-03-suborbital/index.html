@@ -6,11 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Openscapes">
-<meta name="dcterms.date" content="2024-12-09">
-<meta name="description" content="Presentations from the Openscapes community - NASA Earthdata, NOAA Fisheries, EPA, and the Openscapes Team - at the American Geophysical Union (AGU) 2024 conference">
+<meta name="author" content="Julie Lowndes">
+<meta name="dcterms.date" content="2026-03-03">
 
-<title>AGU: What’s Next for Science – NASA Openscapes</title>
+<title>Supporting NASA suborbital science teams to develop reproducible workflows – NASA Openscapes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -158,10 +177,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#monday-dec-09" id="toc-monday-dec-09" class="nav-link active" data-scroll-target="#monday-dec-09">Monday Dec 09</a></li>
-  <li><a href="#wednesday-dec-11" id="toc-wednesday-dec-11" class="nav-link" data-scroll-target="#wednesday-dec-11">Wednesday Dec 11</a></li>
-  <li><a href="#friday-dec-13" id="toc-friday-dec-13" class="nav-link" data-scroll-target="#friday-dec-13">Friday Dec 13</a></li>
-  <li><a href="#saturday-dec-14" id="toc-saturday-dec-14" class="nav-link" data-scroll-target="#saturday-dec-14">Saturday Dec 14</a></li>
+  <li><a href="#nasa-suborbital-science-and-openscapes-proposed-support" id="toc-nasa-suborbital-science-and-openscapes-proposed-support" class="nav-link active" data-scroll-target="#nasa-suborbital-science-and-openscapes-proposed-support">NASA suborbital science and Openscapes proposed support</a></li>
+  <li><a href="#purpose" id="toc-purpose" class="nav-link" data-scroll-target="#purpose">Purpose</a></li>
+  <li><a href="#outcomes" id="toc-outcomes" class="nav-link" data-scroll-target="#outcomes">Outcomes</a></li>
+  <li><a href="#process" id="toc-process" class="nav-link" data-scroll-target="#process">Process</a>
+  <ul class="collapse">
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
+  </ul></li>
   </ul>
 </nav>
 </nav>
@@ -174,21 +196,13 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">AGU: What’s Next for Science</h1>
+<h1 class="title">Supporting NASA suborbital science teams to develop reproducible workflows</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">event</div>
-    <div class="quarto-category">conference</div>
+    <div class="quarto-category">blog</div>
     <div class="quarto-category">nasa-framework</div>
-    <div class="quarto-category">noaa-fisheries</div>
-    <div class="quarto-category">pathways</div>
   </div>
   </div>
 
-<div>
-  <div class="description">
-    Presentations from the Openscapes community - NASA Earthdata, NOAA Fisheries, EPA, and the Openscapes Team - at the American Geophysical Union (AGU) 2024 conference
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -196,14 +210,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Openscapes </p>
+             <p>Julie Lowndes <a href="https://orcid.org/0000-0003-1682-3872" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 9, 2024</p>
+      <p class="date">March 3, 2026</p>
     </div>
   </div>
   
@@ -215,36 +229,98 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><em>Cross-posted at <a href="https://openscapes.org/events">openscapes.org/events</a>, <a href="https://nmfs-openscapes.github.io/blog">nmfs-openscapes.github.io/blog</a>, <a href="https://nasa-openscapes.github.io/news.html">nasa-openscapes.github.io/news</a>, <a href="https://openscapes.github.io/pathways-to-open-science/blog.html">openscapes.github.io/pathways-to-open-science/blog</a></em></p>
+<p><em>In 2026 we are proud to continue supporting NASA teams, building from our work with the <a href="https://nasa-openscapes.github.io/mentors">NASA Openscapes Mentors</a> from across the NASA Distributed Active Archive Centers (DAACs) over the past five years. NASA Openscapes Mentors support scientists using data from satellite and suborbital missions — with suborbital meaning missions via airplanes, ground networks, and field sampling on land, boats, and buoys. This year we have additional focus supporting suborbital science teams to develop reproducible workflows and growing the NASA Openscapes Mentor community supporting suborbital data.</em></p>
+<p><em>Cross-posted at <a href="https://openscapes.org/blog">openscapes.org/blog</a>, <a href="https://nasa-openscapes.github.io/news">nasa-openscapes.github.io/news</a></em>.</p>
 <hr>
-<p>At this year’s <a href="https://www.agu.org/annual-meeting">AGU Fall Meeting</a>, the Openscapes team and mentors and collaborators from across different agencies - NASA Earthdata, NOAA Fisheries, EPA, UC Berkeley - will be giving talks and posters and participating in hackathons. Below we list just a few highlights. For a full list and up-to-date information, see our <a href="https://github.com/NASA-Openscapes/2024-agu-planning/">AGU 2024 planning repo</a> and the <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Home/0">AGU Searchable Schedule</a>. Have a great Fall Meeting and we hope to connect with you there!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="agu-fall-2024.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="AGU 2024 meeting logo white text on blue background says AGU24 Washington, DC | 9-13 December 2024 above a teal horizontal line, then text What's Next for Science" width="300"></p>
-</figure>
+<section id="nasa-suborbital-science-and-openscapes-proposed-support" class="level2">
+<h2 class="anchored" data-anchor-id="nasa-suborbital-science-and-openscapes-proposed-support">NASA suborbital science and Openscapes proposed support</h2>
+<p>NASA Earthdata has volumes of remote sensing data collected by <a href="https://www.earthdata.nasa.gov/data/platforms">platforms in space, air, water, and land</a>. Substantial suborbital data is collected from airborne sampling via airplanes, ground networks, and field sampling on land, boats, and buoys.</p>
+<p>Suborbital science teams are teams that create and use suborbital data via NASA programs like <a href="https://essp.nasa.gov/earth-pathfinder-quests/projects/earth-venture-suborbital-evs-4/">EVS-4</a>. The science teams use suborbital data to ground-truth satellite data, as well as to conduct other awesome research like studying Arctic coastlines via the <a href="https://espo.nasa.gov/forte">FORTE mission</a> and glaciers and ice sheets via the <a href="https://snow4flow.lpl.arizona.edu/">Snow4Flow mission</a>.</p>
+<p>Suborbital teams connect with NASA Distributed Active Archive Center (DAAC) staff at the beginning and the end of the data cycle, and receive additional support from other NASA centers and NASA Headquarters (HQ). The science teams design and run the missions to collect the data using planes, boats, etc, and then archive the data in the DAACs. Then, they also retrieve the data from the DAACs for their analyses, meaning they are relying on the DAACs for the processing as well as storage and distribution. Thus, relationships with science teams and DAACs are very important for effective collaboration and communication, as well as for establishing standards and common workflows.</p>
+<p>Staff at many NASA DAACs work with science teams to archive and use suborbital data, including:</p>
+<ul>
+<li>Oak Ridge National Laboratory <a href="https://www.earthdata.nasa.gov/centers/ornl-daac">ORNL</a>,</li>
+<li>National Snow and Ice Data Center <a href="https://www.earthdata.nasa.gov/centers/nsidc-daac">NSIDC</a>,</li>
+<li>Atmospheric Science Data Center <a href="https://asdc.larc.nasa.gov/">ASDC</a>,</li>
+<li>Global Hydrometeorology Resource Center <a href="https://www.earthdata.nasa.gov/centers/ghrc-daac">GHRC</a>,</li>
+<li>Land Processes <a href="https://www.earthdata.nasa.gov/centers/lp-daac">LP DAAC</a>,</li>
+<li>Ocean Biology <a href="https://www.earthdata.nasa.gov/centers/ob-daac">OB.DAAC</a>,</li>
+<li>Physical Oceanography <a href="https://www.earthdata.nasa.gov/centers/po-daac">PO.DAAC</a></li>
+</ul>
+<p>Our NASA Openscapes Mentor Community has been collaborating across the DAACs to support Earthdata users and doing so efficiently and with less maintenance burden, while closing previously unseen gaps, together and openly. NASA Openscapes Mentors have created “go-to” resources for staff and users using NASA Earthdata – such as the <code>earthaccess</code> python library and tutorials in the <a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook">Earthdata Cloud Cookbook</a>. Many other tools and resources have originated from these cross-agency Openscapes relationships with the DAACs, such as <a href="https://nasa.github.io/VITALS/">VITALS</a>, which has developed <a href="https://nasa.github.io/VITALS/python/Finding_Coincident_Airborne_and_Orbital_Data.html">specific airborne tools</a>.</p>
+<p>In our NASA Openscapes Mentor Community, most of the DAACs listed above that are supporting suborbital work have been consistent contributors over the past five years. Our goal in 2026 is to increase specific support for NASA suborbital science teams to develop reproducible workflows. In March, we are thrilled to welcome <a href="https://ronnyale.com/">Ronny Hernández Mora</a> to the Openscapes core team to support this work! Ronny works at the intersection of Earth data, open and reproducible workflows, and has spent the last past eight years teaching professionals and researchers in industry and academia how to adopt collaborative, open, and maintainable workflows in real-world contexts.</p>
+<p>Below is our planned approach from our proposal, presented through POP: Purpose, Outcomes, Process.</p>
+</section>
+<section id="purpose" class="level2">
+<h2 class="anchored" data-anchor-id="purpose">Purpose</h2>
+<p>The purpose is to develop user skills and reproducible workflows for using NASA suborbital data. This work will help communities using NASA Earthdata and open science more broadly, as well as growing the NASA Openscapes community in a new focus area. This work is in collaboration with the <a href="https://cryointhecloud.com/">CryoCloud</a> (StratusGeo) Community, which is an exciting continuation of the JupyterHub community work we have been collaborating on with them with in the past years.</p>
+</section>
+<section id="outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="outcomes">Outcomes</h2>
+<p>Suborbital science teams will create reusable open source notebooks (Jupyter, Quarto, GitHub) to analyze their data archived at the NASA DAACs. They can learn no matter where they are starting from, using other existing data or for planning purposes if they do not yet have their own missions data in hand. This may mean learning new skills (coding, version control, documenting and collaborating for reuse), and working with colleagues in new ways as they develop confidence in the open ecosystem to continue their work. At the same time, Openscapes will increase the Mentor capacity of staff at NASA centers by onboarding suborbital-focused user support staff, and also by engaging operational and communications staff, and program managers.</p>
+</section>
+<section id="process" class="level2">
+<h2 class="anchored" data-anchor-id="process">Process</h2>
+<p>This work will be aligned with NASA HQ priorities to identify and meet suborbital teams, understand goals, progress, tooling, and needs. The following are distinct but overlapping activities: engage • empower • amplify.</p>
+<ol type="1">
+<li><strong>Engaging suborbital science teams to help build a community.</strong> Suborbital teams are already meeting in smaller sub-groups, perhaps based on mission or a specific field; we will strengthen these relationships further as a cross-DAAC community. We will onboard new NASA Openscapes Mentors from NASA’s SoAR (Suborbital Archive Readiness) Team and other parts of NASA to collaborate across the agency to support science teams.</li>
+<li><strong>Empowering suborbital science teams involves leading a Notebook Clinic</strong> that will be remote, cohort-based, and designed for their needs. Lessons will focus on developing reproducible workflows with Jupyter Notebooks, Quarto, and GitHub, using the <code>earthaccess</code> python library, and writing documentation that focuses on reuse and onboarding others to these workflows.</li>
+<li><strong>Amplifying the work of suborbital science teams involves bringing them into the fold of the NASA Openscapes Flywheel, along with additional NASA center staff.</strong> By connecting users (science teams) and NASA Openscapes Mentors and building skills and relationships together, data access issues will be surfaced for NASA development teams (e.g.&nbsp;<code>earthaccess</code>, Cookbook tutorials, cloud optimization).</li>
+</ol>
+<section id="methodology" class="level3">
+<h3 class="anchored" data-anchor-id="methodology">Methodology</h3>
+<p>We will follow the NASA Openscapes Flywheel mechanism <span class="citation" data-cites="robinson2022">(<a href="#ref-robinson2022" role="doc-biblioref">Robinson and Lowndes 2022</a>)</span> to facilitate and scale open source practices (e.g.&nbsp;from groups like <a href="https://pangeo.io/">Pangeo</a>, <a href="https://ropensci.org/">rOpenSci</a>, <a href="https://carpentries.org/">The Carpentries</a>):</p>
+<ul>
+<li><p><strong>To engage the suborbital community</strong> we will reuse and grow from what works from the last five years of building the NASA Openscapes Mentor community, and connect to community momentum at NASA. This will not happen in a vacuum, but coordinating with other NASA groups takes time. We know scientists and NASA staff are at the same time busy and feeling stuck+alone, and not knowing where to ask for help. This work involves:</p>
+<ul>
+<li><p>Joining suborbital scientists at existing meetings already ongoing, getting a sense of the group, giving talks, asking questions and building relationships, sending followup messages, having open documentation of activities, scheduling 1:1 conversations, seeking out people at conferences; all to welcome and support scientists with busy schedules.</p></li>
+<li><p>Meeting with and onboarding new NASA Mentors from NASA’s SoAR (Suborbital Archive Readiness) Team and other parts of NASA to collaborate across the agency to support science teams</p></li>
+<li><p>Contributing to the Earthdata Cloud Cookbook to support Mentors in their workshops and tutorial goals.</p></li>
+<li><p>Hosting regular “Coworking” learning meetings with suborbital science teams where we will increasingly fold in NASA center staff to learn and build relationships with suborbital users. These are a light-weight way where they connect and help solve common challenges. This will be a chance to help find what is common (i.e.&nbsp;airborne instrumentation differs but they all have flight tracks; all need to learn version control and write metadata), and build together, always with a “future us” and reuse mindset.</p></li>
+<li><p>Teaching and role-modeling open facilitation and documentation using the same tools that science teams use for analysis (ex: Google Docs, Quarto, Jupyter Notebooks, GitHub) as well as psychological safety and social infrastructure that underpins collaborative science. We empower partners by providing templates and processes (emails, agendas, checklists, etc.) that they just need to tweak and deploy to start off a new thing (for example, regular science team meetings). And we engage them in the broader open community too (for example from NOAA Fisheries Openscapes Mentors: “I need to make this report, or methods manual”. “Oh hey, Here’s one I made. I’ll turn it into a template on GitHub.” And “I’ve made project management checklists, see if this would help you”.)</p></li>
+<li><p>Building trust with science teams so they would prioritize time for the Clinic, as we design the Clinic to fit their needs.</p></li>
+</ul></li>
+<li><p><strong>To empower teams through the Notebook Clinic</strong> we will draw from what we’ve learned from leading <a href="https://openscapes.org/initiatives#champions-program">27 Champions Cohorts</a> (Openscapes’ flagship program where we have helped 175 teams make real change around reproducible and transparent workflows). We will design the Clinic for what best meets suborbital team needs, likely forking the structure of the Champions program: 10 weeks, 1.5 hours each week, with alternating weeks being lesson-based and hands-on work-based. Our approach includes:</p>
+<ul>
+<li><p>Not focusing on specific datasets, but rather the methods for writing reusable analyses that combine different datasets, using open source tooling and practices. After the Notebook Clinic we will develop a process to add suborbital teams’ new tutorials to the NASA Earthdata Cookbook for increased discoverability and reuse.</p></li>
+<li><p>Focusing on developing relationships with potential participants (engagement above) as well as developing the Clinic itself. The Clinic will build on the rhythm from Coworking and be a friendly place to learn. We will invite suborbital teams to join via a short nomination form, which Openscapes has found to both increase buy-in and decrease attrition.</p></li>
+<li><p>Prioritizing learning and engagement by controlling the size of the cohort. We will keep the cohort to a maximum of 35 people; we have found this is best for learning, since it enables active engagement and any bigger starts feeling like a webinar.&nbsp;</p></li>
+<li><p>Developing lessons to focus on building code-based reusable workflows with Jupyter Notebooks, Quarto, and GitHub, using the <code>earthaccess</code> python library and other open source tools, and writing documentation that focuses on onboarding. We will develop documentation, tutorials, and templates the teams can reuse.</p></li>
+<li><p>Teaching with an open facilitation approach, drawing on our experience as Carpentries certified instructors, using agendas for live shared note taking, and having multiple channels for asking help, including asynchronous chat and synchronous breakout rooms.</p></li>
+<li><p>Adding Notebook Clinic lessons to the Earthdata Cloud Cookbook for discoverability and reuse.</p></li>
+</ul></li>
+<li><p><strong>To amplify suborbital teams and grow the Mentor community</strong> we will create opportunities to share work, both through talks and through a mechanism for adding contributions to the Earthdata Cloud Cookbook. This involves:</p>
+<ul>
+<li><p>“Defaulting to open” as always: open documentation, contributing to the NASA Earthdata Cookbook, and storytelling via blogs and talks will center this work.</p></li>
+<li><p>Giving talks to different groups, particularly with NASA staff, including NASA Openscapes’ network of open source communities, industry, academia, other government agencies.&nbsp;</p></li>
+<li><p>Connecting suborbital teams to Openscapes’ network of engineers, teachers, managers, scientists, facilitators - we can help people get the help they need, and help their work get in front of people who need to hear about it.</p></li>
+<li><p>Onboarding new NASA Mentors from NASA’s SoAR (Suborbital Archive Readiness) Team and other parts of NASA to collaborate across DAACs and across the agency to support science teams.</p></li>
+<li><p>Improving documentation and onboarding for suborbital teams (and anyone) to contribute workflows to the NASA Earthdata Cloud Cookbook.</p></li>
+<li><p>Throughout, sharing and connecting suborbital science teams with others at NASA, CryoCloud, <a href="https://nmfs-openscapes.github.io/">NOAA Fisheries Openscapes</a> and the broader open science community so they become confident contributors to further support science with NASA Earthdata.</p></li>
+</ul></li>
+</ul>
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-robinson2022" class="csl-entry" role="listitem">
+Robinson, Erin, and Julia S. Stewart Lowndes. 2022. <span>“The Openscapes Flywheel: A Framework for Managers to Facilitate and Scale Inclusive Open Science Practices,”</span> October. https://doi.org/<a href="https://doi.org/10.31223/X5CQ02">https://doi.org/10.31223/X5CQ02</a>.
 </div>
-<section id="monday-dec-09" class="level3">
-<h3 class="anchored" data-anchor-id="monday-dec-09">Monday Dec 09</h3>
-<p><strong>Poster - a collaboration across NASA DAACs</strong>: Supporting NASA Earthdata users in the Cloud: NASA Openscapes JupyterHub and User Onboarding &amp; Fledging. Contact: Julie Lowndes (Openscapes) <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1708480">AGU link</a></p>
-<p><strong>Talk - a collaboration across NASA, NOAA Fisheries, and UC Berkeley</strong>: py-rocket: A Docker image to promote cross-language (Python, R) collaboration across broad user platforms for cloud computing in the earth sciences. Contact: Eli Holmes (NOAA Fisheries), Carl Boettiger (UC Berkeley), Luis López (NASA NSIDC). <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1619232">AGU link</a></p>
-<p><strong>Poster - following Openscapes’ <a href="https://openscapes.org/blog/2024-10-03-openscapes-recognized-white-house/">award</a> at the White House</strong>: Including more solutions and more solvers via actionable open science. Contact: Julie Lowndes (Openscapes), Luis López (NASA NSIDC), Eli Holmes (NOAA Fisheries), Ileana Fenwick (Openscapes), Erin Robinson (Metadata Game Changers). <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1709763">AGU link</a>.</p>
-</section>
-<section id="wednesday-dec-11" class="level3">
-<h3 class="anchored" data-anchor-id="wednesday-dec-11">Wednesday Dec 11</h3>
-<p><strong>Poster - a collaboration across NASA DAACs,</strong> <strong>University of Alaska, University of New Hampshire, Development Seed, Openscapes</strong>: The earthaccess Python Library: Awesome Discovery and Access of NASA Earthdata. Contact: Amy Steiker (NASA NSIDC). <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1706883">AGU link</a>.</p>
-</section>
-<section id="friday-dec-13" class="level3">
-<h3 class="anchored" data-anchor-id="friday-dec-13">Friday Dec 13</h3>
-<p><strong>Talk - Openscapes at the EPA</strong>: Cultivating open and collaborative data science at a U.S. EPA research center. Contact: Gayle Hagler (EPA). <a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1621791">AGU link</a>.</p>
-</section>
-<section id="saturday-dec-14" class="level3">
-<h3 class="anchored" data-anchor-id="saturday-dec-14">Saturday Dec 14</h3>
-<p><strong>Hackday</strong>: We’ll join Pangeo’s hackday to meet and work with other open science/ cloud/ geospatial folks! <a href="https://discourse.pangeo.io/t/post-agu-pangeo-hack-day-working-meeting-december-14-2024-in-washington-dc/4440">Pangeo link</a>.</p>
-
-
-</section>
-
-</main> <!-- /main -->
+</div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{lowndes2026,
+  author = {Lowndes, Julie},
+  title = {Supporting {NASA} Suborbital Science Teams to Develop
+    Reproducible Workflows},
+  date = {2026-03-03},
+  url = {https://nasa-openscapes.github.io/news/2026-03-03-suborbital/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-lowndes2026" class="csl-entry quarto-appendix-citeas" role="listitem">
+Lowndes, Julie. 2026. <span>“Supporting NASA Suborbital Science Teams to
+Develop Reproducible Workflows.”</span> March 3, 2026. <a href="https://nasa-openscapes.github.io/news/2026-03-03-suborbital/">https://nasa-openscapes.github.io/news/2026-03-03-suborbital/</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
