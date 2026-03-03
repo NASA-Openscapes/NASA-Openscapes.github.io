@@ -24,11 +24,7 @@ NASA Earthdata has volumes of remote sensing data collected by [platforms in spa
 
 Suborbital science teams are teams that create and use suborbital data via NASA programs like [EVS-4](https://essp.nasa.gov/earth-pathfinder-quests/projects/earth-venture-suborbital-evs-4/). The science teams use suborbital data to ground-truth satellite data, as well as to conduct other awesome research like studying Arctic coastlines via the [FORTE mission](https://espo.nasa.gov/forte) and glaciers and ice sheets via the [Snow4Flow mission](https://snow4flow.lpl.arizona.edu/).
 
-<<<<<<< HEAD
 Suborbital teams connect with NASA Distributed Active Archive Center (DAAC) staff at the beginning and the end of the data cycle, and receive additional support from other NASA centers and NASA Headquarters (HQ). The science teams design and run the missions to collect the data using planes, boats, etc, and then archive the data in the DAACs. Then, they also retrieve the data from the DAACs for their analyses, meaning they are relying on the DAACs for the processing as well as storage and distribution. Thus, relationships with science teams and DAACs are very important for effective collaboration and communication, as well as for establishing standards and common workflows.
-=======
-Suborbital teams connect with NASA Distributed Active Archive Center (DAAC) staff at both the beginning and the end of the data cycle, and receive additional support from other NASA centers and NASA Headquarters (HQ). The science teams design and run the missions to collect the data using planes, boats, etc, and then archive the data in the DAACs. Then, they also retrieve the data from the DAACs for their analyses, meaning they are relying on the DAACs for processing as well as storage and distribution. Thus, relationships with science teams and DAACs are very important for effective collaboration and communication, as well as for establishing standards and common workflows.
->>>>>>> 4f43cdabd15292a128c1d2fdc3fb603a58630bce
 
 Staff at many NASA DAACs work with science teams to archive and use suborbital data, including:
 
