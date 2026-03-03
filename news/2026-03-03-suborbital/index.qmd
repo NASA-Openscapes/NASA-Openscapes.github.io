@@ -67,6 +67,8 @@ We will follow the NASA Openscapes Flywheel mechanism [@robinson2022] to facilit
     -   Joining suborbital scientists at existing meetings already ongoing, getting a sense of the group, giving talks, asking questions and building relationships, sending followup messages, having open documentation of activities, scheduling 1:1 conversations, seeking out people at conferences; all to welcome and support scientists with busy schedules.
 
     -   Meeting with and onboarding new NASA Mentors from NASA's SoAR (Suborbital Archive Readiness) Team and other parts of NASA to collaborate across the agency to support science teams
+    
+    - Contributing to the Earthdata Cloud Cookbook to support Mentors in their workshops and tutorial goals. 
 
     -   Hosting regular “Coworking” learning meetings with suborbital science teams where we will increasingly fold in NASA center staff to learn and build relationships with suborbital users. These are a light-weight way where they connect and help solve common challenges. This will be a chance to help find what is common (i.e. airborne instrumentation differs but they all have flight tracks; all need to learn version control and write metadata), and build together, always with a “future us” and reuse mindset.
 
