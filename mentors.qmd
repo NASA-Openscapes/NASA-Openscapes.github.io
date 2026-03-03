@@ -8,62 +8,53 @@ description: |
 
 <br>
 
-**NASA Openscapes Mentors have created “go-to” resources for staff and users using NASA Earthdata – such as the `earthaccess` python library and tutorials in the Earthdata Cloud Cookbook.** Over the last four years, Mentors have developed these resources as a supportive community in response to teaching hundreds of NASA Earthdata users via workshops and events together, where they identify and rapidly respond to common needs then iterate through active use, documentation, and further teaching. Recent presentations showcasing this work is [Supporting NASA Earthdata users in the Cloud: NASA Openscapes onboarding & fledging](https://docs.google.com/presentation/d/1-TiPN8bfY6iDL5EVcEuCQSjqFMs3jPSX2MlNWA6no2E/edit#slide=id.g2eae202a90f_4_248) and [earthaccess: how to accelerate user value through open, collaborative development](https://docs.google.com/presentation/d/1D3C2_wBSHAPMNes0hLQHjaRuU_ifEzcKIvf3_H5rZGM/edit#slide=id.g269ad4ab477_0_691).
+**NASA Openscapes Mentors have created “go-to” resources for staff and users using NASA Earthdata – such as the `earthaccess` python library and tutorials in the Earthdata Cloud Cookbook.** Over the last five years, Mentors have developed these resources as a supportive community in response to teaching hundreds of NASA Earthdata users via workshops and events together, where they identify and rapidly respond to common needs then iterate through active use, documentation, and further teaching. Recent presentations showcasing this work are [Supporting NASA Earthdata users in the Cloud: NASA Openscapes onboarding & fledging](https://docs.google.com/presentation/d/1-TiPN8bfY6iDL5EVcEuCQSjqFMs3jPSX2MlNWA6no2E/edit#slide=id.g2eae202a90f_4_248) and [earthaccess: how to accelerate user value through open, collaborative development](https://docs.google.com/presentation/d/1D3C2_wBSHAPMNes0hLQHjaRuU_ifEzcKIvf3_H5rZGM/edit#slide=id.g269ad4ab477_0_691).
 
 Openscapes is a mechanism that can rapidly identify problems and bring people together to solve them. The NASA Openscapes Mentor community includes people across NASA Earth science data centers (DAACs) that work together to deliver work aligned with DAAC goals to enable science, enriched by collaborating with the open science community beyond NASA.
 
 # Current Activities
 
-Building from successes and momentum 2021-2024, in 2025 NASA Openscapes will continue teaching users and developing solutions for pain points, while we all grow as open science leaders. This is vital work to support the shift to Earthdata Cloud and to NASA's values for open science.
+Building from successes and momentum 2021-2025, in 2026 NASA Openscapes will continue teaching users and developing solutions for pain points, while we all grow as open science leaders. This is vital work to support the shift to Earthdata Cloud and to NASA's values for open science.
 
-## 2025 goals
+## 2026 goals
 
-Our 2025 focus is strengthening NASA networks between DAACs, missions, training programs, and applications, aligned with SPD-41a open science, as we continue to support users through developing skills and tools. 2025 goals were determined by Mentors during our Fall 2024 Mentors Retreat.
+In 2026, we continue to build on our work together over the past five years and focus on these interlinking goals. From April-May, Mentors are invited join NOAA Fisheries in our annual cross-agency Mentors coaching and leadership skill-building course "mentoring with a coach approach". We continue to meet weekly via mentors calls and coworking to surface and work on shared goals, organized in our [GitHub Project Board](https://github.com/orgs/NASA-Openscapes/projects/7/views/1).
 
-We will move forward on the following four interlinking goals. Below is a brief overview of the purpose, outcomes, and process of each, and how to join us.
+### 1. Earthdata Cookbooks - supporting web unification
 
-### 1. User support and co-development
+NASA Earthdata has a 5-year track record of successful collaborative tutorial governance through cross-DAAC "Cookbook" development, facilitated by Openscapes. NASA Earthdata's code-based tutorials — executable notebooks combining data access, code, and scientific context — are a critical resource for users and for enabling NASA’s cloud migration, Web Unification, and Earth Science to Action initiatives. This proven GitHub-based approach can serve as a foundational component of Web Unification's code-based tutorial needs while reducing maintenance burden across DAACs.
 
--   **Purpose**: Supporting users in the Cloud, which requires infrastructure and skills. Skills include mindset shifts, as well as new technical and collaboration skills. Infrastructure requires co-developing software and resources as well as providing a JupyterHub compute space for developing tutorials and teaching workshops, which we do in partnership with [2i2c](https://2i2c.org/). The goal is to "make once, use often", reusing materials and iterating and improving upon them as a distributed group of mentors who learn with, from, and for each other.
+This year we are focused on how to continue to improve this critical user support and how Mentors can provide their deep expertise and services for the current [NASA Web Unification](https://www.earthdata.nasa.gov/about/web-unification-project) project.
 
--   **Outcomes**: Users have a friendly onboarding experience using NASA Earthdata in the cloud. Users develop good practices for sustained work in the cloud, including parallelizing code, managing storage, and understanding cloud costs and options for "fledging" from our workshop Hub.
-    
--   **Process**: We lead well-planned, welcoming, user-designed teaching events in a variety of formats including in-person and online (hackathons, workshops, Champions Cohorts, Community Calls, conference sessions). To prepare for these events, we develop open documentation, slides, and tutorials that are available for reuse and remix; we host a JupyterHub compute space in partnership with 2i2c; we co-develop technical cloud technical infrastructure including scientific software docker images, user access administration, cost reports/tracking, and documentation of user stories. We develop together asynchronously and synchronously via hackdays and coworking.
-    - **To join teaching events**: Check our [News & Events page](/news.qmd) for registration, available in late summer.
-    - **To join hackdays/coworking**: Check our [Cloud infrastructure GitHub ](https://github.com/Openscapes/openscapes.cloud/discussions) to get involved in biweekly hackdays.
+### 2. `earthaccess` - growing the family
 
+`earthaccess` is a Python library that simplifies access to NASA Earth science data, turning complex authentication and data discovery into just a few lines of code. It has become essential infrastructure for researchers working with Earth observation data, whether they work in the cloud or locally. In 2025 we were [awarded ESIP’s FUNding Friday to host a hackday](https://nasa-openscapes.github.io/news/2026-02-04-earthaccess-dec15-hackday/) and build a prototype and roadmap, for “Growing the Family” by integrating earthaccess with non-NASA Earth science data (NOAA, USGS, Copernicus, and more!). This year, we will continue to expand the `earthaccess` community, contributors, and expand its reach beyond NASA to other Earth science data providers.
 
-### 2. `earthaccess` python library
+[Learn more and get involved!](https://earthaccess.readthedocs.io/en/stable/contributing/our-meet-ups/)
 
--   **Purpose**: To continue growth and sustainability of this python library that is used by 100's of projects and 1000's of users for accessing NASA Earthdata programmatically. `earthaccess` simplifies data discovery and access to NASA Earthdata by providing an abstraction layer to NASA’s APIs for programmatic access (CMR and EDL). It has complements in R and MATLAB that we can develop further.
+### 3. Suborbital data - growing the Mentor community and supporting science teams
 
--   **Outcomes**: More users can easily access NASA Earthdata. Increased community engagement via developing scaffolding to reduce participation barriers (education and outreach); Software sustainability and maintenance and further feature development including integrating VirtualiZarr, testing on Cloud OPeNDAP-enabled collections (DMR++ compliance/consistency), building a plugin interface for services like Harmony, developing a “Results” Class that will be interoperable with the STAC ecosystem, using `earthaccess` for download scripts from Earthdata Search, and developing a Command Line Interface (CLI).
+NASA Earthdata has volumes of remote sensing data collected from satellites, as well as substantial suborbital data collected from field sampling, airborne sampling, ground networks, boats, and buoys that is used to ground-truth satellite data, among other research. Suborbital science teams (i.e. science teams creating suborbital data via NASA programs) archive data at several NASA Distributed Active Archive Centers (DAACs) including ORNL, ASDC, and NSIDC, and receive additional support from other NASA centers and Headquarters (HQ).
 
--   **Process**: Community-driven and community-requested development, currently including contributors from multiple DAACs, NASA, and the open science community. We develop asynchronously as well as via biweekly hackdays. We also share progress and features via continued talks and events to support users and showcase capabilities. 
-    - **To join**: The `earthaccess` [contributing guide](https://earthaccess.readthedocs.io/en/latest/contributing/) shares information about asynchronous contributions, joining biweekly hackdays, and the Zulip messaging board.
+This year we have added focus on [strengthening the suborbital Mentor community and supporting suborbital science teams](news/2026-03-03-suborbital/) with the [Openscapes Flywheel](https://nasa-openscapes.github.io/about.html#flywheel-preprint) (engage • empower • amplify, this time starting with amplify):
 
-### 3. Champions Cohort (Fall 2025)
+1.  **Engaging a suborbital science team community.** Suborbital teams are already meeting in smaller groups, perhaps based on mission or a specific DAAC; and we will develop these relationships further into a cross-DAAC community. We will onboard new NASA Mentors from NASA's SoAR (Suborbital Archive Readiness) Team and other parts of NASA to collaborate across the agency to support science teams.
+2.  **Empowering suborbital science teams involves leading a Notebook Clinic** that will be remote, cohort-based, and designed for their needs.
+3.  **Amplifying suborbital science teams involves bringing them into the fold of NASA Openscapes Flywheel, along with increasing numbers of NASA center staff.** As always, open documentation, contributing to the NASA Earthdata Cookbook, and storytelling via blogs and talks will center this work.
 
--   **Purpose**: To support users using NASA Earthdata in science workflows from multiple data centers, taught and supported by Mentors who get to understand user needs deeply and co-develop solutions. Potentially `earthaccess`-focused to support users programmatically.
+This work is in collaboration with the the [CryoCloud](https://cryointhecloud.com/) (StratusGeo) Community, which is an exciting continuation of the JupyterHub community work we have been collaborating on with them with in the past years.
 
--   **Outcomes**: Users learn skills for current best practices for using NASA Earthdata and are empowered to ask questions and work more collaboratively within and across teams. Users have more awareness of what is available, what is coming, and how to get involved as contributors.
+### 4. User support - including workshops and Champions Cohort
 
--   **Process**: This flagship Openscapes Champions program has been led 27 times since 2019, with 3 previous Cohorts co-led with NASA Mentors. We will lead this year's Cohort in Fall 2025, giving time to align with ESDIS and NASA Earth Action’s goals and communities. As there is current instability in our user communities, we will focus the spring and summer on developing relationships with user groups and restructuring the Champions Cohorts to best meet user needs. 
-    - **To join**: Check our [News & Events page](/news.qmd) for registration, available in late summer.
+Supporting users in the Cloud requires infrastructure and skills. Skills include mindset shifts, as well as new technical and collaboration skills. Infrastructure requires co-developing software and resources as well as providing a JupyterHub compute space for developing tutorials and teaching workshops, which we do in partnership with [2i2c](https://2i2c.org/). The goal is to "make once, use often", reusing materials and iterating and improving upon them as a distributed group of mentors who learn with, from, and for each other.
 
-### 4. Earthdata Cloud Cookbook 
+We lead well-planned, welcoming, user-designed teaching events in a variety of formats including in-person and online (hackathons, workshops, Champions Cohorts, Community Calls, conference sessions). To prepare for these events, we develop open documentation, slides, and tutorials that are available for reuse and remix; we host a JupyterHub compute space in partnership with 2i2c; we co-develop technical cloud infrastructure including scientific software docker images, user access administration, cost reports/tracking, and documentation of user stories. We develop together asynchronously and synchronously via hackdays and coworking.
 
--   **Purpose**: A curated collection of tutorials and documentation that focus on the common steps across DAACs and users. It is available for self-paced learning with links back to the underlying GitHub repository where it is developed and able to be reused and remixed. It is under active, open development. We are reaching a lot of users with workshops and our compiled resources; how can we continue to improve those events and resources? 
-
--   **Outcomes**: A better-maintained resource that has contributors beyond the Mentors and a broadened set of users. What if we opened the scope beyond “cloud” and included other common Earthdata tutorials? 
-
--   **Process**: Throughout all our user support, we trial materials with users that help us to update and improve the Earthdata Cloud Cookbook. Tutorials, presentations, and approaches are added to the Cookbook based on latest user needs and trends/tooling. For example, we are adding more support for R users, and we are reporting openly on compute and storage costs so that they could allot cloud funding into future proposals. Most Cookbook development is motivated by teaching events (workshops and hackathons and Champions). 
-    - **To join**: Check our [Cookbook GitHub Discussions](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/discussions); in Spring 2025 we are starting biweekly hackdays to drive more continual development alongside event-driven development. We are excited to build momentum with Development Seed contributions from VEDA. We can also collaborate with ESDIS for sharing cloud resources on the unified site, answering questions like: Does it need to be cloud-specific? Can it just be Earthdata specific? 
+**To join our events**: Check our [News & Events page](/news.qmd) for registration to events. Mentors will be leading events starting in late spring/summer, and information about the Notebook Clinic / Champions Cohort will be posted in late summer.
 
 ## How we work
 
-Openscapes is about working effectively and openly as teams. We are user-focused and meet regularly to learn skills of immediate use together and to work on common needs for researchers using NASA Earthdata. We have an open science approach to resource development, where we focus on having space and place, sharing early and 
-iterating with feedback, with a “make once, use often”, future us web-first mindset. Mentors build skills through Openscapes mentorship, co-developing events, software, and open practices and relationships with the open source community, with access to a JupyterHub that helps refine teaching strategies for Cloud.
+Openscapes is about working effectively and openly as teams. We are user-focused and meet regularly to learn skills of immediate use together and to work on common needs for researchers using NASA Earthdata. We have an open science approach to resource development, where we focus on having space and place, sharing early and iterating with feedback, with a “make once, use often”, future us web-first mindset. Mentors build skills through Openscapes mentorship, co-developing events, software, and open practices and relationships with the open source community, with access to a JupyterHub that helps refine teaching strategies for Cloud.
 
 ![](images/shell-diagram-how-we-work.png)
 
@@ -71,7 +62,7 @@ iterating with feedback, with a “make once, use often”, future us web-first 
 
 ### Mentor Calls, Coworking, and Hackdays
 
-We meet each week in different formats to move our work forward in different ways. The cadence in which we meet is available on our [MainPlanning GitHub Project](https://github.com/orgs/NASA-Openscapes/projects/7/views/3).
+We meet each week in different formats to move our work forward in different ways.
 
 -   Mentor Calls for planning, sharing, and learning (biweekly, for Mentors)
 -   Hackdays and Coworking for working synchronously and screensharing (biweekly, various topics, open to anyone!)
@@ -79,7 +70,7 @@ We meet each week in different formats to move our work forward in different way
 
 ### Calendar
 
-1.  **All Year** We have recurring biweekly Mentor Calls, Coworking sessions, and Hackdays. 
+1.  **All Year** We have recurring biweekly Mentor Calls, Coworking sessions, and Hackdays.
 
 2.  **Summer and ESIP meeting -** In July and August we planned to take a break from our biweekly calls to let this group rest. However, there was interest to keep the momentum and ability to collaborate with anyone available, so we have continued to host biweekly calls and move forward with AGU workshop proposals, and have guest speakers. In July many Mentors meet for the ESIP Summer Conference.
 
@@ -94,6 +85,53 @@ Interested staff from the DAACs are welcome to join as Mentors at any time. Ment
 Please also see [how we onboard](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding.html) documentation -- this is part of the [Earthdata Cloud Cookbook](https://nasa-openscapes.github.io) that is the main place for all cloud resources the Mentors are developing.
 
 # Ongoing and Previous Activities
+
+## 2025 goals
+
+Our 2025 focus is strengthening NASA networks between DAACs, missions, training programs, and applications, aligned with SPD-41a open science, as we continue to support users through developing skills and tools. 2025 goals were determined by Mentors during our Fall 2024 Mentors Retreat.
+
+We will move forward on the following four interlinking goals. Below is a brief overview of the purpose, outcomes, and process of each, and how to join us.
+
+### 1. User support and co-development
+
+-   **Purpose**: Supporting users in the Cloud, which requires infrastructure and skills. Skills include mindset shifts, as well as new technical and collaboration skills. Infrastructure requires co-developing software and resources as well as providing a JupyterHub compute space for developing tutorials and teaching workshops, which we do in partnership with [2i2c](https://2i2c.org/). The goal is to "make once, use often", reusing materials and iterating and improving upon them as a distributed group of mentors who learn with, from, and for each other.
+
+-   **Outcomes**: Users have a friendly onboarding experience using NASA Earthdata in the cloud. Users develop good practices for sustained work in the cloud, including parallelizing code, managing storage, and understanding cloud costs and options for "fledging" from our workshop Hub.
+
+-   **Process**: We lead well-planned, welcoming, user-designed teaching events in a variety of formats including in-person and online (hackathons, workshops, Champions Cohorts, Community Calls, conference sessions). To prepare for these events, we develop open documentation, slides, and tutorials that are available for reuse and remix; we host a JupyterHub compute space in partnership with 2i2c; we co-develop technical cloud technical infrastructure including scientific software docker images, user access administration, cost reports/tracking, and documentation of user stories. We develop together asynchronously and synchronously via hackdays and coworking.
+
+    -   **To join teaching events**: Check our [News & Events page](/news.qmd) for registration, available in late summer.
+    -   **To join hackdays/coworking**: Check our [Cloud infrastructure GitHub](https://github.com/Openscapes/openscapes.cloud/discussions) to get involved in biweekly hackdays.
+
+### 2. `earthaccess` python library
+
+-   **Purpose**: To continue growth and sustainability of this python library that is used by 100's of projects and 1000's of users for accessing NASA Earthdata programmatically. `earthaccess` simplifies data discovery and access to NASA Earthdata by providing an abstraction layer to NASA’s APIs for programmatic access (CMR and EDL). It has complements in R and MATLAB that we can develop further.
+
+-   **Outcomes**: More users can easily access NASA Earthdata. Increased community engagement via developing scaffolding to reduce participation barriers (education and outreach); Software sustainability and maintenance and further feature development including integrating VirtualiZarr, testing on Cloud OPeNDAP-enabled collections (DMR++ compliance/consistency), building a plugin interface for services like Harmony, developing a “Results” Class that will be interoperable with the STAC ecosystem, using `earthaccess` for download scripts from Earthdata Search, and developing a Command Line Interface (CLI).
+
+-   **Process**: Community-driven and community-requested development, currently including contributors from multiple DAACs, NASA, and the open science community. We develop asynchronously as well as via biweekly hackdays. We also share progress and features via continued talks and events to support users and showcase capabilities.
+
+    -   **To join**: The `earthaccess` [contributing guide](https://earthaccess.readthedocs.io/en/latest/contributing/) shares information about asynchronous contributions, joining biweekly hackdays, and the Zulip messaging board.
+
+### 3. Champions Cohort (Fall 2025)
+
+-   **Purpose**: To support users using NASA Earthdata in science workflows from multiple data centers, taught and supported by Mentors who get to understand user needs deeply and co-develop solutions. Potentially `earthaccess`-focused to support users programmatically.
+
+-   **Outcomes**: Users learn skills for current best practices for using NASA Earthdata and are empowered to ask questions and work more collaboratively within and across teams. Users have more awareness of what is available, what is coming, and how to get involved as contributors.
+
+-   **Process**: This flagship Openscapes Champions program has been led 27 times since 2019, with 3 previous Cohorts co-led with NASA Mentors. We will lead this year's Cohort in Fall 2025, giving time to align with ESDIS and NASA Earth Action’s goals and communities. As there is current instability in our user communities, we will focus the spring and summer on developing relationships with user groups and restructuring the Champions Cohorts to best meet user needs.
+
+    -   **To join**: Check our [News & Events page](/news.qmd) for registration, available in late summer.
+
+### 4. Earthdata Cloud Cookbook
+
+-   **Purpose**: A curated collection of tutorials and documentation that focus on the common steps across DAACs and users. It is available for self-paced learning with links back to the underlying GitHub repository where it is developed and able to be reused and remixed. It is under active, open development. We are reaching a lot of users with workshops and our compiled resources; how can we continue to improve those events and resources?
+
+-   **Outcomes**: A better-maintained resource that has contributors beyond the Mentors and a broadened set of users. What if we opened the scope beyond “cloud” and included other common Earthdata tutorials?
+
+-   **Process**: Throughout all our user support, we trial materials with users that help us to update and improve the Earthdata Cloud Cookbook. Tutorials, presentations, and approaches are added to the Cookbook based on latest user needs and trends/tooling. For example, we are adding more support for R users, and we are reporting openly on compute and storage costs so that they could allot cloud funding into future proposals. Most Cookbook development is motivated by teaching events (workshops and hackathons and Champions).
+
+    -   **To join**: Check our [Cookbook GitHub Discussions](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/discussions); in Spring 2025 we are starting biweekly hackdays to drive more continual development alongside event-driven development. We are excited to build momentum with Development Seed contributions from VEDA. We can also collaborate with ESDIS for sharing cloud resources on the unified site, answering questions like: Does it need to be cloud-specific? Can it just be Earthdata specific?
 
 ## 2024 goals
 
@@ -268,10 +306,6 @@ Chris is a Scientific Developer working at the Goddard Earth Sciences Data Infor
 
 National Snow & Ice Data Center (NSIDC)
 
-### Brandon Bottomley
-
-Alaska Satellite Facility (ASF)
-
 ### Ian Carroll
 
 Dr. Carroll is an Associate Research Scientist at the University of Maryland Baltimore County working at NASA Goddard Space Flight Center on phytoplankton community ecology and data science. Phytoplankton are a broad collection of photosynthetic organisms, found in all water bodies, that range in size from less-than a micron to millimeters in length. Despite their small size, their presence in the photic zone can be detected from space due to their light-absorbing pigments. Dr. Carroll investigates machine learning approaches to predicting the community composition (abundances of each type) of phytoplankton using data from ocean color instruments. He also supports science data production for NASA's PACE mission.
@@ -289,6 +323,10 @@ Land Processes DAAC (LPDAAC)
 ### Daniel Kaufman
 
 [Danny Kaufman](https://www.linkedin.com/in/daniel-e-kaufman/) is a Lead Data Scientist for the Tropospheric Emissions: Monitoring of POllution (TEMPO) instrument at the NASA Atmospheric Science Data Center (ASDC). In this role, Danny helps lead the development and coordination of data processing tools and services for new air quality observations from TEMPO. He is excited to join the Openscapes community, and he is looking forward to learning together and working towards improved cloud-based data analysis workflows. Danny's research expertise is in numerical modeling, optimization, and analysis of ocean biogeochemistry and climate data.
+
+### Joe Kennedy
+
+Alaska Satellite Facility (ASF)
 
 ### Alexander Lewandowski
 
@@ -318,10 +356,6 @@ Socioeconomic Data and Application Data Center (SEDAC)
 
 As a Data Engineer at the Physical Oceanography Distributed Active Archive Center (PO.DAAC) at NASA's Jet Propulsion Laboratory, Victoria spends a lot of time thinking about scientific data: how we manage it, how we make it usable, how we reduce the steep learning curves that can hinder scientific discovery. Building better, open, collaborative, software so that we can make complex data analysis more usable is something she is passionate about.
 
-### Jack McNelis\*
-
-Jack McNelis is a Science Applications Software Engineer at NASA Jet Propulsion Laboratory (and the PO.DAAC) with experience leveraging EOS data for rangeland ecosystem monitoring applications. He develops and curates metadata to describe PO.DAAC data holdings, and to better integrate them with data delivery services and end user softwares. He also develops resources for users to be better prepared to implement their analyses in the cloud.
-
 ### Navaneeth Selvaraj
 
 Global Hydrometeorology Resource Center (GHRC)
@@ -346,10 +380,6 @@ Amy Steiker is the NSIDC DAAC Data Services Engineer, specializing in the develo
 
 Goddard Earth Sciences Data and Information Services Center (GES DISC)
 
-### Nikki Tebaldi
-
-Nikki Tebaldi is a Cloud Adoption Engineer for the Physical Oceanographic Distributed Active Archive Center (PO.DAAC). Nikki has led the migration of an on-premise workflow to the cloud which produces GHRSST Level 2P Sea Surface Temperature datasets and continues to work to improve the workflow architecture in the cloud. Her past and current work also includes integrating cloud-based data endpoints into a workflow that produces GHRSST Level 4 MUR Sea Surface Temperature datasets and architecting a cloud workflow that produces river discharge parameter estimates from SWOT data. Nikki is interested in collaborating on and developing strategies for migrating scientific workflows to the cloud.
-
 ### Michele Thornton
 
 Oak Ridge National Laboratory (ORNL)
@@ -366,7 +396,7 @@ Guoqing Wang is the DAAC scientist for the Ocean Biology Distributed Active Arch
 
 Since September 2018, [Dr. Jessica Nicole Welch](https://www.linkedin.com/in/jessicanicolewelch/) has held a position at the ORNL DAAC, which specializes in data archive for terrestrial biogeochemistry, ecology, and environmental processes. Her work focuses on dataset curation, project coordination, and science communication. Jess holds a PhD in Conservation Biology from the [Department of Ecology and Evolutionary Biology](https://eeb.utk.edu/) at the University of Tennessee. When she's not working at ORNL or participating in community service, she plays [Ultimate](https://www.usaultimate.org/about/ultimate/) with her friends.
 
-# Past Participants
+# Alumni
 
 Here we list past NASA Openscapes Mentors, with their affiliations at the time of their participation.
 
@@ -377,6 +407,10 @@ Goddard Earth Sciences Data and Information Services Center (GES DISC)
 ### Vishal Bagadia
 
 [Vishal Bagadia](https://www.linkedin.com/in/vishal-bagadia-a98b95113) is a data science analyst working on contract at the Atmospheric Science Data Center DAAC, NASA Langley Research Center. His experience in exploring emissions retrievals from satellite missions and guiding science teams during the development of their research products powers his work on addressing data interoperability concerns and being responsive to user's engagement with the archived data. He is energized in leveraging emerging, free, and open-source technologies to better represent and visualize large datasets, building web applications to meet user's data transformation and usability needs, and ultimately producing sustainable solutions to meet end-user requirements as data moves into the cloud.
+
+### Brandon Bottomley
+
+Alaska Satellite Facility (ASF)
 
 ### Matt Fisher
 
@@ -402,6 +436,10 @@ Interagency Implementation and Advanced Concepts Team (IMPACT)
 
 Bri is a Geospatial Data Scientist at NASA's Land Processes Distributed Active Archive Center (LP DAAC).  Bri is formally trained as an ecologist and remote sensing scientist and is deeply interested in facilitating the fusion of broad remote sensing products with field data to enhance scientific insight. As a visual learner and science-oriented coder, Bri is focused on making materials that are easy to understand and likes to convert challenging concepts into flexible and easy-to-apply approaches.
 
+### Jack McNelis\*
+
+Jack McNelis is a Science Applications Software Engineer at NASA Jet Propulsion Laboratory (and the PO.DAAC) with experience leveraging EOS data for rangeland ecosystem monitoring applications. He develops and curates metadata to describe PO.DAAC data holdings, and to better integrate them with data delivery services and end user softwares. He also develops resources for users to be better prepared to implement their analyses in the cloud.
+
 ### Paul Moth
 
 Paul Moth is a Data Support Specialist at the National Snow and Ice Data Center Distributed Active Archive Center (NSIDC DAAC). He is part of the User Services team and currently represents MODIS, VIIRS, SMAP, High Mountain Asia, and Nimbus missions at NSIDC DAAC. He is interested in working with early adopters and science team members and gathering feedback that identifies the key operations/steps/workflows that would be most important for creating tutorials and educational materials.
@@ -421,6 +459,10 @@ Interagency Implementation and Advanced Concepts Team (IMPACT)
 ### Christine Smit
 
 Global Hydrometeorology Resource Center (GHRC)
+
+### Nikki Tebaldi
+
+Nikki Tebaldi is a Cloud Adoption Engineer for the Physical Oceanographic Distributed Active Archive Center (PO.DAAC). Nikki has led the migration of an on-premise workflow to the cloud which produces GHRSST Level 2P Sea Surface Temperature datasets and continues to work to improve the workflow architecture in the cloud. Her past and current work also includes integrating cloud-based data endpoints into a workflow that produces GHRSST Level 4 MUR Sea Surface Temperature datasets and architecting a cloud workflow that produces river discharge parameter estimates from SWOT data. Nikki is interested in collaborating on and developing strategies for migrating scientific workflows to the cloud.
 
 ### Matt Tisdale
 
