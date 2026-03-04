@@ -71,6 +71,9 @@ Through this work, some highlights of impact to date: (1 Engage): 7 DAACs partic
 
 **Additional blogs about our work:**
 
+- [Working With Non-Cloud-Optimized Data Just Got Easier](https://www.earthdata.nasa.gov/news/feature-articles/working-non-cloud-optimized-data-just-got-easier), January 26, 2026. NASA Earthdata blog.
+    - NASA Openscapes and earthaccess collaborated to add capability to VirtualiZarr, the DMR++ parser, and Python libraries to enhance the use of non-cloud-optimized data.
+
 -   [From Onboarding to Fledging and Beyond—An Openscapes Journey](https://earthdata.nasa.gov/news/blog/from-onboarding-fledging-beyond-openscapes-journey), September 17, 2024. NASA Earthdata blog.
 
 -   [Easier Access to NASA Earth Science Data in the Cloud](https://www.earthdata.nasa.gov/news/easier-access-nasa-earth-science-data-cloud), June 5, 2024, NASA Earthdata Blog.
@@ -97,11 +100,9 @@ Slides, recordings, and posters
 
 ### Slides 2025
 
--   [Forking as a Worldview: How Openscapes uses the open source concept of
-    copy-modify to support researchers & shift culture in science](https://docs.google.com/presentation/d/10RbeoshmsHx06ZIFA1x-KERbrMkcBtnOtFVyt9UCs5o/edit?slide=id.g3af247f9d45_0_0#slide=id.g3af247f9d45_0_0) - Julia Lowndes, AGU Dr. Greg Leptoukh Lecture Award, December 18, 2025
+-   [Forking as a Worldview: How Openscapes uses the open source concept of copy-modify to support researchers & shift culture in science](https://docs.google.com/presentation/d/10RbeoshmsHx06ZIFA1x-KERbrMkcBtnOtFVyt9UCs5o/edit?slide=id.g3af247f9d45_0_0#slide=id.g3af247f9d45_0_0) - Julia Lowndes, AGU Dr. Greg Leptoukh Lecture Award, December 18, 2025
 
--   [Openscapes: The extensible social\* infrastructure enabling NASA Earthdata science in the cloud](https://docs.google.com/presentation/d/1penO9H0eD1zCkTmiuI8iUdKx9kGb3v9-ftBUcW1zj4U/edit?slide=id.g31de1f510e1_0_1096#slide=id.g31de1f510e1_0_1096) - Julia Lowndes, Amy Steiker, Andy Teucher, Yuvi Panda, Mahsa Jami, Eli
-    Holmes, and the NASA Openscapes Mentors, AGU 2025 December 16, 2025
+-   [Openscapes: The extensible social\* infrastructure enabling NASA Earthdata science in the cloud](https://docs.google.com/presentation/d/1penO9H0eD1zCkTmiuI8iUdKx9kGb3v9-ftBUcW1zj4U/edit?slide=id.g31de1f510e1_0_1096#slide=id.g31de1f510e1_0_1096) - Julia Lowndes, Amy Steiker, Andy Teucher, Yuvi Panda, Mahsa Jami, Eli Holmes, and the NASA Openscapes Mentors, AGU 2025 December 16, 2025
 
 <!-- -->
 
