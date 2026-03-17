@@ -98,9 +98,11 @@ This is a response from [NASA Openscapes](https://nasa-openscapes.github.io/) t
 
 Slides, recordings, and posters
 
-### Slides 2025
+### Slides 2026
 
-- [From Satellite to Science: How Virtual Datasets and Open Collaboration Transform Earth Data Access](https://docs.google.com/presentation/d/1uywkQdql9vwx7pnvQG6SHgpPZ7IMMfBnmEHsFDcKBm0/edit?slide=id.g3c75c246809_0_1#slide=id.g3c75c246809_0_1) - Daniel Kaufman, Ph.D. NASA Langley, Atmospheric Science Data Center (ASDC), ODU Database and Data Science Student Club Seminar Series, 19 February 2026
+- [From Satellite to Science: How Virtual Datasets and Open Collaboration Transform Earth Data Access](https://docs.google.com/presentation/d/1uywkQdql9vwx7pnvQG6SHgpPZ7IMMfBnmEHsFDcKBm0/edit?slide=id.g3c75c246809_0_1#slide=id.g3c75c246809_0_1) - Daniel Kaufman, Ph.D. NASA Langley, Atmospheric Science Data Center (ASDC), ODU Database and Data Science Student Club Seminar Series, 12 March 2026
+
+### Slides 2025
 
 -   [Forking as a Worldview: How Openscapes uses the open source concept of copy-modify to support researchers & shift culture in science](https://docs.google.com/presentation/d/10RbeoshmsHx06ZIFA1x-KERbrMkcBtnOtFVyt9UCs5o/edit?slide=id.g3af247f9d45_0_0#slide=id.g3af247f9d45_0_0) - Julia Lowndes, AGU Dr. Greg Leptoukh Lecture Award, December 18, 2025
 
