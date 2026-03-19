@@ -55,9 +55,12 @@ image: earthaccess-stickerheads_20251215.jpg
 
 *Quicklinks:*
 
+-   [*Slides*](https://docs.google.com/presentation/d/1_VqyF3WfWgY8AiczrmV_sNiskswLgSYjY58Ac9cuUgg/)
 -   [*Earthaccess python library*](https://earthaccess.readthedocs.io/en/stable/)
 -   [*ESIP FUNding Friday article*](https://www.esipfed.org/funding-friday-where-creativity-meets-science/)
 -   [*Crossing the chasm together - notes from ESIP July 2025 meeting*](https://openscapes.org/blog/2025-11-16-esip-july-2025/) *- includes account of singing our pitch for the hackday at ESIP Summer Meeting in Seattle July 2025*
+
+*Cross-posted at [openscapes.org/blog](https://openscapes.org/blog), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html).*
 
 ------------------------------------------------------------------------
 
