@@ -100,6 +100,10 @@ Slides, recordings, and posters
 
 ### Slides 2026
 
+- [Reprise — Forking as a Worldview: How Openscapes uses the open source concept of copy-modify to support researchers & shift culture in science](https://docs.google.com/presentation/d/1FaaMid8_pSmU5zR9uoDiBqcdqSwZjl3OlC_nppw_nxM/edit?slide=id.g3af247f9d45_0_0#slide=id.g3af247f9d45_0_0) - Julia Lowndes, AGU Dr. Greg Leptoukh Lecture Award, March 19, 2026 (50 min)
+
+- [Openscapes: The extensible technical + social infrastructure enabling NASA Earthdata science in the cloud](https://docs.google.com/presentation/d/1exUCZotTksgVDFTMbaTM5zh5_NPMP7vbFfSCjLOBKSU/edit?slide=id.g31de1f510e1_0_1096#slide=id.g31de1f510e1_0_1096) - Amy Steiker (NSIDC) & Julie Lowndes USGS Data Science Practitioners Group, 18 March, 2026
+
 - [From Satellite to Science: How Virtual Datasets and Open Collaboration Transform Earth Data Access](https://docs.google.com/presentation/d/1uywkQdql9vwx7pnvQG6SHgpPZ7IMMfBnmEHsFDcKBm0/edit?slide=id.g3c75c246809_0_1#slide=id.g3c75c246809_0_1) - Daniel Kaufman, Ph.D. NASA Langley, Atmospheric Science Data Center (ASDC), ODU Database and Data Science Student Club Seminar Series, 12 March 2026
 
 ### Slides 2025
