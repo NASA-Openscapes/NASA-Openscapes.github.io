@@ -7,7 +7,7 @@ author:
 date: 2026-01-15
 citation: 
   url: https://nasa-openscapes.github.io/news/2026-01-15-agu-leptoukh-award-julie-lowndes
-categories: [blog, noaa-fisheries, nasa-framework]
+categories: [blog, noaa-fisheries, nasa-framework, how-we-work]
 image: leptoukh-receiving-award.jpg
 bibliography: references.bib
 ---
@@ -16,9 +16,11 @@ bibliography: references.bib
 
 *The blog shares a quick overview of my lecture. It focuses on the official citation for my award written by NASA Openscapes Mentors Aaron Friesz (now at ESIP), Amy Steiker, Luis Lopez, plus Allison Horst, and my official response. I will give the lecture again online in early 2026 – we will share details when we know – and we will update this post with a recording.*
 
+*I gave a reprise of the lecture online in March 2026. Resources shared in that session are included at the bottom of this post.*
+
 *Quicklinks:*
 
--   [*Slides*](https://docs.google.com/presentation/d/10RbeoshmsHx06ZIFA1x-KERbrMkcBtnOtFVyt9UCs5o/edit?slide=id.g3af247f9d45_0_0#slide=id.g3af247f9d45_0_0) *- ”Forking as a Worldview”: How Openscapes uses the open source concept of copy-modify to support researchers & shift culture in science*
+-   [*Slides*](https://docs.google.com/presentation/d/10RbeoshmsHx06ZIFA1x-KERbrMkcBtnOtFVyt9UCs5o/edit?slide=id.g3af247f9d45_0_0#slide=id.g3af247f9d45_0_0) *& [Recording](https://youtu.be/GPFa6_o7GRQ)* *- ”Forking as a Worldview”: How Openscapes uses the open source concept of copy-modify to support researchers & shift culture in science*
 -   [*https://www.agu.org/honors/leptoukh*](https://www.agu.org/honors/leptoukh)
 -   [*https://www.agu.org/honors/leptoukh/past-recipients*](https://www.agu.org/honors/leptoukh/past-recipients)
 
@@ -72,3 +74,29 @@ We’ve got more work to do. As Johnson & Wilkinson write in “[All We Can Save
 **Dr. Julia Stewart Lowndes**\
 **Openscapes**\
 **Founding director**
+
+### Resources
+
+These are some additional resources and discussion points shared after my presentation.
+
+-   [rladies/rladiesguide](https://github.com/rladies/rladiesguide) - RLadies is an amazing example of this infrastructure for scaling - distributing control.
+
+-   [anildash.com/2026/03/13/coders-after-ai](https://www.anildash.com/2026/03/13/coders-after-ai/) - Anil Dash on use of AI, "You're more the conductor of the symphony than someone who's holding a violin."
+
+-   [Unicorns, Show Ponies, and Gazelles](https://radiant.earth/blog/2024/01/unicorns-show-ponies-and-gazelles/), Jed Sundwall, Executive Director of Radiant Earth
+
+-   [Online co-working partnerships are community of practice in action](https://www.cscce.org/2020/02/04/online-co-working-partnerships-are-community-of-practice-in-action/), Naomi Penfold, Stefanie Butland
+
+-   My 2 cents to Julia’s question re: cool tools / ideas to share — I’ve found the idea of dependency management via project-level lock files and “virtual environments” is really powerful, even if you’re working by yourself on just one computer. The tooling for this has gotten dramatically better in the last few years. In python, there’s uv . In R, there’s renv . For cross-platform conda-based stuff, there’s pixi . Beyond that, there are tools like Nix, mise, etc. that do similar things.
+
+-   [earthaccess](https://earthaccess.readthedocs.io/en/stable/) is a great example of scaling a community, from \~ 1 engineer to a big group of contributors who have developed a governance system.
+
+-   biweekly earthaccess hacks open to all [earthaccess.readthedocs.io/en/latest/calendar](https://earthaccess.readthedocs.io/en/latest/calendar/).
+
+-   “how to get started?” 1:1 coworking is so powerful. Also Shifting institutional culture to develop climate solutions with Open Science: [onlinelibrary.wiley.com/doi/10.1002/ece3.11341](https://onlinelibrary.wiley.com/doi/10.1002/ece3.11341), Lowndes et al, 2024 - co-authored with Openscapes Mentors).
+
+-   Supporting NASA suborbital science teams to develop reproducible workflows (and growing the NASA Openscapes Mentors community) - [nasa-openscapes.github.io/news/2026-03-03-suborbital](https://nasa-openscapes.github.io/news/2026-03-03-suborbital/).
+
+-   I wrote about being values-driven and strategic in open science work and in business architecture: [openscapes.org/blog/2026-03-19-openscapes-update](https://openscapes.org/blog/2026-03-19-openscapes-update/).
+
+-   Forking enables a science gift economy… “That is the fundamental nature of gifts: they move, and their value increases with their passage. The fields made a gift of berries to us and we made a gift of them to our father. The more something is shared, the greater its value becomes. This is hard to grasp for societies steeped in notions of private property, where others are, by definition, excluded from sharing” ([Kimmerer](https://www.robinwallkimmerer.com/books) 2013).
