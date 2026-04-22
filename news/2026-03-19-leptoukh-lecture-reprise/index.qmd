@@ -15,7 +15,7 @@ image: leptoukh-receiving-award.jpg
 
 -   [*Slides*](https://docs.google.com/presentation/d/10RbeoshmsHx06ZIFA1x-KERbrMkcBtnOtFVyt9UCs5o/edit?slide=id.g3af247f9d45_0_0#slide=id.g3af247f9d45_0_0) *& [Recording](https://youtu.be/GPFa6_o7GRQ) - "Forking as a Worldview": How Openscapes uses the open source concept of copy-modify to support researchers & shift culture in science.*
 
--   [*Summary post*](https://openscapes.org/blog/2026-01-15-agu-leptoukh-award-julie-lowndes/) *with official AGU citation & Julie's abstract.*
+-   [*Summary post*](https://nasa-openscapes.github.io/news/2026-01-15-agu-leptoukh-award-julie-lowndes/) *with official AGU citation & Julie's abstract.*
 
 *Cross-posted at* [openscapes.org/events](https://openscapes.org/blog)*, [nmfs-openscapes.github.io/blog](https://nmfs-openscapes.github.io/blog)*, [*nasa-openscapes.github.io/news*](https://nasa-openscapes.github.io/news.html).
 
