@@ -1,0 +1,19 @@
+---
+title: "Monday Hackday at ESIP Summer Meeting. Theme: 'Making Things Easier for Scientists'"
+description: "Please save the date! Plan to arrive in Austin for Monday afternoon."
+author:
+  - name: Openscapes
+  - name: NASA Openscapes Mentors
+#    url: {}
+date: "2026-07-27"
+categories: [event, nasa-framework]
+image: earthaccess-hackday-action-shot.jpg
+---
+
+*Cross-posted at [openscapes.org/events](https://openscapes.org/events), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html), [nmfs-openscapes.github.io/blog](https://nmfs-openscapes.github.io/blog)*
+
+------------------------------------------------------------------------
+
+### Details at <https://openscapes.org/events/2026-07-27-esip-hackday/>
+
+![](earthaccess-hackday-action-shot.jpg){fig-alt="5 people seated around a rectangular table with laptops open looking a a person standing pointing to a whiteboard" fig-align="left" width="50%"}
