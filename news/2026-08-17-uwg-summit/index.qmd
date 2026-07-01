@@ -7,7 +7,7 @@ author:
 #    url: {}
 date: "2026-08-27"
 categories: [event, nasa-framework]
-image: ESDIS-UWG-Summit-2026.jpg
+image: ESDIS-UWG-Summit-2026.png
 ---
 
 *Cross-posted at [openscapes.org/events](https://openscapes.org/events), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html), [nmfs-openscapes.github.io/blog](https://nmfs-openscapes.github.io/blog)*
