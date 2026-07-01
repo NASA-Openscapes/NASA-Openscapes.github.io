@@ -20,6 +20,12 @@ categories: [event, nasa-framework]
 [earthaccess](https://earthaccess.readthedocs.io/en/stable/) communities means
 we will be collaboratively problem-solving and strategizing, and translating
 ideas into action. This includes decisions, code, and documentation.
+**Purpose:** To gather anyone who's attending the UWG Summit or from on-site at Goddard, and hack on "making things easier for scientists" from policy, social and technical perspectives. This in-person hackday is about how we’re supporting scientists with infrastructure. A lot of hacking is not hands-on coding. It’s hacking on decisions. It’s seeing how each other works. Asking each other questions about interoperability. It’s **surfacing friction - which friction lies in the tech and which lies in the social?** We know [earthaccess](https://earthaccess.readthedocs.io/en/stable/) has transformed the way people access NASA Earthdata. We want to welcome new users and contributors to earthaccess and the open science ecosystem.
 
+**At the hackday itself**, we’ll kick things off with a friendly showcase to orient people:
+
+- How to use [earthaccess](https://earthaccess.readthedocs.io/en/stable/) with NASA data (Amy Steiker)
+- Considerations for contributing to open source projects (Julie Lowndes)
+- More to come!
 
 
