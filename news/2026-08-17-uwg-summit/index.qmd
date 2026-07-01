@@ -7,24 +7,41 @@ author:
 #    url: {}
 date: "2026-08-27"
 categories: [event, nasa-framework]
-# image: earthaccess-hackday-action-shot.jpg
+image: ESDIS-UWG-Summit-2026.jpg
 ---
 
 *Cross-posted at [openscapes.org/events](https://openscapes.org/events), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news.html), [nmfs-openscapes.github.io/blog](https://nmfs-openscapes.github.io/blog)*
 
 ------------------------------------------------------------------------
 
+# Please save the date!
+
+Thursday, August 20th, the last day of the NASA UWG Summit, we'll host a
+hackday from 10am - 3:30pm Eastern time (with a lunch break). We hope you can
+make it!
+
 
 "Hackday" to our [NASA Openscapes](https://nasa-openscapes.github.io/) and
 [earthaccess](https://earthaccess.readthedocs.io/en/stable/) communities means
 we will be collaboratively problem-solving and strategizing, and translating
 ideas into action. This includes decisions, code, and documentation.
-**Purpose:** To gather anyone who's attending the UWG Summit or from on-site at Goddard, and hack on "making things easier for scientists" from policy, social and technical perspectives. This in-person hackday is about how we’re supporting scientists with infrastructure. A lot of hacking is not hands-on coding. It’s hacking on decisions. It’s seeing how each other works. Asking each other questions about interoperability. It’s **surfacing friction - which friction lies in the tech and which lies in the social?** We know [earthaccess](https://earthaccess.readthedocs.io/en/stable/) has transformed the way people access NASA Earthdata. We want to welcome new users and contributors to earthaccess and the open science ecosystem.
+**Purpose:** To gather anyone who's attending the UWG Summit or from on-site at
+Goddard, and hack on "making things easier for scientists" from policy, social
+and technical perspectives. This in-person hackday is about how we’re
+supporting scientists with infrastructure. A lot of hacking is not hands-on
+coding. It’s hacking on decisions. It’s seeing how each other works. Asking
+each other questions about interoperability. It’s **surfacing friction - which
+friction lies in the tech and which lies in the social?** We know
+[earthaccess](https://earthaccess.readthedocs.io/en/stable/) has transformed
+the way people access NASA Earthdata. We want to welcome new users and
+contributors to earthaccess and the open science ecosystem.
 
-**At the hackday itself**, we’ll kick things off with a friendly showcase to orient people:
+**At the hackday itself**, we’ll kick things off with a friendly showcase to
+orient people:
 
 - How to use [earthaccess](https://earthaccess.readthedocs.io/en/stable/) with NASA data (Amy Steiker)
 - Considerations for contributing to open source projects (Julie Lowndes)
 - More to come!
+
 
 
