@@ -14,15 +14,19 @@ We are influenced and inspired by many leaders and community organizers, particu
 
 **News and Upcoming Events:**
 
--   [Monday Hackday at ESIP Summer Meeting](news/2026-07-27-esip-hackday/). Theme: ‘Making Things Easier for Scientists’
+- [Monday Hackday at ESIP Summer Meeting](news/2026-07-27-esip-hackday/), July 27. Theme: ‘Making Things Easier for Scientists’
 
--   [NASA Openscapes Champions Program, June 2026](news/2026-06-03-suborbital-champions/). An Openscapes Cohort to learn open science approaches for your daily workflows with NASA airborne and other suborbital data
+- [Openscapes at the ESIP Summer Meeting](news/2026-07-28-esip-summer/), July 2026.
 
--   Recording & resources from [Greg Leptoukh Lecture Reprise by Julie Lowndes](news/2026-01-15-agu-leptoukh-award-julie-lowndes/)
+- [Monday Hackday at UWG Summit.](news/2026-08-17-uwg-summit/) Theme: ‘earthaccess hackday’
 
--   Recent workshops
+- [NASA Openscapes Champions Program, June 2026](news/2026-06-03-suborbital-champions/). An Openscapes Cohort to learn open science approaches for your daily workflows with NASA airborne and other suborbital data. Summary post coming soon.
 
-    -   [Airborne Data Applications for Invasive Species Mapping](news/2025-09-30-ornl-arset-workshop/)
+- Recording & resources from [Greg Leptoukh Lecture Reprise by Julie Lowndes](news/2026-01-15-agu-leptoukh-award-julie-lowndes/)
+
+- Recent workshops
+
+  - [Airborne Data Applications for Invasive Species Mapping](news/2025-09-30-ornl-arset-workshop/)
 
 Learn about our recent work: [News](news.qmd) • [Presentations](/about.qmd#slides) • [Flywheel Preprint](https://nasa-openscapes.github.io/about.html#flywheel-preprint) • [White Paper: The Value of Hosted JupyterHubs](https://nasa-openscapes.github.io/about.html#white-paper-value-of-hosted-jupyterhubs)
 
