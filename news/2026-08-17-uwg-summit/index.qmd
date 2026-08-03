@@ -1,11 +1,11 @@
 ---
-title: "Monday Hackday at UWG Summit. Theme: 'earthaccess hackday'"
+title: "Thursday Hackday at UWG Summit. Theme: 'earthaccess hackday'"
 description: "Please save the date!"
 author:
   - name: Openscapes
   - name: NASA Openscapes Mentors
 #    url: {}
-date: "2026-08-27"
+date: "2026-08-03"
 categories: [event, nasa-framework]
 image: ESDIS-UWG-Summit-2026.png
 ---
