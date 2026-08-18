@@ -1,5 +1,5 @@
 ---
-title: "NASA Openscapes champions coworking sessions" 
+title: "NASA Openscapes Suborbital Champions Coworking Sessions" 
 author:
   - name: Ronny Hernández Mora
     orcid: 0000-0001-6225-7096
@@ -22,9 +22,6 @@ image: ./zommie.png
 
 - *Cohort webpage: [https://nasa-openscapes.github.io/2026-nasa-champions/](https://nasa-openscapes.github.io/2026-nasa-champions/)*   
 - *Cohort blogpost: [https://openscapes.org/blog/2026-07-23-nasa-champions-2026/](https://openscapes.org/blog/2026-07-23-nasa-champions-2026/)*
-- *Better Science for Future Us ([slides](https://openscapes.github.io/series/core-lessons/guest-instructors/better-science-2026-06-03.html#/title-slide), [video](https://www.youtube.com/watch?si=utRv6sqsELhaecNn&v=aDeXqxkgYYM&feature=youtu.be&themeRefresh=1)), by [Ian Carroll](https://science.gsfc.nasa.gov/sci/bio/ian.t.carroll) Associate Research Scientist at the University of Maryland Baltimore County working for NASA Goddard Space Flight Center.*  
-- *Metadata for Suborbital Data Publication ([slides](https://docs.google.com/presentation/d/1-flozA_ph9tBzqatoOs69lD8NpcfiIZ6VFeP2MDINmk/edit?slide=id.g3f173a351bb_1_137#slide=id.g3f173a351bb_1_137)*, [*video*](https://drive.google.com/file/d/19trpyeo4DAV3qtFi-Cje_CWGUoqlPP0o/view?usp=sharing&t=345.229)*), by [Rupesh Shrestha](https://www.ornl.gov/staff-profile/rupesh-shrestha) and [Michele Thornton](https://www.ornl.gov/staff-profile/michele-m-thornton) research staff scientists at Oak Ridge National Laboratory (ORNL), and [NASA Openscapes](https://nasa-openscapes.github.io/) Mentors.*  
-- *Project overview blog: [Supporting NASA suborbital science teams to develop reproducible workflows](https://openscapes.org/blog/2026-03-03-suborbital/)*
 
 ------------------------------------------------------------------------
 
@@ -60,11 +57,11 @@ as areas where additional support could be valuable such as:
   * Best practices for creating READMEs  
 * **Visualizations**, [like this one for BioSCape](https://popo.jpl.nasa.gov/mmgis-aviris/?mission=BIOSCAPE). It’s open source ([github repo](https://github.com/NASA-AMMOS/MMGIS)) so FORTE could fork and customize it. This is promising; visualizations are something that teams ask for often. However, a caution that before the metadata is finalized, it is difficult to visualize. 
 
-We also invite you: **Openscapes will host a Community Call this Fall about AI
-and Open Communities**  ([planning issue](https://github.com/orgs/Openscapes/projects/13/views/2?filterQuery=community&pane=issue&itemId=192771689&issue=Openscapes%7Chow_we_work%7C475)
-open to comments; stay tuned). These conversations will bring together people
-from different organizations to discuss how AI has impacted open communities,
-the role of communities beyond being a convenor for technical information
-exchange and learning, and how communities can adapt to continue to welcome and
-support people.
+We also invite you: **Openscapes will host a Community Call on October 1, 2026
+about AI and Open Communities**, Please check [nasa-openscapes.github.io/events](nasa-openscapes.github.io/events)
+for registration details in the next weeks open to comments; stay tuned). These
+conversations will bring together people from different organizations to
+discuss how AI has impacted open communities, the role of communities beyond
+being a convenor for technical information exchange and learning, and how
+communities can adapt to continue to welcome and support people.
 
