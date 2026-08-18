@@ -16,7 +16,7 @@ categories: [blog, champions]
 image: ./zommie.png
 ---
 
-*This fall we will have the NASA-Openscapes Coworking sessions. These biweekly sessions begin September 10th, from 10:30 to 12:00 PT through December.*
+*This fall we will have NASA Openscapes Coworking sessions for EVS-4 teams. These biweekly sessions begin September 10th, from 10:30 to 12:00 PT through December.*
 
 *Quicklinks:*
 
