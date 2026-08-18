@@ -33,7 +33,7 @@ image: ./zommie.png
 To continue making progress and connections within and across EVS-4 teams and
 NASA Mentors, we will host biweekly NASA Openscapes Coworking sessions from
 **September to December, on Wednesdays, from 10:30am \- 12pm PT**. These are
-drop-in and open to anyone on EVS-4 teams – bring a colleague\! - If you want
+drop-in and open to anyone on EVS-4 teams – even if you did not participate in the June Champions Cohort. 
 to receive the calendar invite to the coworking sessions, **please send an email
 to ronny@openscapes.org**
 
