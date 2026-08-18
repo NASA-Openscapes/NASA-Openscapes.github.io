@@ -13,7 +13,7 @@ date: 2026-08-18
 citation: 
   url: https://nasa-openscapes.github.io/news/2026-08-18-coworking-nasa-champions-2026/
 categories: [blog, champions]
-image: ./zommie_2.png 
+image: ./zommie.png
 ---
 
 *This fall we will have the NASA-Openscapes Coworking sessions. These biweekly sessions begin September 10th, from 10:30 to 12:00 PT through December.*
@@ -25,8 +25,6 @@ image: ./zommie_2.png
 - *Better Science for Future Us ([slides](https://openscapes.github.io/series/core-lessons/guest-instructors/better-science-2026-06-03.html#/title-slide), [video](https://www.youtube.com/watch?si=utRv6sqsELhaecNn&v=aDeXqxkgYYM&feature=youtu.be&themeRefresh=1)), by [Ian Carroll](https://science.gsfc.nasa.gov/sci/bio/ian.t.carroll) Associate Research Scientist at the University of Maryland Baltimore County working for NASA Goddard Space Flight Center.*  
 - *Metadata for Suborbital Data Publication ([slides](https://docs.google.com/presentation/d/1-flozA_ph9tBzqatoOs69lD8NpcfiIZ6VFeP2MDINmk/edit?slide=id.g3f173a351bb_1_137#slide=id.g3f173a351bb_1_137)*, [*video*](https://drive.google.com/file/d/19trpyeo4DAV3qtFi-Cje_CWGUoqlPP0o/view?usp=sharing&t=345.229)*), by [Rupesh Shrestha](https://www.ornl.gov/staff-profile/rupesh-shrestha) and [Michele Thornton](https://www.ornl.gov/staff-profile/michele-m-thornton) research staff scientists at Oak Ridge National Laboratory (ORNL), and [NASA Openscapes](https://nasa-openscapes.github.io/) Mentors.*  
 - *Project overview blog: [Supporting NASA suborbital science teams to develop reproducible workflows](https://openscapes.org/blog/2026-03-03-suborbital/)*
-
-*Cross-posted at *
 
 ------------------------------------------------------------------------
 
