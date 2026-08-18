@@ -1,0 +1,72 @@
+---
+title: "NASA Openscapes champions coworking sessions" 
+author:
+  - name: Ronny Hernández Mora
+    orcid: 0000-0001-6225-7096
+  - name: Andy Teucher
+    orcid: 0000-0002-7840-692X
+  - name: Julie Lowndes
+    orcid: 0000-0003-1682-3872
+  - name: Stefanie Butland
+    orcid: 0000-0002-5427-8951
+date: 2026-08-18
+citation: 
+  url: https://nasa-openscapes.github.io/news/2026-08-18-coworking-nasa-champions-2026/
+categories: [blog, champions]
+image: ./zommie_2.png 
+---
+
+*This fall we will have the NASA-Openscapes Coworking sessions. These biweekly sessions begin September 10th, from 10:30 to 12:00 PT through December.*
+
+*Quicklinks:*
+
+- *Cohort webpage: [https://nasa-openscapes.github.io/2026-nasa-champions/](https://nasa-openscapes.github.io/2026-nasa-champions/)*   
+- *Cohort blogpost: [https://openscapes.org/blog/2026-07-23-nasa-champions-2026/](https://openscapes.org/blog/2026-07-23-nasa-champions-2026/)*
+- *Better Science for Future Us ([slides](https://openscapes.github.io/series/core-lessons/guest-instructors/better-science-2026-06-03.html#/title-slide), [video](https://www.youtube.com/watch?si=utRv6sqsELhaecNn&v=aDeXqxkgYYM&feature=youtu.be&themeRefresh=1)), by [Ian Carroll](https://science.gsfc.nasa.gov/sci/bio/ian.t.carroll) Associate Research Scientist at the University of Maryland Baltimore County working for NASA Goddard Space Flight Center.*  
+- *Metadata for Suborbital Data Publication ([slides](https://docs.google.com/presentation/d/1-flozA_ph9tBzqatoOs69lD8NpcfiIZ6VFeP2MDINmk/edit?slide=id.g3f173a351bb_1_137#slide=id.g3f173a351bb_1_137)*, [*video*](https://drive.google.com/file/d/19trpyeo4DAV3qtFi-Cje_CWGUoqlPP0o/view?usp=sharing&t=345.229)*), by [Rupesh Shrestha](https://www.ornl.gov/staff-profile/rupesh-shrestha) and [Michele Thornton](https://www.ornl.gov/staff-profile/michele-m-thornton) research staff scientists at Oak Ridge National Laboratory (ORNL), and [NASA Openscapes](https://nasa-openscapes.github.io/) Mentors.*  
+- *Project overview blog: [Supporting NASA suborbital science teams to develop reproducible workflows](https://openscapes.org/blog/2026-03-03-suborbital/)*
+
+*Cross-posted at *
+
+------------------------------------------------------------------------
+
+## EVS-4 teams, please join us for further support in Coworking Fall 2026!
+
+To continue making progress and connections within and across EVS-4 teams and
+NASA Mentors, we will host biweekly NASA Openscapes Coworking sessions from
+**September to December, on Wednesdays, from 10:30am \- 12pm PT**. These are
+drop-in and open to anyone on EVS-4 teams – bring a colleague\! - If you want
+to receive the calendar invite to the coworking sessions, **please send an email
+to ronny@openscapes.org**
+
+Coworking sessions provide a space to work on your own projects while
+benefiting from shared experiences and support from others working on similar
+challenges. We will create breakout rooms around the themes people work on, and
+will have Openscapes staff and NASA Openscapes Mentors available to mentor and
+develop as needs emerge. During the cohort sessions, some topics were suggested
+as areas where additional support could be valuable such as:    
+
+* **Shared, open documentation with notebooks (Quarto, Jupyter)**   
+  * How to create notebooks  
+  * How to render notebooks locally (and what does this mean\!)  
+  * How to “deploy” notebooks as a website  
+  * Changing/updating notebooks  
+  * Work as a team in a notebooks (version control)  
+* **Collaboration in the cloud with data**  
+  * Data formats (cloud optimized, etc)  
+  * GitHub not for hosting data but for code and documentation
+* **Project management with GitHub**  
+  * Issues priorities  
+  * Canvas  
+  * Communication through issues vs messages on slack  
+  * Best practices for creating READMEs  
+* **Visualizations**, [like this one for BioSCape](https://popo.jpl.nasa.gov/mmgis-aviris/?mission=BIOSCAPE). It’s open source ([github repo](https://github.com/NASA-AMMOS/MMGIS)) so FORTE could fork and customize it. This is promising; visualizations are something that teams ask for often. However, a caution that before the metadata is finalized, it is difficult to visualize. 
+
+We also invite you: **Openscapes will host a Community Call this Fall about AI
+and Open Communities**  ([planning issue](https://github.com/orgs/Openscapes/projects/13/views/2?filterQuery=community&pane=issue&itemId=192771689&issue=Openscapes%7Chow_we_work%7C475)
+open to comments; stay tuned). These conversations will bring together people
+from different organizations to discuss how AI has impacted open communities,
+the role of communities beyond being a convenor for technical information
+exchange and learning, and how communities can adapt to continue to welcome and
+support people.
+
