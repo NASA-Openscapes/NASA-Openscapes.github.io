@@ -14,13 +14,11 @@ We are influenced and inspired by many leaders and community organizers, particu
 
 **News and Upcoming Events:**
 
-- [Monday Hackday at ESIP Summer Meeting](news/2026-07-27-esip-hackday/), July 27. Theme: ‘Making Things Easier for Scientists’
+- [Openscapes Community Call: Open Communities in the age of AI](news/2026-10-01-community-call-open-communities-ai/), Thursday, October 1, 2026. See post for speakers, details and free registration.
 
-- [Openscapes at the ESIP Summer Meeting](news/2026-07-28-esip-summer/), July 2026.
+- [NASA Openscapes Suborbital Champions Coworking Sessions](news/2026-08-18-coworking-nasa-champions-2026/). EVS-4 teams, please join us for further support in Coworking Fall 2026!
 
-- [Monday Hackday at UWG Summit.](news/2026-08-17-uwg-summit/) Theme: ‘earthaccess hackday’
-
-- [NASA Openscapes Champions Program, June 2026](news/2026-06-03-suborbital-champions/). An Openscapes Cohort to learn open science approaches for your daily workflows with NASA airborne and other suborbital data. Summary post coming soon.
+- NASA Openscapes supports different suborbital science groups leveraging their expertise and programming - [2026 Champions Recap](news/2026-07-23-nasa-champions-2026/)
 
 - Recording & resources from [Greg Leptoukh Lecture Reprise by Julie Lowndes](news/2026-01-15-agu-leptoukh-award-julie-lowndes/)
 
