@@ -18,7 +18,9 @@ We are influenced and inspired by many leaders and community organizers, particu
 
 - [NASA Openscapes Suborbital Champions Coworking Sessions](news/2026-08-18-coworking-nasa-champions-2026/). EVS-4 teams, please join us for further support in Coworking Fall 2026!
 
-- NASA Openscapes supports different suborbital science groups leveraging their expertise and programming - [2026 Champions Recap](news/2026-07-23-nasa-champions-2026/)
+  - NASA Openscapes supports different suborbital science groups leveraging their expertise and programming - [2026 Champions Recap](news/2026-07-23-nasa-champions-2026/)
+
+- [Finding Solutions Faster by Hacking on Ideas with Openscapes at ESIP](news/2026-09-02-esip-hacking-on-ideas)
 
 - Recording & resources from [Greg Leptoukh Lecture Reprise by Julie Lowndes](news/2026-01-15-agu-leptoukh-award-julie-lowndes/)
 

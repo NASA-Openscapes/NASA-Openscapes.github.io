@@ -1,0 +1,176 @@
+---
+title: "Finding Solutions Faster by Hacking on Ideas with Openscapes at ESIP"
+#description: "Subtitle"
+author:
+  - name: Ileana Fenwick 
+    orcid: 0009-0002-2900-8236
+  - name: Amy Steiker
+    orcid: 0000-0002-3039-0260
+  - name: Mikala	Beig  
+  - name: Ian Carroll
+    orcid: 0000-0002-3616-810X
+  - name: Rupesh Shrestha
+    orcid: 0000-0002-3140-6623
+  - name: Daniel	Kaufman
+    orcid: 0000-0002-1487-7298
+  - name: Luis Lopez Espinosa
+    orcid: 0000-0003-4896-3263
+  - name: Diane Fritz  
+  - name: Aimee	Neeley 
+    orcid: 0000-0001-5701-0953
+  - name: Eli Holmes
+    orcid: 0000-0001-9128-8393
+  - name: Julie Lowndes
+    orcid: 0000-0003-1682-3872
+  - name: Ronny	Hernández Mora
+    orcid: 0000-0001-6225-7096
+  - name: Stefanie Butland
+    orcid: 0000-0002-5427-8951
+  - name: Justin Rice
+  - name: Kate Rose
+  - name: Roland Schweitzer
+    orcid: 0000-0001-8685-544
+  - name: Jimi Sanchez
+    orcid: 0000-0003-0385-5891
+  - name: Mathew Biddle
+  - name: Tim Goff
+  - name: Katherine Pitts
+    orcid: 0000-0001-6201-1467
+  - name: Rich Signell
+    orcid: 0000-0003-0682-9613
+
+date: 2026-09-02
+# draft: true
+citation: 
+  url: https://openscapes.org/blog/2026-09-02-esip-hacking-on-ideas/
+categories: [blog, noaa-fisheries, nasa-framework]
+image: esip-pointcollocation-breakout.png
+callout-appearance: simple
+callout-icon: true
+callout-collapse: false
+---
+
+*In July 2026, we participated in the [ESIP (Earth Systems Information Partners) Summer Meeting](https://2026julyesipmeeting.sched.com/) in Austin, Texas convening virtual and in-person participants under the theme of Bridging Divides: Data, Technology, Community. ESIP meetings are a unique and well-coordinated combination of community, conversation, and creativity that transforms the usual conference experience into an interactive and engaging meet-up for dreamers and doers alike. This year, the [NASA Openscapes](https://nasa-openscapes.github.io/) and [earthaccess](https://earthaccess.readthedocs.io/en/stable/) communities hosted a hackday to gather anyone interested in “making things easier for scientists” from policy, social, and technical perspectives. “Hackday” to us means collaboratively problem-solving and strategizing, and translating ideas into action. This includes decisions, code, and documentation. [earthaccess was one of the winners of ESIP’s FUNding Friday](https://earthaccess.readthedocs.io/en/latest/growing/esip-funding-friday-song-lyrics/) at the July 2025 ESIP Meeting, supporting a [hackday in December](https://openscapes.org/blog/2026-02-04-earthaccess-dec15-hackday/), and we were grateful the ESIP staff provided us a room to host one again. Here is some of what we all learned along the way!*
+
+*Authors and Affiliations: Ileana Fenwick, Openscapes; Amy Steiker, NSIDC DAAC; Mikala Beig, NSIDC DAAC; Ian Carroll, OB.DAAC; Rupesh Shrestha, ORNL DAAC; Daniel Kaufman, ASDC; Luis Lopez Espinosa, NSIDC; Diane Fritz, NSIDC DAAC; Aimee Neeley, NASA (ICESat-2 Mission Applications lead); Eli Holmes, NOAA Fisheries; Julie Lowndes, Openscapes; Ronny Hernández Mora, Openscapes; Stefanie Butland, Openscapes; Justin Rice, NASA; Kate Rose, NOAA NCEI; Roland Schweitzer, NOAA/PMEL; Jimi Sanchez, NASA ESDIS; Mathew Biddle, NOAA IOOS; Tim Goff, EED3 EDC platform/RTX; Katherine Pitts, STC for NOAA/NESDIS/GEO Program Science; Rich Signell, Open Science Computing*
+
+*Quicklinks:*
+
+- [*Sched - ESIP July Meeting*](https://2026julyesipmeeting.sched.com/)
+- [*Agenda Doc*](https://docs.google.com/document/d/17X5B8k1M-2nAA7OoAm7dlBHnWzvD3gyoAgUSfWnKh8A/edit?usp=sharing) *with topic pitches beforehand and live notes during the hackday*
+- [*People, structure, mechanics: How we led the earthaccess December 15 Hackday*](https://openscapes.org/blog/2026-02-04-earthaccess-dec15-hackday/)
+- *ESIP July Meeting Highlights Webinar ([slides](https://zenodo.org/records/22099706), [recording](https://www.youtube.com/watch?v=5cbM78GVufM)) on August 26, 2026*
+- *Powerful Questions [card deck](https://github.com/Openscapes/powerful-questions-card-deck)* *by Tara Robertson*
+- *Outputs from the Hackday:*
+  - [*STAC GitHub issue in the Earthdata Cloud Cookbook*](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/501)
+  - [*Extract model values GitHub Issue in the point-collocation library*](https://github.com/fish-pace/point-collocation/issues/147)
+  - [*earthaccess benchmark testing for downloading vs. streaming data*](https://github.com/earthaccess-dev/earthaccess/issues/1407)
+  - [*Improve tutorial discoverability in earthaccess*](https://github.com/earthaccess-dev/earthaccess/issues/1406)
+
+*Cross-posted at [openscapes.org/blog](http://openscapes.org/blog), <https://nasa-openscapes.github.io/news>* 
+
+------------------------------------------------------------------------
+
+## Arriving in the action
+
+As conference attendees arrived in preparation for the upcoming meeting, our Hackday room in the conference center quickly filled, and with participants came an air of excitement. While setting up to begin, we could hear snippets of conversations, meetings, and reunions. Questions of “how far did you come from?” and introductions followed by “wow, it’s so awesome to see you in person!” swirled around the room as we all began to gather for our time “hacking” together. Hacking can mean many things, and more often than not it is associated with hands-on coding and troubleshooting, however, here we were hacking on decisions. Specifically, we challenged everyone to consider the friction in their work and the barriers to the implementation, usability, or social infrastructure for success that exist for their projects. We shared frustrations, heard successes, enjoyed the ease of asking questions while all in the same room, and ultimately came out with stronger projects and ideas on the other side. 
+
+## The Hackday : what we did
+
+Before joining us at ESIP we asked attendees to answer “What problem do you think needs solving?” in a shared ideas document. We used this as a guide to design collaborative breakout groups during the session. Attendees could also arrive and pitch new ideas!
+
+A timeline of the Hackday:
+
+1:30-2:30 pm CDT - Welcome; pitches
+
+2:30-4:00 pm CDT - Breakout groups
+
+4:00-4:10 pm CDT - Midway Check-in
+
+4:10-5:30 pm CDT - Breakout groups
+
+5:15 pm CDT - Stop Hacking; summarize where you’ve gotten to and communicate
+
+5:30 pm CDT - Final Shareouts
+
+6:00 pm CDT - Close out, transition to social time!
+
+6:30-9pm CDT - Openscapes Happy Hour
+
+Openscapes hosted this Hackday the day before formal programming for the conference began. Logistically, most ESIP attendees arrive on Day 0 as conference activities begin at 8 AM on Day 1. Those in attendance chose earlier flights and made arrangements to join us the afternoon before, which we intentionally planned so folks would not have to add extra travel to come! The space was generously provided by ESIP and coordinated by the Openscapes community.
+
+35 participants joined us, from across different agencies and organizations (NASA, NOAA, Open Geospatial Consortium, Federal Geographic Data Committee, Open Science Computing). 
+
+::: {style="text-align:center;"}
+![Hackday participants identified the ideal combination of learning and development in the context of motivations when working in a project team by answering: When working on a project team, what do you personally need to experience for this time to be a satisfying success? What supports & motivates your learning? Each sticky note positioned in the triangle describes a participants ideal combination of motivation driven by: completing tasks/projects (top), working out challenges & tasks on my own (bottom left), and peer learning, co-mentoring, and working together (bottom right). *From Charley Haley eScience Institute/Wayforagers.org, inspired by feedback from Michelle Hu (original [slides](https://docs.google.com/presentation/d/1qJDpFdS42kF5pcrbmxm1xFWzNoNamVrnMFelwAOh73Q/edit?slide=id.ge3b3f30b2a_5_53#slide=id.ge3b3f30b2a_5_53)).*](esip-hackday-icebreaker.png){fig-alt="A room full of seated Hackday participants is looking toward the presenter of the breakout group activity. The activity is displayed on a wall and made up of sticky notes within a triangle of red tape, representing the spectrum of audience perspectives on collaboration." fig-align="center"}
+:::
+
+## What we learned together
+
+Over the course of the five hours we spent together, we used a combination of community building tools (group icebreaker, silent journaling, agenda in a shared Google doc for collaborative note taking) and active conversation (in breakouts and reporting out to the group) to encourage connection, ideation, and documentation, for folks to hack on. We had four breakout groups with the following topics: 
+
+**earthaccess onboarding** \| Goal: Development of clear and practical use cases with a focus on new user onboarding and documentation of user challenges (Lead: Amy Steiker, NSIDC DAAC)  
+
+::: callout-note
+## earthaccess
+
+earthaccess is a community-driven Python library that enables access to NASA’s Earth science data with just a few lines of code. (<https://earthaccess.readthedocs.io>)
+:::
+
+**STAC (SpatioTemporal Asset Catalogs)** \| Goal: To support a broader vision of interoperable metadata cataloguing and to explore earthaccess as a pathway for success (Lead: Danny Kaufman, ASDC and Ian Carroll, OB.DAAC)
+
+::: callout-note
+## STAC
+
+STAC specification is a common language for describing and cataloguing files of geospatial information about the earth captured in a certain space and time. (<https://stacspec.org/>)
+:::
+
+**Point-collocation** \| Goal: To test and develop pre-existing examples of new user workflows and identify challenges to usability. (Lead: Eli Holmes, NOAA Fisheries)
+
+::: callout-note
+## point-collocation
+
+point-collocation is a Python library built as an earthaccess plug-in that can combine data from field stations, animal tracks, survey points, or other lat/lon/time observations and the corresponding satellite or model values from NASA Earthdata (<https://fish-pace.github.io/point-collocation>).
+:::
+
+**earthaccess virtual datasets** \| Goal: Identifying ergonomic and performance opportunities with earthaccess virtual access patterns. (Lead: Luis Lopez)
+
+::: callout-note
+## virtual data stores
+
+Virtual data stores is an approach that enables data that is not cloud-optimized to masquerade as cloud-optimized, something required in order to stream data instead of downloading ([NASA blog](https://www.earthdata.nasa.gov/news/feature-articles/working-non-cloud-optimized-data-just-got-easier), [virtualzarr.cloud](https://virtualzarr.cloud/news)) 
+:::
+
+**Earth data in the age of AI agents + how they are changing the game** \| Transitioned to a social hour discussion
+
+Across all breakout groups there were three themes that emerged time and time again: interoperability, quality control, and user experience challenges. Below we share some of the actions, conversations, and powerful questions that emerged from our time together.
+
+#### Interoperability + Quality Control
+
+Within the STAC group, participants identified earthaccess as a good place to start hacking on improved interoperability in data cataloging. Challenges the group identified included: richness of [CMR](https://www.earthdata.nasa.gov/about/esdis/eosdis/cmr) (NASA’s common metadata repository), data getting lost, limitations around storing search results for future use, and the necessity to reduce CMR hits in order to increase efficiency. 
+
+::: blockquote-blue
+> *During the Hackday they asked the following:* **What is a small step we can take?**
+:::
+
+As a group they determined their step to be drafting a new section/page for the [Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/), under Core Concepts to cover Metadata Catalogs. Their time together resulted in drafted language, suggested content, and references to include, outlined in a [GitHub Issue](https://github.com/NASA-Openscapes/earthdata-cloud-cookbook/issues/501).
+
+#### User Experience Challenges
+
+Within the virtual datasets group, they role-played a new user’s experience virtualizing NASA data to test for challenges and stopping points. To do so, they tested the virtualization of data from the Oak Ridge National Laboratory Distributed Active Archive Center (ORNL DAAC) where terrestrial biogeochemistry, ecology, and environmental information is stored. 
+
+::: blockquote-blue
+> *Very quickly the group’s task was complicated and stalled. So they took a step back and asked: **What assumptions are we making about our users?***
+:::
+
+In doing so they determined that a key user assumption was “breaking” the workflow in a place they wanted to be more flexible. Another success was watching this group hit a snag that another researcher in the room, Tom Nicholas (Earthmover), was able to troubleshoot and advise on! They were given direct and actionable feedback that resulted in success that would have been stalled significantly without the improvisation of breakout group collaboration during the Hackday. As a result, by the end of the Hackday their group had determined the steps of a successful, local workflow. They concluded with identifying scalability as a primary challenge to address moving forward.
+
+::: {style="text-align:center;"}
+![Eli Holmes (NOAA Fisheries Openscapes and Open Science Lead) leading the point collocation group sharing resources with one another to improve the new user experience. Roland Schweitzer (NOAA PMEL) points to his workflow that he hopes point-collocation can solve – this was his goal for attending the Hackday!](esip-pointcollocation-breakout.png){fig-alt="A group of six people sit or stand around a round table with laptop screens open. One person points to their screen as others watch or listen." fig-align="center"}
+:::
+
+## Closing
+
+One of the most impactful outcomes of the Hackday was the opportunity to ask powerful questions in community where being in the same space allowed spontaneity for novel conversation. When participating in a Hackday, the reality of solving a big question in a few hours is more often than not impractical. We are approaching big, bold revisions to how we work and approach scientific innovation, research, and progress that require collective and long-term effort. 
+
+What does this mean for your organization or individual work? It means incremental, intentional steps towards open science can look like asking questions that we are years away from answering and speaking honestly about how we are trying now. In doing so, we have seen in real time how disparate ideas become pathways to successful collaboration, how troubleshooting across a different ecosystem of problems informs a new approach, and how collective conversation instigates the exploration and expansion of technical approaches. As organizations large and small grapple with the realities of the rapidly shifting landscape of data science and scientific research, significant technological shifts and innovations will require social hacking. This model of hacking on decisions has proven useful at any stage and is a framework we emphasize as a tool to bring anyone a step closer to their big, bold ideas.
