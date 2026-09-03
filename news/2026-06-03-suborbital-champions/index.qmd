@@ -18,10 +18,10 @@ and supporting research using NASA Earthdata collected from suborbital
 sampling** to explore open data science practices and make incremental and
 sustainable change, no matter where you are starting from. The 2026 NASA
 Suborbital Openscapes Champions Cohort will run in June 2026. We will meet as a
-Cohort via Zoom four times over one month.
+Cohort via Zoom four times over one month. Applications are now closed.
 
 
-**Applications are open! Jump to [how to apply](#sec-how-to-apply), below.**
+<!--- **Applications are open! Jump to [how to apply](#sec-how-to-apply), below.** --->
 
 [Openscapes](https://openscapes.org/) is an approach and a movement that helps
 researchers find each other and feel empowered to conduct data-intensive science
@@ -79,13 +79,13 @@ stories from over 25 past Openscapes Champions Cohorts from NASA Earthdata, NOAA
 Fisheries, other government agencies and academic groups, please browse these
 [blog posts](https://openscapes.org/blog#category=champions).
 
-## How to apply {#sec-how-to-apply}
+<!--- ## How to apply {#sec-how-to-apply}
 
 To nominate yourself, please **fill out the [nomination
 form](https://forms.gle/oQv7Pd1pxbFJ8iLy9) by May 24**. Open science is
 collaborative! We encourage you to sign up with a colleague or two – it is more
 fun to participate together and you have more accountability. You don’t need to
-be working on the same project, only an interest in improving workflows.
+be working on the same project, only an interest in improving workflows. --->
 
 Questions? Contact hello \@ openscapes.org.
 

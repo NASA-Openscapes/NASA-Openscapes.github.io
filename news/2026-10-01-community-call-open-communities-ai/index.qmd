@@ -1,0 +1,48 @@
+---
+title: "Openscapes Community Call: Open Communities in the age of AI"
+# description:
+author:
+  - name: Openscapes
+#    url: {}
+date: "2026-10-01"
+categories: [event, community-call, nasa-framework, noaa-fisheries]
+image: elliot-lowndes-sierra-2S2A9772-HDR-small.jpg
+---
+
+*Cross-posted at [openscapes.org/events](https://openscapes.org/events), [nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news), [nmfs-openscapes.github.io/blog](https://nmfs-openscapes.github.io/blog)*
+
+------------------------------------------------------------------------
+
+**Join us for an Openscapes Community Call**, where we’ll hear speakers’ perspectives and have a facilitated discussion with panelists attendees about the changes communities are seeing, and what we can do to ensure they continue to grow and thrive and provide benefits to current and future community members.
+
+**Date**: Thursday, October 1, 2026\
+**Time**: 9:30 - 11:00 am PT ([find your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Openscapes+Community+Call%3A+Open+Communities+in+the+age+of+AI&iso=20261001T0930&p1=256&ah=1&am=30))\
+**Register (free)** via [Zoom](https://zoom.us/meeting/register/pFm2iOW7QxiIuthx0PmbvQ) to get the meeting link.
+
+<!--- **View** [recording] (https://youtu.be/t8gUSUlSqnc) and [summary] (/blog/LINK).--->
+
+### Speakers
+
+- [Mara Averick](https://github.com/batpigandme), Senior Developer Advocate at [Quansight](https://quansight.com/)
+
+- [Hadley Wickham](https://hadley.nz/), Chief Scientist at [Posit](https://posit.co/)
+
+- [Yanina Bellini Saibene](https://yabellini.netlify.app/), Community Manager at [rOpenSci](https://ropensci.org/)
+
+- [Mark Padgham](https://github.com/mpadge), Software Review Lead at [rOpenSci](https://ropensci.org/)
+
+### Topic
+
+We want to talk about the impact of AI on the growth and maintenance of communities, and the people in those communities. There are discussions happening in many Open Source communities about how to manage and use AI effectively and responsibly - discussions about increased burden on maintainers, policies for AI-written PRs, etc. Those are important conversations, however, the **conversations about impacts of AI on communities are rare**. Beyond providing a forum for technical help, open communities have a culture of shared & continued learning; prioritizing diversity, equity, and belonging. They help us connect on a human level around science and data and the things that we are passionate about. They change careers, they change lives. A core lesson in our Openscapes Champions Program is focused on helping people find open communities that resonate with them, where they can connect with others, continue to find and learn what they need, and become contributors.
+
+But now, people are not necessarily finding their communities and getting the benefit of those communities in the way that they used to, because they're more easily able to get help and answers by using AI. As a result, people are missing out on huge benefits from the communities that they don't know exist, and the communities are missing out on bringing in new perspectives, new people, new ideas, and growing the open movement forward together. And one could argue that these connections and communities are more important than ever, as we need to find ways to support each other and ourselves as AI rapidly changes the landscape right under our feet.
+
+### Resources
+
+- [Discussion](https://github.com/Openscapes/how_we_work/issues/475) in putting this call together
+
+- [What We're No Longer Seeing: AI and the Invisible Newcomer in Open Source](https://blog.stdlib.io/ai-and-the-invisible-newcomer-in-open-source/), by Mara Averick
+
+- [Purposeful Joy](https://mpadge.eu/blog/purposeful-joy.html), by Mark Padgham
+
+- [posit::conf(2026)](https://conf.posit.co/2026/sessions/) recordings to come.
