@@ -37,7 +37,7 @@ from policy, social and technical perspectives.*
 
 - ESIP Hackday: [https://openscapes.org/blog/2026-09-02-esip-hacking-on-ideas/](https://openscapes.org/blog/2026-09-02-esip-hacking-on-ideas/)
 
-*Cross-posted at [https://openscapes.org/blog](https://openscapes.org/blog/2026-09-04_uwg_openscapes_hackday/) and [https://nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news/2026-09-04_uwg_openscapes_hackday).*
+*Cross-posted at [https://openscapes.org/blog](https://openscapes.org/blog/2026-09-04_uwg_openscapes_hackday/), [https://nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news/2026-09-04_uwg_openscapes_hackday), and [https://nmfs-openscapes.github.io/blog](https://nmfs-openscapes.github.io/blog/2026-09-04_uwg_openscapes_hackday)*
 
 ------------------------------------------------------------------------
 
