@@ -35,10 +35,9 @@ from policy, social and technical perspectives.*
 
 *Quicklinks:*
 
-- Cohort webpage:
-- Better science for future us ([slides](https://docs.google.com/presentation/d/13rZnx2ybgKIYlN36ugCPH0e2RfaiQefxwmhv5F_mfqc/), [video](https://youtu.be/FfpA_Ja8xPw)), by [Andrew (Andy) Barrett](https://nsidc.org/about/about-nsidc/what-we-do/our-people/andrew_barrett), Senior Associate Scientist, US National Snow & Ice Data Center (NSIDC), [NASA Openscapes](https://nasa-openscapes.github.io/) Mentor.
+- ESIP Hackday: [https://openscapes.org/blog/2026-09-02-esip-hacking-on-ideas/](https://openscapes.org/blog/2026-09-02-esip-hacking-on-ideas/)
 
-*Cross-posted at [earthcode.esa.int/blog](https://earthcode.esa.int/blog/esa-champions-cohort) and [openscapes.org/blog](https://openscapes.org/blog).*
+*Cross-posted at [https://openscapes.org/blog](https://openscapes.org/blog/2026-09-04_uwg_openscapes_hackday/) and [https://nasa-openscapes.github.io/news](https://nasa-openscapes.github.io/news/2026-09-04_uwg_openscapes_hackday).*
 
 ------------------------------------------------------------------------
 
