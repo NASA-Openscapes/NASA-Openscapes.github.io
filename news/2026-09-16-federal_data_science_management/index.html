@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Jordan S Read">
+<meta name="dcterms.date" content="2026-09-28">
+
+<title>Federal data science management – NASA Openscapes</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/openscapes_hex.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-14ed12552fa226ea05560da205a9694b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/openscapes_hex.png" alt="" class="navbar-logo light-content">
+    <img src="../../images/openscapes_hex.png" alt="" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">NASA Openscapes</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../../about.html">
+ <span class="dropdown-text">About</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../about.html#slides">
+ <span class="dropdown-text">Slides</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../events.html">
+ <span class="dropdown-text">Events Archive</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../mentors.html"> 
+<span class="menu-text">Mentors</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../champions.html"> 
+<span class="menu-text">Champions</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../cookbook-navbar-page.html"> 
+<span class="menu-text">Cookbook</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../news.html"> 
+<span class="menu-text">News &amp; Events</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/NASA-Openscapes"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://fosstodon.org/@openscapes"> <i class="bi bi-mastodon" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#new-leaf" id="toc-new-leaf" class="nav-link active" data-scroll-target="#new-leaf">Turning over a new leaf</a></li>
+  <li><a href="#bloom" id="toc-bloom" class="nav-link" data-scroll-target="#bloom">Bloom where you’re planted</a></li>
+  <li><a href="#gardener" id="toc-gardener" class="nav-link" data-scroll-target="#gardener">Gardener’s wisdom</a></li>
+  <li><a href="#goodbye" id="toc-goodbye" class="nav-link" data-scroll-target="#goodbye">Farewell</a></li>
+  <li><a href="#note" id="toc-note" class="nav-link" data-scroll-target="#note">Note</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Federal data science management</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">blog</div>
+    <div class="quarto-category">how-we-work</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jordan S Read <a href="https://orcid.org/0000-0002-3888-6631" class="quarto-title-author-orcid" aria-label="ORCID profile for Jordan S Read"> <img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 28, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><em>I wrote this in December 2022, in my last weeks at the U.S. Geological Survey after ten years there, most of them spent building the water data science capability that became a branch in the Water Mission Area. It was written for whoever took the job next, and for anyone else trying to grow a technical team inside a large federal organization.</em></p>
+<p><em>I’m now CEO of CUAHSI, a university consortium that supports water science with shared data infrastructure, training, and convening. Different setting, but I’m still focused on creating the conditions for other people to do great water science work together.</em></p>
+<p><em>A few notes for 2026: The post describes the branch as existed in 2022, and a lot has changed at USGS since, so read it as a record rather than a current description. Some of the links point to pages that have moved or been retired, and I’ve noted those where they appear. The shared values in Box 1 were written by the whole group back in 2022 and are still useful to look back on.</em></p>
+<p><em>Cross-posted at <a href="https://nasa-openscapes.github.io/news.html">nasa-openscapes.github.io/news</a>, <a href="https://nmfs-openscapes.github.io/blog.html">nmfs-openscapes.github.io/blog</a> and <a href="https://openscapes.org/blog">openscapes.org/blog</a>.</em></p>
+<hr>
+<section id="new-leaf" class="level2">
+<h2 class="anchored" data-anchor-id="new-leaf">Turning over a new leaf</h2>
+<div style="text-align:center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./banner.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="An image of an imaginary dandelion-like plant spreading it's seeds of knowledge out with a lone oak seedling growing determinately up from the ground."></p>
+</figure>
+</div>
+</div>
+<p><em>Every oak tree started out as a couple of nuts who stood their ground.</em> <em>– Henry David Thoreau</em></p>
+<p>Thanks to <a href="https://www.usgs.gov/staff-profiles/althea-a-archer">Althea</a> for helping put together this post! Credit to her for coming up with framework for the post and providing editorial guidance, and for her and <a href="https://www.usgs.gov/staff-profiles/cee-nell">Cee</a> for designing all of the images that appear here.</p>
+<div style="text-align:center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./Jordan_Read.png" class="img-fluid figure-img" style="width:40.0%" alt="An image of Jordan S Read smiling at the camera."></p>
+<figcaption>Hi, I’m Jordan Read (he/him). After ten years with USGS, I’m moving on to a position outside of government. I remain passionate about community building in the water sciences.</figcaption>
+</figure>
+</div>
+</div>
+<hr>
+<p>I can’t imagine a more satisfying end to my decade of federal service, most of which I spent growing data science capabilities. I’ve been a major part of bringing dozens of incredibly talented people into the federal workforce. I worked hard to established a water data science capability that is in high demand and has inspired the career choices of many. This progress was realized over many years. In 2012~2013, our first few data scientists joined what at the time was a software development and analytics team, and we won proposals and data-intensive project work to grow and hire staff that each brought new ideas and contributions to our collective vision for data science. We created a proposal to formalize our ad hoc group as a data science team in 2015 and our goals were to: 1) provide leadership for the emerging water data science community, 2) enhance the relevance and usability of water data and water analysis/modeling software, and 3) expand the community of practicing water data scientists. As I was organizing files to get ready for my departure, I ran across the proposal that contained these elements and it was neat to see our foresight at the time and our follow through in the years after. As of last year, we’d brought our water data science practice to a level that met these goals (read more about that <a href="https://waterdata.usgs.gov/blog/water-data-science-2022/">here</a>; see Figure 1).</p>
+<p>I was the supervisory data science team lead that helped us take root in 2015 and then I became the data science branch chief in March of 2017 when the team was elevated into a formal branch in the USGS water mission area. The job of federal data science manager has been rewarding and exhausting. There were never enough hours in the day to keep up with the endless excitement as the data science discipline expanded and inadequate structures to handle our team’s growth. I had a strong allegiance to staff and our shared mission, while working hard to lead change in a place that is notoriously high inertia (the federal government). I was at my best when I focused on cultivating the ideal conditions for others to flourish. Looking back now, I am deeply proud of where we are and the role I played in our accomplishments.</p>
+<p>I learned a lot in my management roles and hope that others will benefit from hearing about the journey. Data science management is common enough now that you can read about it in various places, but the federal data science perspective is harder to find and I hope to contribute by filling in some information gaps that may be of use to my replacement or others considering similar roles.</p>
+<div style="text-align:center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./sprinkler_DS.png" class="img-fluid figure-img" style="width:60.0%" alt="Image with a large tub collecting data rain that then travels down tubes until it is released on to plants as an irrigating mist. The rain falls on a colletion of flowers and fruit. Intermixed are some pollinating butterflies."></p>
+<figcaption><strong>Figure 1</strong>: The Data Science branch approach to data assembly, analysis, and dissemination. Data pipelines combine wizardry and utility. Models bear fruit for decisions. Visualizations attract new audiences who learn, then become pollinators. (credit for original image to C Nell, updated version A Archer)</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="bloom" class="level2">
+<h2 class="anchored" data-anchor-id="bloom">Bloom where you’re planted</h2>
+<p>I’d imagine some significant differences exist between growing data science at a start-up vs in the largest bureaucracy on earth, the US federal government. The federal identity shapes so much of what we have authority and responsibility to do that it might help to consider it as a climate zone – you wouldn’t expect drought-adapted plants to flourish in a rain forest and you shouldn’t be surprised when an otherwise amazing idea dies on the vine because it was outside of scope of your federal agency.</p>
+<div style="text-align:center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./fence_DS.png" class="img-fluid figure-img" style="width:50.0%" alt="An image that shows a watermelon-like fruit vine climbing a chainlink fence."></p>
+<figcaption><strong>Figure 2</strong>: Contraints, much like a chainlink fence, can be leveraged into strengths and support.</figcaption>
+</figure>
+</div>
+</div>
+<p>Constraints can be flipped into identity-defining values that staff embrace and embody. Align the work and the people with the climate zone you are operating in, add a few of the right seed projects, align appropriate staff, and soon you can cultivate something that can be sustained. The federal constraints can be messaged as restrictive or burdensome, or alternatively, can help form a niche that makes it easier for all of you to define what you do, why you do it, and where you’ll take it next. As illustrated above (Figure 2), a fence could isolate (negative) or provide a critical substrate for growth (positive).</p>
+<p><em>Aside: The positive spin is also critical because negative messaging from leadership builds up over time and can lead to negative group-think that skewers each new interesting idea with all of the ways it could fail.</em></p>
+<p>I’ve got a few of these positive constraint examples below based on my experience in the U.S. Geological Survey, but I’m sure there are many parallels elsewhere:</p>
+<section id="public-service-motivates-leadership-in-open-science" class="level4">
+<h4 class="anchored" data-anchor-id="public-service-motivates-leadership-in-open-science">Public service motivates leadership in open science</h4>
+<p>In federal service, we aim to provide value to the nation. This is an exciting and motivating concept at the USGS because when we share data or code, in most cases we need to share it with all. In the data science branch, we’ve taken this on as a charge to provide more leadership in open science. USGS researchers already need to provide the data behind federally funded science, but many of our staff are motivated to take that much further, providing data, code, preprint publications, data visualizations, and how-to tutorials as part of releasing new content. Instead of protecting the intellectual property (IP) of our ideas or methods, our aim is to share IP publicly and support others to learn or build on it.</p>
+</section>
+<section id="employee-retention-leads-us-to-remote-first-work-culture" class="level4">
+<h4 class="anchored" data-anchor-id="employee-retention-leads-us-to-remote-first-work-culture">Employee retention leads us to remote-first work culture</h4>
+<p>Our original data science team was formed in Madison, WI and all employees worked together in the same building. In 2016-2017, three employees relocated, and I retained them by modifying their work agreements (in fed-speak, this was done by changing the employee’s “duty station”). After these moves, we had shifted into the dreaded hybrid remote/in-person work zone. In hindsight, I was embarrassingly behind at managing this transition effectively, relying on extra effort from the remote staff to stay connected and retaining most of our practices. At about the same time, the negative impact of my Madison-only hiring practices on reaching more diverse applicants became clear. The in-person model wasn’t cutting it and I shifted my thinking around to down-weight in-person work and socialization in favor of better recruiting potential. Cue COVID-19 and suddenly we were 100% remote (or in truth, many of us 100% teleworking from home) and my hiring approach became remote-first with a negotiable location anywhere within the US. Like many others, we had to embrace being fully remote. But we all wanted to make this experience great and worked together to make major positive changes. I’m really proud that we embraced this work posture early; we’ve now had a lot of time to refine and build new processes. Our constraints for how colleagues would work together evolved into a vibrant distributed workforce that maintains long distance friendships and carries out highly effective collaborations.</p>
+</section>
+<section id="hiring-challenges-become-recruiting-strengths" class="level4">
+<h4 class="anchored" data-anchor-id="hiring-challenges-become-recruiting-strengths">Hiring challenges become recruiting strengths</h4>
+<p>The intersection of many different policies and requirements contributes to the impression that federal hiring is very hard. Federal employees also have protections from being removed without clear and documented cause. Together, these two things mean federal employees may have higher inertia when compared with other employment pathways - harder to get in the door and harder to be shown the door back out. Since the success of our efforts depends on our ability to attract and hire people to do data science work, getting hiring right had to be a priority. We completely reimagined hiring and what we came up with blossomed into a bit of a model for other parts of the organization (see blog on <em>data sci/ML hiring</em> and <em>viz hiring</em>) (<em>These blog posts are no longer available</em>) efforts are covered in other blogs, I won’t say much more about it. But it is neat to reflect that we took something that many federal managers view as the low point of their work (navigating the hiring processes) and turned it into something we excel at, provide leadership for, and have wide ownership of across existing staff.</p>
+<p><em>Aside: Federal jobs are great and the benefits are super competitive. But in fast growing data/tech positions, we’re often recruiting candidates that have the potential to earn more elsewhere. To stay competitive, I have found that sharing our branch’s values (see Box 1 below) and workplace culture loudly and proudly have helped our hiring process become more inclusive and more compelling.</em></p>
+<div style="text-align:center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./values.png" class="img-fluid figure-img" style="width:60.0%" alt="A list of our 8 shared values. They include: 1. We respect and welcome each of us bringing ourselves to the job, 2. We value medium/long-term kindness over being short-term nice, 3. We are creative and we take risks, 4. We continue learning, 5. We rest and recharge; being exhausted is not a badge of honor, 6. We work to build and maintain trust, 7. We test assumptions; we ask questions, 8. We focus deeply on a smaller number of capabilities."></p>
+<figcaption><strong>Box 1</strong>: Our shared values within the Data Science Branch.</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</section>
+<section id="gardener" class="level2">
+<h2 class="anchored" data-anchor-id="gardener">Gardener’s wisdom</h2>
+<p>My approach to managing data scientists evolved a lot over the ten-year period (2012-2022) that included generating the vision, formalizing the team, and later formalizing the data science branch. I have boiled key parts of this approach down to a list that could be useful for others, perhaps as idea seeds for current or future data science managers in government (Figure 3). Each of these concepts proved fruitful for our data science group and I think they are generally useful for others entering into this line of work.</p>
+<div style="text-align:center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./thumbnail.png" class="img-fluid figure-img" style="width:60.0%" alt="An illustration of dandelion seeds blowing in the wind from left to right. Bottom of image is wild green grass."></p>
+<figcaption><strong>Figure 3</strong>: My hope with this blog is that my perspective and approach can be helpful seeds for the federal data science managers or others in similar supervisory roles.</figcaption>
+</figure>
+</div>
+</div>
+<section id="authentic" class="level4">
+<h4 class="anchored" data-anchor-id="authentic">Build authentic relationships with the staff that you represent</h4>
+<ul>
+<li><strong><em>Justification:</em></strong> Developing empathy for staff you represent is a critical component to effective supervision. The benefits of putting in the work to build these connections are staggering and some are obvious, including staff feeling welcome to be themselves or having more honest conversations about skill-building needs.</li>
+<li><strong><em>Considerations:</em></strong> Supervisors often focus on the business aspects of staff relationships and avoid making social connections during one-on-one meetings. But building relationships and working to create a real empathetic connection to each employee can lead to more inclusive and effective decisions because the impacts of the outcome on each employee is implicitly considered. Doing this work requires bandwidth and can be emotionally taxing, but avoidance may negatively affect performance, morale, and retention of the team.</li>
+<li><strong><em>Example:</em></strong> I worked on building authentic relationships with staff more purposefully beginning in 2019 and I’m glad I had a head start prior to COVID-19 because of how critical it was to have empathy for each employee and what they were going through. By the time our 2021 cluster hire effort began, I had upskilled this managerial capability and approached hiring decisions by incorporating team complementarity, which means I took into account collaborative competencies and likelihood of effective team contributions as opposed to assessing candidate technical strengths in isolation. I’m deeply proud of those hiring selections and how effectively the staff work together and support each other today.</li>
+</ul>
+</section>
+<section id="experiment" class="level4">
+<h4 class="anchored" data-anchor-id="experiment">Support experimentation outside of the primary work</h4>
+<ul>
+<li><strong><em>Justification:</em></strong> Small investments can be used to test the viability of new areas of work, including assessing staff alignment/excitement and potential complement to other work. Some level of experimentation is necessary to avoid stagnation.</li>
+<li><strong><em>Considerations:</em></strong> Managers will need to make clear business arguments for why funding for this type of experimental work is necessary. It is important to place practical constraints on experimentation and continue delivering value in the core competencies. Too much exploration will likely lead to a poor reputation from failing to deliver on time. Too little exploration (too much oversight on each employee’s time investments) could lead to less confidence in making smaller research leaps within the normal levels of uncertainty found in data science work.</li>
+<li><strong><em>Example:</em></strong> Our highly successful <em>Vizlab capability</em> (<em>This blogpost is no longer available</em>) was created after we led a two-day hackathon for staff in 2014 and produced a <a href="https://labs.waterdata.usgs.gov/visualizations/ca_drought/index.html">drought visualization</a> that was retweeted by John Podesta, who was a Senior Advisor to the White House at the time. This initial experimentation and success allowed us to expand formally into this area, including by leading a larger <a href="https://labs.waterdata.usgs.gov/visualizations/OWDI-drought/en/index.html">cross-agency data viz</a> the following year.</li>
+</ul>
+</section>
+<section id="subtraction" class="level4">
+<h4 class="anchored" data-anchor-id="subtraction">Think <em>subtraction</em> first when managing workload volume and variety</h4>
+<ul>
+<li><strong><em>Justification:</em></strong> Simple workload management math means that absent a coincident increase in capacity (e.g., through hiring), new work requires decreased effort elsewhere.</li>
+<li><strong><em>Considerations:</em></strong> Many things contribute to workload, such as timesheets, meeting attendance, travel forms, and other elements of the job. Improving the efficiency of processes for tasks outside of the core job can unlock capacity via subtraction and create space for higher quality work. It can be hard to say no to new interesting work or reducing expectations of senior leaders above the group for a reasonable volume and type of work. A data science manager who fails to take this seriously may inadvertently leave the team with little time left for experimentation.</li>
+<li><strong><em>Example:</em></strong> Our division has created “do not schedule” calendar blocks for deep work focus time every Wednesday afternoon and Friday morning. Additionally, we devote a full week every two months to focus topics, usually deep work requiring high levels of concentration or close collaboration. We subtract the obligation for standing meetings during these times.</li>
+</ul>
+</section>
+<section id="career-paths" class="level4">
+<h4 class="anchored" data-anchor-id="career-paths">Keep pace with staff and shifts in work by constantly refreshing career paths</h4>
+<ul>
+<li><strong><em>Justification:</em></strong> Retaining high-performing employees can be challenging if there is not a pathway to leadership and/or promotion. Excellent staff can be underutilized if their capacity for work or roles with great responsibility or complexity is unmet.</li>
+<li><strong><em>Considerations:</em></strong> Creating new pathways for promotion is challenging to do within the constraints of the federal government. It is advisable to begin efforts for position creation years before they are necessary. Aligning the appropriate salary (or “grade” in our USGS federal position) with the influence, complexity, responsibility, and uncertainty of current or future technical work needs to be addressed within the official process of position classification.</li>
+<li><strong><em>Example:</em></strong> We were able to create “senior data scientist” positions that are higher graded and have a general position description, allowing their use for multiple employees doing different types of specialty work. We also created new team lead supervisors that are higher graded (read more about those positions <em>here</em> (<em>This blogpost is no longer available</em>). Each of these required a 2+ year effort to establish.</li>
+</ul>
+</section>
+<section id="scope" class="level4">
+<h4 class="anchored" data-anchor-id="scope">Craft an identity and scope that is narrow enough for excellence but wide enough to sustain work and funding</h4>
+<ul>
+<li><strong><em>Justification:</em></strong> For any tech-aligned group, defining and communicating strategically scoped capabilities is critical for: securing organizational support to operate, managing expectations of collaborators/clients, efficient communication, staff mission alignment, and staff morale.</li>
+<li><strong><em>Considerations:</em></strong> Data science is too broad for comprehensive expertise, so managers need to focus the group on a subset of the discipline that matches the business/research needs of the organization and is tractable with the current group’s size. The data science manager needs to hold the line to keep work outside of this scope from landing with the team while also normalizing the revaluation of what’s in/out at an appropriate cadence.</li>
+<li><strong><em>Example:</em></strong> The landscape of machine learning was too wide for us to establish real expertise without a focus area. Our team built new collaborations to integrate existing water knowledge into machine learning approaches beginning in 2017. <a href="https://waterdata.usgs.gov/blog/water-data-science-2021/#pgdl">Knowledge-Guided Machine Learning</a> became an area that our branch excelled at and this success attracted numerous people into environmental data science careers.</li>
+</ul>
+</section>
+<section id="change-ID" class="level4">
+<h4 class="anchored" data-anchor-id="change-ID">Changes in identity should be approached with extreme care</h4>
+<ul>
+<li><strong><em>Justification:</em></strong> Rapid changes to the offerings of your group can trigger staff loss (when scope shrinks) or reputation hits when you fail to deliver value with new capabilities (when scope increases).</li>
+<li><strong><em>Considerations:</em></strong> If operating in a complex government org you may alienate potential customers/collaborators by changing too quickly – by the time other parts of the organization really get a handle on what your offerings are, those things have changed. A group that changes too slowly is irrelevant.</li>
+<li><strong><em>Example:</em></strong> In 2017 we de-scoped our general capability in R package development but were able to line up <a href="https://www.usgs.gov/staff-profiles/laura-decicco">Laura</a> (our main R package developer) with another place in the organization where the work could continue to flourish. In 2019, we took something we’d been doing for years – building reproducible data pipelines – and named it as a specialization within the group (e.g., Data Assembly in Figure 4), allowing staff to align and take pride in an important component of data science work (see Figure 4 for the other moderate changes we embraced between 2015 and 2022).</li>
+</ul>
+<div style="text-align:center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./changingCapabilities.png" class="img-fluid figure-img" style="width:60.0%" alt="A Sankey diagram that shows changes of state from 2015 to 2022. On the left are four boxes labeled research, tools, training, and visualizations. On the right (2022) are four boxes labeled data assembly, modeling, visualizations, and analytics. In the middle are boxes labeled Elsewhere at USGS and New capabilities. Flows connect the various boxes, representing the ways in which the Data Science Branch has changed through time."></p>
+<figcaption><strong>Figure 4</strong>: Between 2015 to 2022, the combination of data-driven research and tools became <em>data assembly</em> (aligned with data/code/model/visualization pipelining) and modeling, data visualizations stayed put, the major aspects of training were integrated into data assembly, and we created new space for analytics. Read more about these four capabilities <a href="https://waterdata.usgs.gov/blog/water-data-science-2022/">here</a>.</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="distribute-ownership-of-culture-and-vision-to-the-team" class="level4">
+<h4 class="anchored" data-anchor-id="distribute-ownership-of-culture-and-vision-to-the-team">Distribute ownership of culture and vision to the team</h4>
+<ul>
+<li><strong><em>Justification:</em></strong> Upholding and practicing cultural values is more sustainable when its upkeep and refinement is distributed among those most impacted. The same applies to the scope and vision of the team.</li>
+<li><strong><em>Considerations:</em></strong> Change in culture or capabilities in the federal government can be short lived if a single person is responsible for moving things forward. Creating lasting change requires redundancy in leadership and collective efforts by many that are motivated by shared goals. Also, because change in the federal government is often slow, managers pushing for change can experience significant self doubt over the years as progress can fail to materialize in the short-term. I’d recommend you go there as a team.</li>
+<li><strong><em>Example:</em></strong> New hiring efforts have distributed leadership within our data science branch and the larger division we operate in. Several staff have led these efforts (<a href="https://www.usgs.gov/staff-profiles/cee-nell">Cee</a> and <em>Julie P</em> for example) (<em>This webpage is no longer available</em>). and we co-developed the original approaches with other data-intensive managers (<a href="https://www.usgs.gov/staff-profiles/emily-k-read">Emily</a> and <a href="https://www.usgs.gov/staff-profiles/julie-e-kiang">Julie K</a>) and data science staff. As a result, these practices are now considered a new norm for general UGSS Water Mission Area hiring, giving an effort with widely shared ownership an influence and impact well beyond our immediate teams.</li>
+</ul>
+</section>
+<section id="own-change" class="level4">
+<h4 class="anchored" data-anchor-id="own-change">Take responsibility for project changes publicly and/or in writing</h4>
+<ul>
+<li><strong><em>Justification:</em></strong> The vast majority of data science work is complex with many unknowns, resulting in error-prone estimates of timelines for key project milestones. Staff can internalize the stress from an implied pressure to deliver on “all the things” regardless of whether timelines are realistic.</li>
+<li><strong><em>Considerations:</em></strong> Management failures happen when the project work changes (usually by expanding) but the change isn’t acknowledged. Repeating this pattern will lead to burn-out or resentment as a result of unrealistic workloads. Consider writing to the team, a la “We discovered our planned approach isn’t going to scale with the needs of this project, so we’re going to dial back on the other deliverables to make room for solving this problem” and be explicit by saying exactly which deliverables are getting tabled and what the budget and timeline changes will be.</li>
+<li><strong><em>Example:</em></strong> <a href="https://www.usgs.gov/staff-profiles/alison-appling">Alison</a> and <a href="https://www.usgs.gov/staff-profiles/lindsay-rc-platt">Lindsay</a> were quick studies on <a href="https://d3js.org/">D3.js</a> when we were working on a <a href="https://labs.waterdata.usgs.gov/visualizations/water-use-15/index.html">county-specific visualization of water use in the US</a>. They proposed a much more intuitive zoom functionality that drastically improved the usability of the viz.&nbsp;We needed to make space for the implementation and shifted our project deadline accordingly.</li>
+</ul>
+</section>
+</section>
+<section id="goodbye" class="level2">
+<h2 class="anchored" data-anchor-id="goodbye">Farewell</h2>
+<p>It has been extremely satisfying to see the joy and pride our group has had in our work. Thank you to everyone who took a leap and joined our group over the years and to the countless others that we’ve learned from. Remember to have fun along the way.</p>
+</section>
+<section id="note" class="level2">
+<h2 class="anchored" data-anchor-id="note">Note</h2>
+<p><em>Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</em></p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{s_read2026,
+  author = {S Read, Jordan},
+  title = {Federal Data Science Management},
+  date = {2026-09-28},
+  url = {https://openscapes.org/blog/2026-09-16-federal_data_science_management},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-s_read2026" class="csl-entry quarto-appendix-citeas" role="listitem">
+S Read, Jordan. 2026. <span>“Federal Data Science Management.”</span>
+September 28. <a href="https://openscapes.org/blog/2026-09-16-federal_data_science_management">https://openscapes.org/blog/2026-09-16-federal_data_science_management</a>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/nasa-openscapes\.github\.io\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© CC-By NASA Openscapes</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>, with theme from <a href="https://github.com/rstudio/vetiver.rstudio.com">vetiver</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
