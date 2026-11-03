@@ -1,6 +1,6 @@
 ---
-title: "earthaccess AI hackathon @ AGU 2026"
-description: "join us to explore how AI agents can tackle real earth-science problems"
+title: "earthaccess hackathon @ AGU 2026"
+description: "join us to explore how LLMs can tackle real earth-science problems"
 author:
   - name: Luis López and the earthaccess community
 date: "2026-12-09"
@@ -28,7 +28,7 @@ This hackday is co-located with AGU and will take place in a rooftop venue with 
 
 ## Requirements
 
--   Familiarity with coding agents or AI e.g. chatgpt, claude
+-   Familiarity with coding agents e.g. chatgpt, claude
 
 -   Using a NASA Earth dataset(s)
 
@@ -40,8 +40,3 @@ This hackday is co-located with AGU and will take place in a rooftop venue with 
 
 This event is organized by earthaccess, NASA Openscapes and StratusGeo. We are hosted by CodeRabbit AI and supported by NASA's Earth Science Data Systems (ESDS) program through its FY26 SI Innovation Call for Ideas.
 
-\
-\
-\
-
-\
