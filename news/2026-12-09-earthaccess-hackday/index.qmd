@@ -1,6 +1,6 @@
 ---
 title: "earthaccess hackathon @ AGU 2026"
-description: "join us to explore how LLMs can tackle real earth-science problems"
+description: "join us to explore how agents can tackle real earth-science problems"
 author:
   - name: Luis López and the earthaccess community
 date: "2026-12-09"
@@ -11,6 +11,10 @@ image: earthaccess-stickerheads_20251215.jpg
 ------------------------------------------------------------------------
 
 # **earthaccess hackathon \@ AGU 2026**
+
+
+![](earthaccesslogo.png){fig-alt="hexagonal earthaccess logo, an illustrated earth as pixels with blue text arcing across" fig-align="left" width="100"} 
+
 
 Are you attending AGU and are a research scientist or student who is curious about agentic workflows and ready to get hands-on? We are hosting a 3-hour hackathon on Wednesday, **December 9, from 3:30 to 6:30 PM**, and we are looking for participants who want to explore how agents can tackle real earth-science problems. This is not a lecture, it will be a fun working session where you will spend the afternoon hacking alongside peers. We will provide cloud credits so you can use the LLM of your choice, with agent support limited to **Pi, ChatGPT Codex, Claude Code, OpenCode, and Jupyter AI**.
 
