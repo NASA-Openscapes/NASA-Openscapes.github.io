@@ -1,6 +1,6 @@
 ---
 title: "earthaccess hackathon @ AGU 2026"
-description: "join us to explore how agents can tackle real Earth science problems"
+description: "Join us to explore how agents can tackle real Earth science challenges!"
 author:
   - name: Luis López and the earthaccess community
 date: "2026-12-09"
