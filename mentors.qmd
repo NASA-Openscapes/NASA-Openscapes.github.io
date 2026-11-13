@@ -8,47 +8,13 @@ description: |
 
 <br>
 
-**NASA Openscapes Mentors have created “go-to” resources for staff and users using NASA Earthdata – such as the `earthaccess` python library and tutorials in the Earthdata Cloud Cookbook.** Over the last five years, Mentors have developed these resources as a supportive community in response to teaching hundreds of NASA Earthdata users via workshops and events together, where they identify and rapidly respond to common needs then iterate through active use, documentation, and further teaching. Recent presentations showcasing this work are [Supporting NASA Earthdata users in the Cloud: NASA Openscapes onboarding & fledging](https://docs.google.com/presentation/d/1-TiPN8bfY6iDL5EVcEuCQSjqFMs3jPSX2MlNWA6no2E/edit#slide=id.g2eae202a90f_4_248) and [earthaccess: how to accelerate user value through open, collaborative development](https://docs.google.com/presentation/d/1D3C2_wBSHAPMNes0hLQHjaRuU_ifEzcKIvf3_H5rZGM/edit#slide=id.g269ad4ab477_0_691).
+**NASA Openscapes Mentors have created “go-to” resources for staff and users using NASA Earthdata – such as the `earthaccess` python library, tutorials in the Earthdata Cloud Cookbook.** Over the last six years, Mentors have developed these resources as a supportive community in response to teaching hundreds of NASA Earthdata users via workshops and events together in our 2i2c JupyterHub, where they identify and rapidly respond to common needs then iterate through active use, documentation, and further teaching. Recent presentations showcasing this work are [Working With Non-Cloud-Optimized Data Just Got Easier](https://www.earthdata.nasa.gov/news/feature-articles/working-non-cloud-optimized-data-just-got-easier), [Using the earthaccess Python Library to Stream Data](https://www.earthdata.nasa.gov/events/using-earthaccess-python-library-stream-data), and [Facilitating scientists’ learning while ‘stress testing’ open science principles via Openscapes](https://2026julyesipmeeting.sched.com/event/2OZt1/facilitating-scientists-learning-while-stress-testing-open-science-principles-via-openscapes?linkback=grid).
 
 Openscapes is a mechanism that can rapidly identify problems and bring people together to solve them. The NASA Openscapes Mentor community includes people across NASA Earth science data centers (DAACs) that work together to deliver work aligned with DAAC goals to enable science, enriched by collaborating with the open science community beyond NASA.
 
 # Current Activities
 
-Building from successes and momentum 2021-2025, in 2026 NASA Openscapes will continue teaching users and developing solutions for pain points, while we all grow as open science leaders. This is vital work to support the shift to Earthdata Cloud and to NASA's values for open science.
-
-## 2026 goals
-
-In 2026, we continue to build on our work together over the past five years and focus on these interlinking goals. From April-May, Mentors are invited join NOAA Fisheries in our annual cross-agency Mentors coaching and leadership skill-building course "mentoring with a coach approach". We continue to meet weekly via mentors calls and coworking to surface and work on shared goals, organized in our [GitHub Project Board](https://github.com/orgs/NASA-Openscapes/projects/7/views/1).
-
-### 1. Earthdata Cookbooks - supporting web unification
-
-NASA Earthdata has a 5-year track record of successful collaborative tutorial governance through cross-DAAC "Cookbook" development, facilitated by Openscapes. NASA Earthdata's code-based tutorials — executable notebooks combining data access, code, and scientific context — are a critical resource for users and for enabling NASA’s cloud migration, Web Unification, and Earth Science to Action initiatives. This proven GitHub-based approach can serve as a foundational component of Web Unification's code-based tutorial needs while reducing maintenance burden across DAACs.
-
-This year we are focused on how to continue to improve this critical user support and how Mentors can provide their deep expertise and services for the current [NASA Web Unification](https://www.earthdata.nasa.gov/about/web-unification-project) project.
-
-### 2. `earthaccess` - growing the family
-
-`earthaccess` is a Python library that simplifies access to NASA Earth science data, turning complex authentication and data discovery into just a few lines of code. It has become essential infrastructure for researchers working with Earth observation data, whether they work in the cloud or locally. In 2025 we were [awarded ESIP’s FUNding Friday to host a hackday](https://nasa-openscapes.github.io/news/2026-02-04-earthaccess-dec15-hackday/) and build a prototype and roadmap, for “Growing the Family” by integrating earthaccess with non-NASA Earth science data (NOAA, USGS, Copernicus, and more!). This year, we will continue to expand the `earthaccess` community, contributors, and expand its reach beyond NASA to other Earth science data providers.
-
-[Learn more and get involved!](https://earthaccess.readthedocs.io/en/stable/contributing/our-meet-ups/)
-
-### 3. Suborbital data - growing the Mentor community and supporting science teams
-
-NASA Earthdata has volumes of remote sensing data collected from satellites, as well as substantial suborbital data collected from field sampling, airborne sampling, ground networks, boats, and buoys that is used to ground-truth satellite data, among other research. Suborbital science teams (i.e. science teams creating suborbital data via NASA programs) archive data at several NASA Distributed Active Archive Centers (DAACs) including ORNL, ASDC, and NSIDC, and receive additional support from other NASA centers and Headquarters (HQ).
-
-This year we have added focus on [strengthening the suborbital Mentor community and supporting suborbital science teams](news/2026-03-03-suborbital/) with the [Openscapes Flywheel](https://nasa-openscapes.github.io/about.html#flywheel-preprint) (engage • empower • amplify, this time starting with amplify):
-
-1.  **Engaging a suborbital science team community.** Suborbital teams are already meeting in smaller groups, perhaps based on mission or a specific DAAC; and we will develop these relationships further into a cross-DAAC community. We will onboard new NASA Mentors from NASA's SoAR (Suborbital Archive Readiness) Team and other parts of NASA to collaborate across the agency to support science teams.
-2.  **Empowering suborbital science teams involves leading a Notebook Clinic** that will be remote, cohort-based, and designed for their needs.
-3.  **Amplifying suborbital science teams involves bringing them into the fold of NASA Openscapes Flywheel, along with increasing numbers of NASA center staff.** As always, open documentation, contributing to the NASA Earthdata Cookbook, and storytelling via blogs and talks will center this work.
-
-This work is in collaboration with the the [CryoCloud](https://cryointhecloud.com/) (StratusGeo) Community, which is an exciting continuation of the JupyterHub community work we have been collaborating on with them with in the past years.
-
-### 4. User support - including workshops and Champions Cohort
-
-Supporting users in the Cloud requires infrastructure and skills. Skills include mindset shifts, as well as new technical and collaboration skills. Infrastructure requires co-developing software and resources as well as providing a JupyterHub compute space for developing tutorials and teaching workshops, which we do in partnership with [2i2c](https://2i2c.org/). The goal is to "make once, use often", reusing materials and iterating and improving upon them as a distributed group of mentors who learn with, from, and for each other.
-
-We lead well-planned, welcoming, user-designed teaching events in a variety of formats including in-person and online (hackathons, workshops, Champions Cohorts, Community Calls, conference sessions). To prepare for these events, we develop open documentation, slides, and tutorials that are available for reuse and remix; we host a JupyterHub compute space in partnership with 2i2c; we co-develop technical cloud infrastructure including scientific software docker images, user access administration, cost reports/tracking, and documentation of user stories. We develop together asynchronously and synchronously via hackdays and coworking.
+Building from successes and momentum 2021-2026, we are sharing our 2027 goals early, a work-in-progress that we will refine as we go. Please see below for previous years. <!---NASA Openscapes will continue teaching users and developing solutions for pain points, while we all grow as open science leaders. This is vital work to support the shift to Earthdata Cloud and to NASA's values for open science. --->
 
 **To join our events**: Check our [News & Events page](/news.qmd) for registration to events. Mentors will be leading events starting in late spring/summer, and information about the Notebook Clinic / Champions Cohort will be posted in late summer.
 
@@ -85,6 +51,40 @@ Interested staff from the DAACs are welcome to join as Mentors at any time. Ment
 Please also see [how we onboard](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/contributing/onboarding.html) documentation -- this is part of the [Earthdata Cloud Cookbook](https://nasa-openscapes.github.io) that is the main place for all cloud resources the Mentors are developing.
 
 # Ongoing and Previous Activities
+
+## 2026 goals
+
+In 2026, we continue to build on our work together over the past five years and focus on these interlinking goals. From April-May, Mentors are invited join NOAA Fisheries in our annual cross-agency Mentors coaching and leadership skill-building course "mentoring with a coach approach". We continue to meet weekly via mentors calls and coworking to surface and work on shared goals, organized in our [GitHub Project Board](https://github.com/orgs/NASA-Openscapes/projects/7/views/1).
+
+### 1. Earthdata Cookbooks - supporting web unification
+
+NASA Earthdata has a 5-year track record of successful collaborative tutorial governance through cross-DAAC "Cookbook" development, facilitated by Openscapes. NASA Earthdata's code-based tutorials — executable notebooks combining data access, code, and scientific context — are a critical resource for users and for enabling NASA’s cloud migration, Web Unification, and Earth Science to Action initiatives. This proven GitHub-based approach can serve as a foundational component of Web Unification's code-based tutorial needs while reducing maintenance burden across DAACs.
+
+This year we are focused on how to continue to improve this critical user support and how Mentors can provide their deep expertise and services for the current [NASA Web Unification](https://www.earthdata.nasa.gov/about/web-unification-project) project.
+
+### 2. `earthaccess` - growing the family
+
+`earthaccess` is a Python library that simplifies access to NASA Earth science data, turning complex authentication and data discovery into just a few lines of code. It has become essential infrastructure for researchers working with Earth observation data, whether they work in the cloud or locally. In 2025 we were [awarded ESIP’s FUNding Friday to host a hackday](https://nasa-openscapes.github.io/news/2026-02-04-earthaccess-dec15-hackday/) and build a prototype and roadmap, for “Growing the Family” by integrating earthaccess with non-NASA Earth science data (NOAA, USGS, Copernicus, and more!). This year, we will continue to expand the `earthaccess` community, contributors, and expand its reach beyond NASA to other Earth science data providers.
+
+[Learn more and get involved!](https://earthaccess.readthedocs.io/en/stable/contributing/our-meet-ups/)
+
+### 3. Suborbital data - growing the Mentor community and supporting science teams
+
+NASA Earthdata has volumes of remote sensing data collected from satellites, as well as substantial suborbital data collected from field sampling, airborne sampling, ground networks, boats, and buoys that is used to ground-truth satellite data, among other research. Suborbital science teams (i.e. science teams creating suborbital data via NASA programs) archive data at several NASA Distributed Active Archive Centers (DAACs) including ORNL, ASDC, and NSIDC, and receive additional support from other NASA centers and Headquarters (HQ).
+
+This year we have added focus on [strengthening the suborbital Mentor community and supporting suborbital science teams](news/2026-03-03-suborbital/) with the [Openscapes Flywheel](https://nasa-openscapes.github.io/about.html#flywheel-preprint) (engage • empower • amplify, this time starting with amplify):
+
+1.  **Engaging a suborbital science team community.** Suborbital teams are already meeting in smaller groups, perhaps based on mission or a specific DAAC; and we will develop these relationships further into a cross-DAAC community. We will onboard new NASA Mentors from NASA's SoAR (Suborbital Archive Readiness) Team and other parts of NASA to collaborate across the agency to support science teams.
+2.  **Empowering suborbital science teams involves leading a Notebook Clinic** that will be remote, cohort-based, and designed for their needs.
+3.  **Amplifying suborbital science teams involves bringing them into the fold of NASA Openscapes Flywheel, along with increasing numbers of NASA center staff.** As always, open documentation, contributing to the NASA Earthdata Cookbook, and storytelling via blogs and talks will center this work.
+
+This work is in collaboration with the the [CryoCloud](https://cryointhecloud.com/) (StratusGeo) Community, which is an exciting continuation of the JupyterHub community work we have been collaborating on with them with in the past years.
+
+### 4. User support - including workshops and Champions Cohort
+
+Supporting users in the Cloud requires infrastructure and skills. Skills include mindset shifts, as well as new technical and collaboration skills. Infrastructure requires co-developing software and resources as well as providing a JupyterHub compute space for developing tutorials and teaching workshops, which we do in partnership with [2i2c](https://2i2c.org/). The goal is to "make once, use often", reusing materials and iterating and improving upon them as a distributed group of mentors who learn with, from, and for each other.
+
+We lead well-planned, welcoming, user-designed teaching events in a variety of formats including in-person and online (hackathons, workshops, Champions Cohorts, Community Calls, conference sessions). To prepare for these events, we develop open documentation, slides, and tutorials that are available for reuse and remix; we host a JupyterHub compute space in partnership with 2i2c; we co-develop technical cloud infrastructure including scientific software docker images, user access administration, cost reports/tracking, and documentation of user stories. We develop together asynchronously and synchronously via hackdays and coworking.
 
 ## 2025 goals
 
