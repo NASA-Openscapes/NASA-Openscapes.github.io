@@ -8,15 +8,107 @@ description: |
 
 <br>
 
-**NASA Openscapes Mentors have created “go-to” resources for staff and users using NASA Earthdata – such as the `earthaccess` python library, tutorials in the Earthdata Cloud Cookbook.** Over the last six years, Mentors have developed these resources as a supportive community in response to teaching hundreds of NASA Earthdata users via workshops and events together in our 2i2c JupyterHub, where they identify and rapidly respond to common needs then iterate through active use, documentation, and further teaching. Recent presentations showcasing this work are [Working With Non-Cloud-Optimized Data Just Got Easier](https://www.earthdata.nasa.gov/news/feature-articles/working-non-cloud-optimized-data-just-got-easier), [Using the earthaccess Python Library to Stream Data](https://www.earthdata.nasa.gov/events/using-earthaccess-python-library-stream-data), and [Facilitating scientists’ learning while ‘stress testing’ open science principles via Openscapes](https://2026julyesipmeeting.sched.com/event/2OZt1/facilitating-scientists-learning-while-stress-testing-open-science-principles-via-openscapes?linkback=grid).
+**NASA Openscapes Mentors have created “go-to” resources for staff and users using NASA Earthdata – such as the `earthaccess` python library, tutorials in the Earthdata Cloud Cookbook.** Over the last six years, Mentors have developed these resources as a supportive community in response to teaching hundreds of NASA Earthdata users via workshops and events together in our 2i2c JupyterHub, where they identify and rapidly respond to common needs then iterate through active use, documentation, and further teaching. Recent presentations showcasing this work are [Working With Non-Cloud-Optimized Data Just Got Easier](https://www.earthdata.nasa.gov/news/feature-articles/working-non-cloud-optimized-data-just-got-easier), [Using the earthaccess Python Library to Stream Data](https://www.earthdata.nasa.gov/events/using-earthaccess-python-library-stream-data), and [Facilitating scientists’ learning while ‘stress testing’ open science principles via Openscapes](https://2026julyesipmeeting.sched.com/event/2OZt1/facilitating-scientists-learning-while-stress-testing-open-science-principles-via-openscapes?linkback=grid). The 2026 inaugural ESDIS Impact Awards ceremony included many NASA Mentors! Congratulations!!
 
 Openscapes is a mechanism that can rapidly identify problems and bring people together to solve them. The NASA Openscapes Mentor community includes people across NASA Earth science data centers (DAACs) that work together to deliver work aligned with DAAC goals to enable science, enriched by collaborating with the open science community beyond NASA.
 
 # Current Activities
 
-Building from successes and momentum 2021-2026, we are sharing our 2027 goals early, a work-in-progress that we will refine as we go. Please see below for previous years. <!---NASA Openscapes will continue teaching users and developing solutions for pain points, while we all grow as open science leaders. This is vital work to support the shift to Earthdata Cloud and to NASA's values for open science. --->
+Building from successes and momentum 2021-2026, we are sharing our 2027 goals early, a work-in-progress that we will refine as we go. Please see below for previous years. Openscapes Mentor communities are Communities of Practice (CoP) (Butland [blog post](https://openscapes.org/blog/2026-07-15-community-of-practice/) describing this). NOAA Fisheries is also scaling the work the Openscapes Mentors have done across the agency using the CoP model, and there is momentum and cross-learning to reuse ("fork") and amplify. Mentorship is key to this, and helps skills and systems scale.  <!---NASA Openscapes will continue teaching users and developing solutions for pain points, while we all grow as open science leaders. This is vital work to support the shift to Earthdata Cloud and to NASA's values for open science. --->
 
 **To join our events**: Check our [News & Events page](/news.qmd) for registration to events. Mentors will be leading events starting in late spring/summer, and information about the Notebook Clinic / Champions Cohort will be posted in late summer.
+
+## 2027 Activities mapped on ESDIS Goals 
+
+Here are our 2027 planned activities, mapped onto ESDIS goals as we understand them in October 2026.
+
+### Increase the Speed-of-Science-to-Action
+
+We interpret this goal as data-to-science-to-action. We focus on the data-to-science part of this. There is a “80/20” description of science, where researchers spend 80% of their time working with data and 20% of the time on science. While that is an imbalance to reduce, the goal is not to eliminate that “working with the data” time –it is valuable learning time! We aim to reduce some friction points – the [accidental, not essential complexity](https://en.wikipedia.org/wiki/No_Silver_Bullet) – and help grow connections between people as we learn.
+
+**Activities:**
+
+-   **earthaccess 1.0 release** at AGU, Dec 2026
+
+-   **earthaccess publication in JOSS, peer-reviewed by pyOpenSci**, [expected early 2027](https://github.com/earthaccess-dev/earthaccess/pull/1249)
+
+-   **2i2c “production” JupyterHub -** maintain this resource to develop for emerging topics. For example, enabling AI in the Hub? Continue cost-estimating work and transparency.
+
+-   **Virtualized data stores**
+
+-   **Cookbook Visioning work**
+
+    -   The Earthdata Cloud Cookbook are code-based tutorials that are also increasingly integrated with other domain cookbooks and website integration. NASA Openscapes has been facilitating some of this visioning and coordinating.
+
+-   **soarpublish**
+
+    -   an earthaccess-like tool suite for data providers/publication by Rupesh Shrestha (ORNL). We would like to help convene others at the DAACs working on similar tools so we can collaborate and contribute to a common approach. An emerging topic.
+
+-   **Publishing on Zenodo** - prioritize this along with as blog posts and this website.
+
+### Maintain and Improve Supporting User Needs
+
+We provide trainings, workshops, hack events where we teach and listen, coordinated across the org chart. This helps us be responsive and develop with users based on their needs. We will increasingly overlap/coordinate with User Working Groups, NASA Applied Remote Sensing Trainings (ARSET), Earthdata webinars. During these interactive events is where we continue to learn about the real reasons behind users' pain points - with cloud data access and compute, with AI usage.
+
+**Activities:**
+
+-   **2i2c “workshop” JupyterHub -** maintain this resource to develop for workshops, as well as our workshop flow. LP DAAC and 2i2c developed a [shared-password](https://nasa-openscapes.github.io/news/2024-07-09-2i2c-shared-password/) feature to help user onboarding without GitHub accounts. 
+
+-   **PACE workshop** at AGU 2026, Dec 7-11
+
+-   **AGU talks** at AGU 2026, Dec 7-11
+
+-   **NASA ARSET Biodiversity workshop** Jan-Feb 2027 (pending, GEDI data access)
+
+-   **Earthdata Cloud Cookbook** **release**, 2027 
+
+    -   New Core Concept pages
+
+    -   Validation of tutorials’ code
+
+    -   Guidance on when, where, and how to Cloud
+
+    -   Guidance on when, where and how to use AI
+
+-   **NASA Openscapes Champions**, spring 2027
+
+    -   NASA Openscapes Mentors collaborate on a shared workshop event that provides stability and connection with their users and colleagues
+
+    -   A first welcome to Openscapes mindset for internal ESDIS staff and a broad range of external users 
+
+    -   Focus: how we teach users about “access patterns” NASA Earthdata
+
+-   **Monday Hackday at Summer ESIP**, July 19, 2027. Meeting is July 20-23
+
+-   **AGU talks**, Dec 13-17, 2027 in Washington DC
+
+### Improve Internal Efficiency and Consistency
+
+To achieve the above, we invest in workflows and skills for ourselves, so we can be responsive to others. 
+
+Openscapes is currently listed as a Coordination role for the Science Enablement pillar. We can help people transition to new roles and develop a shared way to work in this now unified Earthdata structure. We prioritize an open, kind mindset. As we teach external workshops, we will include more ASSET User Services staff. This helps people on the frontline of user support to understand cloud concepts, as well as seed the Openscapes “how we work”.
+
+**Activities:**
+
+-   **Regular Mentor Calls - scaling Openscapes** guest speaker series
+
+    -   Invite open science experts to discuss and help us grow.
+
+-   **Regular Coworking -** open, themed for Cookbook, earthaccess "collaboration cafes”
+
+-   **Champions Engagement**
+
+    -   Invite user support staff to attend Spring 2027 Champions Cohort
+
+-   **Mentors Onboarding** - in 2027 with Carpentries Instructor Training 
+
+    -   Annual cadence, like Champions, personal invitations to Coworking
+
+-   **Bi-annual Mentors “Unconf” working meetings** - one in-person, one online.
+
+    -   Mentors Unconf in person, July 16-18, 2027, co-located with ESIP in Buffalo, NY
+
+-   **Maintain open science relationships** (2i2c, EarthMover, Carpentries, Pangeo, CNG, rOpenSci, pyOpenSci, Posit)
 
 ## How we work
 
