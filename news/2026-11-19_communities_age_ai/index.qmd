@@ -10,6 +10,8 @@ author:
     orcid: 0000-0003-2172-5265
   - name: Yanina Bellini Saibene
     orcid: 0000-0002-4522-7466
+  - name: Julie Lowndes
+    orcid: 0000-0003-1682-3872
   - name: Stefanie Butland
     orcid: 0000-0002-5427-8951
   - name: Andy Teucher
