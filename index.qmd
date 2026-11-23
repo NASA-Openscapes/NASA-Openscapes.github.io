@@ -15,6 +15,7 @@ We are influenced and inspired by many leaders and community organizers, particu
 **News and Upcoming Events:**
 
 - [earthaccess hackathon @ AGU 2026](https://nasa-openscapes.github.io/news/2026-12-09-earthaccess-hackday/)
+- Open Communities in the age of AI. Making the incidental an invitation in building community [Community Call summary post](https://nasa-openscapes.github.io/news/2026-11-19_communities_age_ai/). 
 
 Learn about our recent work: [News](news.qmd) • [Presentations](/about.qmd#slides) • [Flywheel Preprint](https://nasa-openscapes.github.io/about.html#flywheel-preprint) • [White Paper: The Value of Hosted JupyterHubs](https://nasa-openscapes.github.io/about.html#white-paper-value-of-hosted-jupyterhubs)
 
