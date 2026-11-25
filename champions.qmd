@@ -4,7 +4,7 @@ description: |
   NASA Openscapes Champions is a mentorship and professional development opportunity for research teams using data from NASA Distributed Active Archive Centers (DAACs) and interested in open science and migrating their analytical workflows to the cloud. 
 ---
 
-**[Signups are open](https://nasa-openscapes.github.io/news/2026-06-03-suborbital-champions/) for the Spring 2026 Champions Cohort!**
+**See below for emerging ideas for the 2027 Champions Cohort!** <!---**[Signups are open](https://nasa-openscapes.github.io/news/2026-06-03-suborbital-champions/) for the Spring 2026 Champions Cohort!**--->
 
 ## Overview
 
@@ -22,7 +22,73 @@ description: |
 
 <center><img src="images/nasa-openscapes.png" width="300px"/></center>
 
+## NASA Openscapes Champions 2027
 
+These are the emergin plans for a Champions Cohort (modified). It a different shape (1 Community Call + 1 Coworking), modeled after [2025 NASA Champions](https://nasa-openscapes.github.io/news/2025-11-27-nasa-champions-2025-summary/).
+
+**POP**
+
+Purpose
+
+-   NASA Openscapes Mentors collaborate on a shared workshop event that provides stability and connection with their users and colleagues
+
+-   A first welcome to Openscapes mindset for internal ESDIS staff and a broad range of external users 
+
+-   Focus: how we teach users to access NASA Earthdata
+
+Outcomes 
+
+-   Participants feel connected and learn how we access NASA Earthdata
+
+-   Researchers have direct support with NASA Earthdata experts
+
+-   Grow the Openscapes Community of Practice at ESDIS
+
+-   Learning how people are currently accessing data, pain points etc., and explore and teach different access patterns including different forms of cloud access
+
+Process
+
+-   Open to all, but focus engagement on priority groups
+
+-   Host one online event that is warm and interactive, focus the bulk of effort on engagement for many audiences that are important to NASA Earthdata
+
+    -   We know in the age of AI personal invitations are important for helping people feel included and prioritize participating
+
+    -   A need not for new training materials this spring; invite people to learn with us.
+
+-   Champions this year is modeled after [2025 NASA Champions](https://nasa-openscapes.github.io/news/2025-11-27-nasa-champions-2025-summary/): one Community Call (\~3 hours) co-taught by Mentors, plus Coworking (3 hours) as smaller events for specific audiences. Registration and engagement is coordinated and streamlined using shared Openscapes infrastructure, including 2i2c JupyterHub: We'll set up for all coworkings so all folks can be hands on with earthaccess.
+
+**Engagement and Coworking leads - ideas**
+
+This will become table with Coworking date-times as planning matures.
+
+-   Suborbital - Michele Thornton, Rupesh Shrestha
+
+-   Onboarding ASSETs and user support staff - Mikala Beig
+
+-   PACE - Ian Carroll
+
+-   ASSETs - Alexis Hunzinger
+
+-   Connection with Applications-focused communities?
+
+-   …
+
+-   UWGs
+
+-   …
+
+-   NOAA Fisheries - Stef Butland
+
+-   FUNding Friday/Pathways to Open Science - Ileana Fenwick
+
+-   open science connections (2i2c, ESA, EarthMover, Carpentries, Pangeo, CNG…)
+
+-   
+
+-   …
+
+```{=html}
 <!---
 
 ## Champions Program Details
@@ -51,7 +117,7 @@ We are designing this to be valuable across many skillsets and experience levels
 
 **Register (free) via [Zoom](https://zoom.us/meeting/register/xqsatMPHT4qhp8l3CDGwgA).**
 --->
-
+```
 
 ```{=html}
 <!---
@@ -83,7 +149,7 @@ Please submit one nomination per team, preferably by the team lead (faculty, pri
 
 NASA Champions 2025 - A welcome to NASA Earthdata and earthaccess
 
-[In 2025, we led our annual NASA Openscapes Champions program](https://nasa-openscapes.github.io/news/2025-11-27-nasa-champions-2025-summary), modified to be one 3-hour Community Call with lessons and discussion, and one 3-hour Coworking session where participants had access to our 2i2c JupyterHub and went into breakout rooms to work hands-on with NASA Openscapes Mentors and earthaccess developers. 
+[In 2025, we led our annual NASA Openscapes Champions program](https://nasa-openscapes.github.io/news/2025-11-27-nasa-champions-2025-summary), modified to be one 3-hour Community Call with lessons and discussion, and one 3-hour Coworking session where participants had access to our 2i2c JupyterHub and went into breakout rooms to work hands-on with NASA Openscapes Mentors and earthaccess developers.
 
 ## 2024 NASA Champions Cohort
 
